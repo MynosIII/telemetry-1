@@ -1,0 +1,43 @@
+/* Shared shell for the local historical archive; chart series keep their data colors. */
+:root {
+  --bg: #080808;
+  --panel: #141414;
+  --ink: #ffffff;
+  --muted: #b8b8bb;
+  --faint: #999999;
+  --surface: #141414;
+  --surface-raised: #1a1a1a;
+  --surface-soft: #222222;
+  --line: #333333;
+  --accent: #e10600;
+  --accent-bright: #ff453a;
+  --radius: 18px;
+  --shadow: 0 12px 32px rgba(0, 0, 0, .2);
+}
+body { background: var(--bg); font-family: "Segoe UI", Arial, Helvetica, sans-serif; line-height: 1.6; }
+h1, h2, h3 { font-style: normal; line-height: 1.15; letter-spacing: -.025em; text-wrap: balance; overflow-wrap: break-word; }
+h1 { font-size: clamp(36px, 5.5vw, 76px); }
+.hero h3 { line-height: 1.15; }
+.portrait, .grid, .chip, .panel, .card, .dataset-option { border-radius: 14px; }
+.grid { overflow: hidden; }
+/* The generated lab includes a legacy !important square-corner theme. */
+.model-card, .model-picker-button, .dataset-menu, .dataset-strip, .toolbar,
+.chart-shell, .selection-bar, .record-card, .ranking-panel, .ranking-control,
+.number-one-panel, .method, .profile-dialog, .profile-stats, .wiki-image {
+  border-radius: 18px !important;
+}
+.index-brand-mark, .index-tabs, .index-tab, .language-toggle, .button,
+.entity-tab, .view-option { border-radius: 10px !important; }
+.model-card::after, .dataset-strip::after, .chart-shell::after,
+.ranking-panel::after, .number-one-panel::after { display: none; }
+.model-card:hover, .record-card:hover, .ranking-row:hover, .number-one-row:hover {
+  transform: none;
+  box-shadow: inset 3px 0 var(--red);
+}
+.label, .eyebrow, .back, .source { color: var(--accent-bright); }
+.chip { padding: 10px 14px; }
+.top, .index-bar { gap: 18px; flex-wrap: wrap; }
+button, input, select { font-family: inherit; line-height: 1.5; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent-bright); outline-offset: 4px; }
+th { font-size: 12px; line-height: 1.5; }
+@media (max-width: 680px) { h1 { font-size: 36px; } .section { overflow-x: auto; } }

@@ -1,0 +1,3461 @@
+{
+  "meta": {
+    "model": "v7.6",
+    "throughSeason": 2025,
+    "historicalEvents": 1138,
+    "historicalObservations": 25317,
+    "ratingSource": "driver_rating_history_retrospective_v7_6.parquet",
+    "circuitSource": "driver_geometry_suitability_v5.csv"
+  },
+  "drivers": {
+    "antonelli": {
+      "name": "Andrea Kimi Antonelli",
+      "rating": 1742.1,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.005888,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.004958,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.010378,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.009059,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.007533,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.003526,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.004684,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.014688,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.001148,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.000387,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.005835,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.006284,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.00112,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 1.7E-05,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.012188,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.006601,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.008121,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.004994,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.001746,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.022401,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.000614,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.007892,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.004298,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.000873,
+          "fitted": true
+        }
+      }
+    },
+    "russell": {
+      "name": "George Russell",
+      "rating": 1844.8,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.001994,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.003581,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.003172,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.001769,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.001189,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.000864,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.002502,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.006623,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.004294,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.001665,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.000604,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -1.1E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.001824,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.001365,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.002037,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.000537,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.001117,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.019809,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.001141,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.006102,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.002493,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.003718,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.004232,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.00044,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.001714,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.000159,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.001263,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.00301,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.001812,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.003002,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.003653,
+          "fitted": true
+        }
+      }
+    },
+    "hamilton": {
+      "name": "Lewis Hamilton",
+      "rating": 1821.2,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.003045,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.004932,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.00749,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000256,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.00933,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.0008,
+          "fitted": true
+        },
+        "indianapolis": {
+          "season": 2007,
+          "effect": -0.000798,
+          "fitted": true
+        },
+        "magny_cours": {
+          "season": 2008,
+          "effect": 0.002929,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.004851,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.004941,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -6E-06,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": -0.002089,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.004933,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.001509,
+          "fitted": true
+        },
+        "fuji": {
+          "season": 2008,
+          "effect": -0.01209,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.004611,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.00298,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": -0.000553,
+          "fitted": true
+        },
+        "valencia": {
+          "season": 2012,
+          "effect": 0.004745,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.002437,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.006379,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.000475,
+          "fitted": true
+        },
+        "yeongam": {
+          "season": 2013,
+          "effect": 0.002654,
+          "fitted": true
+        },
+        "buddh": {
+          "season": 2013,
+          "effect": -0.000605,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.001634,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.00204,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.003221,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.006429,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.004614,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": -0.002623,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": 0.000752,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.001864,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.002369,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.007512,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.004107,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.004208,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.003594,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.003668,
+          "fitted": true
+        }
+      }
+    },
+    "norris": {
+      "name": "Lando Norris",
+      "rating": 1865.4,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.003122,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.005597,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.003208,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.004423,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000513,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.008278,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -7.8E-05,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.007173,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.002817,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.003785,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.00046,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -8E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.000857,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.00393,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.002606,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": 0.002608,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.005788,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.010416,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.001133,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.001079,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.000201,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.004423,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": 0.004108,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": 0.001014,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.002468,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.003635,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.006803,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.002812,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.004082,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.00237,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.004067,
+          "fitted": true
+        }
+      }
+    },
+    "leclerc": {
+      "name": "Charles Leclerc",
+      "rating": 1868.1,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.00224,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.017885,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.01242,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.00522,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.001302,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.014512,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.005002,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": -0.004754,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.002814,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.010629,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.00567,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 5E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.00521,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.010331,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.001149,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.000207,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.009153,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.004426,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.018023,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.013937,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.00444,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": 0.00307,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.004535,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.000753,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.001505,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.002355,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.010855,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.011331,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.00447,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.010454,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.000873,
+          "fitted": true
+        }
+      }
+    },
+    "max_verstappen": {
+      "name": "Max Verstappen",
+      "rating": 1976.3,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.002061,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.001458,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.003027,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.004942,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000189,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.006236,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.000496,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.001425,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.00321,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -4E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.000979,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.00327,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.001656,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.004271,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.008267,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.001073,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.004586,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.001896,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.000279,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.003104,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.002466,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.000529,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.001071,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": 0.002319,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.003197,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.001606,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": -0.011593,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.005029,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.002694,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.002834,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.002352,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.002501,
+          "fitted": true
+        }
+      }
+    },
+    "piastri": {
+      "name": "Oscar Piastri",
+      "rating": 1797.2,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.001022,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.005571,
+          "fitted": true
+        },
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.005129,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.00576,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.002554,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.007285,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.002073,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.003516,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.00819,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.000389,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -2.2E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.001978,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.006778,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.000923,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.004814,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.005827,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.002242,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.000801,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.035901,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.007924,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.008189,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.003707,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.002184,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.004252,
+          "fitted": true
+        }
+      }
+    },
+    "hadjar": {
+      "name": "Isack Hadjar",
+      "rating": 1720.5,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.008407,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.00915,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.01584,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.015773,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.01107,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.006826,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.006634,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.022725,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.001297,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.00046,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.007341,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.010593,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.00254,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -2.2E-05,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.018624,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.010963,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.012014,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.006983,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.003233,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.026763,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.003572,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.010849,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.008043,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.000309,
+          "fitted": true
+        }
+      }
+    },
+    "lawson": {
+      "name": "Liam Lawson",
+      "rating": 1671.3,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.011835,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.002573,
+          "fitted": true
+        },
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.001135,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.003054,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.007047,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.009067,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.000994,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.003523,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.002392,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.006968,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 5E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.003559,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.006695,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.006736,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.000438,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.005637,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.007603,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.002965,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.014229,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.009693,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -3.4E-05,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.003166,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.008316,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.000709,
+          "fitted": true
+        }
+      }
+    },
+    "gasly": {
+      "name": "Pierre Gasly",
+      "rating": 1636.8,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.00204,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.002082,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.003637,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.004846,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.000338,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.005398,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 4.3E-05,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.002888,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.001848,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.002462,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 5E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.000553,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.002557,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.001705,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": -0.001446,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.003776,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.000735,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.006846,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.000686,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.000138,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.003006,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": -0.007905,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.003347,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.010116,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.001554,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.001614,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": -0.008053,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.004438,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.001824,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.002666,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.001536,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.002661,
+          "fitted": true
+        }
+      }
+    },
+    "colapinto": {
+      "name": "Franco Colapinto",
+      "rating": 1681.3,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.006293,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.004719,
+          "fitted": true
+        },
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.003627,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.006649,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.003574,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.002622,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.002872,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.009487,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -1.6E-05,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000621,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.003345,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.004278,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -1E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.000926,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.007814,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.004452,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.005108,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.003039,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.001262,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.012486,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.001055,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.004756,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.003126,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.000302,
+          "fitted": true
+        }
+      }
+    },
+    "bearman": {
+      "name": "Oliver Bearman",
+      "rating": 1698.2,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.002178,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.00485,
+          "fitted": true
+        },
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.004594,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.004764,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.002877,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.003084,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.003832,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.005744,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.003599,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.002009,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.007775,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.000372,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 2.1E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.00219,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.005526,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.000143,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.004972,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.004377,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.001046,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.034474,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.008295,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.00752,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.002856,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.003737,
+          "fitted": true
+        }
+      }
+    },
+    "bortoleto": {
+      "name": "Gabriel Bortoleto",
+      "rating": 1563.8,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.004781,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.000742,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.006804,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.002854,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.005616,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 2.2E-05,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.00389,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.009144,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.001474,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.00192,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.006307,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.002535,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": 0.000582,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 1.7E-05,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.007958,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.002922,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.00593,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.004289,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.000245,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.026465,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.003773,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.007072,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.000467,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.002197,
+          "fitted": true
+        }
+      }
+    },
+    "hulkenberg": {
+      "name": "Nico Hülkenberg",
+      "rating": 1626.4,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.006304,
+          "fitted": true
+        },
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.006119,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.00273,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.002883,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.001567,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.01334,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2020,
+          "effect": 0.0,
+          "fitted": false
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": -0.001511,
+          "fitted": true
+        },
+        "valencia": {
+          "season": 2012,
+          "effect": -0.000998,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.004756,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.001305,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 2E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.000133,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.005176,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.005351,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.009663,
+          "fitted": true
+        },
+        "yeongam": {
+          "season": 2013,
+          "effect": 0.002657,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": 0.002312,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.001935,
+          "fitted": true
+        },
+        "buddh": {
+          "season": 2013,
+          "effect": 0.001725,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.001005,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": 0.0,
+          "fitted": false
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.007147,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2020,
+          "effect": 0.0,
+          "fitted": false
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.028994,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.007981,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.0,
+          "fitted": false
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": 0.0,
+          "fitted": false
+        },
+        "portimao": {
+          "season": 2020,
+          "effect": 0.0,
+          "fitted": false
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.004927,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.007482,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.001701,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.011325,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.002378,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.008659,
+          "fitted": true
+        }
+      }
+    },
+    "sainz": {
+      "name": "Carlos Sainz",
+      "rating": 1775.7,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.000702,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": -0.007365,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.004163,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.005975,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000453,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.004776,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.0017,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.001011,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.003542,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -2E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.001756,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.003438,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.00034,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.003002,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.001047,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.001484,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.006331,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.00472,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.001514,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.00169,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": -0.007578,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": -0.004503,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.003806,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.003307,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.000455,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.000464,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": -0.00127,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.003561,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.0038,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.001442,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.00351,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.000219,
+          "fitted": true
+        }
+      }
+    },
+    "albon": {
+      "name": "Alexander Albon",
+      "rating": 1678.4,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.004464,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.004061,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.001711,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.005743,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.001208,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.0094,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.001295,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.001091,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.005402,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.003163,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.000603,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -1.5E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -8.1E-05,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.003484,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.003932,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2020,
+          "effect": -0.005079,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.006856,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.022143,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.000593,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.002198,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.00159,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.002822,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": 0.004524,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2020,
+          "effect": -0.005803,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.003605,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2020,
+          "effect": 0.001746,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.005399,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.000901,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.008031,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.001373,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.006397,
+          "fitted": true
+        }
+      }
+    },
+    "ocon": {
+      "name": "Esteban Ocon",
+      "rating": 1617.9,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": -0.002894,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.005359,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.003098,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": 0.0016,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": -0.000455,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.00778,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.000133,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": -0.004126,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": 0.002552,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.003606,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": 8E-06,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2018,
+          "effect": 0.002325,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.000851,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.003736,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": -0.002408,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.000101,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.005428,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.001095,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": 0.009345,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.001162,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": -0.00013,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 8.1E-05,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.001438,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.006878,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": 0.002165,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": -0.002285,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": -0.00383,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.006381,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.002721,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": -0.003803,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.002305,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": 0.003745,
+          "fitted": true
+        }
+      }
+    },
+    "alonso": {
+      "name": "Fernando Alonso",
+      "rating": 1722.7,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.001665,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.001459,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.001093,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.00135,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000485,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.002115,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.003328,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.000585,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2013,
+          "effect": 0.00654,
+          "fitted": true
+        },
+        "magny_cours": {
+          "season": 2008,
+          "effect": 0.00178,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": -0.001016,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2018,
+          "effect": 0.001997,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -6E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.000125,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": -0.001144,
+          "fitted": true
+        },
+        "indianapolis": {
+          "season": 2007,
+          "effect": -0.00058,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.002453,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": -0.001227,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": -0.000428,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.003408,
+          "fitted": true
+        },
+        "fuji": {
+          "season": 2008,
+          "effect": 0.025449,
+          "fitted": true
+        },
+        "valencia": {
+          "season": 2012,
+          "effect": -0.00707,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.001481,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.000688,
+          "fitted": true
+        },
+        "yeongam": {
+          "season": 2013,
+          "effect": -0.010872,
+          "fitted": true
+        },
+        "buddh": {
+          "season": 2013,
+          "effect": -0.003385,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": -0.000146,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": 0.000754,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.008786,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.002099,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.002835,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.000307,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.002871,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": -0.000319,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.001981,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": -0.000155,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.002428,
+          "fitted": true
+        }
+      }
+    },
+    "tsunoda": {
+      "name": "Yuki Tsunoda",
+      "rating": 1617.1,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.005273,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.000833,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": 0.003442,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000972,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": -0.001891,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.000244,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": -0.005321,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.003192,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.00284,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -8E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.00203,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": -0.001023,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.0026,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": 0.006666,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.005955,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.001466,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.015574,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.006206,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.00381,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.000397,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.002325,
+          "fitted": true
+        },
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.000887,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.003658,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.002425,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.001097,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": -0.00083,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.002167,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.004095,
+          "fitted": true
+        }
+      }
+    },
+    "stroll": {
+      "name": "Lance Stroll",
+      "rating": 1583.6,
+      "lastSeason": 2025,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2025,
+          "effect": 0.000956,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2025,
+          "effect": 0.001855,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2025,
+          "effect": 0.002176,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": 0.006268,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2025,
+          "effect": 0.000626,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2025,
+          "effect": 0.000131,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2025,
+          "effect": 0.001363,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2025,
+          "effect": 0.000781,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2025,
+          "effect": -0.002219,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2025,
+          "effect": 0.00106,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2025,
+          "effect": -6E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2025,
+          "effect": -0.001026,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2025,
+          "effect": 0.000903,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2025,
+          "effect": 0.001001,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": -0.010477,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2025,
+          "effect": 0.000371,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2025,
+          "effect": 0.000667,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2025,
+          "effect": -0.010342,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2025,
+          "effect": -0.003361,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2025,
+          "effect": 0.001347,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": -0.000853,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": 0.000371,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": 0.001382,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": 0.01225,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": 0.002248,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2025,
+          "effect": 0.000831,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.009482,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2025,
+          "effect": 0.000409,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2025,
+          "effect": 0.001751,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2025,
+          "effect": 0.000818,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2025,
+          "effect": 0.001729,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2025,
+          "effect": -0.001819,
+          "fitted": true
+        }
+      }
+    },
+    "bottas": {
+      "name": "Valtteri Bottas",
+      "rating": 1622.4,
+      "lastSeason": 2024,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2024,
+          "effect": -0.000315,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.000146,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2024,
+          "effect": -0.001714,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2024,
+          "effect": -0.002236,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2024,
+          "effect": -0.000381,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2024,
+          "effect": 0.000928,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2024,
+          "effect": -0.000978,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2024,
+          "effect": -0.00122,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": 0.00767,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2024,
+          "effect": 3E-06,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2024,
+          "effect": 0.000835,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2024,
+          "effect": -0.001126,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2024,
+          "effect": -0.000404,
+          "fitted": true
+        },
+        "yeongam": {
+          "season": 2013,
+          "effect": 0.009715,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2024,
+          "effect": 0.000451,
+          "fitted": true
+        },
+        "buddh": {
+          "season": 2013,
+          "effect": -0.000263,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2024,
+          "effect": -0.000932,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2024,
+          "effect": -0.000613,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2024,
+          "effect": 0.002522,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2024,
+          "effect": 0.001255,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": -0.003513,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": 0.005538,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2024,
+          "effect": 0.006063,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2024,
+          "effect": -9E-06,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": -0.001189,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": 0.0052,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": 0.002593,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2024,
+          "effect": -0.000285,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.005994,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2024,
+          "effect": 0.000549,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2024,
+          "effect": -0.00159,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2024,
+          "effect": -7.7E-05,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2024,
+          "effect": -0.00152,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2024,
+          "effect": 0.000791,
+          "fitted": true
+        }
+      }
+    },
+    "perez": {
+      "name": "Sergio Pérez",
+      "rating": 1761.5,
+      "lastSeason": 2024,
+      "circuitEffects": {
+        "albert_park": {
+          "season": 2024,
+          "effect": 0.010713,
+          "fitted": true
+        },
+        "sepang": {
+          "season": 2017,
+          "effect": 0.001376,
+          "fitted": true
+        },
+        "shanghai": {
+          "season": 2024,
+          "effect": 0.002914,
+          "fitted": true
+        },
+        "istanbul": {
+          "season": 2021,
+          "effect": 0.000594,
+          "fitted": true
+        },
+        "catalunya": {
+          "season": 2024,
+          "effect": 0.004098,
+          "fitted": true
+        },
+        "monaco": {
+          "season": 2024,
+          "effect": 0.016818,
+          "fitted": true
+        },
+        "villeneuve": {
+          "season": 2024,
+          "effect": 0.006593,
+          "fitted": true
+        },
+        "valencia": {
+          "season": 2012,
+          "effect": 0.004206,
+          "fitted": true
+        },
+        "silverstone": {
+          "season": 2024,
+          "effect": -0.002147,
+          "fitted": true
+        },
+        "nurburgring": {
+          "season": 2020,
+          "effect": -0.010871,
+          "fitted": true
+        },
+        "hungaroring": {
+          "season": 2024,
+          "effect": -4.2E-05,
+          "fitted": true
+        },
+        "spa": {
+          "season": 2024,
+          "effect": -0.003401,
+          "fitted": true
+        },
+        "monza": {
+          "season": 2024,
+          "effect": -0.003207,
+          "fitted": true
+        },
+        "marina_bay": {
+          "season": 2024,
+          "effect": 0.009961,
+          "fitted": true
+        },
+        "suzuka": {
+          "season": 2024,
+          "effect": 0.013141,
+          "fitted": true
+        },
+        "yeongam": {
+          "season": 2013,
+          "effect": 0.005221,
+          "fitted": true
+        },
+        "buddh": {
+          "season": 2013,
+          "effect": 0.003798,
+          "fitted": true
+        },
+        "yas_marina": {
+          "season": 2024,
+          "effect": 0.007056,
+          "fitted": true
+        },
+        "interlagos": {
+          "season": 2024,
+          "effect": -0.014514,
+          "fitted": true
+        },
+        "bahrain": {
+          "season": 2024,
+          "effect": -0.000169,
+          "fitted": true
+        },
+        "hockenheimring": {
+          "season": 2019,
+          "effect": -0.000951,
+          "fitted": true
+        },
+        "americas": {
+          "season": 2024,
+          "effect": 0.001086,
+          "fitted": true
+        },
+        "red_bull_ring": {
+          "season": 2024,
+          "effect": -0.016331,
+          "fitted": true
+        },
+        "sochi": {
+          "season": 2021,
+          "effect": -0.003038,
+          "fitted": true
+        },
+        "rodriguez": {
+          "season": 2024,
+          "effect": -0.071492,
+          "fitted": true
+        },
+        "baku": {
+          "season": 2024,
+          "effect": 0.012503,
+          "fitted": true
+        },
+        "ricard": {
+          "season": 2022,
+          "effect": 0.001415,
+          "fitted": true
+        },
+        "mugello": {
+          "season": 2020,
+          "effect": -0.002221,
+          "fitted": true
+        },
+        "portimao": {
+          "season": 2021,
+          "effect": -0.002411,
+          "fitted": true
+        },
+        "imola": {
+          "season": 2024,
+          "effect": 0.008932,
+          "fitted": true
+        },
+        "zandvoort": {
+          "season": 2024,
+          "effect": 0.015311,
+          "fitted": true
+        },
+        "losail": {
+          "season": 2024,
+          "effect": 0.00317,
+          "fitted": true
+        },
+        "jeddah": {
+          "season": 2024,
+          "effect": 0.012021,
+          "fitted": true
+        },
+        "miami": {
+          "season": 2024,
+          "effect": 0.003924,
+          "fitted": true
+        },
+        "vegas": {
+          "season": 2024,
+          "effect": -0.016939,
+          "fitted": true
+        }
+      }
+    }
+  }
+}

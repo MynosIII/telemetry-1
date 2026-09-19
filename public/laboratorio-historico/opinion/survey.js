@@ -1,0 +1,367 @@
+const key = (value) => String(value ?? "")
+  .normalize("NFD")
+  .replace(/\p{Diacritic}/gu, "")
+  .toLocaleLowerCase("es")
+  .replace(/[^a-z0-9]+/g, " ")
+  .trim()
+  .replace(/\s+/g, " ");
+
+const tidyText = (value) => String(value ?? "")
+  .normalize("NFKC")
+  .replace(/[^\p{L}\p{N}]+/gu, " ")
+  .trim()
+  .replace(/\s+/g, " ");
+
+const containsPhrase = (value, phrase) => ` ${key(value)} `.includes(` ${key(phrase)} `);
+
+function singleChoice(options) {
+  return (value) => {
+    const exact = options.find((option) => option.aliases.some((alias) => key(value) === key(alias)));
+    if (exact) return exact.label;
+    const contained = options.find((option) => option.aliases.some((alias) => containsPhrase(value, alias)));
+    return contained?.label ?? (tidyText(value) || "Sin respuesta");
+  };
+}
+
+function multipleChoice(options) {
+  return (value) => {
+    const matches = options.filter((option) => option.aliases.some((alias) => containsPhrase(value, alias)));
+    return matches.length ? matches.map((option) => option.label).join(" + ") : tidyText(value) || "Sin respuesta";
+  };
+}
+
+function normalizeCountry(value) {
+  const normalized = key(value);
+  if (["argentina", "argenitna"].includes(normalized)) return "Argentina";
+  if (normalized === "mexico") return "México";
+  const cleaned = tidyText(value);
+  return cleaned ? cleaned.toLocaleLowerCase("es").replace(/(^|\s)\p{L}/gu, (letter) => letter.toLocaleUpperCase("es")) : "Sin respuesta";
+}
+
+function normalizeTenure(value) {
+  const normalized = key(value);
+  if (/no consumo|only through social|don t consume/.test(normalized)) return "No sigue / solo redes";
+  if (/este ano|this year/.test(normalized)) return "Empezó este año";
+  if (/ano pasado|last year/.test(normalized)) return "El año pasado";
+  if (/2 a 4|between 1 and 5/.test(normalized)) return "2 a 4 años";
+  if (/5 anos o mas|more than 5|far more than five|desde |decada del|uso de razon|^1990$|^50 anos$/.test(normalized)) return "5 años o más";
+  return tidyText(value) || "Sin respuesta";
+}
+
+const gender = singleChoice([
+  { label: "Femenino", aliases: ["Femenino", "Female"] },
+  { label: "Masculino", aliases: ["Masculino", "Male"] }
+]);
+
+const age = singleChoice([
+  { label: "18 a 24", aliases: ["18 a 24", "18 to 24"] },
+  { label: "25 a 34", aliases: ["25 a 34", "25 to 34"] },
+  { label: "35 a 50", aliases: ["35 a 50", "35 to 50"] },
+  { label: "50 o más", aliases: ["50 o más", "50 or older"] }
+]);
+
+const follows = singleChoice([
+  { label: "Sí", aliases: ["Sí", "Yes"] },
+  { label: "Esporádicamente", aliases: ["Esporádicamente", "Sporadically", "Occasionally"] },
+  { label: "No", aliases: ["No"] }
+]);
+
+const discovery = multipleChoice([
+  { label: "Drive to Survive", aliases: ["Drive to Survive"] },
+  { label: "Redes sociales / memes", aliases: ["Redes sociales Memes TikTok", "Social media Memes TikTok"] },
+  { label: "Piloto de su país", aliases: ["Por la llegada de un piloto de mi país", "A driver from my country"] },
+  { label: "Tradición familiar / amigos", aliases: ["Tradición familiar Amigos", "Family tradition Friends"] },
+  { label: "Siempre siguió el automovilismo", aliases: ["Sigo el automovilismo desde siempre", "I ve always followed motorsport"] }
+]);
+
+const media = multipleChoice([
+  { label: "TV / F1 TV", aliases: ["Televisión Transmisiones oficiales", "TV broadcasts F1 TV", "F1 TV"] },
+  { label: "TikTok / Reels", aliases: ["TikTok Reels"] },
+  { label: "X / Twitter", aliases: ["X Twitter"] },
+  { label: "YouTube / Twitch", aliases: ["YouTube Twitch"] },
+  { label: "Foros / Discord / Reddit", aliases: ["Foros Discord Reddit", "Forums Discord Reddit"] },
+  { label: "Instagram / app de F1", aliases: ["Aplicación de la F1 Instagram", "F1 app Instagram"] },
+  { label: "No consume", aliases: ["No consumo", "None"] }
+]);
+
+const otherSeries = multipleChoice([
+  { label: "Ninguna", aliases: ["Ninguna", "None"] },
+  { label: "F2", aliases: ["F2"] },
+  { label: "F3 / F4", aliases: ["F3 F4"] },
+  { label: "Fórmula E", aliases: ["Formula E"] },
+  { label: "F1 Academy", aliases: ["F1 Academy"] },
+  { label: "Turismo Carretera", aliases: ["Turismo Carretera"] },
+  { label: "IndyCar", aliases: ["IndyCar"] },
+  { label: "WEC", aliases: ["WEC"] },
+  { label: "WRC", aliases: ["WRC"] },
+  { label: "NASCAR", aliases: ["NASCAR"] },
+  { label: "Karting", aliases: ["Karting"] },
+  { label: "TC2000 / TN", aliases: ["TC 2000 TN"] },
+  { label: "Otras ocasionalmente", aliases: ["Muy eventualmente las demás", "The other categories at present only very occasionally"] }
+]);
+
+const criteria = multipleChoice([
+  { label: "Resultados", aliases: ["cantidad de títulos y carreras", "Total number of championship titles and race wins"] },
+  { label: "Talento más allá del auto", aliases: ["talento al manejar más allá del auto", "Pure talent winning or standing out besides using inferior cars"] },
+  { label: "Personalidad / carisma", aliases: ["personalidad carisma o estilo", "Personality charisma and cultural impact"] },
+  { label: "Escudería / equipo", aliases: ["escudería equipo", "Team they drive for"] }
+]);
+
+const carWeight = singleChoice([
+  { label: "50% auto / 50% piloto", aliases: ["Un 50% y 50% equivalente entre auto y piloto", "50% 50%"] },
+  { label: "Auto / tecnología", aliases: ["El auto la tecnología de la escudería", "The car team technology"] },
+  { label: "Piloto / talento", aliases: ["El talento y habilidad del piloto", "Driver talent and ability"] }
+]);
+
+const fairness = singleChoice([
+  { label: "Sí: el auto distorsiona", aliases: ["Sí totalmente El auto distorsiona las estadísticas reales", "Yes the car distorts real driver statistics"] },
+  { label: "No: las estadísticas son objetivas", aliases: ["No Las estadísticas son lo único objetivo", "No statistics are the only objective measure"] }
+]);
+
+const statistics = singleChoice([
+  { label: "Fundamental", aliases: ["Fundamental"] },
+  { label: "Casi nada", aliases: ["Casi nada", "Very little"] }
+]);
+
+export const surveyVariables = [
+  { key: "goat", label: "Mejor piloto", esHeader: "mejor piloto de la historia de la F1", enHeader: "greatest driver of all time", multi: true },
+  { key: "country", label: "País", esHeader: "País", enHeader: "Country of residence", normalize: normalizeCountry },
+  { key: "gender", label: "Género", esHeader: "Género", enHeader: "Gender", normalize: gender },
+  { key: "age", label: "Edad", esHeader: "Edad", enHeader: "Age", normalize: age },
+  { key: "follows", label: "Sigue la F1", esHeader: "Seguís la Formula 1", enHeader: "Do you follow Formula 1", normalize: follows },
+  { key: "discovery", label: "Cómo llegó a la F1", esHeader: "Cómo empezaste a seguir la F1", enHeader: "How did you start following Formula 1", normalize: discovery, multi: true },
+  { key: "years", label: "Antigüedad como fan", esHeader: "Hace cuánto ves o seguís", enHeader: "How long have you been following F1", normalize: normalizeTenure },
+  { key: "media", label: "Medios que consume", esHeader: "En qué medios o plataformas", enHeader: "Which sources media", normalize: media, multi: true },
+  { key: "otherSeries", label: "Otras categorías", esHeader: "otras categorías del automovilismo", enHeader: "other motorsport categories", normalize: otherSeries, multi: true },
+  { key: "criteria", label: "Criterio para elegir al mejor", esHeader: "en qué te basás principalmente", enHeader: "what attribute do you value", normalize: criteria, multi: true },
+  { key: "carWeight", label: "Peso del auto vs. piloto", esHeader: "qué pesa más en el resultado", enHeader: "biggest impact on winning", normalize: carWeight },
+  { key: "fairness", label: "¿Títulos/victorias son injustos?", esHeader: "contar solo las victorias títulos", enHeader: "unfair to compare eras", normalize: fairness },
+  { key: "statistics", label: "Valor dado a estadísticas", esHeader: "estadísticas procesadas", enHeader: "weight do you give to advanced statistics", normalize: statistics }
+];
+
+const preferredSurnameAliases = [
+  ["Juan Manuel Fangio", ["juan fangio", "juan manuel fangio", "fangio"]],
+  ["Ayrton Senna", ["senna", "sena"]],
+  ["Michael Schumacher", ["schumacher", "schumi"]],
+  ["Lewis Hamilton", ["hamilton"]],
+  ["Max Verstappen", ["verstappen", "verstapen", "vesrtappen"]],
+  ["Fernando Alonso", ["alonso"]],
+  ["Lando Norris", ["norris"]],
+  ["Niki Lauda", ["lauda"]],
+  ["Alain Prost", ["prost"]],
+  ["Jim Clark", ["jim clark"]],
+  ["Sebastian Vettel", ["vettel"]],
+  ["Gilles Villeneuve", ["gilles villeneuve"]]
+];
+
+function canonicalDisplayName(name) {
+  return key(name) === "juan fangio" ? "Juan Manuel Fangio" : name;
+}
+
+function driverAliases(driverNames) {
+  const names = [...new Set(driverNames.filter(Boolean))];
+  const surnameCounts = new Map();
+  names.forEach((name) => {
+    const surname = key(name).split(" ").at(-1);
+    if (surname.length >= 4) surnameCounts.set(surname, (surnameCounts.get(surname) ?? 0) + 1);
+  });
+  const aliases = names.flatMap((name) => {
+    const full = key(name);
+    const surname = full.split(" ").at(-1);
+    const displayName = canonicalDisplayName(name);
+    return [{ name: displayName, alias: full }, ...(surnameCounts.get(surname) === 1 ? [{ name: displayName, alias: surname }] : [])];
+  });
+  preferredSurnameAliases.forEach(([name, values]) => values.forEach((alias) => aliases.push({ name, alias: key(alias) })));
+  const availableNames = new Set(names.map(canonicalDisplayName));
+  return aliases.filter(({ name }) => availableNames.has(name));
+}
+
+export function extractDriverVotes(answer, driverNames) {
+  const normalized = ` ${key(answer)} `;
+  const candidates = [];
+  driverAliases(driverNames).forEach(({ name, alias }) => {
+    const needle = ` ${alias} `;
+    const position = normalized.indexOf(needle);
+    if (position >= 0) {
+      const start = position + 1;
+      candidates.push({ name, start, end: start + alias.length, length: alias.length });
+    }
+  });
+  const accepted = [];
+  candidates.sort((a, b) => b.length - a.length || a.start - b.start).forEach((candidate) => {
+    if (accepted.some((match) => candidate.start < match.end && candidate.end > match.start)) return;
+    if (!accepted.some((match) => match.name === candidate.name)) accepted.push(candidate);
+  });
+  const matches = accepted.sort((a, b) => a.start - b.start).map(({ name }) => name);
+  if (matches.length) return matches;
+  const fallback = tidyText(answer);
+  return fallback ? [fallback.length > 38 ? `${fallback.slice(0, 35)}…` : fallback] : [];
+}
+
+function headerIndex(headers, fragment) {
+  return headers.findIndex((header) => containsPhrase(header, fragment));
+}
+
+function localizedValue(row, indexes, language) {
+  const preferred = language === "en" ? indexes.en : indexes.es;
+  const fallback = language === "en" ? indexes.es : indexes.en;
+  return String(row[preferred] ?? "").trim() || String(row[fallback] ?? "").trim();
+}
+
+export function surveyRecords(rows, driverNames) {
+  if (!rows.length) return [];
+  const headers = rows[0];
+  const languageIndex = headerIndex(headers, "Idioma Language");
+  const driverIndexes = {
+    es: headerIndex(headers, "mejor piloto de la historia de la F1"),
+    en: headerIndex(headers, "greatest driver of all time")
+  };
+  const indexes = Object.fromEntries(surveyVariables.filter((variable) => variable.key !== "goat").map((variable) => [variable.key, {
+    es: headerIndex(headers, variable.esHeader),
+    en: headerIndex(headers, variable.enHeader)
+  }]));
+  return rows.slice(1).map((row) => {
+    const declaredLanguage = key(row[languageIndex]);
+    const language = declaredLanguage.includes("english") || (!row[driverIndexes.es] && row[driverIndexes.en]) ? "en" : "es";
+    const votes = extractDriverVotes(localizedValue(row, driverIndexes, language), driverNames);
+    return {
+      votes,
+      values: Object.fromEntries(surveyVariables.map((variable) => {
+        if (variable.key === "goat") return [variable.key, votes.join(" + ") || "Sin respuesta"];
+        const raw = localizedValue(row, indexes[variable.key], language);
+        return [variable.key, raw ? variable.normalize(raw) : "Sin respuesta"];
+      }))
+    };
+  }).filter((record) => record.votes.length);
+}
+
+export function weightedVoteRows(records, topChoices = null) {
+  return records.flatMap((record) => record.votes.map((driver) => ({
+    ...record,
+    driver: topChoices ? (topChoices.includes(driver) ? driver : "Otros") : driver,
+    weight: 1 / record.votes.length
+  })));
+}
+
+export function weightedRanking(records) {
+  const counts = new Map();
+  weightedVoteRows(records).forEach(({ driver, weight }) => counts.set(driver, (counts.get(driver) ?? 0) + weight));
+  return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "es"));
+}
+
+function categoriesForRecord(record, variableKey) {
+  if (variableKey === "goat") return record.votes ?? [];
+  const value = record.values?.[variableKey];
+  if (!value || value === "Sin respuesta") return [];
+  const variable = surveyVariables.find((candidate) => candidate.key === variableKey);
+  return variable?.multi ? value.split(" + ").filter(Boolean) : [value];
+}
+
+function categoryWeight(record, variableKey, category) {
+  const categories = categoriesForRecord(record, variableKey);
+  if (!categories.includes(category)) return 0;
+  return variableKey === "goat" ? 1 / categories.length : 1;
+}
+
+function orderedCategories(records, variableKey) {
+  const counts = new Map();
+  records.forEach((record) => {
+    categoriesForRecord(record, variableKey).forEach((value) => {
+      counts.set(value, (counts.get(value) ?? 0) + categoryWeight(record, variableKey, value));
+    });
+  });
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "es"))
+    .map(([value]) => value);
+}
+
+export function categoricalAssociation(records, rowKey, columnKey) {
+  if (!rowKey || !columnKey || rowKey === columnKey) {
+    return { value: null, sampleSize: 0, rowLabels: [], columnLabels: [], table: [] };
+  }
+  const completeRecords = records.filter((record) => categoriesForRecord(record, rowKey).length && categoriesForRecord(record, columnKey).length);
+  const rowLabels = orderedCategories(completeRecords, rowKey);
+  const columnLabels = orderedCategories(completeRecords, columnKey);
+  const table = rowLabels.map(() => columnLabels.map(() => 0));
+  completeRecords.forEach((record) => {
+    const rowCategories = categoriesForRecord(record, rowKey);
+    const columnCategories = categoriesForRecord(record, columnKey);
+    rowCategories.forEach((rowLabel) => columnCategories.forEach((columnLabel) => {
+      table[rowLabels.indexOf(rowLabel)][columnLabels.indexOf(columnLabel)] += 1 / (rowCategories.length * columnCategories.length);
+    }));
+  });
+  if (rowLabels.length < 2 || columnLabels.length < 2 || !completeRecords.length) {
+    return { value: 0, sampleSize: completeRecords.length, rowLabels, columnLabels, table };
+  }
+  const rowTotals = table.map((row) => row.reduce((sum, count) => sum + count, 0));
+  const columnTotals = columnLabels.map((_, columnIndex) => table.reduce((sum, row) => sum + row[columnIndex], 0));
+  const total = completeRecords.length;
+  let chiSquare = 0;
+  table.forEach((row, rowIndex) => row.forEach((observed, columnIndex) => {
+    const expected = rowTotals[rowIndex] * columnTotals[columnIndex] / total;
+    if (expected > 0) chiSquare += ((observed - expected) ** 2) / expected;
+  }));
+  const denominator = total * Math.min(rowLabels.length - 1, columnLabels.length - 1);
+  const value = denominator > 0 ? Math.min(1, Math.sqrt(chiSquare / denominator)) : 0;
+  return { value, sampleSize: total, rowLabels, columnLabels, table };
+}
+
+export function correlationMatrix(records, variables = surveyVariables) {
+  return variables.map((rowVariable) => variables.map((columnVariable) => (
+    rowVariable.key === columnVariable.key
+      ? { value: null, sampleSize: 0 }
+      : categoricalAssociation(records, rowVariable.key, columnVariable.key)
+  )));
+}
+
+export function optionCorrelationMatrix(records, variables = surveyVariables) {
+  const groups = variables.map((variable) => ({
+    ...variable,
+    categories: orderedCategories(records, variable.key)
+  })).filter((variable) => variable.categories.length);
+  const options = groups.flatMap((variable) => variable.categories.map((label) => ({
+    key: `${variable.key}:${label}`,
+    label,
+    variableKey: variable.key,
+    variableLabel: variable.label
+  })));
+  const matrix = options.map((rowOption, rowIndex) => options.map((columnOption, columnIndex) => {
+    if (rowIndex === columnIndex) return { value: null, sampleSize: 0, rowSupport: 0, columnSupport: 0 };
+    const completeRecords = records.filter((record) => (
+      categoriesForRecord(record, rowOption.variableKey).length
+      && categoriesForRecord(record, columnOption.variableKey).length
+    ));
+    let both = 0;
+    let rowOnly = 0;
+    let columnOnly = 0;
+    let neither = 0;
+    completeRecords.forEach((record) => {
+      const rowWeight = categoryWeight(record, rowOption.variableKey, rowOption.label);
+      const columnWeight = categoryWeight(record, columnOption.variableKey, columnOption.label);
+      both += rowWeight * columnWeight;
+      rowOnly += rowWeight * (1 - columnWeight);
+      columnOnly += (1 - rowWeight) * columnWeight;
+      neither += (1 - rowWeight) * (1 - columnWeight);
+    });
+    const denominator = Math.sqrt((both + rowOnly) * (columnOnly + neither) * (both + columnOnly) * (rowOnly + neither));
+    return {
+      value: denominator ? (both * neither - rowOnly * columnOnly) / denominator : 0,
+      sampleSize: completeRecords.length,
+      rowSupport: both + rowOnly,
+      columnSupport: both + columnOnly
+    };
+  }));
+  return { groups, options, matrix };
+}
+
+export function strongestOptionCorrelations(records, variables = surveyVariables, limit = 8) {
+  const detail = optionCorrelationMatrix(records, variables);
+  const pairs = [];
+  detail.options.forEach((rowOption, rowIndex) => detail.options.forEach((columnOption, columnIndex) => {
+    if (columnIndex <= rowIndex || rowOption.variableKey === columnOption.variableKey) return;
+    const association = detail.matrix[rowIndex][columnIndex];
+    if (association.sampleSize < 10 || association.rowSupport < 2 || association.columnSupport < 2) return;
+    pairs.push({ rowOption, columnOption, ...association });
+  }));
+  return pairs.sort((a, b) => Math.abs(b.value) - Math.abs(a.value)).slice(0, limit);
+}
