@@ -123,21 +123,48 @@ def build(source, output, cutoff):
         first, final = item["firstSeason"], item["lastSeason"]
         place = raw.get("placeOfBirth")
         paragraphs = []
+
+        def s(n, text, plural=None):
+            if n == 1:
+                return f"1 {text}"
+            return f"{n} {plural or text + 's'}"
+
         if category == "drivers":
             born = str(raw.get("dateOfBirth") or "")
-            if born: paragraphs.append(f"{raw.get('fullName', name)} nació el {born}" + (f" en {place}." if place else "."))
-            paragraphs.append(f"Su recorrido en el Campeonato Mundial comprende {stats['seasons']} temporadas entre {first} y {final}. El archivo registra {stats['entries']} inscripciones y {stats['starts']} participaciones en carrera, con {stats['wins']} victorias y {stats['podiums']} podios.")
-            if titles[(category, source_id)]: paragraphs.append(f"Sus títulos mundiales llegaron en {', '.join(map(str, titles[(category, source_id)]))}. La evolución por temporada permite poner esos campeonatos en relación con sus resultados y los equipos y motores de cada etapa.")
+            if born:
+                parts = born.split("-")
+                if len(parts) == 3:
+                    months = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+                    born = f"{int(parts[2])} de {months[int(parts[1])-1]} de {parts[0]}"
+                paragraphs.append(f"{raw.get('fullName', name)} nació el {born}" + (f" en {place}." if place else "."))
+            
+            range_str = f"en {first}" if first == final else f"entre {first} y {final}"
+            paragraphs.append(f"Su recorrido en el Campeonato Mundial comprende {s(stats['seasons'], 'temporada')} {range_str}. El archivo registra {s(stats['entries'], 'inscripción', 'inscripciones')} y {s(stats['starts'], 'participación', 'participaciones')} en carrera, con {s(stats['wins'], 'victoria')} y {s(stats['podiums'], 'podio')}.")
+            
+            t = titles[(category, source_id)]
+            if t:
+                if len(t) == 1:
+                    paragraphs.append(f"Su único título mundial llegó en {t[0]}. La evolución por temporada permite poner ese campeonato en relación con sus resultados y los equipos y motores de cada etapa.")
+                else:
+                    paragraphs.append(f"Sus títulos mundiales llegaron en {', '.join(map(str, t))}. La evolución por temporada permite poner esos campeonatos en relación con sus resultados y los equipos y motores de cada etapa.")
         elif category == "circuits":
-            paragraphs.append(f"{raw.get('fullName', name)} forma parte del archivo del Campeonato Mundial desde {first}. Hasta {final} albergó {stats['races']} pruebas, con {stats['drivers']} pilotos representados en sus clasificaciones.")
+            paragraphs.append(f"{raw.get('fullName', name)} forma parte del archivo del Campeonato Mundial desde {first}. Hasta {final} albergó {s(stats['races'], 'prueba')}, con {s(stats['drivers'], 'piloto')} representados en sus clasificaciones.")
             paragraphs.append(f"El trazado está situado en {raw.get('placeName', name)}, {item['country'] or 'ubicación no documentada'}. La ficha de F1DB registra {raw.get('length', '—')} km y {raw.get('turns', '—')} curvas para su configuración de referencia; las configuraciones históricas se muestran por separado.")
         else:
             subject = {"constructors": "como constructor", "engines": "como proveedor de motores", "tyres": "como proveedor de neumáticos", "nations": "a través de sus pilotos", "grands-prix": "como prueba del campeonato", "seasons": "en el Campeonato Mundial"}[category]
-            paragraphs.append(f"{name} aparece {subject} en {stats['seasons']} temporadas del archivo, entre {first} y {final}. Sus registros abarcan {stats['races']} Grandes Premios y {stats['drivers']} pilotos.")
-            if category not in {"circuits", "grands-prix", "seasons"}: paragraphs.append(f"Sus participantes acumularon {stats['wins']} victorias, {stats['podiums']} podios y {stats['fastestLaps']} vueltas rápidas. Estos resultados pertenecen a las combinaciones de piloto, constructor, motor y neumáticos registradas en cada carrera.")
-            if titles[(category, source_id)]: paragraphs.append(f"El campeonato de constructores se ganó en {', '.join(map(str, titles[(category, source_id)]))}.")
+            range_str = f"en {first}" if first == final else f"entre {first} y {final}"
+            paragraphs.append(f"{name} aparece {subject} en {s(stats['seasons'], 'temporada')} del archivo, {range_str}. Sus registros abarcan {s(stats['races'], 'Gran Premio', 'Grandes Premios')} y {s(stats['drivers'], 'piloto')}.")
+            
+            if category not in {"circuits", "grands-prix", "seasons"}:
+                paragraphs.append(f"Sus participantes acumularon {s(stats['wins'], 'victoria')}, {s(stats['podiums'], 'podio')} y {s(stats['fastestLaps'], 'vuelta rápida')}. Estos resultados pertenecen a las combinaciones de piloto, constructor, motor y neumáticos registradas en cada carrera.")
+            
+            t = titles[(category, source_id)]
+            if t:
+                paragraphs.append(f"El campeonato de constructores se ganó en {', '.join(map(str, t))}.")
+        
         best = max(season_rows, key=lambda s: (s["wins"], s["podiums"], s["starts"]))
-        if stats["wins"]: paragraphs.append(f"La temporada con más victorias en este archivo fue {best['season']}: {best['wins']} triunfos y {best['podiums']} podios. La gráfica permite contrastar esa concentración de resultados con el resto de su trayectoria.")
+        if stats["wins"]:
+            paragraphs.append(f"La temporada con más victorias en este archivo fue {best['season']}: {s(best['wins'], 'triunfo')} y {s(best['podiums'], 'podio')}. La gráfica permite contrastar esa concentración de resultados con el resto de su trayectoria.")
         p = profiles.get(source_id) if category == "drivers" else None
         trace = model["drivers"].get(p["id"], {}).get("points", []) if p else []
         if p:

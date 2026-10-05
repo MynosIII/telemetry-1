@@ -23,7 +23,7 @@
 .history-directory-row strong { font-size: 18px; }
 .history-directory-row div span { display: block; color: #aaa; font-size: 12px; margin-top: 7px; }
 .history-directory-row b { font-size: 22px; font-variant-numeric: tabular-nums; }
-.history-directory-row small { display: block; color: #aaa; font-size: 9px; margin-top: 6px; letter-spacing: 1px; }
+.history-directory-row small { display: block; color: #aaa; font-size: 11px; margin-top: 6px; letter-spacing: 1px; }
 .history-open { color: #eee; font-size: 11px; font-weight: 800; text-align: right; }
 .history-section { padding: 40px 0; border-top: 1px solid #3b3b3b; scroll-margin-top: 100px; }
 .history-section h2 { font-family: var(--font-ui); font-size: clamp(26px, 4vw, 46px); font-style: normal; font-weight: 750; margin: 0 0 24px; line-height: 1.15; }
@@ -36,7 +36,7 @@
 .history-profile-nav a:last-child { margin-left: auto; color: #ddd; }
 .history-stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #363636; margin: 30px 0 14px; }
 .history-stat-grid div { padding: 23px; background: #151515; border: 1px solid #292929; }
-.history-stat-grid span { color: #aaa; font-size: 9px; font-weight: 800; letter-spacing: 1px; display: block; }
+.history-stat-grid span { color: #aaa; font-size: 11px; font-weight: 800; letter-spacing: 1px; display: block; }
 .history-stat-grid strong { display: block; font-size: 32px; margin-top: 12px; font-variant-numeric: tabular-nums; }
 .history-wikipedia { border-left: 3px solid var(--red); padding: 26px; margin-top: 30px; background: #161616; }
 .history-wikipedia > p { color: #bcbcbc; line-height: 1.8; }
@@ -52,12 +52,15 @@
 .history-chart figcaption p { font-size: 13px; line-height: 1.6; color: #aaa; }
 .history-chart-controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
 .history-chart-controls button { font-size: 12px; padding: 10px 13px; }
-.history-bars { display: grid; gap: 4px; overflow-x: auto; padding: 10px 0 30px; height: 220px; align-items: end; }
-.history-bar { border: none; padding: 0; position: relative; background: transparent; color: #aaa; cursor: pointer; height: 100%; display: flex; align-items: end; min-width: 0; }
-.history-bar > span { width: 100%; background: var(--red); display: block; min-height: 2px; }
-.history-bar .champion-bar { background: #eee; }
+.history-bars-frame { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 8px; }
+.history-bars-axis { height: 220px; padding: 26px 0 30px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; color: #bbb; font-size: 11px; text-align: right; }
+.history-bars { display: grid; gap: 4px; overflow-x: auto; padding: 26px 0 30px; height: 220px; box-sizing: border-box; align-items: end; border-left: 1px solid #444; background: linear-gradient(#333, #333) 0 26px / 100% 1px no-repeat, linear-gradient(#333, #333) 0 calc(26px + (100% - 56px) / 2) / 100% 1px no-repeat; }
+.history-bar em { flex-shrink: 0; margin-bottom: 3px; color: #ddd; font-size: 10px; font-style: normal; text-align: center; }
+.history-bar { border: none; padding: 0; position: relative; background: transparent; color: #aaa; cursor: pointer; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; min-width: 0; }
+.history-bar > span { width: 100%; flex-shrink: 0; background: var(--red); display: block; }
+.history-bar .champion-bar { background: #f7ce65; }
 .history-bar[aria-pressed=true] > span { outline: 2px solid #aaa; outline-offset: 2px; }
-.history-bar small { position: absolute; bottom: -24px; left: 50%; transform: translateX(-50%); font-size: 9px; }
+.history-bar small { position: absolute; bottom: -24px; left: 50%; transform: translateX(-50%); font-size: 11px; }
 .history-bars:has(.history-bar:nth-child(31)) small { display: none; }
 .history-bars:has(.history-bar:nth-child(31)) .history-bar:nth-child(10n+1) small { display: block; }
 .history-chart-detail { min-height: 38px; color: #bcbcbc; font-size: 12px; line-height: 1.8; }
@@ -110,7 +113,7 @@
 .driver-overview { width: min(1260px, calc(100% - 48px)); margin: 32px auto 0; background: var(--ink); color: var(--paper); border: 1px solid #363636; border-radius: var(--radius-panel); overflow: hidden; }
 .driver-overview-header { display: grid; grid-template-columns: 100px minmax(0, 1fr) 100px; align-items: center; gap: 18px; padding: 20px 26px; border-bottom: 1px solid #363636; }
 .driver-overview-header > div { text-align: center; }
-.driver-overview-header .eyebrow { margin: 0 0 7px; font-size: 9px; }
+.driver-overview-header .eyebrow { margin: 0 0 7px; font-size: 11px; }
 .driver-overview-header h1 { margin: 0; font: 750 clamp(25px, 3.2vw, 43px)/1.15 var(--font-ui); letter-spacing: -.025em; }
 .driver-overview-header > a { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: 22px; }
 .driver-overview-header > a:last-child { justify-content: flex-end; }
@@ -123,7 +126,7 @@
 .driver-overview-era { position: absolute; inset: auto 0 0; padding: 9px; background: #1b1b1be6; color: #ccc; font-size: 10px; font-weight: 700; letter-spacing: 2px; text-align: center; }
 .driver-overview-monogram { height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 25px; }
 .driver-overview-monogram span { color: #8e8e8e; font-size: 72px; font-weight: 750; letter-spacing: -4px; }
-.driver-overview-monogram small { color: #aaa; letter-spacing: 3px; font-size: 9px; }
+.driver-overview-monogram small { color: #aaa; letter-spacing: 3px; font-size: 11px; }
 .driver-overview-identity { min-width: 0; }
 .driver-overview-fullname { margin: 0 0 10px; font-size: 15px; font-weight: 700; }
 .driver-overview-facts { display: grid; gap: 5px; margin: 0; font-size: 13px; line-height: 1.4; }
@@ -186,3 +189,20 @@
   .driver-summary-group dd { margin-top: 3px; }
   .driver-overview-note { padding: 14px 16px; }
 }
+
+/* Current season vs archive, kept visibly apart */
+.driver-overview-current { padding: 12px 14px; border-left: 3px solid var(--red); background: #1b1b1b; line-height: 1.6; }
+.driver-overview-current > span { margin-right: 6px; color: var(--red-text, #ff5a52); font-size: 11px; font-weight: 900; letter-spacing: .08em; }
+.driver-overview-current small { display: block; color: #aaa; font-size: 11px; }
+.driver-overview-scope { margin: 0; padding: 14px 26px 0; color: #bbb; font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+.history-bars-axis span { line-height: 0; }
+/* Section titles in archive profiles read as plain sentences, not shouted labels. */
+.history-dossier .detail-heading h2 { text-transform: none; }
+/* Archive rows lead with the driver's portrait or the team's logo. */
+.history-directory-who { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.history-directory-who > div { min-width: 0; }
+.history-avatar { flex: none; width: 52px; height: 52px; border-radius: 50%; overflow: hidden; display: grid; place-items: center; background: #1f1f1f; border: 1px solid #3a3a3a; color: #bbb; font-weight: 800; font-size: 16px; }
+.history-avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+.history-avatar-constructors { border-radius: 10px; background: #f2f2f2; color: #333; }
+.history-avatar-constructors img { object-fit: contain; padding: 6px; box-sizing: border-box; }
+@media (max-width: 760px) { .history-avatar { width: 40px; height: 40px; font-size: 13px; } .history-directory-who { gap: 12px; } }

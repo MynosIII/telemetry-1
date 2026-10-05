@@ -2,11 +2,22 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { FallbackImage } from "./FallbackImage";
+import { driverPhoto } from "@/lib/driver-photos";
+import { teamLogo } from "@/lib/team-media";
 import { historyCategories, type HistoryCategory, type HistorySummary } from "@/lib/history-labels";
 
+const initials = (name: string) => name.split(/[\s-]+/).filter(Boolean).map(part => part[0]).slice(0, 2).join("").toUpperCase();
+// Driver portraits and team logos, with initials when there is none or it fails to load.
+const avatarFor = (category: HistoryCategory, id: string) => {
+  const url = category === "drivers" ? driverPhoto(id) : teamLogo(id);
+  return url ? [url] : [];
+};
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-export function HistoryArchive({ entities }: { entities: HistorySummary[] }) {
+export type ArchiveEntry = Pick<HistorySummary, "id" | "category" | "name" | "fullName" | "country" | "firstSeason" | "lastSeason" | "titleSeasons" | "href"> & { stats: Pick<HistorySummary["stats"], "races" | "wins"> };
+
+export function HistoryArchive({ entities }: { entities: ArchiveEntry[] }) {
   const [category, setCategory] = useState<HistoryCategory>("drivers");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("wins");
@@ -32,7 +43,7 @@ export function HistoryArchive({ entities }: { entities: HistorySummary[] }) {
     <p className="history-count" role="status">{results.length} resultados · mostrando {Math.min(limit, results.length)}</p>
     <div className="history-directory">
       {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href}>
-        <div><strong>{entity.name}</strong><span>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason}–{entity.lastSeason}{entity.titleSeasons.length ? ` · ${entity.titleSeasons.length} títulos` : ""}</span></div>
+        <div className="history-directory-who">{category === "drivers" || category === "constructors" ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}<div><strong>{entity.name}</strong><span>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}{entity.titleSeasons.length ? ` · ${entity.titleSeasons.length} título${entity.titleSeasons.length === 1 ? "" : "s"}` : ""}</span></div></div>
         <b>{entity.stats.races}<small>GP</small></b><b>{entity.stats.wins}<small>VICTORIAS</small></b><span className="history-open">EXPLORAR →</span>
       </Link>)}
     </div>

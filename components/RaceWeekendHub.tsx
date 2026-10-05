@@ -91,7 +91,7 @@ export function RaceWeekendHub({ race, circuit, data }: { race: ScheduledRace; c
       </div>
 
       <Link className="weekend-live-bridge" href="/en-vivo">
-        <div><span className="live-dot" /><b>LIVE</b></div>
+        <div><span className="live-dot" /><b>EN VIVO</b></div>
         <strong>POSICIONES · INTERVALOS · VUELTAS · NEUMÁTICOS · DIRECCIÓN DE CARRERA</strong>
         <em>ENTRAR →</em>
       </Link>

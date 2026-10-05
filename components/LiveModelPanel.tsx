@@ -41,7 +41,7 @@ export function LiveModelPanel({ snapshot: initialSnapshot }: { snapshot: LiveMo
       <div className="live-model-heading">
         <div>
           <p className="eyebrow eyebrow-red">PRONÓSTICO</p>
-          <h2>PRÓXIMA CARRERA, <em>PRIMERA SEÑAL</em></h2>
+          <h2>PRÓXIMA <em>CARRERA</em></h2>
         </div>
         <span className="live-model-status"><i /> {snapshot.probabilityRefresh.mode === "session" ? "ACTUALIZACIÓN CADA 15 MIN" : "ACTUALIZACIÓN POSTCARRERA"}</span>
       </div>

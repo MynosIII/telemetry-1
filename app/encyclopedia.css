@@ -7,14 +7,14 @@
 .ency-title { border-bottom: 1px solid #bdc5d0; padding-bottom: 24px; margin-bottom: 30px; }
 .ency-breadcrumb { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; color: #596775; font-size: 12px; margin-bottom: 26px; }
 .ency-eyebrow { color: #b62b27; font-size: 11px; font-weight: 800; letter-spacing: 1.6px; margin: 0 0 12px; }
-.ency-title h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(29px, 3.2vw, 46px); line-height: 1.15; letter-spacing: -.9px; font-weight: 500; margin: 0 0 12px; }
+.ency-title h1 { font-family: var(--font-ui); font-size: clamp(29px, 3.2vw, 46px); line-height: 1.15; letter-spacing: -.9px; font-weight: 500; margin: 0 0 12px; }
 .ency-subtitle { font-size: 14px; color: #647080; margin: 0; }
 .ency-title-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
 .ency-neighbors { display: flex; flex: 0 0 auto; gap: 8px; }
 .ency-neighbors a { border: 1px solid #cad2dc; padding: 9px 12px; font-size: 13px; background: #fff; }
 .ency-layout { display: grid; grid-template-columns: 170px minmax(0, 1fr) 246px; gap: 28px; align-items: start; }
 .ency-contents { position: sticky; top: 100px; font-size: 12px; min-width: 0; }
-.ency-contents > p { font-size: 10px; font-weight: 800; letter-spacing: 1.3px; margin: 0 0 16px; color: #697887; }
+.ency-contents > p { font-size: 10px; font-weight: 800; letter-spacing: 1.3px; margin: 0 0 16px; color: #55606c; }
 .ency-contents ol { padding: 0; margin: 0; list-style: none; border-left: 1px solid #ccd3dc; }
 .ency-contents li a { display: flex; gap: 9px; padding: 9px 10px; color: #475969; line-height: 1.5; }
 .ency-contents li a span { color: #9b2830; font-size: 10px; padding-top: 2px; flex: 0 0 15px; }
@@ -25,8 +25,8 @@
 .ency-section:first-child { border-top: 0; }
 .ency-section > summary { display: flex; align-items: center; gap: 12px; padding: 17px 0; cursor: pointer; flex-wrap: wrap; list-style: none; }
 .ency-section > summary::-webkit-details-marker { display: none; }
-.ency-section > summary small { color: #7a8694; font-size: 9px; letter-spacing: 1.4px; width: calc(100% - 32px); }
-.ency-section > summary h2 { font-family: Georgia, "Times New Roman", serif; font-size: 24px; font-weight: 500; line-height: 1.2; letter-spacing: -.2px; margin: 0; }
+.ency-section > summary small { color: #55606c; font-size: 11px; letter-spacing: 1.4px; width: calc(100% - 32px); }
+.ency-section > summary h2 { font-family: var(--font-ui); font-size: 24px; font-weight: 500; line-height: 1.2; letter-spacing: -.2px; margin: 0; }
 .ency-chevron { margin-left: auto; font-size: 22px; color: #8b3036; transition: transform .15s; }
 .ency-section[open] > summary .ency-chevron { transform: rotate(180deg); }
 .ency-section-body { padding: 0 0 9px; font-size: 14px; }
@@ -36,18 +36,18 @@
 .ency-note { color: #657281; font-size: 12px; line-height: 1.6; }
 .ency-aside { position: sticky; top: 99px; min-width: 0; }
 .ency-infobox { border: 1px solid #c8d0da; background: #fff; padding: 18px; }
-.infobox-kicker { color: #9f2930; font-size: 9px; letter-spacing: 1.3px; font-weight: 800; margin: 0 0 7px; }
-.ency-infobox h2 { font-family: Georgia, "Times New Roman", serif; font-size: 23px; font-weight: 500; margin: 0 0 14px; line-height: 1.2; }
+.infobox-kicker { color: #9f2930; font-size: 11px; letter-spacing: 1.3px; font-weight: 800; margin: 0 0 7px; }
+.ency-infobox h2 { font-family: var(--font-ui); font-size: 23px; font-weight: 500; margin: 0 0 14px; line-height: 1.2; }
 .infobox-subtitle { font-size: 12px; color: #687787; margin: -4px 0 15px; }
 .ency-infobox dl { margin: 0; }
 .ency-infobox dl > div { border-top: 1px solid #e0e5ec; padding: 11px 0; }
-.ency-infobox dt { font-size: 10px; color: #6e7c8b; margin-bottom: 5px; }
+.ency-infobox dt { font-size: 10px; color: #55606c; margin-bottom: 5px; }
 .ency-infobox dd { font-size: 13px; font-weight: 600; margin: 0; line-height: 1.5; }
 .ency-infobox dd small { display: block; font-size: 11px; color: #637180; font-weight: 400; margin-top: 3px; }
 .infobox-model { background: #f2f4f8; border-left: 3px solid #c43330; padding: 12px; margin-top: 12px; }
-.infobox-model b { font-size: 9px; letter-spacing: 1px; }
+.infobox-model b { font-size: 11px; letter-spacing: 1px; }
 .infobox-model p { font-size: 11px; margin: 5px 0 0; color: #617080; }
-.ency-aside-note { font-size: 11px; color: #6d7a88; margin-top: 14px; }
+.ency-aside-note { font-size: 11px; color: #55606c; margin-top: 14px; }
 .ency-aside-link { display: block; font-size: 12px; padding-top: 18px; }
 .ency-infobox h3 { font-size: 13px; font-weight: 700; margin: 16px 0 12px; }
 .infobox-podium { padding: 0; list-style: none; margin: 0; }
@@ -56,9 +56,9 @@
 .infobox-podium small { display: block; font-size: 10px; color: #778594; margin-top: 3px; }
 .ency-champion-strip { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border: 1px solid #d1d8e2; margin: 22px 0; background: #fff; }
 .ency-champion-strip > div { display: flex; flex-direction: column; gap: 8px; padding: 18px; border-left: 3px solid #b62b27; }
-.ency-champion-strip small { font-size: 9px; letter-spacing: 1.2px; color: #748190; }
-.ency-champion-strip strong { font-size: 19px; font-family: Georgia, serif; font-weight: 500; }
-.ency-champion-strip span { color: #6f7b87; font-size: 12px; }
+.ency-champion-strip small { font-size: 11px; letter-spacing: 1.2px; color: #55606c; }
+.ency-champion-strip strong { font-size: 19px; font-family: var(--font-ui); font-weight: 500; }
+.ency-champion-strip span { color: #55606c; font-size: 12px; }
 .ency-table-scroll { max-width: 100%; overflow: auto; overscroll-behavior-inline: contain; border: 1px solid #c8d2df; margin: 17px 0; background: #fff; }
 .ency-table-scroll table { width: 100%; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
 .ency-table-scroll caption { text-align: left; padding: 11px 12px; color: #3e5063; font-size: 11px; font-weight: 700; background: #f4f6f9; border-bottom: 1px solid #c8d2df; }
@@ -66,7 +66,7 @@
 .ency-table-scroll thead th { background: #e8eef5; color: #41566f; font-size: 10px; font-weight: 700; white-space: nowrap; }
 .ency-table-scroll tbody th { font-weight: 600; min-width: 120px; }
 .ency-table-scroll tbody tr:nth-child(even) { background: #f7f9fc; }
-.ency-table-scroll small { display: block; font-size: 10px; color: #74818e; font-weight: 400; margin-top: 3px; }
+.ency-table-scroll small { display: block; font-size: 10px; color: #55606c; font-weight: 400; margin-top: 3px; }
 .ency-table-scroll td strong { font-size: 12px; }
 .season-calendar th:nth-child(3) { min-width: 150px; }
 .season-calendar td:first-child a { color: #9e3439; font-weight: 700; }
@@ -86,7 +86,7 @@
 .stat-pie { border-radius: 50%; width: 145px; height: 145px; flex: 0 0 145px; position: relative; }
 .stat-pie > span { display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; inset: 23px; border-radius: 50%; background: #fafbfc; }
 .stat-pie strong { font-size: 19px; }
-.stat-pie small { font-size: 8px; color: #6e7e91; letter-spacing: .6px; margin-top: 5px; }
+.stat-pie small { font-size: 11px; color: #6e7e91; letter-spacing: .6px; margin-top: 5px; }
 .stat-legend { padding: 0; margin: 0; list-style: none; font-size: 10px; min-width: 0; flex: 1; }
 .stat-legend li { display: flex; gap: 5px; align-items: center; margin: 7px 0; }
 .stat-legend li > span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
@@ -101,7 +101,7 @@
 .balance-table .balance-name { position: sticky; left: 0; z-index: 2; background: #f4f6f9; min-width: 153px; text-align: left; padding-left: 9px; border-right: 2px solid #bdcadb; }
 .balance-table .balance-result { vertical-align: middle; padding: 2px; min-width: 32px; }
 .balance-result a { display: block; padding: 6px 3px; color: #24344a; font-size: 11px; }
-.balance-table thead small { font-size: 8px; font-weight: 400; margin: 2px 0 0; }
+.balance-table thead small { font-size: 11px; font-weight: 400; margin: 2px 0 0; }
 .finish-gold { background: #f6da7c !important; color: #49412c; }
 .finish-silver { background: #dfe2e8 !important; color: #43474f; }
 .finish-bronze { background: #e5c6ab !important; color: #594839; }
@@ -114,7 +114,7 @@
 .season-model-chart figure { margin: 22px 0; background: #fff; border: 1px solid #d4dce6; padding: 16px; }
 .season-model-chart figcaption, .race-model-bars figcaption { font-size: 12px; font-weight: 700; color: #4e6178; margin-bottom: 12px; }
 .season-model-chart svg { width: 100%; height: auto; overflow: visible; }
-.season-model-chart svg text { font-family: Arial, sans-serif; font-size: 10px; fill: #6c7b8e; }
+.season-model-chart svg text { font-family: Arial, sans-serif; font-size: 10px; fill: #55606c; }
 .season-model-chart svg a:focus-visible circle { stroke: #111; stroke-width: 3; }
 .chart-driver-key { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 14px; font-size: 11px; }
 .chart-driver-key li { display: flex; align-items: center; gap: 6px; }
@@ -145,12 +145,12 @@
 .season-car p { font-size: 12px; margin-bottom: 0; }
 .archive-media { margin: 0 0 15px; }
 .archive-media img { width: 100%; height: auto; display: block; background: #e8ecf3; }
-.archive-media figcaption { font-size: 9px; line-height: 1.5; padding-top: 6px; color: #748395; }
+.archive-media figcaption { font-size: 11px; line-height: 1.5; padding-top: 6px; color: #748395; }
 .archive-media figcaption > span { display: block; }
-.poster-pending { font-size: 10px; color: #8390a0; padding: 10px 0; border-top: 1px solid #e0e5ed; }
-.car-no-photo { background: #f0f3f8; color: #69798c; min-height: 110px; display: flex; flex-direction: column; justify-content: center; gap: 12px; padding: 20px; }
+.poster-pending { font-size: 10px; color: #55606c; padding: 10px 0; border-top: 1px solid #e0e5ed; }
+.car-no-photo { background: #f0f3f8; color: #55606c; min-height: 110px; display: flex; flex-direction: column; justify-content: center; gap: 12px; padding: 20px; }
 .car-no-photo span { font-size: 10px; letter-spacing: 1px; }
-.car-no-photo strong { color: #3b506a; font-size: 19px; font-family: Georgia, serif; }
+.car-no-photo strong { color: #3b506a; font-size: 19px; font-family: var(--font-ui); }
 .car-no-photo small { font-size: 10px; }
 .catalogue-wrap { max-width: 1280px; }
 .catalogue-wrap > p { font-size: 14px; max-width: 950px; }

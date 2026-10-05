@@ -1,5 +1,7 @@
 import { cache } from "react";
 import { getHistoryEntity } from "./history";
+import { driverPhoto, driverPhotosByName } from "./driver-photos";
+import { translate } from "./dictionary";
 import type {
   CircuitFacts,
   CircuitProfile,
@@ -15,8 +17,6 @@ import type {
 } from "./types";
 
 const API_ROOT = "https://api.jolpi.ca/ergast/f1";
-const IMAGE_CATALOG =
-  "https://f1-telemetry-games.vercel.app/shared/driver_images.json";
 const IMAGE_REPO_ROOT =
   "https://f1-telemetry-games.vercel.app/";
 const TELEMETRY_PROFILE_ROOT =
@@ -81,7 +81,7 @@ const fallbackCircuitRecords: Record<string, NonNullable<CircuitProfile["lapReco
 
 const fallbackRaces: RaceResult[] = [
   {
-    round: "12", name: "Dutch Grand Prix", circuitId: "zandvoort", circuit: "Circuit Zandvoort", locality: "Zandvoort", country: "Netherlands", date: "2026-08-23", time: "13:00:00Z",
+    round: "12", name: "Gran Premio de los Países Bajos", circuitId: "zandvoort", circuit: "Circuit Zandvoort", locality: "Zandvoort", country: "Países Bajos", date: "2026-08-23", time: "13:00:00Z",
     results: [
       { driverId: "norris", position: "1", name: "Lando Norris", team: "McLaren", time: "2:04:44.859", points: "25" },
       { driverId: "antonelli", position: "2", name: "Andrea Kimi Antonelli", team: "Mercedes", time: "+11.536", points: "18" },
@@ -91,7 +91,7 @@ const fallbackRaces: RaceResult[] = [
     ]
   },
   {
-    round: "11", name: "Hungarian Grand Prix", circuitId: "hungaroring", circuit: "Hungaroring", locality: "Mogyoród", country: "Hungary", date: "2026-07-26", time: "13:00:00Z",
+    round: "11", name: "Gran Premio de Hungría", circuitId: "hungaroring", circuit: "Hungaroring", locality: "Mogyoród", country: "Hungría", date: "2026-07-26", time: "13:00:00Z",
     results: [
       { driverId: "norris", position: "1", name: "Lando Norris", team: "McLaren", time: "1:39:56.180", points: "25" },
       { driverId: "max_verstappen", position: "2", name: "Max Verstappen", team: "Red Bull", time: "+15.080", points: "18" },
@@ -101,7 +101,7 @@ const fallbackRaces: RaceResult[] = [
     ]
   },
   {
-    round: "10", name: "Belgian Grand Prix", circuitId: "spa", circuit: "Circuit de Spa-Francorchamps", locality: "Spa", country: "Belgium", date: "2026-07-19", time: "13:00:00Z",
+    round: "10", name: "Gran Premio de Bélgica", circuitId: "spa", circuit: "Circuit de Spa-Francorchamps", locality: "Spa", country: "Bélgica", date: "2026-07-19", time: "13:00:00Z",
     results: [
       { driverId: "antonelli", position: "1", name: "Andrea Kimi Antonelli", team: "Mercedes", time: "1:24:42.479", points: "25" },
       { driverId: "leclerc", position: "2", name: "Charles Leclerc", team: "Ferrari", time: "+1.952", points: "18" },
@@ -122,7 +122,7 @@ const fallbackStandings: Standing[] = [
 
 const fallbackSchedule: ScheduledRace[] = [
   {
-    round: "16", season: "2026", name: "Bahrain Grand Prix in Malaysia", circuitId: "sepang", circuit: "Sepang International Circuit", locality: "Kuala Lumpur", country: "Malaysia", date: "2026-10-04", time: "07:00:00Z", state: "next",
+    round: "16", season: "2026", name: "Gran Premio de Malasia", circuitId: "sepang", circuit: "Sepang International Circuit", locality: "Kuala Lumpur", country: "Malasia", date: "2026-10-04", time: "07:00:00Z", state: "next",
     latitude: 2.76083,
     longitude: 101.738,
     circuitUrl: "https://en.wikipedia.org/wiki/Sepang_International_Circuit",
@@ -142,10 +142,16 @@ function normalizeImage(url?: string) {
   return url;
 }
 
-async function fetchJson(url: string, revalidate = 1800): Promise<JsonObject> {
-  const response = await fetch(url, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
-  if (!response.ok) throw new Error(`Request failed: ${response.status}`);
-  return response.json();
+async function fetchJson(url: string, revalidate = 1800, attempts = 2): Promise<JsonObject> {
+  try {
+    const response = await fetch(url, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
+    if (!response.ok) throw new Error(`Request failed: ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    // One retry absorbs the API's transient timeouts before falling back to the snapshot.
+    if (attempts > 1) return fetchJson(url, revalidate, attempts - 1);
+    throw error;
+  }
 }
 
 async function fetchWikipediaJson(url: string, revalidate = 604800): Promise<JsonObject> {
@@ -160,11 +166,7 @@ async function fetchWikipediaJson(url: string, revalidate = 604800): Promise<Jso
 }
 
 export async function getImageCatalog(): Promise<Record<string, string>> {
-  try {
-    return (await fetchJson(IMAGE_CATALOG, 86400)) as Record<string, string>;
-  } catch {
-    return fallbackImages;
-  }
+  return { ...fallbackImages, ...driverPhotosByName };
 }
 
 function addImages<T extends { name: string }>(items: T[], catalog: Record<string, string>) {
@@ -181,7 +183,7 @@ function parseResults(rawRace: JsonObject, limit = 100): RaceResult {
     circuitId: rawRace.Circuit?.circuitId ?? "",
     circuit: rawRace.Circuit?.circuitName ?? "Circuito de Fórmula 1",
     locality: rawRace.Circuit?.Location?.locality ?? "",
-    country: rawRace.Circuit?.Location?.country ?? "",
+    country: translate(rawRace.Circuit?.Location?.country ?? "", "countries"),
     date: rawRace.date,
     time: rawRace.time,
     results: (rawRace.Results ?? []).slice(0, limit).map((result: JsonObject) => ({
@@ -189,9 +191,9 @@ function parseResults(rawRace: JsonObject, limit = 100): RaceResult {
       position: result.position,
       grid: result.grid,
       name: `${result.Driver.givenName} ${result.Driver.familyName}`,
-      nationality: result.Driver.nationality,
+      nationality: translate(result.Driver.nationality, "countries"),
       team: result.Constructor.name,
-      time: result.Time?.time ?? result.status,
+      time: result.Time?.time ?? translate(result.status, "statuses"),
       fastestLap: result.FastestLap?.Time?.time,
       points: result.points
     }))
@@ -221,11 +223,11 @@ function parseSchedule(rawRaces: JsonObject[]): ScheduledRace[] {
     return {
       round: race.round,
       season: race.season,
-      name: race.raceName,
+      name: translate(race.raceName, "races"),
       circuitId: race.Circuit?.circuitId ?? "",
       circuit: race.Circuit?.circuitName ?? "Circuito de Fórmula 1",
       locality: race.Circuit?.Location?.locality ?? "",
-      country: race.Circuit?.Location?.country ?? "",
+      country: translate(race.Circuit?.Location?.country ?? "", "countries"),
       latitude: Number.isFinite(Number(race.Circuit?.Location?.lat)) ? Number(race.Circuit.Location.lat) : undefined,
       longitude: Number.isFinite(Number(race.Circuit?.Location?.long)) ? Number(race.Circuit.Location.long) : undefined,
       date: race.date,
@@ -267,8 +269,13 @@ const getSeasonData = cache(async function getSeasonData() {
     };
   } catch {
     const catalog = await catalogPromise;
+    const now = Date.now();
     return {
-      schedule: fallbackSchedule,
+      // The fallback only knows one weekend; never present a past race as upcoming.
+      schedule: fallbackSchedule.map((race) => ({
+        ...race,
+        state: Date.parse(`${race.date}T${race.time}`) > now ? race.state : "finished" as const
+      })),
       standings: addImages(fallbackStandings, catalog),
       catalog,
       live: false
@@ -462,7 +469,7 @@ export async function getCircuitProfile(circuitId: string): Promise<CircuitProfi
     id: circuitId,
     name: race.circuit,
     locality: race.locality,
-    country: race.country,
+    country: translate(race.country, "countries"),
     latitude: race.latitude,
     longitude: race.longitude,
     ...wikipedia,
@@ -484,20 +491,25 @@ export async function getF1HomeData(): Promise<F1HomeData> {
       const racePayloads = await Promise.all(completed.map((race: JsonObject) =>
         fetchJson(`${API_ROOT}/current/${race.round}/results.json?limit=100`)
       ));
-      races = racePayloads.map((payload) => withImages(parseResults(payload.MRData.RaceTable.Races[0], 5), catalog));
+      races = racePayloads.map((payload) => withImages(parseResults(payload.MRData.RaceTable.Races[0]), catalog));
     } catch {
       // Keep verified fallback results.
     }
   }
 
-  const nextRace = schedule.find((race) => race.state === "next") ?? fallbackSchedule[0];
+  const nextRace = schedule.find((race) => race.state === "next") ?? schedule.at(-1) ?? fallbackSchedule[0];
   const nextCircuit = await getCircuitProfile(nextRace.circuitId) ?? {
-    id: "monza", name: "Autodromo Nazionale di Monza", locality: "Monza", country: "Italy",
+    id: "monza", name: "Autodromo Nazionale di Monza", locality: "Monza", country: "Italia",
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
     ...circuitFacts.monza
   };
 
   return { races, standings: standings.slice(0, 20), schedule, nextRace, nextCircuit, updatedAt: new Date().toISOString(), live };
+}
+
+/** False when the season API failed and the pages are showing the built-in snapshot. */
+export async function isSeasonDataLive() {
+  return (await getSeasonData()).live;
 }
 
 export async function getSchedule() {
@@ -595,7 +607,7 @@ export async function getDriverProfile(driverId: string): Promise<DriverProfile 
       dateOfBirth: firstResult?.Driver?.dateOfBirth ?? history?.biography.dateOfBirth ?? telemetry?.biography?.dateOfBirth,
       permanentNumber: firstResult?.Driver?.permanentNumber,
       code: firstResult?.Driver?.code,
-      image: normalizeImage(catalog[name] ?? fallbackImages[name])
+      image: driverPhoto(driverId) ?? normalizeImage(catalog[name] ?? fallbackImages[name])
     },
     seasonResults: rawRaces.slice().reverse().map((race: JsonObject) => withImages(parseResults(race), catalog)),
     telemetry

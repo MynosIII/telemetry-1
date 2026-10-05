@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { cache } from 'react';
+import { translate } from './dictionary';
 
 export type TyreCompany = {
   name: string; country: string; flag: string; founded: number; founders: string;
@@ -82,6 +83,11 @@ export type TyreAnalysis = {
   first: TyreEvent; last: TyreEvent; seasons: TyreSeason[];
   modes: { multi: TyreCount; sole: TyreCount; unknown: TyreCount };
 };
-export const getTyreAnalysis = cache(async (): Promise<{ resultsThrough: string; tyres: Record<string, TyreAnalysis> }> =>
-  JSON.parse(await readFile(path.join(process.cwd(), 'public/history/tyre-analysis.json'), 'utf8'))
-);
+export const getTyreAnalysis = cache(async (): Promise<{ resultsThrough: string; tyres: Record<string, TyreAnalysis> }> => {
+  const data = JSON.parse(await readFile(path.join(process.cwd(), 'public/history/tyre-analysis.json'), 'utf8'));
+  for (const tyre of Object.values(data.tyres) as TyreAnalysis[]) {
+    tyre.first.name = translate(tyre.first.name, 'races');
+    tyre.last.name = translate(tyre.last.name, 'races');
+  }
+  return data;
+});

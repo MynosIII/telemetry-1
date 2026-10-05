@@ -9,8 +9,8 @@ const records: ArchiveRecord[] = [
   { type: "Piloto", title: "Ayrton Senna", detail: "Brasil · 3 campeonatos · 41 victorias", tag: "LEYENDA", href: "/pilotos/senna" },
   { type: "Piloto", title: "Lewis Hamilton", detail: "Reino Unido · 7 campeonatos · Era moderna", tag: "PILOTO", href: "/pilotos/hamilton" },
   { type: "Piloto", title: "Andrea Kimi Antonelli", detail: "Italia · Mercedes", tag: "ACTUAL", href: "/pilotos/antonelli" },
-  { type: "Circuito", title: "Autodromo Nazionale Monza", detail: "Italia · 5.793 km · Templo de la velocidad", tag: "PISTA", href: "/circuitos/monza" },
-  { type: "Circuito", title: "Suzuka International Racing Course", detail: "Japón · 5.807 km · Figura de ocho", tag: "PISTA", href: "/circuitos/suzuka" },
+  { type: "Circuito", title: "Autodromo Nazionale Monza", detail: "Italia · 5.793 km · Templo de la velocidad", tag: "PISTA", href: "/historia/circuits/monza" },
+  { type: "Circuito", title: "Suzuka International Racing Course", detail: "Japón · 5.807 km · Figura de ocho", tag: "PISTA", href: "/historia/circuits/suzuka" },
   { type: "Circuito", title: "Circuito de Buenos Aires", detail: "Argentina · Archivo histórico", tag: "HISTORIA" },
   { type: "Artículo", title: "Cómo leer una estrategia de neumáticos", detail: "Próximamente", tag: "PRÓXIMO" },
   { type: "Artículo", title: "Por qué cambia el rendimiento entre eras", detail: "Próximamente", tag: "PRÓXIMO" }

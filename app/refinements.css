@@ -47,7 +47,7 @@ section[id], [id="vueltas"] { scroll-margin-top: 100px; }
 .career-stage h3 { font-size: clamp(30px, 4vw, 48px); }
 .live-model-heading h2 { font-size: clamp(30px, 3.4vw, 48px); }
 .live-model-grid article strong { font-size: 28px; }
-.embed-title strong, .search-box input { font-family: var(--font-ui); font-style: normal; font-weight: 700; line-height: 1.3; }
+.embed-title h1, .search-box input { font-family: var(--font-ui); font-style: normal; font-weight: 700; line-height: 1.3; }
 .search-box input { font-size: clamp(17px, 2vw, 24px); text-transform: none; }
 .hero-lede { color: #b8b8bb; font-size: 18px; line-height: 1.75; max-width: 56ch; }
 .hero { gap: clamp(40px, 5vw, 88px); padding-top: 76px; padding-bottom: 76px; }
@@ -181,7 +181,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .predestinato-panel { border-color: #ffffff40; }
 .predestinato li, .career-header, .career-stage p, .career-stage small,
 .career-cards span, .career-cards b { font-size: 11px; line-height: 1.5; }
-.embed-title strong { font-size: 20px; }
+.embed-title h1 { font-size: 20px; }
 .embed-title span, .embed-actions, .lab-live-strip, .lab-live-strip em { font-size: 11px; letter-spacing: .035em; }
 .embedded-experience { grid-template-rows: 76px minmax(74px, auto) minmax(0, 1fr); height: 100dvh; }
 .embedded-experience.with-live-strip { grid-template-rows: 76px minmax(74px, auto) minmax(64px, auto) minmax(0, 1fr); }
@@ -224,7 +224,7 @@ footer > p { color: #a6a6aa; }
   .standing-row { padding-inline: 10px; grid-template-columns: 26px 36px minmax(0, 1fr) auto; gap: 8px; }
   .standing-row > div > b { font-size: 12px; }
   .embed-header { padding-inline: 18px; gap: 12px; }
-  .embed-title strong { font-size: 17px; }
+  .embed-title h1 { font-size: 17px; }
   .embed-actions { font-size: 10px; }
   .lab-live-strip { padding-block: 10px; }
   .chart-legend { gap: 12px; padding-inline: 18px; font-size: 10px; }
@@ -365,3 +365,62 @@ footer > p { color: #a6a6aa; }
   .topology-facts { grid-template-columns: 1fr; }
   .topology-facts > div:last-child { grid-column: auto; }
 }
+
+/* Season data fallback notice */
+.stale-data-notice { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; padding: 14px clamp(20px, 6vw, 108px); background: #3a2a00; border-bottom: 1px solid #6b4f00; color: #ffe7a3; }
+.stale-data-notice strong { font-size: 11px; font-weight: 900; letter-spacing: .9px; }
+.stale-data-notice p { margin: 0; font-size: 13px; line-height: 1.5; color: #fff3cf; }
+
+/* Viewer-zone day, shown only when it differs from the track day */
+.zone-day { display: block; margin-top: 3px; font: 700 10px Arial, sans-serif; letter-spacing: .04em; color: #ffb4ae; }
+.schedule-row .zone-day { color: #b3261e; }
+.schedule-row.is-live .zone-day, .session-grid.is-live .zone-day { color: #fff; }
+@media (min-width: 681px) {
+  /* Mexico and São Paulo drop the viewer column that would repeat the track's own country. */
+  .session-grid[data-zones="3"] { grid-template-columns: minmax(132px, 1.5fr) repeat(4, minmax(42px, .55fr)); }
+}
+.schedule-row[data-zones="3"] { grid-template-columns: minmax(170px, 1.5fr) repeat(4, minmax(70px, .6fr)); }
+
+/* Skip link: hidden until focused */
+.skip-link { position: absolute; left: 12px; top: -60px; z-index: 100; padding: 10px 16px; background: #fff; color: #080808; font-size: 14px; font-weight: 900; border-radius: 6px; }
+.skip-link:focus { top: 12px; }
+.skip-target { position: absolute; width: 1px; height: 1px; outline: none; }
+@media (max-width: 1060px) {
+  /* Fade the scrolling nav row so the hidden links read as "more to the right". */
+  .site-header nav { padding-right: 40px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 48px), transparent); }
+}
+
+/* Driver pages: one dark surface instead of a dark card on a white page */
+.inner-page.driver-page { background: #0b0b0b; }
+
+/* Statistics hub links */
+.stats-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 0 0 90px; }
+.stats-links a { display: flex; flex-direction: column; gap: 8px; padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: #fff; color: var(--ink); }
+.stats-links a:hover, .stats-links a:focus-visible { border-color: var(--red); }
+.stats-links strong { font-size: 17px; }
+.stats-links span { color: #5f5d5a; font-size: 13px; line-height: 1.5; }
+
+/* Contrast: small red and grey labels on dark surfaces need a lighter tint to reach 4.5:1 */
+.inner-hero .eyebrow-red, .section-dark .eyebrow, .archive-section .eyebrow, .driver-page .eyebrow, .race-detail-hero .eyebrow,
+.circuit-hero .eyebrow, .embed-title span, .timing-status strong, .race-finish-mark, .lap-record-card > p, .leader-data > small,
+.driver-overview a[target="_blank"], .history-content .eyebrow, .live-race .eyebrow, .stats-dashboard .live-model-panel .eyebrow,
+.embed-actions a:last-child, .lap-record-card > p:first-child, .mini-standings strong, .leader-data small, .timing-heading .eyebrow, .live-console-head a, .live-console .text-link { color: #ff4d42; }
+.forecast-heading .eyebrow { color: #c40500; }
+.market-panel > header span, .timing-notice > strong, .career-stage > p, .career-header b { color: #ff4d42; }
+.career-cards span, .career-stage small, .career-header span { color: #a8a0a3; }
+.model-panel .forecast-unavailable p { color: #5f5d5a; }
+.model-strip span, .market-panel .forecast-panel-footer, .game-footer span { color: #a3a3a8; }
+.calendar-round > span, .calendar-date, .full-result-row .grid-stat small, .circuit-country-line small, .standing-row > div > span, .standing-row small { color: #5f5d5a; }
+.ency-page-wrap p a, .ency-page-wrap li a, .history-note a { text-decoration: underline; text-underline-offset: 2px; }
+/* Keep the screen-reader zone labels inside their scrolling table */
+.schedule-table, .session-grid > b, .schedule-row > b { position: relative; }
+.stats-links-heading { margin-top: 90px; }
+@media (max-width: 680px) {
+  /* Angle the surnames so eight bars fit a phone without overlapping labels. */
+  .chart-area { height: 300px; padding-bottom: 62px; }
+  .chart-bars small { right: 50%; transform: rotate(-50deg); transform-origin: top right; }
+}
+.archive-tool > .history-source-link { display: inline-block; margin: 18px 22px 20px; }
+
+/* Current section in the main navigation. */
+.site-header nav a[aria-current="page"] { color: #fff; box-shadow: inset 0 -2px var(--red); }
