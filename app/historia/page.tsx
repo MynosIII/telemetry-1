@@ -13,11 +13,7 @@ export default async function HistoryPage() {
   const decades = Array.from({ length: Math.floor(meta.lastSeason / 10) - 194 }, (_, i) => 1950 + i * 10);
   return <main id="top" className="inner-page history-page"><SiteHeader />
     <div className="history-content">
-      <header className="archive-head">
-        <h1>Estadísticas</h1>
-        <p className="archive-meta">El archivo de la Fórmula 1: {number(meta.events)} Grandes Premios, {number(meta.categories.drivers.count)} pilotos y {number(meta.categories.constructors.count)} constructores, de 1950 a {meta.lastSeason}.</p>
-        <nav className="archive-links" aria-label="Accesos del archivo"><Link href="/historia/autos">Índice de autos</Link><Link href="/ranking">Ranking ELO</Link><a href="#metodologia">Cómo se cuenta</a></nav>
-      </header>
+      <h1 className="sr-only">Estadísticas</h1>
       <section className="archive-seasons" aria-labelledby="temporadas"><h2 id="temporadas">Temporadas</h2>
         <ol>{decades.map(decade => <li key={decade}>{Array.from({ length: 10 }, (_, i) => decade + i).filter(year => year <= meta.lastSeason).map(year => <Link key={year} prefetch={false} href={`/historia/seasons/${year}`}>{year}</Link>)}</li>)}</ol>
       </section>
