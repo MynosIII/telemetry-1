@@ -55,6 +55,7 @@ const countryCodes: Record<string, string> = {
   Bahrain: "BH",
   "United Kingdom": "GB",
   "United States": "US",
+  "United States of America": "US",
   "United Arab Emirates": "AE",
   France: "FR",
   Germany: "DE",
