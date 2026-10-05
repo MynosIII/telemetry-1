@@ -15,13 +15,12 @@ export const siteSections: SiteSection[] = [
   {
     href: "/temporada",
     label: "Temporada",
-    match: ["/temporada", "/calendario", "/en-vivo", "/carreras", "/circuitos"],
+    match: ["/temporada", "/calendario", "/carreras", "/circuitos"],
     links: [
       { href: "/temporada", label: "Clasificación" },
       { href: "/temporada#modelo-2026", label: "Pronóstico" },
       { href: "/temporada#resultados", label: "Resultados" },
-      { href: "/calendario", label: "Calendario" },
-      { href: "/en-vivo", label: "En vivo" }
+      { href: "/calendario", label: "Calendario" }
     ]
   },
   {
