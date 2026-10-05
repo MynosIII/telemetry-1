@@ -13,13 +13,16 @@ import { getF1HomeData } from "@/lib/f1-data";
 import { enrichMarketForecast, getPolymarketChampionForecast, simulateChampionship } from "@/lib/championship-forecast";
 import { getNextRaceModel } from "@/lib/race-weekend";
 import { getHistoryIndex } from "@/lib/history";
+import { getNews } from "@/lib/news";
+import { NewsList } from "@/components/NewsList";
 import eloRatings from "@/lib/elo-ratings.json";
 
 export default async function Home() {
-  const [data, rawMarketForecast, historyIndex] = await Promise.all([
+  const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
     getF1HomeData(),
     getPolymarketChampionForecast(),
-    getHistoryIndex()
+    getHistoryIndex(),
+    getNews(5)
   ]);
   // The model's differentiator on the home page: the v7.6 career ELO of the highest-rated drivers.
   const eloLeaders = Object.entries(eloRatings as Record<string, { name: string; careerRating: number }>)
@@ -105,6 +108,19 @@ export default async function Home() {
         <RaceBoard races={data.races} />
         <div className="section-action"><Link className="button button-dark" href="/temporada">CLASIFICACIÓN Y PRONÓSTICO <span>→</span></Link></div>
       </section>
+
+      {news.length ? (
+        <section className="section section-light" id="noticias" aria-labelledby="news-title">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow eyebrow-red">NOTICIAS</p>
+              <h2 id="news-title">LO ÚLTIMO DE LA <em>F1</em></h2>
+            </div>
+          </div>
+          <NewsList items={news} compact />
+          <div className="section-action"><Link className="button button-dark" href="/noticias">TODAS LAS NOTICIAS <span>→</span></Link></div>
+        </section>
+      ) : null}
 
       <section className="section archive-section" id="archivo" aria-labelledby="archive-title">
         <div className="section-heading heading-dark">

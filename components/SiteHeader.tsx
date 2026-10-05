@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SiteNav } from "@/components/SiteNav";
+import { SiteNav, SiteSubNav } from "@/components/SiteNav";
 
 export function SiteHeader() {
   return (
@@ -13,6 +13,7 @@ export function SiteHeader() {
       <SiteNav />
       <Link className="header-cta" href="/en-vivo"><span className="live-dot" /> En vivo</Link>
     </header>
+    <SiteSubNav />
     <span id="contenido" tabIndex={-1} className="skip-target" />
     </>
   );
