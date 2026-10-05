@@ -4,12 +4,15 @@ import { HistoryCharts } from "./HistoryCharts";
 import { LinkedNarrative, tidy, type NarrativeTarget } from "./LinkedNarrative";
 import { LineageExplorer, type LineageView } from "./LineageExplorer";
 import { TeamBadge } from "./TeamBadge";
+import { FallbackImage } from "./FallbackImage";
+import { driverPhoto } from "@/lib/driver-photos";
 import { TeamCarIndex, type TeamCar } from "./TeamCarIndex";
 import { historyCategories, type HistoryEntity } from "@/lib/history";
 import { getWikipediaHistory } from "@/lib/wikipedia-history";
 import { inkFor } from "@/lib/team-lineage";
 
 const number = (value: number) => value.toLocaleString("es-AR");
+const photoOf = (id: string) => { const url = driverPhoto(id); return url ? [url] : []; };
 const monogram = (name: string) => name.split(" ").filter(Boolean).map(part => part[0]).slice(0, 2).join("");
 
 async function TeamWikipedia({ entity }: { entity: HistoryEntity }) {
@@ -106,7 +109,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
         {winners.map((d, i) => <li key={d.id}>
           <Link prefetch={false} href={d.href}>
             <span className="team-winner-rank">{i + 1}</span>
-            <span className="team-winner-face" aria-hidden="true">{monogram(d.name)}</span>
+            <span className="team-winner-face" aria-hidden="true"><FallbackImage sources={photoOf(d.id)} alt="" fallback={monogram(d.name)} /></span>
             <span className="team-winner-name"><strong>{d.name}</strong><small>{d.firstSeason === d.lastSeason ? d.firstSeason : `${d.firstSeason}–${d.lastSeason}`} · {d.races} GP</small></span>
             <span className="team-winner-wins"><b>{d.wins}</b><small>{d.wins === 1 ? "victoria" : "victorias"}</small></span>
             <span className="team-winner-bar"><span style={{ width: `${d.wins / winners[0].wins * 100}%` }} /></span>

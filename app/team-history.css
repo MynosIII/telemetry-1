@@ -97,7 +97,8 @@
 .team-winners a { display: grid; grid-template-columns: 22px 52px minmax(0, 1fr) auto; grid-template-rows: auto 6px; align-items: center; gap: 10px 14px; padding: 16px 18px 14px; background: var(--panel); border: 1px solid var(--edge); border-radius: 14px; transition: border-color .15s, transform .15s; }
 .team-winners a:hover { border-color: var(--team); transform: translateY(-2px); }
 .team-winner-rank { color: #777; font-weight: 750; font-size: 14px; }
-.team-winner-face { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--team) 30%, #1c1c1c); border: 2px solid var(--team); font-weight: 800; font-size: 18px; }
+.team-winner-face { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--team) 30%, #1c1c1c); border: 2px solid var(--team); font-weight: 800; font-size: 18px; overflow: hidden; }
+.team-winner-face img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 .team-winner-name strong { display: block; font-size: 17px; }
 .team-winner-name small, .team-winner-wins small { color: #9d9d9d; font-size: 13px; }
 .team-winner-wins { text-align: right; } .team-winner-wins b { display: block; font-size: 28px; line-height: 1; }
