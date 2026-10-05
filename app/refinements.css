@@ -464,3 +464,6 @@ footer > p { color: #a6a6aa; }
   .news-copy { grid-column: 1; }
   .news-copy strong { font-size: 18px; }
 }
+
+/* Anchors from the sub-bar land below the sticky header. */
+#archivo, #temporadas, #clasificacion, #modelo-2026, #resultados { scroll-margin-top: 128px; }

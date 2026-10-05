@@ -23,6 +23,7 @@ function decode(value: string) {
     .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(parseInt(code, 16)))
     .replace(/&([a-z]+);/gi, (match, name) => entities[name.toLowerCase()] ?? match)
     .replace(/\s+/g, " ")
+    .replace(/ ([.,;:!?])/g, "$1")
     .trim();
 }
 
