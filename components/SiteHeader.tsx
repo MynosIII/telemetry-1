@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiteNav } from "@/components/SiteNav";
 
 export function SiteHeader() {
   return (
@@ -9,14 +10,7 @@ export function SiteHeader() {
         <span className="brand-mark">T<span>1</span></span>
         <span className="brand-copy">TELEMETRY <b>ONE</b></span>
       </Link>
-      <nav aria-label="Navegación principal">
-        <Link href="/#resultados">Resultados</Link>
-        <Link href="/calendario">Calendario</Link>
-        <Link href="/#juegos">Juegos</Link>
-        <Link href="/predestinato">El Predestinado</Link>
-        <Link href="/estadisticas">Estadísticas</Link>
-        <Link href="/historia">Historia</Link>
-      </nav>
+      <SiteNav />
       <Link className="header-cta" href="/en-vivo"><span className="live-dot" /> En vivo</Link>
     </header>
     <span id="contenido" tabIndex={-1} className="skip-target" />

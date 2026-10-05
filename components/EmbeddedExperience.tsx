@@ -7,19 +7,20 @@ type EmbeddedExperienceProps = {
   label: string;
   source: string;
   liveSummary?: LabLiveSummary;
+  back?: { href: string; label: string };
 };
 
-export function EmbeddedExperience({ title, label, source, liveSummary }: EmbeddedExperienceProps) {
+export function EmbeddedExperience({ title, label, source, liveSummary, back = { href: "/", label: "INICIO" } }: EmbeddedExperienceProps) {
   return (
     <main className={`embedded-experience${liveSummary ? " with-live-strip" : ""}`}>
       <SiteHeader />
       <div className="embed-header">
         <div className="embed-title">
-          <span>{label === "JUEGOS DE F1" ? "JUEGOS DE F1 / F1 GAMES" : label}</span>
+          <span>{label}</span>
           <h1>{title}</h1>
         </div>
         <div className="embed-actions">
-          <Link href="/">← INICIO / HOME</Link>
+          <Link href={back.href}>← {back.label}</Link>
           <a href={source} target="_blank" rel="noreferrer">ABRIR / OPEN ↗</a>
         </div>
       </div>

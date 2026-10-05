@@ -188,7 +188,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .game-footer { margin-top: auto; display: flex; justify-content: space-between; align-items: center; padding-top: 16px; border-top: 1px solid #2e2e33; font-size: 10px; color: #6f6f74; font-weight: 900; letter-spacing: .8px; }
 .game-footer b { color: white; font-size: 11px; }
 
-.predestinato { padding: 108px clamp(24px, 7vw, 128px); display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(52px, 8vw, 130px); align-items: center; background: var(--red-deep); position: relative; overflow: hidden; }
+.predestinato { color: white; padding: 108px clamp(24px, 7vw, 128px); display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(52px, 8vw, 130px); align-items: center; background: var(--red-deep); position: relative; overflow: hidden; }
 .predestinato::before { content: "P"; position: absolute; right: -35px; top: -120px; font-family: Impact, sans-serif; font-style: italic; font-size: 720px; line-height: 1; color: #ffffff06; }
 .predestinato-copy, .predestinato-panel { position: relative; z-index: 1; }
 .predestinato h2 em { color: white; }

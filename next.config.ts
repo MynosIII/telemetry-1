@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
     "/historia/autos/[modelId]": ["./public/history/cars/*.json"],
     "/pilotos/*": ["./public/history/drivers/*.json"]
   },
+  async redirects() {
+    return [
+      { source: "/estadisticas/laboratorio", destination: "/ranking", permanent: true },
+      { source: "/predestinato", destination: "/juegos/predestinato", permanent: true },
+      // Temporary: the archive may later move from /historia to /estadisticas itself.
+      { source: "/estadisticas", destination: "/historia", permanent: false }
+    ];
+  },
   allowedDevOrigins: ["127.0.0.1", "localhost"],
   images: {
     remotePatterns: [
