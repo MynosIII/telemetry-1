@@ -10,7 +10,7 @@ import { SeasonDossier } from "@/components/SeasonDossier";
 import { TeamHistory } from "@/components/TeamHistory";
 import type { LineageView } from "@/components/LineageExplorer";
 import { lineageFor, teamColor } from "@/lib/team-lineage";
-import { carPhoto, teamLogo } from "@/lib/team-media";
+import { carImage, teamLogo } from "@/lib/team-media";
 import "../../../team-history.css";
 
 type Props = { params: Promise<{ category: string; entityId: string }> };
@@ -38,7 +38,7 @@ export default async function EntityPage({ params }: Props) {
     const [catalogue, members] = await Promise.all([getCarCatalogue(), lineage ? Promise.all(lineage.steps.map(step => getHistoryEntity("constructors", step.id))) : []]);
     const cars = catalogue.cars.filter(car => car.constructor.id === entity.id)
       .sort((a, b) => a.seasons[0] - b.seasons[0] || a.name.localeCompare(b.name, "es", { numeric: true }))
-      .map(car => ({ id: car.id, name: car.name, href: car.href, seasons: car.seasons, engines: car.engines.map(e => e.name), photo: carPhoto(car) }));
+      .map(car => ({ id: car.id, name: car.name, href: car.href, seasons: car.seasons, engines: car.engines.map(e => e.name), image: carImage(car) }));
     const steps: LineageView[] = lineage ? lineage.steps.flatMap((step, i) => {
       const member = members[i];
       if (!member) return [];

@@ -6,8 +6,7 @@
 .team-badge { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; flex: none; background: var(--team); color: var(--team-ink, #fff); border-radius: 14px; box-shadow: inset 0 0 0 1px #ffffff26; text-align: center; overflow: hidden; }
 .team-badge b { font-weight: 850; letter-spacing: -.02em; line-height: 1; }
 .team-badge small { font-weight: 700; line-height: 1.1; padding: 0 6px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.team-badge.has-logo { background: #f4f4f4; padding: 10px; }
-.team-badge.has-logo img { width: 100%; height: 100%; object-fit: contain; }
+.team-badge.has-logo { display: block; box-sizing: border-box; background: #f4f4f4; padding: 10px; object-fit: contain; }
 .team-badge-sm { width: 48px; height: 48px; border-radius: 10px; } .team-badge-sm b { font-size: 16px; } .team-badge-sm small { display: none; }
 .team-badge-md { width: 92px; height: 72px; } .team-badge-md b { font-size: 24px; } .team-badge-md small { font-size: 10px; margin-top: 6px; }
 .team-badge-lg { width: 132px; height: 132px; border-radius: 22px; } .team-badge-lg b { font-size: 46px; } .team-badge-lg small { font-size: 12px; margin-top: 10px; }
@@ -128,7 +127,7 @@
 .car-index-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; }
 .car-card { display: block; background: var(--panel); border: 1px solid var(--edge); border-radius: 14px; overflow: hidden; transition: border-color .15s, transform .15s; height: 100%; }
 .car-card:hover { border-color: var(--team); transform: translateY(-2px); }
-.car-card-photo { display: block; aspect-ratio: 16 / 10; background: #1b1b1b; }
+.car-card-photo { display: block; position: relative; aspect-ratio: 16 / 10; background: #1b1b1b; }
 .car-card-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .car-card-empty { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, color-mix(in srgb, var(--team) 16%, #161616), #121212 70%); }
 .car-card-empty svg { width: 62%; fill: color-mix(in srgb, var(--team) 55%, #3a3a3a); }
@@ -136,7 +135,7 @@
 .car-card-body { display: block; padding: 12px 14px 14px; }
 .car-card-body strong { display: block; font-size: 16px; }
 .car-card-body span { display: block; color: #9d9d9d; font-size: 13px; margin-top: 4px; line-height: 1.4; }
-.car-card-credit { display: block; color: #8a8a8a; font-size: 11px; margin-top: 4px; }
+.car-card-credit { position: absolute; right: 0; bottom: 0; padding: 3px 7px; background: #000a; color: #ccc; font-size: 11px; border-top-left-radius: 6px; }
 .car-index-more { margin-top: 18px; }
 
 /* Connections and sources */
