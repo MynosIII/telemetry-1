@@ -11,6 +11,7 @@ import { getF1HomeData } from "@/lib/f1-data";
 import { enrichMarketForecast, getPolymarketChampionForecast, simulateChampionship } from "@/lib/championship-forecast";
 import { getNextRaceModel } from "@/lib/race-weekend";
 import { getHistoryIndex } from "@/lib/history";
+import eloRatings from "@/lib/elo-ratings.json";
 
 const games = [
   {
@@ -57,11 +58,13 @@ export default async function Home() {
     getPolymarketChampionForecast(),
     getHistoryIndex()
   ]);
-  const winLeaders = historyIndex.entities
-    .filter((entity) => entity.category === "drivers")
-    .sort((a, b) => b.stats.wins - a.stats.wins)
+  // The model's differentiator on the home page: the v7.6 career ELO of the highest-rated drivers.
+  const eloLeaders = Object.entries(eloRatings as Record<string, { name: string; careerRating: number }>)
+    .map(([id, rating]) => ({ id, ...rating }))
+    .sort((a, b) => b.careerRating - a.careerRating)
     .slice(0, 8);
-  const winScale = Math.ceil((winLeaders[0]?.stats.wins ?? 1) / 20) * 20;
+  const eloHigh = Math.ceil((eloLeaders[0]?.careerRating ?? 2000) / 50) * 50;
+  const eloLow = Math.floor(((eloLeaders.at(-1)?.careerRating ?? 1500) - 100) / 100) * 100;
   const marketForecast = enrichMarketForecast(rawMarketForecast, data.standings);
   // The snapshot only knows one weekend, so a simulation on it would be meaningless.
   const seasonForecast = data.live ? simulateChampionship(data) : undefined;
@@ -209,22 +212,22 @@ export default async function Home() {
             <a className="button button-dark" href="/estadisticas">ABRIR ESTADÍSTICAS <span>→</span></a>
           </div>
           <figure className="telemetry-chart">
-            <figcaption className="chart-head"><span>LÍDERES HISTÓRICOS</span><b>VICTORIAS EN GRANDES PREMIOS</b></figcaption>
+            <figcaption className="chart-head"><span>COMPARACIÓN HISTÓRICA · MODELO V7.6</span><b>RATING ELO DE CARRERA</b></figcaption>
             <div className="chart-area">
-              <div className="chart-y" aria-hidden="true">{[1, .75, .5, .25, 0].map((share) => <span key={share}>{Math.round(winScale * share)}</span>)}</div>
+              <div className="chart-y" aria-hidden="true">{[1, .75, .5, .25, 0].map((share) => <span key={share}>{Math.round(eloLow + (eloHigh - eloLow) * share)}</span>)}</div>
               <ol className="chart-bars">
-                {winLeaders.map((driver) => (
+                {eloLeaders.map((driver) => (
                   <li key={driver.id}>
-                    <Link href={`/pilotos/${driver.id}`} aria-label={`${driver.name}: ${driver.stats.wins} victorias`}>
-                      <b>{driver.stats.wins}</b>
-                      <i style={{ height: `${driver.stats.wins / winScale * 100}%` }} />
-                      <small>{driver.name.split(" ").at(-1)}</small>
+                    <Link href={`/pilotos/${driver.id}`} aria-label={`${driver.name}: ELO ${Math.round(driver.careerRating)}`}>
+                      <b>{Math.round(driver.careerRating)}</b>
+                      <i style={{ height: `${(driver.careerRating - eloLow) / (eloHigh - eloLow) * 100}%` }} />
+                      <small>{driver.name.replace(/ Jr\.$/, "").split(" ").at(-1)}</small>
                     </Link>
                   </li>
                 ))}
               </ol>
             </div>
-            <div className="chart-legend"><span><i /> VICTORIAS POR PILOTO</span><span>ARCHIVO {historyIndex.meta.firstSeason} — {historyIndex.meta.lastSeason}</span></div>
+            <div className="chart-legend"><span><i /> ELO RETROSPECTIVO · <Link href="/estadisticas/laboratorio">VER EL LABORATORIO →</Link></span><span>ARCHIVO {historyIndex.meta.firstSeason} — {historyIndex.meta.lastSeason}</span></div>
           </figure>
         </div>
       </section>

@@ -179,3 +179,20 @@
 .team-more-winners summary::-webkit-details-marker { display: none; }
 .team-more-winners summary:hover { border-color: var(--team); }
 .team-more-winners[open] summary { margin-bottom: 12px; }
+
+/* v7.6 model ranking */
+.team-elo { list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 8px; }
+.team-elo a { display: grid; grid-template-columns: 22px minmax(170px, 1.2fr) minmax(80px, 2fr) 70px minmax(150px, 1fr); align-items: center; gap: 16px; padding: 12px 18px; background: var(--panel); border: 1px solid var(--edge); border-radius: 12px; }
+.team-elo a:hover { border-color: var(--team); }
+.team-elo-name strong { display: block; font-size: 16px; }
+.team-elo-name small, .team-elo-value small, .team-elo-xw small { color: #9d9d9d; font-size: 12px; }
+.team-elo-bar { height: 10px; background: #262626; border-radius: 5px; overflow: hidden; }
+.team-elo-bar span { display: block; height: 100%; background: linear-gradient(90deg, color-mix(in srgb, var(--team) 45%, #222), var(--team)); border-radius: 5px; }
+.team-elo-value { text-align: right; } .team-elo-value b { font-size: 22px; font-variant-numeric: tabular-nums; margin-right: 4px; }
+.team-elo-xw b { display: block; font-size: 16px; font-variant-numeric: tabular-nums; }
+.team-elo-xw .is-up { color: #4ade80; } .team-elo-xw .is-down { color: #f87171; }
+@media (max-width: 760px) {
+  .team-elo a { grid-template-columns: 22px minmax(0, 1fr) auto; gap: 6px 12px; }
+  .team-elo-bar { grid-column: 2 / -1; grid-row: 2; }
+  .team-elo-xw { grid-column: 2 / -1; }
+}
