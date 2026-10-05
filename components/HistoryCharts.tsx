@@ -41,7 +41,7 @@ export function HistoryCharts({ seasons, ratings }: { seasons: HistoryEntity["se
 
   return <div className="history-charts">
     <figure className="history-chart">
-      <figcaption><h3>Resultados por temporada</h3><p>Cada barra representa una temporada. Seleccioná una para ver sus cifras.</p></figcaption>
+      <figcaption><h3>Resultados por temporada</h3></figcaption>
       <div className="history-chart-controls" aria-label="Métrica del gráfico">{(Object.entries(metricLabels) as [Metric, string][]).map(([key, label]) => <button key={key} aria-pressed={key === metric} onClick={() => setMetric(key)}>{label}</button>)}</div>
       <div className="history-bars-frame">
       <div className="history-bars-axis" aria-hidden="true">{[1, .5, 0].map(f => <span key={f}>{max * f}</span>)}</div>
@@ -49,7 +49,7 @@ export function HistoryCharts({ seasons, ratings }: { seasons: HistoryEntity["se
         {seasons.map(s => <button className="history-bar" key={s.season} aria-pressed={selected === s.season} aria-label={`${s.season}: ${s[metric]} ${metricLabels[metric]}`} onClick={() => setSelected(s.season)} title={`${s.season}: ${s[metric]} ${metricLabels[metric]}`}>{seasons.length <= 30 ? <em>{s[metric]}</em> : null}<span style={{ height: `${s[metric] / max * 100}%` }} className={s.champion ? "champion-bar" : undefined} /><small>{s.season}</small></button>)}
       </div>
       </div>
-      <p className="history-chart-detail" role="status">{season ? `${season.season} · ${season.races} GP · ${season.wins} victorias · ${season.podiums} podios · ${season.poles} salidas P1${season.position ? ` · Campeonato: ${season.position}` : ""}` : `${metricLabels[metric]} · máximo por temporada: ${observedMax}. Las barras doradas marcan los años con título del campeonato.`}</p>
+      <p className="history-chart-detail" role="status">{season ? `${season.season} · ${season.races} GP · ${season.wins} victorias · ${season.podiums} podios · ${season.poles} salidas P1${season.position ? ` · Campeonato: ${season.position}` : ""}` : `Máximo en una temporada: ${observedMax}.${seasons.some(s => s.champion) ? " En dorado, los años con título." : ""} Tocá una barra para ver la temporada.`}</p>
       <details><summary>Ver los datos del gráfico</summary><div className="history-table-scroll"><table><thead><tr><th>Temporada</th><th>GP</th><th>Victorias</th><th>Podios</th><th>Salidas P1</th><th>Campeonato</th><th>Puntos</th></tr></thead><tbody>{seasons.map(s => <tr key={s.season}><td>{s.season}{s.champion ? " ★" : ""}</td><td>{s.races}</td><td>{s.wins}</td><td>{s.podiums}</td><td>{s.poles}</td><td>{s.position ?? "—"}</td><td>{s.points ?? "—"}</td></tr>)}</tbody></table></div></details>
     </figure>
     {ratings.length ? <figure className="history-chart">
@@ -60,7 +60,7 @@ export function HistoryCharts({ seasons, ratings }: { seasons: HistoryEntity["se
         {segments.map((segment, i) => <polyline key={i} points={segment.map(r => `${ratingX(r).toFixed(1)},${(210 - (r.rating - low) / range * 180).toFixed(1)}`).join(" ")} fill="none" stroke="#e10600" strokeWidth="3" />)}
         {yearTicks.map(year => <text key={year} x={48 + (year - firstYear + .5) * slot} y="240" textAnchor="middle">{year}</text>)}
       </svg>
-      <p className="history-chart-detail">Estimación analítica. El ELO y las victorias esperadas usan la cobertura propia del modelo.</p>
+      
       <details><summary>Ver el historial del modelo ({ratings.length} carreras)</summary><p className="history-note">La expectativa del auto es su probabilidad modelada de victoria. No es la expectativa XW del piloto usada en el total de victorias esperadas.</p><div className="history-table-scroll history-rating-data"><table><thead><tr><th>Temporada</th><th>GP</th><th>ELO</th><th>Expectativa del auto</th></tr></thead><tbody>{ratings.map(r => <tr key={`${r.season}/${r.round}`}><td>{r.season}</td><td><Link prefetch={false} href={`/historia/carreras/${r.season}/${r.round}`}>{r.event}</Link></td><td>{r.rating.toFixed(1)}</td><td>{r.expectedCarWin === null ? "—" : `${(r.expectedCarWin * 100).toFixed(1)}%`}</td></tr>)}</tbody></table></div></details>
     </figure> : null}
   </div>;

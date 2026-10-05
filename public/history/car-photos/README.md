@@ -1,7 +1,8 @@
 # Fotos de autos
 
 Poné cada foto en esta carpeta con el nombre exacto de abajo (`<id>.jpg`).
-La página del equipo, la ficha del auto y el catálogo la toman sola; si falta, muestran el espacio vacío.
+La página del equipo, la ficha del auto y el catálogo la toman sola en el próximo deploy (el build arma la lista con `scripts/car-photo-manifest.mjs`). Si falta, el auto se lista sin foto.
+En local, después de agregar fotos corré `node scripts/car-photo-manifest.mjs`.
 Para otro formato o nombre, agregá una entrada en `lib/car-photos.json`.
 
 ## Adams

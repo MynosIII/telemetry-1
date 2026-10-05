@@ -13,6 +13,7 @@ const avatarFor = (category: HistoryCategory, id: string) => {
   const url = category === "drivers" ? driverPhoto(id) : teamLogo(id);
   return url ? [url] : [];
 };
+const singular: Record<HistoryCategory, string> = { drivers: "Piloto", constructors: "Constructor", engines: "Motor", circuits: "Circuito", nations: "Nación", tyres: "Neumático", "grands-prix": "Gran Premio", seasons: "Temporada" };
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 export type ArchiveEntry = Pick<HistorySummary, "id" | "category" | "name" | "fullName" | "country" | "firstSeason" | "lastSeason" | "titleSeasons" | "href"> & { stats: Pick<HistorySummary["stats"], "races" | "wins"> };
@@ -28,25 +29,28 @@ export function HistoryArchive({ entities }: { entities: ArchiveEntry[] }) {
     normalize(`${e.name} ${e.fullName} ${e.country ?? ""}`).includes(normalize(query.trim()))
   ).sort((a, b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "debut" ? a.firstSeason - b.firstSeason : sort === "races" ? b.stats.races - a.stats.races : b.stats.wins - a.stats.wins), [entities, category, query, champions, sort]);
 
+  const titled = category === "drivers" || category === "constructors";
   return <div className="history-archive">
-    <div className="history-categories" aria-label="Categorías del archivo">
-      {(Object.entries(historyCategories) as [HistoryCategory, string][]).map(([key, label]) =>
+    <div className="history-categories" role="group" aria-label="Categorías del archivo">
+      {(Object.entries(historyCategories) as [HistoryCategory, string][]).filter(([key]) => key !== "seasons").map(([key, label]) =>
         <button key={key} aria-pressed={category === key} onClick={() => { setCategory(key); setLimit(30); setChampions(false); }}>{label}<span>{entities.filter(e => e.category === key).length}</span></button>
       )}
     </div>
     <div className="history-filters">
-      <label className="history-search"><span>Buscar en {historyCategories[category].toLowerCase()}</span><input type="search" placeholder="Nombre o país…" value={query} onChange={e => { setQuery(e.target.value); setLimit(30); }} /></label>
-      <label><span>Ordenar por</span><select value={sort} onChange={e => setSort(e.target.value)}><option value="wins">Victorias</option><option value="races">Grandes Premios</option><option value="debut">Primera temporada</option><option value="name">Nombre</option></select></label>
-      {category === "drivers" || category === "constructors" ? <label className="history-check"><input type="checkbox" checked={champions} onChange={e => { setChampions(e.target.checked); setLimit(30); }} /> Solo campeones</label> : null}
+      <label className="history-search"><span className="sr-only">Buscar en {historyCategories[category].toLowerCase()}</span><input type="search" placeholder={`Buscar en ${historyCategories[category].toLowerCase()}…`} value={query} onChange={e => { setQuery(e.target.value); setLimit(30); }} /></label>
+      <label><span className="sr-only">Ordenar por</span><select value={sort} onChange={e => setSort(e.target.value)}><option value="wins">Más victorias</option><option value="races">Más Grandes Premios</option><option value="debut">Primera temporada</option><option value="name">Nombre</option></select></label>
+      {titled ? <label className="history-check"><input type="checkbox" checked={champions} onChange={e => { setChampions(e.target.checked); setLimit(30); }} /> Solo campeones</label> : null}
+      <p className="history-count" role="status">{results.length.toLocaleString("es-AR")} {results.length === 1 ? "resultado" : "resultados"}</p>
     </div>
-    <p className="history-count" role="status">{results.length} resultados · mostrando {Math.min(limit, results.length)}</p>
-    <div className="history-directory">
+    <div className={`history-directory${titled ? " is-titled" : ""}`}>
+      <div className="history-directory-head" aria-hidden="true"><span>{singular[category]}</span>{titled ? <span>Títulos</span> : null}<span>GP</span><span>Victorias</span></div>
       {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href}>
-        <div className="history-directory-who">{category === "drivers" || category === "constructors" ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}<div><strong>{entity.name}</strong><span>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}{entity.titleSeasons.length ? ` · ${entity.titleSeasons.length} título${entity.titleSeasons.length === 1 ? "" : "s"}` : ""}</span></div></div>
-        <b>{entity.stats.races}<small>GP</small></b><b>{entity.stats.wins}<small>VICTORIAS</small></b><span className="history-open">EXPLORAR →</span>
+        <span className="history-directory-who">{titled ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}<span><strong>{entity.name}</strong><small>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}</small></span></span>
+        {titled ? <b className={entity.titleSeasons.length ? "is-champion" : "is-zero"}>{entity.titleSeasons.length || "—"}<small> títulos</small></b> : null}
+        <b>{entity.stats.races}<small> GP</small></b><b className={entity.stats.wins ? "" : "is-zero"}>{entity.stats.wins}<small> victorias</small></b>
       </Link>)}
     </div>
-    {!results.length ? <p className="history-empty">No hay coincidencias en esta categoría. Probá otro nombre, país o categoría.</p> : null}
-    {limit < results.length ? <button className="button button-dark" onClick={() => setLimit(n => n + 30)}>MOSTRAR 30 MÁS</button> : null}
+    {!results.length ? <p className="history-empty">Sin coincidencias. Probá otro nombre o país.</p> : null}
+    {limit < results.length ? <button className="history-more" onClick={() => setLimit(n => n + 30)}>Mostrar 30 más</button> : null}
   </div>;
 }
