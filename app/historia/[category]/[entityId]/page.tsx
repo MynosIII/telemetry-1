@@ -70,12 +70,13 @@ export default async function EntityPage({ params }: Props) {
     return <main id="top" className="inner-page history-page team-page"><SiteHeader /><TeamHistory entity={entity} color={teamColor(entity.id)} logo={teamLogo(entity.id)} cars={cars} lineage={lineage && steps.length > 1 && current >= 0 ? { base: lineage.base, steps, current } : null} /><SiteFooter /></main>;
   }
   const stats = entity.stats, number = (value: number) => value.toLocaleString("es-AR");
-  const flag = entity.category === "circuits" && entity.country ? getCountryFlagUrl(entity.country) : undefined;
+  const country = entity.country ?? (entity.category === "nations" ? entity.name : undefined);
+  const flag = country ? getCountryFlagUrl(country) : undefined;
   const figures = [["Grandes Premios", stats.races], ["Victorias", stats.wins], ["Podios", stats.podiums], ["Salidas P1", stats.poles], ["Vueltas rápidas", stats.fastestLaps]] as const;
   return <main id="top" className="inner-page history-page"><SiteHeader /><div className="history-content">
     <header className="archive-head">
       <nav className="archive-crumb" aria-label="Ruta"><Link href="/historia">Estadísticas</Link><span>/</span><span>{historyCategories[entity.category]}</span></nav>
-      <h1>{flag ? <img className="archive-flag" src={flag} alt={`Bandera de ${translate(entity.country ?? "", "countries")}`} width={36} height={24} /> : null}{entity.name}</h1>
+      <h1>{flag ? <img className="archive-flag" src={flag} alt={`Bandera de ${translate(country ?? "", "countries")}`} width={36} height={24} /> : null}{entity.category === "nations" ? translate(entity.name, "countries") : entity.name}</h1>
       <p className="archive-meta">{[entity.fullName !== entity.name ? entity.fullName : null, entity.country ? translate(entity.country, "countries") : null, entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
       <dl className="archive-figures">{figures.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{number(value)}</dd></div>)}</dl>
     </header>

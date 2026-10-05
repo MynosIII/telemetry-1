@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "./ResilientImage";
 import { getHistoryIndex, type HistoryEntity } from "@/lib/history";
 import type { DriverProfile } from "@/lib/types";
+import { getCountryFlagUrl } from "@/lib/circuit-visuals";
+import { translate } from "@/lib/dictionary";
 
 const number = (value: number) => value.toLocaleString("es-AR", { maximumFractionDigits: 2 });
 const date = (value?: string) => value ? new Intl.DateTimeFormat("es-AR", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${value}T12:00:00Z`)) : undefined;
@@ -60,7 +62,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
         <dl className="driver-overview-facts">
           <div><dt>Nacimiento</dt><dd>{date(birthDate) ?? "Sin registro"}{history?.biography.placeOfBirth ? ` · ${history.biography.placeOfBirth}` : ""}</dd></div>
           {deathDate ? <div><dt>Fallecimiento</dt><dd>{date(deathDate)}</dd></div> : null}
-          <div><dt>Nacionalidad</dt><dd>{nation ? <Link prefetch={false} href={nation.href}>{nation.name} ↗</Link> : history?.country ?? identity.nationality ?? "Sin registro"}</dd></div>
+          <div><dt>Nacionalidad</dt><dd>{getCountryFlagUrl(nation?.name ?? history?.country ?? "") ? <img className="history-flag-inline" src={getCountryFlagUrl(nation?.name ?? history?.country ?? "")} alt="" width={16} height={11} /> : null}{nation ? <Link prefetch={false} href={nation.href}>{translate(nation.name, "countries")} ↗</Link> : (history?.country ? translate(history.country, "countries") : null) ?? identity.nationality ?? "Sin registro"}</dd></div>
           <div><dt>Primer GP registrado</dt><dd>{first ? <Link prefetch={false} href={`/historia/carreras/${first.season}/${first.round}`}>{first.event} · {first.season} ↗</Link> : history?.firstSeason ?? telemetry?.debut ?? "—"}</dd></div>
           <div><dt>Último GP del archivo</dt><dd>{last ? <Link prefetch={false} href={`/historia/carreras/${last.season}/${last.round}`}>{last.event} · {last.season} ↗</Link> : history?.lastSeason ?? telemetry?.lastSeason ?? "—"}</dd></div>
           <div><dt>Mejor resultado</dt><dd>{bestFinish ? `P${bestFinish}` : "Sin clasificación"}</dd></div>
