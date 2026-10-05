@@ -32,23 +32,6 @@ const flagFromCountry = (country: string) => {
 
 const number = new Intl.NumberFormat("es-AR", { maximumFractionDigits: 1 });
 
-function modelPercent(value: number) {
-  return Math.max(0, Math.min(100, Math.round(value * 100)));
-}
-
-function ModelVariable({ label, value, detail }: { label: string; value: number; detail: string }) {
-  const percentage = modelPercent(value);
-  return (
-    <div className="topology-variable">
-      <div><span>{label}</span><strong>{percentage}</strong></div>
-      <div className="topology-meter" aria-label={`${label}: ${percentage} sobre 100`}>
-        <i style={{ width: `${percentage}%` }} />
-      </div>
-      <small>{detail}</small>
-    </div>
-  );
-}
-
 function buildMapUrl(latitude: number, longitude: number) {
   const latitudeSpan = 0.075;
   const longitudeSpan = 0.11;
@@ -76,7 +59,6 @@ export function CircuitIntelligence({ circuit, topology }: Props) {
           <p className="eyebrow eyebrow-red">CONOCER EL CIRCUITO</p>
           <h2 id="circuit-intelligence-title">RADIOGRAFÍA DEL <em>TRAZADO</em></h2>
         </div>
-        {topology ? <p className="topology-version">GEOMETRÍA V9 · TRAZADO {topology.sourceSeason}</p> : null}
       </div>
 
       <div className="circuit-story-grid">
@@ -100,7 +82,7 @@ export function CircuitIntelligence({ circuit, topology }: Props) {
         </article>
 
         <article className="lap-record-card speed-card">
-          <p>RÉCORD DE VUELTA · F1</p>
+          <p>RÉCORD DE VUELTA</p>
           {circuit.lapRecord ? (
             <>
               <strong>{circuit.lapRecord.time}</strong>
@@ -116,10 +98,9 @@ export function CircuitIntelligence({ circuit, topology }: Props) {
           ) : (
             <div className="record-unavailable">
               <strong>—</strong>
-              <p>Wikipedia todavía no ofrece un récord F1 estructurado para este trazado.</p>
+              <p>Récord no disponible.</p>
             </div>
           )}
-          <small className="record-note">Récord de carrera · Jolpica / Wikipedia.</small>
         </article>
       </div>
 
@@ -135,7 +116,6 @@ export function CircuitIntelligence({ circuit, topology }: Props) {
                 referrerPolicy="no-referrer-when-downgrade"
               />
               <div className="map-meta">
-                <code>{circuit.latitude!.toFixed(4)}, {circuit.longitude!.toFixed(4)}</code>
                 <a href={mapLink} target="_blank" rel="noreferrer">ABRIR MAPA ↗</a>
               </div>
             </>
@@ -143,52 +123,31 @@ export function CircuitIntelligence({ circuit, topology }: Props) {
         </article>
 
         <article className="track-shape-card speed-card">
-          <div className="card-label"><span>FORMA DEL CIRCUITO</span><b>{topology ? `${topology.turnCount} CURVAS DETECTADAS` : "SIN PERFIL"}</b></div>
+          <div className="card-label"><span>FORMA DEL CIRCUITO</span></div>
           {topology ? (
             <>
               <div className="track-shape-image">
                 <Image src={topology.mapImage} alt={`Topología de ${circuit.name}`} fill sizes="(max-width: 900px) 100vw, 50vw" unoptimized />
               </div>
               <div className="map-meta">
-                <span>TRAZADO {topology.sourceSeason} · {topology.topologyQuality === "high" ? "CALIDAD ALTA" : `CALIDAD ${topology.topologyQuality.toUpperCase()}`}</span>
-                <a href={topology.mapImage} target="_blank" rel="noreferrer">{topology.license} ↗</a>
+                <a href={topology.mapImage} target="_blank" rel="noreferrer">CRÉDITOS DE LA IMAGEN ↗</a>
               </div>
             </>
           ) : (
             <div className="topology-empty">
-              <b>GEOMETRÍA PENDIENTE</b>
-              <p>El modelo todavía no tiene una topología validada para este trazado. No mostramos estimaciones como si fueran datos.</p>
+              <b>TRAZADO NO DISPONIBLE</b>
+              <p>Todavía no tenemos la imagen de este circuito.</p>
             </div>
           )}
         </article>
       </div>
 
       {topology ? (
-        <>
-          <div className="topology-facts" aria-label="Estadísticas de la topología">
-            <div><span>CURVAS / KM</span><strong>{number.format(topology.turnsPerKm)}</strong></div>
-            <div><span>RECTA MÁS LARGA</span><strong>{number.format(topology.longestStraightM)} M</strong></div>
-            <div><span>COMPLEJOS</span><strong>{topology.complexCount}</strong></div>
-            <div><span>CHICANAS + ESSES</span><strong>{topology.chicaneCount + topology.essesCount}</strong></div>
-            <div><span>GIRO / KM</span><strong>{number.format(topology.totalTurningPerKm)}°</strong></div>
-          </div>
-
-          <div className="elo-topology-panel">
-            <div className="elo-topology-copy">
-              <p className="eyebrow eyebrow-red">VARIABLES DEL MODELO</p>
-              <h3>HUELLA TOPOLÓGICA <em>ELO</em></h3>
-              <p>Son las mismas familias geométricas que alimentan el ajuste por circuito del modelo. Cada barra describe la forma relativa del trazado; no es una nota de dificultad ni una predicción del resultado.</p>
-              <small>Fuente: perfiles de forma V9 generados por Telemetry 1 a partir de la geometría pública de Wikipedia/Wikimedia.</small>
-            </div>
-            <div className="topology-variables">
-              <ModelVariable label="EXPOSICIÓN A RECTAS" value={topology.straightExposure} detail={`${number.format(topology.topThreeStraightShare * 100)}% en las tres rectas principales`} />
-              <ModelVariable label="ROTACIÓN LENTA" value={topology.slowRotation} detail="Peso relativo de curvas lentas y cerradas" />
-              <ModelVariable label="ROTACIÓN FLUIDA" value={topology.flowingRotation} detail="Continuidad de curvas medias y rápidas" />
-              <ModelVariable label="CAMBIOS DE DIRECCIÓN" value={topology.directionChange} detail={`${topology.multiTurnComplexCount} complejos de varias curvas`} />
-              <ModelVariable label="COMPLEJIDAD" value={topology.complexity} detail={`${topology.multiApexTurnCount} multiápice · ${topology.tighteningTurnCount} de radio decreciente`} />
-            </div>
-          </div>
-        </>
+        <div className="topology-facts" aria-label="Datos del circuito">
+          <div><span>CURVAS</span><strong>{topology.turnCount}</strong></div>
+          <div><span>RECTA MÁS LARGA</span><strong>{number.format(topology.longestStraightM)} M</strong></div>
+          <div><span>CHICANAS Y ESSES</span><strong>{topology.chicaneCount + topology.essesCount}</strong></div>
+        </div>
       ) : null}
     </section>
   );

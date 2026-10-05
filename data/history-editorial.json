@@ -1,0 +1,82 @@
+{
+  "drivers/senna": {
+    "paragraphs": [
+      "La carrera de Senna une cuatro etapas: el debut con Toleman en 1984, las primeras victorias con Lotus, los campeonatos con McLaren y el breve paso por Williams. Estoril 1985 fue su primera victoria; Mónaco terminó siendo uno de sus escenarios más reconocibles, con seis triunfos.",
+      "La convivencia con Alain Prost convirtió los años de McLaren en una disputa deportiva e interna. Los desenlaces de Japón en 1989 y 1990 forman parte de esa historia. En 1993 ganó con McLaren en Brasil y Donington bajo la lluvia; al año siguiente murió durante el Gran Premio de San Marino. Los resultados, el contexto del auto y la curva del modelo permiten recorrer esas etapas desde perspectivas complementarias."
+    ],
+    "sources": ["https://www.statsf1.com/en/ayrton-senna.aspx", "https://en.wikipedia.org/wiki/Ayrton_Senna"],
+    "reviewedAt": "2026-10-05"
+  },
+  "drivers/fangio": {
+    "paragraphs": [
+      "Antes de su etapa europea, Fangio construyó su carrera en el automovilismo argentino y el Turismo Carretera. Su experiencia como mecánico también precedió a su llegada al Campeonato Mundial de 1950.",
+      "Sus cinco campeonatos se repartieron entre Alfa Romeo, Mercedes, Ferrari y Maserati. Esa diversidad de equipos es central en su historia: las victorias no pertenecen a una única asociación entre piloto y maquinaria. Las carreras con autos compartidos y los sistemas de descarte de puntos exigen leer sus cifras con las reglas de aquella época."
+    ],
+    "sources": ["https://www.statsf1.com/en/juan-manuel-fangio.aspx", "https://en.wikipedia.org/wiki/Juan_Manuel_Fangio"],
+    "reviewedAt": "2026-10-05"
+  },
+  "drivers/clark": {
+    "paragraphs": [
+      "Clark desarrolló toda su carrera mundialista con Lotus y ganó los campeonatos de 1963 y 1965. Su trayectoria cruzó categorías: en 1965 ganó las 500 Millas de Indianápolis, una victoria que ya no formaba parte del Campeonato Mundial de Fórmula 1.",
+      "Ese cruce ayuda a entender por qué los resultados de F1 no contienen por sí solos toda su carrera deportiva. Aquí se puede seguir su evolución con Lotus y contrastarla con el modelo; la referencia enciclopédica amplía sus participaciones en Indianápolis y en la Tasman Series."
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Jim_Clark"],
+    "reviewedAt": "2026-10-05"
+  },
+  "drivers/lauda": {
+    "paragraphs": [
+      "La trayectoria de Lauda atraviesa los títulos con Ferrari, el accidente del Nürburgring en 1976 y su regreso a la competición durante esa misma temporada. Años después, el retorno con McLaren abrió una segunda etapa ganadora, culminada con el campeonato de 1984.",
+      "La separación entre etapas permite leer sus resultados sin tratar los años fuera de la competición como rendimiento observado. Por eso la curva ELO deja un espacio entre temporadas de actividad discontinuas."
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Niki_Lauda"],
+    "reviewedAt": "2026-10-05"
+  },
+  "drivers/michael_schumacher": {
+    "paragraphs": [
+      "Los primeros títulos de Schumacher llegaron con Benetton en 1994 y 1995. Su siguiente etapa se construyó alrededor de Ferrari: en 2000 volvió a ganar el campeonato de pilotos para la escudería, que no lo conseguía desde 1979.",
+      "Los cinco títulos consecutivos de 2000 a 2004 muestran la duración de aquella asociación. Tras su primera retirada regresó con Mercedes entre 2010 y 2012. El archivo conserva ambas etapas y el gráfico evita unir como si fueran carreras observadas los años de su ausencia."
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Michael_Schumacher"],
+    "reviewedAt": "2026-10-05"
+  },
+  "drivers/hamilton": {
+    "paragraphs": [
+      "Hamilton debutó con McLaren en 2007 y ganó por primera vez en Canadá, en su sexta participación. En 2008 consiguió su primer campeonato, decidido en la última carrera de Brasil.",
+      "El paso a Mercedes en 2013 abrió una nueva etapa, seguida por los éxitos del período híbrido. Su trayectoria permite comparar un inicio competitivo inmediato con una permanencia prolongada en la lucha por los campeonatos. Las cifras históricas tienen corte en 2025; los resultados de la temporada actual aparecen por separado."
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Lewis_Hamilton"],
+    "reviewedAt": "2026-10-05"
+  },
+  "constructors/ferrari": {
+    "paragraphs": [
+      "La historia de la Scuderia precede al Mundial de 1950: Enzo Ferrari la fundó en 1929. Su continuidad en el campeonato atraviesa generaciones de pilotos, cambios de motores y reglamentos técnicos.",
+      "La asociación con Schumacher produjo cinco títulos de pilotos consecutivos entre 2000 y 2004. Para leer una trayectoria tan larga conviene distinguir los resultados del constructor, los del equipo oficial y los de sus clientes históricos: los conteos pueden variar entre fuentes si esas identidades se agrupan de otra manera. Aquí se sigue la identidad de constructor que registra F1DB."
+    ],
+    "sources": ["https://www.statsf1.com/en/ferrari.aspx", "https://en.wikipedia.org/wiki/Scuderia_Ferrari", "https://en.wikipedia.org/wiki/Michael_Schumacher"],
+    "reviewedAt": "2026-10-05"
+  },
+  "constructors/mclaren": {
+    "paragraphs": [
+      "Bruce McLaren fundó su equipo en 1963; su debut mundialista llegó en Mónaco en 1966 y su primera victoria en Bélgica en 1968. En 1974 conquistó sus primeros campeonatos de pilotos y constructores.",
+      "Su historia conecta distintas generaciones y socios técnicos: Lauda y Prost, la convivencia de Prost y Senna, los títulos de Häkkinen y el campeonato de Hamilton. Los cambios de proveedor de motores hacen especialmente útil seguir los enlaces entre constructor y motorista: la continuidad del nombre McLaren no significa que la combinación técnica haya permanecido igual."
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/McLaren", "https://www.statsf1.com/en/ayrton-senna.aspx"],
+    "reviewedAt": "2026-10-05"
+  },
+  "engines/honda": {
+    "paragraphs": [
+      "Honda llegó al campeonato en 1964 con un proyecto propio de auto y motor. Su trayectoria posterior incluye etapas como proveedor, especialmente las asociaciones con Williams y McLaren que enlazaron los campeonatos de constructores de 1986 a 1991.",
+      "Las variantes técnicas muestran el cambio entre el turbo de 1,5 litros y los motores atmosféricos del reglamento posterior. Las etapas modernas también obligan a distinguir nombres de inscripción: Honda, RBPT y Honda RBPT se conservan como identidades del registro, en lugar de sumar sus resultados automáticamente."
+    ],
+    "sources": ["https://www.statsf1.com/en/moteur-honda.aspx", "https://en.wikipedia.org/wiki/Honda_in_Formula_One"],
+    "reviewedAt": "2026-10-05"
+  },
+  "engines/renault": {
+    "paragraphs": [
+      "El RS01 introdujo en 1977 un Renault V6 turbo de 1,5 litros. Su primera etapa combinó potencia prometedora con problemas de fiabilidad, antes de que la tecnología turbo se extendiera por la parrilla.",
+      "Renault compitió como constructor y suministró motores a otros equipos. Son papeles distintos: esta ficha reúne la identidad del proveedor de motores, mientras que la ficha de constructor permite seguir los resultados del equipo inscrito como Renault."
+    ],
+    "sources": ["https://en.wikipedia.org/wiki/Renault_in_Formula_One"],
+    "reviewedAt": "2026-10-05"
+  }
+}

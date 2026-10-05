@@ -1,0 +1,12 @@
+.git/
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+out/
+*.log
+*.tsbuildinfo
+data/statsf1/
+data/statsf1-laps-led-sample.html
+scripts/__pycache__/

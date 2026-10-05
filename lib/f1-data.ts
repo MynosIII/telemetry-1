@@ -1,4 +1,5 @@
 import { cache } from "react";
+import { getHistoryEntity } from "./history";
 import type {
   CircuitFacts,
   CircuitProfile,
@@ -121,16 +122,16 @@ const fallbackStandings: Standing[] = [
 
 const fallbackSchedule: ScheduledRace[] = [
   {
-    round: "13", season: "2026", name: "Italian Grand Prix", circuitId: "monza", circuit: "Autodromo Nazionale di Monza", locality: "Monza", country: "Italy", date: "2026-09-06", time: "13:00:00Z", state: "next",
-    latitude: 45.6156,
-    longitude: 9.2811,
-    circuitUrl: "https://en.wikipedia.org/wiki/Monza_Circuit",
+    round: "16", season: "2026", name: "Bahrain Grand Prix in Malaysia", circuitId: "sepang", circuit: "Sepang International Circuit", locality: "Kuala Lumpur", country: "Malaysia", date: "2026-10-04", time: "07:00:00Z", state: "next",
+    latitude: 2.76083,
+    longitude: 101.738,
+    circuitUrl: "https://en.wikipedia.org/wiki/Sepang_International_Circuit",
     sessions: [
-      { key: "fp1", label: "Práctica 1", date: "2026-09-04", time: "10:30:00Z" },
-      { key: "fp2", label: "Práctica 2", date: "2026-09-04", time: "14:00:00Z" },
-      { key: "fp3", label: "Práctica 3", date: "2026-09-05", time: "10:30:00Z" },
-      { key: "qualifying", label: "Clasificación", date: "2026-09-05", time: "14:00:00Z" },
-      { key: "race", label: "Carrera", date: "2026-09-06", time: "13:00:00Z" }
+      { key: "fp1", label: "Práctica 1", date: "2026-10-02", time: "04:30:00Z" },
+      { key: "fp2", label: "Práctica 2", date: "2026-10-02", time: "08:00:00Z" },
+      { key: "fp3", label: "Práctica 3", date: "2026-10-03", time: "04:30:00Z" },
+      { key: "qualifying", label: "Clasificación", date: "2026-10-03", time: "08:00:00Z" },
+      { key: "race", label: "Carrera", date: "2026-10-04", time: "07:00:00Z" }
     ]
   }
 ];
@@ -142,7 +143,7 @@ function normalizeImage(url?: string) {
 }
 
 async function fetchJson(url: string, revalidate = 1800): Promise<JsonObject> {
-  const response = await fetch(url, { next: { revalidate } });
+  const response = await fetch(url, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
   if (!response.ok) throw new Error(`Request failed: ${response.status}`);
   return response.json();
 }
@@ -556,9 +557,12 @@ export async function getRaceDetail(round: string, selectedDriver?: string): Pro
 }
 
 async function getTelemetryProfile(driverId: string): Promise<TelemetryProfile | undefined> {
+  const historical = await getHistoryEntity("drivers", driverId);
+  if (historical?.model) return historical.model;
+  if (historical) return undefined;
   try {
     const response = await fetch(`${TELEMETRY_PROFILE_ROOT}/${encodeURIComponent(driverId)}/index.html`, {
-      next: { revalidate: 86400 }
+      next: { revalidate: 86400 }, signal: AbortSignal.timeout(5000)
     });
     if (!response.ok) return undefined;
     const html = await response.text();
@@ -570,14 +574,16 @@ async function getTelemetryProfile(driverId: string): Promise<TelemetryProfile |
 }
 
 export async function getDriverProfile(driverId: string): Promise<DriverProfile | undefined> {
+  if (!/^[a-z0-9_-]+$/.test(driverId)) return undefined;
+  const historyPromise = getHistoryEntity("drivers", driverId);
   const seasonPromise = getSeasonData();
-  const resultsPromise = fetchJson(`${API_ROOT}/current/drivers/${encodeURIComponent(driverId)}/results.json?limit=100`).catch(() => undefined);
+  const resultsPromise = fetch(`${API_ROOT}/current/drivers/${encodeURIComponent(driverId)}/results.json?limit=100`, { next: { revalidate: 1800 }, signal: AbortSignal.timeout(5000) }).then(async response => response.ok ? response.json() : undefined).catch(() => undefined);
   const telemetryPromise = getTelemetryProfile(driverId);
-  const [{ standings, catalog }, resultsJson, telemetry] = await Promise.all([seasonPromise, resultsPromise, telemetryPromise]);
+  const [{ standings, catalog }, resultsJson, telemetry, history] = await Promise.all([seasonPromise, resultsPromise, telemetryPromise, historyPromise]);
   const rawRaces = resultsJson?.MRData?.RaceTable?.Races ?? [];
   const firstResult = rawRaces[0]?.Results?.[0];
   const standing = standings.find((item) => item.driverId === driverId);
-  const name = standing?.name ?? telemetry?.name ?? (firstResult ? `${firstResult.Driver.givenName} ${firstResult.Driver.familyName}` : undefined);
+  const name = standing?.name ?? history?.name ?? telemetry?.name ?? (firstResult ? `${firstResult.Driver.givenName} ${firstResult.Driver.familyName}` : undefined);
   if (!name) return undefined;
 
   return {
@@ -585,8 +591,8 @@ export async function getDriverProfile(driverId: string): Promise<DriverProfile 
     identity: {
       driverId,
       name,
-      nationality: standing?.nationality ?? firstResult?.Driver?.nationality,
-      dateOfBirth: firstResult?.Driver?.dateOfBirth ?? telemetry?.biography?.dateOfBirth,
+      nationality: standing?.nationality ?? firstResult?.Driver?.nationality ?? history?.country,
+      dateOfBirth: firstResult?.Driver?.dateOfBirth ?? history?.biography.dateOfBirth ?? telemetry?.biography?.dateOfBirth,
       permanentNumber: firstResult?.Driver?.permanentNumber,
       code: firstResult?.Driver?.code,
       image: normalizeImage(catalog[name] ?? fallbackImages[name])

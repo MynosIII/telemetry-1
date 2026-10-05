@@ -1,11 +1,13 @@
+import Image from "next/image";
+import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { formatSession, isSessionLive } from "@/lib/format";
 import type { CircuitProfile, ScheduledRace } from "@/lib/types";
 
 const zones = [
-  { label: "ARGENTINA", short: "ARG", zone: "America/Argentina/Buenos_Aires" },
-  { label: "BRASIL", short: "BRA", zone: "America/Sao_Paulo" },
-  { label: "COLOMBIA", short: "COL", zone: "America/Bogota" },
-  { label: "MÉXICO", short: "MEX", zone: "America/Mexico_City" }
+  { label: "ARGENTINA", short: "ARG", country: "Argentina", zone: "America/Argentina/Buenos_Aires" },
+  { label: "BRASIL", short: "BRA", country: "Brazil", zone: "America/Sao_Paulo" },
+  { label: "COLOMBIA", short: "COL", country: "Colombia", zone: "America/Bogota" },
+  { label: "MÉXICO", short: "MEX", country: "Mexico", zone: "America/Mexico_City" }
 ];
 
 export function RaceSchedule({ race, circuit }: { race: ScheduledRace; circuit: CircuitProfile }) {
@@ -13,8 +15,17 @@ export function RaceSchedule({ race, circuit }: { race: ScheduledRace; circuit: 
     <div className="schedule-table">
       <div className="schedule-row schedule-row-head">
         <span>SESIÓN</span>
-        <span>{race.country.toUpperCase()}</span>
-        {zones.map((zone) => <span key={zone.short}><b>{zone.short}</b><i>{zone.label}</i></span>)}
+        <span className="schedule-zone-head">
+          <b>{race.country.toUpperCase()}</b>
+          {getCountryFlagUrl(race.country) && <Image src={getCountryFlagUrl(race.country)!} alt="" width={26} height={17} unoptimized />}
+        </span>
+        {zones.map((zone) => (
+          <span className="schedule-zone-head" key={zone.short}>
+            <b>{zone.short}</b>
+            <Image src={getCountryFlagUrl(zone.country)!} alt="" width={26} height={17} unoptimized />
+            <i>{zone.label}</i>
+          </span>
+        ))}
       </div>
       {race.sessions.map((session) => {
         const local = formatSession(session, circuit.timezone);

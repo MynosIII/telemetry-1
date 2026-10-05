@@ -131,6 +131,7 @@ export type TelemetryProfile = {
     sustainedPrime?: number;
     expectedWins?: number;
     winsAboveExpected?: number;
+    observedWins?: number | null;
   };
 };
 

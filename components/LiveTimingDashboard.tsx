@@ -1,10 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { LiveCircuitMap, type LiveMapContext } from "@/components/LiveCircuitMap";
 import type { LiveTimingSnapshot } from "@/lib/live-timing";
 
 type LiveTimingDashboardProps = {
   initialSnapshot: LiveTimingSnapshot;
+  mapContext: LiveMapContext;
 };
 
 function formatLap(seconds: number | null) {
@@ -22,6 +24,16 @@ function formatGap(value: string | number | null, leader = false) {
   return normalized.includes("LAP") ? normalized : normalized.startsWith("+") ? normalized : `+${normalized}`;
 }
 
+function formatArgentinaTime(value: string, includeSeconds = false) {
+  return new Intl.DateTimeFormat("es-AR", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: includeSeconds ? "2-digit" : undefined,
+    hourCycle: "h23",
+    timeZone: "America/Argentina/Buenos_Aires"
+  }).format(new Date(value));
+}
+
 function sessionLabel(snapshot: LiveTimingSnapshot) {
   if (!snapshot.session) return "SIN SESIÓN";
   const location = [snapshot.session.location, snapshot.session.country].filter(Boolean).join(" · ");
@@ -35,7 +47,7 @@ const statusCopy: Record<LiveTimingSnapshot["mode"], string> = {
   unavailable: "SIN SEÑAL"
 };
 
-export function LiveTimingDashboard({ initialSnapshot }: LiveTimingDashboardProps) {
+export function LiveTimingDashboard({ initialSnapshot, mapContext }: LiveTimingDashboardProps) {
   const [snapshot, setSnapshot] = useState(initialSnapshot);
   const [refreshing, setRefreshing] = useState(false);
 
@@ -68,7 +80,7 @@ export function LiveTimingDashboard({ initialSnapshot }: LiveTimingDashboardProp
     <section className="timing-center" aria-labelledby="timing-title">
       <div className="timing-heading">
         <div>
-          <p className="eyebrow eyebrow-red">RACE CONTROL / OPENF1</p>
+          <p className="eyebrow eyebrow-red">DIRECCIÓN DE CARRERA</p>
           <h2 id="timing-title">TIMING <em>EN PISTA</em></h2>
         </div>
         <div className="timing-status" aria-live="polite">
@@ -90,6 +102,8 @@ export function LiveTimingDashboard({ initialSnapshot }: LiveTimingDashboardProp
           ))}
           <div><span>VUELTA</span><strong>{snapshot.drivers[0]?.lapNumber ?? "—"}</strong></div>
         </div>
+
+        <LiveCircuitMap snapshot={snapshot} context={mapContext} />
 
         <div className="timing-layout">
           <div className="timing-table-wrap">
@@ -118,14 +132,14 @@ export function LiveTimingDashboard({ initialSnapshot }: LiveTimingDashboardProp
             <div className="race-control-head"><span>DIRECCIÓN DE CARRERA</span><b>{snapshot.messages.length || "—"}</b></div>
             {snapshot.messages.length ? snapshot.messages.map((message, index) => (
               <article key={`${message.date}-${index}`}>
-                <div><span>{message.flag ?? message.category}</span><time>{message.date ? new Date(message.date).toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit" }) : "—"}</time></div>
+                <div><span>{message.flag ?? message.category}</span><time>{message.date ? formatArgentinaTime(message.date) : "—"}</time></div>
                 <p>{message.message}</p>
               </article>
             )) : (
               <div className="race-control-empty">Los mensajes aparecerán cuando dirección de carrera abra la sesión.</div>
             )}
             <div className="timing-notice">
-              <strong>{snapshot.configured ? "SISTEMA PREPARADO" : "ACCESO LIVE PENDIENTE"}</strong>
+              <strong>{snapshot.mode === "live" ? "EN DIRECTO" : "PRÓXIMA ACTUALIZACIÓN"}</strong>
               <p>{snapshot.notice}</p>
             </div>
           </aside>
@@ -133,8 +147,7 @@ export function LiveTimingDashboard({ initialSnapshot }: LiveTimingDashboardProp
       </div>
 
       <div className="timing-credit">
-        <span>ACTUALIZACIÓN: {new Date(snapshot.updatedAt).toLocaleTimeString("es-AR", { hour: "2-digit", minute: "2-digit", second: "2-digit" })}</span>
-        <span>CONCEPTO: <a href="https://github.com/Slowlydev/f1-dash" target="_blank" rel="noreferrer">F1 DASH ↗</a> · DATOS: <a href="https://openf1.org/" target="_blank" rel="noreferrer">OPENF1 ↗</a></span>
+        <span>ACTUALIZACIÓN: {formatArgentinaTime(snapshot.updatedAt, true)} ARG</span>
       </div>
     </section>
   );

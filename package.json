@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "verify:history": "node scripts/verify-history.mjs",
+    "verify:weekends": "node scripts/verify-weekends.mjs"
   },
   "dependencies": {
     "next": "16.3.3",

@@ -4,10 +4,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RaceSchedule } from "@/components/RaceSchedule";
 import { CircuitIntelligence } from "@/components/CircuitIntelligence";
+import { RaceWeekendHub } from "@/components/RaceWeekendHub";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCircuitProfile, getSchedule } from "@/lib/f1-data";
+import { getCircuitProfile, getSchedule, getStandings } from "@/lib/f1-data";
 import { getCircuitTopology } from "@/lib/circuit-topology";
+import { getRaceWeekendData } from "@/lib/race-weekend";
 
 type Props = { params: Promise<{ circuitId: string }> };
 
@@ -25,11 +27,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CircuitPage({ params }: Props) {
   const { circuitId } = await params;
-  const [circuit, schedule] = await Promise.all([getCircuitProfile(circuitId), getSchedule()]);
+  const [circuit, schedule, standings] = await Promise.all([getCircuitProfile(circuitId), getSchedule(), getStandings()]);
   if (!circuit) notFound();
   const race = schedule.find((item) => item.circuitId === circuitId);
   if (!race) notFound();
   const topology = getCircuitTopology(circuitId);
+  const weekend = race.state === "next" ? await getRaceWeekendData(race, standings) : undefined;
 
   return (
     <main id="top" className="inner-page circuit-page">
@@ -53,6 +56,7 @@ export default async function CircuitPage({ params }: Props) {
           <div><span>VUELTAS</span><strong>{circuit.laps}</strong></div>
           <div><span>PERFIL</span><strong>{circuit.character}</strong></div>
         </div>
+        {weekend ? <RaceWeekendHub race={race} circuit={circuit} data={weekend} /> : null}
         <CircuitIntelligence circuit={circuit} topology={topology} />
         <div className="detail-heading">
           <div><p className="eyebrow eyebrow-red">HORARIOS</p><h2>FIN DE <em>SEMANA</em></h2></div>

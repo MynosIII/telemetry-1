@@ -296,6 +296,8 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
 .live-overlay { position: absolute; z-index: 2; left: clamp(24px, 6vw, 92px); right: 30px; bottom: 62px; }
 .live-overlay h2 { max-width: 680px; margin: 0; font-family: Impact, "Arial Narrow", sans-serif; font-style: italic; font-size: clamp(48px, 6vw, 82px); line-height: .92; letter-spacing: .8px; text-transform: uppercase; }
 .live-overlay > p:last-child { margin: 16px 0 0; color: #c0c0c4; font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; }
+.live-circuit-link { display: inline-block; margin-top: 16px; color: #d2d2d5; font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; border-bottom: 1px solid #ffffff55; transition: color .2s ease, border-color .2s ease; }
+.live-circuit-link:hover { color: white; border-color: var(--red); }
 .live-console { padding: 42px clamp(24px, 4vw, 62px); align-self: center; }
 .live-console-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; border-bottom: 2px solid var(--red); font-size: 9px; font-weight: 900; letter-spacing: 1px; }
 .live-console-head a { color: var(--red); }
@@ -317,6 +319,55 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
 .circuit-summary { margin: 22px 0 15px; color: #99999f; font-size: 12px; line-height: 1.65; }
 .text-link { color: var(--red); font-size: 9px; font-weight: 900; letter-spacing: .8px; }
 .circuit-image-fallback { position: absolute; inset: 0; display: grid; place-items: center; color: #ffffff0c; font: italic 900 320px Impact, sans-serif; }
+
+.timezone-column { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 5px; }
+.timezone-column b { color: inherit; font-size: inherit; }
+.timezone-column img, .schedule-zone-head img { width: 26px; height: 17px; border: 1px solid #444; object-fit: cover; }
+
+/* Championship forecast */
+.championship-forecast { background: #f0f0ed; color: var(--ink); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.forecast-heading { grid-template-columns: 1fr; }
+.forecast-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.forecast-panel { min-width: 0; border: 1px solid #cfcfcb; background: white; overflow: hidden; }
+.forecast-panel > header { min-height: 112px; padding: 24px 26px; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; border-bottom: 1px solid #d8d8d4; }
+.forecast-panel > header > div { display: flex; align-items: center; gap: 10px; }
+.forecast-panel > header span { color: var(--red); font-size: 10px; font-weight: 900; }
+.forecast-panel > header p { margin: 0; color: #74736f; font-size: 9px; font-weight: 900; letter-spacing: 1px; }
+.forecast-panel h3 { margin: 0; font-family: Impact, "Arial Narrow", sans-serif; font-style: italic; font-size: 32px; line-height: 1; text-align: right; text-transform: uppercase; }
+.market-panel { border-color: #313136; background: var(--ink); color: white; }
+.market-panel > header { border-color: #303035; }
+.market-panel > header p { color: #96969b; }
+.forecast-ranking { margin: 0; padding: 0 26px; list-style: none; }
+.forecast-ranking li { min-height: 72px; display: grid; grid-template-columns: 34px minmax(120px, 1.2fr) minmax(76px, 1fr) 62px; gap: 12px; align-items: center; border-bottom: 1px solid #dfdfdb; }
+.model-panel .forecast-ranking li { grid-template-columns: 34px minmax(120px, 1.2fr) minmax(76px, 1fr) 62px 54px; }
+.market-panel .forecast-ranking li { border-color: #29292e; }
+.forecast-position { color: #8b8985; font-size: 10px; font-weight: 900; }
+.forecast-driver { min-width: 0; }
+.forecast-driver strong, .forecast-driver span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.forecast-driver strong { font-size: 13px; text-transform: uppercase; }
+.forecast-driver strong a:hover { color: var(--red); }
+.forecast-driver span { margin-top: 4px; color: #83817d; font-size: 8px; font-weight: 800; text-transform: uppercase; }
+.forecast-bar { height: 6px; overflow: hidden; background: #e2e1dd; }
+.forecast-bar i { height: 100%; display: block; background: var(--red); }
+.market-panel .forecast-bar { background: #323237; }
+.forecast-ranking li > b { color: var(--red); font: italic 900 18px Impact, sans-serif; text-align: right; }
+.forecast-ranking li > small { color: #73716d; font-size: 8px; font-weight: 900; text-align: right; white-space: nowrap; }
+.forecast-panel-footer { min-height: 54px; padding: 0 26px; display: flex; justify-content: space-between; align-items: center; gap: 16px; color: #777572; font-size: 8px; font-weight: 900; letter-spacing: .7px; }
+.market-panel .forecast-panel-footer { color: #77777d; }
+.forecast-panel-footer a { color: var(--red); }
+.forecast-unavailable { min-height: 430px; padding: 48px 26px; display: flex; flex-direction: column; justify-content: center; }
+.forecast-unavailable strong { font-size: 18px; }
+.forecast-unavailable p { max-width: 340px; color: #99999f; font-size: 12px; line-height: 1.6; }
+.next-winners { margin-top: 18px; border: 1px solid #cfcfcb; background: white; }
+.next-winners > p { margin: 0; padding: 14px 20px; border-bottom: 1px solid var(--line); color: #777572; font-size: 9px; font-weight: 900; letter-spacing: 1px; }
+.next-winners > div { display: grid; grid-template-columns: repeat(4, 1fr); }
+.next-winners article { min-height: 130px; padding: 21px; position: relative; border-right: 1px solid var(--line); }
+.next-winners article:last-child { border: 0; }
+.next-winners article > span { color: var(--red); font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.next-winners article > strong { display: block; margin-top: 13px; font-size: 11px; line-height: 1.35; text-transform: uppercase; }
+.next-winners article > p { margin: 9px 50px 0 0; color: #777572; font-size: 10px; }
+.next-winners article > b { position: absolute; right: 20px; bottom: 20px; color: var(--red); font: italic 900 19px Impact, sans-serif; }
+.forecast-method-note { margin: 13px 0 0; color: #777572; font-size: 8px; font-weight: 900; letter-spacing: .7px; text-align: right; }
 
 /* Live timing center */
 .timing-center { padding: 76px clamp(24px, 6vw, 108px) 82px; background: #0d0d0d; color: white; border-bottom: 1px solid #2c2c2c; }
@@ -374,22 +425,92 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
 .timing-notice p { margin: 8px 0 0; color: #929298; font-size: 9px; line-height: 1.55; }
 .timing-credit { display: flex; justify-content: space-between; gap: 28px; margin-top: 25px; color: #74747a; font-size: 7px; font-weight: 900; letter-spacing: .8px; }
 .timing-credit a { color: var(--red); }
+.live-circuit-map { border-bottom: 1px solid #303035; background: #0b0b0d; }
+.live-map-toolbar { min-height: 64px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #303035; }
+.live-map-toolbar > div:first-child span, .live-map-toolbar > div:first-child strong { display: block; }
+.live-map-toolbar > div:first-child span { color: #727278; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.live-map-toolbar > div:first-child strong { margin-top: 4px; font-size: 14px; text-transform: uppercase; }
+.map-mode-switch { display: flex; gap: 4px; padding: 4px; border: 1px solid #303035; background: #111114; }
+.map-mode-switch button { min-height: 34px; padding: 0 13px; border: 0; background: transparent; color: #77777d; cursor: pointer; font-size: 8px; font-weight: 900; letter-spacing: .7px; }
+.map-mode-switch button:hover, .map-mode-switch button.is-active { background: var(--red); color: white; }
+.map-mode-switch button:disabled { opacity: .32; cursor: not-allowed; }
+.live-map-layout { min-height: 470px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; }
+.live-map-stage { min-width: 0; min-height: 470px; position: relative; overflow: hidden; border-right: 1px solid #303035; background: radial-gradient(circle at 50% 45%, #202025 0, #111114 48%, #09090b 100%); }
+.live-map-stage svg { width: 100%; height: 100%; display: block; }
+.track-shadow, .track-line { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.track-shadow { stroke: #000; stroke-width: 28; }
+.track-line { stroke: #6f6f75; stroke-width: 11; }
+.track-driver-marker { cursor: pointer; outline: none; }
+.track-driver-marker circle { stroke: #111; stroke-width: 5; transition: r .15s ease, stroke .15s ease; }
+.track-driver-marker text { fill: white; font-size: 10px; font-weight: 900; text-anchor: middle; pointer-events: none; }
+.track-driver-marker:hover circle, .track-driver-marker:focus-visible circle, .track-driver-marker.is-selected circle { stroke: white; }
+.live-track-fallback { position: absolute; inset: 40px; }
+.live-track-fallback img { object-fit: contain; filter: grayscale(1) contrast(1.2); }
+.satellite-tile-grid { width: 1280px; height: 768px; position: absolute; z-index: 0; top: 50%; left: 50%; display: grid; grid-template-columns: repeat(5, 256px); grid-template-rows: repeat(3, 256px); filter: saturate(.72) brightness(.68) contrast(1.12); }
+.satellite-tile-grid img { width: 256px; height: 256px; display: block; }
+.radar-overlay { width: 512px; height: 512px; position: absolute; top: 50%; left: 50%; z-index: 1; object-fit: cover; opacity: .74; pointer-events: none; mix-blend-mode: screen; transform: translate(-50%, -50%); }
+.geo-track-overlay { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.geo-track-shadow, .geo-track-line { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.geo-track-shadow { stroke: #050505cf; stroke-width: 22; }
+.geo-track-line { stroke: #f2f2f2; stroke-width: 7; filter: drop-shadow(0 0 5px #000); }
+.live-map-stage .radar-track-overlay { width: min(46%, 350px); height: min(46%, 240px); inset: 50% auto auto 50%; padding: 12px; background: #08080880; border: 1px solid #ffffff45; box-shadow: 0 0 0 6px #08080842; transform: translate(-50%, -50%); }
+.radar-track-overlay .geo-track-shadow { stroke-width: 34; }
+.radar-track-overlay .geo-track-line { stroke: white; stroke-width: 11; filter: drop-shadow(0 0 7px #000); }
+.map-attribution { position: absolute; z-index: 3; left: 12px; right: 12px; bottom: 12px; display: flex; justify-content: space-between; gap: 18px; padding: 8px 10px; background: #080808e8; color: #bdbdc2; font-size: 8px; font-weight: 900; letter-spacing: .65px; }
+.map-attribution a { color: white; }
+.live-map-empty { min-height: 470px; display: grid; place-items: center; padding: 30px; color: #7b7b81; font-size: 11px; text-align: center; text-transform: uppercase; }
+.car-telemetry { min-width: 0; padding: 24px; background: #101012; }
+.car-telemetry > label { display: block; color: #74747a; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.car-telemetry select { width: 100%; min-height: 42px; margin-top: 8px; border: 1px solid #34343a; border-radius: 0; padding: 0 11px; background: #19191d; color: white; font-size: 11px; font-weight: 800; text-transform: uppercase; }
+.car-telemetry-primary { display: grid; grid-template-columns: 1fr 1fr; margin-top: 24px; border-top: 1px solid #303035; border-left: 1px solid #303035; }
+.car-telemetry-primary > div { min-height: 88px; padding: 15px; border-right: 1px solid #303035; border-bottom: 1px solid #303035; }
+.car-telemetry-primary > div:first-child { grid-column: 1 / -1; }
+.car-telemetry-primary span, .pedal-readout span, .car-state-grid span { display: block; color: #6f6f75; font-size: 8px; font-weight: 900; letter-spacing: .8px; }
+.car-telemetry-primary strong { display: block; margin-top: 9px; color: white; font-size: 23px; font-variant-numeric: tabular-nums; }
+.car-telemetry-primary > div:first-child strong { color: var(--red); font-size: 31px; }
+.pedal-readout { margin-top: 24px; }
+.pedal-readout > div { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.pedal-readout b { color: white; font-size: 13px; }
+.pedal-readout > i { height: 8px; display: block; margin-top: 10px; overflow: hidden; background: #29292e; transform: skewX(-13deg); }
+.pedal-readout > i span { height: 100%; background: var(--red); }
+.car-state-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 22px; }
+.car-state-grid > div { min-height: 66px; padding: 12px; border: 1px solid #303035; }
+.car-state-grid strong { display: block; margin-top: 8px; color: #85858b; font-size: 10px; }
+.car-state-grid > div.is-on { border-color: var(--red); background: #e1060012; }
+.car-state-grid > div.is-on strong { color: var(--red); }
+.telemetry-waiting { margin: 20px 0 0; color: #77777d; font-size: 10px; line-height: 1.55; }
 @keyframes live-pulse { 50% { opacity: .45; } }
 
 /* Calendar */
 .calendar-section { padding: 64px clamp(24px, 6vw, 108px) 100px; }
 .calendar-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
-.calendar-card { min-height: 245px; padding: 22px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--paper-bright); position: relative; overflow: hidden; transition: transform .2s ease, background .2s ease, box-shadow .2s ease; }
-.calendar-card::before { content: ""; position: absolute; top: 54px; right: -10px; width: 48px; height: 3px; background: var(--red); box-shadow: -14px 7px 0 var(--red-deep), -28px 14px 0 var(--red-dark); transform: skewX(-34deg); transition: transform .2s ease; }
-.calendar-card:hover { background: white; transform: translateX(7px); box-shadow: inset 5px 0 var(--red); }
-.calendar-card:hover::before { transform: translateX(7px) skewX(-34deg); }
+.calendar-card { min-height: 260px; padding: 22px; display: flex; flex-direction: column; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--paper-bright); position: relative; overflow: hidden; transition: transform .2s ease, background .2s ease, box-shadow .2s ease; }
+.calendar-card:hover { z-index: 1; background: white; transform: translateX(7px); box-shadow: inset 5px 0 var(--red); }
+.calendar-card.state-finished { background: #e8e7e3; color: #5c5b58; }
+.calendar-card.state-finished:hover { background: #f1f0ed; }
 .calendar-card.state-next { background: var(--ink); color: white; box-shadow: inset 0 4px var(--red); }
-.calendar-round { display: flex; justify-content: space-between; color: #81807d; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.calendar-round { display: flex; align-items: center; justify-content: space-between; color: #81807d; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.calendar-card-status { display: flex; align-items: center; gap: 12px; }
 .state-next .calendar-round b { color: var(--red); }
-.calendar-card > p { margin: 44px 0 8px; color: var(--red); font-size: 9px; font-weight: 900; letter-spacing: 1px; }
+.calendar-flag { width: 36px; height: 24px; border: 1px solid rgba(0, 0, 0, .16); object-fit: cover; filter: saturate(.9); }
+.state-finished .calendar-flag { filter: grayscale(1); opacity: .65; }
+.calendar-card-body { flex: 1; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(105px, .85fr); align-items: center; gap: 12px; }
+.calendar-card-copy { min-width: 0; }
+.calendar-date { margin: 28px 0 8px; color: var(--red); font-size: 9px; font-weight: 900; letter-spacing: 1px; }
+.state-finished .calendar-date { color: #777571; }
 .calendar-card h2 { margin: 0; font-family: Impact, "Arial Narrow", sans-serif; font-style: italic; font-size: 29px; line-height: 1; text-transform: uppercase; }
-.calendar-card > span { margin-top: 9px; color: #777572; font-size: 9px; line-height: 1.4; }
-.calendar-card > strong { margin-top: auto; padding-top: 24px; font-size: 8px; letter-spacing: .8px; }
+.calendar-card h2 a:hover { color: var(--red); }
+.calendar-map-link { position: relative; z-index: 2; display: inline-block; margin-top: 9px; color: #777572; font-size: 9px; line-height: 1.4; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 3px; transition: color .2s ease, text-decoration-color .2s ease; }
+.calendar-map-link:hover { color: var(--red); text-decoration-color: currentColor; }
+.state-next .calendar-map-link { color: #aaa7a2; }
+.calendar-track { position: relative; width: 100%; min-height: 145px; }
+.calendar-track-image { object-fit: contain; opacity: .82; transition: opacity .2s ease, transform .2s ease, filter .2s ease; }
+.state-finished .calendar-track-image { filter: grayscale(1); opacity: .38; }
+.state-next .calendar-track-image { opacity: .92; }
+.calendar-card:hover .calendar-track-image { opacity: 1; transform: scale(1.035); }
+.state-finished:hover .calendar-track-image { filter: grayscale(1); opacity: .55; }
+.calendar-card-cta { margin-top: auto; padding-top: 24px; font-size: 8px; font-weight: 900; letter-spacing: .8px; }
+.calendar-card-cta:hover { color: var(--red); }
 
 /* Circuit */
 .circuit-hero { min-height: 600px; position: relative; display: flex; align-items: flex-end; background: var(--ink); color: white; overflow: hidden; }
@@ -405,6 +526,62 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
 .circuit-stats span, .circuit-stats strong, .driver-stat-grid span, .driver-stat-grid strong { display: block; }
 .circuit-stats span, .driver-stat-grid span { color: #777572; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
 .circuit-stats strong, .driver-stat-grid strong { margin-top: 18px; font-family: Impact, sans-serif; font-style: italic; font-size: 30px; text-transform: uppercase; }
+
+/* Next race hub */
+.race-weekend-hub { margin: 0 0 90px; scroll-margin-top: 92px; }
+.weekend-heading { min-height: 144px; padding: 28px 0 34px; display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; border-top: 5px solid var(--red); }
+.weekend-heading .eyebrow { margin-bottom: 11px; }
+.weekend-heading h2 { margin: 0; font: italic 900 clamp(44px, 5vw, 72px)/.95 Impact, "Arial Narrow", sans-serif; text-transform: uppercase; }
+.weekend-heading h2 em { color: var(--red); font-style: inherit; }
+.weekend-heading .button .live-dot { box-shadow: none; margin-right: 0; }
+.weekend-weather-panel, .weekend-forecast-card { border: 1px solid var(--line); background: var(--paper); }
+.weekend-weather-panel > header, .weekend-forecast-card > header { min-height: 68px; padding: 0 22px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--line); background: #f2f2f2; }
+.weekend-weather-panel > header > div, .weekend-forecast-card > header > div { display: flex; align-items: center; gap: 12px; }
+.weekend-weather-panel > header span, .weekend-forecast-card > header span { color: var(--red); font: italic 900 22px Impact, sans-serif; }
+.weekend-weather-panel > header p, .weekend-forecast-card > header p { margin: 0; color: #595959; font-size: 8px; font-weight: 900; letter-spacing: 1px; }
+.weekend-weather-panel > header > strong, .weekend-forecast-card > header > strong { font-size: 9px; letter-spacing: 1.2px; }
+.weekend-weather-grid { display: grid; grid-template-columns: repeat(5, 1fr); }
+.weekend-weather-grid article { min-height: 236px; padding: 22px; position: relative; border-right: 1px solid var(--line); overflow: hidden; }
+.weekend-weather-grid article:last-child { border-right: 0; }
+.weekend-weather-grid article > span:first-child { color: #858585; font-size: 7px; font-weight: 900; letter-spacing: .7px; text-transform: uppercase; }
+.weekend-weather-mark { display: block; height: 57px; margin-top: 18px; color: var(--red); font: italic 900 42px/1 Impact, sans-serif; letter-spacing: -5px; }
+.weekend-weather-grid h3 { margin: 4px 0 0; font: italic 900 21px Impact, "Arial Narrow", sans-serif; text-transform: uppercase; }
+.weekend-weather-grid p { margin: 5px 0 15px; color: #797979; font-size: 9px; }
+.weekend-weather-grid article > div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.weekend-weather-grid article > div strong { color: var(--red); font: italic 900 38px Impact, sans-serif; }
+.weekend-weather-grid article > div b { font-size: 8px; text-transform: uppercase; }
+.weekend-weather-grid article > small { display: block; margin-top: 8px; color: #8a8a8a; font-size: 7px; font-weight: 900; letter-spacing: .7px; }
+.weekend-forecast-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 22px; align-items: stretch; }
+.weekend-forecast-card { display: flex; flex-direction: column; min-width: 0; }
+.weekend-prediction-list { margin: 0; padding: 0 22px; list-style: none; }
+.weekend-prediction-list li { min-height: 72px; display: grid; grid-template-columns: 28px 42px minmax(125px, 1fr) minmax(45px, .7fr) 51px; align-items: center; gap: 11px; border-bottom: 1px solid var(--line); }
+.weekend-prediction-list li:last-child { border-bottom: 0; }
+.weekend-rank { color: #848484; font: italic 900 16px Impact, sans-serif; }
+.weekend-driver-photo { width: 42px; height: 42px; position: relative; display: grid; place-items: center; overflow: hidden; border-radius: 50%; background: #dedede; color: #555; font-size: 8px; font-weight: 900; }
+.weekend-driver-photo img { object-fit: cover; object-position: center 14%; filter: saturate(.82); }
+.weekend-driver-name { min-width: 0; }
+.weekend-driver-name strong, .weekend-driver-name > span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.weekend-driver-name strong { font-size: 10px; text-transform: uppercase; }
+.weekend-driver-name strong a:hover { color: var(--red); }
+.weekend-driver-name > span { margin-top: 3px; color: #858585; font-size: 7px; }
+.weekend-driver-name small { display: flex; gap: 3px; margin-top: 7px; }
+.weekend-driver-name small i { min-width: 23px; padding: 3px 4px; background: #e8e8e8; color: #555; font-size: 6px; font-style: normal; font-weight: 900; text-align: center; }
+.weekend-driver-name small i.is-dnf { background: var(--red); color: white; }
+.weekend-probability { height: 5px; overflow: hidden; background: #e0e0e0; transform: skewX(-18deg); }
+.weekend-probability i { display: block; height: 100%; background: var(--red); }
+.weekend-prediction-list li > b { color: var(--red); font-size: 12px; text-align: right; }
+.weekend-forecast-card footer { min-height: 48px; margin-top: auto; padding: 0 22px; display: flex; align-items: center; justify-content: space-between; gap: 18px; border-top: 1px solid var(--line); color: #767676; font-size: 7px; font-weight: 900; letter-spacing: .7px; }
+.weekend-forecast-card footer a { color: var(--red); }
+.weekend-empty { min-height: 205px; padding: 44px 28px; display: grid; align-content: center; justify-items: start; background: #f7f7f7; }
+.weekend-empty strong { font: italic 900 27px Impact, sans-serif; }
+.weekend-empty p { max-width: 360px; margin: 10px 0 0; color: #727272; font-size: 10px; line-height: 1.5; }
+.market-empty { flex: 1; min-height: 386px; }
+.weekend-live-bridge { min-height: 78px; padding: 0 24px; display: grid; grid-template-columns: 110px 1fr auto; align-items: center; gap: 24px; margin-top: 22px; background: var(--ink); color: white; border-left: 5px solid var(--red); transition: background .2s ease; }
+.weekend-live-bridge:hover { background: #171717; }
+.weekend-live-bridge > div { display: flex; align-items: center; }
+.weekend-live-bridge > div b { color: var(--red); font: italic 900 24px Impact, sans-serif; }
+.weekend-live-bridge > strong { color: #aaa; font-size: 8px; letter-spacing: 1px; }
+.weekend-live-bridge > em { color: white; font-size: 9px; font-style: normal; font-weight: 900; }
 .circuit-intelligence { margin-bottom: 96px; }
 .circuit-intelligence-heading { align-items: flex-end; }
 .circuit-intelligence-heading h2 em, .elo-topology-copy h3 em { color: var(--red); font-style: inherit; }
@@ -470,6 +647,8 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
 .schedule-row:last-child { border: 0; }
 .schedule-row-head { min-height: 42px; background: var(--ink); color: #919197; font-size: 7px; font-weight: 900; letter-spacing: .8px; }
 .schedule-row-head i { display: none; }
+.schedule-zone-head { min-height: 52px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 4px; }
+.schedule-zone-head b { font-size: inherit; }
 .schedule-row > div strong, .schedule-row > div small { display: block; }
 .schedule-row > div strong { font-size: 11px; text-transform: uppercase; }
 .schedule-row > div small { margin-top: 4px; color: #777572; font-size: 8px; }
@@ -603,6 +782,7 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
   .timing-heading { grid-template-columns: 1fr; align-items: start; }
   .timing-status { max-width: 620px; }
   .timing-layout { grid-template-columns: 1fr; }
+  .live-map-layout { grid-template-columns: minmax(0, 1fr) 270px; }
   .timing-table-wrap { border-right: 0; border-bottom: 1px solid #303035; }
   .race-control-feed { display: grid; grid-template-columns: repeat(2, 1fr); }
   .race-control-head, .timing-notice { grid-column: 1 / -1; }
@@ -610,7 +790,15 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
   .race-control-empty { grid-column: 1 / -1; }
   .live-visual { min-height: 520px; }
   .calendar-grid { grid-template-columns: repeat(2, 1fr); }
+  .forecast-grid { grid-template-columns: 1fr; }
+  .next-winners > div { grid-template-columns: repeat(2, 1fr); }
+  .next-winners article:nth-child(2) { border-right: 0; }
+  .next-winners article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .circuit-story-grid, .circuit-map-grid { grid-template-columns: 1fr; }
+  .weekend-weather-grid { grid-template-columns: repeat(3, 1fr); }
+  .weekend-weather-grid article:nth-child(3) { border-right: 0; }
+  .weekend-weather-grid article:nth-child(-n+3) { border-bottom: 1px solid var(--line); }
+  .weekend-forecast-grid { grid-template-columns: 1fr; }
   .elo-topology-panel { grid-template-columns: 1fr; }
   .elo-topology-copy { border-right: 0; border-bottom: 1px solid #303035; }
   .topology-facts { grid-template-columns: repeat(3, 1fr); }
@@ -693,6 +881,13 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
   .timing-weather > div { border-bottom: 1px solid #303035; }
   .timing-weather > div:nth-child(even) { border-right: 0; }
   .timing-weather > div:last-child { grid-column: 1 / -1; border-bottom: 0; }
+  .live-map-toolbar { padding: 14px; align-items: flex-start; flex-direction: column; }
+  .map-mode-switch { width: 100%; }
+  .map-mode-switch button { flex: 1; padding-inline: 7px; }
+  .live-map-layout { grid-template-columns: 1fr; }
+  .live-map-stage { min-height: 360px; border-right: 0; border-bottom: 1px solid #303035; }
+  .live-map-empty { min-height: 360px; }
+  .car-telemetry { padding: 20px; }
   .race-control-feed { grid-template-columns: 1fr; }
   .race-control-feed article { border-right: 0; }
   .timing-credit { align-items: flex-start; flex-direction: column; }
@@ -702,6 +897,15 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
   .live-console { padding: 32px 20px 44px; }
   .session-grid { grid-template-columns: minmax(118px, 1.5fr) repeat(2, minmax(44px, .55fr)); }
   .session-grid > :nth-child(n+4) { display: none; }
+  .forecast-panel > header { min-height: 96px; padding: 20px 18px; align-items: flex-start; flex-direction: column; }
+  .forecast-panel h3 { font-size: 27px; text-align: left; }
+  .forecast-ranking { padding: 0 16px; }
+  .forecast-ranking li, .model-panel .forecast-ranking li { grid-template-columns: 27px minmax(0, 1fr) 57px; gap: 8px; }
+  .forecast-bar, .forecast-ranking li > small { display: none; }
+  .forecast-panel-footer { padding: 12px 18px; align-items: flex-start; flex-direction: column; justify-content: center; }
+  .next-winners > div { grid-template-columns: 1fr; }
+  .next-winners article, .next-winners article:nth-child(2) { border-right: 0; border-bottom: 1px solid var(--line); }
+  .next-winners article:last-child { border-bottom: 0; }
   .circuit-quick-facts strong { font-size: 16px; }
   .calendar-section { padding: 40px 20px 70px; }
   .calendar-grid { grid-template-columns: 1fr; }
@@ -723,6 +927,22 @@ footer > div:last-child { display: flex; justify-content: flex-end; gap: 22px; f
   .circuit-stats { grid-template-columns: repeat(2, 1fr); margin-bottom: 62px; }
   .circuit-stats > div:nth-child(2) { border-right: 0; }
   .circuit-stats > div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .race-weekend-hub { margin-bottom: 70px; }
+  .weekend-heading { align-items: flex-start; flex-direction: column; }
+  .weekend-heading h2 { font-size: 48px; }
+  .weekend-weather-panel > header, .weekend-forecast-card > header { padding: 0 16px; }
+  .weekend-weather-grid { grid-template-columns: 1fr 1fr; }
+  .weekend-weather-grid article { min-height: 210px; padding: 18px; border-bottom: 1px solid var(--line); }
+  .weekend-weather-grid article:nth-child(odd) { border-right: 1px solid var(--line); }
+  .weekend-weather-grid article:nth-child(even) { border-right: 0; }
+  .weekend-weather-grid article:last-child { grid-column: 1 / -1; border-bottom: 0; }
+  .weekend-prediction-list { padding: 0 14px; }
+  .weekend-prediction-list li { grid-template-columns: 25px 38px minmax(0, 1fr) 48px; gap: 8px; }
+  .weekend-driver-photo { width: 38px; height: 38px; }
+  .weekend-probability { display: none; }
+  .weekend-driver-name small { overflow-x: auto; }
+  .weekend-live-bridge { min-height: 110px; padding: 19px; grid-template-columns: 1fr auto; gap: 12px; }
+  .weekend-live-bridge > strong { grid-column: 1 / -1; grid-row: 2; }
   .circuit-intelligence { margin-bottom: 70px; }
   .circuit-intelligence-heading { align-items: flex-start; }
   .topology-version { white-space: normal; }

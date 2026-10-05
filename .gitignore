@@ -8,3 +8,9 @@ node_modules/
 !.env.example
 out/
 *.tsbuildinfo
+
+# Local source caches and Python bytecode; published snapshots live in public/history.
+data/statsf1/
+data/statsf1-laps-led-sample.html
+__pycache__/
+*.py[cod]

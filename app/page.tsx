@@ -1,11 +1,13 @@
 import Image from "@/components/ResilientImage";
 import Link from "next/link";
+import { ChampionshipForecast } from "@/components/ChampionshipForecast";
 import { NextRacePanel } from "@/components/NextRacePanel";
 import { RaceBoard } from "@/components/RaceBoard";
 import { SearchArchive } from "@/components/SearchArchive";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getF1HomeData } from "@/lib/f1-data";
+import { enrichMarketForecast, getPolymarketChampionForecast, simulateChampionship } from "@/lib/championship-forecast";
 
 const games = [
   {
@@ -47,7 +49,12 @@ const games = [
 ];
 
 export default async function Home() {
-  const data = await getF1HomeData();
+  const [data, rawMarketForecast] = await Promise.all([
+    getF1HomeData(),
+    getPolymarketChampionForecast()
+  ]);
+  const marketForecast = enrichMarketForecast(rawMarketForecast, data.standings);
+  const modelForecast = simulateChampionship(data);
   const leader = data.standings[0];
 
   return (
@@ -98,6 +105,8 @@ export default async function Home() {
       </section>
 
       <NextRacePanel race={data.nextRace} circuit={data.nextCircuit} />
+
+      <ChampionshipForecast market={marketForecast} model={modelForecast} />
 
       <section className="section section-light" id="resultados" aria-labelledby="results-title">
         <div className="section-heading">
@@ -174,7 +183,7 @@ export default async function Home() {
             <div className="stats-facts">
               <div><strong>75+</strong><span>TEMPORADAS</span></div>
               <div><strong>800+</strong><span>PILOTOS</span></div>
-              <div><strong>V7.6</strong><span>MODELO ACTUAL</span></div>
+              <div><strong>1950</strong><span>DESDE</span></div>
             </div>
             <a className="button button-dark" href="/estadisticas">ABRIR ESTADÍSTICAS <span>→</span></a>
           </div>

@@ -25,6 +25,7 @@ export default async function StatisticsPage() {
       </section>
 
       <section className="stats-dashboard">
+        <div className="detail-heading"><div><p className="eyebrow eyebrow-red">1950–2025 · HISTORIA CONECTADA</p><h2>EL ARCHIVO <em>COMPLETO</em></h2></div><Link className="button button-dark" href="/historia">PILOTOS, EQUIPOS Y MOTORES →</Link></div>
         <LiveModelPanel snapshot={liveModel} />
         <div className="detail-heading">
           <div><p className="eyebrow eyebrow-red">CAMPEONATO</p><h2>CLASIFICACIÓN DE <em>PILOTOS</em></h2></div>

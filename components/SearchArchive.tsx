@@ -54,6 +54,7 @@ export function SearchArchive() {
           <p className="no-results">No encontramos coincidencias. Probá con “Senna”, “Monza” o “estrategia”.</p>
         )}
       </div>
+      <Link className="history-source-link" href="/historia">Explorá el archivo completo de pilotos, constructores, motores y más →</Link>
     </div>
   );
 }

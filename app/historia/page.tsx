@@ -1,0 +1,23 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { HistoryArchive } from "@/components/HistoryArchive";
+import { getHistoryIndex } from "@/lib/history";
+
+export const metadata: Metadata = { title: "Archivo histórico", description: "Historia conectada de la Fórmula 1: pilotos, constructores, motores, circuitos, naciones, neumáticos y temporadas, con estadísticas y análisis propio." };
+
+export default async function HistoryPage() {
+  const { entities, meta } = await getHistoryIndex();
+  return <main id="top" className="inner-page history-page"><SiteHeader />
+    <section className="inner-hero compact-hero"><p className="eyebrow eyebrow-red">1950–{meta.lastSeason} · ENCICLOPEDIA + INVESTIGACIÓN</p><h1>LA HISTORIA <em>CONECTADA</em></h1><p className="history-intro">Los resultados cuentan qué pasó. Las historias y nuestro análisis ayudan a entenderlo. Explorá cada protagonista y seguí sus conexiones a lo largo del campeonato.</p><div className="history-hero-links"><Link className="button button-dark" href="/estadisticas/laboratorio">COMPARAR EN EL LABORATORIO →</Link><Link href="/historia/autos">ÍNDICE DE AUTOS →</Link><Link href="/historia/seasons/2025">TEMPORADAS Y CARRERAS →</Link><a href="#metodologia">Cómo se construyó el archivo ↓</a></div></section>
+    <section className="history-content"><div className="history-overview"><span><strong>{meta.events.toLocaleString("es-AR")}</strong> GP DEL CAMPEONATO</span><span><strong>{meta.categories.drivers.count}</strong> PILOTOS INSCRITOS</span><span><strong>{meta.categories.constructors.count}</strong> CONSTRUCTORES</span><span><strong>{meta.categories.engines.count}</strong> MOTORISTAS</span></div><HistoryArchive entities={entities} />
+      <section id="metodologia" className="history-section history-method"><p className="eyebrow eyebrow-red">COBERTURA Y FUENTES</p><h2>HECHOS, HISTORIA <em>Y MODELO</em></h2><p>El archivo se construye a partir de clasificaciones de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a>, con redacción original y enlaces a <a href="https://www.statsf1.com/en/default.aspx" target="_blank" rel="noreferrer">StatsF1</a> para contrastar estadísticas. Wikipedia y Wikidata aportan contexto enciclopédico, hechos estructurados y capítulos de lectura. Las fichas de pilotos incorporan el análisis retrospectivo de TelemetryOne cuando existe cobertura del modelo.</p>
+      <p>Los resultados llegan hasta el {meta.lastRaceDate}, con {meta.events.toLocaleString("es-AR")} eventos de 1950–{meta.lastSeason}, incluidas las 500 Millas de Indianápolis de 1950–1960. Los {meta.categories.drivers.count} pilotos incluyen inscripciones sin largada. El modelo v7.6 cubre {meta.modelEvents.toLocaleString("es-AR")} eventos y 698 pilotos; sus expectativas se comparan únicamente con resultados de su propio conjunto.</p>
+      <p>Los GP cuentan pruebas distintas; las inscripciones cuentan pares piloto–prueba. Las salidas P1 describen la grilla y pueden diferir de las poles oficiales. Los autos compartidos conservan los créditos de cada piloto; para constructores, motores y neumáticos se deduplican los resultados del mismo auto. Los puntos de standings respetan el reglamento de la época.</p>
+      <p>Los nombres de constructores y motores se mantienen como identidades independientes: una marca nueva no hereda automáticamente el historial de su predecesora. Las cifras de equipamiento describen resultados conjuntos; no miden por sí solas talento o rendimiento causal.</p>
+      <p className="history-note">Las temporadas y los Grandes Premios tienen fichas propias con calendario, clasificación, parrilla, sprint donde existe, estadísticas, modelos de auto y el análisis TelemetryOne. Las cifras de vueltas y kilómetros liderados sólo se muestran cuando se pudo verificar la fuente; los relatos editoriales detallados y las fotografías todavía tienen cobertura parcial. Las fuentes externas pueden tener otra fecha de corte o criterio de conteo. Las biografías de StatsF1 no se copian. Wikipedia se consulta por artículo exacto; si no se verifica, se ofrece una búsqueda.</p>
+      <details><summary>Reproducibilidad y datos del archivo</summary><p className="history-note">F1DB: {meta.f1dbRevision ?? "revisión no disponible"}. Generado: {meta.generatedAt.slice(0, 10)}. Modelo: {meta.model}.</p><a className="history-source-link" href="/history/index.json" target="_blank" rel="noreferrer">Abrir índice JSON del archivo ↗</a></details>
+      </section>
+    </section><SiteFooter /></main>;
+}

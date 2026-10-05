@@ -1,0 +1,22 @@
+"use client";
+
+import { useId, useState } from "react";
+import { ArchiveReference } from "./ArchiveReference";
+import type { Championship, StatDimension, StatMetric, StatRow } from "@/lib/championship-history";
+import { dimensionLabels, number, statLabels } from "@/lib/weekend-format";
+
+const colors = ["#3264bf", "#df402d", "#df9c20", "#218875", "#8950a7", "#56727d", "#a5abb7"];
+function Distribution({ rows, label, metric }: { rows: StatRow[]; label: string; metric: StatMetric }) {
+  const total = rows.reduce((sum, row) => sum + row.value, 0);
+  const slices = rows.slice(0, 6).map(row => ({ name: row.entity.name, value: row.value }));
+  if (rows.length > 6) slices.push({ name: "Otros", value: rows.slice(6).reduce((sum, row) => sum + row.value, 0) });
+  let offset = 0;
+  const gradient = slices.map((slice, i) => { const start = offset; offset += total ? slice.value / total * 100 : 0; return `${colors[i]} ${start}% ${offset}%`; }).join(",");
+  return <section className="stat-distribution"><h3>{label}</h3>{total > 0 ? <><div className="stat-pie-layout"><div className="stat-pie" role="img" aria-label={`${statLabels[metric]} por ${label.toLowerCase()}: ${slices.map(s => `${s.name} ${(s.value / total * 100).toFixed(1)}%`).join(", ")}`} style={{ background: `conic-gradient(${gradient})` }}><span><strong>{number(total, 1)}</strong><small>{metric === "km" || metric === "kmLed" ? "KILÓMETROS" : "TOTAL"}</small></span></div><ul className="stat-legend">{slices.map((slice, i) => <li key={slice.name}><i style={{ background: colors[i] }} /><span>{slice.name}</span><strong>{number(slice.value / total * 100, 1)}%</strong></li>)}</ul></div><div className="ency-table-scroll stat-ranking"><table><caption>{statLabels[metric]} · {label}</caption><thead><tr><th scope="col">#</th><th scope="col">{label}</th><th scope="col">Total</th><th scope="col">%</th></tr></thead><tbody>{rows.map((row, i) => <tr key={row.entity.id}><td>{i + 1}</td><th scope="row"><ArchiveReference entity={row.entity} /></th><td>{number(row.value, 2)}</td><td>{number(row.value / total * 100, 1)}%</td></tr>)}</tbody></table></div></> : <p className="ency-note">No hay registros de esta métrica para este grupo.</p>}</section>;
+}
+export function SeasonStatistics({ stats, coverage, year }: { stats: Championship["stats"]; coverage: Championship["statCoverage"]; year: number }) {
+  const [metric, setMetric] = useState<StatMetric>("wins");
+  const id = useId();
+  const current = stats[metric];
+  return <div><div className="ency-controls" aria-label="Estadística de temporada">{(Object.keys(statLabels) as StatMetric[]).map(key => <button key={key} aria-pressed={metric === key} aria-controls={id} onClick={() => setMetric(key)}>{statLabels[key]}</button>)}</div><div id={id} aria-live="polite"><p className="ency-note">Grandes Premios del campeonato · {year} · {statLabels[metric].toLowerCase()}. Cada gráfico usa el total de su propio grupo.</p>{current ? <><div className="stat-grid">{(Object.keys(dimensionLabels) as StatDimension[]).map(dim => <Distribution key={dim} rows={current.dimensions[dim]} label={dimensionLabels[dim]} metric={metric} />)}</div><p className="ency-note">Fuente: <a href={current.source} target="_blank" rel="noreferrer">{current.source.includes("statsf1") ? "STATS F1" : "F1DB · resultados de cada carrera"} ↗</a>{current.retrieved ? ` · consultado el ${current.retrieved}` : ""}.</p></> : <div className="ency-empty"><h3>{statLabels[metric]}: pendiente de datos verificables</h3><p>Esta cifra no está en el archivo de resultados y la consulta externa no devolvió una tabla utilizable. No se representa como cero.</p><a href={`https://www.statsf1.com/es/${year}/${metric === "lapsLed" ? "stats-tour-en-tete" : "stats-kms-en-tete"}.aspx`} target="_blank" rel="noreferrer">Consultar esta estadística en StatsF1 ↗</a></div>}</div><details className="ency-method"><summary>Criterios de conteo y cobertura</summary><p>{coverage.note}</p>{coverage.missingDriverLaps ? <p>{coverage.missingDriverLaps} registros de carrera no contienen un número individual de vueltas recorridas.</p> : null}<p>Los kilómetros recorridos se calculan multiplicando las vueltas registradas por la longitud del circuito de ese evento; describen distancia geométrica y pueden diferir del recorrido homologado. Las estadísticas de carrera y los puntos finales del campeonato tienen denominadores distintos.</p></details></div>;
+}

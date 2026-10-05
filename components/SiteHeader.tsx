@@ -13,6 +13,7 @@ export function SiteHeader() {
         <Link href="/#juegos">Juegos</Link>
         <Link href="/predestinato">El Predestinado</Link>
         <Link href="/estadisticas">Estadísticas</Link>
+        <Link href="/historia">Historia</Link>
       </nav>
       <Link className="header-cta" href="/en-vivo"><span className="live-dot" /> En vivo</Link>
     </header>

@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "./refinements.css";
+import "./history.css";
+import "./encyclopedia.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://telemetry-1.vercel.app"),
@@ -25,7 +27,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es">
+    <html lang="es" data-scroll-behavior="smooth">
       <body>{children}</body>
     </html>
   );

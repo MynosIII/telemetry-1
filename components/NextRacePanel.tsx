@@ -1,18 +1,20 @@
 import Image from "@/components/ResilientImage";
 import Link from "next/link";
+import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { formatSession, isSessionLive } from "@/lib/format";
 import type { CircuitProfile, ScheduledRace } from "@/lib/types";
 
 const zones = [
-  { label: "ARG", zone: "America/Argentina/Buenos_Aires" },
-  { label: "BRA", zone: "America/Sao_Paulo" },
-  { label: "COL", zone: "America/Bogota" },
-  { label: "MEX", zone: "America/Mexico_City" }
+  { label: "ARG", country: "Argentina", zone: "America/Argentina/Buenos_Aires" },
+  { label: "BRA", country: "Brazil", zone: "America/Sao_Paulo" },
+  { label: "COL", country: "Colombia", zone: "America/Bogota" },
+  { label: "MEX", country: "Mexico", zone: "America/Mexico_City" }
 ];
 
 export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit: CircuitProfile }) {
   const liveSession = race.sessions.find((session) => isSessionLive(session));
   const localLabel = race.country.toUpperCase().slice(0, 3);
+  const localFlag = getCountryFlagUrl(race.country);
 
   return (
     <section className="live-race" id="en-vivo" aria-labelledby="live-title">
@@ -24,7 +26,7 @@ export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit:
         <div className="live-overlay">
           <p className="eyebrow eyebrow-yellow">{liveSession ? "AHORA" : "PRÓXIMA CARRERA"}</p>
           <h2 id="live-title">{race.name}</h2>
-          <p>{circuit.name} · {circuit.locality}</p>
+          <Link className="live-circuit-link" href={`/circuitos/${race.circuitId}#previa`}>{circuit.name} · {circuit.locality} →</Link>
         </div>
       </div>
 
@@ -35,8 +37,16 @@ export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit:
         </div>
         <div className="session-grid session-grid-head" aria-hidden="true">
           <span>SESIÓN</span>
-          <span>{localLabel}</span>
-          {zones.map((zone) => <span key={zone.label}>{zone.label}</span>)}
+          <span className="timezone-column">
+            <b>{localLabel}</b>
+            {localFlag && <Image src={localFlag} alt="" width={26} height={17} unoptimized />}
+          </span>
+          {zones.map((zone) => (
+            <span className="timezone-column" key={zone.label}>
+              <b>{zone.label}</b>
+              <Image src={getCountryFlagUrl(zone.country)!} alt="" width={26} height={17} unoptimized />
+            </span>
+          ))}
         </div>
         {race.sessions.map((session) => {
           const local = formatSession(session, circuit.timezone);
@@ -54,7 +64,7 @@ export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit:
           <div><span>CARRERA</span><strong>{circuit.laps} VUELTAS</strong></div>
         </div>
         <p className="circuit-summary">{circuit.description}</p>
-        <Link className="text-link" href={`/circuitos/${race.circuitId}`}>CONOCER EL CIRCUITO →</Link>
+        <Link className="text-link" href={`/circuitos/${race.circuitId}#previa`}>VER PREVIA COMPLETA →</Link>
       </div>
     </section>
   );

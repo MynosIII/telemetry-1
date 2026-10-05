@@ -1707,7 +1707,7 @@
         <div class="wiki-copy">
           <p class="control-label" data-i18n="fromWikipedia">From Wikipedia</p>
           <p class="wiki-loading" id="wiki-summary">Loading biography…</p>
-          <a class="wiki-link" id="wiki-link" href="drivers/" data-i18n="viewProfile">View driver profile ↗</a>
+          <a class="wiki-link" id="wiki-link" href="/historia" target="_top" data-i18n="viewProfile">View driver profile ↗</a>
         </div>
       </div>
     </div>
@@ -3018,7 +3018,7 @@
         const driver = drivers[driverId];
         if (!driver) return;
         activeProfileId = driverId;
-        wikiLink.href = `drivers/${encodeURIComponent(driverId)}/`;
+        wikiLink.href = `/pilotos/${encodeURIComponent(driverId)}/`;
         dialogTitle.textContent = driver.name;
         dialogSubtitle.textContent = `${driver.debut}–${driver.lastSeason} · ${numberFormat.format(driver.races)} ${t("recordedStarts")} · ${payload.meta.model}`;
         profileStats.innerHTML = [
