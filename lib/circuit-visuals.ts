@@ -49,8 +49,23 @@ const countryCodes: Record<string, string> = {
   Brazil: "BR",
   Colombia: "CO",
   Qatar: "QA",
-  UAE: "AE"
+  UAE: "AE",
+  "Saudi Arabia": "SA",
+  Bahrain: "BH"
 };
+
+// ISO 3166 alpha-3, so the track column never collides with the viewer columns (ARG, BRA, COL, MEX).
+const countryCodes3: Record<string, string> = {
+  Australia: "AUS", Argentina: "ARG", China: "CHN", Japan: "JPN", USA: "USA", "United States": "USA",
+  Canada: "CAN", Monaco: "MCO", Spain: "ESP", Austria: "AUT", UK: "GBR", "United Kingdom": "GBR",
+  Belgium: "BEL", Hungary: "HUN", Netherlands: "NLD", Italy: "ITA", Azerbaijan: "AZE", Malaysia: "MYS",
+  Singapore: "SGP", Mexico: "MEX", Brazil: "BRA", Colombia: "COL", Qatar: "QAT", UAE: "ARE",
+  "Saudi Arabia": "SAU", Bahrain: "BHR", France: "FRA", Germany: "DEU", Portugal: "PRT", Turkey: "TUR", Russia: "RUS"
+};
+
+export function getCountryCode(country: string) {
+  return countryCodes3[country] ?? country.toUpperCase();
+}
 
 export function getCircuitLayoutUrl(circuitId: string) {
   const layout = currentCircuitLayouts[circuitId];

@@ -23,7 +23,7 @@ function ForecastRanking({ entries, kind }: { entries: ForecastDriver[]; kind: "
             <strong>{entry.href ? <Link href={entry.href}>{entry.name}</Link> : entry.name}</strong>
             <span>{entry.team ?? (kind === "market" ? "MERCADO" : "FÓRMULA 1")}</span>
           </div>
-          <div className="forecast-bar" aria-hidden="true"><i style={{ width: `${Math.max(1, entry.probability)}%` }} /></div>
+          <div className="forecast-bar" aria-hidden="true"><i style={{ width: `${Math.min(100, entry.probability)}%` }} /></div>
           <b>{probability.format(entry.probability)}%</b>
           {kind === "model" && <small>{entry.projectedPoints} PTS</small>}
         </li>
@@ -32,7 +32,7 @@ function ForecastRanking({ entries, kind }: { entries: ForecastDriver[]; kind: "
   );
 }
 
-export function ChampionshipForecast({ market, model }: { market: MarketForecast; model: ModelForecast }) {
+export function ChampionshipForecast({ market, model }: { market: MarketForecast; model?: ModelForecast }) {
   return (
     <section className="section championship-forecast" id="simulacion" aria-labelledby="forecast-title">
       <div className="section-heading forecast-heading">
@@ -68,14 +68,23 @@ export function ChampionshipForecast({ market, model }: { market: MarketForecast
           <header>
             <div><span>02</span><p>PROYECCIÓN TELEMETRY 1</p></div>
           </header>
-          <ForecastRanking entries={model.entries} kind="model" />
-          <div className="forecast-panel-footer">
-            <span>{model.remainingRaces} CARRERAS RESTANTES</span>
-          </div>
+          {model ? (
+            <>
+              <ForecastRanking entries={model.entries} kind="model" />
+              <div className="forecast-panel-footer">
+                <span>{model.remainingRaces === 1 ? "1 CARRERA RESTANTE" : `${model.remainingRaces} CARRERAS RESTANTES`}</span>
+              </div>
+            </>
+          ) : (
+            <div className="forecast-unavailable">
+              <strong>PROYECCIÓN EN PAUSA</strong>
+              <p>La simulación necesita el calendario y la clasificación actualizados. Volverá cuando se recupere la conexión.</p>
+            </div>
+          )}
         </article>
       </div>
 
-      <div className="next-winners" aria-label="Favoritos para las próximas carreras">
+      {model?.nextRaces.length ? <div className="next-winners" aria-label="Favoritos para las próximas carreras">
         <p>PRÓXIMAS CARRERAS</p>
         <div>
           {model.nextRaces.map((race) => (
@@ -87,7 +96,7 @@ export function ChampionshipForecast({ market, model }: { market: MarketForecast
             </article>
           ))}
         </div>
-      </div>
+      </div> : null}
     </section>
   );
 }

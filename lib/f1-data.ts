@@ -142,10 +142,16 @@ function normalizeImage(url?: string) {
   return url;
 }
 
-async function fetchJson(url: string, revalidate = 1800): Promise<JsonObject> {
-  const response = await fetch(url, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
-  if (!response.ok) throw new Error(`Request failed: ${response.status}`);
-  return response.json();
+async function fetchJson(url: string, revalidate = 1800, attempts = 2): Promise<JsonObject> {
+  try {
+    const response = await fetch(url, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
+    if (!response.ok) throw new Error(`Request failed: ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    // One retry absorbs the API's transient timeouts before falling back to the snapshot.
+    if (attempts > 1) return fetchJson(url, revalidate, attempts - 1);
+    throw error;
+  }
 }
 
 async function fetchWikipediaJson(url: string, revalidate = 604800): Promise<JsonObject> {
@@ -267,8 +273,13 @@ const getSeasonData = cache(async function getSeasonData() {
     };
   } catch {
     const catalog = await catalogPromise;
+    const now = Date.now();
     return {
-      schedule: fallbackSchedule,
+      // The fallback only knows one weekend; never present a past race as upcoming.
+      schedule: fallbackSchedule.map((race) => ({
+        ...race,
+        state: Date.parse(`${race.date}T${race.time}`) > now ? race.state : "finished" as const
+      })),
       standings: addImages(fallbackStandings, catalog),
       catalog,
       live: false
@@ -484,13 +495,13 @@ export async function getF1HomeData(): Promise<F1HomeData> {
       const racePayloads = await Promise.all(completed.map((race: JsonObject) =>
         fetchJson(`${API_ROOT}/current/${race.round}/results.json?limit=100`)
       ));
-      races = racePayloads.map((payload) => withImages(parseResults(payload.MRData.RaceTable.Races[0], 5), catalog));
+      races = racePayloads.map((payload) => withImages(parseResults(payload.MRData.RaceTable.Races[0]), catalog));
     } catch {
       // Keep verified fallback results.
     }
   }
 
-  const nextRace = schedule.find((race) => race.state === "next") ?? fallbackSchedule[0];
+  const nextRace = schedule.find((race) => race.state === "next") ?? schedule.at(-1) ?? fallbackSchedule[0];
   const nextCircuit = await getCircuitProfile(nextRace.circuitId) ?? {
     id: "monza", name: "Autodromo Nazionale di Monza", locality: "Monza", country: "Italy",
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
@@ -498,6 +509,11 @@ export async function getF1HomeData(): Promise<F1HomeData> {
   };
 
   return { races, standings: standings.slice(0, 20), schedule, nextRace, nextCircuit, updatedAt: new Date().toISOString(), live };
+}
+
+/** False when the season API failed and the pages are showing the built-in snapshot. */
+export async function isSeasonDataLive() {
+  return (await getSeasonData()).live;
 }
 
 export async function getSchedule() {

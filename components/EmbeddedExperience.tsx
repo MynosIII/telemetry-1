@@ -16,7 +16,7 @@ export function EmbeddedExperience({ title, label, source, liveSummary }: Embedd
       <div className="embed-header">
         <div className="embed-title">
           <span>{label === "JUEGOS DE F1" ? "JUEGOS DE F1 / F1 GAMES" : label}</span>
-          <strong>{title}</strong>
+          <h1>{title}</h1>
         </div>
         <div className="embed-actions">
           <Link href="/">← INICIO / HOME</Link>

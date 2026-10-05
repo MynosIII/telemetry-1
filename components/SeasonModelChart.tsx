@@ -22,7 +22,9 @@ export function SeasonModelChart({ model, races, standings }: { model: SeasonMod
   const values = series.flatMap(s => s.points.map(p => p.value));
   const probability = ["xw", "xp", "carWin"].includes(metric);
   const low = metric === "elo" && values.length ? Math.floor(Math.min(...values) / 50) * 50 : 0;
-  const high = probability ? 1 : Math.max(low + 1, ...values) * (metric === "elo" ? 1 : 1.05);
+  // Round the top of the scale so the three gridlines land on readable values.
+  const roundTo = metric === "elo" ? 50 : 20;
+  const high = probability ? 1 : Math.ceil(Math.max(low + 1, ...values) / roundTo) * roundTo;
   const x = (round: number) => 54 + (round - 1) / Math.max(1, races.length - 1) * 710;
   const y = (value: number) => 225 - (value - low) / (high - low) * 195;
   return <div className="season-model-chart"><div className="ency-controls" aria-label="Métrica de evolución">{(Object.entries(metrics) as [Metric, string][]).map(([key, label]) => <button key={key} aria-pressed={metric === key} onClick={() => setMetric(key)}>{label}</button>)}</div><details className="ency-method"><summary>Elegir pilotos para comparar ({selected.length}/6)</summary><div className="driver-select">{options.map(driver => <label key={driver.id}><input type="checkbox" checked={selected.includes(driver.id)} disabled={!selected.includes(driver.id) && selected.length >= 6} onChange={() => setSelected(current => current.includes(driver.id) ? current.filter(d => d !== driver.id) : [...current, driver.id])} />{driver.name}</label>)}</div></details><figure><figcaption>{metrics[metric]} por Gran Premio</figcaption><svg viewBox="0 0 800 265" role="img" aria-labelledby={id}><title id={id}>{`${metrics[metric]} de ${series.map(s => s.driver.name).join(", ")}. Cada punto enlaza a su carrera. Datos disponibles en la tabla siguiente.`}</title>{[0, .5, 1].map(f => <g key={f}><line x1="54" x2="764" y1={225 - f * 195} y2={225 - f * 195} stroke="#d8dde4" /><text x="3" y={229 - f * 195}>{probability ? percent(low + f * (high - low)) : number(low + f * (high - low))}</text></g>)}{series.map((s, i) => {

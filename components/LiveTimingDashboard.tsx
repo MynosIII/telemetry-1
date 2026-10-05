@@ -109,21 +109,21 @@ export function LiveTimingDashboard({ initialSnapshot, mapContext }: LiveTimingD
           <div className="timing-table-wrap">
             <div className="timing-table" role="table" aria-label="Clasificación y telemetría en vivo">
               <div className="timing-row timing-row-head" role="row">
-                <span>POS</span><span>PILOTO</span><span>INTERVALO</span><span>GAP</span><span>ÚLTIMA</span><span>MEJOR</span><span>NEUM.</span><span>PITS</span>
+                {["POS", "PILOTO", "INTERVALO", "GAP", "ÚLTIMA", "MEJOR", "NEUM.", "PITS"].map((label) => <span role="columnheader" key={label}>{label}</span>)}
               </div>
               {snapshot.drivers.length ? snapshot.drivers.map((driver) => (
                 <div className="timing-row" role="row" key={driver.driverNumber}>
-                  <strong className="timing-position">{driver.position ?? "—"}</strong>
-                  <div className="timing-driver"><i aria-hidden="true" /><b>{driver.acronym}</b><span>{driver.name}<small>{driver.team}</small></span></div>
-                  <code>{formatGap(driver.interval)}</code>
-                  <code>{formatGap(driver.gap, driver.position === 1)}</code>
-                  <code>{formatLap(driver.lastLap)}</code>
-                  <code>{formatLap(driver.bestLap)}</code>
-                  <span className="tyre-cell"><b>{driver.compound?.slice(0, 1) ?? "—"}</b><small>{driver.tyreAge === null ? "" : `${driver.tyreAge}V`}</small></span>
-                  <b className="pit-cell">{driver.pits}</b>
+                  <strong className="timing-position" role="cell">{driver.position ?? "—"}</strong>
+                  <div className="timing-driver" role="cell"><i aria-hidden="true" /><b>{driver.acronym}</b><span>{driver.name}<small>{driver.team}</small></span></div>
+                  <code role="cell">{formatGap(driver.interval)}</code>
+                  <code role="cell">{formatGap(driver.gap, driver.position === 1)}</code>
+                  <code role="cell">{formatLap(driver.lastLap)}</code>
+                  <code role="cell">{formatLap(driver.bestLap)}</code>
+                  <span className="tyre-cell" role="cell"><b>{driver.compound?.slice(0, 1) ?? "—"}</b><small>{driver.tyreAge === null ? "" : `${driver.tyreAge}V`}</small></span>
+                  <b className="pit-cell" role="cell">{driver.pits}</b>
                 </div>
               )) : (
-                <div className="timing-empty">Todavía no hay pilotos publicados para esta sesión.</div>
+                <div className="timing-empty" role="row"><span role="cell">Todavía no hay pilotos publicados para esta sesión.</span></div>
               )}
             </div>
           </div>

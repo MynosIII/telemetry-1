@@ -334,6 +334,11 @@ function simulateRace(race: ScheduledRace, standings: Standing[], races: JsonRec
   })).sort((a, b) => b.probability - a.probability).slice(0, 6);
 }
 
+/** The same next-race model the circuit page shows, without the weather and market requests. */
+export async function getNextRaceModel(race: ScheduledRace, standings: Standing[]) {
+  return simulateRace(race, standings, await getRecentRaces());
+}
+
 export async function getRaceWeekendData(race: ScheduledRace, standings: Standing[]): Promise<RaceWeekendData> {
   const [weather, market, recentRaces] = await Promise.all([
     getWeather(race),

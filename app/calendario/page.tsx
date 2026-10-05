@@ -5,7 +5,8 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { getCircuitLayoutUrl, getCircuitMapUrl, getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { formatRaceDate } from "@/lib/format";
-import { getSchedule } from "@/lib/f1-data";
+import { getSchedule, isSeasonDataLive } from "@/lib/f1-data";
+import { StaleDataNotice } from "@/components/StaleDataNotice";
 
 export const metadata: Metadata = {
   title: "Calendario",
@@ -13,11 +14,12 @@ export const metadata: Metadata = {
 };
 
 export default async function CalendarPage() {
-  const schedule = await getSchedule();
+  const [schedule, live] = await Promise.all([getSchedule(), isSeasonDataLive()]);
 
   return (
     <main id="top" className="inner-page">
       <SiteHeader />
+      <StaleDataNotice live={live} detail="El calendario completo volverá a aparecer cuando se recupere la conexión." />
       <section className="inner-hero compact-hero">
         <p className="eyebrow eyebrow-red">CALENDARIO</p>
         <h1>TODA LA <em>TEMPORADA</em></h1>

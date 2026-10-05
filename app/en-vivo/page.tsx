@@ -3,6 +3,7 @@ import { LiveTimingDashboard } from "@/components/LiveTimingDashboard";
 import { NextRacePanel } from "@/components/NextRacePanel";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { StaleDataNotice } from "@/components/StaleDataNotice";
 import { getCircuitProfile, getF1HomeData } from "@/lib/f1-data";
 import { getLiveTimingSnapshot } from "@/lib/live-timing";
 import { getWeatherRadarImage } from "@/lib/weather-radar";
@@ -42,6 +43,7 @@ export default async function LivePage() {
   return (
     <main id="top" className="inner-page live-page">
       <SiteHeader />
+      <StaleDataNotice live={data.live} />
       <section className="inner-hero compact-hero">
         <p className="eyebrow eyebrow-red">PISTA</p>
         <h1>CENTRO <em>EN VIVO</em></h1>

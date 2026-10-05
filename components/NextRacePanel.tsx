@@ -1,19 +1,14 @@
 import Image from "@/components/ResilientImage";
 import Link from "next/link";
-import { getCountryFlagUrl } from "@/lib/circuit-visuals";
-import { formatSession, isSessionLive } from "@/lib/format";
+import { getCountryCode, getCountryFlagUrl } from "@/lib/circuit-visuals";
+import { formatSession, isSessionLive, zonesForRace } from "@/lib/format";
 import type { CircuitProfile, ScheduledRace } from "@/lib/types";
-
-const zones = [
-  { label: "ARG", country: "Argentina", zone: "America/Argentina/Buenos_Aires" },
-  { label: "BRA", country: "Brazil", zone: "America/Sao_Paulo" },
-  { label: "COL", country: "Colombia", zone: "America/Bogota" },
-  { label: "MEX", country: "Mexico", zone: "America/Mexico_City" }
-];
 
 export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit: CircuitProfile }) {
   const liveSession = race.sessions.find((session) => isSessionLive(session));
-  const localLabel = race.country.toUpperCase().slice(0, 3);
+  const localLabel = getCountryCode(race.country);
+  const zones = zonesForRace(race.country);
+  const finished = race.state === "finished";
   const localFlag = getCountryFlagUrl(race.country);
 
   return (
@@ -24,7 +19,7 @@ export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit:
         ) : <div className="circuit-image-fallback" aria-hidden="true">{race.round.padStart(2, "0")}</div>}
         <div className="live-visual-shade" />
         <div className="live-overlay">
-          <p className="eyebrow eyebrow-yellow">{liveSession ? "AHORA" : "PRÓXIMA CARRERA"}</p>
+          <p className="eyebrow eyebrow-yellow">{liveSession ? "AHORA" : finished ? "ÚLTIMA CARRERA CONOCIDA" : "PRÓXIMA CARRERA"}</p>
           <h2 id="live-title">{race.name}</h2>
           <Link className="live-circuit-link" href={`/circuitos/${race.circuitId}#previa`}>{circuit.name} · {circuit.locality} →</Link>
         </div>
@@ -35,15 +30,15 @@ export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit:
           <span><i className={liveSession ? "live-dot" : "next-dot"} />{liveSession ? `${liveSession.label} EN VIVO` : `RONDA ${race.round}`}</span>
           <Link href="/en-vivo">VER FIN DE SEMANA →</Link>
         </div>
-        <div className="session-grid session-grid-head" aria-hidden="true">
+        <div className="session-grid session-grid-head" aria-hidden="true" data-zones={zones.length}>
           <span>SESIÓN</span>
           <span className="timezone-column">
             <b>{localLabel}</b>
             {localFlag && <Image src={localFlag} alt="" width={26} height={17} unoptimized />}
           </span>
           {zones.map((zone) => (
-            <span className="timezone-column" key={zone.label}>
-              <b>{zone.label}</b>
+            <span className="timezone-column" key={zone.short}>
+              <b>{zone.short}</b>
               <Image src={getCountryFlagUrl(zone.country)!} alt="" width={26} height={17} unoptimized />
             </span>
           ))}
@@ -51,10 +46,19 @@ export function NextRacePanel({ race, circuit }: { race: ScheduledRace; circuit:
         {race.sessions.map((session) => {
           const local = formatSession(session, circuit.timezone);
           return (
-            <div className={isSessionLive(session) ? "session-grid is-live" : "session-grid"} key={session.key}>
-              <div><strong>{session.label}</strong><span>{local.day}</span></div>
-              <b>{local.time}</b>
-              {zones.map((zone) => <b key={zone.label}>{formatSession(session, zone.zone).time}</b>)}
+            <div className={isSessionLive(session) ? "session-grid is-live" : "session-grid"} key={session.key} data-zones={zones.length}>
+              <div><strong>{session.label}</strong><span>{local.day} · hora local</span></div>
+              <b><span className="sr-only">{race.country}: </span>{local.time}</b>
+              {zones.map((zone) => {
+                const viewer = formatSession(session, zone.zone);
+                return (
+                  <b key={zone.short}>
+                    <span className="sr-only">{zone.label}: </span>
+                    {viewer.time}
+                    {viewer.day !== local.day ? <small className="zone-day">{viewer.day}</small> : null}
+                  </b>
+                );
+              })}
             </div>
           );
         })}
