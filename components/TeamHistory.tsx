@@ -31,7 +31,8 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
   const stats = entity.stats;
   const drivers = entity.relations.find(group => group.category === "drivers")?.items ?? [];
   const engines = entity.relations.find(group => group.category === "engines")?.items ?? [];
-  const winners = drivers.filter(d => d.wins > 0).sort((a, b) => b.wins - a.wins || a.firstSeason - b.firstSeason).slice(0, 9);
+  const allWinners = drivers.filter(d => d.wins > 0).sort((a, b) => b.wins - a.wins || a.firstSeason - b.firstSeason);
+  const winners = allWinners.slice(0, 9), moreWinners = allWinners.slice(9);
   const engineWinners = engines.filter(e => e.wins > 0).sort((a, b) => b.wins - a.wins);
   const bestSeason = [...entity.seasons].sort((a, b) => b.wins - a.wins || b.podiums - a.podiums)[0];
   const constructorTitles = entity.milestones.filter(m => m.label === "Campeón mundial" && /constructores/i.test(m.event)).map(m => m.season);
@@ -57,6 +58,17 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
   if (firstTitle) moments.push({ ...firstTitle, label: "Primer título mundial" });
   if (bestSeason?.wins) moments.push({ label: "Su mejor temporada", season: bestSeason.season, event: `${bestSeason.wins} victorias y ${bestSeason.podiums} podios en ${bestSeason.races} Grandes Premios` });
   moments.sort((a, b) => a.season - b.season);
+
+  const top = allWinners[0]?.wins ?? 1;
+  const winnerCard = (d: typeof allWinners[number], i: number) => <li key={d.id}>
+    <Link prefetch={false} href={d.href}>
+      <span className="team-winner-rank">{i + 1}</span>
+      <span className="team-winner-face" aria-hidden="true"><FallbackImage sources={photoOf(d.id)} alt="" fallback={monogram(d.name)} /></span>
+      <span className="team-winner-name"><strong>{d.name}</strong><small>{d.firstSeason === d.lastSeason ? d.firstSeason : `${d.firstSeason}–${d.lastSeason}`} · {d.races} GP</small></span>
+      <span className="team-winner-wins"><b>{d.wins}</b><small>{d.wins === 1 ? "victoria" : "victorias"}</small></span>
+      <span className="team-winner-bar"><span style={{ width: `${d.wins / top * 100}%` }} /></span>
+    </Link>
+  </li>;
 
   const sections = [["historia", "Historia"], ...(winners.length ? [["victorias", "Victorias"]] : []), ["resultados", "Resultados"], ["momentos", "Momentos"], ...(cars.length ? [["autos", "Autos"]] : []), ["conexiones", "Conexiones"], ["fuentes", "Fuentes"]];
 
@@ -105,17 +117,11 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
     {winners.length ? <section id="victorias" className="team-section">
       <h2>Sus {number(stats.wins)} {stats.wins === 1 ? "victoria" : "victorias"}</h2>
       <p className="team-lead">Quiénes ganaron con {entity.name}{bestSeason?.wins ? <>, y su mejor año: <Link prefetch={false} href={`/historia/seasons/${bestSeason.season}`}>{bestSeason.season}</Link>, con {bestSeason.wins} {bestSeason.wins === 1 ? "triunfo" : "triunfos"}</> : null}.</p>
-      <ol className="team-winners">
-        {winners.map((d, i) => <li key={d.id}>
-          <Link prefetch={false} href={d.href}>
-            <span className="team-winner-rank">{i + 1}</span>
-            <span className="team-winner-face" aria-hidden="true"><FallbackImage sources={photoOf(d.id)} alt="" fallback={monogram(d.name)} /></span>
-            <span className="team-winner-name"><strong>{d.name}</strong><small>{d.firstSeason === d.lastSeason ? d.firstSeason : `${d.firstSeason}–${d.lastSeason}`} · {d.races} GP</small></span>
-            <span className="team-winner-wins"><b>{d.wins}</b><small>{d.wins === 1 ? "victoria" : "victorias"}</small></span>
-            <span className="team-winner-bar"><span style={{ width: `${d.wins / winners[0].wins * 100}%` }} /></span>
-          </Link>
-        </li>)}
-      </ol>
+      <ol className="team-winners">{winners.map((d, i) => winnerCard(d, i))}</ol>
+      {moreWinners.length ? <details className="team-more-winners">
+        <summary>Ver {moreWinners.length === 1 ? "el otro ganador" : `los otros ${moreWinners.length} ganadores`}</summary>
+        <ol className="team-winners" start={10}>{moreWinners.map((d, i) => winnerCard(d, i + 9))}</ol>
+      </details> : null}
       {engineWinners.length ? <p className="team-engines"><span>Motores ganadores</span>{engineWinners.map(e => <Link key={e.id} prefetch={false} href={e.href}>{e.name} <b>{e.wins}</b></Link>)}</p> : null}
     </section> : null}
 
