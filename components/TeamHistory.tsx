@@ -4,12 +4,16 @@ import { HistoryCharts } from "./HistoryCharts";
 import { LinkedNarrative, tidy, type NarrativeTarget } from "./LinkedNarrative";
 import { LineageExplorer, type LineageView } from "./LineageExplorer";
 import { TeamBadge } from "./TeamBadge";
+import { FallbackImage } from "./FallbackImage";
+import { driverPhoto } from "@/lib/driver-photos";
+import eloRatings from "@/lib/elo-ratings.json";
 import { TeamCarIndex, type TeamCar } from "./TeamCarIndex";
 import { historyCategories, type HistoryEntity } from "@/lib/history";
 import { getWikipediaHistory } from "@/lib/wikipedia-history";
 import { inkFor } from "@/lib/team-lineage";
 
 const number = (value: number) => value.toLocaleString("es-AR");
+const photoOf = (id: string) => { const url = driverPhoto(id); return url ? [url] : []; };
 const monogram = (name: string) => name.split(" ").filter(Boolean).map(part => part[0]).slice(0, 2).join("");
 
 async function TeamWikipedia({ entity }: { entity: HistoryEntity }) {
@@ -28,7 +32,8 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
   const stats = entity.stats;
   const drivers = entity.relations.find(group => group.category === "drivers")?.items ?? [];
   const engines = entity.relations.find(group => group.category === "engines")?.items ?? [];
-  const winners = drivers.filter(d => d.wins > 0).sort((a, b) => b.wins - a.wins || a.firstSeason - b.firstSeason).slice(0, 9);
+  const allWinners = drivers.filter(d => d.wins > 0).sort((a, b) => b.wins - a.wins || a.firstSeason - b.firstSeason);
+  const winners = allWinners.slice(0, 9), moreWinners = allWinners.slice(9);
   const engineWinners = engines.filter(e => e.wins > 0).sort((a, b) => b.wins - a.wins);
   const bestSeason = [...entity.seasons].sort((a, b) => b.wins - a.wins || b.podiums - a.podiums)[0];
   const constructorTitles = entity.milestones.filter(m => m.label === "Campeón mundial" && /constructores/i.test(m.event)).map(m => m.season);
@@ -55,7 +60,23 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
   if (bestSeason?.wins) moments.push({ label: "Su mejor temporada", season: bestSeason.season, event: `${bestSeason.wins} victorias y ${bestSeason.podiums} podios en ${bestSeason.races} Grandes Premios` });
   moments.sort((a, b) => a.season - b.season);
 
-  const sections = [["historia", "Historia"], ...(winners.length ? [["victorias", "Victorias"]] : []), ["resultados", "Resultados"], ["momentos", "Momentos"], ...(cars.length ? [["autos", "Autos"]] : []), ["conexiones", "Conexiones"], ["fuentes", "Fuentes"]];
+  const top = allWinners[0]?.wins ?? 1;
+  type Rating = { name: string; careerRating: number; sustainedPrime: number | null; peakRating: number | null; peakSeason: number | null; expectedWins: number | null; observedWins: number | null; winsAboveExpected: number | null };
+  const ratings = eloRatings as Record<string, Rating>;
+  const rated = drivers.filter(d => ratings[d.id]).map(d => ({ ...d, elo: ratings[d.id] })).sort((a, b) => b.elo.careerRating - a.elo.careerRating);
+  const eloTop = rated.slice(0, 10);
+  const eloMax = eloTop[0]?.elo.careerRating ?? 2000, eloMin = Math.floor(((eloTop.at(-1)?.elo.careerRating ?? 1400) - 60) / 50) * 50;
+  const winnerCard = (d: typeof allWinners[number], i: number) => <li key={d.id}>
+    <Link prefetch={false} href={d.href}>
+      <span className="team-winner-rank">{i + 1}</span>
+      <span className="team-winner-face" aria-hidden="true"><FallbackImage sources={photoOf(d.id)} alt="" fallback={monogram(d.name)} /></span>
+      <span className="team-winner-name"><strong>{d.name}</strong><small>{d.firstSeason === d.lastSeason ? d.firstSeason : `${d.firstSeason}–${d.lastSeason}`} · {d.races} GP</small></span>
+      <span className="team-winner-wins"><b>{d.wins}</b><small>{d.wins === 1 ? "victoria" : "victorias"}</small></span>
+      <span className="team-winner-bar"><span style={{ width: `${d.wins / top * 100}%` }} /></span>
+    </Link>
+  </li>;
+
+  const sections = [["historia", "Historia"], ...(winners.length ? [["victorias", "Victorias"]] : []), ...(rated.length ? [["modelo", "Modelo v7.6"]] : []), ["resultados", "Resultados"], ["momentos", "Momentos"], ...(cars.length ? [["autos", "Autos"]] : []), ["conexiones", "Conexiones"], ["fuentes", "Fuentes"]];
 
   return <div className="team-history" style={{ ["--team" as string]: color, ["--team-ink" as string]: inkFor(color) }}>
     <header className="team-hero">
@@ -102,18 +123,27 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
     {winners.length ? <section id="victorias" className="team-section">
       <h2>Sus {number(stats.wins)} {stats.wins === 1 ? "victoria" : "victorias"}</h2>
       <p className="team-lead">Quiénes ganaron con {entity.name}{bestSeason?.wins ? <>, y su mejor año: <Link prefetch={false} href={`/historia/seasons/${bestSeason.season}`}>{bestSeason.season}</Link>, con {bestSeason.wins} {bestSeason.wins === 1 ? "triunfo" : "triunfos"}</> : null}.</p>
-      <ol className="team-winners">
-        {winners.map((d, i) => <li key={d.id}>
-          <Link prefetch={false} href={d.href}>
-            <span className="team-winner-rank">{i + 1}</span>
-            <span className="team-winner-face" aria-hidden="true">{monogram(d.name)}</span>
-            <span className="team-winner-name"><strong>{d.name}</strong><small>{d.firstSeason === d.lastSeason ? d.firstSeason : `${d.firstSeason}–${d.lastSeason}`} · {d.races} GP</small></span>
-            <span className="team-winner-wins"><b>{d.wins}</b><small>{d.wins === 1 ? "victoria" : "victorias"}</small></span>
-            <span className="team-winner-bar"><span style={{ width: `${d.wins / winners[0].wins * 100}%` }} /></span>
-          </Link>
-        </li>)}
-      </ol>
+      <ol className="team-winners">{winners.map((d, i) => winnerCard(d, i))}</ol>
+      {moreWinners.length ? <details className="team-more-winners">
+        <summary>Ver {moreWinners.length === 1 ? "el otro ganador" : `los otros ${moreWinners.length} ganadores`}</summary>
+        <ol className="team-winners" start={10}>{moreWinners.map((d, i) => winnerCard(d, i + 9))}</ol>
+      </details> : null}
       {engineWinners.length ? <p className="team-engines"><span>Motores ganadores</span>{engineWinners.map(e => <Link key={e.id} prefetch={false} href={e.href}>{e.name} <b>{e.wins}</b></Link>)}</p> : null}
+    </section> : null}
+
+    {rated.length ? <section id="modelo" className="team-section">
+      <h2>Sus pilotos según el modelo</h2>
+      <p className="team-lead">El ELO retrospectivo de TelemetryOne v7.6 mide a cada piloto contra sus rivales y su auto, carrera por carrera. Estos son los {eloTop.length} mejor valorados de los {rated.length} pilotos de {entity.name} que tiene el modelo. Las cifras son de toda su carrera, no solo con este equipo.</p>
+      <ol className="team-elo">{eloTop.map((d, i) => <li key={d.id}>
+        <Link prefetch={false} href={d.href}>
+          <span className="team-winner-rank">{i + 1}</span>
+          <span className="team-elo-name"><strong>{d.name}</strong><small>{d.firstSeason === d.lastSeason ? d.firstSeason : `${d.firstSeason}–${d.lastSeason}`} con {entity.name}{d.elo.peakSeason ? ` · pico en ${d.elo.peakSeason}` : ""}</small></span>
+          <span className="team-elo-bar"><span style={{ width: `${Math.max(4, (d.elo.careerRating - eloMin) / (eloMax - eloMin) * 100)}%` }} /></span>
+          <span className="team-elo-value"><b>{Math.round(d.elo.careerRating)}</b><small>ELO</small></span>
+          <span className="team-elo-xw">{d.elo.observedWins !== null && d.elo.expectedWins !== null ? <><b className={(d.elo.winsAboveExpected ?? 0) >= 0 ? "is-up" : "is-down"}>{(d.elo.winsAboveExpected ?? 0) >= 0 ? "+" : ""}{(d.elo.winsAboveExpected ?? 0).toFixed(1)}</b><small>{d.elo.observedWins} victorias · {d.elo.expectedWins.toFixed(1)} esperadas</small></> : null}</span>
+        </Link>
+      </li>)}</ol>
+      <Link className="team-note-link" href="/estadisticas/laboratorio">Explorar el modelo y comparar pilotos en el laboratorio →</Link>
     </section> : null}
 
     <section id="resultados" className="team-section">
@@ -144,7 +174,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
     <section id="fuentes" className="team-section team-sources">
       <h2>Fuentes</h2>
       <Suspense fallback={<p className="team-note">Consultando Wikipedia…</p>}><TeamWikipedia entity={entity} /></Suspense>
-      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a>, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a> y <a href={entity.sources.wikipedia} target="_blank" rel="noreferrer">Wikipedia</a>. Archivo hasta diciembre de 2025. Victorias y podios se cuentan una vez por auto y carrera; una inscripción puede terminar sin largar, por eso inscripciones ({number(stats.entries)}) y largadas ({number(stats.starts)}) difieren.</p>
+      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a>, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a> y <a href={entity.sources.wikipedia} target="_blank" rel="noreferrer">Wikipedia</a>. ELO y victorias esperadas: investigación propia <Link href="/estadisticas/laboratorio">TelemetryOne v7.6</Link>, estimaciones retrospectivas con cobertura propia. Archivo hasta diciembre de 2025. Victorias y podios se cuentan una vez por auto y carrera; una inscripción puede terminar sin largar, por eso inscripciones ({number(stats.entries)}) y largadas ({number(stats.starts)}) difieren.</p>
       <Link className="team-note-link" href="/historia#metodologia">Cobertura, metodología y limitaciones →</Link>
     </section>
   </div>;

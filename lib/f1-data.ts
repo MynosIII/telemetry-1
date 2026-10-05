@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { getHistoryEntity } from "./history";
+import { driverPhoto, driverPhotosByName } from "./driver-photos";
 import type {
   CircuitFacts,
   CircuitProfile,
@@ -15,8 +16,6 @@ import type {
 } from "./types";
 
 const API_ROOT = "https://api.jolpi.ca/ergast/f1";
-const IMAGE_CATALOG =
-  "https://f1-telemetry-games.vercel.app/shared/driver_images.json";
 const IMAGE_REPO_ROOT =
   "https://f1-telemetry-games.vercel.app/";
 const TELEMETRY_PROFILE_ROOT =
@@ -166,11 +165,7 @@ async function fetchWikipediaJson(url: string, revalidate = 604800): Promise<Jso
 }
 
 export async function getImageCatalog(): Promise<Record<string, string>> {
-  try {
-    return (await fetchJson(IMAGE_CATALOG, 86400)) as Record<string, string>;
-  } catch {
-    return fallbackImages;
-  }
+  return { ...fallbackImages, ...driverPhotosByName };
 }
 
 function addImages<T extends { name: string }>(items: T[], catalog: Record<string, string>) {
@@ -611,7 +606,7 @@ export async function getDriverProfile(driverId: string): Promise<DriverProfile 
       dateOfBirth: firstResult?.Driver?.dateOfBirth ?? history?.biography.dateOfBirth ?? telemetry?.biography?.dateOfBirth,
       permanentNumber: firstResult?.Driver?.permanentNumber,
       code: firstResult?.Driver?.code,
-      image: normalizeImage(catalog[name] ?? fallbackImages[name])
+      image: driverPhoto(driverId) ?? normalizeImage(catalog[name] ?? fallbackImages[name])
     },
     seasonResults: rawRaces.slice().reverse().map((race: JsonObject) => withImages(parseResults(race), catalog)),
     telemetry
