@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 import Link from "next/link";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { FallbackImage } from "./FallbackImage";
 import { driverPhoto } from "@/lib/driver-photos";
 import { teamLogo } from "@/lib/team-media";
@@ -18,8 +19,24 @@ const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u0
 
 export type ArchiveEntry = Pick<HistorySummary, "id" | "category" | "name" | "fullName" | "country" | "firstSeason" | "lastSeason" | "titleSeasons" | "href"> & { stats: Pick<HistorySummary["stats"], "races" | "wins"> };
 
+const isCategory = (value: string | null | undefined): value is HistoryCategory => !!value && value !== "seasons" && Object.hasOwn(historyCategories, value);
+
+/** The open category lives in ?categoria= so the section sub-bar can link to it. */
 export function HistoryArchive({ entities }: { entities: ArchiveEntry[] }) {
-  const [category, setCategory] = useState<HistoryCategory>("drivers");
+  // useSearchParams needs a Suspense boundary on the static /historia page.
+  return <Suspense fallback={<Archive entities={entities} category="drivers" />}><ArchiveFromQuery entities={entities} /></Suspense>;
+}
+
+function ArchiveFromQuery({ entities }: { entities: ArchiveEntry[] }) {
+  const requested = useSearchParams()?.get("categoria");
+  const router = useRouter();
+  const pathname = usePathname();
+  const category = isCategory(requested) ? requested : "drivers";
+  return <Archive key={category} entities={entities} category={category}
+    onCategory={key => router.replace(`${pathname}?categoria=${key}`, { scroll: false })} />;
+}
+
+function Archive({ entities, category, onCategory }: { entities: ArchiveEntry[]; category: HistoryCategory; onCategory?: (key: HistoryCategory) => void }) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("wins");
   const [champions, setChampions] = useState(false);
@@ -30,10 +47,10 @@ export function HistoryArchive({ entities }: { entities: ArchiveEntry[] }) {
   ).sort((a, b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "debut" ? a.firstSeason - b.firstSeason : sort === "races" ? b.stats.races - a.stats.races : b.stats.wins - a.stats.wins), [entities, category, query, champions, sort]);
 
   const titled = category === "drivers" || category === "constructors";
-  return <div className="history-archive">
+  return <div className="history-archive" id="archivo">
     <div className="history-categories" role="group" aria-label="Categorías del archivo">
       {(Object.entries(historyCategories) as [HistoryCategory, string][]).filter(([key]) => key !== "seasons").map(([key, label]) =>
-        <button key={key} aria-pressed={category === key} onClick={() => { setCategory(key); setLimit(30); setChampions(false); }}>{label}<span>{entities.filter(e => e.category === key).length}</span></button>
+        <button key={key} aria-pressed={category === key} onClick={() => onCategory?.(key)}>{label}<span>{entities.filter(e => e.category === key).length}</span></button>
       )}
     </div>
     <div className="history-filters">
