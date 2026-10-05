@@ -61,5 +61,15 @@ export default async function EntityPage({ params }: Props) {
     const current = steps.map(s => s.id).lastIndexOf(entity.id);
     return <main id="top" className="inner-page history-page team-page"><SiteHeader /><TeamHistory entity={entity} color={teamColor(entity.id)} logo={teamLogo(entity.id)} cars={cars} lineage={lineage && steps.length > 1 && current >= 0 ? { base: lineage.base, steps, current } : null} /><SiteFooter /></main>;
   }
-  return <main id="top" className="inner-page history-page"><SiteHeader /><section className="inner-hero compact-hero"><Link className="history-breadcrumb" href="/historia">← Archivo histórico</Link><p className="eyebrow eyebrow-red">{historyCategories[entity.category]} · {entity.country ?? "CAMPEONATO MUNDIAL"} · {entity.firstSeason}–{entity.lastSeason}</p><h1>{entity.name.toLocaleUpperCase("es")}</h1>{entity.fullName !== entity.name ? <p className="history-intro">{entity.fullName}</p> : null}</section><div className="history-content"><HistoryDossier entity={entity} /></div><SiteFooter /></main>;
+  const stats = entity.stats, number = (value: number) => value.toLocaleString("es-AR");
+  const figures = [["Grandes Premios", stats.races], ["Victorias", stats.wins], ["Podios", stats.podiums], ["Salidas P1", stats.poles], ["Vueltas rápidas", stats.fastestLaps]] as const;
+  return <main id="top" className="inner-page history-page"><SiteHeader /><div className="history-content">
+    <header className="archive-head">
+      <nav className="archive-crumb" aria-label="Ruta"><Link href="/historia">Estadísticas</Link><span>/</span><span>{historyCategories[entity.category]}</span></nav>
+      <h1>{entity.name}</h1>
+      <p className="archive-meta">{[entity.fullName !== entity.name ? entity.fullName : null, entity.country, entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
+      <dl className="archive-figures">{figures.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{number(value)}</dd></div>)}</dl>
+    </header>
+    <HistoryDossier entity={entity} />
+  </div><SiteFooter /></main>;
 }

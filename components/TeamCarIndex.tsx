@@ -8,7 +8,7 @@ import { FallbackImage } from "./FallbackImage";
 
 export type TeamCar = { id: string; name: string; href: string; seasons: number[]; engines: string[]; image: CarImage };
 
-const PAGE = 24;
+const PAGE = 40;
 const decadeOf = (year: number) => Math.floor(year / 10) * 10;
 
 export function TeamCarIndex({ cars, color }: { cars: TeamCar[]; color: string }) {
@@ -21,19 +21,13 @@ export function TeamCarIndex({ cars, color }: { cars: TeamCar[]; color: string }
       <button aria-pressed={decade === null} onClick={() => { setDecade(null); setLimit(PAGE); }}>Todos <span>{cars.length}</span></button>
       {decades.map(d => <button key={d} aria-pressed={decade === d} onClick={() => { setDecade(d); setLimit(PAGE); }}>{`${d}s`} <span>{cars.filter(c => decadeOf(c.seasons[0]) === d).length}</span></button>)}
     </div>
-    <p className="car-index-count" role="status">{matches.length} {matches.length === 1 ? "modelo" : "modelos"}</p>
+    <p className="car-index-count" role="status">{matches.length} {matches.length === 1 ? "modelo" : "modelos"}{cars.some(c => c.image.sources.length) ? "" : " · fotos pendientes"}</p>
     <ol className="car-index-grid">
       {matches.slice(0, limit).map(car => <li key={car.id}>
-        <Link href={car.href} prefetch={false} className="car-card">
-          <span className="car-card-photo">
-            <FallbackImage sources={car.image.sources} alt={car.name} caption={i => {
-              const credit = car.image.credits[i];
-              return credit?.author ? <small className="car-card-credit">Foto: {credit.author}{credit.license ? ` · ${credit.license}` : ""}</small> : null;
-            }} fallback={<span className="car-card-empty" aria-label="Foto pendiente">
-              <svg viewBox="0 0 120 40" aria-hidden="true"><path d="M4 28h10l4-7 22-3 14-8h20l8 8 22 2 8 5v3H4z" /><circle cx="24" cy="30" r="6" /><circle cx="96" cy="30" r="6" /></svg>
-              <small>Foto pendiente</small>
-            </span>} />
-          </span>
+        <Link href={car.href} prefetch={false} className={`car-card${car.image.sources.length ? "" : " no-photo"}`}>
+          {car.image.sources.length ? <span className="car-card-photo">
+            <FallbackImage sources={car.image.sources} alt={car.name} fallback={null} />
+          </span> : null}
           <span className="car-card-body">
             <strong>{car.name}</strong>
             <span>{car.seasons.length > 1 ? `${car.seasons[0]}–${car.seasons.at(-1)}` : car.seasons[0]}{car.engines.length ? ` · ${car.engines.join(", ")}` : ""}</span>
