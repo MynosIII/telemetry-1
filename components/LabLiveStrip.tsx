@@ -46,7 +46,7 @@ export function LabLiveStrip({ initialSummary }: { initialSummary: LabLiveSummar
   }, [summary.refreshMode, summary.refreshSeconds]);
 
   return (
-    <Link className="lab-live-strip" href="/estadisticas#modelo-2026">
+    <Link className="lab-live-strip" href="/temporada#modelo-2026">
       <span><i /> {summary.refreshMode === "session" ? "PROBABILIDADES · 15 MIN" : "OVERLAY 2026 POSTCARRERA"}</span>
       <b>{summary.coverage}</b>
       <b>PRÓXIMA · {summary.nextRace}</b>
