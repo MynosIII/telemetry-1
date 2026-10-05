@@ -6,8 +6,11 @@ import { RaceBoard } from "@/components/RaceBoard";
 import { SearchArchive } from "@/components/SearchArchive";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { StaleDataNotice } from "@/components/StaleDataNotice";
 import { getF1HomeData } from "@/lib/f1-data";
 import { enrichMarketForecast, getPolymarketChampionForecast, simulateChampionship } from "@/lib/championship-forecast";
+import { getNextRaceModel } from "@/lib/race-weekend";
+import { getHistoryIndex } from "@/lib/history";
 
 const games = [
   {
@@ -49,17 +52,35 @@ const games = [
 ];
 
 export default async function Home() {
-  const [data, rawMarketForecast] = await Promise.all([
+  const [data, rawMarketForecast, historyIndex] = await Promise.all([
     getF1HomeData(),
-    getPolymarketChampionForecast()
+    getPolymarketChampionForecast(),
+    getHistoryIndex()
   ]);
+  const winLeaders = historyIndex.entities
+    .filter((entity) => entity.category === "drivers")
+    .sort((a, b) => b.stats.wins - a.stats.wins)
+    .slice(0, 8);
+  const winScale = Math.ceil((winLeaders[0]?.stats.wins ?? 1) / 20) * 20;
   const marketForecast = enrichMarketForecast(rawMarketForecast, data.standings);
-  const modelForecast = simulateChampionship(data);
+  // The snapshot only knows one weekend, so a simulation on it would be meaningless.
+  const seasonForecast = data.live ? simulateChampionship(data) : undefined;
+  // Show the circuit page's next-race model for the next round so both pages agree.
+  const nextRaceModel = seasonForecast && data.nextRace.state === "next"
+    ? await getNextRaceModel(data.nextRace, data.standings)
+    : undefined;
+  const modelForecast = seasonForecast && nextRaceModel?.[0] ? {
+    ...seasonForecast,
+    nextRaces: seasonForecast.nextRaces.map((race) => race.round === data.nextRace.round
+      ? { ...race, favorite: nextRaceModel[0].name, probability: nextRaceModel[0].probability }
+      : race)
+  } : seasonForecast;
   const leader = data.standings[0];
 
   return (
     <main id="top">
       <SiteHeader />
+      <StaleDataNotice live={data.live} />
 
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-speed-lines" aria-hidden="true" />
@@ -155,7 +176,7 @@ export default async function Home() {
           <a className="button button-yellow" href="/predestinato">ENTRAR AL JUEGO <span>→</span></a>
         </div>
         <div className="predestinato-panel" aria-hidden="true">
-          <div className="career-header"><span>CARRERA / TEMPORADA 01</span><b>PRESTIGIO 68</b></div>
+          <div className="career-header"><span>EJEMPLO DE PARTIDA · TEMPORADA 01</span><b>PRESTIGIO 68</b></div>
           <div className="career-stage">
             <span className="stage-number">07</span>
             <p>PRÓXIMO OBJETIVO</p>
@@ -187,18 +208,24 @@ export default async function Home() {
             </div>
             <a className="button button-dark" href="/estadisticas">ABRIR ESTADÍSTICAS <span>→</span></a>
           </div>
-          <div className="telemetry-chart" aria-label="Vista previa de comparación de pilotos">
-            <div className="chart-head"><span>COMPARACIÓN HISTÓRICA</span><b>RATING / TEMPORADA</b></div>
+          <figure className="telemetry-chart">
+            <figcaption className="chart-head"><span>LÍDERES HISTÓRICOS</span><b>VICTORIAS EN GRANDES PREMIOS</b></figcaption>
             <div className="chart-area">
-              <div className="chart-y"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div>
-              <div className="chart-bars">
-                {[62, 78, 70, 88, 82, 95, 84, 91, 76, 86, 72, 80].map((height, index) => (
-                  <i key={index} style={{ height: `${height}%` }} />
+              <div className="chart-y" aria-hidden="true">{[1, .75, .5, .25, 0].map((share) => <span key={share}>{Math.round(winScale * share)}</span>)}</div>
+              <ol className="chart-bars">
+                {winLeaders.map((driver) => (
+                  <li key={driver.id}>
+                    <Link href={`/pilotos/${driver.id}`} aria-label={`${driver.name}: ${driver.stats.wins} victorias`}>
+                      <b>{driver.stats.wins}</b>
+                      <i style={{ height: `${driver.stats.wins / winScale * 100}%` }} />
+                      <small>{driver.name.split(" ").at(-1)}</small>
+                    </Link>
+                  </li>
                 ))}
-              </div>
+              </ol>
             </div>
-            <div className="chart-legend"><span><i /> RATING AJUSTADO</span><span>1950 — 2026</span></div>
-          </div>
+            <div className="chart-legend"><span><i /> VICTORIAS POR PILOTO</span><span>ARCHIVO {historyIndex.meta.firstSeason} — {historyIndex.meta.lastSeason}</span></div>
+          </figure>
         </div>
       </section>
 

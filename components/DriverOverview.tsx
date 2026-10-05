@@ -41,6 +41,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
   const birthDate = history?.biography.dateOfBirth ?? identity.dateOfBirth;
   const deathDate = history?.biography.dateOfDeath;
   const fullName = history?.fullName ?? identity.name;
+  const archiveEnd = index?.meta.lastSeason;
 
   return <section className="driver-overview" aria-labelledby="driver-overview-name">
     <header className="driver-overview-header">
@@ -52,7 +53,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
     <div className="driver-overview-main">
       <div className="driver-overview-portrait">
         {identity.image ? <Image src={identity.image} alt={`Retrato de ${identity.name}`} fill priority sizes="(max-width: 700px) 120px, 220px" unoptimized /> : <div className="driver-overview-monogram" aria-label="Retrato no disponible"><span>{identity.name.split(" ").map(part => part[0]).slice(0, 2).join("")}</span><small>ARCHIVO F1</small></div>}
-        <span className="driver-overview-era">{history ? `${history.firstSeason}—${history.lastSeason}` : identity.code ?? "FÓRMULA 1"}</span>
+        <span className="driver-overview-era">{history ? `ARCHIVO ${history.firstSeason === history.lastSeason ? history.firstSeason : `${history.firstSeason}—${history.lastSeason}`}` : identity.code ?? "FÓRMULA 1"}</span>
       </div>
       <div className="driver-overview-identity">
         {fullName !== identity.name ? <p className="driver-overview-fullname">{fullName}</p> : null}
@@ -65,8 +66,8 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
           <div><dt>Mejor resultado</dt><dd>{bestFinish ? `P${bestFinish}` : "Sin clasificación"}</dd></div>
           <div><dt>Mejor posición de salida</dt><dd>{bestGrid ? `P${bestGrid}` : "Sin registro"}</dd></div>
         </dl>
-        <div className="driver-overview-titles"><span>Campeonatos del mundo</span><strong>{history ? titleSeasons.length : telemetry?.championships ?? "—"}</strong><div>{titleSeasons.length ? titleSeasons.map(year => <Link prefetch={false} key={year} href={`/historia/seasons/${year}`}>{year}</Link>) : <span>{history ? "Sin títulos" : "Sin registro histórico"}</span>}</div></div>
-        {standing ? <p className="driver-overview-current">Temporada actual · <strong>P{standing.position}</strong> · {standing.team} · <strong>{standing.points} puntos</strong></p> : null}
+        <div className="driver-overview-titles"><span>Campeonatos del mundo{archiveEnd ? ` (hasta ${archiveEnd})` : ""}</span><strong>{history ? titleSeasons.length : telemetry?.championships ?? "—"}</strong><div>{titleSeasons.length ? titleSeasons.map(year => <Link prefetch={false} key={year} href={`/historia/seasons/${year}`}>{year}</Link>) : <span>{history ? "Sin títulos" : "Sin registro histórico"}</span>}</div></div>
+        {standing ? <p className="driver-overview-current"><span>TEMPORADA EN CURSO</span> <strong>P{standing.position}</strong> · {standing.team} · <strong>{standing.points} puntos</strong>{standing.wins ? <> · <strong>{standing.wins === "1" ? "1 victoria" : `${standing.wins} victorias`}</strong></> : null}{archiveEnd ? <small> No se suma a las cifras del archivo, que llegan hasta {archiveEnd}.</small> : null}</p> : null}
       </div>
     </div>
 
@@ -79,6 +80,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
       return <Link prefetch={false} href={`/historia/seasons/${year}`} className={`driver-season-cell${champion ? " is-champion" : ""}${!season ? " is-gap" : ""}`} key={year} title={description} aria-label={description}><span>{year}</span><b>{season ? classified ? position : "SC" : "—"}</b><div className="driver-season-bar"><i style={{ height: `${classified ? 16 + (1 - (position - 1) / topPosition) * 48 : season ? 8 : 2}px` }} /></div></Link>;
     })}</div></figure> : null}
 
+    {history ? <p className="driver-overview-scope">CIFRAS DEL ARCHIVO {index?.meta.firstSeason ?? 1950}–{archiveEnd} · NO INCLUYEN LA TEMPORADA EN CURSO</p> : null}
     <div className="driver-overview-metrics">
       <MetricGroup title="Participación" metrics={[
         { label: "Inscripciones", value: stats?.entries, href: "#conexiones" },

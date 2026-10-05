@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   outputFileTracingExcludes: { "/*": ["./public/history/model-events/**"] },
   outputFileTracingIncludes: {
+    "/": ["./public/history/index.json"],
     "/historia": ["./public/history/index.json"],
     "/historia/[category]/[entityId]": ["./public/history/index.json", "./public/history/championships/*.json", "./public/history/cars.json", "./public/history/constructors/*.json", "./public/history/engines/*.json", "./public/history/circuits/*.json", "./public/history/nations/*.json", "./public/history/tyres/*.json", "./public/history/grands-prix/*.json", "./public/history/seasons/*.json"],
     "/historia/carreras/[year]/[round]": ["./public/history/races/*.json", "./public/history/championships/*.json", "./public/history/cars.json"],

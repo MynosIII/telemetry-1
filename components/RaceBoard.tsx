@@ -61,7 +61,7 @@ export function RaceBoard({ races }: { races: RaceResult[] }) {
         id="race-classification"
         aria-labelledby={`race-tab-${selected}`}
       >
-        {race.results.map((driver, index) => (
+        {race.results.slice(0, 5).map((driver, index) => (
           <div className={index === 0 ? "result-row is-winner" : "result-row"} key={driver.name}>
             <span className="result-position">{driver.position}</span>
             <div className="driver-avatar" aria-hidden="true">

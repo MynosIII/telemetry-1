@@ -6,7 +6,8 @@ import { LapExplorer } from "@/components/LapExplorer";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { formatRaceDate } from "@/lib/format";
-import { getRaceDetail } from "@/lib/f1-data";
+import { getRaceDetail, isSeasonDataLive } from "@/lib/f1-data";
+import { StaleDataNotice } from "@/components/StaleDataNotice";
 
 type Props = {
   params: Promise<{ round: string }>;
@@ -20,12 +21,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function RacePage({ params, searchParams }: Props) {
   const [{ round }, query] = await Promise.all([params, searchParams]);
-  const race = await getRaceDetail(round, query.piloto);
+  const [race, live] = await Promise.all([getRaceDetail(round, query.piloto), isSeasonDataLive()]);
   if (!race) notFound();
 
   return (
     <main id="top" className="inner-page race-page">
       <SiteHeader />
+      <StaleDataNotice live={live} />
       <section className="race-detail-hero">
         <div>
           <p className="eyebrow eyebrow-red">RONDA {race.round} · {formatRaceDate(race.date)}</p>

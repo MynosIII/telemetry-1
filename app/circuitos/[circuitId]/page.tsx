@@ -7,7 +7,8 @@ import { CircuitIntelligence } from "@/components/CircuitIntelligence";
 import { RaceWeekendHub } from "@/components/RaceWeekendHub";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { getCircuitProfile, getSchedule, getStandings } from "@/lib/f1-data";
+import { getCircuitProfile, getSchedule, getStandings, isSeasonDataLive } from "@/lib/f1-data";
+import { StaleDataNotice } from "@/components/StaleDataNotice";
 import { getCircuitTopology } from "@/lib/circuit-topology";
 import { getRaceWeekendData } from "@/lib/race-weekend";
 
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CircuitPage({ params }: Props) {
   const { circuitId } = await params;
-  const [circuit, schedule, standings] = await Promise.all([getCircuitProfile(circuitId), getSchedule(), getStandings()]);
+  const [circuit, schedule, standings, live] = await Promise.all([getCircuitProfile(circuitId), getSchedule(), getStandings(), isSeasonDataLive()]);
   if (!circuit) notFound();
   const race = schedule.find((item) => item.circuitId === circuitId);
   if (!race) notFound();
@@ -37,6 +38,7 @@ export default async function CircuitPage({ params }: Props) {
   return (
     <main id="top" className="inner-page circuit-page">
       <SiteHeader />
+      <StaleDataNotice live={live} />
       <section className="circuit-hero">
         <div className="circuit-hero-image">
           {circuit.image ? <Image src={circuit.image} alt={`Vista de ${circuit.name}`} fill priority sizes="100vw" unoptimized /> : null}

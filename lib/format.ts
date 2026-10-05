@@ -22,6 +22,18 @@ export function formatSession(session: Session, timeZone: string) {
   };
 }
 
+export const viewerZones = [
+  { label: "ARGENTINA", short: "ARG", country: "Argentina", zone: "America/Argentina/Buenos_Aires" },
+  { label: "BRASIL", short: "BRA", country: "Brazil", zone: "America/Sao_Paulo" },
+  { label: "COLOMBIA", short: "COL", country: "Colombia", zone: "America/Bogota" },
+  { label: "MÉXICO", short: "MEX", country: "Mexico", zone: "America/Mexico_City" }
+];
+
+/** Viewer columns for a race, dropping the one that would repeat the track's own country. */
+export function zonesForRace(country: string) {
+  return viewerZones.filter((zone) => zone.country !== country);
+}
+
 export function formatRaceDate(date: string, timeZone = "UTC") {
   return new Intl.DateTimeFormat("es-AR", {
     day: "2-digit",

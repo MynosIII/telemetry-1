@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { HistoryCharts } from "./HistoryCharts";
 import { historyCategories, type HistoryEntity } from "@/lib/history";
+import { tidyNarrative } from "@/lib/text";
 import { getWikipediaHistory } from "@/lib/wikipedia-history";
 
 const number = (value: number) => value.toLocaleString("es-AR");
@@ -29,7 +30,7 @@ export function HistoryDossier({ entity }: { entity: HistoryEntity }) {
     <nav className="history-profile-nav" aria-label="Secciones de la ficha"><a href="#historia">Historia</a><a href="#evolucion">Evolución</a><a href="#hitos">Hitos</a><a href="#conexiones">Conexiones</a><a href="#fuentes">Fuentes</a><Link href="/historia">Todo el archivo →</Link></nav>
     <section id="historia" className="history-section">
       <div className="detail-heading"><div><p className="eyebrow eyebrow-red">{entity.firstSeason}–{entity.lastSeason} · HISTORIA Y RESULTADOS</p><h2>UNA TRAYECTORIA, <em>EN CONTEXTO</em></h2></div></div>
-      <div className="history-story">{entity.narrative.map((paragraph, i) => <p key={i}>{paragraph}</p>)}</div>
+      <div className="history-story">{entity.narrative.map((paragraph, i) => <p key={i}>{tidyNarrative(paragraph)}</p>)}</div>
       {entity.editorialSources?.length ? <p className="history-note">Referencias del relato · revisadas el {entity.editorialReviewedAt}: {entity.editorialSources.map((url, i) => <span key={url}>{i ? " · " : ""}<a href={url} target="_blank" rel="noreferrer">{new URL(url).hostname.includes("statsf1") ? "StatsF1" : `Wikipedia · ${decodeURIComponent(new URL(url).pathname.split("/wiki/")[1] ?? "").replaceAll("_", " ")}`} ↗</a></span>)}</p> : null}
       <p className="history-note">Síntesis original a partir de registros de F1DB y, donde existe cobertura, de la investigación de TelemetryOne. Corte del archivo: diciembre de 2025.</p>
       <div className="history-stat-grid">{values.map(([label, value]) => <div key={label}><span>{label}</span><strong>{number(value)}</strong></div>)}</div>

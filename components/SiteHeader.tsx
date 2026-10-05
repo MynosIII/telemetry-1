@@ -2,6 +2,8 @@ import Link from "next/link";
 
 export function SiteHeader() {
   return (
+    <>
+    <a className="skip-link" href="#contenido">Saltar al contenido</a>
     <header className="site-header">
       <Link className="brand" href="/" aria-label="Telemetry 1, inicio">
         <span className="brand-mark">T<span>1</span></span>
@@ -17,5 +19,7 @@ export function SiteHeader() {
       </nav>
       <Link className="header-cta" href="/en-vivo"><span className="live-dot" /> En vivo</Link>
     </header>
+    <span id="contenido" tabIndex={-1} className="skip-target" />
+    </>
   );
 }
