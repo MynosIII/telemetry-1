@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SiteNav, SiteSubNav } from "@/components/SiteNav";
+import { LiveLink, SiteNav, SiteSubNav } from "@/components/SiteNav";
 
 export function SiteHeader() {
   return (
@@ -11,7 +11,7 @@ export function SiteHeader() {
         <span className="brand-copy">TELEMETRY <b>ONE</b></span>
       </Link>
       <SiteNav />
-      <Link className="header-cta" href="/en-vivo"><span className="live-dot" /> En vivo</Link>
+      <LiveLink />
     </header>
     <SiteSubNav />
     <span id="contenido" tabIndex={-1} className="skip-target" />
