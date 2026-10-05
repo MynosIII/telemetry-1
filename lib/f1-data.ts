@@ -81,7 +81,7 @@ const fallbackCircuitRecords: Record<string, NonNullable<CircuitProfile["lapReco
 
 const fallbackRaces: RaceResult[] = [
   {
-    round: "12", name: "Gran Premio de los Pa�ses Bajos", circuitId: "zandvoort", circuit: "Circuit Zandvoort", locality: "Zandvoort", country: "Pa�ses Bajos", date: "2026-08-23", time: "13:00:00Z",
+    round: "12", name: "Gran Premio de los Países Bajos", circuitId: "zandvoort", circuit: "Circuit Zandvoort", locality: "Zandvoort", country: "Países Bajos", date: "2026-08-23", time: "13:00:00Z",
     results: [
       { driverId: "norris", position: "1", name: "Lando Norris", team: "McLaren", time: "2:04:44.859", points: "25" },
       { driverId: "antonelli", position: "2", name: "Andrea Kimi Antonelli", team: "Mercedes", time: "+11.536", points: "18" },
@@ -91,7 +91,7 @@ const fallbackRaces: RaceResult[] = [
     ]
   },
   {
-    round: "11", name: "Gran Premio de Hungr�a", circuitId: "hungaroring", circuit: "Hungaroring", locality: "Mogyoród", country: "Hungr�a", date: "2026-07-26", time: "13:00:00Z",
+    round: "11", name: "Gran Premio de Hungría", circuitId: "hungaroring", circuit: "Hungaroring", locality: "Mogyoród", country: "Hungría", date: "2026-07-26", time: "13:00:00Z",
     results: [
       { driverId: "norris", position: "1", name: "Lando Norris", team: "McLaren", time: "1:39:56.180", points: "25" },
       { driverId: "max_verstappen", position: "2", name: "Max Verstappen", team: "Red Bull", time: "+15.080", points: "18" },
@@ -101,7 +101,7 @@ const fallbackRaces: RaceResult[] = [
     ]
   },
   {
-    round: "10", name: "Gran Premio de B�lgica", circuitId: "spa", circuit: "Circuit de Spa-Francorchamps", locality: "Spa", country: "B�lgica", date: "2026-07-19", time: "13:00:00Z",
+    round: "10", name: "Gran Premio de Bélgica", circuitId: "spa", circuit: "Circuit de Spa-Francorchamps", locality: "Spa", country: "Bélgica", date: "2026-07-19", time: "13:00:00Z",
     results: [
       { driverId: "antonelli", position: "1", name: "Andrea Kimi Antonelli", team: "Mercedes", time: "1:24:42.479", points: "25" },
       { driverId: "leclerc", position: "2", name: "Charles Leclerc", team: "Ferrari", time: "+1.952", points: "18" },
