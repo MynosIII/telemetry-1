@@ -53,3 +53,10 @@ export function SiteSubNav() {
   // useSearchParams needs a Suspense boundary on static pages; the fallback renders the same bar.
   return <Suspense fallback={<SubNavLinks categoria={null} />}><SubNavWithQuery /></Suspense>;
 }
+
+/** The live-timing button sits apart from the sections; it lights up on its own page. */
+export function LiveLink() {
+  const pathname = usePathname() ?? "/";
+  const active = pathname === "/en-vivo" || pathname.startsWith("/en-vivo/");
+  return <Link className="header-cta" href="/en-vivo" aria-current={active ? "page" : undefined}><span className="live-dot" /> En vivo</Link>;
+}

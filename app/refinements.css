@@ -467,3 +467,4 @@ footer > p { color: #a6a6aa; }
 
 /* Anchors from the sub-bar land below the sticky header. */
 #archivo, #temporadas, #clasificacion, #modelo-2026, #resultados { scroll-margin-top: 128px; }
+.header-cta[aria-current="page"] { border-color: var(--red); }
