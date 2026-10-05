@@ -1,0 +1,9 @@
+// Industrial/road tyre documentation; these are not homologated F1 recipes.
+export const tyreMaterialSources: Record<string, { rubber: string; fillers: string; structure: string; scope: string; urls: string[] }> = {
+  bridgestone: { rubber: 'Natural y sintético', fillers: 'Negro de carbono y sílice', structure: 'Poliéster, rayón y acero', scope: 'Materiales industriales; refuerzos de turismo', urls: ['https://www.bridgestone.com/products/basic_knowledge/materials/'] },
+  continental: { rubber: 'Natural y sintético', fillers: 'Negro de carbono y sílice', structure: 'Textiles, acero y refuerzos de talón', scope: 'Neumáticos de carretera', urls: ['https://www.continental-tires.com/au/en/tyre-knowledge/tire-mixture/'] },
+  michelin: { rubber: 'Natural y sintético', fillers: 'Sílice y negro de carbono', structure: 'Refuerzos metálicos y textiles', scope: 'Descripción general de neumáticos', urls: ['https://www.michelin.com/en/group/activities/tires/definition-formulation'] },
+  goodyear: { rubber: 'Mezclas de caucho; tipos sin desglose aquí', fillers: 'Negro de carbono', structure: 'Acero y cordones textiles', scope: 'Neumáticos de carretera', urls: ['https://www.goodyear.com.ph/learn/how-tires-are-made', 'https://www.goodyear.com/en-us/learn/why-are-tires-black'] },
+  pirelli: { rubber: 'Natural y sintético', fillers: 'Cargas de refuerzo; negro de carbono documentado', structure: 'Acero y tejidos tratados', scope: 'Materiales industriales · informes 2007 y 2017', urls: ['https://corp-assets.pirelli.com/corporate/4373_PC_FY2007.pdf', 'https://press.pirelli.com/pirelli-supplier-awards-2017--suppliers-of-primary-materials-in-the-spotlight/'] },
+  firestone: { rubber: 'Caucho; tipos sin desglose aquí', fillers: 'Sin detalle en esta fuente', structure: 'Cordones textiles o de acero', scope: 'Glosario industrial de neumáticos', urls: ['https://www.firestonetire.com/support/tire-terminology/'] }
+};

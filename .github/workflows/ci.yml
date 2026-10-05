@@ -26,4 +26,5 @@ jobs:
       - run: npm ci
       - run: npm run verify:history
       - run: npm run verify:weekends
+      - run: npm run verify:tyres
       - run: npm run build

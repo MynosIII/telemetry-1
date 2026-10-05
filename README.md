@@ -36,6 +36,28 @@ The existing weekly `/api/cron/post-race` schedule is defined in `vercel.json`. 
 
 ## Historical encyclopedia
 
+### Tyre manufacturers
+
+`/historia/neumaticos` indexes all nine suppliers. `/historia/tyres/<id>` has a
+dedicated encyclopedia layout with company history, sourced location and
+founders, archive statistics, linked first/last events, and season charts.
+`npm run build:tyres` derives `public/history/tyre-analysis.json` from the
+published race dossiers. `npm run verify:tyres` checks supplier totals, shared
+wins, and Michelin's non-starting entries at Indianapolis 2005.
+
+Competition modes describe known starting suppliers per event, not contractual
+exclusivity. Non-starting suppliers and incomplete identities have unknown
+comparison mode. Observed victory rates do not identify causal tyre performance.
+
+The common materials section documents six manufacturers using their industrial
+or road-tyre publications. It does not transpose those formulations to historical
+F1 tyres. Comparable F1 hardness, stiffness, abrasion tests and chemical mass
+fractions are unavailable for most suppliers, so they have no numerical ranking.
+There is no Pirelli-only composition or compound module. Sources and product
+scope are attached to each materials row; undocumented brands stay explicit.
+
+### Archive coverage
+
 `/historia` connects drivers, constructors, engine manufacturers, circuits, driver
 nationalities, tyres, Grand Prix names, and seasons. All 1,374 indexed entities have
 an original statistical narrative, season charts, milestones, cross-links, and

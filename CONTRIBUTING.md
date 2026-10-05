@@ -34,6 +34,7 @@ Antes de subir cambios:
 ```sh
 npm run verify:history
 npm run verify:weekends
+npm run verify:tyres
 npm run build
 git add <archivos-del-cambio>
 git commit -m "Descripción del cambio"

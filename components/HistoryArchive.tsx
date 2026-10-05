@@ -18,6 +18,7 @@ export function HistoryArchive({ entities }: { entities: HistorySummary[] }) {
   ).sort((a, b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "debut" ? a.firstSeason - b.firstSeason : sort === "races" ? b.stats.races - a.stats.races : b.stats.wins - a.stats.wins), [entities, category, query, champions, sort]);
 
   return <div className="history-archive">
+    <p className="history-note"><Link href="/historia/neumaticos">Neumáticos: fabricantes, estadísticas y materiales documentados →</Link></p>
     <div className="history-categories" aria-label="Categorías del archivo">
       {(Object.entries(historyCategories) as [HistoryCategory, string][]).map(([key, label]) =>
         <button key={key} aria-pressed={category === key} onClick={() => { setCategory(key); setLimit(30); setChampions(false); }}>{label}<span>{entities.filter(e => e.category === key).length}</span></button>

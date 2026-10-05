@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "verify:history": "node scripts/verify-history.mjs",
-    "verify:weekends": "node scripts/verify-weekends.mjs"
+    "verify:weekends": "node scripts/verify-weekends.mjs",
+    "build:tyres": "node scripts/build-tyre-analysis.mjs",
+    "verify:tyres": "node scripts/verify-tyres.mjs"
   },
   "dependencies": {
     "next": "16.3.3",

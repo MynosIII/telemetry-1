@@ -7,6 +7,8 @@ import { HistoryDossier } from "@/components/HistoryDossier";
 import { getHistoryEntity, historyCategories } from "@/lib/history";
 import { getCarCatalogue, getChampionship } from "@/lib/championship-history";
 import { SeasonDossier } from "@/components/SeasonDossier";
+import { TyreDossier } from "@/components/TyreDossier";
+import { getTyreAnalysis, tyreCompanies } from "@/lib/tyre-history";
 
 type Props = { params: Promise<{ category: string; entityId: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -28,5 +30,9 @@ export default async function EntityPage({ params }: Props) {
   const entity = await getHistoryEntity(category, entityId);
   if (!entity) notFound();
   if (category === "drivers") redirect(`/pilotos/${entity.id}`);
+  if (category === "tyres" && Object.hasOwn(tyreCompanies, entity.id)) {
+    const analysis = (await getTyreAnalysis()).tyres[entity.id];
+    if (analysis) return <TyreDossier entity={entity} analysis={analysis} />;
+  }
   return <main id="top" className="inner-page history-page"><SiteHeader /><section className="inner-hero compact-hero"><Link className="history-breadcrumb" href="/historia">← Archivo histórico</Link><p className="eyebrow eyebrow-red">{historyCategories[entity.category]} · {entity.country ?? "CAMPEONATO MUNDIAL"} · {entity.firstSeason}–{entity.lastSeason}</p><h1>{entity.name.toLocaleUpperCase("es")}</h1>{entity.fullName !== entity.name ? <p className="history-intro">{entity.fullName}</p> : null}</section><div className="history-content"><HistoryDossier entity={entity} /></div><SiteFooter /></main>;
 }
