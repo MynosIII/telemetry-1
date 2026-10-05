@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/car-photo-manifest.mjs",
     "build": "next build",
     "start": "next start",
     "verify:history": "node scripts/verify-history.mjs",

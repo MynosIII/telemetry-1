@@ -18,10 +18,10 @@ const monogram = (name: string) => name.split(" ").filter(Boolean).map(part => p
 
 async function TeamWikipedia({ entity }: { entity: HistoryEntity }) {
   const context = await getWikipediaHistory(entity.sources.wikipediaTitle);
-  if (!context) return <p className="team-note">Wikipedia no respondió ahora. <a href={entity.sources.wikipedia} target="_blank" rel="noreferrer">Abrir el artículo ↗</a></p>;
+  if (!context) return null;
   return <div className="team-wiki">
     {context.facts.length ? <dl>{context.facts.map((f, i) => <div key={`${f.label}/${i}`}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl> : null}
-    {context.sections.length ? <div className="team-wiki-chapters"><span>Para seguir leyendo en Wikipedia:</span>{context.sections.map(s => <a href={s.url} key={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a>)}</div> : null}
+    {context.sections.length ? <div className="team-wiki-chapters"><span>Capítulos en Wikipedia:</span>{context.sections.map(s => <a href={s.url} key={s.url} target="_blank" rel="noreferrer">{s.title} ↗</a>)}</div> : null}
   </div>;
 }
 
@@ -60,6 +60,9 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
   if (bestSeason?.wins) moments.push({ label: "Su mejor temporada", season: bestSeason.season, event: `${bestSeason.wins} victorias y ${bestSeason.podiums} podios en ${bestSeason.races} Grandes Premios` });
   moments.sort((a, b) => a.season - b.season);
 
+  // The header already carries totals and title years, so the story keeps only what it adds.
+  const story = entity.narrative.filter(p => !/^(Sus participantes acumularon|El campeonato de constructores se ganó en)/.test(p));
+  if (story.length > 2 && / aparece como constructor en /.test(story[0])) story.shift();
   const top = allWinners[0]?.wins ?? 1;
   type Rating = { name: string; careerRating: number; sustainedPrime: number | null; peakRating: number | null; peakSeason: number | null; expectedWins: number | null; observedWins: number | null; winsAboveExpected: number | null };
   const ratings = eloRatings as Record<string, Rating>;
@@ -76,11 +79,11 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
     </Link>
   </li>;
 
-  const sections = [["historia", "Historia"], ...(winners.length ? [["victorias", "Victorias"]] : []), ...(rated.length ? [["modelo", "Modelo v7.6"]] : []), ["resultados", "Resultados"], ["momentos", "Momentos"], ...(cars.length ? [["autos", "Autos"]] : []), ["conexiones", "Conexiones"], ["fuentes", "Fuentes"]];
+  const sections = [["historia", "Historia"], ...(winners.length ? [["victorias", "Victorias"]] : []), ...(rated.length ? [["modelo", "Modelo v7.6"]] : []), ["resultados", "Resultados"], ...(cars.length ? [["autos", "Autos"]] : []), ["conexiones", "Conexiones"], ["fuentes", "Fuentes"]];
 
   return <div className="team-history" style={{ ["--team" as string]: color, ["--team-ink" as string]: inkFor(color) }}>
     <header className="team-hero">
-      <Link className="team-breadcrumb" href="/historia">← Archivo histórico</Link>
+      <nav className="archive-crumb" aria-label="Ruta"><Link href="/historia">Estadísticas</Link><span>/</span><span>Constructores</span></nav>
       <div className="team-hero-main">
         <TeamBadge name={entity.name} color={color} logo={logo} size="lg" />
         <div>
@@ -88,16 +91,16 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
           <p className="team-hero-meta">{[entity.fullName !== entity.name ? entity.fullName : null, entity.country, entity.firstSeason === entity.lastSeason ? `${entity.firstSeason}` : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
         </div>
       </div>
-      <dl className="team-hero-stats">
-        <a href="#resultados"><dt>Grandes Premios</dt><dd>{number(stats.races)}</dd></a>
-        <a href="#victorias"><dt>Victorias</dt><dd>{number(stats.wins)}</dd></a>
-        <a href="#resultados"><dt>Podios</dt><dd>{number(stats.podiums)}</dd></a>
-        <a href="#resultados"><dt>Poles</dt><dd>{number(stats.poles)}</dd></a>
-        <a href="#momentos"><dt>Títulos</dt><dd>{constructorTitles.length + driverTitles.length}</dd></a>
+      <dl className="archive-figures">
+        <div><dt>Grandes Premios</dt><dd>{number(stats.races)}</dd></div>
+        <div><dt>Victorias</dt><dd>{number(stats.wins)}</dd></div>
+        <div><dt>Podios</dt><dd>{number(stats.podiums)}</dd></div>
+        <div><dt>Poles</dt><dd>{number(stats.poles)}</dd></div>
+        <div><dt>Pilotos</dt><dd>{number(stats.drivers)}</dd></div>
       </dl>
       {constructorTitles.length || driverTitles.length ? <div className="team-titles">
-        {constructorTitles.length ? <p><span>Constructores</span>{constructorTitles.map(y => <Link key={y} prefetch={false} href={`/historia/seasons/${y}`}>{y}</Link>)}</p> : null}
-        {driverTitles.length ? <p><span>Solo pilotos</span>{driverTitles.map(y => <Link key={y} prefetch={false} href={`/historia/seasons/${y}`}>{y}</Link>)}</p> : null}
+        {constructorTitles.length ? <p><span>{constructorTitles.length} {constructorTitles.length === 1 ? "título" : "títulos"} de constructores</span>{constructorTitles.map(y => <Link key={y} prefetch={false} href={`/historia/seasons/${y}`}>{y}</Link>)}</p> : null}
+        {driverTitles.length ? <p><span>Otros {driverTitles.length === 1 ? "año" : "años"} con campeón de pilotos</span>{driverTitles.map(y => <Link key={y} prefetch={false} href={`/historia/seasons/${y}`}>{y}</Link>)}</p> : null}
       </div> : null}
     </header>
 
@@ -108,15 +111,11 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
     <section id="historia" className="team-section team-story-section">
       <h2>La historia de {entity.name}</h2>
       <div className="team-story-layout">
-        <div className="team-story">{entity.narrative.map((paragraph, i) => <LinkedNarrative key={i} text={paragraph} targets={unique} counts={counts} />)}</div>
-        <aside className="team-facts">
-          {moments.filter(m => /Primera inscripción|Primera victoria|Primer título|Última participación/.test(m.label)).map(m => <div key={m.label}>
-            <span>{m.label.replace(" del archivo", "")}</span>
-            <strong><Link prefetch={false} href={`/historia/seasons/${m.season}`}>{m.season}</Link></strong>
-            <small>{m.event}</small>
-          </div>)}
-          <div><span>Pilotos</span><strong><a href="#conexiones">{stats.drivers}</a></strong><small>en {stats.seasons} {stats.seasons === 1 ? "temporada" : "temporadas"}</small></div>
-        </aside>
+        <div className="team-story">{story.map((paragraph, i) => <LinkedNarrative key={i} text={paragraph} targets={unique} counts={counts} />)}</div>
+        <aside className="team-moments" aria-labelledby="momentos"><h3 id="momentos">Momentos</h3><ol>{moments.map((m, i) => <li key={i}>
+          <Link prefetch={false} href={`/historia/seasons/${m.season}`} className="team-moment-year">{m.season}</Link>
+          <span><strong>{m.label.replace(" del archivo", "")}</strong><small>{tidy(m.event)}</small></span>
+        </li>)}</ol></aside>
       </div>
     </section>
 
@@ -133,7 +132,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
 
     {rated.length ? <section id="modelo" className="team-section">
       <h2>Sus pilotos según el modelo</h2>
-      <p className="team-lead">El ELO retrospectivo de TelemetryOne v7.6 mide a cada piloto contra sus rivales y su auto, carrera por carrera. Estos son los {eloTop.length} mejor valorados de los {rated.length} pilotos de {entity.name} que tiene el modelo. Las cifras son de toda su carrera, no solo con este equipo.</p>
+      <p className="team-lead">ELO retrospectivo de TelemetryOne v7.6: mide a cada piloto contra sus rivales y su auto, carrera por carrera. Los {eloTop.length} mejores de {rated.length}, con cifras de toda su carrera.</p>
       <ol className="team-elo">{eloTop.map((d, i) => <li key={d.id}>
         <Link prefetch={false} href={d.href}>
           <span className="team-winner-rank">{i + 1}</span>
@@ -143,7 +142,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
           <span className="team-elo-xw">{d.elo.observedWins !== null && d.elo.expectedWins !== null ? <><b className={(d.elo.winsAboveExpected ?? 0) >= 0 ? "is-up" : "is-down"}>{(d.elo.winsAboveExpected ?? 0) >= 0 ? "+" : ""}{(d.elo.winsAboveExpected ?? 0).toFixed(1)}</b><small>{d.elo.observedWins} victorias · {d.elo.expectedWins.toFixed(1)} esperadas</small></> : null}</span>
         </Link>
       </li>)}</ol>
-      <Link className="team-note-link" href="/estadisticas/laboratorio">Explorar el modelo y comparar pilotos en el laboratorio →</Link>
+      <Link className="team-note-link" href="/ranking">Ver el ranking completo →</Link>
     </section> : null}
 
     <section id="resultados" className="team-section">
@@ -151,31 +150,20 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
       <HistoryCharts seasons={entity.seasons} ratings={entity.ratingHistory} />
     </section>
 
-    <section id="momentos" className="team-section">
-      <h2>Momentos clave</h2>
-      <ol className="team-moments">{moments.map((m, i) => <li key={i}>
-        <Link prefetch={false} href={`/historia/seasons/${m.season}`} className="team-moment-year">{m.season}</Link>
-        <strong>{m.label.replace(" del archivo", "")}</strong>
-        <span>{tidy(m.event)}</span>
-      </li>)}</ol>
-    </section>
-
     {cars.length ? <section id="autos" className="team-section">
-      <h2>Todos sus autos</h2>
-      <p className="team-lead">Los {cars.length} chasis que {entity.name} inscribió en el campeonato, en orden. Cada tarjeta abre la ficha del modelo.</p>
+      <h2>Sus {cars.length} autos</h2>
       <TeamCarIndex cars={cars} color={color} />
     </section> : null}
 
     <section id="conexiones" className="team-section">
-      <h2>Pilotos, motores y circuitos</h2>
+      <h2>Conexiones</h2>
       <div className="history-connections team-connections">{entity.relations.map(group => <details key={group.category} ><summary>{historyCategories[group.category]} <span>{group.items.length}</span></summary><div className="history-table-scroll"><table><thead><tr><th>Nombre</th><th>Etapa</th><th>GP compartidos</th><th>Victorias conjuntas</th></tr></thead><tbody>{group.items.map(item => <tr key={item.id}><td><Link prefetch={false} href={item.href}>{item.name} →</Link></td><td>{item.firstSeason}–{item.lastSeason}</td><td>{item.races}</td><td>{item.wins}</td></tr>)}</tbody></table></div></details>)}</div>
     </section>
 
     <section id="fuentes" className="team-section team-sources">
       <h2>Fuentes</h2>
-      <Suspense fallback={<p className="team-note">Consultando Wikipedia…</p>}><TeamWikipedia entity={entity} /></Suspense>
-      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a>, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a> y <a href={entity.sources.wikipedia} target="_blank" rel="noreferrer">Wikipedia</a>. ELO y victorias esperadas: investigación propia <Link href="/estadisticas/laboratorio">TelemetryOne v7.6</Link>, estimaciones retrospectivas con cobertura propia. Archivo hasta diciembre de 2025. Victorias y podios se cuentan una vez por auto y carrera; una inscripción puede terminar sin largar, por eso inscripciones ({number(stats.entries)}) y largadas ({number(stats.starts)}) difieren.</p>
-      <Link className="team-note-link" href="/historia#metodologia">Cobertura, metodología y limitaciones →</Link>
+      <Suspense fallback={null}><TeamWikipedia entity={entity} /></Suspense>
+      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a> hasta diciembre de 2025, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a> y <a href={entity.sources.wikipedia} target="_blank" rel="noreferrer">Wikipedia</a>. ELO y victorias esperadas: <Link href="/ranking">TelemetryOne v7.6</Link>, investigación propia. Victorias y podios se cuentan una vez por auto y carrera. <Link href="/historia#metodologia">Criterios de conteo →</Link></p>
     </section>
   </div>;
 }

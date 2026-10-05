@@ -5,10 +5,11 @@ import type { CarImage } from "@/lib/team-media";
 
 const licenseUrl = (license: string) => license === "CC BY 2.0" ? "https://creativecommons.org/licenses/by/2.0/" : license === "CC BY-SA 2.0" ? "https://creativecommons.org/licenses/by-sa/2.0/" : null;
 
-/** A car's own photo file, then the archive's licensed photo, then a placeholder. */
+/** A car's own photo file, then the archive's licensed photo; nothing when there is neither. */
 export function CarPhoto({ image, alt }: { image: CarImage; alt: string }) {
+  if (!image.sources.length) return null;
   return <figure className="archive-media car-photo">
-    <FallbackImage sources={image.sources} alt={alt} fallback={<div className="car-no-photo"><span>{alt}</span><small>Foto pendiente</small></div>} caption={i => {
+    <FallbackImage sources={image.sources} alt={alt} fallback={null} caption={i => {
       const credit = image.credits[i];
       if (!credit?.author) return null;
       const url = licenseUrl(credit.license);
