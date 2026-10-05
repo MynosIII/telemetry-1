@@ -10,7 +10,7 @@ export function Encyclopedia({ sections, children, aside }: { sections: { id: st
   }
   function expand(open: boolean) { root.current?.querySelectorAll<HTMLDetailsElement>("details.ency-section").forEach(section => { section.open = open; }); }
   return <div ref={root} className="ency-layout">
-    <nav className="ency-contents" aria-label="Contenido del artículo"><p>EN ESTE ARTÍCULO</p><ol>{sections.map((s, i) => <li key={s.id}><a href={`#${s.id}`} onClick={() => openSection(s.id)}><span>{String(i + 1).padStart(2, "0")}</span>{s.name}</a></li>)}</ol><div className="ency-expand"><button onClick={() => expand(true)}>Ampliar todo</button><button onClick={() => expand(false)}>Plegar todo</button></div></nav>
+    <nav className="ency-contents" aria-label="Contenido del artículo"><p>Contenido</p><ol>{sections.map((s, i) => <li key={s.id}><a href={`#${s.id}`} onClick={() => openSection(s.id)}><span>{String(i + 1).padStart(2, "0")}</span>{s.name}</a></li>)}</ol><div className="ency-expand"><button onClick={() => expand(true)}>Ampliar todo</button><button onClick={() => expand(false)}>Plegar todo</button></div></nav>
     <article className="ency-article">{children}</article><aside className="ency-aside">{aside}</aside>
   </div>;
 }

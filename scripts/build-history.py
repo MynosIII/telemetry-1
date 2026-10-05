@@ -144,9 +144,9 @@ def build(source, output, cutoff):
             t = titles[(category, source_id)]
             if t:
                 if len(t) == 1:
-                    paragraphs.append(f"Su único título mundial llegó en {t[0]}. La evolución por temporada permite poner ese campeonato en relación con sus resultados y los equipos y motores de cada etapa.")
+                    paragraphs.append(f"Su único título mundial llegó en {t[0]}.")
                 else:
-                    paragraphs.append(f"Sus títulos mundiales llegaron en {', '.join(map(str, t))}. La evolución por temporada permite poner esos campeonatos en relación con sus resultados y los equipos y motores de cada etapa.")
+                    paragraphs.append(f"Sus títulos mundiales llegaron en {', '.join(map(str, t))}.")
         elif category == "circuits":
             paragraphs.append(f"{raw.get('fullName', name)} forma parte del archivo del Campeonato Mundial desde {first}. Hasta {final} albergó {s(stats['races'], 'prueba')}, con {s(stats['drivers'], 'piloto')} representados en sus clasificaciones.")
             paragraphs.append(f"El trazado está situado en {raw.get('placeName', name)}, {item['country'] or 'ubicación no documentada'}. La ficha de F1DB registra {raw.get('length', '—')} km y {raw.get('turns', '—')} curvas para su configuración de referencia; las configuraciones históricas se muestran por separado.")
@@ -156,7 +156,7 @@ def build(source, output, cutoff):
             paragraphs.append(f"{name} aparece {subject} en {s(stats['seasons'], 'temporada')} del archivo, {range_str}. Sus registros abarcan {s(stats['races'], 'Gran Premio', 'Grandes Premios')} y {s(stats['drivers'], 'piloto')}.")
             
             if category not in {"circuits", "grands-prix", "seasons"}:
-                paragraphs.append(f"Sus participantes acumularon {s(stats['wins'], 'victoria')}, {s(stats['podiums'], 'podio')} y {s(stats['fastestLaps'], 'vuelta rápida')}. Estos resultados pertenecen a las combinaciones de piloto, constructor, motor y neumáticos registradas en cada carrera.")
+                paragraphs.append(f"Sus participantes acumularon {s(stats['wins'], 'victoria')}, {s(stats['podiums'], 'podio')} y {s(stats['fastestLaps'], 'vuelta rápida')}.")
             
             t = titles[(category, source_id)]
             if t:
@@ -164,7 +164,7 @@ def build(source, output, cutoff):
         
         best = max(season_rows, key=lambda s: (s["wins"], s["podiums"], s["starts"]))
         if stats["wins"]:
-            paragraphs.append(f"La temporada con más victorias en este archivo fue {best['season']}: {s(best['wins'], 'triunfo')} y {s(best['podiums'], 'podio')}. La gráfica permite contrastar esa concentración de resultados con el resto de su trayectoria.")
+            paragraphs.append(f"La temporada con más victorias en este archivo fue {best['season']}: {s(best['wins'], 'triunfo')} y {s(best['podiums'], 'podio')}.")
         p = profiles.get(source_id) if category == "drivers" else None
         trace = model["drivers"].get(p["id"], {}).get("points", []) if p else []
         if p:
@@ -172,7 +172,7 @@ def build(source, output, cutoff):
             # The legacy profile's win count counts shared victories in full;
             # the ranking credits fractional wins. Preserve the latter for xW.
             m["observedWins"] = ranking_wins.get(p["id"])
-            paragraphs.append(f"La investigación de TelemetryOne v7.6 sitúa su pico ELO en {p['peak']['rating']}, durante {p['peak']['season']} en {p['peak']['event']}. El modelo estima {m.get('expectedWins', '—')} victorias esperadas dentro de su propia cobertura. Esta estimación se interpreta junto a los resultados de ese mismo conjunto de carreras, que puede ser distinto del archivo completo.")
+            paragraphs.append(f"La investigación de TelemetryOne v7.6 sitúa su pico ELO en {p['peak']['rating']}, durante {p['peak']['season']} en {p['peak']['event']}. El modelo estima {m.get('expectedWins', '—')} victorias esperadas dentro de su propia cobertura.")
         # Add a genuinely researched account where it has been written and reviewed.
         if key in editorial:
             paragraphs[1:1] = editorial[key]["paragraphs"]
