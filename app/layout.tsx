@@ -7,7 +7,7 @@ import "./encyclopedia.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://telemetry-1.vercel.app"),
   title: {
-    default: "Telemetry 1 — Formula 1, all in one place",
+    default: "Telemetry 1 — Fórmula 1, todo en un solo lugar",
     template: "%s — Telemetry 1"
   },
   description:

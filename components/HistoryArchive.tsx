@@ -6,9 +6,7 @@ import { historyCategories, type HistoryCategory, type HistorySummary } from "@/
 
 const normalize = (value: string) => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
-export type ArchiveEntry = Pick<HistorySummary, "id" | "category" | "name" | "fullName" | "country" | "firstSeason" | "lastSeason" | "titleSeasons" | "href"> & { stats: Pick<HistorySummary["stats"], "races" | "wins"> };
-
-export function HistoryArchive({ entities }: { entities: ArchiveEntry[] }) {
+export function HistoryArchive({ entities }: { entities: HistorySummary[] }) {
   const [category, setCategory] = useState<HistoryCategory>("drivers");
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("wins");
@@ -33,7 +31,7 @@ export function HistoryArchive({ entities }: { entities: ArchiveEntry[] }) {
     <p className="history-count" role="status">{results.length} resultados · mostrando {Math.min(limit, results.length)}</p>
     <div className="history-directory">
       {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href}>
-        <div><strong>{entity.name}</strong><span>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason}–{entity.lastSeason}{entity.titleSeasons.length ? ` · ${entity.titleSeasons.length} ${entity.titleSeasons.length === 1 ? "título" : "títulos"}` : ""}</span></div>
+        <div><strong>{entity.name}</strong><span>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}{entity.titleSeasons.length ? ` · ${entity.titleSeasons.length} título${entity.titleSeasons.length === 1 ? "" : "s"}` : ""}</span></div>
         <b>{entity.stats.races}<small>GP</small></b><b>{entity.stats.wins}<small>VICTORIAS</small></b><span className="history-open">EXPLORAR →</span>
       </Link>)}
     </div>

@@ -1,6 +1,7 @@
 import { cache } from "react";
 import { getHistoryEntity } from "./history";
 import { driverPhoto, driverPhotosByName } from "./driver-photos";
+import { translate } from "./dictionary";
 import type {
   CircuitFacts,
   CircuitProfile,
@@ -80,7 +81,7 @@ const fallbackCircuitRecords: Record<string, NonNullable<CircuitProfile["lapReco
 
 const fallbackRaces: RaceResult[] = [
   {
-    round: "12", name: "Dutch Grand Prix", circuitId: "zandvoort", circuit: "Circuit Zandvoort", locality: "Zandvoort", country: "Netherlands", date: "2026-08-23", time: "13:00:00Z",
+    round: "12", name: "Gran Premio de los Pa�ses Bajos", circuitId: "zandvoort", circuit: "Circuit Zandvoort", locality: "Zandvoort", country: "Pa�ses Bajos", date: "2026-08-23", time: "13:00:00Z",
     results: [
       { driverId: "norris", position: "1", name: "Lando Norris", team: "McLaren", time: "2:04:44.859", points: "25" },
       { driverId: "antonelli", position: "2", name: "Andrea Kimi Antonelli", team: "Mercedes", time: "+11.536", points: "18" },
@@ -90,7 +91,7 @@ const fallbackRaces: RaceResult[] = [
     ]
   },
   {
-    round: "11", name: "Hungarian Grand Prix", circuitId: "hungaroring", circuit: "Hungaroring", locality: "Mogyoród", country: "Hungary", date: "2026-07-26", time: "13:00:00Z",
+    round: "11", name: "Gran Premio de Hungr�a", circuitId: "hungaroring", circuit: "Hungaroring", locality: "Mogyoród", country: "Hungr�a", date: "2026-07-26", time: "13:00:00Z",
     results: [
       { driverId: "norris", position: "1", name: "Lando Norris", team: "McLaren", time: "1:39:56.180", points: "25" },
       { driverId: "max_verstappen", position: "2", name: "Max Verstappen", team: "Red Bull", time: "+15.080", points: "18" },
@@ -100,7 +101,7 @@ const fallbackRaces: RaceResult[] = [
     ]
   },
   {
-    round: "10", name: "Belgian Grand Prix", circuitId: "spa", circuit: "Circuit de Spa-Francorchamps", locality: "Spa", country: "Belgium", date: "2026-07-19", time: "13:00:00Z",
+    round: "10", name: "Gran Premio de B�lgica", circuitId: "spa", circuit: "Circuit de Spa-Francorchamps", locality: "Spa", country: "B�lgica", date: "2026-07-19", time: "13:00:00Z",
     results: [
       { driverId: "antonelli", position: "1", name: "Andrea Kimi Antonelli", team: "Mercedes", time: "1:24:42.479", points: "25" },
       { driverId: "leclerc", position: "2", name: "Charles Leclerc", team: "Ferrari", time: "+1.952", points: "18" },
@@ -121,7 +122,7 @@ const fallbackStandings: Standing[] = [
 
 const fallbackSchedule: ScheduledRace[] = [
   {
-    round: "16", season: "2026", name: "Bahrain Grand Prix in Malaysia", circuitId: "sepang", circuit: "Sepang International Circuit", locality: "Kuala Lumpur", country: "Malaysia", date: "2026-10-04", time: "07:00:00Z", state: "next",
+    round: "16", season: "2026", name: "Gran Premio de Malasia", circuitId: "sepang", circuit: "Sepang International Circuit", locality: "Kuala Lumpur", country: "Malasia", date: "2026-10-04", time: "07:00:00Z", state: "next",
     latitude: 2.76083,
     longitude: 101.738,
     circuitUrl: "https://en.wikipedia.org/wiki/Sepang_International_Circuit",
@@ -182,7 +183,7 @@ function parseResults(rawRace: JsonObject, limit = 100): RaceResult {
     circuitId: rawRace.Circuit?.circuitId ?? "",
     circuit: rawRace.Circuit?.circuitName ?? "Circuito de Fórmula 1",
     locality: rawRace.Circuit?.Location?.locality ?? "",
-    country: rawRace.Circuit?.Location?.country ?? "",
+    country: translate(rawRace.Circuit?.Location?.country ?? "", "countries"),
     date: rawRace.date,
     time: rawRace.time,
     results: (rawRace.Results ?? []).slice(0, limit).map((result: JsonObject) => ({
@@ -190,9 +191,9 @@ function parseResults(rawRace: JsonObject, limit = 100): RaceResult {
       position: result.position,
       grid: result.grid,
       name: `${result.Driver.givenName} ${result.Driver.familyName}`,
-      nationality: result.Driver.nationality,
+      nationality: translate(result.Driver.nationality, "countries"),
       team: result.Constructor.name,
-      time: result.Time?.time ?? result.status,
+      time: result.Time?.time ?? translate(result.status, "statuses"),
       fastestLap: result.FastestLap?.Time?.time,
       points: result.points
     }))
@@ -222,11 +223,11 @@ function parseSchedule(rawRaces: JsonObject[]): ScheduledRace[] {
     return {
       round: race.round,
       season: race.season,
-      name: race.raceName,
+      name: translate(race.raceName, "races"),
       circuitId: race.Circuit?.circuitId ?? "",
       circuit: race.Circuit?.circuitName ?? "Circuito de Fórmula 1",
       locality: race.Circuit?.Location?.locality ?? "",
-      country: race.Circuit?.Location?.country ?? "",
+      country: translate(race.Circuit?.Location?.country ?? "", "countries"),
       latitude: Number.isFinite(Number(race.Circuit?.Location?.lat)) ? Number(race.Circuit.Location.lat) : undefined,
       longitude: Number.isFinite(Number(race.Circuit?.Location?.long)) ? Number(race.Circuit.Location.long) : undefined,
       date: race.date,
@@ -468,7 +469,7 @@ export async function getCircuitProfile(circuitId: string): Promise<CircuitProfi
     id: circuitId,
     name: race.circuit,
     locality: race.locality,
-    country: race.country,
+    country: translate(race.country, "countries"),
     latitude: race.latitude,
     longitude: race.longitude,
     ...wikipedia,
@@ -498,7 +499,7 @@ export async function getF1HomeData(): Promise<F1HomeData> {
 
   const nextRace = schedule.find((race) => race.state === "next") ?? schedule.at(-1) ?? fallbackSchedule[0];
   const nextCircuit = await getCircuitProfile(nextRace.circuitId) ?? {
-    id: "monza", name: "Autodromo Nazionale di Monza", locality: "Monza", country: "Italy",
+    id: "monza", name: "Autodromo Nazionale di Monza", locality: "Monza", country: "Italia",
     image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
     ...circuitFacts.monza
   };

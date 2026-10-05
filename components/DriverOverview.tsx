@@ -86,7 +86,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
         { label: "Inscripciones", value: stats?.entries, href: "#conexiones" },
         { label: "Carreras iniciadas", value: stats?.starts },
         { label: "Sin largada", value: stats ? stats.entries - stats.starts : undefined },
-        { label: "Temporadas", value: stats?.seasons },
+        { label: stats?.seasons === 1 ? "Temporada" : "Temporadas", value: stats?.seasons },
       ]} />
       <MetricGroup title="Palmarés" metrics={[
         { label: "Victorias", value: stats?.wins ?? telemetry?.wins, detail: stats ? rate(stats.wins, stats.starts) : undefined },

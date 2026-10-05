@@ -37,9 +37,17 @@ export type HistoryIndex = {
   entities: HistorySummary[];
 };
 
-export const getHistoryIndex = cache(async (): Promise<HistoryIndex> =>
-  JSON.parse(await readFile(path.join(process.cwd(), "public/history/index.json"), "utf8"))
-);
+import { translate } from "./dictionary";
+
+export const getHistoryIndex = cache(async (): Promise<HistoryIndex> => {
+  const data = JSON.parse(await readFile(path.join(process.cwd(), "public/history/index.json"), "utf8"));
+  for (const entity of data.entities) {
+    if (entity.country) entity.country = translate(entity.country, "countries");
+    if (entity.name && entity.category === "nations") entity.name = translate(entity.name, "countries");
+    if (entity.name && entity.category === "grands-prix") entity.name = translate(entity.name, "races");
+  }
+  return data;
+});
 
 export const getHistoryEntity = cache(async (category: string, id: string): Promise<HistoryEntity | undefined> => {
   // Both segments come from routes; validate before accessing the filesystem.
@@ -55,7 +63,17 @@ export const getHistoryEntity = cache(async (category: string, id: string): Prom
     seasons: path.join(process.cwd(), "public/history/seasons")
   };
   try {
-    return JSON.parse(await readFile(path.join(folders[category as HistoryCategory], `${id}.json`), "utf8"));
+    const entity = JSON.parse(await readFile(path.join(folders[category as HistoryCategory], `${id}.json`), "utf8"));
+    if (entity.country) entity.country = translate(entity.country, "countries");
+    if (entity.name && entity.category === "nations") entity.name = translate(entity.name, "countries");
+    if (entity.name && entity.category === "grands-prix") entity.name = translate(entity.name, "races");
+    if (entity.raceResults) {
+      for (const res of entity.raceResults) {
+        if (res.status) res.status = translate(res.status, "statuses");
+        if (res.event) res.event = translate(res.event, "races");
+      }
+    }
+    return entity;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT") return undefined;
     throw error;
