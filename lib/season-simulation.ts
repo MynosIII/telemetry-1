@@ -6,7 +6,8 @@ export const SPRINT_POINTS = [8, 7, 6, 5, 4, 3, 2, 1];
 export const FIRST_CONSTRUCTORS_SEASON = 1958;
 
 export type SimEntry = { driver: string; team: string; position: number | null };
-export type SimRound = { round: number; name: string; race: SimEntry[]; sprint: SimEntry[]; fastest: string[] };
+// The Indianapolis 500 (1950-1960) scored for drivers only, never for constructors.
+export type SimRound = { round: number; name: string; constructors: boolean; race: SimEntry[]; sprint: SimEntry[]; fastest: string[] };
 export type SimInput = {
   year: number; rounds: SimRound[];
   drivers: Record<string, ArchiveRef>; teams: Record<string, { entity: ArchiveRef; engine: ArchiveRef | null }>;
@@ -20,7 +21,7 @@ const numeric = (position: unknown) => typeof position === "number" ? position :
 type SprintRow = { position: number | string | null; driver: ArchiveRef; constructor: ArchiveRef; engine: ArchiveRef | null };
 export function simulationInput(season: Championship, sprints: Record<number, SprintRow[]>): SimInput {
   const drivers: SimInput["drivers"] = {}, teams: SimInput["teams"] = {};
-  const rounds = season.races.map(race => ({ round: race.round, name: race.eventName, race: [] as SimEntry[], sprint: [] as SimEntry[], fastest: [] as string[] }));
+  const rounds = season.races.map(race => ({ round: race.round, name: race.eventName, constructors: !/indianapolis/i.test(race.eventName), race: [] as SimEntry[], sprint: [] as SimEntry[], fastest: [] as string[] }));
   const byRound = new Map(rounds.map(r => [r.round, r]));
   season.driverStandings.forEach(row => { drivers[row.entity.id] = row.entity; });
   for (const [driver, results] of Object.entries(season.driverResults)) for (const [round, cells] of Object.entries(results)) {
@@ -65,8 +66,8 @@ export function simulate(input: SimInput, fastestLapPoint: boolean) {
       for (const crew of cars.values()) {
         const { team, position } = crew[0], points = scale[position! - 1] ?? 0;
         crew.forEach(entry => add(driverPoints, entry.driver, points / crew.length));
-        add(teamPoints, team, points);
-        if (scale === RACE_POINTS) { crew.forEach(entry => finish(driverFinishes, entry.driver, position!)); finish(teamFinishes, team, position!); }
+        if (round.constructors) add(teamPoints, team, points);
+        if (scale === RACE_POINTS) { crew.forEach(entry => finish(driverFinishes, entry.driver, position!)); if (round.constructors) finish(teamFinishes, team, position!); }
       }
     }
     if (fastestLapPoint && round.fastest.length) {
@@ -76,7 +77,7 @@ export function simulate(input: SimInput, fastestLapPoint: boolean) {
         const best = round.race.filter(e => e.driver === driver && e.position !== null && e.position <= 10).sort((a, b) => a.position! - b.position!)[0];
         if (!best) continue;
         add(driverPoints, driver, share);
-        add(teamPoints, best.team, share);
+        if (round.constructors) add(teamPoints, best.team, share);
       }
     }
   }
@@ -87,7 +88,7 @@ export function simulate(input: SimInput, fastestLapPoint: boolean) {
   const realTeam = new Map(input.realConstructors.map(r => [teamKey(r.entity, r.engine), r]));
   return {
     drivers: rank(drivers, driverPoints, driverFinishes, realDriver),
-    constructors: input.year >= FIRST_CONSTRUCTORS_SEASON ? rank(new Map(Object.entries(input.teams)), teamPoints, teamFinishes, realTeam) : [],
+    constructors: input.year >= FIRST_CONSTRUCTORS_SEASON ? rank(new Map(Object.entries(input.teams).filter(([id]) => teamPoints.has(id) || realTeam.has(id))), teamPoints, teamFinishes, realTeam) : [],
   };
 }
 
