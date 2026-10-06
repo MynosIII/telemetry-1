@@ -1,0 +1,29 @@
+.records-decades { margin: 0 0 18px; }
+.records-decades a { text-decoration: none !important; }
+.records-decades a[aria-current="page"] { background: #f2f2f2; border-color: #f2f2f2; color: #0a0a0a; }
+.records-index { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 14px 0; border-top: 1px solid var(--a-line); border-bottom: 1px solid var(--a-line); font-size: 13px; }
+.records-index a { color: var(--a-muted) !important; text-decoration: none !important; }
+.records-index a:hover { color: var(--a-text) !important; }
+.records-section { scroll-margin-top: 110px; padding-top: 34px; }
+.records-section h2 { font: 650 24px/1.2 var(--font-ui); letter-spacing: -.02em; margin: 0 0 18px; }
+.records-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; }
+.records-table { scroll-margin-top: 110px; min-width: 0; }
+.records-table h3 { font-size: 14px; font-weight: 650; margin: 0 0 8px; padding-bottom: 8px; border-bottom: 1px solid var(--a-line); }
+.records-table ol { list-style: none; margin: 0; padding: 0; }
+.records-table li { display: grid; grid-template-columns: 22px 1fr auto; gap: 10px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid #1c1c1c; font-size: 13px; }
+.records-place { color: var(--a-muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+.records-who { min-width: 0; }
+.records-name { display: flex; align-items: center; gap: 7px; }
+.records-name img { flex: none; border-radius: 1px; }
+.records-name a { text-decoration: none !important; }
+.records-name a:hover { text-decoration: underline !important; }
+.records-who small { display: block; color: var(--a-muted); font-size: 11px; margin-top: 2px; }
+.records-who.has-flag small { padding-left: 23px; }
+.records-who small a { color: var(--a-muted) !important; text-decoration: none !important; }
+.records-table strong { font-variant-numeric: tabular-nums; font-weight: 650; white-space: nowrap; text-align: right; }
+.records-more, .records-note { color: var(--a-muted); font-size: 11px; line-height: 1.5; margin: 8px 0 0; }
+.records-method { margin-top: 48px; }
+@media (max-width: 520px) {
+  .records-grid { grid-template-columns: 1fr; }
+  .records-index { gap: 6px 14px; font-size: 12px; }
+}

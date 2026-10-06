@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     "/historia/[category]/[entityId]": ["./public/history/index.json", "./public/history/championships/*.json", "./public/history/cars.json", "./public/history/constructors/*.json", "./public/history/engines/*.json", "./public/history/circuits/*.json", "./public/history/nations/*.json", "./public/history/tyres/*.json", "./public/history/grands-prix/*.json", "./public/history/seasons/*.json"],
     "/historia/carreras/[year]/[round]": ["./public/history/races/*.json", "./public/history/championships/*.json", "./public/history/cars.json"],
     "/historia/autos": ["./public/history/cars.json"],
+    "/historia/records": ["./public/history/records.json"],
     "/historia/autos/[modelId]": ["./public/history/cars/*.json"],
     "/pilotos/*": ["./public/history/drivers/*.json", "./public/history/driver-achievements.json"]
   },

@@ -50,7 +50,8 @@ export const siteSections: SiteSection[] = [
       { href: "/historia?categoria=tyres#archivo", label: "Neumáticos" },
       { href: "/historia?categoria=nations#archivo", label: "Naciones" },
       { href: "/historia?categoria=circuits#archivo", label: "Circuitos" },
-      { href: "/historia/autos", label: "Autos" }
+      { href: "/historia/autos", label: "Autos" },
+      { href: "/historia/records", label: "Récords" }
     ]
   },
   {
