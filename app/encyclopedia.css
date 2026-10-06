@@ -263,3 +263,23 @@
 .season-car { border-radius: 6px; }
 @media (max-width: 760px) { .ency-title { padding-top: 32px; } }
 .ency-section > summary small { display: none; }
+.sim-verdict { font-size: 15px; line-height: 1.6; margin: 4px 0 14px; }
+.sim-verdict .sim-changed, .sim-verdict .sim-changed a { color: var(--red); }
+.season-sim .ency-controls { align-items: center; }
+.sim-option { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--a-text); cursor: pointer; margin-left: 10px; }
+.sim-option input { accent-color: var(--red); width: 16px; height: 16px; margin: 0; }
+.season-sim .ency-controls .sim-copy { margin-left: auto; }
+.sim-table { width: 100%; }
+.sim-table td, .sim-table thead th { text-align: right; font-variant-numeric: tabular-nums; }
+.sim-table td:first-child, .sim-table thead th:first-child { text-align: left; width: 52px; }
+.sim-table tbody th, .sim-table thead th:nth-child(2) { text-align: left; }
+.sim-table .sim-up { color: #5fbf7f; }
+.sim-table .sim-down { color: #e0675f; }
+.sim-table .sim-same { color: var(--a-muted); }
+.ency-table-scroll .sim-table tbody tr.sim-new-champion { background: #1c1212; box-shadow: inset 3px 0 0 var(--red); }
+@media (max-width: 520px) {
+  .sim-table .sim-real-points { display: none; }
+  .sim-table th, .sim-table td { padding-left: 6px; padding-right: 6px; }
+  .sim-option { margin-left: 0; }
+  .season-sim .ency-controls .sim-copy { margin-left: 0; }
+}
