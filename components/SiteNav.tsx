@@ -9,14 +9,14 @@ import { uiDict, LangCode } from "@/lib/i18n";
 export function SiteNav({ lang }: { lang: LangCode }) {
   const active = sectionFor(usePathname() ?? "/");
   return (
-    <nav aria-label="NavegaciA3n principal">
+    <nav aria-label="Navegación principal">
       {siteSections.filter((section) => !section.hidden).map((section) => {
         let label = section.label;
         if (section.href === "/") label = uiDict[lang]["nav.home"];
         if (section.href === "/noticias") label = uiDict[lang]["nav.news"];
         if (section.href === "/temporada") label = uiDict[lang]["nav.season"];
         if (section.href === "/carreras") label = uiDict[lang]["nav.races"];
-        if (section.href === "/historia") label = uiDict[lang]["nav.archive"]; // The section is labelled archive in some places
+        if (section.href === "/historia") label = uiDict[lang]["nav.stats"];
         if (section.href === "/juegos") label = uiDict[lang]["nav.games"];
         
         return (

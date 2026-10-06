@@ -8,7 +8,8 @@ export function LanguageSwitcher() {
 
   useEffect(() => {
     setMounted(true);
-    const current = localStorage.getItem("app_lang") || "es";
+    // The server renders from the cookie, so the button must read the same source.
+    const current = /(?:^|; )NEXT_LOCALE=en(?:;|$)/.test(document.cookie) ? "en" : "es";
     setLang(current);
     document.documentElement.lang = current;
   }, []);
@@ -16,7 +17,6 @@ export function LanguageSwitcher() {
   const toggle = () => {
     const next = lang === "es" ? "en" : "es";
     setLang(next);
-    localStorage.setItem("app_lang", next);
     document.documentElement.lang = next;
     
     // Almacena en la cookie para SSR si fuera necesario a futuro, y recarga para que 
