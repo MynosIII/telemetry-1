@@ -481,14 +481,12 @@ export async function getCarDataChunk(key: number, driver: number, from: number,
   return chunk;
 }
 
-/** Every car's inputs for a window, about one sample a second: parallel arrays, `t` in ms from `from`. */
+/** Every car's inputs for a window at OpenF1's full rate (about 3.7 Hz): parallel arrays, `t` in ms from `from`. */
 export type FieldInputsChunk = {
   from: number;
   to: number;
   cars: Record<number, { t: number[]; speed: number[]; gear: number[]; throttle: number[]; brake: number[] }>;
 };
-
-const INPUT_STEP_MS = 900;
 
 export async function getFieldInputs(key: number, from: number, to: number): Promise<FieldInputsChunk> {
   const rows = await openF1(`/car_data?session_key=${key}&${dateRange(from, to)}`);
@@ -505,10 +503,7 @@ export async function getFieldInputs(key: number, from: number, to: number): Pro
   for (const [driver, list] of byDriver) {
     list.sort((a, b) => a.at - b.at);
     const car = { t: [] as number[], speed: [] as number[], gear: [] as number[], throttle: [] as number[], brake: [] as number[] };
-    let last = -Infinity;
     for (const { at, row } of list) {
-      if (at - last < INPUT_STEP_MS) continue;
-      last = at;
       car.t.push(at - from);
       car.speed.push(num(row.speed) ?? 0);
       car.gear.push(num(row.n_gear) ?? 0);
