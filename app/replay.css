@@ -189,6 +189,24 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
 .dt-trace path.dt-throttle, .dt-trace path.dt-brake { shape-rendering: crispEdges; }
 .dt-grid { stroke: #222; stroke-width: 1; vector-effect: non-scaling-stroke; }
 .dt-tick { fill: #6f6f6f; font-size: 10px; }
+.stint-summary { margin: -4px 0 8px; color: #cfcfcf; font-size: 13px; }
+.stint-note { margin: 8px 0 0; color: #7a7a7a; font-size: 12px; }
+.pit-projection { margin-top: 14px; }
+.pit-loss { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-bottom: 10px; }
+.pit-loss label { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #a3a3a3; }
+.pit-loss input { accent-color: #e10600; width: 160px; }
+.pit-loss b { color: #fff; font-variant-numeric: tabular-nums; min-width: 4.5ch; }
+.pit-loss p { margin: 0; color: #8a8a8a; font-size: 12px; }
+.pit-table { display: grid; }
+.pit-row { display: grid; grid-template-columns: 36px minmax(120px, 1.1fr) 90px 52px minmax(0, 1.6fr) 90px; gap: 10px; align-items: center; width: 100%; padding: 6px 4px; border: 0; border-bottom: 1px solid #1d1d1d; background: none; color: #fff; font: 13px/1.3 var(--font-ui); text-align: left; cursor: pointer; font-variant-numeric: tabular-nums; }
+.pit-row[aria-pressed="true"] { background: #1c1c1c; }
+.pit-head { cursor: default; color: #7f7f7f; font-size: 11px; }
+.pit-owes { margin-left: 6px; color: #ffd12e; font-size: 11px; font-weight: 600; }
+.pit-compounds { display: flex; gap: 4px; }
+.pit-between { color: #a3a3a3; font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pit-up { color: #6fcf8a; }
+.pit-down { color: #ff5a4f; }
+.pit-muted { color: #7a7a7a; }
 .replay-feeds { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 0.8fr); gap: 14px; margin-top: 14px; align-items: start; }
 .replay-control-feed ol, .replay-feed ol { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
 .replay-feed li { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid #1d1d1d; font-size: 13px; }
@@ -231,6 +249,8 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
   .replay-controls-two { grid-template-columns: 1fr; }
   .replay-feeds { grid-template-columns: 1fr; }
   .driver-telemetry-body { grid-template-columns: 1fr; }
+  .pit-row { grid-template-columns: 28px minmax(0, 1fr) 46px 76px; }
+  .pit-row > :nth-child(3), .pit-row > :nth-child(5) { display: none; }
   .replay-speeds { order: 2; width: 100%; }
   .replay-clock { margin-left: auto; }
   .replay-weather { margin-left: 0; gap: 16px; flex-wrap: wrap; }

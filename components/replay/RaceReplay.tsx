@@ -5,6 +5,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SessionSelect, useSessionList } from "@/components/replay/SessionPicker";
 import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline";
 import { DriverTelemetry } from "@/components/replay/DriverTelemetry";
+import { PitProjection } from "@/components/replay/PitProjection";
+import { StintChart } from "@/components/replay/StintChart";
 import { IncidentsPanel, RadioPanel } from "@/components/replay/ReplayFeeds";
 import { TyreChip } from "@/components/replay/TyreChip";
 import { formatClock, formatElapsed, formatLapTime } from "@/components/replay/format";
@@ -486,8 +488,21 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
           {selectedRow ? (
             <div className="replay-driver">
               <DriverTelemetry sessionKey={session.key} driver={selectedRow.driver} at={t} live={live} />
+              <StintChart data={data} driver={selectedRow.driver} at={t} />
             </div>
-          ) : <p className="replay-hint">Elegí un piloto en la clasificación para ver su telemetría.</p>}
+          ) : <p className="replay-hint">Elegí un piloto en la clasificación para ver su telemetría y su stint.</p>}
+
+          {session.type === "Race" && (
+            <PitProjection
+              data={data}
+              timeline={timeline}
+              rows={tower}
+              at={t}
+              neutralised={state?.key === "sc" || state?.key === "vsc"}
+              selected={selected}
+              onSelect={(driver) => setSelected((current) => (current === driver ? null : driver))}
+            />
+          )}
 
           <div className="replay-feeds">
           <section className="replay-panel replay-control-feed" aria-label="Dirección de carrera">
