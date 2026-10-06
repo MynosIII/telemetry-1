@@ -135,7 +135,8 @@ function simulate({ key, start, laps, qualifying, rain }) {
           duration_sector_2: Number(((marks[2] - marks[1]) / 1000).toFixed(3)),
           duration_sector_3: Number(((marks[3] - marks[2]) / 1000).toFixed(3)),
           is_pit_out_lap: (qualifying && lap === 1) || lap === (pitLap ?? -1) + 1,
-          st_speed: Math.round(300 + random() * 30)
+          st_speed: Math.round(300 + random() * 30),
+          ...Object.fromEntries([1, 2, 3].map((sector) => [`segments_sector_${sector}`, Array.from({ length: 7 }, (_, k) => (sector === 1 && k === 0 && ((qualifying && lap === 1) || lap === (pitLap ?? -1) + 1) ? 2064 : random() < 0.06 ? 2051 : random() < 0.55 ? 2049 : 2048))]))
         });
         if (lap === pitLap) {
           pitRemaining = 17 + random() * 3;

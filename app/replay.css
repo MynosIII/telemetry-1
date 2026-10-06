@@ -152,6 +152,23 @@
 
 .replay-tower { padding: 6px 8px; overflow-x: auto; }
 .tower-row { display: grid; grid-template-columns: 30px minmax(70px, 1fr) 70px 64px 70px 70px 54px 30px; gap: 6px; align-items: center; width: 100%; min-width: 520px; padding: 5px 6px; background: none; border: 0; border-bottom: 1px solid #1d1d1d; color: #fff; text-align: left; font-size: 13px; cursor: pointer; }
+.tower-telemetry { grid-template-columns: 30px minmax(64px, 1fr) 64px 40px 44px 64px 156px; }
+.tower-head.tower-telemetry span:nth-child(n+3) { text-align: right; }
+.tower-head.tower-telemetry span:nth-child(6), .tower-head.tower-telemetry span:nth-child(7) { text-align: left; }
+.tower-views { margin: 0 0 8px; }
+.tower-gear { text-align: center; font-variant-numeric: tabular-nums; }
+.tower-pedals { display: grid; gap: 2px; }
+.tower-pedals i { display: block; height: 4px; border-radius: 1px; background: #1d1d1d; }
+.tower-pedals i.dt-throttle { background: #2fa55a; }
+.tower-pedals i.dt-brake { background: #e5483f; }
+.minisectors { display: flex; gap: 4px; }
+.minisector-group { display: flex; gap: 1px; }
+.minisector-group i { width: 5px; height: 12px; border-radius: 1px; background: #232323; }
+.minisector-group i.seg-green { background: #2fbf5b; }
+.minisector-group i.seg-purple { background: #a54ee8; }
+.minisector-group i.seg-yellow { background: #ffd12e; }
+.minisector-group i.seg-pit { background: #3d8fe0; }
+.minisector-group i.seg-none { background: #555; }
 .tower-row:hover { background: #171717; }
 .tower-row[aria-pressed=true] { background: #1f1f1f; }
 .tower-head { color: #7f7f7f; font-size: 11px; cursor: default; }

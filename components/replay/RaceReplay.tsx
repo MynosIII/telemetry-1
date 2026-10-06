@@ -10,6 +10,7 @@ import { PitProjection } from "@/components/replay/PitProjection";
 import { RadarPanel } from "@/components/replay/RadarPanel";
 import { StintChart } from "@/components/replay/StintChart";
 import { IncidentsPanel, RadioPanel } from "@/components/replay/ReplayFeeds";
+import { InputsCell, MiniSectors, useFieldInputs } from "@/components/replay/TowerTelemetry";
 import { TyreChip } from "@/components/replay/TyreChip";
 import { formatClock, formatElapsed, formatLapTime } from "@/components/replay/format";
 import { tyreOnLap, weatherAt } from "@/components/replay/tyres";
@@ -114,6 +115,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
   const placedFor = useRef<number | null>(null);
   const chunkFetchedAt = useRef(new Map<number, number>());
   const [following, setFollowing] = useState(live);
+  const [towerView, setTowerView] = useState<"times" | "telemetry">("times");
   const [now, setNow] = useState(() => Date.now());
 
   const chooseYear = useCallback((value: number) => setYear(value), []);
@@ -364,6 +366,16 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
   }).reverse();
 
   const selectedRow = tower.find((row) => row.driver.number === selected);
+  const fieldInputs = useFieldInputs(sessionKey, data ? t : 0, live, towerView === "telemetry");
+  const currentLaps = useMemo(() => {
+    const result = new Map<number, NonNullable<ReplaySession["laps"][number]>[number]>();
+    if (!data) return result;
+    for (const row of tower) {
+      const lap = (data.laps[row.driver.number] ?? []).find((item) => item.lap === row.lap);
+      if (lap) result.set(row.driver.number, lap);
+    }
+    return result;
+  }, [data, tower]);
   const driverMap = useMemo(() => new Map((data?.drivers ?? []).map((driver) => [driver.number, driver])), [data]);
   const session = data?.session;
 
@@ -467,25 +479,45 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
             </div>
 
             <section className="replay-panel replay-tower" aria-label="Clasificación">
-              <div className="tower-row tower-head">
-                <span>Pos</span><span>Piloto</span><span>{session.type === "Race" ? "Líder" : "Mejor"}</span><span>Int.</span><span>Última</span><span>Mejor</span><span>Neum.</span><span>Pits</span>
+              <div className="replay-speeds tower-views" role="radiogroup" aria-label="Columnas">
+                <button type="button" role="radio" aria-checked={towerView === "times"} onClick={() => setTowerView("times")}>Tiempos</button>
+                <button type="button" role="radio" aria-checked={towerView === "telemetry"} onClick={() => setTowerView("telemetry")}>Telemetría</button>
               </div>
+              {towerView === "times" ? (
+                <div className="tower-row tower-head">
+                  <span>Pos</span><span>Piloto</span><span>{session.type === "Race" ? "Líder" : "Mejor"}</span><span>Int.</span><span>Última</span><span>Mejor</span><span>Neum.</span><span>Pits</span>
+                </div>
+              ) : (
+                <div className="tower-row tower-head tower-telemetry">
+                  <span>Pos</span><span>Piloto</span><span>Int.</span><span>km/h</span><span>Marcha</span><span>Acel. / freno</span><span>Minisectores</span>
+                </div>
+              )}
               {tower.map((row) => (
                 <button
                   type="button"
-                  className="tower-row"
+                  className={towerView === "times" ? "tower-row" : "tower-row tower-telemetry"}
                   key={row.driver.number}
                   aria-pressed={selected === row.driver.number}
                   onClick={() => setSelected((current) => (current === row.driver.number ? null : row.driver.number))}
                 >
                   <b className="tower-pos">{row.position ?? "—"}</b>
                   <span className="tower-driver"><i style={{ background: row.driver.color }} /><b>{row.driver.acronym}</b>{row.inPit && <small className="tower-pit">Boxes</small>}</span>
-                  <code>{row.position === 1 && session.type === "Race" ? "Líder" : formatGap(row.gap)}</code>
-                  <code>{formatGap(row.interval)}</code>
-                  <code>{formatLapTime(row.lastLap)}</code>
-                  <code>{formatLapTime(row.bestLap)}</code>
-                  <span>{row.tyre ? <TyreChip compound={row.tyre.compound} age={row.tyre.age} /> : "—"}</span>
-                  <code>{row.pits}</code>
+                  {towerView === "times" ? (
+                    <>
+                      <code>{row.position === 1 && session.type === "Race" ? "Líder" : formatGap(row.gap)}</code>
+                      <code>{formatGap(row.interval)}</code>
+                      <code>{formatLapTime(row.lastLap)}</code>
+                      <code>{formatLapTime(row.bestLap)}</code>
+                      <span>{row.tyre ? <TyreChip compound={row.tyre.compound} age={row.tyre.age} /> : "—"}</span>
+                      <code>{row.pits}</code>
+                    </>
+                  ) : (
+                    <>
+                      <code>{formatGap(row.interval)}</code>
+                      <InputsCell inputs={fieldInputs.get(row.driver.number)} />
+                      <MiniSectors lap={currentLaps.get(row.driver.number)} at={t} />
+                    </>
+                  )}
                 </button>
               ))}
             </section>
