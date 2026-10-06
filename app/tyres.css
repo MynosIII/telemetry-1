@@ -79,3 +79,8 @@
   .tyre-material-explorer { grid-template-columns:minmax(0,1fr); padding:15px; }
   .tyre-material-explorer figure { max-width:300px; margin:auto; }
 }
+.tyre-catalogue-grid > article > a:first-child { display:block; margin-bottom:18px; }
+.tyre-catalogue-grid .tyre-brand-mark { height:76px; display:grid; place-items:center; padding:12px 18px; box-sizing:border-box; }
+.tyre-catalogue-grid .tyre-brand-mark img { max-height:52px; }
+.tyre-catalogue-grid > article > a:first-child { text-decoration:none; }
+.tyre-catalogue-grid .tyre-brand-mark strong { color:inherit; }

@@ -1,0 +1,11 @@
+{
+  "avon": null,
+  "bridgestone": { "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Bridgestone_logo.svg", "source": "https://commons.wikimedia.org/wiki/File:Bridgestone_logo.svg" },
+  "continental": { "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Continental_logo.svg", "source": "https://commons.wikimedia.org/wiki/File:Continental_logo.svg" },
+  "dunlop": { "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Dunlop_brand_logo.svg", "source": "https://commons.wikimedia.org/wiki/File:Dunlop_brand_logo.svg" },
+  "englebert": null,
+  "firestone": { "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Firestone.svg", "source": "https://commons.wikimedia.org/wiki/File:Firestone.svg" },
+  "goodyear": null,
+  "michelin": { "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Michelin_Wordmark.svg", "source": "https://commons.wikimedia.org/wiki/File:Michelin_Wordmark.svg" },
+  "pirelli": { "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pirelli_-_logo_full_%28Italy%2C_1997%29.svg", "source": "https://commons.wikimedia.org/wiki/File:Pirelli_-_logo_full_(Italy,_1997).svg" }
+}
