@@ -13,6 +13,7 @@ import { getWikipediaHistory } from "@/lib/wikipedia-history";
 import { inkFor } from "@/lib/team-lineage";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
+import { SocialLinks } from "./SocialLinks";
 
 const number = (value: number) => value.toLocaleString("es-AR");
 const photoOf = (id: string) => { const url = driverPhoto(id); return url ? [url] : []; };
@@ -90,6 +91,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
         <TeamBadge name={entity.name} color={color} logo={logo} size="lg" />
         <div>
           <h1>{entity.name}</h1>
+          <SocialLinks category="constructors" sourceId={entity.sourceId} name={entity.name} />
           <p className="team-hero-meta">{entity.country && getCountryFlagUrl(entity.country) ? <img className="history-flag-inline" src={getCountryFlagUrl(entity.country)} alt="" width={16} height={11} /> : null}{[entity.fullName !== entity.name ? entity.fullName : null, entity.country ? translate(entity.country, "countries") : null, entity.firstSeason === entity.lastSeason ? `${entity.firstSeason}` : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
         </div>
       </div>

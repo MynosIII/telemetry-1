@@ -1,0 +1,11 @@
+.profile-socials { margin: 18px 0; max-width: 100%; }
+.profile-socials .profile-socials-label { margin: 0 0 10px; color: #a6a6ad; font: 600 10px var(--font-ui); letter-spacing: .08em; text-transform: uppercase; }
+.profile-socials nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.profile-socials nav a { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 9px 12px; border: 1px solid #424247; border-radius: 5px; background: #141417; color: #eee; font: 500 12px var(--font-ui); text-decoration: none; transition: border-color .15s, background .15s; }
+.profile-socials nav a:first-child { border-color: #89382f; }
+.profile-socials nav a:hover { border-color: #ff3825; background: #241716; }
+.profile-socials nav a:focus-visible { outline: 2px solid #28cfff; outline-offset: 3px; }
+.profile-socials nav a span { color: #aaa; font-size: 12px; }
+.profile-socials > small { display: block; margin-top: 10px; color: #a6a6ad; font-size: 11px; line-height: 1.5; }
+@media(max-width:600px) { .profile-socials nav a { min-height: 44px; } }
+@media(prefers-reduced-motion:reduce) { .profile-socials nav a { transition: none; } }

@@ -1,0 +1,772 @@
+{
+  "drivers/charles-leclerc": {
+    "website": "https://charlesleclerc.com/en/",
+    "source": "https://charlesleclerc.com/en/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/charles_leclerc/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@charlesleclerc"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/CharlesLeclercOfficiel"
+      },
+      {
+        "label": "Twitch",
+        "href": "https://www.twitch.tv/charlesleclerc"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/channel/UCIzIX1qgW7P3eF6JCk_afCA/featured"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Charles_Leclerc"
+      }
+    ]
+  },
+  "drivers/lando-norris": {
+    "website": "https://landonorris.com/",
+    "source": "https://landonorris.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@landonorris"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/lando"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/landonorris04"
+      },
+      {
+        "label": "Twitch",
+        "href": "https://www.twitch.tv/landonorris"
+      }
+    ]
+  },
+  "drivers/george-russell": {
+    "website": "https://www.georgerussell63.com/",
+    "source": "https://www.georgerussell63.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/GeorgeRussell63"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/georgerussell63"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/GeorgeRussell63"
+      },
+      {
+        "label": "Twitch",
+        "href": "https://www.twitch.tv/gr63/"
+      }
+    ]
+  },
+  "drivers/oscar-piastri": {
+    "website": "https://www.oscarpiastri.com/",
+    "source": "https://www.oscarpiastri.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/OscarPiastri/"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/OscarPiastriOfficial/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@oscarpiastri"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/OscarPiastri/"
+      }
+    ]
+  },
+  "drivers/max-verstappen": {
+    "website": "https://www.verstappen.com/",
+    "source": "https://news.verstappen.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/maxverstappen1/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Max33Verstappen"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/MaxVerstappen"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@MaxVerstappen1"
+      }
+    ]
+  },
+  "drivers/kimi-antonelli": {
+    "website": "https://www.mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli",
+    "source": "https://www.mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/kimi.antonelli"
+      }
+    ]
+  },
+  "drivers/lewis-hamilton": {
+    "website": "https://www.lewishamilton.com/",
+    "source": "https://www.lewishamilton.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/lewishamilton"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/sirlewishamilton"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@lewishamilton"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/lewishamilton"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/LewisHamilton/"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/user/lewishamilton"
+      }
+    ]
+  },
+  "drivers/lance-stroll": {
+    "website": "https://www.lancestroll.com/",
+    "source": "https://www.lancestroll.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/stroll.lance"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/lance_stroll"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/lance_stroll"
+      }
+    ]
+  },
+  "drivers/pierre-gasly": {
+    "website": "https://www.alpinef1.com/drivers/pierre-gasly",
+    "source": "https://www.alpinef1.com/drivers/pierre-gasly",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/pierregasly/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/pierregasly"
+      }
+    ]
+  },
+  "drivers/carlos-sainz-jr": {
+    "website": "https://www.carlossainz.es/",
+    "source": "https://www.carlossainz.es/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/carlossainz55/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@carlossainz55"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@carlossainz"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/Carlossainz55/"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/carlos-sainz-77910b426/"
+      }
+    ]
+  },
+  "drivers/franco-colapinto": {
+    "website": "https://www.alpinef1.com/drivers/franco-colapinto",
+    "source": "https://www.alpinef1.com/drivers/franco-colapinto",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/francolapinto/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/FranColapinto"
+      }
+    ]
+  },
+  "drivers/alexander-albon": {
+    "website": "https://www.alexalbon.com/",
+    "source": "https://www.alexalbon.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/alexalbonofficial/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@alex_albon"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/alex_albon"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/alex_albon/"
+      }
+    ]
+  },
+  "drivers/oliver-bearman": {
+    "website": "https://www.olliebearman.com/",
+    "source": "https://www.olliebearman.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/olliebearman/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@olliebearman"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@Ollie_Bearman"
+      }
+    ]
+  },
+  "drivers/fernando-alonso": {
+    "website": "https://fernandoalonso.com/",
+    "source": "https://fernandoalonso.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/fernandoalo_oficial"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/FernandoAlonsoOficial/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/alo_oficial"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/user/ALOoficial"
+      }
+    ]
+  },
+  "drivers/esteban-ocon": {
+    "website": "https://www.esteban-ocon.com/",
+    "source": "https://www.esteban-ocon.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "X",
+        "href": "https://x.com/OconEsteban"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/estebanocon"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@estebanocon"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/profile.php?id=100089976866074"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@estebanocon_official"
+      }
+    ]
+  },
+  "drivers/isack-hadjar": {
+    "website": "https://isackhadjar.com/",
+    "source": "https://isackhadjar.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/isackhadjar"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/isack_hadjar"
+      }
+    ]
+  },
+  "drivers/sergio-perez": {
+    "website": "https://checoperez.com/",
+    "source": "https://checoperez.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/schecoperez/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/SChecoPerez"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/sergioperezf1/"
+      }
+    ]
+  },
+  "constructors/mercedes": {
+    "website": "https://www.mercedesamgf1.com/",
+    "source": "https://www.mercedesamgf1.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com/MercedesAMGF1"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/MercedesAMGF1"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/MERCEDESAMGF1"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@mercedesamgf1"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://youtube.com/@MercedesAMGF1"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/mercedes-amg-petronas-formula-one-team/"
+      }
+    ]
+  },
+  "constructors/red-bull": {
+    "website": "https://www.redbullracing.com/",
+    "source": "https://link.me/redbullracing",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/redbullracing"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@redbullracing"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@redbullracing"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/redbullracing"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/redbullracing"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/56417/"
+      }
+    ]
+  },
+  "constructors/mclaren": {
+    "website": "https://www.mclaren.com/racing/formula-1/",
+    "source": "https://www.mclaren.com/racing/formula-1/2022/car-launch/how-watch-team-launch/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/mclaren"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/mclarenf1"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/mclaren/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@mclaren"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/McLaren.Racing/"
+      }
+    ]
+  },
+  "drivers/sebastian-vettel": {
+    "website": "https://sebastianvettel.de/",
+    "source": "https://sebastianvettel.de/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com/sebastianvettel/"
+      }
+    ]
+  },
+  "constructors/alpine": {
+    "website": "https://www.alpinef1.com/",
+    "source": "https://www.alpinef1.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/alpinef1team/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/AlpineF1Team"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://tiktok.com/@alpinef1team"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/alpine-formula-one-team/"
+      }
+    ]
+  },
+  "drivers/michael-schumacher": {
+    "website": "https://www.michael-schumacher.de/de",
+    "source": "https://www.michael-schumacher.de/de",
+    "reviewedAt": "2026-10-06",
+    "note": "Canales oficiales dedicados a Michael Schumacher y su legado.",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/michaelschumacherofficial"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/michaelschumacherofficial"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/michaelschumacher/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/schumacher"
+      }
+    ]
+  },
+  "constructors/racing-bulls": {
+    "website": "https://www.visacashapprb.com/int-en",
+    "source": "https://www.visacashapprb.com/int-en",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/visacashapprb/"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@visacashapprb"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@visacashapprb"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/visacashapprb/"
+      }
+    ]
+  },
+  "constructors/aston-martin": {
+    "website": "https://www.astonmartinf1.com/en-GB",
+    "source": "https://www.astonmartinf1.com/en-GB",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/astonmartinf1"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/astonmartinf1"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/astonmartinf1"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/c/astonmartinf1"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/astonmartinf1/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@astonmartinf1"
+      }
+    ]
+  },
+  "constructors/cadillac": {
+    "website": "https://www.cadillacf1team.com/",
+    "source": "https://www.cadillacf1team.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/cadillacf1/"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/CadillacF1/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/cadillac_f1"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@CadillacF1TeamOfficial"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/CadillacF1/"
+      }
+    ]
+  },
+  "constructors/haas": {
+    "website": "https://www.haasf1team.com/",
+    "source": "https://www.haasf1team.com/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/haasf1team/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/HaasF1Team/"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com/haasf1team/"
+      }
+    ]
+  },
+  "constructors/audi": {
+    "website": "https://www.audif1.com/en",
+    "source": "https://www.audif1.com/en",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/audif1/"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@audif1"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@AudiF1TV"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/audif1team"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/audif1_"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/audif1project/"
+      }
+    ]
+  },
+  "drivers/nico-hulkenberg": {
+    "website": "https://www.nicohulkenberg.net/",
+    "source": "https://www.nicohulkenberg.net/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/NicoHulkenberg.official/"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/nico-hulkenberg"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/HulkHulkenberg"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/hulkhulkenberg"
+      }
+    ]
+  },
+  "drivers/gabriel-bortoleto": {
+    "website": "https://gabrielbortoleto.com.br/",
+    "source": "https://gabrielbortoleto.com.br/",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/gabrielbortoleto_/"
+      }
+    ]
+  },
+  "drivers/valtteri-bottas": {
+    "website": "https://valtteribottas.com/",
+    "source": "https://mb.cision.com/Main/19540/3131940/1262279.pdf",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/valtteribottas/"
+      }
+    ]
+  },
+  "constructors/ferrari": {
+    "website": "https://www.ferrari.com/en-EN/formula1",
+    "source": "https://www.as-web.jp/team/%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%87%E3%83%AA%E3%82%A2%E3%83%BB%E3%83%95%E3%82%A7%E3%83%A9%E3%83%BC%E3%83%AA-5-2",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/scuderiaferrari/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/ScuderiaFerrari"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/ScuderiaFerrari/"
+      }
+    ]
+  },
+  "constructors/williams": {
+    "website": "https://www.williamsf1.com/",
+    "source": "https://www.williamsf1.com/articles/1d81d115-d57a-4d28-b1e1-c6ef3afce071/view-williams-racing-through-a-new-lens",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/williamsracing/"
+      }
+    ]
+  },
+  "drivers/arvid-lindblad": {
+    "website": "https://www.formula1.com/en/drivers/arvid-lindblad",
+    "source": "https://link.me/arvid.lindblad",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/arvid.lindblad/"
+      }
+    ]
+  },
+  "drivers/liam-lawson": {
+    "website": "https://liamlawson30.com/",
+    "source": "https://socialblade.com/instagram/user/liamlawson30",
+    "reviewedAt": "2026-10-06",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/liamlawson30/"
+      }
+    ]
+  },
+  "drivers/ayrton-senna": {
+    "website": "https://www.senna.com/",
+    "source": "https://www.senna.com/",
+    "reviewedAt": "2026-10-06",
+    "note": "Canales oficiales dedicados a Ayrton Senna y su legado.",
+    "links": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/sennabrasil/"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://www.facebook.com/sennabrasil"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@oficialayrtonsenna"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@SennaTVOficial"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/ayrtonsenna"
+      }
+    ]
+  }
+}

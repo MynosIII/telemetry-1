@@ -5,6 +5,7 @@ import type { DriverProfile } from "@/lib/types";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
 import { DriverCareer } from "./DriverCareer";
+import { SocialLinks } from "./SocialLinks";
 
 const number = (value: number) => value.toLocaleString("es-AR", { maximumFractionDigits: 2 });
 const date = (value?: string) => value ? new Intl.DateTimeFormat("es-AR", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${value}T12:00:00Z`)) : undefined;
@@ -69,6 +70,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
           <div><dt>Mejor resultado</dt><dd>{bestFinish ? `P${bestFinish}` : "Sin clasificación"}</dd></div>
           <div><dt>Mejor posición de salida</dt><dd>{bestGrid ? `P${bestGrid}` : "Sin registro"}</dd></div>
         </dl>
+        <SocialLinks category="drivers" sourceId={history?.sourceId ?? identity.driverId} name={identity.name} />
         <div className="driver-overview-titles"><span>Campeonatos del mundo{archiveEnd ? ` (hasta ${archiveEnd})` : ""}</span><strong>{history ? titleSeasons.length : telemetry?.championships ?? "—"}</strong><div>{titleSeasons.length ? titleSeasons.map(year => <Link prefetch={false} key={year} href={`/historia/seasons/${year}`}>{year}</Link>) : <span>{history ? "Sin títulos" : "Sin registro histórico"}</span>}</div></div>
         {standing ? <p className="driver-overview-current"><span>TEMPORADA EN CURSO</span> <strong>P{standing.position}</strong> · {standing.team} · <strong>{standing.points} puntos</strong>{standing.wins ? <> · <strong>{standing.wins === "1" ? "1 victoria" : `${standing.wins} victorias`}</strong></> : null}{archiveEnd ? <small> No se suma a las cifras del archivo, que llegan hasta {archiveEnd}.</small> : null}</p> : null}
       </div>
