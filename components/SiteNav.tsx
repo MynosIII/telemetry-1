@@ -9,7 +9,7 @@ export function SiteNav() {
   const active = sectionFor(usePathname() ?? "/");
   return (
     <nav aria-label="Navegación principal">
-      {siteSections.map((section) => (
+      {siteSections.filter((section) => !section.hidden).map((section) => (
         <Link key={section.href} href={section.href} aria-current={section === active ? "page" : undefined}>{section.label}</Link>
       ))}
     </nav>
