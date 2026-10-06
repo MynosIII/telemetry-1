@@ -17,7 +17,8 @@ import { getNews } from "@/lib/news";
 import { NewsList } from "@/components/NewsList";
 import eloRatings from "@/lib/elo-ratings.json";
 import { driverPhoto } from "@/lib/driver-photos";
-import { getLang, useTranslation } from "@/lib/i18n";
+import { useTranslation } from "@/lib/i18n";
+import { getLang } from "@/lib/server-i18n";
 
 export default async function Home() {
   const [data, rawMarketForecast, historyIndex, news] = await Promise.all([

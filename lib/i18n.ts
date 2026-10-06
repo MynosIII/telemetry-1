@@ -1,5 +1,3 @@
-import { cookies } from "next/headers";
-
 export const uiDict = {
   es: {
     "nav.home": "Inicio",
@@ -101,16 +99,6 @@ export const uiDict = {
 
 export type LangCode = "es" | "en";
 export type DictKey = keyof typeof uiDict["es"];
-
-export function getLang(): LangCode {
-  try {
-    const cookieStore = cookies();
-    const lang = cookieStore.get('NEXT_LOCALE')?.value;
-    return lang === 'en' ? 'en' : 'es';
-  } catch {
-    return 'es';
-  }
-}
 
 export function useTranslation(lang: LangCode) {
   return (key: DictKey) => {
