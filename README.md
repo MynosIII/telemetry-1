@@ -49,12 +49,6 @@ Competition modes describe known starting suppliers per event, not contractual
 exclusivity. Non-starting suppliers and incomplete identities have unknown
 comparison mode. Observed victory rates do not identify causal tyre performance.
 
-The common materials section documents six manufacturers using their industrial
-or road-tyre publications. It does not transpose those formulations to historical
-F1 tyres. Comparable F1 hardness, stiffness, abrasion tests and chemical mass
-fractions are unavailable for most suppliers, so they have no numerical ranking.
-There is no Pirelli-only composition or compound module. Sources and product
-scope are attached to each materials row; undocumented brands stay explicit.
 
 ### Archive coverage
 

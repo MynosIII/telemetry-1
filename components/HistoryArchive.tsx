@@ -55,7 +55,7 @@ function Archive({ entities, seasons, category, onCategory }: { entities: Archiv
 
   const titled = category === "drivers" || category === "constructors";
   return <div className="history-archive" id="archivo">
-    {category === "tyres" ? <p className="history-note"><Link href="/historia/neumaticos">Fabricantes, estadísticas y materiales documentados →</Link></p> : null}
+    {category === "tyres" ? <p className="history-note"><Link href="/historia/neumaticos">Fabricantes e historia de los neumáticos →</Link></p> : null}
     <div className="history-categories" role="group" aria-label="Categorías del archivo">
       {tabOrder.map(([key, label]) =>
         <button key={key} aria-pressed={category === key} onClick={() => onCategory?.(key)}>{label}<span>{entities.filter(e => e.category === key).length}</span></button>

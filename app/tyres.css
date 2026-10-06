@@ -46,15 +46,6 @@
 .tyre-chart-selection { min-height:42px; font-size:12px; color:var(--a-muted); }
 .tyre-performance > details, .tyre-relation { padding:12px; border:1px solid var(--a-line); background:var(--a-panel); margin:10px 0; }
 .tyre-performance > details > summary, .tyre-relation > summary { font-size:12px; cursor:pointer; }
-.tyre-material-explorer { display:grid; grid-template-columns:minmax(180px,38%) minmax(0,1fr); gap:22px; background:var(--a-soft); padding:20px; margin:22px 0; }
-.tyre-material-explorer figure { margin:0; }
-.tyre-material-explorer svg { width:100%; height:auto; }
-.tyre-material-explorer svg text { fill:var(--a-text); font-size:13px; }
-.tyre-material-explorer figcaption { font-size:9px; line-height:1.5; color:var(--a-muted); text-align:center; }
-.tyre-material-explorer h4 { margin:22px 0 10px; font-size:16px; line-height:1.4; }
-.tyre-coverage-note { border-left:3px solid #bd4944; background:var(--a-panel); padding:16px 20px; margin:24px 0; }
-.tyre-coverage-note p { margin:8px 0 0; }
-.tyre-current-row { background:#211716; }
 .tyre-timeline { margin:10px 0; list-style:none; padding:0 0 0 18px; border-left:2px solid var(--a-line); }
 .tyre-timeline li { display:grid; gap:6px; padding:12px 0 20px; }
 .tyre-timeline time { font-size:10px; color:#8f3633; }
@@ -68,7 +59,6 @@
 .tyre-catalogue-grid p { font-size:12px; color:var(--a-muted); }
 .tyre-catalogue-grid strong { color:var(--a-text); }
 .tyre-catalogue-grid > article > a { font-size:12px; }
-.tyre-catalogue-grid .tyre-material-status { color:var(--a-muted); font-size:10px; border-top:1px solid var(--a-line); padding-top:15px; }
 @media(max-width:700px) {
   .tyre-overview { grid-template-columns:minmax(0,1fr); }
   .tyre-overview > .tyre-brand { max-width:230px; margin:0 auto 12px; width:100%; }
@@ -76,8 +66,6 @@
   .tyre-metrics { grid-template-columns:repeat(3,minmax(0,1fr)); }
   .tyre-mode-grid, .tyre-catalogue-grid { grid-template-columns:minmax(0,1fr); }
   .tyre-mode-grid h3 { min-height:0; }
-  .tyre-material-explorer { grid-template-columns:minmax(0,1fr); padding:15px; }
-  .tyre-material-explorer figure { max-width:300px; margin:auto; }
 }
 .tyre-catalogue-grid > article > a:first-child { display:block; margin-bottom:18px; }
 .tyre-catalogue-grid .tyre-brand-mark { height:76px; display:grid; place-items:center; padding:12px 18px; box-sizing:border-box; }
