@@ -29,7 +29,7 @@ export function useFieldInputs(sessionKey: number | null, at: number, live: bool
       const filling = live && (chunk + 1) * POSITION_CHUNK_MS > (last ?? 0) - 180_000;
       if (last !== undefined && !(filling && Date.now() - last > 4_000)) continue;
       loading.current.add(chunk);
-      fetch(`/api/replay/inputs?key=${sessionKey}&chunk=${chunk}`, live ? { cache: "no-store" } : undefined)
+      fetch(`/api/replay/inputs?key=${sessionKey}&chunk=${chunk}&v=2`, live ? { cache: "no-store" } : undefined)
         .then((response) => (response.ok ? (response.json() as Promise<FieldInputsChunk>) : Promise.reject(new Error(String(response.status)))))
         .then((data) => {
           fetchedAt.current.set(chunk, Date.now());
@@ -54,7 +54,7 @@ export function useFieldInputs(sessionKey: number | null, at: number, live: bool
     for (const [driver, car] of Object.entries(chunk.cars)) {
       if (!car.t.length) continue;
       const offset = tick - chunk.from;
-      if (offset < car.t[0] - 2_000 || offset > car.t[car.t.length - 1] + 3_000) continue;
+      if (offset < car.t[0] - 1_000 || offset > car.t[car.t.length - 1] + 1_500) continue;
       const i = indexAt(car.t, offset);
       result.set(Number(driver), { speed: car.speed[i], gear: car.gear[i], throttle: car.throttle[i], brake: car.brake[i] });
     }
