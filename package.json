@@ -14,6 +14,7 @@
     "verify:drivers": "node scripts/verify-driver-achievements.mjs"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "next": "16.3.3",
     "react": "19.2.8",
     "react-dom": "19.2.8"
@@ -22,6 +23,7 @@
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "playwright": "^1.63.0",
     "typescript": "^5.9.0"
   }
 }

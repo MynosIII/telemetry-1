@@ -185,7 +185,7 @@
 .driver-season-summary figcaption { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; margin-bottom: 14px; }
 .driver-season-summary figcaption strong { font-size: 13px; }
 .driver-season-summary figcaption > span { color: #aaa; font-size: 10px; }
-.driver-season-track { display: flex; gap: 5px; overflow-x: auto; padding: 4px 4px 10px; scrollbar-color: #777 #252525; }
+.driver-season-track { display: flex; gap: 5px; overflow-x: auto; padding: 4px 4px 10px; scrollbar-color: #aaa #252525; }
 .driver-season-cell { flex: 1 0 39px; min-width: 0; max-width: 65px; text-align: center; display: block; line-height: 1.2; }
 .driver-season-cell > span { color: #ccc; font-size: 10px; }
 .driver-season-cell > b { display: block; margin: 5px 0; font-size: 11px; font-weight: 500; }
