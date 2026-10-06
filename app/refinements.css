@@ -473,3 +473,18 @@ footer > p { color: #a6a6aa; }
 .archive-flag { display: inline-block; width: 36px; height: 24px; margin-right: 14px; vertical-align: middle; object-fit: cover; border-radius: 3px; }
 .history-flag-inline { display: inline-block; width: 16px; height: 11px; margin-right: 6px; vertical-align: -1px; object-fit: cover; border-radius: 2px; }
 .history-archive .archive-seasons { border-bottom: 0; margin-bottom: 0; padding-top: 28px; }
+
+/* Phones: the six sections fit in one row, so none hides off-screen. */
+@media (max-width: 520px) {
+  .site-header { padding-inline: 12px; }
+  .site-header nav { justify-content: space-between; gap: 0; padding-right: 0; -webkit-mask-image: none; mask-image: none; }
+  .site-header nav a { padding-inline: 3px; font-size: 10.5px; letter-spacing: .01em; }
+  .site-header .header-cta { min-height: 44px; }
+}
+@media (max-width: 380px) {
+  .site-header nav a { padding-inline: 2px; font-size: 9.5px; letter-spacing: 0; }
+}
+/* The sub-bar scrolls sideways on phones; fade its edge so the hidden pages read as "more to the right". */
+@media (max-width: 760px) {
+  .site-subnav { padding-right: 40px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); }
+}
