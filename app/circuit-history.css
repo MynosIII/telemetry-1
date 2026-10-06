@@ -24,4 +24,18 @@
 .circuit-highlights li strong { display:block; color:#aaa; font-size:12px; margin-top:6px; }
 .circuit-highlights p { font-size:13px; line-height:1.7; color:#aaa; }
 .circuit-conversion { font-size:44px; color:#ff4d42; }
+.circuit-title-line { display:flex; align-items:center; gap:22px; }
+.circuit-country-flag { object-fit:cover; border-radius:3px; }
+.circuit-layout-era h3 span { color:#aaa; font-size:15px; font-weight:400; }
+.circuit-layout-facts h4,.circuit-chart-heading { font-size:18px; margin:26px 0 16px; }
+.circuit-technical-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1px; background:#303035; border:1px solid #303035; margin:20px 0; }
+.circuit-technical-grid>div { padding:18px; background:#101114; }
+.circuit-technical-grid dt { color:#aaa; font-size:11px; line-height:1.6; }
+.circuit-technical-grid dd { margin:10px 0 0; font-size:22px; }
+.circuit-technical-grid small { display:block; margin-top:10px; color:#aaa; line-height:1.6; }
+.circuit-map-canvas { height:390px; width:100%; z-index:0; background:#222; }
+.circuit-map-actions { display:flex; align-items:center; gap:20px; flex-wrap:wrap; padding:16px 0; }
+.circuit-map-actions button { padding:10px 14px; border:1px solid #555; border-radius:4px; background:#17171a; color:#eee; cursor:pointer; }
+.circuit-race-weather { display:block; min-width:140px; }
+@media(max-width:700px) { .circuit-technical-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .circuit-title-line { gap:14px; } .circuit-country-flag { width:45px; height:30px; } .circuit-map-canvas { height:310px; } }
 @media(max-width:600px) { .circuit-highlights,.circuit-venue-facts { grid-template-columns:1fr; } .circuit-pole-chart { padding:12px; } .circuit-pole-chart svg { min-height:200px; } }

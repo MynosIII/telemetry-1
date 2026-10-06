@@ -16,6 +16,7 @@ for(const circuit of circuits){
   assert.equal(row.href,`/historia/carreras/${row.year}/${row.round}`);
   if(row.poleSeconds!==null)assert.ok(Number.isFinite(row.poleSeconds)&&row.poleSeconds>0,key);
   if(row.poleFormat==='sprint'){assert.equal(row.poleSeconds,null);assert.equal(row.year,2021);}
+  if(row.weather){assert.equal(row.weather.scope,'utc-day');assert.equal(row.weather.hours,24);assert.ok(Number.isFinite(row.weather.temperature));assert.ok(row.weather.rain>=0);assert.equal(row.weather.condition,row.weather.peakRain>=5?'heavy':row.weather.rain>0.1?'rain':'dry');}
  }
 }
 assert.equal(seen.size,index.meta.events);
@@ -29,4 +30,8 @@ assert.equal(sprint.pole.id,'max_verstappen');assert.equal(sprint.poleFormat,'sp
 const penalty=data.circuits['spa-francorchamps'].find(r=>r.year===2022);
 assert.equal(penalty.pole.id,'sainz');assert.equal(penalty.poleTime,'1:44.297');
 assert.equal(data.circuits.indianapolis.filter(r=>r.poleFormat==='four-laps').length,11);
+assert.notEqual(data.topology['kyalami-1'].imageTitle,data.topology['kyalami-2'].imageTitle);
+assert.equal(data.topology['kyalami-1'].year,1985);
+assert.equal(data.topology['kyalami-2'].year,1993);
+for(const id of ['kyalami-1','kyalami-2'])assert.ok(data.circuits.kyalami.filter(r=>r.layoutId===id).every(r=>r.weather));
 console.log(`Verified ${circuits.length} circuit histories, ${seen.size} races, layout separation, sprint poles and grid penalties.`);

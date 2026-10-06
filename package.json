@@ -16,7 +16,9 @@
     "verify:circuits": "node scripts/verify-circuits.mjs"
   },
   "dependencies": {
+    "@types/leaflet": "^1.9.22",
     "cheerio": "^1.2.0",
+    "leaflet": "^1.9.4",
     "next": "16.3.3",
     "react": "19.2.8",
     "react-dom": "19.2.8"
