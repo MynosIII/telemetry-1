@@ -300,3 +300,9 @@
 .driver-career summary { cursor: pointer; }
 .driver-career details li { margin: 14px 0; }
 @media (max-width: 600px) { .driver-career-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; } .driver-career-cards > div { padding: 14px; } .driver-career-milestones { grid-template-columns: 1fr; } }
+/* Engines share the team row: logo panel like constructors. */
+.history-avatar-engines { border-radius: 6px; background: #f2f2f2; color: #333; }
+.history-avatar-engines img { object-fit: contain; padding: 4px; box-sizing: border-box; }
+/* SVG logos carry their own transparency, so they sit on the page like the PNGs, without a white panel. */
+.history-avatar:has(img[src*=".svg"]), .history-avatar-tyres { background: none; border-color: transparent; }
+.archive-team-mark[src*=".svg"], .team-badge.has-logo[src*=".svg"] { background: none; }

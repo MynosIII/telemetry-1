@@ -11,9 +11,10 @@ import { SeasonDossier } from "@/components/SeasonDossier";
 import { TyreDossier } from "@/components/TyreDossier";
 import { getTyreAnalysis, tyreCompanies } from "@/lib/tyre-history";
 import { TeamHistory } from "@/components/TeamHistory";
+import { TeamBadge } from "@/components/TeamBadge";
 import type { LineageView } from "@/components/LineageExplorer";
 import { lineageFor, teamColor } from "@/lib/team-lineage";
-import { carImage, teamLogo } from "@/lib/team-media";
+import { carImage, hasTeamLogo, teamLogo } from "@/lib/team-media";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
 import "../../../team-history.css";
@@ -74,12 +75,18 @@ export default async function EntityPage({ params }: Props) {
   const stats = entity.stats, number = (value: number) => value.toLocaleString("es-AR");
   const country = entity.country ?? (entity.category === "nations" ? entity.name : undefined);
   const flag = country ? getCountryFlagUrl(country) : undefined;
+  // An engine named like a team (Ferrari, Honda…) leads with that team's logo; the flag moves to the line below.
+  const logo = entity.category === "engines" && hasTeamLogo(entity.id) ? teamLogo(entity.id) : null;
+  const meta = <p className="archive-meta">{logo && flag ? <img className="history-flag-inline" src={flag} alt="" width={16} height={11} /> : null}{[entity.fullName !== entity.name ? entity.fullName : null, entity.country ? translate(entity.country, "countries") : null, entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>;
   const figures = [["Grandes Premios", stats.races], ["Victorias", stats.wins], ["Podios", stats.podiums], ["Salidas P1", stats.poles], ["Vueltas rápidas", stats.fastestLaps]] as const;
   return <main id="top" className="inner-page history-page"><SiteHeader /><div className="history-content">
     <header className="archive-head">
       <nav className="archive-crumb" aria-label="Ruta"><Link href="/historia">Estadísticas</Link><span>/</span><span>{historyCategories[entity.category]}</span></nav>
-      <h1>{flag ? <img className="archive-flag" src={flag} alt={`Bandera de ${translate(country ?? "", "countries")}`} width={36} height={24} /> : null}{entity.category === "nations" ? translate(entity.name, "countries") : entity.name}</h1>
-      <p className="archive-meta">{[entity.fullName !== entity.name ? entity.fullName : null, entity.country ? translate(entity.country, "countries") : null, entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
+      {logo ? <div className="team-hero-main">
+        <TeamBadge name={entity.name} color={teamColor(entity.id)} logo={logo} size="lg" />
+        <div><h1>{entity.name}</h1>{meta}</div>
+      </div> : <><h1>{flag ? <img className="archive-flag" src={flag} alt={`Bandera de ${translate(country ?? "", "countries")}`} width={36} height={24} /> : null}{entity.category === "nations" ? translate(entity.name, "countries") : entity.name}</h1>
+      {meta}</>}
       <dl className="archive-figures">{figures.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{number(value)}</dd></div>)}</dl>
     </header>
     <HistoryDossier entity={entity} />

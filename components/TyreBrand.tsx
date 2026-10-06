@@ -10,7 +10,7 @@ export function TyreCountryFlag({ country }: { country: string }) {
   return <Image className="tyre-country-flag" src={`https://flagcdn.com/w80/${flagCodes[country]}.png`} alt={`Bandera de ${country}`} width={40} height={28} unoptimized loading="lazy" />;
 }
 
-/** The manufacturer's logo on a white panel, or its name when there is no logo or it fails to load. */
+/** The manufacturer's logo on a transparent panel, or its name when there is no logo or it fails to load. */
 export function TyreLogoMark({ id, company }: { id: string; company: TyreCompany }) {
   const logo = tyreLogo(id);
   return <div className="tyre-brand-mark" style={{ color: company.color }}><FallbackImage sources={logo ? [logo.url] : []} alt={`Logo de ${company.name}`} fallback={<strong>{company.name}</strong>} /></div>;

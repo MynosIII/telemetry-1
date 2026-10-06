@@ -3,7 +3,7 @@
 .tyre-manufacturer-nav a[aria-current=page] { background:var(--red); color:#fff; border-color:var(--red); }
 .tyre-overview { display:grid; grid-template-columns:180px minmax(0,1fr); gap:24px; align-items:center; padding:16px 0 22px; }
 .tyre-brand { display:grid; gap:13px; text-align:center; min-width:0; }
-.tyre-brand-mark { padding:18px 10px; background:#fff; border:1px solid var(--a-line); }
+.tyre-brand-mark { padding:18px 10px; border:1px solid var(--a-line); }
 .tyre-brand-mark strong { font-size:clamp(22px,2.3vw,32px); font-weight:900; font-style:italic; letter-spacing:-.9px; overflow-wrap:anywhere; }
 .tyre-brand-mark img { width:100%; height:auto; max-height:80px; object-fit:contain; }
 .tyre-brand > span { font-size:13px; color:var(--a-muted); }
