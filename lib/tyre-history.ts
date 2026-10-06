@@ -7,7 +7,6 @@ export type TyreCompany = {
   name: string; country: string; flag: string; founded: number; founders: string;
   location: string; locationLabel: string; wikipedia: string; website?: string;
   sources: { name: string; url: string }[]; story: string; color: string;
-  logo?: { url: string; source: string };
 };
 export const tyreCompanies: Record<string, TyreCompany> = {
   pirelli: {
@@ -15,8 +14,7 @@ export const tyreCompanies: Record<string, TyreCompany> = {
     location: 'Bicocca, Milán, Italia', locationLabel: 'Sede', color: '#d3242c',
     wikipedia: 'https://en.wikipedia.org/wiki/Pirelli', website: 'https://www.pirelli.com/',
     sources: [{ name: 'Pirelli · historia', url: 'https://corporate.pirelli.com/corporate/en-ww/aboutus/history' }, { name: 'Pirelli · sede de Milán', url: 'https://corporate.pirelli.com/corporate/en-ww/aboutus/pirelli-headquarters' }],
-    story: 'Nacida en Milán en 1872, la empresa de Giovanni Battista Pirelli comenzó fabricando artículos de caucho antes de ampliar su actividad a los neumáticos. Su sede en Bicocca vincula ese pasado industrial con el centro corporativo actual. En F1, sus distintas etapas deben leerse por separado: el archivo conecta la presencia inicial del campeonato, el regreso de los años ochenta y la etapa de proveedor único iniciada en 2011.',
-    logo: { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Pirelli_-_logo_full_%28Italy%2C_1997%29.svg', source: 'https://commons.wikimedia.org/wiki/File:Pirelli_-_logo_full_(Italy,_1997).svg' }
+    story: 'Nacida en Milán en 1872, la empresa de Giovanni Battista Pirelli comenzó fabricando artículos de caucho antes de ampliar su actividad a los neumáticos. Su sede en Bicocca vincula ese pasado industrial con el centro corporativo actual. En F1, sus distintas etapas deben leerse por separado: el archivo conecta la presencia inicial del campeonato, el regreso de los años ochenta y la etapa de proveedor único iniciada en 2011.'
   },
   bridgestone: {
     name: 'Bridgestone', country: 'Japón', flag: '🇯🇵', founded: 1931, founders: 'Shojiro Ishibashi',

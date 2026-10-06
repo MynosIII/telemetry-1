@@ -6,12 +6,13 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { FallbackImage } from "./FallbackImage";
 import { driverPhoto } from "@/lib/driver-photos";
 import { teamLogo } from "@/lib/team-media";
+import { tyreLogo } from "@/lib/tyre-logos";
 import { historyCategories, type HistoryCategory, type HistorySummary } from "@/lib/history-labels";
 
 const initials = (name: string) => name.split(/[\s-]+/).filter(Boolean).map(part => part[0]).slice(0, 2).join("").toUpperCase();
-// Driver portraits and team logos, with initials when there is none or it fails to load.
+// Driver portraits, team and tyre logos, with initials when there is none or it fails to load.
 const avatarFor = (category: HistoryCategory, id: string) => {
-  const url = category === "drivers" ? driverPhoto(id) : teamLogo(id);
+  const url = category === "drivers" ? driverPhoto(id) : category === "tyres" ? tyreLogo(id)?.url : teamLogo(id);
   return url ? [url] : [];
 };
 const singular: Record<HistoryCategory, string> = { drivers: "Piloto", constructors: "Constructor", engines: "Motor", circuits: "Circuito", nations: "Nación", tyres: "Neumático", "grands-prix": "Gran Premio", seasons: "Temporada" };
@@ -63,7 +64,7 @@ function Archive({ entities, category, onCategory }: { entities: ArchiveEntry[];
     <div className={`history-directory${titled ? " is-titled" : ""}`}>
       <div className="history-directory-head" aria-hidden="true"><span>{singular[category]}</span>{titled ? <span>Títulos</span> : null}<span>GP</span><span>Victorias</span></div>
       {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href}>
-        <span className="history-directory-who">{titled ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}<span><strong>{entity.name}</strong><small>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}</small></span></span>
+        <span className="history-directory-who">{titled || category === "tyres" ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}<span><strong>{entity.name}</strong><small>{entity.country ? `${entity.country} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}</small></span></span>
         {titled ? <b className={entity.titleSeasons.length ? "is-champion" : "is-zero"}>{entity.titleSeasons.length || "—"}<small> títulos</small></b> : null}
         <b>{entity.stats.races}<small> GP</small></b><b className={entity.stats.wins ? "" : "is-zero"}>{entity.stats.wins}<small> victorias</small></b>
       </Link>)}
