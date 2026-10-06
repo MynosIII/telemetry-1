@@ -11,6 +11,7 @@
     "verify:weekends": "node scripts/verify-weekends.mjs",
     "build:tyres": "node scripts/build-tyre-analysis.mjs",
     "verify:tyres": "node scripts/verify-tyres.mjs",
+    "build:records": "node scripts/build-records.mjs",
     "verify:drivers": "node scripts/verify-driver-achievements.mjs"
   },
   "dependencies": {
