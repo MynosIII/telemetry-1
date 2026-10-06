@@ -299,3 +299,14 @@
 .infobox-figure .archive-portrait { width: 44px; height: 44px; flex: none; }
 .archive-team-mark { display: block; width: 44px; height: 44px; flex: none; box-sizing: border-box; padding: 5px; object-fit: contain; background: #f4f4f4; }
 .ency-infobox .circuit-layout { max-width: 220px; margin-inline: auto; }
+
+/* Lap-by-lap position chart in race articles. */
+.lap-chart { margin: 14px 0 0; overflow-x: auto; }
+.lap-chart svg { width: 100%; min-width: 640px; height: auto; display: block; }
+.lap-chart text { fill: var(--a-muted); font-size: 10px; }
+.lap-chart-grid line { stroke: #1f1f1f; }
+.lap-chart-line polyline { fill: none; stroke-width: 1.8; stroke-linejoin: round; transition: opacity .15s; }
+.lap-chart-line text { fill: var(--a-text); }
+.lap-chart svg:hover .lap-chart-line { opacity: .22; }
+.lap-chart svg:hover .lap-chart-line:hover { opacity: 1; }
+.lap-chart-line:hover polyline { stroke-width: 3; }
