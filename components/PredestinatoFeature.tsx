@@ -1,9 +1,12 @@
 import Link from "next/link";
+import { GameLogo } from "./GameLogo";
+import { predestinato } from "@/lib/games";
 
 export function PredestinatoFeature({ eyebrow = "MODO CARRERA" }: { eyebrow?: string }) {
   return (
     <section className="predestinato" id="predestinato" aria-labelledby="predestinato-title">
       <div className="predestinato-copy">
+        <GameLogo src={predestinato.logo} className="predestinato-logo" />
         <p className="eyebrow eyebrow-yellow">{eyebrow}</p>
         <h2 id="predestinato-title">EL <em>PREDESTINADO</em></h2>
         <p className="predestinato-lede">

@@ -6,7 +6,7 @@ export type Game = {
   copy: string;
   meta: string;
   accent: "red" | "yellow" | "blue" | "green";
-  glyph: string;
+  logo: string;
   source: string;
 };
 
@@ -20,7 +20,7 @@ export const games: Game[] = [
     copy: "Descubrí al piloto con pistas de su carrera y estadísticas.",
     meta: "HISTORIA F1 · PISTAS POR INTENTO",
     accent: "red",
-    glyph: "?",
+    logo: "/games/logos/piloto.svg",
     source: "https://f1-telemetry-games.vercel.app/f1-driver-guess/"
   },
   {
@@ -31,7 +31,7 @@ export const games: Game[] = [
     copy: "Reconocé trazados de todas las épocas por su silueta y sus curvas.",
     meta: "SILUETAS · TRES MODOS",
     accent: "yellow",
-    glyph: "⌁",
+    logo: "/games/logos/circuito.svg",
     source: "https://f1-telemetry-games.vercel.app/f1-circuit-guesser/"
   },
   {
@@ -42,7 +42,7 @@ export const games: Game[] = [
     copy: "Elegí qué piloto tiene más victorias. Una racha, cero margen de error.",
     meta: "DUELO · RÉCORD PERSONAL",
     accent: "blue",
-    glyph: "↕",
+    logo: "/games/logos/higher-lower.svg",
     source: "https://f1-telemetry-games.vercel.app/f1_higher_lower/"
   },
   {
@@ -53,7 +53,7 @@ export const games: Game[] = [
     copy: "Completá la grilla con pilotos que cumplan cada condición histórica.",
     meta: "LÓGICA · ARCHIVO COMPLETO",
     accent: "green",
-    glyph: "▦",
+    logo: "/games/logos/bingo.svg",
     source: "https://f1-telemetry-games.vercel.app/f1-bingo/"
   }
 ];
@@ -61,5 +61,6 @@ export const games: Game[] = [
 export const predestinato = {
   slug: "predestinato",
   title: "El Predestinado",
+  logo: "/games/logos/predestinato.svg",
   source: "https://predestinato.vercel.app/"
 };

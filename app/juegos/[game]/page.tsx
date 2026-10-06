@@ -26,6 +26,7 @@ export default async function GamePage({ params }: Props) {
       label={entry === predestinato ? "JUEGOS · MODO CARRERA" : "JUEGOS"}
       title={entry.title}
       source={entry.source}
+      logo={entry.logo}
       back={{ href: "/juegos", label: "JUEGOS" }}
     />
   );

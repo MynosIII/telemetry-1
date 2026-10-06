@@ -90,6 +90,12 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .game-card::before { height: 2px; }
 .game-card::after, .archive-record::before, .timing-row::after { display: none; }
 .game-glyph { border-radius: 18px; transform: none; }
+.game-logo { display: block; width: 96px; height: 96px; flex-shrink: 0; }
+.game-glyph.game-logo-frame { width: 104px; height: 104px; border: 0; background: transparent; }
+.predestinato-logo { margin-bottom: 22px; width: 88px; height: 88px; }
+.embed-identity { display: flex; align-items: center; gap: 16px; min-width: 0; }
+.embed-identity .game-logo { width: 64px; height: 64px; }
+@media (max-width: 600px) { .embed-identity { gap: 10px; } .embed-identity .game-logo { width: 48px; height: 48px; } }
 .game-card > p { font-size: 14px; color: #b8b8bb; line-height: 1.65; }
 .game-topline, .game-footer, .game-footer b { font-size: 11px; line-height: 1.5; letter-spacing: .035em; }
 .game-topline, .game-topline b, .game-footer { color: #a6a6aa; }
