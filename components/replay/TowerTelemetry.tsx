@@ -91,16 +91,12 @@ export function MiniSectors({ lap, at }: { lap: ReplayLap | undefined; at: numbe
   );
 }
 
-export function InputsCell({ inputs }: { inputs: CarInputs | undefined }) {
-  if (!inputs) return <><span className="pit-muted">—</span><span /><span /></>;
+export function PedalsCell({ inputs }: { inputs: CarInputs | undefined }) {
+  if (!inputs) return <span className="pit-muted">—</span>;
   return (
-    <>
-      <code>{inputs.speed}</code>
-      <b className="tower-gear">{inputs.gear || "N"}</b>
-      <span className="tower-pedals" title={`Acelerador ${inputs.throttle}%${inputs.brake ? ", frenando" : ""}`}>
-        <i className="dt-throttle" style={{ width: `${inputs.throttle}%` }} />
-        <i className="dt-brake" style={{ width: inputs.brake ? "100%" : "0%" }} />
-      </span>
-    </>
+    <span className="tower-pedals" title={`Acelerador ${inputs.throttle}%${inputs.brake ? ", frenando" : ""}`}>
+      <i className="dt-throttle" style={{ width: `${inputs.throttle}%` }} />
+      <i className="dt-brake" style={{ width: inputs.brake ? "100%" : "0%" }} />
+    </span>
   );
 }
