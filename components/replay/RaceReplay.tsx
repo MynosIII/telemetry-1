@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SessionSelect, useSessionList } from "@/components/replay/SessionPicker";
 import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline";
+import { IncidentsPanel, RadioPanel } from "@/components/replay/ReplayFeeds";
 import { TyreChip } from "@/components/replay/TyreChip";
 import { formatClock, formatElapsed, formatLapTime } from "@/components/replay/format";
 import { tyreOnLap, weatherAt } from "@/components/replay/tyres";
@@ -358,6 +359,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
   }).reverse();
 
   const selectedRow = tower.find((row) => row.driver.number === selected);
+  const driverMap = useMemo(() => new Map((data?.drivers ?? []).map((driver) => [driver.number, driver])), [data]);
   const session = data?.session;
 
   useEffect(() => {
@@ -480,6 +482,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
             </section>
           </div>
 
+          <div className="replay-feeds">
           <section className="replay-panel replay-control-feed" aria-label="Dirección de carrera">
             <h2>Dirección de carrera</h2>
             {messages.length ? (
@@ -494,6 +497,9 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
               </ol>
             ) : <p className="replay-empty">Todavía no hay mensajes en este momento de la sesión.</p>}
           </section>
+          <IncidentsPanel timeline={timeline} drivers={driverMap} at={t} selected={selected} />
+          <RadioPanel timeline={timeline} drivers={driverMap} at={t} playing={playing} speed={live && following ? 1 : speed} selected={selected} />
+          </div>
         </>
       )}
     </div>

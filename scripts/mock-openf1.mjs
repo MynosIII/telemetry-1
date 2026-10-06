@@ -227,10 +227,30 @@ DATA[9902].race_control = [
   [9.5, null, "RISK OF RAIN FOR F1 RACE IS 80%", "Other"],
   [12, null, "SAFETY CAR DEPLOYED", "SafetyCar"],
   [15, null, "SAFETY CAR IN THIS LAP", "SafetyCar"],
+  [4, null, "CAR 16 (LEC) TIME 1:31.204 DELETED - TRACK LIMITS AT TURN 4 LAP 3 13:04:11", "Other"],
+  [6, null, "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 44 (HAM) AND 63 (RUS) NOTED - CAUSING A COLLISION", "Other"],
+  [7, null, "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 44 (HAM) AND 63 (RUS) UNDER INVESTIGATION - CAUSING A COLLISION", "Other"],
+  [10, null, "FIA STEWARDS: 5 SECOND TIME PENALTY FOR CAR 44 (HAM) - CAUSING A COLLISION", "Other"],
+  [13, null, "FIA STEWARDS: PIT LANE INCIDENT INVOLVING CAR 43 (COL) REVIEWED NO FURTHER INVESTIGATION", "Other"],
+  [17, null, "BLACK AND WHITE FLAG FOR CAR 16 (LEC) - TRACK LIMITS", "Other"],
   [26, "CHEQUERED", "CHEQUERED FLAG", "Flag"]
 ].map(([minutes, flag, message, category]) => ({ session_key: 9902, date: new Date(raceStart + minutes * 60_000).toISOString(), flag, message, category, scope: "Track", lap_number: null, driver_number: null, sector: null }));
 DATA[9903].race_control = [{ session_key: 9903, date: new Date(liveStart).toISOString(), flag: "GREEN", message: "GREEN LIGHT - PIT EXIT OPEN", category: "Flag", scope: "Track" }];
 DATA[9901].race_control = [{ session_key: 9901, date: new Date(qualyStart).toISOString(), flag: "GREEN", message: "GREEN LIGHT - PIT EXIT OPEN", category: "Flag", scope: "Track" }];
+DATA[9902].team_radio = [[1.5, 1], [5, 44], [7.2, 63], [11, 43], [12.4, 1], [16, 4], [24, 16]].map(([minutes, number]) => ({ session_key: 9902, meeting_key: 1300, driver_number: number, date: new Date(raceStart + minutes * 60_000).toISOString(), recording_url: `http://localhost:${PORT}/static/radio-${number}.wav` }));
+DATA[9903].team_radio = [[2, 1], [4, 16]].map(([minutes, number]) => ({ session_key: 9903, meeting_key: 1301, driver_number: number, date: new Date(liveStart + minutes * 60_000).toISOString(), recording_url: `http://localhost:${PORT}/static/radio-${number}.wav` }));
+
+// A short two-tone beep stands in for every radio clip.
+function beep() {
+  const rate = 8000; const samples = rate * 1.2;
+  const buffer = Buffer.alloc(44 + samples * 2);
+  buffer.write("RIFF", 0); buffer.writeUInt32LE(36 + samples * 2, 4); buffer.write("WAVEfmt ", 8);
+  buffer.writeUInt32LE(16, 16); buffer.writeUInt16LE(1, 20); buffer.writeUInt16LE(1, 22); buffer.writeUInt32LE(rate, 24);
+  buffer.writeUInt32LE(rate * 2, 28); buffer.writeUInt16LE(2, 32); buffer.writeUInt16LE(16, 34); buffer.write("data", 36); buffer.writeUInt32LE(samples * 2, 40);
+  for (let i = 0; i < samples; i += 1) buffer.writeInt16LE(Math.round(Math.sin((i / rate) * Math.PI * 2 * (i < samples / 2 ? 660 : 880)) * 6000), 44 + i * 2);
+  return buffer;
+}
+const BEEP = beep();
 for (const data of Object.values(DATA)) data.drivers = DRIVERS.map(([number, acronym, name, team, colour]) => ({ driver_number: number, name_acronym: acronym, full_name: name, broadcast_name: name.toUpperCase(), team_name: team, team_colour: colour }));
 console.log("Ready.");
 
@@ -258,13 +278,17 @@ function matches(row, filters) {
   });
 }
 
-const TABLES = { car_data: "carData", location: "location", laps: "laps", stints: "stints", pit: "pits", position: "position", intervals: "intervals", weather: "weather", race_control: "race_control", drivers: "drivers" };
+const TABLES = { car_data: "carData", location: "location", laps: "laps", stints: "stints", pit: "pits", position: "position", intervals: "intervals", weather: "weather", race_control: "race_control", drivers: "drivers", team_radio: "team_radio" };
 
 createServer((request, response) => {
   const url = new URL(request.url, "http://localhost");
   const table = url.pathname.replace(/^\/v1\//, "");
   const filters = parseFilters(url.search);
   let rows;
+  if (url.pathname.startsWith("/static/radio-")) {
+    response.writeHead(200, { "Content-Type": "audio/wav", "Content-Length": BEEP.length }).end(BEEP);
+    return;
+  }
   if (table === "sessions") rows = SESSIONS.filter((row) => matches(row, filters));
   else if (table === "meetings") rows = MEETINGS.filter((row) => matches(row, filters));
   else if (TABLES[table]) {
