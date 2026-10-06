@@ -39,7 +39,7 @@ export const siteSections: SiteSection[] = [
     label: "Estadísticas",
     match: ["/historia", "/pilotos"],
     links: [
-      { href: "/historia#temporadas", label: "Temporadas" },
+      { href: "/historia?categoria=seasons#archivo", label: "Temporadas" },
       { href: "/historia?categoria=grands-prix#archivo", label: "Grandes Premios" },
       { href: "/historia?categoria=drivers#archivo", label: "Pilotos" },
       { href: "/historia?categoria=constructors#archivo", label: "Constructores" },
@@ -75,10 +75,11 @@ export function activeSubLink(section: SiteSection, pathname: string, categoria:
   const exact = links.find((link) => link.href === `${pathname}${hash}`);
   if (exact) return exact.href;
   const category = categoria
+    ?? (pathname === "/historia" ? "drivers" : undefined)
     ?? Object.entries(categoryForPath).find(([prefix]) => startsWith(pathname, prefix))?.[1]
     ?? pathname.match(/^\/historia\/([a-z-]+)\//)?.[1];
   if (category) {
-    const byCategory = links.find((link) => link.href.includes(`categoria=${category}#`)) ?? links.find((link) => category === "seasons" && link.href.endsWith("#temporadas"));
+    const byCategory = links.find((link) => link.href.includes(`categoria=${category}#`));
     if (byCategory) return byCategory.href;
   }
   // Longest matching path wins (/historia/autos/x → Autos).

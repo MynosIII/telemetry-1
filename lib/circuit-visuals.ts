@@ -1,3 +1,4 @@
+import { dictionaries } from "@/lib/dictionary";
 const CIRCUIT_LAYOUT_ROOT =
   "https://f1-telemetry-games.vercel.app/f1-circuit-guesser/public/circuits";
 
@@ -51,8 +52,31 @@ const countryCodes: Record<string, string> = {
   Qatar: "QA",
   UAE: "AE",
   "Saudi Arabia": "SA",
-  Bahrain: "BH"
+  Bahrain: "BH",
+  "United Kingdom": "GB",
+  "United States": "US",
+  "United States of America": "US",
+  "United Arab Emirates": "AE",
+  France: "FR",
+  Germany: "DE",
+  Portugal: "PT",
+  Turkey: "TR",
+  Russia: "RU",
+  "South Africa": "ZA",
+  "South Korea": "KR",
+  India: "IN",
+  Switzerland: "CH",
+  Sweden: "SE",
+  Morocco: "MA",
+  "New Zealand": "NZ", Ireland: "IE", "Hong Kong": "HK", Finland: "FI", Venezuela: "VE", Poland: "PL",
+  Uruguay: "UY", Thailand: "TH", Zimbabwe: "ZW", Chile: "CL", Denmark: "DK", Liechtenstein: "LI",
+  Indonesia: "ID", Czechia: "CZ", Luxembourg: "LU", Taiwan: "TW", "San Marino": "SM"
 };
+
+// Race data arrives translated ("Japón", "Países Bajos"); map those back to the English keys above.
+const englishCountry: Record<string, string> = {};
+for (const [english, spanish] of Object.entries(dictionaries.countries)) englishCountry[spanish] ??= english;
+const countryKey = (country: string) => englishCountry[country] ?? country;
 
 // ISO 3166 alpha-3, so the track column never collides with the viewer columns (ARG, BRA, COL, MEX).
 const countryCodes3: Record<string, string> = {
@@ -64,7 +88,7 @@ const countryCodes3: Record<string, string> = {
 };
 
 export function getCountryCode(country: string) {
-  return countryCodes3[country] ?? country.toUpperCase();
+  return countryCodes3[countryKey(country)] ?? country.toUpperCase();
 }
 
 export function getCircuitLayoutUrl(circuitId: string) {
@@ -73,7 +97,7 @@ export function getCircuitLayoutUrl(circuitId: string) {
 }
 
 export function getCountryFlagUrl(country: string) {
-  const code = countryCodes[country];
+  const code = countryCodes[countryKey(country)];
   return code ? `https://flagcdn.com/w80/${code.toLowerCase()}.png` : undefined;
 }
 

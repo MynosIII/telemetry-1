@@ -4,6 +4,7 @@ import Image from "@/components/ResilientImage";
 import Link from "next/link";
 import { useState } from "react";
 import type { RaceResult } from "@/lib/types";
+import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("es-AR", { day: "2-digit", month: "short" })
@@ -41,7 +42,7 @@ export function RaceBoard({ races }: { races: RaceResult[] }) {
             tabIndex={index === selected ? 0 : -1}
           >
             <span>{formatDate(item.date)}</span>
-            <strong>{item.country}</strong>
+            <strong>{getCountryFlagUrl(item.country) ? <img className="race-tab-flag" src={getCountryFlagUrl(item.country)} alt="" width={18} height={12} /> : null}{item.country}</strong>
           </button>
         ))}
       </div>

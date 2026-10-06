@@ -11,6 +11,8 @@ import { TeamCarIndex, type TeamCar } from "./TeamCarIndex";
 import { historyCategories, type HistoryEntity } from "@/lib/history";
 import { getWikipediaHistory } from "@/lib/wikipedia-history";
 import { inkFor } from "@/lib/team-lineage";
+import { getCountryFlagUrl } from "@/lib/circuit-visuals";
+import { translate } from "@/lib/dictionary";
 
 const number = (value: number) => value.toLocaleString("es-AR");
 const photoOf = (id: string) => { const url = driverPhoto(id); return url ? [url] : []; };
@@ -88,7 +90,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
         <TeamBadge name={entity.name} color={color} logo={logo} size="lg" />
         <div>
           <h1>{entity.name}</h1>
-          <p className="team-hero-meta">{[entity.fullName !== entity.name ? entity.fullName : null, entity.country, entity.firstSeason === entity.lastSeason ? `${entity.firstSeason}` : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
+          <p className="team-hero-meta">{entity.country && getCountryFlagUrl(entity.country) ? <img className="history-flag-inline" src={getCountryFlagUrl(entity.country)} alt="" width={16} height={11} /> : null}{[entity.fullName !== entity.name ? entity.fullName : null, entity.country ? translate(entity.country, "countries") : null, entity.firstSeason === entity.lastSeason ? `${entity.firstSeason}` : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
         </div>
       </div>
       <dl className="archive-figures">

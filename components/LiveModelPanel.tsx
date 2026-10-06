@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { LiveModelSnapshot } from "@/lib/live-model";
+import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 
 function formatDate(value?: string) {
   if (!value) return "Fecha por confirmar";
@@ -56,7 +57,7 @@ export function LiveModelPanel({ snapshot: initialSnapshot }: { snapshot: LiveMo
         <article className="next-race-card">
           <span>PRÓXIMA CARRERA</span>
           <strong>{snapshot.nextRace?.name ?? "Por confirmar"}</strong>
-          <p>{snapshot.nextRace?.circuit} · {snapshot.nextRace?.country}</p>
+          <p>{snapshot.nextRace?.circuit} · {getCountryFlagUrl(snapshot.nextRace?.country ?? "") ? <img className="race-tab-flag" src={getCountryFlagUrl(snapshot.nextRace?.country ?? "")} alt="" width={18} height={12} /> : null}{snapshot.nextRace?.country}</p>
           <b>{formatDate(snapshot.nextRace?.date)}</b>
         </article>
         <article className="coverage-card">
