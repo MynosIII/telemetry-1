@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { FallbackImage } from "./FallbackImage";
 import { driverPhoto } from "@/lib/driver-photos";
-import { teamLogo } from "@/lib/team-media";
+import { hasTeamLogo, teamLogo } from "@/lib/team-media";
 import { tyreLogo } from "@/lib/tyre-logos";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
@@ -13,8 +13,9 @@ import { historyCategories, type HistoryCategory, type HistorySummary } from "@/
 
 const initials = (name: string) => name.split(/[\s-]+/).filter(Boolean).map(part => part[0]).slice(0, 2).join("").toUpperCase();
 // Driver portraits, team and tyre logos, with initials when there is none or it fails to load.
+// An engine that shares its name (and id) with a team uses that team's logo.
 const avatarFor = (category: HistoryCategory, id: string) => {
-  const url = category === "drivers" ? driverPhoto(id) : category === "tyres" ? tyreLogo(id)?.url : teamLogo(id);
+  const url = category === "drivers" ? driverPhoto(id) : category === "tyres" ? tyreLogo(id)?.url : category === "engines" ? (hasTeamLogo(id) ? teamLogo(id) : undefined) : teamLogo(id);
   return url ? [url] : [];
 };
 const singular: Record<HistoryCategory, string> = { drivers: "Piloto", constructors: "Constructor", engines: "Motor", circuits: "Circuito", nations: "Nación", tyres: "Neumático", "grands-prix": "Gran Premio", seasons: "Temporada" };
@@ -58,6 +59,8 @@ function Archive({ entities, seasons, category, onCategory }: { entities: Archiv
   ).sort((a, b) => sort === "name" ? a.name.localeCompare(b.name) : sort === "debut" ? a.firstSeason - b.firstSeason : sort === "races" ? b.stats.races - a.stats.races : sort === "titles" ? b.titleSeasons.length - a.titleSeasons.length || b.stats.wins - a.stats.wins : sort === "poles" ? b.stats.poles - a.stats.poles : sort === "podiums" ? b.stats.podiums - a.stats.podiums : b.stats.wins - a.stats.wins), [entities, category, query, champions, sort]);
 
   const titled = category === "drivers" || category === "constructors";
+  // Engines read like teams: logo, then flag, country and years underneath.
+  const teamLike = titled || category === "engines";
   const figure: Figure = sort === "poles" || sort === "podiums" ? sort : "wins";
   return <div className="history-archive" id="archivo">
     {category === "tyres" ? <p className="history-note"><Link href="/historia/neumaticos">Fabricantes e historia de los neumáticos →</Link></p> : null}
@@ -76,7 +79,7 @@ function Archive({ entities, seasons, category, onCategory }: { entities: Archiv
     <div className={`history-directory${titled ? " is-titled" : ""}`}>
       <div className="history-directory-head" aria-hidden="true"><span>{singular[category]}</span>{titled ? <span>Títulos</span> : null}<span>GP</span><span>{figures[figure][0]}</span></div>
       {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href}>
-        <span className="history-directory-who">{titled || category === "tyres" ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}{!titled && category !== "tyres" && flagFor(entity) ? <img className="history-flag" src={flagFor(entity)} alt="" width={30} height={20} loading="lazy" /> : null}<span><strong>{category === "nations" ? translate(entity.name, "countries") : entity.name}</strong><small>{titled && entity.country && getCountryFlagUrl(entity.country) ? <img className="history-flag-inline" src={getCountryFlagUrl(entity.country)} alt="" width={16} height={11} loading="lazy" /> : null}{entity.country ? `${translate(entity.country, "countries")} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}</small></span></span>
+        <span className="history-directory-who">{teamLike || category === "tyres" ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}{!teamLike && category !== "tyres" && flagFor(entity) ? <img className="history-flag" src={flagFor(entity)} alt="" width={30} height={20} loading="lazy" /> : null}<span><strong>{category === "nations" ? translate(entity.name, "countries") : entity.name}</strong><small>{teamLike && entity.country && getCountryFlagUrl(entity.country) ? <img className="history-flag-inline" src={getCountryFlagUrl(entity.country)} alt="" width={16} height={11} loading="lazy" /> : null}{entity.country ? `${translate(entity.country, "countries")} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}</small></span></span>
         {titled ? <b className={entity.titleSeasons.length ? "is-champion" : "is-zero"}>{entity.titleSeasons.length || "—"}<small> títulos</small></b> : null}
         <b>{entity.stats.races}<small> GP</small></b><b className={entity.stats[figure] ? "" : "is-zero"}>{entity.stats[figure]}<small> {figures[figure][1]}</small></b>
       </Link>)}

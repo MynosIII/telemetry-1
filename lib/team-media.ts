@@ -31,4 +31,6 @@ export function carImage(car: Pick<CarSummary, "id" | "photo">): CarImage {
   return { sources: [...(own ? [own] : []), ...(car.photo ? [car.photo.url] : [])], credits: [...(own ? [credit] : []), ...(car.photo ? [car.photo] : [])] };
 }
 
+/** True when the owner has supplied a logo file for this id (not just the default path). */
+export const hasTeamLogo = (id: string): boolean => Object.hasOwn(teamLogos, id);
 export const teamLogo = (constructorId: string): string => teamLogos[constructorId] ?? `/history/logos/${constructorId}.png`;
