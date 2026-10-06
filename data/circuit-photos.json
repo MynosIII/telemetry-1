@@ -1,0 +1,669 @@
+{
+  "monza": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Autodromo_Monza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Autodromo_Monza.jpg",
+      "author": "No machine-readable author provided. Luca Ulk assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "La recta de Monza y sus instalaciones.",
+      "alt": "La recta de Monza y sus instalaciones."
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Monza_banking_2003.JPG/1280px-Monza_banking_2003.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Monza_banking_2003.JPG",
+      "author": "Dino246 at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "El anillo peraltado conservado en Monza, fuera de la vuelta moderna de F1.",
+      "alt": "El anillo peraltado conservado en Monza, fuera de la vuelta moderna de F1."
+    }
+  ],
+  "monaco": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Monaco_Tunnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Monaco_Tunnel.jpg",
+      "author": "Pablo",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "El túnel de Mónaco, integrado en las calles del principado.",
+      "alt": "El túnel de Mónaco, integrado en las calles del principado."
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/La_Rascasse_Monaco_IMG_1158.jpg/1280px-La_Rascasse_Monaco_IMG_1158.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:La_Rascasse_Monaco_IMG_1158.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "La Rascasse y su entorno urbano.",
+      "alt": "La Rascasse y su entorno urbano."
+    }
+  ],
+  "silverstone": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Silverstone_Circuit%2C_July_2%2C_2018_SkySat_%28cropped%29.jpg/1280px-Silverstone_Circuit%2C_July_2%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Silverstone_Circuit,_July_2,_2018_SkySat_(cropped).jpg",
+      "author": "Planet Labs, Inc.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Vista aérea de Silverstone en 2018, posterior a la construcción del sector Arena.",
+      "alt": "Vista aérea de Silverstone en 2018, posterior a la construcción del sector Arena."
+    }
+  ],
+  "spa-francorchamps": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Eau_Rouge_1997.jpg/1280px-Eau_Rouge_1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Eau_Rouge_1997.jpg",
+      "author": "Matthead",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "Eau Rouge y Raidillon en 1997; el entorno era todavía accesible como carretera fuera de las carreras.",
+      "alt": "Eau Rouge y Raidillon en 1997; el entorno era todavía accesible como carretera fuera de las carreras."
+    }
+  ],
+  "montreal": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Circuit_Gilles_Villeneuve_Hairpin.jpg/1280px-Circuit_Gilles_Villeneuve_Hairpin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Circuit_Gilles_Villeneuve_Hairpin.jpg",
+      "author": "magicfab",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "La horquilla del Circuit Gilles-Villeneuve.",
+      "alt": "La horquilla del Circuit Gilles-Villeneuve."
+    }
+  ],
+  "interlagos": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Grande_Pr%C3%AAmio_S%C3%A3o_Paulo_de_F%C3%B3rmula_1_%2852497080967%29.jpg/1280px-Grande_Pr%C3%AAmio_S%C3%A3o_Paulo_de_F%C3%B3rmula_1_%2852497080967%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Grande_Pr%C3%AAmio_S%C3%A3o_Paulo_de_F%C3%B3rmula_1_(52497080967).jpg",
+      "author": "Governo do Estado de São Paulo",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "El autódromo de Interlagos durante un fin de semana de Gran Premio.",
+      "alt": "El autódromo de Interlagos durante un fin de semana de Gran Premio."
+    }
+  ],
+  "nurburgring": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Schwedenkreuz.jpg/1280px-Schwedenkreuz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Schwedenkreuz.jpg",
+      "author": "User:Walter Koch",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "El sector de Schwedenkreuz en la Nordschleife, en una imagen posterior a su etapa de F1.",
+      "alt": "El sector de Schwedenkreuz en la Nordschleife, en una imagen posterior a su etapa de F1."
+    }
+  ],
+  "hungaroring": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Hungaroring%2C_April_28%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Hungaroring,_April_28,_2018_SkySat_(cropped).jpg",
+      "author": "Planet Labs, Inc.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Vista aérea del Hungaroring en 2018, después de la reforma de 2003.",
+      "alt": "Vista aérea del Hungaroring en 2018, después de la reforma de 2003."
+    }
+  ],
+  "spielberg": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Red-Bull-Ring-constrution-area-2010-07-04.JPG/1280px-Red-Bull-Ring-constrution-area-2010-07-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Red-Bull-Ring-constrution-area-2010-07-04.JPG",
+      "author": "Picasa-User mandi 46",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Renovación de las instalaciones del Red Bull Ring en 2010.",
+      "alt": "Renovación de las instalaciones del Red Bull Ring en 2010."
+    }
+  ],
+  "hockenheimring": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Hockenheimring%2C_Hockenheim_%28P1100587%29.jpg/1280px-Hockenheimring%2C_Hockenheim_%28P1100587%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Hockenheimring,_Hockenheim_(P1100587).jpg",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "caption": "Hockenheim en 2023: la pista compacta y la huella del antiguo recorrido del bosque.",
+      "alt": "Hockenheim en 2023: la pista compacta y la huella del antiguo recorrido del bosque."
+    }
+  ],
+  "catalunya": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Curva_10_de_Circuit_de_Barcelona-Catalunya_Montmel%C3%B3_%282023%29.jpg/1280px-Curva_10_de_Circuit_de_Barcelona-Catalunya_Montmel%C3%B3_%282023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Curva_10_de_Circuit_de_Barcelona-Catalunya_Montmel%C3%B3_(2023).jpg",
+      "author": "Wilnel José Verdú Guerrero",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "La curva 10 de Barcelona-Catalunya fotografiada en 2023.",
+      "alt": "La curva 10 de Barcelona-Catalunya fotografiada en 2023."
+    }
+  ],
+  "suzuka": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Suzuka_Circuit_2006.jpg/1280px-Suzuka_Circuit_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Suzuka_Circuit_2006.jpg",
+      "author": "shiraga from Osaka, JAPAN",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Las primeras curvas y la noria del circuito de Suzuka, en 2006.",
+      "alt": "Las primeras curvas y la noria del circuito de Suzuka, en 2006."
+    }
+  ],
+  "zandvoort": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Circuit_Park_Zandvoort_from_air_2016-08-24.jpg/1280px-Circuit_Park_Zandvoort_from_air_2016-08-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Circuit_Park_Zandvoort_from_air_2016-08-24.jpg",
+      "author": "Otto Karikoski",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Zandvoort visto desde el aire en 2016, antes de los peraltes añadidos para el regreso de la F1.",
+      "alt": "Zandvoort visto desde el aire en 2016, antes de los peraltes añadidos para el regreso de la F1."
+    }
+  ],
+  "imola": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Autodromo_aerea_poster.jpg/1280px-Autodromo_aerea_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Autodromo_aerea_poster.jpg",
+      "author": "Marpol",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Vista aérea del autódromo de Imola.",
+      "alt": "Vista aérea del autódromo de Imola."
+    }
+  ],
+  "melbourne": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Albert_Park_circuit_main_straight%2C_pictured_from_above_teams%27_garages_in_2022.jpg/1280px-Albert_Park_circuit_main_straight%2C_pictured_from_above_teams%27_garages_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Albert_Park_circuit_main_straight,_pictured_from_above_teams%27_garages_in_2022.jpg",
+      "author": "AllAussieTraveller",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "La recta principal de Albert Park en 2022, después de la reforma del recorrido.",
+      "alt": "La recta principal de Albert Park en 2022, después de la reforma del recorrido."
+    }
+  ],
+  "mexico-city": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/003729-003_TOMAS_AE%E2%95%A0%C3%BCREAS_DE_LA_CIUDAD_NOVIEMBRE_1962_%2831757748046%29.jpg/1280px-003729-003_TOMAS_AE%E2%95%A0%C3%BCREAS_DE_LA_CIUDAD_NOVIEMBRE_1962_%2831757748046%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:003729-003_TOMAS_AE%E2%95%A0%C3%BCREAS_DE_LA_CIUDAD_NOVIEMBRE_1962_(31757748046).jpg",
+      "author": "Unknown",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Vista aérea de Magdalena Mixhuca y el autódromo en 1962.",
+      "alt": "Vista aérea de Magdalena Mixhuca y el autódromo en 1962."
+    }
+  ],
+  "bahrain": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Bahrain_International_Circuit_back_straight.jpg/1280px-Bahrain_International_Circuit_back_straight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Bahrain_International_Circuit_back_straight.jpg",
+      "author": "Derek Morrison from Kuwait, Kuwait",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "La recta posterior del circuito de Bahréin.",
+      "alt": "La recta posterior del circuito de Bahréin."
+    }
+  ],
+  "buenos-aires": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Autodromo_galvez_en_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Autodromo_galvez_en_2023.jpg",
+      "author": "Unknown authorUnknown author",
+      "license": "CC BY 2.5 ar",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/ar/deed.en",
+      "caption": "La entrada del Autódromo Oscar y Juan Gálvez, fotografiada en 2023.",
+      "alt": "La entrada del Autódromo Oscar y Juan Gálvez, fotografiada en 2023."
+    }
+  ],
+  "watkins-glen": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Start_Finish_line_at_Watkins_Glen_International.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Start_Finish_line_at_Watkins_Glen_International.jpg",
+      "author": "Mo2010",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "La recta de salida y llegada de Watkins Glen en una imagen posterior a la era de F1.",
+      "alt": "La recta de salida y llegada de Watkins Glen en una imagen posterior a la era de F1."
+    }
+  ],
+  "indianapolis": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Formula_one.jpg/1280px-Formula_one.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Formula_one.jpg",
+      "author": "Rick Dikeman",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Autos de F1 en el sector interior de Indianapolis durante el Gran Premio de 2003.",
+      "alt": "Autos de F1 en el sector interior de Indianapolis durante el Gran Premio de 2003."
+    }
+  ],
+  "sepang": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Sepang_International_Circuit.JPG/1280px-Sepang_International_Circuit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Sepang_International_Circuit.JPG",
+      "author": "mondayblues",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "El circuito permanente de Sepang.",
+      "alt": "El circuito permanente de Sepang."
+    }
+  ],
+  "magny-cours": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mark_Webber_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Mark_Webber_2006.jpg",
+      "author": "cobber_cpd",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Mark Webber durante el Gran Premio francés de 2006 en Magny-Cours.",
+      "alt": "Mark Webber durante el Gran Premio francés de 2006 en Magny-Cours."
+    }
+  ],
+  "paul-ricard": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Circuit_Paul_Ricard%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg/1280px-Circuit_Paul_Ricard%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Circuit_Paul_Ricard,_April_22,_2018_SkySat_(cropped).jpg",
+      "author": "Planet Labs, Inc.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Vista aérea de Paul Ricard en 2018, con sus múltiples conexiones de pista.",
+      "alt": "Vista aérea de Paul Ricard en 2018, con sus múltiples conexiones de pista."
+    }
+  ],
+  "shanghai": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Shanghai_Circuit_Main_Grandstand_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Shanghai_Circuit_Main_Grandstand_o.jpg",
+      "author": "https://www.flickr.com/photos/triplefivechina/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "La tribuna principal del circuito de Shanghái.",
+      "alt": "La tribuna principal del circuito de Shanghái."
+    }
+  ],
+  "yas-marina": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/North_Grandstand_at_the_Yas_Marina_circuit_in_Abu_Dhabi.jpg/1280px-North_Grandstand_at_the_Yas_Marina_circuit_in_Abu_Dhabi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:North_Grandstand_at_the_Yas_Marina_circuit_in_Abu_Dhabi.jpg",
+      "author": "TravelPhotosNL",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "La tribuna norte y el entorno del circuito de Yas Marina.",
+      "alt": "La tribuna norte y el entorno del circuito de Yas Marina."
+    }
+  ],
+  "marina-bay": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/1_singapore_f1_night_race_2012_city_skyline.jpg/1280px-1_singapore_f1_night_race_2012_city_skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:1_singapore_f1_night_race_2012_city_skyline.jpg",
+      "author": "chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Marina Bay iluminado durante el Gran Premio de Singapur de 2012.",
+      "alt": "Marina Bay iluminado durante el Gran Premio de Singapur de 2012."
+    }
+  ],
+  "brands-hatch": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Paddockhillbendtop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Paddockhillbendtop.jpg",
+      "author": "edvvc",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "El descenso de Paddock Hill Bend en Brands Hatch.",
+      "alt": "El descenso de Paddock Hill Bend en Brands Hatch."
+    }
+  ],
+  "austin": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Main_straight_and_turn_1_hill%2C_Circuit_of_the_Americas.jpg/1280px-Main_straight_and_turn_1_hill%2C_Circuit_of_the_Americas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Main_straight_and_turn_1_hill,_Circuit_of_the_Americas.jpg",
+      "author": "Lars Plougmann",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "La recta principal y la subida a la primera curva de COTA.",
+      "alt": "La recta principal y la subida a la primera curva de COTA."
+    }
+  ],
+  "estoril": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/SL_Estoril.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:SL_Estoril.jpg",
+      "author": "JVeiga",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Una carrera de Superleague Formula en Estoril, posterior a su etapa de F1.",
+      "alt": "Una carrera de Superleague Formula en Estoril, posterior a su etapa de F1."
+    }
+  ],
+  "adelaide": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Adelaide_Street_Circuit.jpg/1280px-Adelaide_Street_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Adelaide_Street_Circuit.jpg",
+      "author": "Avatar5991",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Vista aérea del circuito urbano de Adelaide. Las categorías posteriores utilizaron variantes más cortas que la F1.",
+      "alt": "Vista aérea del circuito urbano de Adelaide. Las categorías posteriores utilizaron variantes más cortas que la F1."
+    }
+  ],
+  "zolder": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Circuit_Zolder_6-11-2008_16-29-22.jpg/1280px-Circuit_Zolder_6-11-2008_16-29-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Circuit_Zolder_6-11-2008_16-29-22.jpg",
+      "author": "Paul Hermans",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "La pista de Zolder fotografiada en 2008, después de su etapa en el Mundial.",
+      "alt": "La pista de Zolder fotografiada en 2008, después de su etapa en el Mundial."
+    }
+  ],
+  "baku": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Baku_City_Circuit%2C_April_9%2C_2018_SkySat.jpg/1280px-Baku_City_Circuit%2C_April_9%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Baku_City_Circuit,_April_9,_2018_SkySat.jpg",
+      "author": "Planet Labs, Inc.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Vista aérea de Bakú en 2018, con las calles del circuito urbano.",
+      "alt": "Vista aérea de Bakú en 2018, con las calles del circuito urbano."
+    }
+  ],
+  "istanbul": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Istanbul_park_front_straight_and_main_grandstand.JPG/1280px-Istanbul_park_front_straight_and_main_grandstand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Istanbul_park_front_straight_and_main_grandstand.JPG",
+      "author": "Homonihilis",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "caption": "La recta y la tribuna principal de Istanbul Park.",
+      "alt": "La recta y la tribuna principal de Istanbul Park."
+    }
+  ],
+  "jarama": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Circuito_de_Madrid_Jarama_-_RACE%2C_o_%22Circuito_del_Jarama%22._Comunidad_de_Madrid._Espa%C3%B1a%2C_Spain.jpg/1280px-Circuito_de_Madrid_Jarama_-_RACE%2C_o_%22Circuito_del_Jarama%22._Comunidad_de_Madrid._Espa%C3%B1a%2C_Spain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Circuito_de_Madrid_Jarama_-_RACE,_o_%22Circuito_del_Jarama%22._Comunidad_de_Madrid._Espa%C3%B1a,_Spain.jpg",
+      "author": "CARLOS TEIXIDOR CADENAS",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "El Circuito del Jarama en una imagen posterior a su etapa de F1.",
+      "alt": "El Circuito del Jarama en una imagen posterior a su etapa de F1."
+    }
+  ],
+  "long-beach": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Gunnar_Nilsson_1976_Long_Beach.jpg/1280px-Gunnar_Nilsson_1976_Long_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Gunnar_Nilsson_1976_Long_Beach.jpg",
+      "author": "Christian Sinclair",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Gunnar Nilsson durante la carrera de F1 de Long Beach en 1976.",
+      "alt": "Gunnar Nilsson durante la carrera de F1 de Long Beach en 1976."
+    }
+  ],
+  "mosport": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/View_of_entry_into_Clayton_Corner_Turn_2_Canadian_Tire_Motorsport_Park_Mosport.jpg/1280px-View_of_entry_into_Clayton_Corner_Turn_2_Canadian_Tire_Motorsport_Park_Mosport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:View_of_entry_into_Clayton_Corner_Turn_2_Canadian_Tire_Motorsport_Park_Mosport.jpg",
+      "author": "TorontoGuy79",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "La entrada a Clayton Corner, segunda curva de Mosport.",
+      "alt": "La entrada a Clayton Corner, segunda curva de Mosport."
+    }
+  ],
+  "sochi": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/F1_Grand_Prix_Russia_2014_start_lane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:F1_Grand_Prix_Russia_2014_start_lane.jpg",
+      "author": "Premier.gov.ru press service",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "La recta de salida del Gran Premio ruso de 2014.",
+      "alt": "La recta de salida del Gran Premio ruso de 2014."
+    }
+  ],
+  "jerez": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Circuito_de_Jerez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Circuito_de_Jerez.jpg",
+      "author": "Andrés Cuesta from Fuengirola Málaga, España",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Pruebas de F1 en Jerez en febrero de 2010.",
+      "alt": "Pruebas de F1 en Jerez en febrero de 2010."
+    }
+  ],
+  "dijon": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Dijon-Parabolique2000.jpg/1280px-Dijon-Parabolique2000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Dijon-Parabolique2000.jpg",
+      "author": "User:NSX-Racer",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "caption": "La curva Parabolique de Dijon-Prenois en 2000.",
+      "alt": "La curva Parabolique de Dijon-Prenois en 2000."
+    }
+  ],
+  "aintree": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Vanwall_VW5_Aintree_1957.jpg/1280px-Vanwall_VW5_Aintree_1957.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Vanwall_VW5_Aintree_1957.jpg",
+      "author": "Terry Whalebone from Bolton, UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "El Vanwall de Tony Brooks y Stirling Moss antes del Gran Premio de 1957 en Aintree.",
+      "alt": "El Vanwall de Tony Brooks y Stirling Moss antes del Gran Premio de 1957 en Aintree."
+    }
+  ],
+  "bremgarten": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Tennikurvebremgarp.jpg/1280px-Tennikurvebremgarp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Tennikurvebremgarp.jpg",
+      "author": "Travus (talk)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "La antigua Tennikurve de Bremgarten fotografiada en 2014, mucho después de su última carrera del Mundial.",
+      "alt": "La antigua Tennikurve de Bremgarten fotografiada en 2014, mucho después de su última carrera del Mundial."
+    }
+  ],
+  "valencia": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Swing-bridge_Valencia_Street_Circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Swing-bridge_Valencia_Street_Circuit.jpg",
+      "author": "Bridge_Valencia_Street_Circuit.jpg: Nestor Correa Mayo\nderivative work: SilkTork (talk)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "El puente móvil del circuito urbano de Valencia.",
+      "alt": "El puente móvil del circuito urbano de Valencia."
+    }
+  ],
+  "clermont-ferrand": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/GP_FRANCE_1969_044_%285096742395%29.jpg/1280px-GP_FRANCE_1969_044_%285096742395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:GP_FRANCE_1969_044_(5096742395).jpg",
+      "author": "ZANTAFIO56",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Autos durante el Gran Premio francés de 1969 en Charade.",
+      "alt": "Autos durante el Gran Premio francés de 1969 en Charade."
+    }
+  ],
+  "fuji": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fuji_Speedway_30-degree_high_bank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Fuji_Speedway_30-degree_high_bank.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "El antiguo peralte de 30 grados conservado en Fuji, fuera del recorrido utilizado por la F1.",
+      "alt": "El antiguo peralte de 30 grados conservado en Fuji, fuera del recorrido utilizado por la F1."
+    }
+  ],
+  "yeongam": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/2012_Korean_GP_Lotus_Ferrari.jpg/1280px-2012_Korean_GP_Lotus_Ferrari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:2012_Korean_GP_Lotus_Ferrari.jpg",
+      "author": "LG전자",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Autos durante el Gran Premio coreano de 2012 en Yeongam.",
+      "alt": "Autos durante el Gran Premio coreano de 2012 en Yeongam."
+    }
+  ],
+  "lusail": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Grand_Stand.JPG/1280px-Grand_Stand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Grand_Stand.JPG",
+      "author": "Trinidade",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Las tribunas de Lusail durante una carrera de motos de 2013, anterior a la llegada de la F1.",
+      "alt": "Las tribunas de Lusail durante una carrera de motos de 2013, anterior a la llegada de la F1."
+    }
+  ],
+  "miami": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Miami_Grand_Prix_startfinish.jpg/1280px-Miami_Grand_Prix_startfinish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Miami_Grand_Prix_startfinish.jpg",
+      "author": "Bassfish22",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "La zona de salida y paddock del Miami International Autodrome.",
+      "alt": "La zona de salida y paddock del Miami International Autodrome."
+    }
+  ],
+  "buddh": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Buddh_International_Circuit_aerial.jpg/1280px-Buddh_International_Circuit_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Buddh_International_Circuit_aerial.jpg",
+      "author": "Swapnil1101",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Vista aérea del Buddh International Circuit.",
+      "alt": "Vista aérea del Buddh International Circuit."
+    }
+  ],
+  "caesars-palace": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Derek_Warwick_Las_Vegas_1982.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Derek_Warwick_Las_Vegas_1982.jpg",
+      "author": "No machine-readable author provided. Palle~commonswiki assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Derek Warwick durante el Gran Premio de Las Vegas de 1982 en Caesars Palace.",
+      "alt": "Derek Warwick durante el Gran Premio de Las Vegas de 1982 en Caesars Palace."
+    }
+  ],
+  "mont-tremblant": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Mont-Tremblant_Control_Tower.JPG/1280px-Mont-Tremblant_Control_Tower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Mont-Tremblant_Control_Tower.JPG",
+      "author": "John Chapman User:Pyrope",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "La torre de control y la recta de Mont-Tremblant; la imagen mira en sentido contrario al de carrera.",
+      "alt": "La torre de control y la recta de Mont-Tremblant; la imagen mira en sentido contrario al de carrera."
+    }
+  ],
+  "nivelles": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nivelles_circuit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Nivelles_circuit.jpg",
+      "author": "Tibo62081",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Vista aérea del antiguo circuito de Nivelles-Baulers.",
+      "alt": "Vista aérea del antiguo circuito de Nivelles-Baulers."
+    }
+  ],
+  "portimao": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853656876708%29.jpg/1280px-Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_%2853656876708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_do_Algarve_-_Portim%C3%A3o_-_Portugal_%F0%9F%87%B5%F0%9F%87%B9_(53656876708).jpg",
+      "author": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "El Autódromo Internacional do Algarve, en Portimão.",
+      "alt": "El Autódromo Internacional do Algarve, en Portimão."
+    }
+  ],
+  "avus": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Avus_Trib%C3%BCne_The_Cube_Messe_Juni_2022.jpg/1280px-Avus_Trib%C3%BCne_The_Cube_Messe_Juni_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Avus_Trib%C3%BCne_The_Cube_Messe_Juni_2022.jpg",
+      "author": "Kasa Fue",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "La tribuna histórica del AVUS, fotografiada en 2022 cuando la ruta ya no era un circuito activo.",
+      "alt": "La tribuna histórica del AVUS, fotografiada en 2022 cuando la ruta ya no era un circuito activo."
+    }
+  ],
+  "donington": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Donington_Park_hill_2014.JPG/1280px-Donington_Park_hill_2014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Donington_Park_hill_2014.JPG",
+      "author": "Officially_Mr_X (talk) (Uploads)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Una carrera histórica en las pendientes de Donington Park en 2014.",
+      "alt": "Una carrera histórica en las pendientes de Donington Park en 2014."
+    }
+  ],
+  "mugello": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Partenza_del_Gran_Premio_d%27Italia_TIM_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Partenza_del_Gran_Premio_d%27Italia_TIM_2011.jpg",
+      "author": "Press office",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Salida del Gran Premio italiano de motos de 2011 en el autódromo permanente de Mugello.",
+      "alt": "Salida del Gran Premio italiano de motos de 2011 en el autódromo permanente de Mugello."
+    }
+  ],
+  "riverside": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Riverside_Regional_Raceway_1989-08-15_NAPP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "page": "https://commons.wikimedia.org/wiki/File:Riverside_Regional_Raceway_1989-08-15_NAPP.jpg",
+      "author": "United States Geological Survey",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Vista aérea de Riverside en 1989, al final de la historia del recinto y después de sus reformas posteriores a la F1.",
+      "alt": "Vista aérea de Riverside en 1989, al final de la historia del recinto y después de sus reformas posteriores a la F1."
+    }
+  ],
+  "sebring": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/12HoursofSebring2008PressBox.jpg/1280px-12HoursofSebring2008PressBox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:12HoursofSebring2008PressBox.jpg",
+      "author": "Freewheeling Daredevil",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Las instalaciones de Sebring durante las 12 Horas de 2008, sobre una configuración posterior a la visita de la F1.",
+      "alt": "Las instalaciones de Sebring durante las 12 Horas de 2008, sobre una configuración posterior a la visita de la F1."
+    }
+  ],
+  "zeltweg": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Zeltweg_Airfield_Fliegerhorst_Hinterstoisser_04.jpg/1280px-Zeltweg_Airfield_Fliegerhorst_Hinterstoisser_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Zeltweg_Airfield_Fliegerhorst_Hinterstoisser_04.jpg",
+      "author": "Iswoar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "El aeródromo de Zeltweg, sede de la carrera de F1 de 1964.",
+      "alt": "El aeródromo de Zeltweg, sede de la carrera de F1 de 1964."
+    }
+  ],
+  "kyalami": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kyalami_air.jpg/1280px-Kyalami_air.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "page": "https://commons.wikimedia.org/wiki/File:Kyalami_air.jpg",
+      "author": "Ossewa",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Kyalami visto desde el aire en 2014, después de sus últimas carreras de F1 y antes de la renovación posterior.",
+      "alt": "Kyalami visto desde el aire en 2014, después de sus últimas carreras de F1 y antes de la renovación posterior."
+    }
+  ]
+}

@@ -4,6 +4,8 @@ const read=async file=>JSON.parse(await readFile(file,'utf8'));
 const index=await read('public/history/index.json');
 const data=await read('public/history/circuit-results.json');
 const stories=await read('data/circuit-stories.json');
+const articles=await read('data/circuit-articles.json');
+const photos=await read('data/circuit-photos.json');
 const circuits=index.entities.filter(e=>e.category==='circuits');
 const seen=new Set();
 for(const circuit of circuits){
@@ -11,6 +13,11 @@ for(const circuit of circuits){
  assert.ok(stories[circuit.id]?.origin&&stories[circuit.id]?.history&&stories[circuit.id]?.revision,circuit.id);
  assert.ok(stories[circuit.id].source.startsWith('https://en.wikipedia.org/wiki/'));
  assert.ok(data.venues[circuit.id].placeName);
+ const article=articles[circuit.id];assert.ok(article?.character&&article?.legacy,circuit.id);
+ const layouts=[...new Set(rows.map(r=>r.layoutId))];
+ assert.deepEqual(Object.keys(article.layouts).sort(),[...layouts].sort(),`${circuit.id}: editorial layout IDs`);
+ for(const id of layouts)assert.ok(article.layouts[id].title&&article.layouts[id].text,`${id}: layout history`);
+ for(const photo of photos[circuit.id]??[]){assert.ok(photo.author&&photo.caption&&photo.alt&&photo.license);assert.ok(/^https:\/\/(upload|thumb)\.wikimedia\.org\//.test(photo.url));assert.ok(photo.page.startsWith('https://commons.wikimedia.org/'));assert.ok(/^(CC BY|CC0|Public domain)/i.test(photo.license));if(photo.license.startsWith('CC BY'))assert.ok(photo.licenseUrl);}
  for(const row of rows){
   const key=`${row.year}-${row.round}`;assert.ok(!seen.has(key),key);seen.add(key);
   assert.equal(row.href,`/historia/carreras/${row.year}/${row.round}`);
@@ -34,4 +41,8 @@ assert.notEqual(data.topology['kyalami-1'].imageTitle,data.topology['kyalami-2']
 assert.equal(data.topology['kyalami-1'].year,1985);
 assert.equal(data.topology['kyalami-2'].year,1993);
 for(const id of ['kyalami-1','kyalami-2'])assert.ok(data.circuits.kyalami.filter(r=>r.layoutId===id).every(r=>r.weather));
+assert.equal(Object.keys(articles.monza.layouts).length,7);
+assert.match(articles.monza.layouts['monza-2'].text,/10 km/);
+assert.match(articles.monza.layouts['monza-6'].text,/Roggia/);
+assert.match(articles.monza.layouts['monza-7'].text,/2000/);
 console.log(`Verified ${circuits.length} circuit histories, ${seen.size} races, layout separation, sprint poles and grid penalties.`);

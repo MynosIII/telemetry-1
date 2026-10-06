@@ -1,0 +1,1254 @@
+{
+  "monza": {
+    "character": "El parque real condicionó una pista pensada para sostener la velocidad, con rectas largas y curvas que permiten conservar impulso. Curva Grande, las dos Lesmo y la curva final forman su vocabulario histórico. Las frenadas de las variantes se añadieron después: el Monza de los primeros Grandes Premios del Mundial tenía una continuidad que el recorrido actual ya no conserva.",
+    "legacy": "Su trayectoria también cuenta la evolución de la seguridad. Las tragedias de las primeras décadas, las dificultades mecánicas del peralte y el aumento de prestaciones impulsaron sucesivas reformas. El óvalo sobrevivió como patrimonio del recinto, aunque dejó de formar parte de las carreras de F1. Monza siguió recibiendo resistencia y otras categorías, con configuraciones que no siempre coinciden con las del Gran Premio.",
+    "layouts": {
+      "monza-1": {
+        "title": "El recorrido de carretera de posguerra",
+        "text": "La primera configuración de este archivo es la pista de carretera de 6,3 km, utilizada por el Mundial desde 1950. Procedía de la reconstrucción anterior a la guerra, con las curvas del sector sur conocidas como curvas de porfido. No incluía el óvalo ni las chicanas modernas. El recinto de 1922 había sido distinto: la primera versión del archivo no es la primera pista construida en Monza."
+      },
+      "monza-2": {
+        "title": "La vuelta combinada y el peralte",
+        "text": "La reconstrucción de 1955 creó una pista de carretera más corta, con la Parabolica, y un nuevo anillo de alta velocidad. Al unir ambos, la vuelta alcanzaba 10 km y se pasaba por dos carriles de la recta principal. El Mundial eligió esta combinación en 1955, 1956, 1960 y 1961; los esfuerzos del peralte y su superficie planteaban problemas distintos de los del recorrido de carretera."
+      },
+      "monza-3": {
+        "title": "La pista de carretera sin el anillo",
+        "text": "Esta versión usaba solamente los 5,75 km de carretera del recinto reconstruido. Conservaba la Parabolica y dejaba fuera las curvas peraltadas. Alternó con la pista combinada en los años cincuenta y quedó como recorrido de F1 desde 1962. Por eso no es una reforma lineal que simplemente sucediera a la versión anterior: durante un período coexistieron dos opciones."
+      },
+      "monza-4": {
+        "title": "Las primeras variantes",
+        "text": "En 1972 se introdujeron dos chicanas para interrumpir los tramos más rápidos: una en la zona de la recta principal y otra en Vialone, el sector de Ascari. La vuelta dejó de ser una sucesión casi continua de rectas y curvas rápidas. Estas primeras soluciones no tenían todavía la forma de las variantes actuales."
+      },
+      "monza-5": {
+        "title": "El rediseño de Ascari",
+        "text": "En 1974 se rehízo la variante de Vialone, conocida como Ascari. El cambio modificó la secuencia de izquierda, derecha e izquierda y su conexión con la recta hacia la Parabolica. Fue una revisión de la solución introducida en 1972, no la incorporación del óvalo ni la construcción de una pista nueva."
+      },
+      "monza-6": {
+        "title": "Roggia y el conjunto de tres variantes",
+        "text": "En 1976 se modificó la Variante del Rettifilo y se añadió la Variante della Roggia antes de Lesmo. Se consolidó así la sucesión de tres zonas de chicanas. Esta ficha agrupa 1976–1999: dentro de ese período también hubo cambios de seguridad y revisiones de Lesmo en los años noventa, que no aparecen como versiones independientes en la clasificación del archivo."
+      },
+      "monza-7": {
+        "title": "La primera chicana moderna",
+        "text": "En 2000 se sustituyó la secuencia inicial de chicanas por el Rettifilo de derecha e izquierda y se revisó Roggia. La primera frenada quedó configurada como un giro mucho más cerrado al final de la recta. El archivo agrupa aquí las carreras posteriores, aunque asfaltos, pianos y escapatorias siguieron evolucionando sin generar un nuevo identificador de trazado."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-monza.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-monza.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-monza.aspx"
+      }
+    ]
+  },
+  "monaco": {
+    "character": "La pista recorre lugares que el resto del año pertenecen a la ciudad: Sainte Dévote, el ascenso hacia el Casino, la horquilla del hotel y el puerto. Su singularidad no consiste solo en ser estrecha, sino en alternar desniveles, cambios de luz en el túnel y frenadas entre barreras. La concentración y la colocación del auto pesan en cada sector.",
+    "legacy": "El crecimiento del principado dejó huellas concretas en la vuelta. Terrenos ganados al mar, hoteles y ampliaciones del puerto permitieron cambiar el sector final y los boxes. Mónaco mantuvo una continuidad reconocible desde 1929, pero esa continuidad urbana no significa que todos sus Grandes Premios se hayan disputado sobre una geometría idéntica.",
+    "layouts": {
+      "monaco-1": {
+        "title": "El puerto antes de la piscina",
+        "text": "La versión de 1950 enlazaba Tabac con la horquilla del Gasómetro. No existían todavía el sector de la piscina ni la Rascasse del recorrido posterior. La salida y la llegada se situaban en Boulevard Albert I: es una vuelta ligada al puerto anterior a sus ampliaciones."
+      },
+      "monaco-2": {
+        "title": "La etapa del Gasómetro",
+        "text": "Desde 1955 se cambió la ubicación de salida y llegada, que volvió a Boulevard Albert I en 1963. La secuencia del puerto seguía cerrándose con el Gasómetro. Esta ficha reúne también ajustes de la chicana portuaria y los boxes hasta 1972, antes de la transformación completa del sector final."
+      },
+      "monaco-3": {
+        "title": "Piscina, Rascasse y el túnel ampliado",
+        "text": "En 1973 se sustituyó el retorno por el Gasómetro por el recorrido junto a la piscina, la horquilla de Rascasse y Antony Noghès. La construcción del hotel Loews prolongó el túnel. El nuevo espacio del puerto permitió instalar los boxes fuera de la antigua calle de carrera."
+      },
+      "monaco-4": {
+        "title": "Los accesos a Sainte Dévote y Antony Noghès",
+        "text": "En 1976 se revisaron Sainte Dévote y Antony Noghès mediante cambios de pianos y protecciones que alteraban el paso de los autos. La vuelta mantenía el sector de la piscina de 1973, pero sus conexiones con la recta ya no eran exactamente las mismas."
+      },
+      "monaco-5": {
+        "title": "La Nouvelle Chicane",
+        "text": "La ampliación del espacio a la salida del túnel permitió sustituir en 1986 la rápida chicana del puerto por una secuencia más lenta de giros cerrados. Nació la Nouvelle Chicane. Dentro de esta etapa también se revisó la primera parte de la piscina en 1997 para mejorar la visibilidad."
+      },
+      "monaco-6": {
+        "title": "El puerto ampliado y los boxes nuevos",
+        "text": "En 2003 se modificó la segunda parte de la piscina y se rectificó el enlace hacia Rascasse gracias a la ampliación del puerto. Los boxes se reorganizaron después. La ficha incluye reformas menores posteriores, como el ajuste de Tabac en 2015: sus años agrupados no implican que cada metro permaneciera inalterado."
+      }
+    }
+  },
+  "silverstone": {
+    "character": "Los caminos perimetrales del aeródromo dieron a Silverstone una planta abierta, con poco relieve y largas conexiones entre curvas. Copse, Maggotts y Becketts terminaron definiendo su identidad: una pista donde importa enlazar movimientos y conservar velocidad. Las sucesivas reformas añadieron sectores lentos sin eliminar ese núcleo de curvas rápidas.",
+    "legacy": "Después de alternar el Gran Premio británico con Aintree y Brands Hatch, Silverstone se convirtió en su sede estable desde 1987. Su actividad abarca también motos, resistencia y categorías de formación. El edificio Wing y el traslado de los boxes muestran que la modernización incluye instalaciones y operación, además de cambios en el dibujo de la vuelta.",
+    "layouts": {
+      "silverstone-1": {
+        "title": "La vuelta por el perímetro del aeródromo",
+        "text": "El Mundial de 1950 utilizó los caminos perimetrales, no el recorrido inicial de 1948 que cruzaba las pistas de aterrizaje. Era una vuelta rápida y abierta. La ficha agrupa también el traslado de salida y llegada hacia Woodcote–Copse en 1952 y pequeños ajustes anteriores a las chicanas."
+      },
+      "silverstone-2": {
+        "title": "La chicana de Woodcote",
+        "text": "En 1975 se introdujo una chicana en Woodcote para reducir la velocidad al llegar a la zona de boxes. El cambio rompía la continuidad de una de las curvas más rápidas, mientras gran parte del perímetro seguía conservando su forma anterior."
+      },
+      "silverstone-3": {
+        "title": "Luffield antes de Woodcote",
+        "text": "En 1987 se reorganizó el último sector y se incorporó Luffield antes de Woodcote. La nueva secuencia alteraba la aproximación a la recta y sustituía el modo de ralentizar ese tramo que se había usado desde 1975."
+      },
+      "silverstone-4": {
+        "title": "La reconstrucción de 1991",
+        "text": "La reforma de 1991 hizo la vuelta más técnica: reorganizó Maggotts–Becketts, incorporó Vale y desarrolló la secuencia de Bridge, Priory y Brooklands. No fue una única chicana añadida al perímetro antiguo, sino una transformación de varios sectores."
+      },
+      "silverstone-5": {
+        "title": "Las reformas de seguridad de 1994–1995",
+        "text": "Se revisaron Copse, Stowe, Abbey y Priory. Abbey pasó a ser una chicana y se trabajó en la aproximación y la escapatoria de Stowe. Esta etapa refleja las medidas de reducción de velocidad y seguridad adoptadas en aquellos años."
+      },
+      "silverstone-6": {
+        "title": "La revisión de Stowe",
+        "text": "En 1996 se volvió a modificar Stowe, al final de Hangar Straight. El resto de la vuelta continuaba la configuración posterior a las reformas de 1994–1995; el cambio se concentró en la curva que recibe uno de los tramos de mayor velocidad."
+      },
+      "silverstone-7": {
+        "title": "Copse, Priory y Luffield revisados",
+        "text": "La versión de 1997 incorporó nuevas revisiones en Copse, Priory y Luffield. Conservaba Bridge y el edificio de boxes de la recta antigua. Es la etapa inmediatamente anterior al sector Arena y explica por qué las poles anteriores a 2010 tienen una longitud de vuelta distinta."
+      },
+      "silverstone-8": {
+        "title": "Arena y la nueva zona de salida",
+        "text": "En 2010 el sector Arena sustituyó el recorrido por Bridge y Priory con Abbey, Farm, Village y The Loop, enlazando con Wellington Straight. En 2011 se trasladaron salida y boxes al Wing, entre Club y Abbey. El dibujo principal se estrenó un año antes que esa nueva organización de la carrera."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-silverstone.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-silverstone.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-silverstone.aspx"
+      }
+    ]
+  },
+  "spa-francorchamps": {
+    "character": "Spa combina el relieve de las Ardenas con enlaces de alta velocidad. Eau Rouge es el fondo del valle y Raidillon la subida que lo sigue: juntos son el sector más reconocible, pero no explican toda la vuelta. La Source, las curvas del bosque y Blanchimont muestran la convivencia entre frenadas cerradas y cambios de dirección rápidos.",
+    "legacy": "La sustitución de la larga carretera triangular por una pista más compacta fue el cambio decisivo. El recorrido antiguo resultaba difícil de proteger y asistir, especialmente con condiciones variables. La versión moderna conservó parte de su geografía y algunos nombres, mientras dejó fuera Masta y las grandes conexiones por carretera hacia Malmedy y Stavelot.",
+    "layouts": {
+      "spa-francorchamps-1": {
+        "title": "El gran triángulo de carreteras",
+        "text": "La primera Spa del Mundial unía Francorchamps, Malmedy y Stavelot en una vuelta de unos 14 km. Incluía Masta y largas carreteras entre poblaciones. Ya existía el Raidillon, incorporado antes del Mundial; no era una versión extendida de la pista moderna, sino otra escala de recorrido."
+      },
+      "spa-francorchamps-2": {
+        "title": "La pista compacta de 1979",
+        "text": "La reconstrucción de 1979 introdujo una conexión interior que eliminó Masta y gran parte de las carreteras del triángulo. La F1 volvió en 1983 a esta pista de unos 7 km. Se conservaron La Source, Eau Rouge–Raidillon y Blanchimont, y el sector final incorporó la chicana Bus Stop."
+      },
+      "spa-francorchamps-3": {
+        "title": "La primera revisión de Bus Stop",
+        "text": "Para el regreso de 2004 se modificó la chicana Bus Stop y su conexión con el final de la vuelta. El cambio se concentró en ese sector: no recuperó ninguna de las carreteras eliminadas en 1979."
+      },
+      "spa-francorchamps-4": {
+        "title": "La chicana final y los boxes de 2007",
+        "text": "La reforma de 2007 sustituyó Bus Stop por una chicana de derecha e izquierda y reorganizó la zona de boxes. Ese acceso final a La Source distingue esta ficha. Las reformas posteriores de escapatorias y tribunas no deben confundirse con un retorno al Spa de 14 km."
+      }
+    }
+  },
+  "montreal": {
+    "character": "La isla de Notre-Dame ofrece una sucesión de chicanas, frenadas y rectas entre barreras cercanas. La horquilla y la chicana final son puntos esenciales de la vuelta. El llamado Muro de los Campeones recibió ese apodo tras los accidentes de varios campeones en 1999; describe un episodio de su historia, no una categoría especial de curva.",
+    "legacy": "El circuito convirtió en espacio deportivo una isla relacionada con la Expo de 1967 y los Juegos Olímpicos de 1976. Recibió el nombre de Gilles Villeneuve después de su muerte en 1982. Su evolución tendió a abrir conexiones rápidas, mientras cambios en boxes y salidas respondían a la necesidad de operar una pista semipermanente dentro de un parque.",
+    "layouts": {
+      "montreal-1": {
+        "title": "La primera vuelta de Île Notre-Dame",
+        "text": "En 1978 la vuelta conservaba un sector del Casino más sinuoso y la zona de salida próxima a la horquilla. Su secuencia de curvas era más lenta que la del recorrido posterior dominado por rectas y chicanas."
+      },
+      "montreal-2": {
+        "title": "Las revisiones del Casino de 1979",
+        "text": "Para 1979 se modificó el sector del Casino y otra curva, acortando la vuelta registrada respecto al debut. Se mantuvo la antigua ubicación de salida y boxes. Es una revisión anterior a la reorganización de 1988, que trasladaría el centro de operación a otra recta."
+      },
+      "montreal-3": {
+        "title": "El traslado de boxes y salida",
+        "text": "Para 1988 los boxes y la línea de salida se trasladaron a la recta después de la rápida chicana, que pasó a cerrar la vuelta. La numeración y la organización de la carrera cambiaron, aunque se mantuvieron la horquilla y buena parte del recorrido por la isla. La ficha agrupa también la revisión de la chicana anterior a boxes de 1991. La ficha agrupa también la revisión de la chicana anterior a boxes de 1991. La ficha agrupa también la revisión de la chicana anterior a boxes de 1991."
+      },
+      "montreal-4": {
+        "title": "La chicana temporal del Casino",
+        "text": "En 1994 se añadió una chicana entre el Casino y la horquilla para reducir la velocidad. Esa secuencia caracteriza las ediciones de 1994 y 1995 y no forma parte de la recta posterior del trazado moderno."
+      },
+      "montreal-5": {
+        "title": "La recta que reemplazó el sector del Casino",
+        "text": "En 1996 se eliminaron la chicana añadida en 1994 y la curva del Casino, y se reorganizó el enlace desde la horquilla. La vuelta ganó una conexión más directa y rápida hacia su último sector."
+      },
+      "montreal-6": {
+        "title": "La revisión de 2002",
+        "text": "En 2002 se revisó la salida de boxes y se acortó el recorrido en la zona de la horquilla. La ficha conserva la identidad de rectas y chicanas creada en la etapa anterior. Los cambios posteriores de barreras y pianos no aparecen necesariamente como nuevos identificadores."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-montreal.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-montreal.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-montreal.aspx"
+      }
+    ]
+  },
+  "interlagos": {
+    "character": "Interlagos está encajado en el relieve de São Paulo. La vuelta moderna desciende desde la recta principal hacia el interior y vuelve a subir por una larga aceleración final. Ese desnivel distingue el circuito de una simple colección de curvas y hace que la última parte y la entrada a la recta formen una secuencia continua.",
+    "legacy": "El Mundial pasó del largo trazado de los años setenta a una versión compacta en 1990. La pista recibió el nombre de José Carlos Pace, vencedor del Gran Premio de 1975. Después siguió siendo escenario de carreras nacionales e internacionales y de definiciones de campeonatos, sin que el cambio de nombre del Gran Premio alterara por sí mismo la geometría.",
+    "layouts": {
+      "interlagos-1": {
+        "title": "La vuelta larga entre los lagos",
+        "text": "El Interlagos de los años setenta tenía casi 8 km y alternaba un amplio recorrido exterior con una sección interior técnica. La F1 compartía una pista de mayor escala que la actual, con largas curvas y conexiones que desaparecieron de la vuelta del Gran Premio."
+      },
+      "interlagos-2": {
+        "title": "El circuito compacto y las eses iniciales",
+        "text": "La reconstrucción para el regreso de 1990 redujo la vuelta a unos 4,3 km. Las eses iniciales conectaron la recta con el nuevo recorrido y se eliminaron amplias partes del circuito exterior. Se conservó el terreno ondulado y el ascenso final, pero cambiaron distancia, secuencia y ritmo de vuelta."
+      }
+    }
+  },
+  "nurburgring": {
+    "character": "El nombre reúne dos experiencias muy distintas. La Nordschleife sigue el bosque y las colinas con una vuelta extensa, curvas ciegas y cambios de altura. La GP-Strecke concentra la carrera junto a boxes y tribunas, con frenadas más cerradas y una infraestructura pensada para competiciones internacionales modernas.",
+    "legacy": "Las preocupaciones por la seguridad y el tamaño de la Nordschleife fueron centrales en la salida de la F1, cuya última carrera allí se disputó en 1976. La inauguración de la GP-Strecke en 1984 permitió recuperar Grandes Premios. La vieja pista no desapareció: continuó ligada a resistencia, pruebas y circulación turística, con usos y récords que pertenecen a otra configuración.",
+    "layouts": {
+      "nurburgring-1": {
+        "title": "La Nordschleife del Mundial",
+        "text": "La F1 corría por el largo bucle norte, no por la GP-Strecke que existe junto a él. La ficha reúne distintas etapas de esa ruta, incluidas la chicana Hohenrain de 1967 y las mejoras de seguridad posteriores. No representa un dibujo sin cambios desde 1951 hasta 1976."
+      },
+      "nurburgring-2": {
+        "title": "Una pista nueva junto a la Nordschleife",
+        "text": "En 1984 se estrenó la GP-Strecke sobre la antigua zona de salida y terrenos vecinos. La F1 pasó a una vuelta permanente mucho más corta, con boxes y escapatorias modernos. Fue la creación de otra pista dentro del recinto, no un simple recorte de la Nordschleife."
+      },
+      "nurburgring-3": {
+        "title": "La revisión de la chicana final",
+        "text": "La configuración del regreso de 1995 incorporaba una revisión de la chicana del último sector de la GP-Strecke. Conservaba la escala compacta inaugurada en 1984 y el primer sector anterior al Mercedes Arena."
+      },
+      "nurburgring-4": {
+        "title": "La incorporación del Mercedes Arena",
+        "text": "En 2002 se sustituyó la primera chicana por una horquilla y se añadió la sección lenta del Mercedes Arena sobre la antigua zona de karting. La vuelta se alargó y ganó un primer sector distinto antes de recuperar los tramos de la GP-Strecke anterior."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-nurburgring.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-nurburgring.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-nurburgring.aspx"
+      }
+    ]
+  },
+  "hungaroring": {
+    "character": "Su ubicación en una hondonada permite observar varias partes de la vuelta desde las laderas. Predominan las curvas enlazadas y las conexiones cortas, aunque la recta principal ofrece una frenada mucho más marcada. Esa combinación hizo del Hungaroring una pista de continuidad técnica, distinta de los circuitos dominados por rectas largas.",
+    "legacy": "La llegada de la F1 en 1986 fue también un acontecimiento político y deportivo para Europa oriental. El autódromo se construyó cerca de Budapest como alternativa a organizar la carrera en calles de la capital. Sus dos grandes revisiones de recorrido respondieron a problemas diferentes: un desvío original condicionado por agua y la búsqueda posterior de mejores zonas de adelantamiento.",
+    "layouts": {
+      "hungaroring-1": {
+        "title": "El desvío del primer proyecto",
+        "text": "El recorrido inaugurado en 1986 incluía una chicana después del sector de la actual tercera curva. Se había construido como desvío debido a la presencia de un manantial en la ruta prevista, dando a esa primera vuelta una secuencia adicional de cambios de dirección."
+      },
+      "hungaroring-2": {
+        "title": "La eliminación de la chicana",
+        "text": "En 1989 se canalizó el agua y se eliminó el desvío. La conexión pudo hacerse más directa y la vuelta quedó por debajo de 4 km. Fue la corrección de una limitación del proyecto original, manteniendo el resto de la pista compacta."
+      },
+      "hungaroring-3": {
+        "title": "La recta ampliada y las nuevas frenadas",
+        "text": "En 2003 se alargó la recta principal, se cerró la primera curva y se modificó el sector final. La vuelta ganó longitud y dos aproximaciones distintas. La intención era facilitar adelantamientos; eso no significa que todas las ediciones posteriores tuvieran más maniobras."
+      }
+    }
+  },
+  "spielberg": {
+    "character": "El paisaje de Estiria proporcionó al Österreichring largas curvas en pendiente y conexiones muy rápidas. La reconstrucción de los años noventa conservó el relieve, pero sustituyó esa continuidad por un recorrido más corto, con frenadas fuertes. Por eso Österreichring, A1-Ring y Red Bull Ring comparten lugar e historia, pero no todos sus sectores.",
+    "legacy": "El circuito permanente tomó el relevo de las carreras disputadas en el cercano aeródromo de Zeltweg, que es otro recinto. Después de la etapa del A1-Ring hubo un período sin Grandes Premios y una renovación de instalaciones antes del regreso de 2014. Los cambios de propietario y de nombre no equivalen automáticamente a un nuevo trazado.",
+    "layouts": {
+      "spielberg-1": {
+        "title": "El Österreichring rápido",
+        "text": "La primera versión enlazaba curvas rápidas sobre las laderas, con la primera curva Hella-Licht y un recorrido bastante más largo que el moderno. Es la configuración que recibió al Mundial en 1970, no el pequeño circuito del aeródromo de Zeltweg."
+      },
+      "spielberg-2": {
+        "title": "La chicana Hella-Licht",
+        "text": "Para 1977 se transformó el sector de Hella-Licht en una chicana, reduciendo la velocidad de entrada a la parte alta. La modificación mantuvo la mayoría de las largas curvas del Österreichring y no lo convirtió todavía en el A1-Ring."
+      },
+      "spielberg-3": {
+        "title": "La reconstrucción del A1-Ring",
+        "text": "El rediseño de Hermann Tilke para 1997 recortó la vuelta y sustituyó grandes partes del recorrido por enlaces más directos y curvas cerradas. El Red Bull Ring recuperó después esta base. La chicana utilizada por las motos en años recientes no forma parte de la vuelta de F1 de esta ficha."
+      }
+    }
+  },
+  "hockenheimring": {
+    "character": "El Hockenheim histórico imponía un contraste: largas rectas entre árboles y un estadio final mucho más cerrado. Preparar el auto significaba equilibrar esos dos ambientes. La versión de 2002 acercó la vuelta a las tribunas y concentró las frenadas alrededor de la Parabolika y la horquilla, manteniendo el Motodrom como vínculo con el pasado.",
+    "legacy": "La construcción de la autopista y las reformas de seguridad ya habían transformado el recinto antes de su debut en el Mundial. Las chicanas del bosque respondieron a la necesidad de reducir velocidad. Más tarde se decidió prescindir del gran bucle exterior: sus viejas rectas dejaron de ser pista activa y parte de su huella permanece en el paisaje.",
+    "layouts": {
+      "hockenheimring-1": {
+        "title": "El bosque y el Motodrom",
+        "text": "La primera versión del archivo combinaba las rectas del bosque con el estadio diseñado tras la construcción de la autopista. Ya incluía las chicanas añadidas después de la muerte de Jim Clark. No corresponde al Hockenheim original de los años treinta."
+      },
+      "hockenheimring-2": {
+        "title": "La chicana de Ostkurve",
+        "text": "En 1982 se añadió una chicana en Ostkurve y se ralentizó la primera del bosque. Se interrumpía así otro tramo de alta velocidad, sin abandonar el gran recorrido exterior."
+      },
+      "hockenheimring-3": {
+        "title": "Ostkurve más cerrada",
+        "text": "En 1992 se rehízo Ostkurve como una secuencia de derecha, izquierda y derecha, en lugar del paso más rápido anterior. El circuito mantenía las extensas rectas entre árboles y la llegada al estadio."
+      },
+      "hockenheimring-4": {
+        "title": "La pista compacta de 2002",
+        "text": "El rediseño eliminó el gran bucle del bosque y creó la conexión de Parabolika y la horquilla. Se conservó buena parte del Motodrom, pero la vuelta quedó mucho más corta. El cambio sustituyó el principal contraste del Hockenheim antiguo por otra secuencia de frenadas y aceleraciones."
+      }
+    }
+  },
+  "catalunya": {
+    "character": "Montmeló combina una recta larga con curvas de radio sostenido y varios sectores técnicos. Su uso intensivo como escenario de pruebas convirtió la pista en una referencia para equipos y pilotos. Esa familiaridad pertenece a cada versión: modificar La Caixa o la última secuencia cambia las condiciones de una comparación entre temporadas.",
+    "legacy": "El autódromo se desarrolló en el entorno de los Juegos Olímpicos de Barcelona de 1992 y se consolidó con automovilismo, motociclismo y resistencia. Las variantes de F1 y motos no siempre fueron iguales. Para seguir su historia conviene separar una reforma física, la elección de una variante disponible y una simple modificación del nombre comercial.",
+    "layouts": {
+      "catalunya-1": {
+        "title": "La vuelta de 1991",
+        "text": "La configuración inicial del Mundial incluía el sector de Nissan y dos curvas finales rápidas, además de la larga recta principal. Era un autódromo nuevo en Montmeló: no debe confundirse con el circuito urbano de Montjuïc dentro de Barcelona."
+      },
+      "catalunya-2": {
+        "title": "El sector de Nissan más directo",
+        "text": "Desde 1995 se dejó de utilizar la secuencia anterior de Nissan y se abrió una conexión más directa. Se conservaron la curva larga Renault, la recta principal y el final rápido que precedía a la futura chicana."
+      },
+      "catalunya-3": {
+        "title": "La Caixa convertida en horquilla",
+        "text": "En 2004 la F1 pasó a una versión más lenta de La Caixa, con una frenada más cerrada al final de la recta posterior. Las motos siguieron utilizando durante un tiempo otro recorrido en ese punto."
+      },
+      "catalunya-4": {
+        "title": "La chicana del último sector",
+        "text": "En 2007 se sustituyó la aproximación rápida a la última curva por una chicana lenta. Se buscaba reducir velocidad y facilitar la aproximación al auto de delante antes de la recta. El cambio alteró de manera importante la última parte de la vuelta."
+      },
+      "catalunya-5": {
+        "title": "La Caixa de radio más amplio",
+        "text": "En 2021 se reconstruyó La Caixa con un giro más abierto que la horquilla de F1 anterior, aunque distinto del recorrido original. La chicana final seguía utilizándose, por lo que esta etapa no equivale todavía al final rápido recuperado después."
+      },
+      "catalunya-6": {
+        "title": "El regreso de las curvas finales rápidas",
+        "text": "Desde 2023 la F1 dejó de usar la chicana de 2007 y recuperó la conexión rápida de las dos curvas finales. Se mantuvo La Caixa revisada en 2021: la pista resultante combina elementos de distintas épocas, no es un retorno completo al trazado de 1991."
+      }
+    }
+  },
+  "suzuka": {
+    "character": "La disposición en ocho permite que la pista se cruce mediante un puente. Las eses, Degner, Spoon y 130R ofrecen curvas con ritmos muy diferentes, pero una salida condiciona con frecuencia el movimiento siguiente. Esa continuidad explica su identidad técnica mejor que una lista de velocidades aisladas.",
+    "legacy": "Honda concibió Suzuka como instalación de pruebas, aunque su actividad se extendió a numerosas categorías y carreras de resistencia. El Mundial llegó cuando la pista ya había incorporado reformas importantes, incluida la chicana final. Las variantes para motos tuvieron ajustes propios y no deben trasladarse sin más a la historia del recorrido de F1.",
+    "layouts": {
+      "suzuka-1": {
+        "title": "La figura en ocho con chicana final",
+        "text": "La primera Suzuka del Mundial, en 1987, ya incluía la chicana añadida en 1983 antes de la recta de boxes. Las eses y el cruce por el puente conservaban la idea original de John Hugenholtz, pero esta versión no era el circuito sin chicana de 1962."
+      },
+      "suzuka-2": {
+        "title": "130R y la secuencia final revisadas",
+        "text": "Para la temporada de 2003 se revisó 130R y la conexión hacia la chicana, tras las preocupaciones de seguridad de la etapa anterior. La F1 mantuvo la figura en ocho. Los cambios adicionales de la variante de motociclismo no se incorporan a esta descripción como si fueran parte de su vuelta."
+      }
+    }
+  },
+  "zandvoort": {
+    "character": "Las dunas aportan desniveles, curvas ciegas y un entorno de arena que forma parte de su identidad. Tarzan es la primera gran frenada; los enlaces posteriores siguen el relieve en lugar de una cuadrícula urbana. La vuelta moderna añadió peraltes pronunciados sin convertir la pista en un óvalo ni borrar su naturaleza de carretera entre dunas.",
+    "legacy": "La ausencia de la F1 después de 1985 no supuso el final del recinto. Hubo una versión corta, reconstrucciones y actividad de otras categorías antes del regreso de 2021. El retorno utilizó una pista que ya había sido ampliada de nuevo y recibió reformas específicas: comparar únicamente 1985 y 2021 ocultaría esas etapas intermedias.",
+    "layouts": {
+      "zandvoort-1": {
+        "title": "La pista de las dunas",
+        "text": "La primera configuración del Mundial seguía el recorrido rápido de posguerra, con Tarzan y largas curvas adaptadas al terreno. No incluía las chicanas introducidas en las etapas posteriores ni los peraltes modernos del regreso de la F1."
+      },
+      "zandvoort-2": {
+        "title": "La chicana de Panorama",
+        "text": "La reforma de principios de los setenta incorporó la chicana de Panorama, reduciendo velocidad en una parte del circuito. La F1 volvió en 1973 a esta variante, que conservaba gran parte del trazado de las dunas."
+      },
+      "zandvoort-3": {
+        "title": "La solución provisional de 1979",
+        "text": "En 1979 se introdujo un cambio de dirección provisional en la zona de Hondenvlak. Fue una solución intermedia para reducir velocidad, anterior a la chicana permanente que distinguió la etapa siguiente."
+      },
+      "zandvoort-4": {
+        "title": "La chicana permanente",
+        "text": "La versión utilizada desde 1980 sustituyó la solución provisional por una chicana más definida en el sector de Hondenvlak. Es la última etapa del antiguo Zandvoort en el Mundial, antes de las reconstrucciones realizadas durante su larga ausencia."
+      },
+      "zandvoort-5": {
+        "title": "La reconstrucción y los peraltes del regreso",
+        "text": "La F1 regresó en 2021 a una pista reconstruida en años anteriores y revisada por Jarno Zaffelli para el nuevo Gran Premio. Hugenholtz y Arie Luyendijk recibieron peraltes destacados. No se trató solo de añadir inclinación al dibujo de 1985: también había cambiado la parte posterior del circuito."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-zandvoort.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-zandvoort.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-zandvoort.aspx"
+      }
+    ]
+  },
+  "imola": {
+    "character": "Imola sigue el terreno junto al río Santerno, con subidas, descensos y frenadas que conectan sectores de caracteres distintos. Tosa, Acque Minerali y Rivazza permiten reconocer esa relación con el relieve. Su forma histórica está limitada también por el río y el entorno urbano, que condicionan el espacio disponible para ampliar escapatorias.",
+    "legacy": "Antes de entrar en el Mundial, el circuito ya recibía motos y carreras de F1 no puntuables. Después alternó el Gran Premio de Italia de 1980 con la larga etapa del Gran Premio de San Marino. Las reformas posteriores a 1994 y la reconstrucción de boxes antes de su regreso en 2020 son capítulos centrales de una instalación con actividad más amplia que la F1.",
+    "layouts": {
+      "imola-1": {
+        "title": "La vuelta anterior a 1995",
+        "text": "La primera configuración del archivo incluye Tamburello y Villeneuve como curvas rápidas, con las chicanas de Acque Minerali, Variante Alta y Variante Bassa de aquella etapa. No es el Imola original de 1953, que tenía una continuidad distinta y carecía de esas chicanas."
+      },
+      "imola-2": {
+        "title": "Las reformas posteriores a 1994",
+        "text": "Para 1995 se ralentizaron Tamburello y Villeneuve con nuevas secuencias y se revisaron sus escapatorias. A la vez se eliminó la chicana de Acque Minerali y se simplificó Variante Bassa. La reforma respondió a las tragedias de 1994 y cambió varios puntos de la vuelta, no solamente Tamburello."
+      },
+      "imola-3": {
+        "title": "La recta sin Variante Bassa",
+        "text": "La reconstrucción de 2007 eliminó Variante Bassa para los autos y renovó la zona de boxes. La F1 encontró esa base cuando regresó en 2020. Se conservaron las secuencias de Tamburello y Villeneuve de la etapa posterior a 1994."
+      }
+    }
+  },
+  "melbourne": {
+    "character": "Albert Park mezcla carreteras cotidianas con un acondicionamiento anual de barreras, tribunas y pasos peatonales. El lago organiza la vuelta, pero sus curvas no forman un simple paseo circular. El carácter semipermanente explica que la infraestructura se monte y retire mientras el parque conserva otros usos durante el año.",
+    "legacy": "El lugar había recibido carreras australianas en los años cincuenta antes de convertirse en sede del Mundial en 1996. Aquellas pruebas se disputaban en sentido contrario y sobre otra configuración. El circuito moderno representa tanto una decisión deportiva de trasladar el Gran Premio desde Adelaide como una adaptación de un espacio público para un evento internacional.",
+    "layouts": {
+      "melbourne-1": {
+        "title": "La vuelta del regreso de 1996",
+        "text": "Las carreteras del parque se reconstruyeron para el primer Gran Premio del Mundial en Melbourne. La vuelta giraba en sentido horario e incluía la chicana de las antiguas curvas 9 y 10. No era la configuración antihoraria de las carreras australianas de los años cincuenta."
+      },
+      "melbourne-2": {
+        "title": "El sector rápido de 2022",
+        "text": "Se eliminaron las antiguas curvas 9 y 10, se ensancharon varias curvas y se modificó la aproximación a la antigua curva 13. La nueva conexión ganó continuidad y cambió la numeración. Las obras se hicieron durante la ausencia de carreras de 2020–2021 y se estrenaron en el Mundial de 2022."
+      }
+    }
+  },
+  "mexico-city": {
+    "character": "El circuito de Magdalena Mixhuca está marcado por la altitud de Ciudad de México y por la extensa recta principal. La Peraltada identificó las primeras etapas, mientras el paso por el estadio define el recorrido reciente. Son dos formas muy distintas de conectar la parte final con los boxes, dentro de un mismo recinto.",
+    "legacy": "Su nombre honra a Ricardo y Pedro Rodríguez y mantiene un vínculo con la historia del automovilismo mexicano. Hubo largos intervalos entre sus etapas en el Mundial, durante los cuales otras categorías utilizaron variantes propias. El regreso de 2015 requirió una reconstrucción que no debe confundirse con el simple mantenimiento de la pista de 1992.",
+    "layouts": {
+      "mexico-city-1": {
+        "title": "La vuelta de Mixhuca y la Peraltada",
+        "text": "La primera etapa del Mundial utilizaba el recorrido original del complejo de Magdalena Mixhuca, con el sector de eses y la larga curva peraltada final. La carrera no atravesaba el estadio que caracteriza la versión contemporánea."
+      },
+      "mexico-city-2": {
+        "title": "La pista del regreso de 1986",
+        "text": "El regreso de 1986 vino acompañado de nuevos boxes y mejoras de seguridad, además de ajustes de recorrido. Se conservó la Peraltada completa como salida hacia la recta: el estadio todavía no formaba parte de la vuelta de F1."
+      },
+      "mexico-city-3": {
+        "title": "La reconstrucción y el paso por el estadio",
+        "text": "Para 2015 se rediseñaron sectores de la vuelta y se desvió la aproximación final por el estadio Foro Sol. La F1 dejó de utilizar la Peraltada completa. El nuevo sector lento reemplazó una curva que antes se afrontaba a mucha mayor velocidad."
+      }
+    }
+  },
+  "bahrain": {
+    "character": "Sakhir es un recinto con varias conexiones que permiten formar pistas de distinto tamaño. El recorrido habitual combina rectas largas y frenadas cerradas, dentro de un paisaje desértico. La iluminación permitió disputar Grandes Premios nocturnos, pero el horario de la carrera no constituye por sí mismo una nueva configuración.",
+    "legacy": "El estreno de 2004 abrió una etapa de la F1 en Oriente Medio. En 2010 se eligió una variante más larga para una sola edición, y en 2020 el recinto recibió dos Grandes Premios con recorridos diferentes. Esa flexibilidad hace de Bahréin un buen ejemplo de versiones que coexistían físicamente, en vez de sustituirse mediante demoliciones sucesivas.",
+    "layouts": {
+      "bahrain-1": {
+        "title": "El circuito habitual de Gran Premio",
+        "text": "La vuelta principal estrenada en 2004 enlaza las grandes frenadas iniciales, el sector interior y el regreso por las rectas posteriores. Sigue siendo una de las opciones del recinto, utilizada antes y después de las variantes especiales."
+      },
+      "bahrain-2": {
+        "title": "La variante Endurance",
+        "text": "En 2010 se añadió a la vuelta principal una sección interior más larga y sinuosa, creando el recorrido Endurance. No se destruyó la pista habitual: se eligió otra conexión disponible. La F1 volvió después a la configuración principal."
+      },
+      "bahrain-3": {
+        "title": "La vuelta exterior de Sakhir",
+        "text": "Para el Gran Premio de Sakhir de 2020 se utilizó el Outer Circuit, que evita buena parte de la sección interior y enlaza los sectores exteriores. Es una vuelta muy corta y distinta de la variante Endurance de 2010, aunque ambas parten del mismo recinto."
+      }
+    }
+  },
+  "buenos-aires": {
+    "character": "El Gálvez fue concebido como un conjunto de recorridos combinables, no como una única vuelta inmutable. Las configuraciones del Mundial alternaron la parte interior con un gran circuito que incorporaba el sector del lago. Por eso la historia argentina del Gran Premio incluye diferencias de velocidad y escala mucho mayores que un cambio de nombre.",
+    "legacy": "El autódromo mantuvo una actividad nacional importante más allá de las visitas de la F1. Sus nombres reflejan también cambios políticos y homenajes a figuras del automovilismo argentino. La numeración local de los circuitos —2, 9, 15 y la variante del 6— no es la misma que los identificadores consecutivos utilizados por este archivo.",
+    "layouts": {
+      "buenos-aires-1": {
+        "title": "El recorrido de la primera etapa del Mundial",
+        "text": "La primera etapa de los años cincuenta corresponde al recorrido identificado habitualmente como circuito número 2. Enlazaba la recta de boxes con la parte interior del autódromo. El Mundial se estrenó allí en 1953, después de la apertura del recinto en 1952."
+      },
+      "buenos-aires-2": {
+        "title": "El circuito número 9",
+        "text": "El regreso de 1972 utilizó la configuración número 9, otra combinación de los sectores interiores. Sustituía la vuelta de los años cincuenta, pero todavía no incorporaba la gran extensión por el lago que se utilizó en la etapa siguiente."
+      },
+      "buenos-aires-3": {
+        "title": "El circuito largo número 15",
+        "text": "Desde 1974 se eligió el circuito número 15: incorporaba largas rectas y el extenso sector rápido alrededor del lago. La vuelta se acercaba a los 6 km y alteraba de manera radical el tiempo sostenido a alta velocidad respecto a la versión interior."
+      },
+      "buenos-aires-4": {
+        "title": "La variante con la ese de Senna",
+        "text": "Para el regreso de 1995 se utilizó una variante del circuito número 6, con la ese de Senna en lugar del paso por el Tobogán. La F1 dejó fuera la larga extensión del lago y volvió a una secuencia más compacta de frenadas y curvas."
+      }
+    }
+  },
+  "jeddah": {
+    "character": "La Corniche sitúa la pista junto al mar Rojo y combina una larga sucesión de curvas con una vuelta urbana de gran velocidad. El proyecto de Carsten Tilke adaptó la ruta al espacio disponible en el frente costero. Las barreras próximas hacen que la visibilidad y la continuidad entre curvas sean cuestiones centrales de su diseño.",
+    "legacy": "El circuito se estrenó en el Mundial en diciembre de 2021 y recibió después ajustes de pianos, barreras y aproximaciones. Esas intervenciones pueden ser relevantes para la seguridad sin generar otra configuración en el archivo. La iluminación nocturna y su uso temporal pertenecen a la forma de organizar el evento, además de a su paisaje.",
+    "layouts": {
+      "jeddah-1": {
+        "title": "La vuelta de la Corniche",
+        "text": "La primera configuración del Mundial enlaza las curvas del frente marítimo, el sector más sinuoso inicial y la gran conexión final. El archivo conserva una base de recorrido. Las revisiones posteriores de barreras y pianos no se presentan como si fueran una pista completamente nueva."
+      }
+    }
+  },
+  "rouen": {
+    "character": "Rouen-les-Essarts aprovechaba carreteras de un bosque al sur de la ciudad. El descenso hacia la horquilla de Nouveau Monde y el posterior ascenso creaban una vuelta muy ligada al relieve. Era un circuito de carretera, con superficie y protecciones muy distintas de las de una instalación moderna.",
+    "legacy": "La F1 visitó Rouen cinco veces, y la última carrera de 1968 quedó marcada por la muerte de Jo Schlesser. El lugar siguió recibiendo otras competiciones y reformas hasta su cierre en los años noventa. La autopista y las modificaciones posteriores transformaron partes del recorrido: no todas pertenecen a la etapa del Mundial.",
+    "layouts": {
+      "rouen-1": {
+        "title": "El recorrido corto de 1952",
+        "text": "La primera visita del Mundial utilizó la vuelta de unos 5,1 km, con el descenso hacia Nouveau Monde y el regreso por las carreteras del bosque. No incorporaba todavía la extensión que caracterizó las siguientes carreras de F1."
+      },
+      "rouen-2": {
+        "title": "La extensión de 1955",
+        "text": "Las obras de 1955 prolongaron el recorrido hasta unos 6,5 km y cambiaron conexiones de la parte posterior. Las siguientes visitas del Mundial utilizaron esa escala más larga. Los recortes por la construcción de la autopista llegaron después y no forman otra versión de F1 en este archivo."
+      }
+    }
+  },
+  "valencia": {
+    "character": "El circuito enlazaba el puerto de la America's Cup con calles y conexiones acondicionadas para la carrera. El puente móvil era uno de sus elementos singulares. Su denominación urbana no implica que toda la vuelta siguiera calles antiguas: parte del proyecto se construyó específicamente para enlazar los espacios portuarios.",
+    "legacy": "El Gran Premio de Europa se disputó allí entre 2008 y 2012. El proyecto no continuó después del acuerdo fallido para alternar sedes españolas. Algunos sectores volvieron a otros usos y otros quedaron abandonados; la huella visible en una fotografía reciente no equivale a una pista operativa.",
+    "layouts": {
+      "valencia-1": {
+        "title": "La vuelta del puerto",
+        "text": "La configuración del Mundial enlazaba el área portuaria, el puente móvil y conexiones de curvas cerradas antes del regreso a boxes. Las cinco ediciones se agrupan en el mismo recorrido. No debe confundirse con el Circuit Ricardo Tormo, el autódromo permanente situado fuera de Valencia."
+      }
+    }
+  },
+  "clermont-ferrand": {
+    "character": "Charade seguía carreteras alrededor de un paisaje volcánico próximo a Clermont-Ferrand. El recorrido largo tenía pocas rectas y una sucesión persistente de curvas y cambios de altura. La presencia de piedras en los márgenes era una dificultad concreta de aquel entorno, además del espacio limitado para proteger algunos sectores.",
+    "legacy": "Louis Rosier y Jean Auchatraire participaron en el proyecto que recuperó una antigua aspiración local de organizar carreras. La F1 utilizó la vuelta larga, pero las necesidades de seguridad llevaron después a una pista compacta. El Charade que sigue funcionando no reproduce íntegramente la carretera de los cuatro Grandes Premios.",
+    "layouts": {
+      "clermont-ferrand-1": {
+        "title": "La vuelta larga alrededor del volcán",
+        "text": "La configuración del Mundial seguía unos 8 km de carreteras onduladas, con curvas continuas y pocas zonas de descanso. El archivo no incluye la pista corta construida después. Compartir el nombre Charade no hace comparables los tiempos de ambas rutas."
+      }
+    }
+  },
+  "fuji": {
+    "character": "Fuji nació de un proyecto de superspeedway inspirado en Estados Unidos que terminó convertido en circuito de carretera. El terreno hizo inviable completar aquella idea como se había previsto. Una parte del antiguo peralte sobrevivió fuera de la vuelta principal, mientras la larga recta se convirtió en una referencia del autódromo japonés.",
+    "legacy": "La F1 llegó en 1976 y volvió tres décadas después, tras la compra por Toyota y una reconstrucción importante. Entre esas etapas el circuito recibió resistencia y automovilismo japonés. El regreso no fue una visita a la pista conservada de los años setenta: gran parte del sector final había cambiado.",
+    "layouts": {
+      "fuji-1": {
+        "title": "La pista de carretera de los años setenta",
+        "text": "La primera configuración del Mundial utilizaba la larga recta y el recorrido de carretera, evitando el antiguo peralte de 30 grados que había formado parte del proyecto inicial. La pista conservaba sectores más rápidos que los del rediseño posterior."
+      },
+      "fuji-2": {
+        "title": "La reconstrucción previa al regreso de 2007",
+        "text": "El rediseño de Hermann Tilke renovó la vuelta y las instalaciones, mantuvo la larga recta y creó un sector final más lento y técnico. La F1 regresó en 2007 a esa base reconstruida, no a una variante que simplemente añadiera una chicana al recorrido de 1976."
+      }
+    }
+  },
+  "yeongam": {
+    "character": "El proyecto coreano combinó una primera parte de rectas y frenadas con un sector final mucho más enlazado. Se concibió dentro de un desarrollo más amplio en Yeongam, alejado de Seúl. Esa mezcla buscaba dar al autódromo una identidad deportiva y a la vez relacionarlo con futuras infraestructuras de la zona.",
+    "legacy": "La construcción llegó muy cerca del debut de 2010, y el Mundial se disputó allí durante cuatro temporadas. La desaparición del calendario estuvo ligada a problemas económicos y de organización. La pista no se transforma en otra versión de F1 por seguir recibiendo usos nacionales después de su última carrera.",
+    "layouts": {
+      "yeongam-1": {
+        "title": "El recorrido del Gran Premio coreano",
+        "text": "La primera vuelta del Mundial ya combinaba largas rectas iniciales con un tramo interior de curvas enlazadas. Las cuatro ediciones del archivo utilizan esta configuración. El proyecto de desarrollo urbano que rodeaba al circuito no se trata como una obra completada de la propia pista."
+      }
+    }
+  },
+  "lusail": {
+    "character": "Lusail se desarrolló primero para el motociclismo, con curvas enlazadas y una larga recta principal. La iluminación hizo de las carreras nocturnas una parte importante de su identidad. La llegada de F1 añadió una nueva categoría a un recinto ya existente, en lugar de inaugurar desde cero el circuito.",
+    "legacy": "La primera visita del Mundial tuvo lugar en 2021 dentro de un calendario modificado. Antes del regreso de 2023 se renovaron boxes, paddock y otras instalaciones. Esas obras cambiaron la operación del recinto, pero el archivo mantiene la base de la vuelta de Gran Premio en una misma configuración.",
+    "layouts": {
+      "lusail-1": {
+        "title": "La pista enlazada de Gran Premio",
+        "text": "El recorrido de F1 utiliza la vuelta completa con una sucesión de curvas medias y rápidas antes del regreso a la recta principal. No se añade una segunda versión por las obras de instalaciones previas a 2023, que no equivalen a rehacer toda la geometría."
+      }
+    }
+  },
+  "miami": {
+    "character": "Miami International Autodrome se organizó alrededor del Hard Rock Stadium, combinando terrenos del complejo y conexiones preparadas para la carrera. El contraste entre secciones rápidas y una zona lenta y estrecha cerca de las infraestructuras viarias define buena parte de la vuelta. No recorre el centro de Miami ni su playa.",
+    "legacy": "El proyecto permitió incorporar una nueva sede estadounidense desde 2022 sin cerrar una gran ruta urbana del centro. El evento monta barreras, tribunas e instalaciones temporales dentro de un complejo que conserva otros usos. La repavimentación posterior fue relevante para el piso, pero no dio lugar por sí sola a una nueva vuelta en el archivo.",
+    "layouts": {
+      "miami-1": {
+        "title": "La vuelta alrededor del estadio",
+        "text": "La primera configuración del Mundial enlaza rectas largas y un sector lento acondicionado entre infraestructuras del complejo. El recorrido se sitúa en Miami Gardens alrededor del estadio. El archivo mantiene una sola configuración, aunque la superficie haya sido renovada."
+      }
+    }
+  },
+  "montjuic": {
+    "character": "Montjuïc aprovechaba calles del parque sobre la montaña de Barcelona. Sus desniveles y curvas rápidas ofrecían una imagen muy distinta de un autódromo construido en terreno abierto. El circuito formaba parte de una tradición deportiva urbana anterior a las visitas de la F1.",
+    "legacy": "El Gran Premio español alternó Montjuïc con Jarama. La carrera de 1975, con graves problemas de protecciones y un accidente mortal para espectadores, terminó esa etapa del Mundial. La pista no se trasladó físicamente a Montmeló: el autódromo inaugurado allí en 1991 es otro recinto con su propia historia.",
+    "layouts": {
+      "montjuic-1": {
+        "title": "La vuelta por la montaña de Barcelona",
+        "text": "La configuración del Mundial seguía las calles y los desniveles del parque de Montjuïc, con curvas rápidas y barreras próximas. Las cuatro carreras puntuables se agrupan aquí. El dibujo no corresponde al Circuit de Barcelona-Catalunya de Montmeló."
+      }
+    }
+  },
+  "buddh": {
+    "character": "El autódromo de Greater Noida fue concebido como parte de un amplio desarrollo deportivo próximo a Delhi. La recta larga, las diferencias de altura y una gran curva de varios vértices buscaban crear contrastes dentro de la vuelta. Algunas entradas se ensancharon para ofrecer opciones de trayectoria en las frenadas.",
+    "legacy": "Buddh recibió tres Grandes Premios de F1 entre 2011 y 2013. El fin de esa etapa estuvo relacionado con cuestiones económicas y administrativas, no con la sustitución de su vuelta por otro trazado del Mundial. El recinto continuó recibiendo otras actividades y posteriormente motociclismo internacional.",
+    "layouts": {
+      "buddh-1": {
+        "title": "La vuelta del Gran Premio de India",
+        "text": "La configuración de F1 combina la larga aceleración del primer sector con cambios de altura y una curva amplia de varios vértices. Las tres ediciones del archivo utilizan esa misma base. Sus usos posteriores no se añaden como una revisión de F1 inexistente."
+      }
+    }
+  },
+  "las-vegas": {
+    "character": "La pista reciente de Las Vegas utiliza calles próximas al Strip y una recta sobre la propia avenida, con una zona de instalaciones preparada para el Gran Premio. La carrera nocturna integra el paisaje de hoteles y ocio en el recorrido. Es un proyecto urbano distinto del circuito del aparcamiento de Caesars Palace de los años ochenta.",
+    "legacy": "El regreso del Mundial a la ciudad en 2023 recuperó un nombre geográfico, no una pista antigua. El evento requiere coordinar cierres de calles y accesos en una zona de intensa actividad. La continuidad de la avenida y las frenadas de sus extremos definen la vuelta más que la simple presencia de edificios emblemáticos.",
+    "layouts": {
+      "las-vegas-1": {
+        "title": "La vuelta nocturna por el Strip",
+        "text": "El recorrido moderno enlaza el complejo de boxes, las calles alrededor de la Sphere y la larga conexión del Strip antes de regresar al sector final. Esta ficha comienza en 2023. No incorpora ninguna curva del trazado de Caesars Palace de 1981–1982."
+      }
+    }
+  },
+  "phoenix": {
+    "character": "Phoenix intentó utilizar una carrera urbana para proyectar su centro en transformación. El trazado inicial seguía una cuadrícula de calles con muchas esquinas de ángulo recto. El calor y la resistencia del asfalto se sumaban a la dificultad de encontrar espacios cómodos para público e instalaciones.",
+    "legacy": "La F1 visitó la ciudad durante tres temporadas, con una reforma para la última. El evento no continuó en 1992 y Estados Unidos quedó sin una carrera del Mundial hasta el regreso en Indianapolis. El fracaso de la sede no significa que el centro urbano dejara de existir: las calles recuperaron su función habitual.",
+    "layouts": {
+      "phoenix-1": {
+        "title": "La cuadrícula de 1989–1990",
+        "text": "La primera configuración utilizaba numerosas esquinas de las calles del centro, con conexiones cortas entre frenadas. Era una ruta temporal junto al complejo cívico de la ciudad, no el óvalo permanente que también utiliza el nombre Phoenix."
+      },
+      "phoenix-2": {
+        "title": "La vuelta revisada de 1991",
+        "text": "Para 1991 se reorganizaron conexiones de las calles y se redujo la longitud del recorrido. Se conservó su naturaleza urbana, pero cambió la secuencia de la vuelta. El archivo no atribuye a una esquina concreta una obra cuya descripción detallada no está suficientemente documentada en las fuentes consultadas."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-phoenix.aspx"
+      }
+    ]
+  },
+  "east-london": {
+    "character": "Prince George Circuit utilizaba un recorrido próximo al litoral de East London. Su historia precede a la llegada del Gran Premio sudafricano al Mundial y reúne distintas versiones de carreras locales e internacionales. La pista del campeonato corresponde a la configuración de posguerra, no a toda su extensión original.",
+    "legacy": "Las carreras puntuables de 1962, 1963 y 1965 pertenecen a esta sede costera. El traslado posterior a Kyalami fue un cambio de recinto, no una remodelación de East London. La continuidad de las competiciones nacionales mantiene una historia deportiva más amplia que sus tres visitas al Mundial.",
+    "layouts": {
+      "east-london-1": {
+        "title": "La vuelta costera de Prince George",
+        "text": "La primera configuración del archivo corresponde a la vuelta de unos 3,9 km utilizada por el Mundial. Su entorno costero y su combinación de rectas y curvas pertenecen a East London. No debe confundirse con los trazados de Kyalami que recibieron después el Gran Premio sudafricano."
+      }
+    }
+  },
+  "aida": {
+    "character": "TI Circuit Aida nació como un proyecto privado de Hajime Tanaka en un entorno montañoso y apartado. Su recorrido compacto combina curvas lentas con sectores enlazados. La ubicación y los accesos fueron parte de la experiencia del evento, además de las características de la propia vuelta.",
+    "legacy": "El Mundial visitó Aida para dos Grandes Premios del Pacífico en 1994 y 1995, junto a la presencia japonesa de Suzuka. Más tarde el circuito cambió de nombre a Okayama y siguió con otras categorías. Esa nueva denominación identifica la continuidad del recinto, no una segunda pista de F1.",
+    "layouts": {
+      "aida-1": {
+        "title": "La vuelta compacta del Gran Premio del Pacífico",
+        "text": "La configuración del Mundial utilizaba el circuito privado de Aida, con curvas cerradas y conexiones entre laderas. Las dos ediciones puntuables se agrupan en la misma vuelta. El nombre posterior Okayama no genera un trazado nuevo dentro de este archivo."
+      }
+    }
+  },
+  "porto": {
+    "character": "Boavista enlazaba el frente marítimo de Porto con avenidas y calles de barrios cercanos. La carrera aprovechaba una ruta cotidiana de la ciudad, con las limitaciones propias de superficies y edificios existentes. Su extensión y sus rectas la diferenciaban de los circuitos urbanos compactos posteriores.",
+    "legacy": "El Mundial compitió allí en 1958 y 1960. La defensa que Stirling Moss hizo de Mike Hawthorn ante los comisarios en 1958 forma parte de su memoria deportiva. Las carreras de turismos celebradas décadas después utilizaron otro recorrido urbano: el nombre Boavista no basta para hacer comparables ambas etapas.",
+    "layouts": {
+      "porto-1": {
+        "title": "El recorrido histórico de Boavista",
+        "text": "La primera vuelta del Mundial partía del entorno del frente marítimo y enlazaba Avenida da Boavista con calles que regresaban a la zona de salida. El archivo representa la pista de los años cincuenta, no la versión urbana más corta de las carreras de turismos modernas."
+      }
+    }
+  },
+  "caesars-palace": {
+    "character": "El primer proyecto de F1 en Las Vegas se instaló en el aparcamiento del hotel Caesars Palace. La vuelta era plana y repetía curvas dentro de un espacio limitado, sin el paisaje urbano del Strip como recorrido. Su sentido antihorario y el calor hicieron especialmente exigente una instalación temporal poco apreciada por muchos pilotos.",
+    "legacy": "Las dos carreras de F1 de 1981 y 1982 cerraron temporadas y participaron en la definición de títulos. CART utilizó después otra configuración dentro del mismo espacio. Ni esa variante ni el circuito del Strip inaugurado en 2023 son revisiones de la vuelta de F1 que aparece en esta ficha.",
+    "layouts": {
+      "caesars-palace-1": {
+        "title": "La pista del aparcamiento",
+        "text": "La primera configuración del archivo es el recorrido antihorario de curvas repetidas construido en el aparcamiento. Se utilizó para las dos carreras de F1. El circuito reducido de CART y la ruta moderna del Strip tienen geometrías y contextos diferentes."
+      }
+    }
+  },
+  "mont-tremblant": {
+    "character": "El circuito de Saint-Jovite se desarrolló cerca de una zona turística de montaña, con la intención de mantener actividad fuera de la temporada de esquí. La pista sigue el relieve y ofrece curvas y crestas que condicionan la visibilidad. Es un autódromo permanente, distinto de las calles o del parque de Montreal.",
+    "legacy": "Mont-Tremblant recibió dos Grandes Premios canadienses, alternando con Mosport en los primeros años del evento. El recinto continuó después con resistencia, actividades históricas y otros usos. La vuelta se había ampliado antes del debut de F1: el primer trazado construido y la primera configuración del Mundial no son sinónimos.",
+    "layouts": {
+      "mont-tremblant-1": {
+        "title": "La vuelta larga de Saint-Jovite",
+        "text": "La F1 utilizó la configuración larga surgida de la ampliación de la pista original de 1964. El recorrido aprovechaba las colinas y sus cambios de altura. El circuito corto inicial no aparece como otra versión del Mundial porque nunca recibió una de sus carreras puntuables."
+      }
+    }
+  },
+  "nivelles": {
+    "character": "Nivelles-Baulers se proyectó como una alternativa moderna a Spa, con grandes escapatorias y una pista relativamente llana. Su diseño priorizaba un espacio operativo distinto del de las largas carreteras de las Ardenas. Esa búsqueda de seguridad no evitó problemas económicos ni el deterioro posterior de la superficie.",
+    "legacy": "Las dos carreras del Mundial, en 1972 y 1974, fueron ganadas por Emerson Fittipaldi. El proyecto perdió continuidad y la instalación cerró después de una etapa de abandono. El terreno terminó dedicado a otros usos, de modo que un mapa de ubicación actual no representa un circuito que todavía pueda recorrerse en carrera.",
+    "layouts": {
+      "nivelles-1": {
+        "title": "La alternativa permanente a Spa",
+        "text": "El Mundial utilizó el recorrido compacto de Nivelles, con espacios de escapatoria amplios y curvas conectadas sobre terreno llano. Las dos ediciones se agrupan en una configuración. El cierre del recinto no produjo otra versión de F1."
+      }
+    }
+  },
+  "pedralbes": {
+    "character": "Pedralbes aprovechaba avenidas anchas del oeste de Barcelona y curvas de gran radio. Era una ruta urbana de velocidad, distinta del relieve de Montjuïc y del autódromo posterior de Montmeló. Su actividad surgió de la tradición de carreras de la Penya Rhin anterior al Mundial.",
+    "legacy": "El circuito recibió los Grandes Premios españoles de 1951 y 1954. Las exigencias de seguridad posteriores a la catástrofe de Le Mans contribuyeron a su retirada como sede. Las otras pistas barcelonesas heredaron una tradición deportiva de la ciudad, pero no la geometría de Pedralbes.",
+    "layouts": {
+      "pedralbes-1": {
+        "title": "La vuelta por las avenidas de Barcelona",
+        "text": "La configuración del archivo utilizaba el recorrido urbano ampliado de Pedralbes, con largas avenidas y curvas abiertas. Las dos carreras del Mundial pertenecen a esta vuelta. No se añaden las variantes anteriores de la Penya Rhin como si fueran versiones puntuables de F1."
+      }
+    }
+  },
+  "portimao": {
+    "character": "El Autódromo Internacional do Algarve se distingue por crestas, descensos y entradas de curva que cambian la visibilidad. El diseño de Ricardo Pina formó parte de un complejo deportivo y turístico. La vuelta no es una adaptación de las calles de Portimão, pese a que ese nombre se utilice habitualmente para identificarla.",
+    "legacy": "La instalación abrió en 2008 y recibió pruebas y campeonatos internacionales antes de sus dos carreras de F1 de 2020 y 2021. La reorganización del calendario durante la pandemia permitió esa incorporación. La actividad de motos y resistencia sitúa sus Grandes Premios dentro de una historia deportiva más amplia.",
+    "layouts": {
+      "portimao-1": {
+        "title": "La vuelta de Gran Premio del Algarve",
+        "text": "La configuración del Mundial enlaza los cambios de altura del autódromo con la recta principal y una amplia curva final. Las dos visitas de F1 utilizan la misma base. Las variantes disponibles para otros usos no se presentan como reformas entre esas dos ediciones."
+      }
+    }
+  },
+  "avus": {
+    "character": "AVUS nació como una carretera de pruebas y circulación que también servía para carreras. Su dibujo era excepcionalmente simple: dos grandes rectas unidas por curvas en los extremos. El peralte norte de ladrillos fue su imagen más conocida y planteaba exigencias muy distintas de las de un autódromo de curvas enlazadas.",
+    "legacy": "La única carrera puntuable de F1 de 1959 utilizó una versión ya recortada respecto al proyecto original de 1921. Después el circuito siguió cambiando y terminó su actividad deportiva. Buena parte de la ruta quedó integrada en la red viaria de Berlín; la supervivencia de tribunas no convierte la autopista actual en la pista histórica.",
+    "layouts": {
+      "avus-1": {
+        "title": "Las rectas y el peralte de 1959",
+        "text": "La versión del Mundial utilizaba dos rectas y la curva norte peraltada, con un extremo sur más próximo que en el AVUS original. La carrera se organizó en dos mangas. Las versiones posteriores sin peralte no forman parte de esta ficha de F1."
+      }
+    }
+  },
+  "ain-diab": {
+    "character": "Ain-Diab combinaba la carretera costera con una conexión hacia el interior en las proximidades de Casablanca. El Royal Automobile Club de Marruecos impulsó una pista temporal sobre vías existentes. Su carácter rápido y su escala respondían a la tradición de circuitos de carretera de los años cincuenta.",
+    "legacy": "Después de una carrera no puntuable en 1957, Ain-Diab cerró el Mundial de 1958. La prueba definió el campeonato de pilotos entre Moss y Hawthorn y quedó también marcada por el accidente fatal de Stuart Lewis-Evans. Otras sedes del Gran Premio marroquí pertenecen a recintos distintos, no a revisiones de esta vuelta.",
+    "layouts": {
+      "ain-diab-1": {
+        "title": "La vuelta de carreteras de Casablanca",
+        "text": "La configuración del Mundial enlazaba la costa con la carretera hacia Azemmour y el entorno de Sidi Abderrahman. Se conserva la vuelta de la carrera de 1958. Las pruebas marroquíes anteriores en Anfa o Agadir no se incorporan como variantes de Ain-Diab."
+      }
+    }
+  },
+  "bugatti": {
+    "character": "Bugatti es el circuito permanente corto del complejo de Le Mans. Comparte parte del entorno de boxes y el sector de Dunlop con el gran recorrido de las 24 Horas, pero vuelve por conexiones interiores. Confundir ambos lleva a atribuirle rectas y distancias que nunca formaron parte de la vuelta de F1.",
+    "legacy": "El Mundial utilizó Bugatti una sola vez, para el Gran Premio francés de 1967. Su actividad siguió ligada especialmente al motociclismo y a otras competiciones del complejo. El extenso Circuit de la Sarthe y sus chicanas de Mulsanne tienen una historia propia, aunque compartan instalaciones y el nombre Le Mans.",
+    "layouts": {
+      "bugatti-1": {
+        "title": "El circuito corto de Le Mans",
+        "text": "La configuración de 1967 enlazaba la recta y el sector de Dunlop con la parte interior de Bugatti. No pasaba por Mulsanne ni completaba la vuelta de las 24 Horas. La versión moderna de Bugatti recibió reformas posteriores que no deben trasladarse a sus tiempos de F1."
+      }
+    }
+  },
+  "donington": {
+    "character": "Donington sigue un terreno ondulado con la bajada de Craner Curves y la conexión hacia Old Hairpin como referencias. Surgió antes de la Segunda Guerra Mundial y se recuperó después de un período de abandono. El circuito de Gran Premio amplía la vuelta corta con un bucle final de frenadas más cerradas.",
+    "legacy": "Tom Wheatcroft recuperó el recinto en los años setenta y permitió su regreso a las carreras. La F1 lo visitó en 1993, mientras motos y otras categorías mantuvieron una actividad más extensa. Un proyecto posterior para recibir de nuevo el Mundial no llegó a concretarse y no se presenta aquí como una reforma realizada.",
+    "layouts": {
+      "donington-1": {
+        "title": "La vuelta de Gran Premio con Melbourne Loop",
+        "text": "La carrera de 1993 utilizó la pista larga, con la extensión de Melbourne y la horquilla final de Goddards. Ese bucle diferencia el recorrido del Mundial de la vuelta nacional corta. La sección de Craner Curves conservaba el relieve característico del recinto."
+      }
+    }
+  },
+  "dallas": {
+    "character": "La pista de Fair Park se creó como un evento urbano destinado a proyectar la imagen internacional de Dallas. Curvas entre barreras y asfalto sometido al calor extremo dieron al Gran Premio una exigencia particular. Las dificultades del pavimento fueron un problema operativo real, no una característica deseada del diseño.",
+    "legacy": "La única carrera de F1 se disputó en julio de 1984 y fue ganada por Keke Rosberg. El calor, las roturas del piso y los problemas de organización impidieron consolidar aquella sede. Las carreras posteriores con el nombre Dallas utilizaron otras rutas y categorías; no son versiones del circuito de F1 de Fair Park.",
+    "layouts": {
+      "dallas-1": {
+        "title": "La pista temporal de Fair Park",
+        "text": "El Mundial utilizó la vuelta urbana montada en Fair Park, con barreras próximas y una secuencia de calles acondicionadas para la carrera. Solo hay una edición puntuable en el archivo. Los circuitos posteriores de Addison o Reunion Arena pertenecen a otros eventos."
+      }
+    }
+  },
+  "monsanto": {
+    "character": "Monsanto se trazó sobre vías del parque forestal de Lisboa y conexiones próximas, con cambios de superficie que incluían pasos por vías de tranvía. La pista combinaba el entorno del parque con las limitaciones de una carretera pública. No era el autódromo permanente que Portugal desarrollaría después en Estoril.",
+    "legacy": "El recorrido recibió pruebas durante los años cincuenta, pero solo una carrera puntuable de F1: el Gran Premio portugués de 1959. Se celebró con un horario tardío para evitar parte del calor y terminó con victoria de Stirling Moss. El traslado de sedes del Gran Premio no fue una ampliación de Monsanto.",
+    "layouts": {
+      "monsanto-1": {
+        "title": "La vuelta del parque de Lisboa",
+        "text": "La configuración de F1 enlazaba las vías del parque de Monsanto y sectores de carretera próximos, con distintos pavimentos. El archivo representa la carrera de 1959. No incorpora las rutas de Boavista o Estoril, aunque todas hayan recibido el Gran Premio portugués."
+      }
+    }
+  },
+  "mugello": {
+    "character": "El autódromo permanente de Mugello aprovecha las colinas de la Toscana con una sucesión de curvas y una gran recta principal. Arrabbiata y los sectores enlazados expresan esa relación con el terreno. La pista moderna es distinta de las antiguas carreras por carretera que también llevaban el nombre Mugello.",
+    "legacy": "Ferrari adquirió el circuito en 1988 y lo utilizó para pruebas, mientras el motociclismo mantuvo una presencia internacional importante. La F1 celebró allí el Gran Premio de Toscana de 2020, dentro del calendario alterado por la pandemia y coincidiendo con el milésimo Gran Premio de Ferrari.",
+    "layouts": {
+      "mugello-1": {
+        "title": "La pista permanente de Scarperia",
+        "text": "La primera configuración del Mundial es el autódromo permanente abierto en los años setenta, con curvas rápidas sobre el relieve y una larga recta de boxes. No corresponde al extenso recorrido histórico por carreteras toscanas. Su única carrera puntuable de F1 pertenece a esta vuelta."
+      }
+    }
+  },
+  "pescara": {
+    "character": "Pescara unía la costa con poblaciones y carreteras de las colinas en un gran triángulo. Rectas extensas convivían con curvas estrechas, cambios de altura y superficies irregulares. La ruta no era un autódromo cercado: atravesaba un entorno habitado, con riesgos que las instalaciones modernas buscan evitar.",
+    "legacy": "La Coppa Acerbo había dado al lugar una trayectoria anterior al Mundial. Su única carrera puntuable de F1 se disputó en 1957 y fue ganada por Stirling Moss. Con más de 25 km por vuelta, quedó como un caso extremo de escala dentro del campeonato, distinto de cualquier circuito compacto posterior con el mismo nombre regional.",
+    "layouts": {
+      "pescara-1": {
+        "title": "El triángulo entre la costa y las colinas",
+        "text": "La configuración del Mundial recorría carreteras entre Pescara, las colinas de Spoltore y las conexiones hacia la costa. La vuelta combinaba grandes rectas con tramos sinuosos. El archivo conserva esa ruta de 1957 y no inventa una pista moderna que la sustituya."
+      }
+    }
+  },
+  "riverside": {
+    "character": "Riverside fue un complejo permanente de California que ofrecía varias configuraciones, con las eses y la extensa recta como referencias. El terreno y el paisaje seco lo distinguían de las pistas urbanas estadounidenses. Su actividad abarcó desde monoplazas hasta resistencia y NASCAR, con rutas que no siempre eran idénticas.",
+    "legacy": "El Mundial lo visitó una vez en 1960, pero esa carrera fue un capítulo pequeño dentro de su vida deportiva. Hubo reformas de recorrido e instalaciones en años posteriores. El recinto cerró y terminó demolido para otros desarrollos, por lo que una imagen de su última etapa no representa exactamente el circuito de la carrera de F1.",
+    "layouts": {
+      "riverside-1": {
+        "title": "La vuelta del Gran Premio de 1960",
+        "text": "La F1 utilizó una de las configuraciones de carretera originales, con las eses, la larga aceleración y el giro final. Las modificaciones importantes de 1969 pertenecen a la historia posterior. No se aplican esos cambios a los tiempos de su única edición del Mundial."
+      }
+    }
+  },
+  "sebring": {
+    "character": "Sebring reutilizó parte del aeródromo militar de Hendricks y conservó superficies y conexiones relacionadas con aquel uso. La combinación de tramos de hormigón y asfalto forma parte de su identidad de resistencia. La pista de los años cincuenta era distinta de la configuración moderna que hoy recibe las 12 Horas.",
+    "legacy": "El circuito empezó a recibir carreras antes del Gran Premio estadounidense de 1959. Esa única visita de la F1 definió el campeonato de Jack Brabham, mientras la resistencia siguió siendo el centro de su actividad. Sus posteriores modificaciones no convierten la vuelta del Mundial en un recorrido contemporáneo.",
+    "layouts": {
+      "sebring-1": {
+        "title": "La vuelta del antiguo aeródromo",
+        "text": "La configuración de F1 utilizaba el recorrido de finales de los años cincuenta sobre sectores del aeródromo y conexiones acondicionadas para competir. La vuelta era más larga y diferente de las variantes modernas de resistencia. Solo la edición de 1959 aparece en el archivo del Mundial."
+      }
+    }
+  },
+  "zeltweg": {
+    "character": "Zeltweg utilizó un aeródromo militar de Estiria para organizar carreras sobre sus pistas y conexiones. La idea aprovechaba una infraestructura existente, pero los baches de la superficie plantearon dificultades a los autos. Su escala y organización fueron distintas de las del autódromo construido después en las colinas próximas.",
+    "legacy": "El Mundial compitió en el aeródromo una sola vez, en 1964, con victoria de Lorenzo Bandini. El posterior Österreichring permitió recibir al Gran Premio en un circuito permanente. La proximidad geográfica y el uso habitual de Zeltweg como nombre no deben fusionar los dos recintos ni sus récords.",
+    "layouts": {
+      "zeltweg-1": {
+        "title": "La vuelta sobre las pistas del aeródromo",
+        "text": "La configuración de 1964 enlazaba pistas y conexiones del aeródromo en una vuelta corta y relativamente simple. No incluye las curvas de las colinas del Österreichring. El archivo registra ambos lugares por separado para conservar esa diferencia."
+      }
+    }
+  },
+  "watkins-glen": {
+    "character": "Watkins Glen llevó las carreras desde las calles de la localidad hasta una instalación permanente en las colinas del estado de Nueva York. El relieve y las eses conservaron el carácter de una pista de carretera, mientras la ampliación conocida como Boot añadió un bucle que cambia mucho la experiencia de una vuelta.",
+    "legacy": "Después de sus veinte Grandes Premios, el recinto atravesó dificultades y recuperó actividad con otras categorías. Resistencia y NASCAR utilizaron combinaciones diferentes de la pista larga y la corta. La chicana Inner Loop de 1992 pertenece a esa historia posterior y no aparece en los trazados de F1 del archivo.",
+    "layouts": {
+      "watkins-glen-1": {
+        "title": "El circuito permanente de 1956",
+        "text": "La primera vuelta del Mundial era la pista permanente de unos 3,8 km, diseñada después de las carreras por carretera alrededor del pueblo. No incorporaba todavía el Boot. La zona de salida y la secuencia conocida como Big Bend eran distintas de las posteriores."
+      },
+      "watkins-glen-2": {
+        "title": "El Boot y la nueva recta de boxes",
+        "text": "La reforma de 1971 eliminó Big Bend, trasladó salida y boxes e incorporó el Boot, un bucle de cuatro curvas que desciende y vuelve a subir por la ladera. La vuelta de F1 se alargó de forma considerable; la opción corta siguió disponible para otras carreras."
+      },
+      "watkins-glen-3": {
+        "title": "La chicana de las eses",
+        "text": "En 1975 se añadió una chicana de derecha e izquierda en el sector de las eses para reducir velocidad tras las preocupaciones de seguridad de la etapa anterior. La vuelta mantuvo el Boot. Esta chicana fue eliminada después de la era de F1 y no es la Inner Loop añadida en 1992."
+      }
+    }
+  },
+  "indianapolis": {
+    "character": "Indianapolis reúne el óvalo de las 500 Millas y un circuito de carretera construido dentro del mismo recinto. Comparten parte de sus instalaciones, pero difieren en sentido, curvas y formato deportivo. La línea de ladrillos de salida conserva la memoria del antiguo pavimento que dio al lugar su apodo de Brickyard.",
+    "legacy": "Las 500 Millas puntuaron para el Mundial entre 1950 y 1960 bajo su propio reglamento; no eran un Gran Premio de F1 convencional. La categoría regresó en 2000 a una pista mixta. Las variantes posteriores para motos e IndyCar pertenecen a otras etapas y no deben utilizarse para explicar los tiempos del Gran Premio de 2000–2007.",
+    "layouts": {
+      "indianapolis-1": {
+        "title": "El óvalo de las 500 Millas",
+        "text": "La primera ficha representa el óvalo antihorario de cuatro curvas y largas rectas de las 500 Millas. La clasificación utilizaba registros de cuatro vueltas. Esta configuración ya existía antes del Mundial y no incluía ninguna de las curvas interiores de la futura pista de F1."
+      },
+      "indianapolis-2": {
+        "title": "El circuito interior del regreso de 2000",
+        "text": "Se construyó un recorrido interior que conectaba con la recta principal y una curva del óvalo, utilizada en sentido contrario al de las 500 Millas. La F1 pasó a una pista mixta de curvas lentas y un sector exterior rápido: fue otra modalidad de vuelta dentro del mismo recinto."
+      }
+    }
+  },
+  "sepang": {
+    "character": "La pista de Sepang se diseñó dentro de una expansión de infraestructuras próxima al aeropuerto de Kuala Lumpur. Sus dos grandes rectas y las curvas que las conectan se complementan con sectores de radio más sostenido. El ancho de varios tramos ofrece alternativas de trayectoria sin convertir toda la vuelta en una secuencia de horquillas.",
+    "legacy": "La visita de la F1 entre 1999 y 2017 fue una parte de una actividad que incluye motociclismo y resistencia. Las conexiones del recinto permiten formar pistas más cortas, pero el Mundial del archivo utilizó el recorrido completo. Que el Gran Premio dejara el calendario no significa que el autódromo desapareciera.",
+    "layouts": {
+      "sepang-1": {
+        "title": "La vuelta completa de Gran Premio",
+        "text": "El trazado de F1 enlaza las dos mitades del recinto, con rectas paralelas y una horquilla final que lleva de la recta posterior a boxes. El archivo utiliza una sola configuración; las opciones norte y sur de otras actividades no son versiones sucesivas de esta vuelta."
+      }
+    }
+  },
+  "magny-cours": {
+    "character": "Magny-Cours creció desde una pista local y una escuela de pilotos hasta recibir el Gran Premio de Francia. Sus curvas mezclan referencias a otros circuitos: Estoril, Adelaide, Nürburgring e Imola. Es una vuelta de relieve contenido, con la gran frenada de Adelaide como contraste frente a los cambios de dirección de las chicanas.",
+    "legacy": "La compra por las autoridades de Nièvre permitió renovar una instalación que había perdido actividad internacional. Ligier y Prost estuvieron vinculados al lugar mediante sus bases y pruebas. Tras la salida de la F1 en 2008, el circuito mantuvo motociclismo y otras competiciones: su historia no termina con la última carrera del Mundial.",
+    "layouts": {
+      "magny-cours-1": {
+        "title": "La pista del debut de 1991",
+        "text": "La primera versión del Mundial corresponde al autódromo renovado para sustituir a Paul Ricard como sede francesa. Combinaba la curva de Estoril, la recta hacia la horquilla de Adelaide y las chicanas que recibían nombres de otras pistas."
+      },
+      "magny-cours-2": {
+        "title": "La eliminación de la chicana después de Adelaide",
+        "text": "En 1992 se eliminó la chicana que seguía a la horquilla de Adelaide. La salida de esa gran frenada quedó conectada de forma más directa con el sector siguiente. Se mantuvo el esquema general de la vuelta; el rediseño de Château d’eau y Lycée llegó en 2003."
+      },
+      "magny-cours-3": {
+        "title": "La nueva llegada a boxes",
+        "text": "En 2003 se reorganizaron la última curva y la chicana final, buscando una aproximación con mayores posibilidades de adelantamiento. Esa nueva secuencia de frenada y salida es la diferencia central frente al recorrido de los años noventa."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-magny-cours.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-magny-cours.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-magny-cours.aspx"
+      }
+    ]
+  },
+  "paul-ricard": {
+    "character": "El proyecto de Paul Ricard combinaba pista, instalaciones industriales y un aeródromo, con una fuerte vocación de pruebas. Mistral y Signes daban identidad a la vuelta larga. Las conexiones interiores permitieron después elegir recorridos diferentes; el recinto moderno conserva esa flexibilidad y no se limita a la configuración usada por la F1.",
+    "legacy": "La muerte de Elio de Angelis durante unas pruebas en 1986 precedió a la elección de una vuelta corta. Más tarde el Gran Premio francés se trasladó a Magny-Cours. Paul Ricard se modernizó como centro de pruebas antes de recuperar la F1 en 2018, con escapatorias y una variante de Mistral distintas de las de su primera etapa.",
+    "layouts": {
+      "paul-ricard-1": {
+        "title": "La vuelta larga y Mistral",
+        "text": "La primera configuración del Mundial recorría Verrerie y aprovechaba la larga recta Mistral antes de Signes. La secuencia permitía mantener velocidad durante un período prolongado. Es el circuito completo anterior a la conexión corta elegida en 1986."
+      },
+      "paul-ricard-2": {
+        "title": "La conexión corta de 1986",
+        "text": "Se evitó el sector de Verrerie mediante una conexión desde la recta de boxes hacia Mistral. La recta quedó reducida y la vuelta pasó a unos 3,8 km. La F1 cambió así de recorrido sin eliminar todas las opciones largas del recinto."
+      },
+      "paul-ricard-3": {
+        "title": "El circuito largo con chicana en Mistral",
+        "text": "Para el regreso de 2018 se recuperó una vuelta larga, pero con una chicana que interrumpe Mistral y con instalaciones y escapatorias renovadas. La longitud se parece a la de la primera etapa; la continuidad de su gran recta ya no es la misma."
+      }
+    }
+  },
+  "shanghai": {
+    "character": "El dibujo del circuito toma como referencia el carácter chino shang. Su sector inicial encadena una curva que se cierra progresivamente con el giro siguiente; la larga recta posterior desemboca en una horquilla. Esa convivencia entre radios sostenidos y frenadas fuertes es más representativa que atribuirle un único tipo de curva.",
+    "legacy": "El autódromo dio a China una sede permanente del Mundial desde 2004. La ausencia de carreras de F1 entre 2020 y 2023 interrumpió su calendario, pero no creó por sí misma otra pista. El recinto también recibió categorías de turismos y otras actividades, con variantes que no siempre utilizan el recorrido completo del Gran Premio.",
+    "layouts": {
+      "shanghai-1": {
+        "title": "La configuración del Gran Premio chino",
+        "text": "La vuelta completa combina el largo sector curvo inicial, la zona interior y la recta posterior antes de una frenada muy cerrada. El archivo no divide sus ediciones en varias geometrías. Las interrupciones del calendario se mantienen como ausencia de carreras, no como una reforma ficticia."
+      }
+    }
+  },
+  "yas-marina": {
+    "character": "Yas Marina forma parte del desarrollo de ocio de la isla Yas. El puerto, el hotel y las tribunas organizan su imagen, mientras la iluminación permite pasar del atardecer a la noche. En pista, la diferencia entre la versión inicial y la reformada está sobre todo en cómo se conectan las rectas y el sector del hotel.",
+    "legacy": "Las críticas a la dificultad de seguir y adelantar llevaron a estudiar cambios de recorrido. La reforma de 2021 sustituyó varias secuencias lentas por curvas más abiertas. Esa intención de diseño es un dato histórico; comprobar sus resultados deportivos requiere observar las carreras, no asumir que una reforma garantiza adelantamientos.",
+    "layouts": {
+      "yas-marina-1": {
+        "title": "La vuelta inaugural de 2009",
+        "text": "La versión inicial tenía una chicana antes de la horquilla y otra secuencia lenta después de las grandes rectas, además de un sector cerrado alrededor del hotel. Esa sucesión interrumpía la aceleración en varios puntos de la vuelta."
+      },
+      "yas-marina-2": {
+        "title": "La reforma de 2021",
+        "text": "Se sustituyó la secuencia previa a la horquilla por un giro más directo, se creó una amplia curva peraltada en lugar de varios giros lentos y se abrieron curvas del sector del hotel. La vuelta quedó más corta y continua, manteniendo las grandes rectas y la salida de boxes por el túnel."
+      }
+    }
+  },
+  "marina-bay": {
+    "character": "Marina Bay enlaza calles, puentes y espacios públicos del centro de Singapur. Su primera visita a la F1 introdujo un Gran Premio completamente nocturno, con iluminación artificial a lo largo de la ruta. El circuito conserva tramos estrechos y cambios de dirección próximos a barreras, aunque su vuelta fue simplificándose con algunas reformas.",
+    "legacy": "Los cambios de recorrido también siguieron transformaciones de la ciudad. La eliminación de Singapore Sling respondió al diseño de una curva, mientras el desvío de 2023 estuvo relacionado con obras del área de la plataforma flotante. No todas las revisiones obedecieron a la misma causa ni significaron la construcción de un recinto nuevo.",
+    "layouts": {
+      "marina-bay-1": {
+        "title": "La vuelta nocturna con Singapore Sling",
+        "text": "La primera configuración incluía la chicana Singapore Sling y la secuencia bajo la tribuna de la plataforma flotante. La F1 recorría calles iluminadas para la carrera, con una larga sucesión de frenadas dentro del centro urbano."
+      },
+      "marina-bay-2": {
+        "title": "La eliminación de Singapore Sling",
+        "text": "En 2013 se sustituyó la chicana de la antigua curva 10 por un giro a la izquierda más directo. Desapareció una secuencia criticada por sus pianos y por la aproximación, mientras el resto del recorrido seguía próximo al inaugural."
+      },
+      "marina-bay-3": {
+        "title": "El paso revisado por Anderson Bridge",
+        "text": "En 2015 se cambiaron las conexiones de las curvas 11 a 13: la pista pasó a otro lado de Anderson Bridge y se amplió la horquilla siguiente. El sector junto al río cambió sin eliminar todavía la vuelta por la plataforma flotante."
+      },
+      "marina-bay-4": {
+        "title": "La recta que evita la plataforma",
+        "text": "En 2023 se suprimió la secuencia de las antiguas curvas 16 a 19 y se introdujo una conexión recta por Raffles Avenue debido a las obras del área de la plataforma. La vuelta se acortó y cambió la numeración de su último sector."
+      }
+    }
+  },
+  "brands-hatch": {
+    "character": "El anfiteatro natural hace visible buena parte de la pista corta, mientras la extensión de Gran Premio se interna en el bosque. Paddock Hill Bend, Druids y los cambios de altura son señales de su identidad. La vuelta utilizada por la F1 incorporaba la extensión: no debe confundirse con el pequeño circuito Indy.",
+    "legacy": "Brands Hatch alternó el Gran Premio británico con Silverstone y mantuvo también la Race of Champions, una carrera no puntuable. Después de 1986 siguió recibiendo turismos, motos y otras categorías. Las limitaciones de ruido y la proximidad de viviendas forman parte de la relación entre su actividad y el entorno.",
+    "layouts": {
+      "brands-hatch-1": {
+        "title": "La extensión de Gran Premio",
+        "text": "La primera versión del archivo combinaba el anfiteatro de la pista corta con el bucle del bosque. La F1 pasaba por Paddock Hill y Druids antes de acceder a los sectores que distinguen la vuelta larga."
+      },
+      "brands-hatch-2": {
+        "title": "El enlace entre Bottom y Surtees",
+        "text": "Para la etapa de 1976 se modificó la conexión entre Bottom y Surtees, acortando la vuelta sin eliminar la extensión de Gran Premio. Se mantuvieron sus desniveles y el bucle boscoso: fue un ajuste de un enlace, no el cambio a la pista Indy."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-brands-hatch.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-brands-hatch.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-brands-hatch.aspx"
+      }
+    ]
+  },
+  "austin": {
+    "character": "La subida a la primera curva sitúa al relieve en el centro de la vuelta. Después aparecen eses rápidas, una horquilla, una recta larga y un sector de curvas más cerradas. El proyecto reunió ideas de Tavo Hellmund y Kevin Schwantz con el trabajo de Hermann Tilke, dentro de una instalación construida específicamente para recibir la F1.",
+    "legacy": "COTA devolvió al Mundial una sede estadounidense permanente después de Indianapolis. Su actividad se extendió a motos, resistencia y otros campeonatos, además de conciertos en el complejo. El recinto no es una adaptación del antiguo circuito de Phoenix ni de ninguna pista urbana de Texas: nació como un proyecto independiente en Austin.",
+    "layouts": {
+      "austin-1": {
+        "title": "El circuito completo de 2012",
+        "text": "La primera vuelta del Mundial ya incluía la fuerte subida a la curva 1, las eses y la recta posterior que conecta dos frenadas cerradas. El archivo conserva una sola configuración de Gran Premio. Las variantes cortas de otros usos no se presentan como reformas de esa vuelta."
+      }
+    }
+  },
+  "estoril": {
+    "character": "Estoril combina una larga recta de boxes, curvas lentas y la amplia curva final Parabólica. Su cercanía a la costa también lo vincula a condiciones de viento. Durante la era de F1 sirvió como escenario de carreras y pruebas, pero la vuelta del último período tenía un sector lento que la primera configuración no incluía.",
+    "legacy": "El circuito recibió momentos destacados del Mundial, entre ellos la primera victoria de Ayrton Senna en 1985. Las exigencias de seguridad impulsaron la reforma de 1994. Tras la última visita de la F1 en 1996, Estoril continuó con otras categorías y motociclismo, sobre una historia de instalaciones que siguió evolucionando.",
+    "layouts": {
+      "estoril-1": {
+        "title": "La vuelta anterior a la chicana",
+        "text": "La primera configuración del Mundial conectaba el sector interior con la Parabólica sin la chicana Gancho posterior. La recta de boxes y la amplia última curva marcaban una parte esencial de esa vuelta."
+      },
+      "estoril-2": {
+        "title": "La chicana Gancho",
+        "text": "En 1994 se añadió la chicana Gancho dentro de las reformas de seguridad. La secuencia introdujo una zona mucho más lenta antes de la parte final, aumentó la longitud y distinguió las tres últimas ediciones de F1 de la etapa anterior."
+      }
+    }
+  },
+  "adelaide": {
+    "character": "La vuelta de F1 mezclaba calles del centro con una sección preparada en los parques orientales. La larga conexión de Brabham Straight y la secuencia de esquinas urbanas creaban un contraste claro. Era una pista temporal dentro de la ciudad, aunque una parte de su infraestructura se concentraba en espacios del parque.",
+    "legacy": "Adelaide se estrenó como cierre del calendario en 1985 y recibió finales de temporada hasta 1995. El traslado del Gran Premio a Melbourne no borró su actividad: los turismos utilizaron después un recorrido más corto. Esa pista del Adelaide 500 no debe emplearse como ilustración sin aviso de la vuelta larga de F1.",
+    "layouts": {
+      "adelaide-1": {
+        "title": "La vuelta larga del Gran Premio",
+        "text": "El recorrido de F1 incorporaba la larga recta de Brabham y un sector urbano más extenso que la variante de turismos posterior. Esta ficha conserva esa configuración de 1985–1995, con las calles y la zona de boxes del parque que organizaban el evento."
+      }
+    }
+  },
+  "reims": {
+    "character": "Reims-Gueux convertía carreteras rurales de Champagne en un circuito de grandes rectas y curvas de unión. La carrera dependía mucho de la velocidad sostenida y del rebufo. Las instalaciones de boxes y tribunas fueron permanentes, pero buena parte del recorrido seguía siendo carretera pública fuera de los encuentros deportivos.",
+    "legacy": "La pista se remodeló para evitar el paso por Gueux y ampliar sus conexiones rápidas. Tras la salida de la F1, la actividad continuó un tiempo y acabó por dificultades económicas. La conservación de boxes y tribunas mantiene parte de su patrimonio, aunque ya no es posible recorrer íntegramente la versión final como una pista activa.",
+    "layouts": {
+      "reims-1": {
+        "title": "El triángulo por Gueux",
+        "text": "La primera configuración del Mundial atravesaba el pueblo de Gueux y enlazaba carreteras con curvas cerradas de unión. Sus rectas formaban un triángulo de gran velocidad. El trazado procedía de la tradición del Gran Premio de la Marne anterior a la F1."
+      },
+      "reims-2": {
+        "title": "El desvío de Gueux y la extensión de Muizon",
+        "text": "El recorrido se desvió para evitar Gueux en 1952 y se prolongó hacia Muizon en 1953. Después se revisaron radios de curvas como Thillois. Esta ficha agrupa esa nueva etapa: la vuelta más larga y rápida no surgió de una única modificación simultánea."
+      }
+    }
+  },
+  "jacarepagua": {
+    "character": "Jacarepaguá aprovechaba terrenos llanos de la zona de Barra da Tijuca, en Río de Janeiro. Sus grandes rectas y curvas de velocidad media contrastaban con los desniveles de Interlagos. Las amplias tribunas permitían observar una parte importante del recorrido dentro de un autódromo permanente.",
+    "legacy": "Después de su etapa de F1, el complejo recibió CART, motos y automovilismo nacional. Fue demolido para las instalaciones de los Juegos Olímpicos de 2016. El circuito del Mundial, el óvalo posterior y las configuraciones de otras categorías pertenecen a la misma historia del terreno, pero no a una única geometría.",
+    "layouts": {
+      "jacarepagua-1": {
+        "title": "La pista plana del Gran Premio brasileño",
+        "text": "La configuración utilizada por el Mundial enlazaba la recta de boxes, la larga recta posterior y un sector interior de curvas medias y lentas. El archivo reúne una sola vuelta de F1. No incorpora el óvalo construido después para otras competiciones."
+      }
+    }
+  },
+  "zolder": {
+    "character": "Zolder ofreció una alternativa permanente a la larga Spa de carreteras. Su escala compacta permitía concentrar público y operación, con rectas interrumpidas por frenadas y chicanas. El circuito está ligado tanto a la historia belga del automovilismo como a competiciones de ciclismo y resistencia.",
+    "legacy": "El Gran Premio belga se repartió durante un período entre Zolder y Nivelles antes de asentarse de nuevo en Spa. La muerte de Gilles Villeneuve durante la clasificación de 1982 forma parte de la memoria del recinto. La última carrera de F1 de 1984 no fue su cierre: continuó recibiendo otras categorías y reformas.",
+    "layouts": {
+      "zolder-1": {
+        "title": "La vuelta del estreno de 1973",
+        "text": "La primera configuración de F1 corresponde al recorrido compacto de Zolder anterior a la revisión de su chicana. Conservaba el esquema de rectas cortas y frenadas del autódromo inaugurado en los años sesenta."
+      },
+      "zolder-2": {
+        "title": "La chicana revisada",
+        "text": "Para la visita de 1975 se modificó la chicana, alterando la secuencia y la longitud registrada de la vuelta. Se mantuvo el esquema general de Zolder. Las reformas posteriores a su etapa en F1 no se atribuyen a esta versión histórica."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-zolder.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-zolder.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-zolder.aspx"
+      }
+    ]
+  },
+  "baku": {
+    "character": "Bakú combina el frente marítimo con calles del centro histórico. La estrecha subida junto a las murallas contrasta con la extensa aceleración de regreso a boxes. Esa diferencia de escalas distingue su diseño urbano: una vuelta debe resolver tanto un paso muy contenido como un sector que permite sostener gran velocidad.",
+    "legacy": "El estreno de 2016 llevó el nombre de Gran Premio de Europa y desde 2017 se convirtió en el Gran Premio de Azerbaiyán. El cambio de denominación no implicó construir otra pista. Fuera de la carrera, el recorrido vuelve a formar parte de la circulación y de los espacios de la ciudad.",
+    "layouts": {
+      "baku-1": {
+        "title": "La vuelta urbana entre las murallas y el mar",
+        "text": "La configuración del Mundial enlaza Azadliq Square, las calles de la ciudad antigua y el largo regreso por el frente marítimo. El archivo conserva un único recorrido de Gran Premio. La edición europea y las de Azerbaiyán pertenecen a esa misma base geométrica."
+      }
+    }
+  },
+  "istanbul": {
+    "character": "Istanbul Park aprovecha un terreno ondulado en el lado asiático de la ciudad y se recorre en sentido antihorario. La larga curva 8, con varios vértices, es su referencia más conocida. Convive con frenadas más cerradas y rectas que hacen que la vuelta no pueda describirse solo por esa curva.",
+    "legacy": "La pista abrió en 2005 para integrar Turquía en el calendario internacional. Después de 2011 siguió existiendo aunque la F1 no regresó hasta las temporadas alteradas por la pandemia. Ese retorno fue a la misma base de recorrido; un nuevo pavimento o un intervalo sin Grandes Premios no significa necesariamente una nueva versión.",
+    "layouts": {
+      "istanbul-1": {
+        "title": "La vuelta antihoraria de 2005",
+        "text": "El primer recorrido del Mundial ya incluía la curva 8 de varios vértices, los cambios de altura y el sector final de frenadas cerradas. Las carreras del regreso de 2020 y 2021 se agrupan en esta configuración, sin inventar un trazado distinto por el cambio de calendario."
+      }
+    }
+  },
+  "jarama": {
+    "character": "Jarama fue un autódromo permanente construido al norte de Madrid, con una vuelta compacta y estrecha. Sus curvas enlazadas y su recta relativamente corta exigían una conducción distinta de la de los grandes circuitos de velocidad. La defensa de Gilles Villeneuve en 1981 quedó como ejemplo histórico de esa dificultad para adelantar.",
+    "legacy": "La F1 alternó inicialmente sus visitas con Montjuïc y terminó concentrando aquí el Gran Premio español. El espacio limitado y las exigencias de instalaciones y seguridad pesaron en la salida del Mundial. El recinto continuó activo y recibió ampliaciones posteriores; la extensión de 1991 no es la vuelta de su último Gran Premio de F1.",
+    "layouts": {
+      "jarama-1": {
+        "title": "El Jarama compacto de la primera etapa",
+        "text": "La primera configuración del Mundial conservaba la secuencia original de curvas enlazadas de John Hugenholtz, con una conexión más larga en el sector de Pegio. Es una pista distinta del Jarama ampliado que se utiliza después de su etapa de F1."
+      },
+      "jarama-2": {
+        "title": "El recorte de Pegio",
+        "text": "Para la edición de 1981 se acortó el paso por la curva Pegio. El recorrido registrado quedó más corto, mientras la estrechez y el esquema técnico general se conservaron. Este ajuste es anterior a la ampliación del circuito en 1991."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "Jarama · historia del circuito",
+        "url": "https://www.jarama.org/el-circuito/historia-del-jarama"
+      },
+      {
+        "label": "AS · la modificación de Pegio en 1981",
+        "url": "https://as.com/motor/formula_1/jarama-el-inicio-de-todo-en-madrid-f202609-n/"
+      }
+    ]
+  },
+  "long-beach": {
+    "character": "Chris Pook buscó crear una carrera urbana que ayudara a transformar la imagen de una ciudad portuaria. Shoreline Drive y las horquillas dieron al recorrido una identidad propia, inspirada en el concepto de Mónaco. La pista cambió con el entorno y con las necesidades de distintas categorías.",
+    "legacy": "La F1 llegó después de una primera prueba de Fórmula 5000 y permaneció hasta 1983. El cambio a CART desde 1984 permitió continuar el evento bajo otro modelo económico. Las reformas urbanas posteriores crearon sectores que hoy se asocian al Gran Premio, pero que no existían durante la era de F1.",
+    "layouts": {
+      "long-beach-1": {
+        "title": "La vuelta inicial de dos horquillas",
+        "text": "El primer recorrido de F1 combinaba la recta de Shoreline Drive con dos horquillas y calles de la zona del puerto. Durante esa etapa las líneas de salida y llegada estaban en lados distintos del recorrido, una organización poco habitual."
+      },
+      "long-beach-2": {
+        "title": "El reemplazo de la primera horquilla",
+        "text": "En 1982 se eliminó la horquilla de uno de los extremos de Shoreline Drive y se sustituyó por una secuencia de derecha e izquierda. La conexión urbana y la aproximación a las calles siguientes cambiaron respecto al primer recorrido."
+      },
+      "long-beach-3": {
+        "title": "El último trazado de F1",
+        "text": "Para 1983 se reorganizó de nuevo el recorrido urbano y el sector de salida. La vuelta de esa edición fue otra variante antes del paso a CART. No debe confundirse con el conjunto de curvas alrededor de la fuente que se construyó muchos años después."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-long-beach.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-long-beach.aspx"
+      },
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-long-beach.aspx"
+      }
+    ]
+  },
+  "mosport": {
+    "character": "Mosport sigue el terreno de Ontario con curvas rápidas y cambios de altura. Clayton Corner y la secuencia de Moss Corner muestran dos extremos de su carácter: continuidad a velocidad elevada y una frenada más cerrada antes de acelerar. El autódromo fue una alternativa a las carreras canadienses organizadas en aeródromos.",
+    "legacy": "La F1 alternó sus primeras visitas canadienses con Mont-Tremblant antes del traslado a Montreal. Mosport mantuvo una vida importante en resistencia y categorías norteamericanas. El nombre comercial Canadian Tire Motorsport Park pertenece a esa historia posterior, sin convertir automáticamente la pista en otro circuito.",
+    "layouts": {
+      "mosport-1": {
+        "title": "El recorrido por las colinas de Ontario",
+        "text": "La primera vuelta del Mundial utilizaba la pista permanente de curvas rápidas y desniveles que había abierto en 1961. El archivo conserva una sola configuración de F1, con el sector de Moss Corner y la aceleración hacia las curvas finales como partes características."
+      }
+    }
+  },
+  "sochi": {
+    "character": "El circuito aprovechó el complejo construido para los Juegos Olímpicos de Invierno de 2014. Una parte importante de la vuelta rodeaba instalaciones deportivas y espacios abiertos, con la larga curva junto a la plaza olímpica como referencia. La pista del Mundial tenía una extensión distinta de las opciones cortas del recinto.",
+    "legacy": "El Gran Premio ruso se disputó entre 2014 y 2021. La invasión rusa de Ucrania llevó a la cancelación de la edición de 2022 y a la terminación del contrato de F1. Los usos y cambios de denominación posteriores del autódromo no se presentan como si hubieran formado parte de esa etapa del Mundial.",
+    "layouts": {
+      "sochi-1": {
+        "title": "La vuelta del parque olímpico",
+        "text": "El recorrido de F1 conectaba la zona de boxes con las calles que rodeaban las instalaciones olímpicas y la larga curva del primer sector. Es la configuración completa del Gran Premio, no las variantes reducidas utilizadas después en el recinto."
+      }
+    }
+  },
+  "detroit": {
+    "character": "Detroit llevó la F1 al centro de una ciudad vinculada a la industria del automóvil. El circuito rodeaba la zona del Renaissance Center con esquinas cerradas, baches y conexiones cortas. El pavimento y la proximidad de muros condicionaban la carrera tanto como el dibujo de las calles.",
+    "legacy": "Tras la etapa de F1, el evento continuó con CART y más tarde cambió de ubicación a Belle Isle. El regreso de carreras al centro en 2023 utilizó una pista mucho más pequeña. Esos recorridos posteriores comparten el nombre de la ciudad, pero no son la vuelta de los Grandes Premios de los años ochenta.",
+    "layouts": {
+      "detroit-1": {
+        "title": "El trazado urbano de 1982",
+        "text": "El primer recorrido del Mundial incluía una horquilla muy cerrada en la parte oriental y una chicana junto a la zona de boxes. La abundancia de esquinas y las irregularidades del asfalto hacían exigente una vuelta que pasaba por el centro de la ciudad."
+      },
+      "detroit-2": {
+        "title": "La eliminación de la horquilla",
+        "text": "Para 1983 se suprimió la horquilla oriental, se suavizó la chicana anterior a boxes y se cambió la entrada a la calle de boxes. También se trabajó sobre tapas y baches del pavimento. La reforma hacía el recorrido más continuo sin convertirlo en un circuito permanente."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · reformas para Detroit 1983",
+        "url": "https://www.statsf1.com/fr/1983/detroit.aspx"
+      }
+    ]
+  },
+  "jerez": {
+    "character": "Jerez se desarrolló como un circuito permanente en Andalucía, con una combinación de curvas medias, frenadas y conexiones relativamente cortas. Su actividad quedó especialmente ligada al motociclismo y a las pruebas de invierno. Las versiones del Mundial muestran una revisión importante entre el Gran Premio español y el posterior Gran Premio de Europa.",
+    "legacy": "La primera etapa de F1 terminó en 1990, pero el Mundial regresó en 1994 y para la definición de 1997. Entre esas visitas se modificaron sectores de la vuelta. La pista siguió funcionando como escenario de motos y ensayos; su historial no debe reducirse a las siete carreras puntuables de F1.",
+    "layouts": {
+      "jerez-1": {
+        "title": "La vuelta del Gran Premio de España",
+        "text": "La primera configuración del Mundial corresponde al circuito inaugurado en 1985, anterior a la curva Sito Pons y a la chicana Senna de la etapa siguiente. Sus curvas conectaban los sectores rápidos con el interior técnico del recinto."
+      },
+      "jerez-2": {
+        "title": "Sito Pons y la chicana Senna",
+        "text": "En 1992 se sustituyó una secuencia de curvas por el giro amplio de Sito Pons. Para el regreso de 1994 se añadió la chicana Senna en otro sector de la vuelta. Esta ficha refleja ambas reformas, separadas en el tiempo, antes de las dos visitas del Gran Premio de Europa."
+      }
+    }
+  },
+  "anderstorp": {
+    "character": "Anderstorp se construyó sobre terrenos pantanosos y combinó una gran recta, utilizada también como pista de aterrizaje, con curvas peraltadas. La ubicación de los boxes no coincidía con la línea principal de salida. Esa organización y el contraste de recta y curvas daban al circuito sueco una identidad poco habitual.",
+    "legacy": "La popularidad de Ronnie Peterson acompañó el crecimiento del evento. Allí ganaron dos autos singulares de la F1: el Tyrrell de seis ruedas en 1976 y el Brabham con ventilador en 1978. La muerte de Peterson y Gunnar Nilsson en 1978 coincidió con la pérdida de impulso del Gran Premio, pero la pista continuó con otras actividades.",
+    "layouts": {
+      "anderstorp-1": {
+        "title": "La recta de aterrizaje y los peraltes",
+        "text": "La primera vuelta del Mundial ya incorporaba la larga Flight Straight y las curvas inclinadas del Scandinavian Raceway. El archivo reúne las seis carreras suecas en una configuración. La singular posición de boxes forma parte de su organización histórica, no de una segunda pista ficticia."
+      }
+    }
+  },
+  "dijon": {
+    "character": "Dijon-Prenois nació de una iniciativa local que buscaba crear un centro automovilístico, con participación de pilotos en su desarrollo. El terreno ondulado y las curvas amplias le dieron una identidad rápida. La primera vuelta resultó tan corta para la F1 que la circulación de doblados pronto se convirtió en una preocupación.",
+    "legacy": "La extensión de 1976 permitió volver al Mundial con otra escala de vuelta. En 1979 recibió la primera victoria de un motor turbo en F1 y el duelo de Villeneuve y Arnoux. En 1982 también albergó un Gran Premio de Suiza, pese a estar en Francia: el nombre del evento no determina la ubicación de la pista.",
+    "layouts": {
+      "dijon-1": {
+        "title": "La vuelta corta de Prenois",
+        "text": "La primera edición del Mundial, en 1974, utilizó el recorrido original de algo más de 3 km. Las vueltas muy cortas aumentaban los encuentros entre líderes y doblados. No incluía todavía la extensión de la curva Parabolique."
+      },
+      "dijon-2": {
+        "title": "La extensión de Parabolique",
+        "text": "En 1976 se añadió una extensión y se revisaron conexiones de la pista, incorporando Parabolique. La F1 volvió en 1977 a una vuelta más larga. Se mantuvo el carácter rápido y ondulado, pero cambió el sector que antes cerraba el circuito corto."
+      }
+    }
+  },
+  "aintree": {
+    "character": "Aintree instaló el automovilismo dentro del conocido hipódromo y aprovechó sus tribunas. Era un recorrido relativamente llano, con conexiones que rodeaban los espacios de carreras de caballos. Compartir un recinto no significaba competir sobre el mismo piso ni seguir la ruta del Grand National.",
+    "legacy": "La pista recibió Grandes Premios británicos y pruebas de F1 no puntuables. Allí Stirling Moss logró su primera victoria del Mundial en 1955, y Moss y Tony Brooks compartieron el triunfo de Vanwall en 1957. Su etapa de Gran Premio forma parte de la historia de sedes alternadas antes de la consolidación de Silverstone.",
+    "layouts": {
+      "aintree-1": {
+        "title": "La vuelta alrededor del hipódromo",
+        "text": "La configuración de Gran Premio utilizaba el circuito de automovilismo de unos 4,8 km abierto en 1954, aprovechando el terreno y las tribunas del hipódromo. El Mundial empleó la vuelta larga, no las variantes cortas de actividades posteriores."
+      }
+    }
+  },
+  "bremgarten": {
+    "character": "Bremgarten utilizaba carreteras entre los árboles al norte de Berna. La vuelta tenía escasas rectas claras y enlazaba curvas rápidas, con cambios de pavimento y luz. La sombra del bosque y la proximidad del entorno natural contribuían a una exigencia que no puede resumirse solo en la longitud del circuito.",
+    "legacy": "El recinto había nacido con carreras de motos antes de recibir automóviles. Tras la catástrofe de Le Mans de 1955, Suiza prohibió las carreras de circuito de aquel tipo y canceló su Gran Premio. La historia de Bremgarten quedó así interrumpida por una decisión nacional, no por una sustitución inmediata por otra versión de la pista.",
+    "layouts": {
+      "bremgarten-1": {
+        "title": "El recorrido del bosque de Berna",
+        "text": "La primera configuración del archivo corresponde a la vuelta de carreteras del Bremgartenwald, con curvas continuas y distintos tipos de superficie. Las cinco ediciones del Mundial se agrupan aquí. No hay una segunda configuración de F1 posterior a la prohibición suiza."
+      }
+    }
+  },
+  "kyalami": {
+    "character": "El Kyalami original destacaba por la recta y por curvas amplias que aprovechaban el terreno de Midrand. Su reconstrucción cambió la continuidad de esa vuelta y trasladó su centro de actividad. Hablar del circuito como una sola pista ocultaría tanto la desaparición de sectores históricos como los fragmentos que se conservaron.",
+    "legacy": "La historia de la F1 en Kyalami estuvo ligada también a la situación política sudafricana: la etapa original terminó en un contexto de sanciones internacionales por el apartheid. La vuelta reconstruida recibió las carreras de 1992 y 1993. Años después el recinto se renovó de nuevo y recuperó pruebas internacionales de resistencia; ese recorrido actual no es idéntico a ninguno de los dos del archivo.",
+    "layouts": {
+      "kyalami-1": {
+        "title": "El circuito rápido original",
+        "text": "La primera configuración del Mundial conservaba la larga recta y curvas como Crowthorne, Barbecue, Jukskei y Leeukop. Se corría en sentido horario. La pista inaugurada en 1961 recibió ensanches y ajustes durante esa etapa, aunque el archivo los agrupa bajo un mismo identificador."
+      },
+      "kyalami-2": {
+        "title": "La reconstrucción de 1989",
+        "text": "El desarrollo comercial del terreno eliminó la recta antigua, Crowthorne, Barbecue y Leeukop, y trasladó boxes y salida. Se revisó Jukskei y se conservaron partes de Sunset, Clubhouse y las eses. La vuelta pasó a ser antihoraria y más sinuosa: es una reorganización amplia del recinto, no un simple agregado de curvas."
+      }
+    },
+    "additionalSources": [
+      {
+        "label": "StatsF1 · cronología de trazados",
+        "url": "https://www.statsf1.com/fr/circuit-kyalami.aspx"
+      }
+    ]
+  }
+}
