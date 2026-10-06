@@ -69,6 +69,7 @@ export const siteSections: SiteSection[] = [
     hidden: true,
     links: [
       { href: "/en-vivo", label: "En directo" },
+      { href: "/en-vivo/repeticion", label: "Repetición" },
       { href: "/en-vivo/telemetria", label: "Telemetría" }
     ]
   }

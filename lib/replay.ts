@@ -1,3 +1,4 @@
+export { POSITION_CHUNK_MS } from "@/lib/replay-constants";
 import { MEMO_FINISHED, dateRange, num, openF1, str, time, type Row } from "@/lib/openf1";
 
 export type ReplaySessionSummary = {
@@ -296,4 +297,136 @@ export async function getLapTelemetry(key: number, driver: number, lapNumber: nu
     telemetry.y.push(close ? location.y : null);
   });
   return telemetry;
+}
+
+export type ReplayIntervalPoint = [at: number, gap: number | string | null, interval: number | string | null];
+
+export type ReplayTimeline = {
+  /** Per driver, [ms, position] changes in time order. */
+  positions: Record<number, [number, number][]>;
+  intervals: Record<number, ReplayIntervalPoint[]>;
+  pits: { driver: number; at: number; lap: number | null; duration: number | null }[];
+  raceControl: { at: number; category: string; flag: string | null; message: string; driver: number | null; lap: number | null }[];
+  track: { x: number; y: number }[];
+  finished: boolean;
+};
+
+/** Car positions for a window: per driver, parallel arrays of ms offsets from `from` and x/y. */
+export type ReplayPositionsChunk = {
+  from: number;
+  to: number;
+  cars: Record<number, { t: number[]; x: number[]; y: number[] }>;
+};
+
+const INTERVAL_STEP_MS = 8_000;
+const POSITION_STEP_MS = 450;
+
+function gapValue(value: unknown): number | string | null {
+  if (typeof value === "string") return value;
+  return num(value);
+}
+
+/** Track outline from the location samples of the session's fastest clean lap. */
+async function trackOutline(key: number, lapRows: Row[]) {
+  const best = lapRows
+    .map((row) => ({ driver: num(row.driver_number), start: time(row.date_start), duration: num(row.lap_duration), pitOut: row.is_pit_out_lap === true }))
+    .filter((lap) => lap.driver !== null && lap.start !== null && lap.duration !== null && !lap.pitOut)
+    .sort((a, b) => (a.duration as number) - (b.duration as number))[0];
+  if (!best) return [];
+  const rows = await openF1(`/location?session_key=${key}&driver_number=${best.driver}&${dateRange(best.start as number, (best.start as number) + (best.duration as number) * 1000)}`, MEMO_FINISHED);
+  const points = rows
+    .map((row) => ({ at: time(row.date), x: num(row.x), y: num(row.y) }))
+    .filter((point): point is { at: number; x: number; y: number } => point.at !== null && point.x !== null && point.y !== null && !(point.x === 0 && point.y === 0))
+    .sort((a, b) => a.at - b.at)
+    .map(({ x, y }) => ({ x, y }));
+  return points.length > 1 ? [...points, points[0]] : points;
+}
+
+export async function getReplayTimeline(key: number): Promise<ReplayTimeline | null> {
+  const session = await getSessionSummary(key);
+  if (!session) return null;
+  const memoMs = session.finished ? MEMO_FINISHED : 5_000;
+  const [positionRows, intervalRows, pitRows, controlRows, lapRows] = await Promise.all([
+    openF1(`/position?session_key=${key}`, memoMs),
+    openF1(`/intervals?session_key=${key}`, memoMs).catch(() => []),
+    openF1(`/pit?session_key=${key}`, memoMs).catch(() => []),
+    openF1(`/race_control?session_key=${key}`, memoMs).catch(() => []),
+    openF1(`/laps?session_key=${key}`, memoMs)
+  ]);
+
+  const positions: ReplayTimeline["positions"] = {};
+  for (const row of positionRows) {
+    const driver = num(row.driver_number);
+    const at = time(row.date);
+    const position = num(row.position);
+    if (driver === null || at === null || position === null) continue;
+    (positions[driver] ??= []).push([at, position]);
+  }
+  for (const list of Object.values(positions)) list.sort((a, b) => a[0] - b[0]);
+
+  // Intervals arrive every few seconds per driver; one point every 8 s is plenty for a tower.
+  const intervals: ReplayTimeline["intervals"] = {};
+  const sortedIntervals = intervalRows
+    .map((row) => ({ driver: num(row.driver_number), at: time(row.date), row }))
+    .filter((item): item is { driver: number; at: number; row: Row } => item.driver !== null && item.at !== null)
+    .sort((a, b) => a.at - b.at);
+  for (const { driver, at, row } of sortedIntervals) {
+    const list = (intervals[driver] ??= []);
+    const last = list.at(-1);
+    const point: ReplayIntervalPoint = [at, gapValue(row.gap_to_leader), gapValue(row.interval)];
+    // One point per 8-second bucket: the latest reading in the bucket wins.
+    if (last && Math.floor(at / INTERVAL_STEP_MS) === Math.floor(last[0] / INTERVAL_STEP_MS)) list[list.length - 1] = point;
+    else list.push(point);
+  }
+
+  const pits = pitRows.flatMap((row) => {
+    const driver = num(row.driver_number);
+    const at = time(row.date);
+    return driver === null || at === null ? [] : [{ driver, at, lap: num(row.lap_number), duration: num(row.pit_duration) }];
+  }).sort((a, b) => a.at - b.at);
+
+  const raceControl = controlRows.flatMap((row) => {
+    const at = time(row.date);
+    return at === null ? [] : [{
+      at,
+      category: str(row.category, "Other"),
+      flag: str(row.flag) || null,
+      message: str(row.message),
+      driver: num(row.driver_number),
+      lap: num(row.lap_number)
+    }];
+  }).sort((a, b) => a.at - b.at);
+
+  const track = await trackOutline(key, lapRows).catch(() => []);
+  return { positions, intervals, pits, raceControl, track, finished: session.finished };
+}
+
+export async function getReplayPositions(key: number, from: number, to: number): Promise<ReplayPositionsChunk> {
+  const rows = await openF1(`/location?session_key=${key}&${dateRange(from, to)}`);
+  const byDriver = new Map<number, { at: number; x: number; y: number }[]>();
+  for (const row of rows) {
+    const driver = num(row.driver_number);
+    const at = time(row.date);
+    const x = num(row.x);
+    const y = num(row.y);
+    if (driver === null || at === null || x === null || y === null || (x === 0 && y === 0) || at < from || at > to) continue;
+    const list = byDriver.get(driver) ?? [];
+    list.push({ at, x, y });
+    byDriver.set(driver, list);
+  }
+  const cars: ReplayPositionsChunk["cars"] = {};
+  for (const [driver, list] of byDriver) {
+    list.sort((a, b) => a.at - b.at);
+    const car = { t: [] as number[], x: [] as number[], y: [] as number[] };
+    let last = -Infinity;
+    for (const sample of list) {
+      if (sample.at - last < POSITION_STEP_MS) continue;
+      last = sample.at;
+      car.t.push(sample.at - from);
+      car.x.push(Math.round(sample.x));
+      car.y.push(Math.round(sample.y));
+    }
+    cars[driver] = car;
+  }
+  return { from, to, cars };
 }
