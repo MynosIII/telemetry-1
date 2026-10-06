@@ -144,18 +144,14 @@
 .replay-weather dd { margin: 2px 0 0; font-size: 15px; font-weight: 650; font-variant-numeric: tabular-nums; }
 .replay-weather dd.is-rain { color: #5aa8ff; }
 
-.replay-stage { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 560px); gap: 14px; margin-top: 14px; align-items: start; }
+.replay-stage { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, var(--tower-width, 560px)); gap: 14px; margin-top: 14px; align-items: start; }
 .replay-map { display: grid; align-content: start; }
 .replay-map .track-outline { max-height: 640px; }
 .replay-selected { margin: 8px 0 0; color: #bdbdbd; font-size: 13px; }
 .replay-selected a { color: #fff; text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: 4px; }
 
 .replay-tower { padding: 6px 8px; overflow-x: auto; }
-.tower-row { display: grid; grid-template-columns: 30px minmax(70px, 1fr) 70px 64px 70px 70px 54px 30px; gap: 6px; align-items: center; width: 100%; min-width: 520px; padding: 5px 6px; background: none; border: 0; border-bottom: 1px solid #1d1d1d; color: #fff; text-align: left; font-size: 13px; cursor: pointer; }
-.tower-telemetry { grid-template-columns: 30px minmax(64px, 1fr) 64px 40px 44px 64px 156px; }
-.tower-head.tower-telemetry span:nth-child(n+3) { text-align: right; }
-.tower-head.tower-telemetry span:nth-child(6), .tower-head.tower-telemetry span:nth-child(7) { text-align: left; }
-.tower-views { margin: 0 0 8px; }
+.tower-row { display: grid; gap: 6px; align-items: center; width: 100%; min-width: max-content; padding: 5px 6px; background: none; border: 0; border-bottom: 1px solid #1d1d1d; color: #fff; text-align: left; font-size: 13px; cursor: pointer; }
 .tower-gear { text-align: center; font-variant-numeric: tabular-nums; }
 .tower-pedals { display: grid; gap: 2px; }
 .tower-pedals i { display: block; height: 4px; border-radius: 1px; background: #1d1d1d; }
@@ -175,7 +171,8 @@
 .tower-head:hover { background: none; }
 .tower-row code { color: #d6d6d6; font: 500 12px/1 ui-monospace, "SFMono-Regular", Menlo, monospace; text-align: right; }
 .tower-head span:nth-child(n+3) { text-align: right; }
-.tower-head span:nth-child(7) { text-align: left; }
+.tower-head span.tower-col-tyre, .tower-head span.tower-col-pedals, .tower-head span.tower-col-minisectors { text-align: left; }
+.tower-head span.tower-col-gear { text-align: center; }
 .tower-pos { font-variant-numeric: tabular-nums; text-align: center; }
 .tower-driver { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .tower-driver i { width: 3px; height: 16px; border-radius: 2px; }
@@ -302,9 +299,12 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
 .replay-options summary { list-style: none; padding: 7px 12px; border: 1px solid #2c2c2c; border-radius: 4px; color: #bdbdbd; cursor: pointer; font-size: 13px; }
 .replay-options summary::-webkit-details-marker { display: none; }
 .replay-options[open] summary { border-color: #fff; color: #fff; }
-.replay-options-list { position: absolute; right: 0; top: calc(100% + 6px); z-index: 6; display: grid; gap: 2px; min-width: 210px; padding: 8px; background: #111; border: 1px solid #2c2c2c; border-radius: 6px; }
+.replay-options-list { position: absolute; right: 0; top: calc(100% + 6px); z-index: 6; display: grid; gap: 2px; min-width: 210px; max-height: min(70vh, 640px); overflow-y: auto; padding: 8px; background: #111; border: 1px solid #2c2c2c; border-radius: 6px; }
 .replay-options-list label { display: flex; gap: 10px; align-items: center; padding: 6px 6px; color: #d6d6d6; font-size: 13px; cursor: pointer; border-radius: 4px; }
 .replay-options-list label:hover { background: #1a1a1a; }
 .replay-options-list input { accent-color: var(--red); }
 .replay-panel-failed { display: flex; gap: 12px; align-items: center; justify-content: space-between; }
 .replay-panel-failed button { padding: 6px 10px; background: none; border: 1px solid #3a3a3a; border-radius: 4px; color: #d6d6d6; cursor: pointer; font-size: 12px; }
+.replay-options-list fieldset { margin: 0; padding: 0; border: 0; display: grid; gap: 2px; }
+.replay-options-list fieldset + fieldset { margin-top: 6px; padding-top: 8px; border-top: 1px solid #262626; }
+.replay-options-list legend { padding: 0 6px 4px; color: #7f7f7f; font-size: 11px; }
