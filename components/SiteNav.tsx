@@ -4,19 +4,32 @@ import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { activeSubLink, sectionFor, siteSections } from "@/lib/site-sections";
+import { uiDict, LangCode } from "@/lib/i18n";
 
-export function SiteNav() {
+export function SiteNav({ lang }: { lang: LangCode }) {
   const active = sectionFor(usePathname() ?? "/");
   return (
-    <nav aria-label="Navegación principal">
-      {siteSections.filter((section) => !section.hidden).map((section) => (
-        <Link key={section.href} href={section.href} aria-current={section === active ? "page" : undefined}>{section.label}</Link>
-      ))}
+    <nav aria-label="NavegaciA3n principal">
+      {siteSections.filter((section) => !section.hidden).map((section) => {
+        let label = section.label;
+        if (section.href === "/") label = uiDict[lang]["nav.home"];
+        if (section.href === "/noticias") label = uiDict[lang]["nav.news"];
+        if (section.href === "/temporada") label = uiDict[lang]["nav.season"];
+        if (section.href === "/carreras") label = uiDict[lang]["nav.races"];
+        if (section.href === "/historia") label = uiDict[lang]["nav.archive"]; // The section is labelled archive in some places
+        if (section.href === "/juegos") label = uiDict[lang]["nav.games"];
+        
+        return (
+          <Link key={section.href} href={section.href} aria-current={section === active ? "page" : undefined}>
+            {label}
+          </Link>
+        );
+      })}
     </nav>
   );
 }
 
-function SubNavLinks({ categoria }: { categoria: string | null }) {
+function SubNavLinks({ categoria, lang }: { categoria: string | null, lang: LangCode }) {
   const pathname = usePathname() ?? "/";
   const section = sectionFor(pathname);
   // In-page anchors (#resultados) don't change the URL Next.js reports, so remember the last click per page.
@@ -24,6 +37,7 @@ function SubNavLinks({ categoria }: { categoria: string | null }) {
   const bar = useRef<HTMLElement>(null);
   const hash = clicked.pathname === pathname ? clicked.hash : "";
   const current = section ? activeSubLink(section, pathname, categoria, hash) : undefined;
+  
   // On narrow screens the bar scrolls sideways; keep the current page in view.
   useEffect(() => {
     const link = bar.current?.querySelector<HTMLElement>('[aria-current="page"]');
@@ -31,6 +45,7 @@ function SubNavLinks({ categoria }: { categoria: string | null }) {
       bar.current.scrollLeft = link.offsetLeft - (bar.current.clientWidth - link.offsetWidth) / 2;
     }
   }, [current]);
+  
   if (!section?.links) return null;
   return (
     <nav ref={bar} className="site-subnav" aria-label={`Secciones de ${section.label}`}>
@@ -44,19 +59,20 @@ function SubNavLinks({ categoria }: { categoria: string | null }) {
   );
 }
 
-function SubNavWithQuery() {
-  return <SubNavLinks categoria={useSearchParams()?.get("categoria") ?? null} />;
+function SubNavWithQuery({ lang }: { lang: LangCode }) {
+  return <SubNavLinks categoria={useSearchParams()?.get("categoria") ?? null} lang={lang} />;
 }
 
-/** Second bar with the pages of the current section; hidden outside a section. */
-export function SiteSubNav() {
-  // useSearchParams needs a Suspense boundary on static pages; the fallback renders the same bar.
-  return <Suspense fallback={<SubNavLinks categoria={null} />}><SubNavWithQuery /></Suspense>;
+export function SiteSubNav({ lang }: { lang: LangCode }) {
+  return <Suspense fallback={<SubNavLinks categoria={null} lang={lang} />}><SubNavWithQuery lang={lang} /></Suspense>;
 }
 
-/** The live-timing button sits apart from the sections; it lights up on its own page. */
-export function LiveLink() {
+export function LiveLink({ lang }: { lang: LangCode }) {
   const pathname = usePathname() ?? "/";
   const active = pathname === "/en-vivo" || pathname.startsWith("/en-vivo/");
-  return <Link className="header-cta" href="/en-vivo" aria-current={active ? "page" : undefined}><span className="live-dot" /> En vivo</Link>;
+  return (
+    <Link className="header-cta" href="/en-vivo" aria-current={active ? "page" : undefined}>
+      <span className="live-dot" /> {uiDict[lang]["nav.live"]}
+    </Link>
+  );
 }

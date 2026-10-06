@@ -17,6 +17,8 @@ import { getNews } from "@/lib/news";
 import { NewsList } from "@/components/NewsList";
 import eloRatings from "@/lib/elo-ratings.json";
 import { driverPhoto } from "@/lib/driver-photos";
+import { useTranslation } from "@/lib/i18n";
+import { getLang } from "@/lib/server-i18n";
 
 export default async function Home() {
   const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
@@ -46,6 +48,8 @@ export default async function Home() {
       : race)
   } : seasonForecast;
   const leader = data.standings[0];
+  const lang = getLang();
+  const t = useTranslation(lang);
 
   return (
     <main id="top">
@@ -55,20 +59,17 @@ export default async function Home() {
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-speed-lines" aria-hidden="true" />
         <div className="hero-copy">
-          <p className="hero-kicker"><span /> TU PADDOCK DIGITAL</p>
-          <h1 id="hero-title">TODO EL MUNDO DE LA <em>FÓRMULA 1</em></h1>
-          <p className="hero-lede">
-            Resultados, juegos, estadísticas e historias. Una sola línea de largada
-            para vivir y entender la máxima categoría.
-          </p>
+          <p className="hero-kicker"><span /> {t("hero.kicker")}</p>
+          <h1 id="hero-title" dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
+          <p className="hero-lede">{t("hero.lede")}</p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#resultados">VER ÚLTIMOS RESULTADOS <span>↘</span></a>
-            <Link className="button button-ghost" href="/juegos">IR A LOS JUEGOS <span>→</span></Link>
+            <a className="button button-primary" href="#resultados">{t("hero.btn.results")} <span>↘</span></a>
+            <Link className="button button-ghost" href="/juegos">{t("hero.btn.games")} <span>→</span></Link>
           </div>
         </div>
 
         <div className="hero-dashboard" aria-label="Resumen de la temporada">
-          <p>CAMPEONATO DE PILOTOS</p>
+          <p>{t("dashboard.title")}</p>
           <div className="leader-card">
             <span className="leader-rank">01</span>
             {leader?.image && (
@@ -77,10 +78,10 @@ export default async function Home() {
               </div>
             )}
             <div className="leader-data">
-              <small>LÍDER ACTUAL</small>
-              <h2>{leader ? <Link href={`/pilotos/${leader.driverId}`}>{leader.name}</Link> : "Campeonato"}</h2>
+              <small>{t("dashboard.leader")}</small>
+              <h2>{leader ? <Link href={`/pilotos/${leader.driverId}`}>{leader.name}</Link> : t("dashboard.champ")}</h2>
               <span>{leader?.team}</span>
-              <strong>{leader?.points}<small> PTS</small></strong>
+              <strong>{leader?.points}<small> {t("dashboard.pts")}</small></strong>
             </div>
           </div>
           <div className="mini-standings">
@@ -102,32 +103,32 @@ export default async function Home() {
       <section className="section section-light" id="resultados" aria-labelledby="results-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow eyebrow-red">TEMPORADA</p>
-            <h2 id="results-title">ÚLTIMAS <em>CARRERAS</em></h2>
+            <p className="eyebrow eyebrow-red">{t("results.eyebrow")}</p>
+            <h2 id="results-title" dangerouslySetInnerHTML={{ __html: t("results.title") }} />
           </div>
         </div>
         <RaceBoard races={data.races} />
-        <div className="section-action"><Link className="button button-dark" href="/temporada">CLASIFICACIÓN Y PRONÓSTICO <span>→</span></Link></div>
+        <div className="section-action"><Link className="button button-dark" href="/temporada">{t("results.btn")} <span>→</span></Link></div>
       </section>
 
       {news.length ? (
         <section className="section section-light" id="noticias" aria-labelledby="news-title">
           <div className="section-heading">
             <div>
-              <p className="eyebrow eyebrow-red">NOTICIAS</p>
-              <h2 id="news-title">LO ÚLTIMO DE LA <em>F1</em></h2>
+              <p className="eyebrow eyebrow-red">{t("news.eyebrow")}</p>
+              <h2 id="news-title" dangerouslySetInnerHTML={{ __html: t("news.title") }} />
             </div>
           </div>
           <NewsList items={news} compact />
-          <div className="section-action"><Link className="button button-dark" href="/noticias">TODAS LAS NOTICIAS <span>→</span></Link></div>
+          <div className="section-action"><Link className="button button-dark" href="/noticias">{t("news.btn")} <span>→</span></Link></div>
         </section>
       ) : null}
 
       <section className="section archive-section" id="archivo" aria-labelledby="archive-title">
         <div className="section-heading heading-dark">
           <div>
-            <p className="eyebrow eyebrow-yellow">ESTADÍSTICAS</p>
-            <h2 id="archive-title">EXPLORÁ EL <em>ARCHIVO</em></h2>
+            <p className="eyebrow eyebrow-yellow">{t("archive.eyebrow")}</p>
+            <h2 id="archive-title" dangerouslySetInnerHTML={{ __html: t("archive.title") }} />
           </div>
         </div>
         <SearchArchive portraits={{ senna: driverPhoto("senna"), hamilton: driverPhoto("hamilton"), antonelli: driverPhoto("antonelli") }} />
@@ -136,21 +137,18 @@ export default async function Home() {
       <section className="section section-light" id="ranking" aria-labelledby="stats-title">
         <div className="stats-layout">
           <div className="stats-copy">
-            <p className="eyebrow eyebrow-red">MODELO V7.6</p>
-            <h2 id="stats-title">RANKING <em>HISTÓRICO</em></h2>
-            <p>
-              Compará pilotos de distintas épocas con un modelo histórico que separa rendimiento,
-              contexto del auto y dificultad de cada temporada.
-            </p>
+            <p className="eyebrow eyebrow-red">{t("ranking.eyebrow")}</p>
+            <h2 id="stats-title" dangerouslySetInnerHTML={{ __html: t("ranking.title") }} />
+            <p>{t("ranking.desc")}</p>
             <div className="stats-facts">
-              <div><strong>75+</strong><span>TEMPORADAS</span></div>
-              <div><strong>800+</strong><span>PILOTOS</span></div>
-              <div><strong>1950</strong><span>DESDE</span></div>
+              <div><strong>75+</strong><span>{t("ranking.fact.seasons")}</span></div>
+              <div><strong>800+</strong><span>{t("ranking.fact.drivers")}</span></div>
+              <div><strong>1950</strong><span>{t("ranking.fact.since")}</span></div>
             </div>
-            <Link className="button button-dark" href="/ranking">VER EL RANKING <span>→</span></Link>
+            <Link className="button button-dark" href="/ranking">{t("ranking.btn")} <span>→</span></Link>
           </div>
           <figure className="telemetry-chart">
-            <figcaption className="chart-head"><span>COMPARACIÓN HISTÓRICA · MODELO V7.6</span><b>RATING ELO DE CARRERA</b></figcaption>
+            <figcaption className="chart-head"><span>{t("ranking.chart.head")}</span><b>{t("ranking.chart.sub")}</b></figcaption>
             <div className="chart-area">
               <div className="chart-y" aria-hidden="true">{[1, .75, .5, .25, 0].map((share) => <span key={share}>{Math.round(eloLow + (eloHigh - eloLow) * share)}</span>)}</div>
               <ol className="chart-bars">
@@ -165,18 +163,18 @@ export default async function Home() {
                 ))}
               </ol>
             </div>
-            <div className="chart-legend"><span><i /> ELO RETROSPECTIVO</span><span>ARCHIVO {historyIndex.meta.firstSeason} — {historyIndex.meta.lastSeason}</span></div>
+            <div className="chart-legend"><span><i /> {t("ranking.chart.retro")}</span><span>{t("ranking.chart.archive")} {historyIndex.meta.firstSeason} - {historyIndex.meta.lastSeason}</span></div>
           </figure>
         </div>
       </section>
 
-      <PredestinatoFeature eyebrow="JUEGOS · MODO CARRERA" />
+      <PredestinatoFeature eyebrow={t("games.career")} />
 
       <section className="section section-dark" id="juegos" aria-labelledby="games-title">
         <div className="section-heading heading-dark">
           <div>
-            <p className="eyebrow eyebrow-yellow">PARTIDAS RÁPIDAS</p>
-            <h2 id="games-title">MÁS <em>JUEGOS</em></h2>
+            <p className="eyebrow eyebrow-yellow">{t("games.eyebrow")}</p>
+            <h2 id="games-title" dangerouslySetInnerHTML={{ __html: t("games.title") }} />
           </div>
         </div>
         <GameGrid />
