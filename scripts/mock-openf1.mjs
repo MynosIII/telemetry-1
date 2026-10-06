@@ -240,6 +240,27 @@ DATA[9901].race_control = [{ session_key: 9901, date: new Date(qualyStart).toISO
 DATA[9902].team_radio = [[1.5, 1], [5, 44], [7.2, 63], [11, 43], [12.4, 1], [16, 4], [24, 16]].map(([minutes, number]) => ({ session_key: 9902, meeting_key: 1300, driver_number: number, date: new Date(raceStart + minutes * 60_000).toISOString(), recording_url: `http://localhost:${PORT}/static/radio-${number}.wav` }));
 DATA[9903].team_radio = [[2, 1], [4, 16]].map(([minutes, number]) => ({ session_key: 9903, meeting_key: 1301, driver_number: number, date: new Date(liveStart + minutes * 60_000).toISOString(), recording_url: `http://localhost:${PORT}/static/radio-${number}.wav` }));
 
+// Standings before the finished race come from OpenF1; the live race has to fall back to Jolpica.
+const STANDING = DRIVERS.map(([number, acronym, , team], index) => ({ number, acronym, team, points: Math.max(0, 310 - index * 17 - (index % 3) * 6) }));
+DATA[9902].championship_drivers = STANDING.map((entry, index) => ({ session_key: 9902, meeting_key: 1300, driver_number: entry.number, position_start: index + 1, points_start: entry.points, position_current: null, points_current: null }));
+const TEAM_POINTS = new Map();
+for (const entry of STANDING) TEAM_POINTS.set(entry.team, (TEAM_POINTS.get(entry.team) ?? 0) + entry.points);
+DATA[9902].championship_teams = [...TEAM_POINTS].sort((a, b) => b[1] - a[1]).map(([team_name, points], index) => ({ session_key: 9902, meeting_key: 1300, team_name, position_start: index + 1, points_start: points }));
+const JOLPICA_TEAMS = { "Red Bull Racing": "Red Bull", "Kick Sauber": "Sauber", "Haas F1 Team": "Haas F1 Team", "Racing Bulls": "RB F1 Team" };
+function jolpica(path) {
+  const year = new Date(liveStart).getUTCFullYear();
+  if (path === `/${year}.json`) return { MRData: { RaceTable: { Races: [{ round: "1", date: "2000-01-01" }, { round: "2", date: new Date(liveStart).toISOString().slice(0, 10), Sprint: { date: new Date(liveStart - 86_400_000).toISOString().slice(0, 10) } }] } } };
+  const driverStandings = STANDING.map((entry, index) => ({ position: String(index + 1), points: String(Math.round(entry.points / 2)), Driver: { code: entry.acronym, permanentNumber: String(entry.number === 1 ? 33 : entry.number) }, Constructors: [{ name: JOLPICA_TEAMS[entry.team] ?? entry.team }] }));
+  if (path === `/${year}/1/driverStandings.json`) return { MRData: { StandingsTable: { StandingsLists: [{ DriverStandings: driverStandings }] } } };
+  if (path === `/${year}/1/constructorStandings.json`) {
+    const teams = new Map();
+    for (const row of driverStandings) teams.set(row.Constructors[0].name, (teams.get(row.Constructors[0].name) ?? 0) + Number(row.points));
+    return { MRData: { StandingsTable: { StandingsLists: [{ ConstructorStandings: [...teams].map(([name, points]) => ({ points: String(points), Constructor: { name } })) }] } } };
+  }
+  if (path === `/${year}/2/sprint.json`) return { MRData: { RaceTable: { Races: [{ SprintResults: STANDING.slice(0, 8).reverse().map((entry, index) => ({ points: String(index + 1), Driver: { code: entry.acronym }, Constructor: { name: JOLPICA_TEAMS[entry.team] ?? entry.team } })) }] } } };
+  return null;
+}
+
 // A short two-tone beep stands in for every radio clip.
 function beep() {
   const rate = 8000; const samples = rate * 1.2;
@@ -278,7 +299,7 @@ function matches(row, filters) {
   });
 }
 
-const TABLES = { car_data: "carData", location: "location", laps: "laps", stints: "stints", pit: "pits", position: "position", intervals: "intervals", weather: "weather", race_control: "race_control", drivers: "drivers", team_radio: "team_radio" };
+const TABLES = { car_data: "carData", location: "location", laps: "laps", stints: "stints", pit: "pits", position: "position", intervals: "intervals", weather: "weather", race_control: "race_control", drivers: "drivers", team_radio: "team_radio", championship_drivers: "championship_drivers", championship_teams: "championship_teams" };
 
 createServer((request, response) => {
   const url = new URL(request.url, "http://localhost");
@@ -287,6 +308,11 @@ createServer((request, response) => {
   let rows;
   if (url.pathname.startsWith("/static/radio-")) {
     response.writeHead(200, { "Content-Type": "audio/wav", "Content-Length": BEEP.length }).end(BEEP);
+    return;
+  }
+  if (url.pathname.startsWith("/ergast/f1/")) {
+    const body = jolpica(url.pathname.replace("/ergast/f1", ""));
+    response.writeHead(body ? 200 : 404, { "Content-Type": "application/json" }).end(JSON.stringify(body ?? {}));
     return;
   }
   if (table === "sessions") rows = SESSIONS.filter((row) => matches(row, filters));

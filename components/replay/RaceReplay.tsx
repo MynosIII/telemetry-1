@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SessionSelect, useSessionList } from "@/components/replay/SessionPicker";
 import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline";
+import { ChampionshipPanel } from "@/components/replay/ChampionshipPanel";
 import { DriverTelemetry } from "@/components/replay/DriverTelemetry";
 import { PitProjection } from "@/components/replay/PitProjection";
 import { StintChart } from "@/components/replay/StintChart";
@@ -522,6 +523,8 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
           <IncidentsPanel timeline={timeline} drivers={driverMap} at={t} selected={selected} />
           <RadioPanel timeline={timeline} drivers={driverMap} at={t} playing={playing} speed={live && following ? 1 : speed} selected={selected} />
           </div>
+
+          {session.type === "Race" && <ChampionshipPanel data={data} rows={tower} />}
         </>
       )}
     </div>
