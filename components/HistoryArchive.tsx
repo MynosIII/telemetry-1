@@ -2,7 +2,7 @@
 
 import { Suspense, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { FallbackImage } from "./FallbackImage";
 import { driverPhoto } from "@/lib/driver-photos";
 import { hasTeamLogo, teamLogo } from "@/lib/team-media";
@@ -30,10 +30,8 @@ const figures = { wins: ["Victorias", "victorias"], poles: ["Salidas P1", "salid
 type Figure = keyof typeof figures;
 
 const isCategory = (value: string | null | undefined): value is HistoryCategory => !!value && Object.hasOwn(historyCategories, value);
-// Temporadas first, then the categories in their usual order.
-const tabOrder = (Object.entries(historyCategories) as [HistoryCategory, string][]).sort(([a], [b]) => Number(b === "seasons") - Number(a === "seasons"));
 
-/** The open category lives in ?categoria= so the section sub-bar can link to it. */
+/** The open category lives in ?categoria=; the section sub-bar is the only category switcher. */
 export function HistoryArchive({ entities, seasons }: { entities: ArchiveEntry[]; seasons: ReactNode }) {
   // useSearchParams needs a Suspense boundary on the static /historia page.
   return <Suspense fallback={<Archive entities={entities} seasons={seasons} category="drivers" />}><ArchiveFromQuery entities={entities} seasons={seasons} /></Suspense>;
@@ -41,14 +39,11 @@ export function HistoryArchive({ entities, seasons }: { entities: ArchiveEntry[]
 
 function ArchiveFromQuery({ entities, seasons }: { entities: ArchiveEntry[]; seasons: ReactNode }) {
   const requested = useSearchParams()?.get("categoria");
-  const router = useRouter();
-  const pathname = usePathname();
   const category = isCategory(requested) ? requested : "drivers";
-  return <Archive key={category} entities={entities} seasons={seasons} category={category}
-    onCategory={key => router.replace(`${pathname}?categoria=${key}`, { scroll: false })} />;
+  return <Archive key={category} entities={entities} seasons={seasons} category={category} />;
 }
 
-function Archive({ entities, seasons, category, onCategory }: { entities: ArchiveEntry[]; seasons: ReactNode; category: HistoryCategory; onCategory?: (key: HistoryCategory) => void }) {
+function Archive({ entities, seasons, category }: { entities: ArchiveEntry[]; seasons: ReactNode; category: HistoryCategory }) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState("wins");
   const [champions, setChampions] = useState(false);
@@ -64,11 +59,6 @@ function Archive({ entities, seasons, category, onCategory }: { entities: Archiv
   const figure: Figure = sort === "poles" || sort === "podiums" ? sort : "wins";
   return <div className="history-archive" id="archivo">
     {category === "tyres" ? <p className="history-note"><Link href="/historia/neumaticos">Fabricantes e historia de los neumáticos →</Link></p> : null}
-    <div className="history-categories" role="group" aria-label="Categorías del archivo">
-      {tabOrder.map(([key, label]) =>
-        <button key={key} aria-pressed={category === key} onClick={() => onCategory?.(key)}>{label}<span>{entities.filter(e => e.category === key).length}</span></button>
-      )}
-    </div>
     {category === "seasons" ? seasons : <>
     <div className="history-filters">
       <label className="history-search"><span className="sr-only">Buscar en {historyCategories[category].toLowerCase()}</span><input type="search" placeholder={`Buscar en ${historyCategories[category].toLowerCase()}…`} value={query} onChange={e => { setQuery(e.target.value); setLimit(30); }} /></label>
