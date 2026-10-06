@@ -1,0 +1,27 @@
+.circuit-page .history-section>h2 { margin: 0 0 22px; font-size: clamp(23px,3vw,34px); }
+.circuit-opened { color: #bbb; margin-bottom: 18px; }
+.circuit-pole-chart { border: 1px solid #303035; background: #101114; padding: 20px; }
+.circuit-pole-chart label { display:flex; gap:14px; align-items:center; flex-wrap:wrap; font-size:13px; }
+.circuit-pole-chart select { color:#eee; background:#19191d; border:1px solid #555; padding:12px; max-width:100%; }
+.circuit-pole-chart svg { display:block; width:100%; margin-top:18px; }
+.circuit-pole-chart svg a:focus-visible circle { stroke:#28cfff; stroke-width:4px; }
+.circuit-layout-era { margin:30px 0 50px; border-top:1px solid #333; padding-top:22px; }
+.circuit-layout-era h3 { font-size:22px; margin:0 0 8px; }
+.circuit-layout-meta { color:#aaa; font-size:12px; margin-bottom:20px; }
+.circuit-layout-era .circuit-layout { max-width:750px; margin:16px auto 24px; }
+.circuit-layout-era .circuit-layout img { height:340px; aspect-ratio:auto; object-fit:contain; }
+.circuit-venue-facts { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px; padding:20px 0; border-bottom:1px solid #333; }
+.circuit-venue-facts dt { color:#aaa; font-size:11px; text-transform:uppercase; }
+.circuit-venue-facts dd { margin:10px 0; font-size:14px; line-height:1.6; }
+.circuit-race-table table { min-width:1120px; font-size:12px; }
+.circuit-race-table th,.circuit-race-table td { padding:12px; vertical-align:top; }
+.circuit-race-table small { display:block; font-size:10px; color:#aaa; margin-top:6px; }
+.circuit-highlights { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.circuit-highlights>div { background:#101114; border:1px solid #303035; padding:24px; }
+.circuit-highlights h3 { margin:0 0 20px; font-size:18px; }
+.circuit-highlights ol { padding-left:24px; }
+.circuit-highlights li { padding:10px 0; }
+.circuit-highlights li strong { display:block; color:#aaa; font-size:12px; margin-top:6px; }
+.circuit-highlights p { font-size:13px; line-height:1.7; color:#aaa; }
+.circuit-conversion { font-size:44px; color:#ff4d42; }
+@media(max-width:600px) { .circuit-highlights,.circuit-venue-facts { grid-template-columns:1fr; } .circuit-pole-chart { padding:12px; } .circuit-pole-chart svg { min-height:200px; } }

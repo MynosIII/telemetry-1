@@ -11,6 +11,8 @@ import { getCircuitProfile, getSchedule, getStandings, isSeasonDataLive } from "
 import { StaleDataNotice } from "@/components/StaleDataNotice";
 import { getCircuitTopology } from "@/lib/circuit-topology";
 import { getRaceWeekendData } from "@/lib/race-weekend";
+import { getHistoryEntity } from "@/lib/history";
+import { getCircuitHistoryId } from "@/lib/circuit-visuals";
 
 type Props = { params: Promise<{ circuitId: string }> };
 
@@ -33,6 +35,7 @@ export default async function CircuitPage({ params }: Props) {
   const race = schedule.find((item) => item.circuitId === circuitId);
   if (!race) notFound();
   const topology = getCircuitTopology(circuitId);
+  const history = await getHistoryEntity("circuits", getCircuitHistoryId(circuitId));
   const weekend = race.state === "next" ? await getRaceWeekendData(race, standings) : undefined;
 
   return (
@@ -52,6 +55,7 @@ export default async function CircuitPage({ params }: Props) {
       </section>
 
       <section className="circuit-body">
+        {history ? <p className="circuit-history-link"><Link className="button button-dark" href={history.href}>HISTORIA, TIEMPOS DE POLE Y TRAZADOS →</Link></p> : null}
         <div className="circuit-stats" aria-label="Datos del circuito">
           <div><span>INAUGURADO</span><strong>{circuit.opened}</strong></div>
           <div><span>LONGITUD</span><strong>{circuit.length}</strong></div>

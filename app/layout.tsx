@@ -7,6 +7,7 @@ import "./tyres.css";
 import "./replay.css";
 import "./weather.css";
 import "./social-links.css";
+import "./circuit-history.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://telemetry-1.vercel.app"),

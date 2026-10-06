@@ -28,6 +28,11 @@ const currentCircuitLayouts: Record<string, string> = {
   yas_marina: "yas-marina-2"
 };
 
+/** Resolve calendar circuit IDs to the historical archive's F1DB identities. */
+export function getCircuitHistoryId(circuitId: string) {
+  return currentCircuitLayouts[circuitId]?.replace(/-\d+$/, "") ?? circuitId.replaceAll("_", "-");
+}
+
 const countryCodes: Record<string, string> = {
   Australia: "AU",
   Argentina: "AR",

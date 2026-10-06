@@ -4,6 +4,7 @@ import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HistoryDossier } from "@/components/HistoryDossier";
+import { CircuitDossier } from "@/components/CircuitDossier";
 import { getHistoryEntity, historyCategories } from "@/lib/history";
 import { getCarCatalogue, getChampionship, getSeasonSprints } from "@/lib/championship-history";
 import { SeasonDossier } from "@/components/SeasonDossier";
@@ -37,6 +38,7 @@ export default async function EntityPage({ params }: Props) {
   const entity = await getHistoryEntity(category, entityId);
   if (!entity) notFound();
   if (category === "drivers") redirect(`/pilotos/${entity.id}`);
+  if (category === "circuits") return <CircuitDossier entity={entity} />;
   if (category === "tyres" && Object.hasOwn(tyreCompanies, entity.id)) {
     const analysis = (await getTyreAnalysis()).tyres[entity.id];
     if (analysis) return <TyreDossier entity={entity} analysis={analysis} />;
