@@ -4,6 +4,7 @@ import { getHistoryIndex, type HistoryEntity } from "@/lib/history";
 import type { DriverProfile } from "@/lib/types";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
+import { DriverCareer } from "./DriverCareer";
 
 const number = (value: number) => value.toLocaleString("es-AR", { maximumFractionDigits: 2 });
 const date = (value?: string) => value ? new Intl.DateTimeFormat("es-AR", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${value}T12:00:00Z`)) : undefined;
@@ -83,6 +84,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
     })}</div></figure> : null}
 
     {history ? <p className="driver-overview-scope">CIFRAS DEL ARCHIVO {index?.meta.firstSeason ?? 1950}–{archiveEnd} · NO INCLUYEN LA TEMPORADA EN CURSO</p> : null}
+    {history ? <DriverCareer history={history} /> : null}
     <div className="driver-overview-metrics">
       <MetricGroup title="Participación" metrics={[
         { label: "Inscripciones", value: stats?.entries, href: "#conexiones" },

@@ -281,3 +281,22 @@
 .history-chart-controls button[aria-pressed=true] { background: #f2f2f2; border-color: #f2f2f2; color: #0a0a0a; }
 .history-avatar-tyres { width: 84px; border-radius: 6px; background: #f2f2f2; color: #333; }
 .history-avatar-tyres img { object-fit: contain; padding: 6px; box-sizing: border-box; }
+/* Career achievements: the historical snapshot stays separate from live results. */
+.driver-career { margin: 24px 0; }
+.driver-career h2 { font-family: var(--font-ui); font-size: 20px; border-left: 3px solid #ff1801; padding-left: 12px; margin: 26px 0 16px; }
+.driver-career-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 12px 0; }
+.driver-career-cards > div, .driver-career-milestones article { background: #101114; border: 1px solid #292a2d; padding: 20px; min-width: 0; }
+.driver-career-cards dt, .driver-career-milestones h3 { font-family: var(--font-ui); font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: #a6a6ad; margin: 0 0 12px; }
+.driver-career-cards dd { font-family: var(--font-ui); font-size: clamp(20px, 3vw, 34px); font-weight: 800; margin: 0; overflow-wrap: anywhere; }
+.driver-career-cards > div:last-child { border-color: #665016; }
+.driver-career-cards > div:last-child dd { color: #ffd34b; }
+.driver-career-bests > div:last-child { border-color: #292a2d; }
+.driver-career-bests > div:last-child dd { color: inherit; }
+.driver-career-milestones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.driver-career-milestones strong { font-family: var(--font-ui); font-size: 16px; }
+.driver-career small { display: block; color: #a6a6ad; font-size: 12px; margin-top: 8px; line-height: 1.5; }
+.driver-career-milestones p > span { display: block; margin: 10px 0; color: #a6a6ad; }
+.driver-career details { padding: 16px; background: #101114; border: 1px solid #292a2d; }
+.driver-career summary { cursor: pointer; }
+.driver-career details li { margin: 14px 0; }
+@media (max-width: 600px) { .driver-career-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; } .driver-career-cards > div { padding: 14px; } .driver-career-milestones { grid-template-columns: 1fr; } }
