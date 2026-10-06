@@ -263,3 +263,19 @@
 .season-car { border-radius: 6px; }
 @media (max-width: 760px) { .ency-title { padding-top: 32px; } }
 .ency-section > summary small { display: none; }
+
+/* Archive images: circuit layouts, driver portraits, team logos */
+.circuit-layout { margin: 0 0 14px; }
+.circuit-layout img { display: block; width: 100%; height: auto; aspect-ratio: 1; box-sizing: border-box; padding: 16px; background: var(--a-soft, #161616); }
+.circuit-layout figcaption { font-size: 11px; line-height: 1.5; padding-top: 6px; color: var(--a-muted, #9b9b9b); }
+.circuit-layout figcaption b { display: block; color: inherit; font-weight: 700; }
+.circuit-layout-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 18px; margin: 4px 0 12px; }
+.circuit-layout-grid .circuit-layout { margin: 0; }
+.circuit-layout-grid figcaption b { color: var(--a-text, inherit); font-size: 12px; }
+.archive-portrait { display: block; width: 64px; height: 64px; object-fit: cover; object-position: 50% 20%; background: var(--a-soft, #161616); }
+.ency-champion-strip > div:has(> .archive-portrait) { display: grid; grid-template-columns: 64px minmax(0, 1fr); column-gap: 14px; row-gap: 6px; align-content: start; }
+.ency-champion-strip .archive-portrait { grid-row: 1 / span 3; }
+.infobox-figure { display: flex; align-items: center; gap: 10px; }
+.infobox-figure .archive-portrait { width: 44px; height: 44px; flex: none; }
+.archive-team-mark { display: block; width: 44px; height: 44px; flex: none; box-sizing: border-box; padding: 5px; object-fit: contain; background: #f4f4f4; }
+.ency-infobox .circuit-layout { max-width: 220px; margin-inline: auto; }
