@@ -1,9 +1,9 @@
 import { cookies } from "next/headers";
 import { LangCode } from "./i18n";
 
-export function getLang(): LangCode {
+export async function getLang(): Promise<LangCode> {
   try {
-    const cookieStore = cookies();
+    const cookieStore = await cookies();
     const lang = cookieStore.get("NEXT_LOCALE")?.value;
     return lang === "en" ? "en" : "es";
   } catch {

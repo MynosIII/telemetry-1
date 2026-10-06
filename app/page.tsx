@@ -48,7 +48,7 @@ export default async function Home() {
       : race)
   } : seasonForecast;
   const leader = data.standings[0];
-  const lang = getLang();
+  const lang = await getLang();
   const t = useTranslation(lang);
 
   return (

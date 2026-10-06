@@ -3,8 +3,8 @@ import { LiveLink, SiteNav, SiteSubNav } from "@/components/SiteNav";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { getLang } from "@/lib/server-i18n";
 
-export function SiteHeader() {
-  const lang = getLang();
+export async function SiteHeader() {
+  const lang = await getLang();
   
   return (
     <>
