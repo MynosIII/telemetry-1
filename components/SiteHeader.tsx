@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { LiveLink, SiteNav, SiteSubNav } from "@/components/SiteNav";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export function SiteHeader() {
   return (
@@ -11,7 +12,10 @@ export function SiteHeader() {
         <span className="brand-copy">TELEMETRY <b>ONE</b></span>
       </Link>
       <SiteNav />
-      <LiveLink />
+      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+        <LanguageSwitcher />
+        <LiveLink />
+      </div>
     </header>
     <SiteSubNav />
     <span id="contenido" tabIndex={-1} className="skip-target" />

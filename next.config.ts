@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
     "/historia/autos": ["./public/history/cars.json"],
     "/circuitos/*": ["./public/history/circuits/*.json"],
     "/historia/records": ["./public/history/records.json"],
+    "/historia/comparar": ["./public/history/index.json", "./public/history/drivers/*.json"],
     "/historia/autos/[modelId]": ["./public/history/cars/*.json"],
     "/pilotos/*": ["./public/history/drivers/*.json", "./public/history/driver-achievements.json"]
   },

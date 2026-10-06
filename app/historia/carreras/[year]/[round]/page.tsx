@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { RaceDossier } from "@/components/RaceDossier";
+import { RaceLapChart } from "@/components/RaceLapChart";
+import { FIRST_LAP_CHART_SEASON } from "@/lib/lap-chart";
 import { getCarCatalogue, getChampionship, getHistoricRace } from "@/lib/championship-history";
 
 type Props = { params: Promise<{ year: string; round: string }> };
@@ -15,5 +18,7 @@ export default async function RacePage({ params }: Props) {
   if (!race || !season) notFound();
   const ids = new Set(race.model.map(m => m.carModel));
   const cars = catalogue.cars.filter(car => ids.has(car.id)).map(car => ({ id: car.id, name: car.name, href: car.href }));
-  return <RaceDossier race={race} season={season} cars={cars} />;
+  // Lap data comes from Jolpica at request time, so it streams in after the rest of the article.
+  const laps = race.year >= FIRST_LAP_CHART_SEASON ? <Suspense fallback={<p className="ency-note">Cargando las vueltas…</p>}><RaceLapChart race={race} /></Suspense> : undefined;
+  return <RaceDossier race={race} season={season} cars={cars} laps={laps} />;
 }
