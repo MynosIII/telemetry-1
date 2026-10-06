@@ -1,0 +1,41 @@
+.compare-wrap h2 { font: 650 20px/1.2 var(--font-ui); letter-spacing: -.02em; margin: 0 0 14px; }
+.compare-form { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin: 0 0 30px; }
+.compare-form label { display: grid; gap: 6px; flex: 1 1 220px; font-size: 12px; color: var(--a-muted); }
+.compare-form input { font: inherit; font-size: 15px; color: var(--a-text); background: var(--a-panel); border: 1px solid #333; border-radius: 4px; padding: 10px 12px; }
+.compare-form button { font: inherit; font-size: 14px; font-weight: 650; padding: 11px 18px; border-radius: 4px; border: 1px solid #f2f2f2; background: #f2f2f2; color: #0a0a0a; cursor: pointer; }
+.compare-vs { color: var(--a-muted); font-size: 13px; padding-bottom: 12px; }
+.compare-heads { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding-bottom: 18px; margin-bottom: 26px; border-bottom: 1px solid var(--a-line); }
+.compare-heads > :last-child { justify-content: flex-end; }
+.compare-name { display: flex; align-items: center; gap: 9px; font-size: clamp(17px, 2vw, 22px); font-weight: 650; min-width: 0; }
+.compare-name i { flex: none; width: 10px; height: 10px; border-radius: 50%; }
+.compare-name img { flex: none; border-radius: 1px; }
+.compare-name a { text-decoration: none !important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.compare-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }
+.compare-table td, .compare-table th { padding: 9px 12px; border-bottom: 1px solid #1c1c1c; }
+.compare-table th { color: var(--a-muted); font-weight: 400; text-align: center; font-size: 12px; }
+.compare-table td { width: 30%; font-size: 14px; }
+.compare-table td:last-child { text-align: right; }
+.compare-wrap .is-better { font-weight: 700; color: #fff; }
+.compare-duel { margin-bottom: 26px; }
+.compare-duel h3 { font-size: 14px; font-weight: 650; margin: 0 0 12px; }
+.compare-duel h3 small { color: var(--a-muted); font-weight: 400; margin-left: 6px; }
+.compare-duel-row { display: grid; grid-template-columns: 50px 1fr 50px; align-items: baseline; font-size: 12px; color: var(--a-muted); text-align: center; margin-top: 10px; }
+.compare-duel-row strong { font-size: 22px; color: var(--a-text); font-variant-numeric: tabular-nums; text-align: left; }
+.compare-duel-row strong:last-child { text-align: right; }
+.compare-bar { display: flex; height: 6px; gap: 2px; margin-top: 6px; }
+.compare-bar span { display: block; height: 100%; border-radius: 2px; }
+.compare-model { margin-top: 40px; }
+.compare-model .ency-controls > a { text-decoration: none !important; border-radius: 4px; }
+.compare-model .ency-controls > a[aria-current="page"] { background: #f2f2f2; border-color: #f2f2f2; color: #0a0a0a; }
+.compare-chart { margin: 0; overflow-x: auto; }
+.compare-chart svg { width: 100%; height: auto; display: block; }
+.compare-chart text { fill: var(--a-muted); font-size: 11px; }
+.compare-races { margin-top: 36px; }
+.compare-races tr.is-teammates td { background: #161616; }
+.compare-suggestions ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0 24px; }
+.compare-suggestions li { border-bottom: 1px solid var(--a-line); padding: 11px 0; font-size: 14px; }
+@media (max-width: 760px) {
+  .compare-columns { grid-template-columns: 1fr; gap: 20px; }
+  .compare-vs { display: none; }
+  .compare-chart svg { min-width: 620px; }
+}

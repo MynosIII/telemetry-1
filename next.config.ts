@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
     "/historia/carreras/[year]/[round]": ["./public/history/races/*.json", "./public/history/championships/*.json", "./public/history/cars.json"],
     "/historia/autos": ["./public/history/cars.json"],
     "/historia/records": ["./public/history/records.json"],
+    "/historia/comparar": ["./public/history/index.json", "./public/history/drivers/*.json"],
     "/historia/autos/[modelId]": ["./public/history/cars/*.json"],
     "/pilotos/*": ["./public/history/drivers/*.json", "./public/history/driver-achievements.json"]
   },
