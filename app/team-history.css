@@ -37,19 +37,18 @@
 /* Story */
 .team-story-layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 64px; align-items: start; }
 .team-story { max-width: 68ch; }
-.team-story p { margin: 0 0 1.1em; color: #d2d2d2; font-size: 17px; line-height: 1.75; }
-.team-story p:first-child { color: #fff; font-size: 19px; line-height: 1.6; }
-.story-link { color: #fff; text-decoration: underline; text-decoration-color: #5a5a5a; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-.story-link:hover { text-decoration-color: var(--red); }
-.story-count { font-weight: inherit; }
-.team-moments { position: sticky; top: 140px; }
-.team-moments h3 { margin: 0 0 6px; color: var(--soft); font-size: 13px; font-weight: 650; }
-.team-moments ol { list-style: none; margin: 0; padding: 0; }
-.team-moments li { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--edge); }
-.team-moment-year { font-weight: 750; font-variant-numeric: tabular-nums; }
-.team-moment-year:hover { color: #ff6a63; }
-.team-moments strong { display: block; font-size: 14px; font-weight: 650; }
-.team-moments small { display: block; color: #8f8f8f; font-size: 13px; line-height: 1.45; margin-top: 2px; }
+.team-story p { margin: 0 0 1.15em; color: #d6d6d6; font-size: 18px; line-height: 1.75; }
+.team-story p:first-child { color: #fff; font-size: 21px; line-height: 1.6; }
+.story-link { color: #fff; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--team) 80%, #fff 20%); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.story-link:hover { background: color-mix(in srgb, var(--team) 25%, transparent); }
+.story-count { font-weight: 750; }
+.team-facts { display: grid; gap: 10px; position: sticky; top: 80px; }
+.team-facts > div { padding: 16px 18px; background: var(--panel); border: 1px solid var(--edge); border-left: 4px solid var(--team); border-radius: 12px; }
+.team-facts span { display: block; color: var(--soft); font-size: 13px; }
+.team-facts strong { display: block; font-size: 28px; margin: 2px 0; }
+.team-facts strong a:hover { color: var(--team); }
+.team-facts small { color: #bababa; font-size: 13px; }
+
 
 /* Lineage */
 .lineage { margin-top: 36px; padding: 0 0 8px; }
@@ -85,14 +84,15 @@
 .lineage-band { cursor: pointer; }
 .lineage-band.is-on text { fill: #fff; }
 .lineage-star { fill: #ffd34d; font-size: 12px; }
-.lineage-chart figcaption { color: #9a9a9a; font-size: 13px; margin-top: 6px; }
+.lineage-chart figcaption { color: #bababa; font-size: 13px; margin-top: 6px; }
 
-/* Wins: a ranked list, not a wall of cards. */
-.team-winners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); column-gap: 40px; }
-.team-winners a { display: grid; grid-template-columns: 22px 36px minmax(0, 1fr) auto; grid-template-rows: auto 3px; align-items: center; gap: 6px 12px; padding: 11px 0 10px; border-bottom: 1px solid var(--edge); }
-.team-winners a:hover .team-winner-name strong { text-decoration: underline; text-decoration-color: var(--red); text-underline-offset: 4px; }
-.team-winner-rank { color: #6f6f6f; font-weight: 650; font-size: 13px; font-variant-numeric: tabular-nums; }
-.team-winner-face { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: #1c1c1c; border: 1px solid #333; font-weight: 750; font-size: 12px; color: #aaa; overflow: hidden; }
+/* Wins */
+.team-winners { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+.team-winners a { display: grid; grid-template-columns: 22px 52px minmax(0, 1fr) auto; grid-template-rows: auto 6px; align-items: center; gap: 10px 14px; padding: 16px 18px 14px; background: var(--panel); border: 1px solid var(--edge); border-radius: 14px; transition: border-color .15s, transform .15s; }
+.team-winners a:hover { border-color: var(--team); transform: translateY(-2px); }
+.team-winner-rank { color: #aaa; font-weight: 750; font-size: 14px; }
+.team-winner-face { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--team) 30%, #1c1c1c); border: 2px solid var(--team); font-weight: 800; font-size: 18px; overflow: hidden; }
+
 .team-winner-face img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 .team-winner-name strong { display: block; font-size: 15px; font-weight: 650; }
 .team-winner-name small, .team-winner-wins small { color: #8f8f8f; font-size: 12px; }
