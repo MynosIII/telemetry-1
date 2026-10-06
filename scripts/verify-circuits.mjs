@@ -14,6 +14,7 @@ for(const circuit of circuits){
  assert.ok(stories[circuit.id].source.startsWith('https://en.wikipedia.org/wiki/'));
  assert.ok(data.venues[circuit.id].placeName);
  const article=articles[circuit.id];assert.ok(article?.character&&article?.legacy,circuit.id);
+ const editorialSources=article.additionalSources??[];assert.equal(new Set(editorialSources.map(s=>s.url)).size,editorialSources.length,`${circuit.id}: duplicate sources`);
  const layouts=[...new Set(rows.map(r=>r.layoutId))];
  assert.deepEqual(Object.keys(article.layouts).sort(),[...layouts].sort(),`${circuit.id}: editorial layout IDs`);
  for(const id of layouts)assert.ok(article.layouts[id].title&&article.layouts[id].text,`${id}: layout history`);

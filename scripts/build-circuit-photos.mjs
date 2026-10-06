@@ -1,5 +1,6 @@
 /* Metadata only: no photo binaries are downloaded. Review candidates before publication. */
-import {readFile,writeFile} from 'node:fs/promises';
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+await mkdir('.vercel',{recursive:true});
 const stories=JSON.parse(await readFile('data/circuit-stories.json','utf8'));
 let photos={};try{photos=JSON.parse(await readFile('.vercel/circuit-photo-candidates.json','utf8'));}catch{}
 const queue=Object.entries(stories).filter(([id])=>!photos[id]);
