@@ -7,6 +7,7 @@ import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline
 import { ChampionshipPanel } from "@/components/replay/ChampionshipPanel";
 import { DriverTelemetry } from "@/components/replay/DriverTelemetry";
 import { PitProjection } from "@/components/replay/PitProjection";
+import { RadarPanel } from "@/components/replay/RadarPanel";
 import { StintChart } from "@/components/replay/StintChart";
 import { IncidentsPanel, RadioPanel } from "@/components/replay/ReplayFeeds";
 import { TyreChip } from "@/components/replay/TyreChip";
@@ -449,6 +450,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
           </div>
 
           <div className="replay-stage">
+            <div className="replay-column">
             <section className="replay-panel replay-map">
               <TrackOutline points={timeline.track} markers={markers} label={`Posiciones en pista, ${session.meeting}`} showLabels />
               {selectedRow && (
@@ -460,6 +462,9 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
                 </p>
               )}
             </section>
+
+            <RadarPanel sessionKey={session.key} at={t} />
+            </div>
 
             <section className="replay-panel replay-tower" aria-label="Clasificación">
               <div className="tower-row tower-head">

@@ -195,7 +195,9 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
 .pit-loss { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-bottom: 10px; }
 .pit-loss label { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #a3a3a3; }
 .pit-loss input { accent-color: #e10600; width: 160px; }
-.pit-loss b { color: #fff; font-variant-numeric: tabular-nums; min-width: 4.5ch; }
+.pit-loss b { color: #fff; font-variant-numeric: tabular-nums; min-width: 4.5ch; white-space: nowrap; }
+.pit-loss label span { white-space: nowrap; }
+.pit-loss input { min-width: 0; flex: 1 1 120px; }
 .pit-loss p { margin: 0; color: #8a8a8a; font-size: 12px; }
 .pit-table { display: grid; }
 .pit-row { display: grid; grid-template-columns: 36px minmax(120px, 1.1fr) 90px 52px minmax(0, 1.6fr) 90px; gap: 10px; align-items: center; width: 100%; padding: 6px 4px; border: 0; border-bottom: 1px solid #1d1d1d; background: none; color: #fff; font: 13px/1.3 var(--font-ui); text-align: left; cursor: pointer; font-variant-numeric: tabular-nums; }
@@ -217,6 +219,11 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
 .champ-head span:nth-child(n+4) { text-align: right; }
 .champ-heads { display: grid; grid-template-columns: 1fr 1fr; column-gap: 28px; }
 .champ-today { color: #6fcf8a; }
+.replay-column { display: grid; gap: 14px; min-width: 0; }
+.radar-frame { position: relative; max-width: 420px; aspect-ratio: 1; margin: 0 auto; background: #0d0d0d; border-radius: 4px; overflow: hidden; }
+.radar-frame img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.radar-frame .replay-empty { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 20px; }
+.radar-pin { position: absolute; left: 50%; top: 50%; width: 12px; height: 12px; margin: -6px 0 0 -6px; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px rgba(0, 0, 0, .6); }
 .replay-feeds { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 0.8fr); gap: 14px; margin-top: 14px; align-items: start; }
 .replay-control-feed ol, .replay-feed ol { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
 .replay-feed li { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid #1d1d1d; font-size: 13px; }

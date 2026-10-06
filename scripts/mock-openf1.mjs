@@ -7,6 +7,7 @@
  *   OPENF1_BASE_URL=http://localhost:4010 npm run dev
  */
 import { createServer } from "node:http";
+import { deflateSync } from "node:zlib";
 
 const PORT = Number(process.env.PORT ?? 4010);
 const HZ = 3.7;
@@ -249,7 +250,9 @@ DATA[9902].championship_teams = [...TEAM_POINTS].sort((a, b) => b[1] - a[1]).map
 const JOLPICA_TEAMS = { "Red Bull Racing": "Red Bull", "Kick Sauber": "Sauber", "Haas F1 Team": "Haas F1 Team", "Racing Bulls": "RB F1 Team" };
 function jolpica(path) {
   const year = new Date(liveStart).getUTCFullYear();
-  if (path === `/${year}.json`) return { MRData: { RaceTable: { Races: [{ round: "1", date: "2000-01-01" }, { round: "2", date: new Date(liveStart).toISOString().slice(0, 10), Sprint: { date: new Date(liveStart - 86_400_000).toISOString().slice(0, 10) } }] } } };
+  const circuit = { Circuit: { Location: { lat: "-34.694", long: "-58.459" } } };
+  if (path === "/2026.json" && year !== 2026) return { MRData: { RaceTable: { Races: [{ round: "16", date: "2026-09-20", ...circuit }] } } };
+  if (path === `/${year}.json`) return { MRData: { RaceTable: { Races: [{ round: "1", date: "2000-01-01" }, { round: "16", date: "2026-09-20", ...circuit }, { round: "2", date: new Date(liveStart).toISOString().slice(0, 10), ...circuit, Sprint: { date: new Date(liveStart - 86_400_000).toISOString().slice(0, 10) } }] } } };
   const driverStandings = STANDING.map((entry, index) => ({ position: String(index + 1), points: String(Math.round(entry.points / 2)), Driver: { code: entry.acronym, permanentNumber: String(entry.number === 1 ? 33 : entry.number) }, Constructors: [{ name: JOLPICA_TEAMS[entry.team] ?? entry.team }] }));
   if (path === `/${year}/1/driverStandings.json`) return { MRData: { StandingsTable: { StandingsLists: [{ DriverStandings: driverStandings }] } } };
   if (path === `/${year}/1/constructorStandings.json`) {
@@ -259,6 +262,33 @@ function jolpica(path) {
   }
   if (path === `/${year}/2/sprint.json`) return { MRData: { RaceTable: { Races: [{ SprintResults: STANDING.slice(0, 8).reverse().map((entry, index) => ({ points: String(index + 1), Driver: { code: entry.acronym }, Constructor: { name: JOLPICA_TEAMS[entry.team] ?? entry.team } })) }] } } };
   return null;
+}
+
+// A fake satellite precipitation map: a rain band that drifts across the frame with time.
+const CRC = Array.from({ length: 256 }, (_, n) => { let c = n; for (let k = 0; k < 8; k += 1) c = c & 1 ? 0xedb88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; });
+const crc32 = (buffer) => { let c = 0xffffffff; for (const byte of buffer) c = CRC[(c ^ byte) & 0xff] ^ (c >>> 8); return (c ^ 0xffffffff) >>> 0; };
+function pngChunk(type, data) {
+  const length = Buffer.alloc(4); length.writeUInt32BE(data.length);
+  const body = Buffer.concat([Buffer.from(type), data]);
+  const crc = Buffer.alloc(4); crc.writeUInt32BE(crc32(body));
+  return Buffer.concat([length, body, crc]);
+}
+function radarPng(time) {
+  const size = 240; const phase = (Date.parse(time) / 1_800_000) % 8;
+  const rows = [];
+  for (let y = 0; y < size; y += 1) {
+    const row = Buffer.alloc(1 + size * 3);
+    for (let x = 0; x < size; x += 1) {
+      const land = Math.sin(x / 31) + Math.cos(y / 23) > 0.2;
+      let [r, g, b] = land ? [58, 72, 52] : [18, 32, 58];
+      const d = Math.hypot(x - phase * 34, y - 120 - Math.sin(x / 40) * 30);
+      if (d < 60) { const k = 1 - d / 60; [r, g, b] = k > 0.6 ? [230, 70, 60] : k > 0.3 ? [240, 210, 60] : [70, 150, 230]; }
+      row.writeUInt8(r, 1 + x * 3); row.writeUInt8(g, 2 + x * 3); row.writeUInt8(b, 3 + x * 3);
+    }
+    rows.push(row);
+  }
+  const header = Buffer.alloc(13); header.writeUInt32BE(size, 0); header.writeUInt32BE(size, 4); header[8] = 8; header[9] = 2;
+  return Buffer.concat([Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]), pngChunk("IHDR", header), pngChunk("IDAT", deflateSync(Buffer.concat(rows))), pngChunk("IEND", Buffer.alloc(0))]);
 }
 
 // A short two-tone beep stands in for every radio clip.
@@ -308,6 +338,11 @@ createServer((request, response) => {
   let rows;
   if (url.pathname.startsWith("/static/radio-")) {
     response.writeHead(200, { "Content-Type": "audio/wav", "Content-Length": BEEP.length }).end(BEEP);
+    return;
+  }
+  if (url.pathname === "/gibs/wms") {
+    const image = radarPng(url.searchParams.get("TIME") ?? new Date().toISOString());
+    response.writeHead(200, { "Content-Type": "image/png", "Content-Length": image.length }).end(image);
     return;
   }
   if (url.pathname.startsWith("/ergast/f1/")) {
