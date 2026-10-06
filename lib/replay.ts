@@ -307,6 +307,8 @@ export type ReplayTimeline = {
   intervals: Record<number, ReplayIntervalPoint[]>;
   pits: { driver: number; at: number; lap: number | null; duration: number | null }[];
   raceControl: { at: number; category: string; flag: string | null; message: string; driver: number | null; lap: number | null }[];
+  /** Team radio clips, in time order. */
+  radios: { at: number; driver: number; url: string }[];
   track: { x: number; y: number }[];
   finished: boolean;
 };
@@ -346,12 +348,13 @@ export async function getReplayTimeline(key: number): Promise<ReplayTimeline | n
   const session = await getSessionSummary(key);
   if (!session) return null;
   const memoMs = session.finished ? MEMO_FINISHED : 5_000;
-  const [positionRows, intervalRows, pitRows, controlRows, lapRows] = await Promise.all([
+  const [positionRows, intervalRows, pitRows, controlRows, lapRows, radioRows] = await Promise.all([
     openF1(`/position?session_key=${key}`, memoMs),
     openF1(`/intervals?session_key=${key}`, memoMs).catch(() => []),
     openF1(`/pit?session_key=${key}`, memoMs).catch(() => []),
     openF1(`/race_control?session_key=${key}`, memoMs).catch(() => []),
-    openF1(`/laps?session_key=${key}`, memoMs)
+    openF1(`/laps?session_key=${key}`, memoMs),
+    openF1(`/team_radio?session_key=${key}`, memoMs).catch(() => [])
   ]);
 
   const positions: ReplayTimeline["positions"] = {};
@@ -397,8 +400,15 @@ export async function getReplayTimeline(key: number): Promise<ReplayTimeline | n
     }];
   }).sort((a, b) => a.at - b.at);
 
+  const radios = radioRows.flatMap((row) => {
+    const driver = num(row.driver_number);
+    const at = time(row.date);
+    const url = str(row.recording_url);
+    return driver === null || at === null || !/^https?:\/\//.test(url) ? [] : [{ at, driver, url }];
+  }).sort((a, b) => a.at - b.at);
+
   const track = await trackOutline(key, lapRows).catch(() => []);
-  return { positions, intervals, pits, raceControl, track, finished: session.finished };
+  return { positions, intervals, pits, raceControl, radios, track, finished: session.finished };
 }
 
 export async function getReplayPositions(key: number, from: number, to: number): Promise<ReplayPositionsChunk> {
