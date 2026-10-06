@@ -33,10 +33,30 @@ export type ReplayLap = {
   speedTrap: number | null;
 };
 
+export type ReplayStint = {
+  driver: number;
+  stint: number;
+  compound: string;
+  lapStart: number;
+  lapEnd: number | null;
+  ageAtStart: number;
+};
+
+export type ReplayWeather = {
+  at: number;
+  air: number | null;
+  track: number | null;
+  humidity: number | null;
+  rain: boolean;
+  wind: number | null;
+};
+
 export type ReplaySession = {
   session: ReplaySessionSummary;
   drivers: ReplayDriver[];
   laps: Record<number, ReplayLap[]>;
+  stints: ReplayStint[];
+  weather: ReplayWeather[];
 };
 
 export type LapTelemetry = {
@@ -160,13 +180,46 @@ export function groupLaps(rows: Row[]) {
   return laps;
 }
 
+export function toStints(rows: Row[]): ReplayStint[] {
+  return rows.flatMap((row) => {
+    const driver = num(row.driver_number);
+    const lapStart = num(row.lap_start);
+    if (driver === null || lapStart === null) return [];
+    return [{
+      driver,
+      stint: num(row.stint_number) ?? 1,
+      compound: str(row.compound, "UNKNOWN").toUpperCase(),
+      lapStart,
+      lapEnd: num(row.lap_end),
+      ageAtStart: num(row.tyre_age_at_start) ?? 0
+    }];
+  }).sort((a, b) => a.driver - b.driver || a.stint - b.stint);
+}
+
+export function toWeather(rows: Row[]): ReplayWeather[] {
+  return rows.flatMap((row) => {
+    const at = time(row.date);
+    if (at === null) return [];
+    return [{
+      at,
+      air: num(row.air_temperature),
+      track: num(row.track_temperature),
+      humidity: num(row.humidity),
+      rain: (num(row.rainfall) ?? 0) > 0,
+      wind: num(row.wind_speed)
+    }];
+  }).sort((a, b) => a.at - b.at);
+}
+
 export async function getReplaySession(key: number): Promise<ReplaySession | null> {
   const session = await getSessionSummary(key);
   if (!session) return null;
   const memoMs = session.finished ? MEMO_FINISHED : 5_000;
-  const [driverRows, lapRows] = await Promise.all([
+  const [driverRows, lapRows, stintRows, weatherRows] = await Promise.all([
     openF1(`/drivers?session_key=${key}`, memoMs),
-    openF1(`/laps?session_key=${key}`, memoMs)
+    openF1(`/laps?session_key=${key}`, memoMs),
+    openF1(`/stints?session_key=${key}`, memoMs),
+    openF1(`/weather?session_key=${key}`, memoMs)
   ]);
   const seen = new Set<number>();
   const drivers = driverRows
@@ -177,7 +230,7 @@ export async function getReplaySession(key: number): Promise<ReplaySession | nul
       return true;
     })
     .sort((a, b) => a.number - b.number);
-  return { session, drivers, laps: groupLaps(lapRows) };
+  return { session, drivers, laps: groupLaps(lapRows), stints: toStints(stintRows), weather: toWeather(weatherRows) };
 }
 
 /** Index of the sample in `times` (sorted) closest to `target`. */

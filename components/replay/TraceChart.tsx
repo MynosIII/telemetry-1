@@ -24,6 +24,11 @@ type TraceChartProps = {
   /** Draw a zero line (delta charts). */
   zero?: boolean;
   maxX: number;
+  /** x-axis labels and the tooltip heading; distance in metres by default. */
+  formatX?: (x: number) => string;
+  xTicks?: number[];
+  /** Shaded x ranges drawn behind the data (rain). */
+  bands?: [number, number][];
   hover: number | null;
   onHover: (x: number | null) => void;
 };
@@ -55,10 +60,11 @@ export function valueAt(xs: number[], ys: number[], target: number) {
 }
 
 function formatDistance(metres: number) {
+  if (metres > 0 && metres % 1000 === 0) return `${metres / 1000} km`;
   return metres >= 1000 ? `${(metres / 1000).toFixed(1)} km` : `${Math.round(metres)} m`;
 }
 
-export function TraceChart({ title, series, height = 180, domain, ticks, format, step, fill, zero, maxX, hover, onHover }: TraceChartProps) {
+export function TraceChart({ title, series, height = 180, domain, ticks, format, step, fill, zero, maxX, formatX = formatDistance, xTicks: xTickValues, bands = [], hover, onHover }: TraceChartProps) {
   const box = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(0);
 
@@ -70,7 +76,7 @@ export function TraceChart({ title, series, height = 180, domain, ticks, format,
     return () => observer.disconnect();
   }, []);
 
-  const values = series.flatMap((item) => item.y);
+  const values = series.flatMap((item) => item.y).filter(Number.isFinite);
   const [minY, maxY] = domain ?? [Math.min(...values, 0), Math.max(...values, 1)];
   const spanY = maxY - minY || 1;
   const plotWidth = Math.max(1, width - MARGIN.left - MARGIN.right);
@@ -78,16 +84,22 @@ export function TraceChart({ title, series, height = 180, domain, ticks, format,
   const sx = (x: number) => MARGIN.left + (x / (maxX || 1)) * plotWidth;
   const sy = (y: number) => MARGIN.top + plotHeight - ((y - minY) / spanY) * plotHeight;
   const yTicks = ticks ?? [minY, maxY];
-  const xTicks = maxX > 0 ? Array.from({ length: Math.floor(maxX / 1000) + 1 }, (_, i) => i * 1000).filter((x) => x <= maxX) : [];
+  const xTicks = xTickValues ?? (maxX > 0 ? Array.from({ length: Math.floor(maxX / 1000) + 1 }, (_, i) => i * 1000).filter((x) => x <= maxX) : []);
 
   const pathFor = (item: TraceSeries) => {
     let path = "";
+    let open = false;
     item.x.forEach((x, i) => {
+      if (!Number.isFinite(item.y[i])) {
+        open = false;
+        return;
+      }
       const px = sx(x).toFixed(1);
       const py = sy(item.y[i]).toFixed(1);
-      if (i === 0) path += `M${px},${py}`;
+      if (!open) path += `M${px},${py}`;
       else if (step) path += `H${px}V${py}`;
       else path += `L${px},${py}`;
+      open = true;
     });
     return path;
   };
@@ -106,6 +118,9 @@ export function TraceChart({ title, series, height = 180, domain, ticks, format,
       <div ref={box} className="trace-chart-plot" style={{ height }}>
         {width > 0 && (
           <svg width={width} height={height} onPointerMove={handleMove} onPointerLeave={() => onHover(null)} role="img" aria-label={title}>
+            {bands.map(([from, to]) => (
+              <rect key={`${from}-${to}`} x={sx(from)} y={MARGIN.top} width={Math.max(1, sx(to) - sx(from))} height={plotHeight} className="trace-band" />
+            ))}
             {yTicks.map((tick) => (
               <g key={tick}>
                 <line x1={MARGIN.left} x2={width - MARGIN.right} y1={sy(tick)} y2={sy(tick)} className="trace-grid" />
@@ -114,7 +129,7 @@ export function TraceChart({ title, series, height = 180, domain, ticks, format,
             ))}
             {zero && minY < 0 && maxY > 0 && <line x1={MARGIN.left} x2={width - MARGIN.right} y1={sy(0)} y2={sy(0)} className="trace-zero" />}
             {xTicks.map((tick) => (
-              <text key={tick} x={sx(tick)} y={height - 4} className="trace-axis" textAnchor="middle">{tick === 0 ? "0" : `${tick / 1000} km`}</text>
+              <text key={tick} x={sx(tick)} y={height - 4} className="trace-axis" textAnchor="middle">{tick === 0 && !xTickValues ? "0" : formatX(tick)}</text>
             ))}
             {series.map((item) => (
               <g key={item.key}>
@@ -127,7 +142,7 @@ export function TraceChart({ title, series, height = 180, domain, ticks, format,
             {hover !== null && (
               <g pointerEvents="none">
                 <line x1={sx(hover)} x2={sx(hover)} y1={MARGIN.top} y2={MARGIN.top + plotHeight} className="trace-cursor" />
-                {readings.map(({ item, value }) => value === null ? null : (
+                {readings.map(({ item, value }) => value === null || !Number.isFinite(value) ? null : (
                   <circle key={item.key} cx={sx(hover)} cy={sy(value)} r={4} fill={item.color} stroke="#111" strokeWidth={2} />
                 ))}
               </g>
@@ -136,9 +151,9 @@ export function TraceChart({ title, series, height = 180, domain, ticks, format,
         )}
         {hover !== null && width > 0 && (
           <div className="trace-tooltip" style={sx(hover) > width / 2 ? { right: width - sx(hover) + 12 } : { left: sx(hover) + 12 }}>
-            <span>{formatDistance(hover)}</span>
+            <span>{formatX(hover)}</span>
             {readings.map(({ item, value }) => (
-              <b key={item.key}><i style={{ background: item.color }} />{item.label} {value === null ? "—" : format(value)}</b>
+              <b key={item.key}><i style={{ background: item.color }} />{item.label} {value === null || !Number.isFinite(value) ? "—" : format(value)}</b>
             ))}
           </div>
         )}
