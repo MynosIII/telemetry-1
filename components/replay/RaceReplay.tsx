@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SessionSelect, useSessionList } from "@/components/replay/SessionPicker";
 import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline";
+import { DriverTelemetry } from "@/components/replay/DriverTelemetry";
 import { IncidentsPanel, RadioPanel } from "@/components/replay/ReplayFeeds";
 import { TyreChip } from "@/components/replay/TyreChip";
 import { formatClock, formatElapsed, formatLapTime } from "@/components/replay/format";
@@ -481,6 +482,12 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
               ))}
             </section>
           </div>
+
+          {selectedRow ? (
+            <div className="replay-driver">
+              <DriverTelemetry sessionKey={session.key} driver={selectedRow.driver} at={t} live={live} />
+            </div>
+          ) : <p className="replay-hint">Elegí un piloto en la clasificación para ver su telemetría.</p>}
 
           <div className="replay-feeds">
           <section className="replay-panel replay-control-feed" aria-label="Dirección de carrera">
