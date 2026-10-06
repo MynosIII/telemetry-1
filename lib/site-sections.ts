@@ -8,6 +8,8 @@ export type SiteSection = {
   match: string[];
   /** Shown as a second bar only while you are inside the section. */
   links?: SubLink[];
+  /** Not listed in the main menu (En vivo has its own header button). */
+  hidden?: boolean;
 };
 
 export const siteSections: SiteSection[] = [
@@ -58,6 +60,16 @@ export const siteSections: SiteSection[] = [
     links: [
       { href: "/juegos/predestinato", label: "El Predestinado" },
       ...games.map((game) => ({ href: `/juegos/${game.slug}`, label: game.title }))
+    ]
+  },
+  {
+    href: "/en-vivo",
+    label: "En vivo",
+    match: ["/en-vivo"],
+    hidden: true,
+    links: [
+      { href: "/en-vivo", label: "En directo" },
+      { href: "/en-vivo/telemetria", label: "Telemetría" }
     ]
   }
 ];
