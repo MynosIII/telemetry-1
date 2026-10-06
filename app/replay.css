@@ -207,6 +207,16 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
 .pit-up { color: #6fcf8a; }
 .pit-down { color: #ff5a4f; }
 .pit-muted { color: #7a7a7a; }
+.championship { margin-top: 14px; }
+.championship-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.championship-head h2 { margin: 0; color: #a3a3a3; font: 600 13px/1.2 var(--font-ui); }
+.champ-list { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 28px; }
+.champ-row { display: grid; grid-template-columns: 30px 30px minmax(0, 1fr) 54px 46px 54px 54px; gap: 8px; align-items: center; padding: 6px 0; border-bottom: 1px solid #1d1d1d; font-size: 13px; font-variant-numeric: tabular-nums; break-inside: avoid; }
+.champ-row code { text-align: right; }
+.champ-head { color: #7f7f7f; font-size: 11px; border-bottom: 0; }
+.champ-head span:nth-child(n+4) { text-align: right; }
+.champ-heads { display: grid; grid-template-columns: 1fr 1fr; column-gap: 28px; }
+.champ-today { color: #6fcf8a; }
 .replay-feeds { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 0.8fr); gap: 14px; margin-top: 14px; align-items: start; }
 .replay-control-feed ol, .replay-feed ol { list-style: none; margin: 0; padding: 0; max-height: 340px; overflow-y: auto; }
 .replay-feed li { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 10px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid #1d1d1d; font-size: 13px; }
@@ -243,6 +253,9 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
   .replay-stage { grid-template-columns: 1fr; }
   .replay-feeds { grid-template-columns: 1fr 1fr; }
   .replay-driver { grid-template-columns: 1fr; }
+  .champ-list { columns: 1; }
+  .champ-heads { grid-template-columns: 1fr; }
+  .champ-heads > :nth-child(2) { display: none; }
   .replay-feeds > .replay-control-feed { grid-column: 1 / -1; }
 }
 @media (max-width: 720px) {
