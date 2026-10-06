@@ -11,6 +11,9 @@ import { POSITION_CHUNK_MS } from "@/lib/replay-constants";
 import type { ReplayDriver, ReplayIntervalPoint, ReplayPositionsChunk, ReplaySession, ReplayTimeline } from "@/lib/replay";
 
 const SPEEDS = [1, 2, 5, 10, 30];
+/** How far behind real time the live view runs, so OpenF1 has published every car's position. */
+const LIVE_DELAY_MS = 10_000;
+const LIVE_REFRESH_MS = 10_000;
 
 async function getJson<T>(url: string, init?: RequestInit): Promise<T> {
   const response = await fetch(url, init);
@@ -85,7 +88,9 @@ function readQuery() {
   return { session: Number.isInteger(session) && session > 0 ? session : null, t: Number.isFinite(t) && t > 0 ? t : null };
 }
 
-export function RaceReplay() {
+/** Replays a session; with `liveSession` it follows that session in real time instead. */
+export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
+  const live = liveSession !== undefined;
   const [year, setYear] = useState<number | null>(null);
   const [sessionKey, setSessionKey] = useState<number | null>(null);
   const [data, setData] = useState<ReplaySession | null>(null);
@@ -100,16 +105,45 @@ export function RaceReplay() {
   const loadingChunks = useRef(new Set<number>());
   const tRef = useRef(0);
   const startOffset = useRef<number | null>(null);
+  const placedFor = useRef<number | null>(null);
+  const chunkFetchedAt = useRef(new Map<number, number>());
+  const [following, setFollowing] = useState(live);
+  const [now, setNow] = useState(() => Date.now());
 
   const chooseYear = useCallback((value: number) => setYear(value), []);
   const { sessions, error: listError } = useSessionList(year, chooseYear, retry);
 
   useEffect(() => {
+    if (live) {
+      setSessionKey(liveSession);
+      setPlaying(true);
+      return;
+    }
     const query = readQuery();
     startOffset.current = query.t;
     if (query.session) setSessionKey(query.session);
     else setYear(new Date().getFullYear());
-  }, []);
+  }, [live, liveSession]);
+
+  // Live: a clock for the live edge, and fresh timing every few seconds.
+  useEffect(() => {
+    if (!live) return;
+    const clock = window.setInterval(() => setNow(Date.now()), 1000);
+    const refresh = window.setInterval(() => {
+      if (document.visibilityState === "hidden" || !sessionKey) return;
+      Promise.all([
+        getJson<ReplaySession>(`/api/replay/session?key=${sessionKey}`, { cache: "no-store" }),
+        getJson<ReplayTimeline>(`/api/replay/timeline?key=${sessionKey}`, { cache: "no-store" })
+      ]).then(([session, sessionTimeline]) => {
+        setData(session);
+        setTimeline(sessionTimeline);
+      }).catch(() => undefined);
+    }, LIVE_REFRESH_MS);
+    return () => {
+      window.clearInterval(clock);
+      window.clearInterval(refresh);
+    };
+  }, [live, sessionKey]);
 
   // Default to the latest finished race of the season.
   useEffect(() => {
@@ -128,7 +162,9 @@ export function RaceReplay() {
     setTimeline(null);
     setChunks(new Map());
     loadingChunks.current.clear();
-    setPlaying(false);
+    chunkFetchedAt.current.clear();
+    placedFor.current = null;
+    if (!live) setPlaying(false);
     setError(null);
     Promise.all([
       getJson<ReplaySession>(`/api/replay/session?key=${sessionKey}`),
@@ -141,9 +177,11 @@ export function RaceReplay() {
         const sessionYear = new Date(session.session.startsAt).getFullYear();
         setYear((current) => (current === sessionYear ? current : sessionYear));
       })
-      .catch(() => !cancelled && setError("No pudimos cargar la sesión desde OpenF1."));
+      .catch(() => !cancelled && setError(live
+        ? "El directo no está disponible en este momento. Cuando termine la sesión, va a estar en Repetición."
+        : "No pudimos cargar la sesión desde OpenF1."));
     return () => { cancelled = true; };
-  }, [sessionKey, retry]);
+  }, [sessionKey, retry, live]);
 
   const bounds = useMemo(() => {
     if (!data) return null;
@@ -152,63 +190,85 @@ export function RaceReplay() {
     const ends = laps.map((lap) => (lap.start !== null && lap.duration !== null ? lap.start + lap.duration * 1000 : null)).filter((value): value is number => value !== null);
     const scheduled = Date.parse(data.session.startsAt);
     const start = starts.length ? Math.min(...starts) - 20_000 : scheduled;
-    const end = Math.max(start + 60_000, ...(ends.length ? [Math.max(...ends) + 30_000] : [Date.parse(data.session.endsAt)]));
+    const end = live
+      ? Math.max(start + 1_000, now - LIVE_DELAY_MS)
+      : Math.max(start + 60_000, ...(ends.length ? [Math.max(...ends) + 30_000] : [Date.parse(data.session.endsAt)]));
     return { start, end };
-  }, [data]);
+  }, [data, live, now]);
 
   // Jump to the start (or the shared instant) when a session loads.
   useEffect(() => {
-    if (!bounds) return;
+    if (!bounds || !sessionKey || placedFor.current === sessionKey) return;
+    placedFor.current = sessionKey;
     const offset = startOffset.current;
     startOffset.current = null;
-    const next = offset !== null ? Math.min(bounds.end, bounds.start + offset * 1000) : bounds.start;
+    const next = live ? bounds.end : offset !== null ? Math.min(bounds.end, bounds.start + offset * 1000) : bounds.start;
     tRef.current = next;
     setT(next);
-  }, [bounds]);
+  }, [bounds, sessionKey, live]);
 
   // Playback clock.
   useEffect(() => {
     if (!playing || !bounds) return;
     let frame = 0;
     let last = performance.now();
-    const tick = (now: number) => {
-      tRef.current = Math.min(bounds.end, tRef.current + (now - last) * speed);
-      last = now;
+    const tick = (frameTime: number) => {
+      if (live) {
+        // Live: ride the edge, or catch up to it and then ride it.
+        const edge = Date.now() - LIVE_DELAY_MS;
+        const advanced = tRef.current + (frameTime - last) * (following ? 1 : speed);
+        tRef.current = following ? edge : Math.min(edge, advanced);
+        if (!following && tRef.current >= edge) setFollowing(true);
+        last = frameTime;
+        setT(tRef.current);
+        frame = requestAnimationFrame(tick);
+        return;
+      }
+      tRef.current = Math.min(bounds.end, tRef.current + (frameTime - last) * speed);
+      last = frameTime;
       setT(tRef.current);
       if (tRef.current >= bounds.end) setPlaying(false);
       else frame = requestAnimationFrame(tick);
     };
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
-  }, [playing, speed, bounds]);
+  }, [playing, speed, bounds, live, following]);
 
   const seek = (value: number) => {
     tRef.current = value;
     setT(value);
+    if (live) setFollowing(value >= Date.now() - LIVE_DELAY_MS - 2_000);
   };
 
   // Keep the shared link pointing at the paused instant.
   useEffect(() => {
-    if (!sessionKey || !bounds || playing) return;
+    if (live || !sessionKey || !bounds || playing) return;
     const params = new URLSearchParams({ sesion: String(sessionKey) });
     const offset = Math.round((t - bounds.start) / 1000);
     if (offset > 0) params.set("t", String(offset));
     window.history.replaceState(null, "", `${window.location.pathname}?${params}`);
-  }, [sessionKey, bounds, playing, t]);
+  }, [live, sessionKey, bounds, playing, t]);
 
   // Load the position window under the playhead and the next one.
   const chunkIndex = Math.floor(t / POSITION_CHUNK_MS);
   useEffect(() => {
     if (!sessionKey || !bounds) return;
     for (const index of [chunkIndex, chunkIndex + 1]) {
-      if (index * POSITION_CHUNK_MS > bounds.end || chunks.has(index) || loadingChunks.current.has(index)) continue;
+      if (index * POSITION_CHUNK_MS > bounds.end || loadingChunks.current.has(index)) continue;
+      // Live windows keep filling in, so re-read them every few seconds until they are final.
+      const fetchedAt = chunkFetchedAt.current.get(index);
+      const stillFilling = live && (index + 1) * POSITION_CHUNK_MS > (fetchedAt ?? 0) - 180_000;
+      if (chunks.has(index) && !(stillFilling && Date.now() - (fetchedAt ?? 0) > 4_000)) continue;
       loadingChunks.current.add(index);
-      getJson<ReplayPositionsChunk>(`/api/replay/positions?key=${sessionKey}&chunk=${index}`)
-        .then((chunk) => setChunks((current) => new Map(current).set(index, chunk)))
+      getJson<ReplayPositionsChunk>(`/api/replay/positions?key=${sessionKey}&chunk=${index}`, live ? { cache: "no-store" } : undefined)
+        .then((chunk) => {
+          chunkFetchedAt.current.set(index, Date.now());
+          setChunks((current) => new Map(current).set(index, chunk));
+        })
         .catch(() => undefined)
         .finally(() => loadingChunks.current.delete(index));
     }
-  }, [chunkIndex, sessionKey, bounds, chunks]);
+  }, [chunkIndex, sessionKey, bounds, chunks, live, now]);
 
   const cars = useMemo(() => {
     const merged = new Map<number, { t: number[]; x: number[]; y: number[] }>();
@@ -313,11 +373,13 @@ export function RaceReplay() {
 
   return (
     <div className="race-replay">
+      {!live && (
       <div className="replay-controls replay-controls-two">
         <SessionSelect year={year} onYear={(value) => { setYear(value); setSessionKey(null); }} sessions={sessions} session={sessionKey} onSession={setSessionKey} />
       </div>
+      )}
 
-      {(error || listError) && (
+      {(error || (!live && listError)) && (
         <div className="replay-error" role="alert">
           <p>{error ?? "No pudimos leer el calendario de sesiones de OpenF1."}</p>
           <button type="button" onClick={() => { setError(null); setRetry((value) => value + 1); }}>Reintentar</button>
@@ -330,7 +392,8 @@ export function RaceReplay() {
         <>
           <div className="replay-transport">
             <button type="button" className="replay-play" onClick={() => {
-              if (tRef.current >= bounds.end) seek(bounds.start);
+              if (!live && tRef.current >= bounds.end) seek(bounds.start);
+              if (live && playing) setFollowing(false);
               setPlaying((value) => !value);
             }} aria-label={playing ? "Pausar" : "Reproducir"}>
               {playing ? <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="2" width="3.5" height="12" /><rect x="9.5" y="2" width="3.5" height="12" /></svg>
@@ -351,6 +414,11 @@ export function RaceReplay() {
               onChange={(event) => seek(Number(event.target.value))}
               aria-label="Momento de la sesión"
             />
+            {live && (
+              <button type="button" className="replay-live" aria-pressed={following} onClick={() => { setFollowing(true); setPlaying(true); }}>
+                <i aria-hidden="true" />En directo
+              </button>
+            )}
             <div className="replay-clock">
               <strong>{formatElapsed(t - bounds.start)}</strong>
               <small>{formatClock(t)} ARG</small>
@@ -360,7 +428,7 @@ export function RaceReplay() {
           <div className="replay-status">
             <div className="replay-status-title">
               <strong>{session.meeting}</strong>
-              <small>{session.name}{leaderLap ? ` · Vuelta ${leaderLap}${session.type === "Race" && totalLaps ? ` de ${totalLaps}` : ""}` : ""}</small>
+              <small>{session.name}{leaderLap ? ` · Vuelta ${leaderLap}${session.type === "Race" && totalLaps && !live ? ` de ${totalLaps}` : ""}` : ""}</small>
             </div>
             {state && <div className={`replay-flag flag-${state.key}`}><i aria-hidden="true" />{state.label}</div>}
             {weather && (
