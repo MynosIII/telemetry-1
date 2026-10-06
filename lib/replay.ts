@@ -320,6 +320,20 @@ export type ReplayPositionsChunk = {
   cars: Record<number, { t: number[]; x: number[]; y: number[] }>;
 };
 
+/** One driver's car_data for a window: parallel arrays, `t` in ms from `from`. */
+export type CarDataChunk = {
+  from: number;
+  to: number;
+  driver: number;
+  t: number[];
+  speed: number[];
+  rpm: number[];
+  gear: number[];
+  throttle: number[];
+  brake: number[];
+  drs: number[];
+};
+
 const INTERVAL_STEP_MS = 8_000;
 const POSITION_STEP_MS = 450;
 
@@ -439,4 +453,23 @@ export async function getReplayPositions(key: number, from: number, to: number):
     cars[driver] = car;
   }
   return { from, to, cars };
+}
+
+export async function getCarDataChunk(key: number, driver: number, from: number, to: number): Promise<CarDataChunk> {
+  const rows = await openF1(`/car_data?session_key=${key}&driver_number=${driver}&${dateRange(from, to)}`);
+  const samples = rows
+    .map((row) => ({ at: time(row.date), row }))
+    .filter((sample): sample is { at: number; row: Row } => sample.at !== null && sample.at >= from && sample.at < to)
+    .sort((a, b) => a.at - b.at);
+  const chunk: CarDataChunk = { from, to, driver, t: [], speed: [], rpm: [], gear: [], throttle: [], brake: [], drs: [] };
+  for (const { at, row } of samples) {
+    chunk.t.push(at - from);
+    chunk.speed.push(num(row.speed) ?? 0);
+    chunk.rpm.push(num(row.rpm) ?? 0);
+    chunk.gear.push(num(row.n_gear) ?? 0);
+    chunk.throttle.push(Math.min(100, Math.max(0, num(row.throttle) ?? 0)));
+    chunk.brake.push((num(row.brake) ?? 0) > 0 ? 100 : 0);
+    chunk.drs.push(num(row.drs) ?? 0);
+  }
+  return chunk;
 }
