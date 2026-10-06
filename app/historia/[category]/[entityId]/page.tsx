@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HistoryDossier } from "@/components/HistoryDossier";
 import { getHistoryEntity, historyCategories } from "@/lib/history";
-import { getCarCatalogue, getChampionship } from "@/lib/championship-history";
+import { getCarCatalogue, getChampionship, getSeasonSprints } from "@/lib/championship-history";
 import { SeasonDossier } from "@/components/SeasonDossier";
 import { TyreDossier } from "@/components/TyreDossier";
 import { getTyreAnalysis, tyreCompanies } from "@/lib/tyre-history";
@@ -32,7 +32,7 @@ export default async function EntityPage({ params }: Props) {
   if (category === "seasons") {
     const [season, catalogue] = await Promise.all([getChampionship(entityId), getCarCatalogue()]);
     if (!season) notFound();
-    return <SeasonDossier season={season} cars={catalogue.cars.filter(car => car.seasons.includes(season.year))} />;
+    return <SeasonDossier season={season} sprints={await getSeasonSprints(season)} cars={catalogue.cars.filter(car => car.seasons.includes(season.year))} />;
   }
   const entity = await getHistoryEntity(category, entityId);
   if (!entity) notFound();
