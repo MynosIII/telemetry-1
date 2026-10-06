@@ -23,7 +23,8 @@ export function RadarPanel({ sessionKey, at }: { sessionKey: number; at: number 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [frame, sessionKey]);
 
-  if (failed.has(frame) && loaded === null) return null;
+  // The playhead starts at 0 until the session's bounds are known.
+  if (at < RADAR_STEP_MS || (failed.has(frame) && loaded === null)) return null;
   const from = frame * RADAR_STEP_MS;
   const recent = from > Date.now() - 3 * 3_600_000;
   return (
