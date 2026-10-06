@@ -305,4 +305,4 @@
 .history-avatar-engines img { object-fit: contain; padding: 4px; box-sizing: border-box; }
 /* SVG logos carry their own transparency, so they sit on the page like the PNGs, without a white panel. */
 .history-avatar:has(img[src*=".svg"]), .history-avatar-tyres { background: none; border-color: transparent; }
-.archive-team-mark[src*=".svg"], .team-badge.has-logo[src*=".svg"] { background: none; }
+.archive-team-mark[src*=".svg"], .team-badge.has-logo[src*=".svg"] { background: #f4f4f4; }

@@ -15,13 +15,18 @@ import { inkFor } from "@/lib/team-lineage";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
 import { SocialLinks } from "./SocialLinks";
+import { constructorArticles, constructorPhotos, constructorLogoSources } from "@/lib/constructor-editorial";
+import { CircuitArticlePhoto } from "./CircuitArticlePhoto";
 
 const number = (value: number) => value.toLocaleString("es-AR");
 const photoOf = (id: string) => { const url = driverPhoto(id); return url ? [url] : []; };
 const monogram = (name: string) => name.split(" ").filter(Boolean).map(part => part[0]).slice(0, 2).join("");
 
 async function TeamWikipedia({ entity }: { entity: HistoryEntity }) {
-  const context = await getWikipediaHistory(entity.sources.wikipediaTitle);
+  const article = constructorArticles[entity.id];
+  // Do not enrich an obscure builder with an automatically guessed, unrelated Wikipedia page.
+  if (!article?.wikipediaTitle) return null;
+  const context = await getWikipediaHistory(article.wikipediaTitle);
   if (!context) return null;
   return <div className="team-wiki">
     {context.facts.length ? <dl>{context.facts.map((f, i) => <div key={`${f.label}/${i}`}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl> : null}
@@ -34,6 +39,9 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
   lineage: { base: string; steps: LineageView[]; current: number } | null;
 }) {
   const stats = entity.stats;
+  const article = constructorArticles[entity.id];
+  const photos = constructorPhotos[entity.id] ?? [];
+  const logoSource = constructorLogoSources[entity.id];
   const drivers = entity.relations.find(group => group.category === "drivers")?.items ?? [];
   const engines = entity.relations.find(group => group.category === "engines")?.items ?? [];
   const allWinners = drivers.filter(d => d.wins > 0).sort((a, b) => b.wins - a.wins || a.firstSeason - b.firstSeason);
@@ -116,7 +124,14 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
     <section id="historia" className="team-section team-story-section">
       <h2>La historia de {entity.name}</h2>
       <div className="team-story-layout">
-        <div className="team-story">{story.map((paragraph, i) => <LinkedNarrative key={i} text={paragraph} targets={unique} counts={counts} />)}</div>
+        <div className="team-story">
+          {article ? article.chapters.map((chapter, i) => <details key={chapter.title} className="team-article-chapter" open>
+            <summary><span className="team-chapter-number">{String(i + 1).padStart(2, "0")}</span><h3>{chapter.title}</h3></summary>
+            <div>{chapter.paragraphs.map((paragraph, n) => <LinkedNarrative key={n} text={paragraph} targets={unique} counts={counts} />)}</div>
+          </details>) : story.map((paragraph, i) => <LinkedNarrative key={i} text={paragraph} targets={unique} counts={counts} />)}
+          {article?.coverage === "record-only" ? <p className="team-coverage-note">La documentación verificada permite describir su participación, pero no reconstruir con certeza su fundación o sus cambios de propietario.</p> : null}
+          {photos.length ? <div className="team-article-photos">{photos.map(photo => <CircuitArticlePhoto key={photo.page} photo={photo}/>)}</div> : null}
+        </div>
         <aside className="team-moments" aria-labelledby="momentos"><h3 id="momentos">Momentos</h3><ol>{moments.map((m, i) => <li key={i}>
           <Link prefetch={false} href={`/historia/seasons/${m.season}`} className="team-moment-year">{m.season}</Link>
           <span><strong>{m.label.replace(" del archivo", "")}</strong><small>{tidy(m.event)}</small></span>
@@ -167,8 +182,10 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
 
     <section id="fuentes" className="team-section team-sources">
       <h2>Fuentes</h2>
+      {article?.sources.length ? <ul className="team-article-sources">{article.sources.map(source => <li key={source.url}><a href={source.revision ? `${source.url}?oldid=${source.revision}` : source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul> : null}
+      {logoSource ? <p className="team-note">Emblema {logoSource.role === "manufacturer" ? "del fabricante" : "del equipo"}, sin patrocinadores añadidos. <a href={logoSource.source} target="_blank" rel="noreferrer">Procedencia del logo ↗</a>. Representa la marca, no todas sus versiones históricas.</p> : null}
       <Suspense fallback={null}><TeamWikipedia entity={entity} /></Suspense>
-      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a> hasta diciembre de 2025, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a> y <a href={entity.sources.wikipedia} target="_blank" rel="noreferrer">Wikipedia</a>. ELO y victorias esperadas: <Link href="/ranking">TelemetryOne v7.6</Link>, investigación propia. Victorias y podios se cuentan una vez por auto y carrera. <Link href="/historia#metodologia">Criterios de conteo →</Link></p>
+      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a> hasta diciembre de 2025, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a>. Texto de elaboración propia; referencias históricas arriba. ELO y victorias esperadas: <Link href="/ranking">TelemetryOne v7.6</Link>, investigación propia. Victorias y podios se cuentan una vez por auto y carrera. <Link href="/historia#metodologia">Criterios de conteo →</Link></p>
     </section>
   </div>;
 }

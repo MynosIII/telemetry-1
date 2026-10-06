@@ -158,6 +158,28 @@
 }
 
 .team-more-winners { margin-top: 12px; }
+.team-article-chapter { border-top: 1px solid var(--edge); margin-bottom: 24px; }
+.team-article-chapter summary { display: flex; align-items: baseline; gap: 14px; padding: 18px 0; cursor: pointer; list-style: none; }
+.team-article-chapter summary::-webkit-details-marker { display: none; }
+.team-article-chapter summary::after { content: "+"; margin-left: auto; color: var(--team); font-size: 22px; }
+.team-article-chapter[open] summary::after { content: "−"; }
+.team-article-chapter summary h3 { margin: 0; font-size: 20px; }
+.team-chapter-number { color: var(--team); font-family: var(--font-mono), monospace; font-size: 12px; }
+.team-article-chapter p { line-height: 1.85; }
+.team-coverage-note { border-left: 2px solid var(--team); padding-left: 14px; font-size: 13px; color: #aaa; }
+.team-article-photos figure { margin: 28px 0 0; border: 1px solid var(--edge); background: #141414; }
+.team-article-photos img { display: block; width: 100%; height: auto; max-height: 480px; object-fit: contain; }
+.team-article-photos figcaption { padding: 14px 18px; }
+.team-article-photos figcaption p { font-size: 14px; margin: 0 0 6px; line-height: 1.6; }
+.team-article-photos figcaption small { color: #aaa; font-size: 11px; }
+.team-article-photos .circuit-photo-unavailable { display: block; padding: 35px 18px; }
+.team-article-sources { display: flex; flex-wrap: wrap; gap: 10px 24px; padding-left: 18px; font-size: 13px; }
+.team-moments ol { list-style: none; padding: 0; margin: 0; }
+.team-moments li { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--edge); }
+.team-moment-year { color: var(--team); font-weight: 700; font-variant-numeric: tabular-nums; }
+.team-moments strong, .team-moments small { display: block; }
+.team-moments strong { font-size: 14px; }
+.team-moments small { color: #aaa; font-size: 12px; line-height: 1.6; margin-top: 5px; }
 .team-more-winners summary { display: inline-block; cursor: pointer; padding: 9px 14px; border-radius: 4px; border: 1px solid #3a3a3a; font-weight: 600; font-size: 14px; list-style: none; }
 .team-more-winners summary::-webkit-details-marker { display: none; }
 .team-more-winners summary:hover { border-color: #888; }

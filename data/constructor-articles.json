@@ -1,0 +1,4456 @@
+{
+  "ferrari": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Enzo Ferrari fundó la Scuderia en 1929 en Módena para organizar la participación de pilotos y autos Alfa Romeo. La fabricación de sus propios automóviles llegó después: el nombre Ferrari apareció en un auto de competición en 1947. La escudería que ingresó al Mundial en 1950 tenía, por tanto, una experiencia deportiva anterior a la Fórmula 1. Maranello se convirtió en el centro industrial de un proyecto que vinculó la venta de deportivos con la competición."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La primera etapa mundialista se construyó alrededor de los motores delanteros y de pilotos como Alberto Ascari y Juan Manuel Fangio. La adopción del motor trasero obligó a transformar los autos; más tarde llegaron los monoplazas con motor bóxer, la era turbo y los cambios de reglamento que volvieron a exigir motores atmosféricos. En los años de Niki Lauda, la puesta a punto y la organización técnica fueron tan decisivas como la potencia. La posterior llegada de Michael Schumacher, Jean Todt, Ross Brawn y Rory Byrne dio continuidad a un equipo capaz de encadenar campeonatos."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Su historia reúne períodos de dominio y largas reconstrucciones. A diferencia de muchos equipos que cambiaron de propietario y nombre, Ferrari mantuvo su identidad como fabricante de chasis y motores. Los modelos del índice permiten recorrer esas transformaciones sin confundir una nueva generación de auto con una nueva escudería."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Scuderia Ferrari",
+        "url": "https://en.wikipedia.org/wiki/Scuderia_Ferrari",
+        "revision": 1374851163
+      }
+    ],
+    "wikipediaTitle": "Scuderia Ferrari"
+  },
+  "mclaren": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Bruce McLaren creó su equipo en 1963 después de desarrollar su carrera como piloto. El proyecto participó en distintas categorías antes de presentarse en el Mundial de Fórmula 1 en Mónaco en 1966. Su origen explica una característica persistente: McLaren fue una organización de competición con una identidad propia, aunque utilizara motores de otros fabricantes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La muerte de Bruce en 1970 no terminó con el equipo. Bajo Teddy Mayer llegaron los títulos de Emerson Fittipaldi y James Hunt. La unión con Project Four de Ron Dennis en 1981 abrió otra etapa: el MP4/1, diseñado por John Barnard, llevó el monocasco de fibra de carbono al centro de su desarrollo. Los acuerdos con Porsche y después Honda acompañaron los campeonatos de Niki Lauda, Alain Prost y Ayrton Senna. La asociación con Mercedes permitió otra reconstrucción, con Mika Häkkinen y Lewis Hamilton como campeones."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Las etapas con Peugeot, Honda, Renault y Mercedes muestran que cambiar de motor no equivale a cambiar de constructor. Tras años difíciles y una reorganización deportiva, el título de constructores de 2024 devolvió al equipo a la primera línea. La historia completa también incluye Can-Am e Indianápolis; las cifras de esta página corresponden exclusivamente al Mundial de F1."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: McLaren",
+        "url": "https://en.wikipedia.org/wiki/McLaren",
+        "revision": 1377642738
+      }
+    ],
+    "wikipediaTitle": "McLaren"
+  },
+  "mercedes": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "La tradición de las Flechas de Plata precede al Mundial. Mercedes-Benz entró en la Fórmula 1 en 1954 con el W196 y Juan Manuel Fangio, combinando versiones con ruedas descubiertas y carrocería carenada según el circuito. Ganó campeonatos de pilotos en 1954 y 1955 y abandonó la competición al finalizar 1955, en el contexto de la tragedia de Le Mans."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El regreso se produjo primero como motorista: la colaboración con Ilmor y los acuerdos con equipos como McLaren permitieron desarrollar una nueva presencia en F1. En 2010, la compra de Brawn GP dio origen al equipo de fábrica instalado en Brackley. Esa operación incorporó una estructura que había pasado por Tyrrell, BAR y Honda; no fue la reapertura material del taller que había construido el W196."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "La llegada del reglamento híbrido de 2014 unió el trabajo del chasis en Brackley y el de los motores en Brixworth. Lewis Hamilton y Nico Rosberg protagonizaron el comienzo de una serie de ocho títulos consecutivos de constructores hasta 2021. La continuidad de la marca convive aquí con dos etapas deportivas separadas por décadas, algo que debe tenerse en cuenta al leer sus totales."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Mercedes-Benz in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One",
+        "revision": 1378199793
+      }
+    ],
+    "wikipediaTitle": "Mercedes-Benz in Formula One"
+  },
+  "williams": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Frank Williams y Patrick Head fundaron Williams Grand Prix Engineering en 1977. Era un nuevo proyecto después de la trayectoria de Frank Williams Racing Cars y de su asociación con Walter Wolf. El equipo comenzó utilizando un March y presentó su primer monoplaza propio, el FW06, en 1978. La combinación de dirección comercial y capacidad de ingeniería permitió que una pequeña estructura británica se convirtiera en aspirante al campeonato."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El efecto suelo, los motores Ford y la primera victoria de Clay Regazzoni abrieron el camino a los títulos de Alan Jones y Keke Rosberg. Con Honda, y luego Renault, Williams desarrolló autos que marcaron sus respectivas épocas. La suspensión activa del FW14B y la sofisticación del FW15C reflejan una etapa en la que el control del comportamiento del chasis se volvió fundamental. La prohibición de ayudas electrónicas en 1994 obligó a rediseñar ese enfoque."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Después de los campeonatos de los años noventa, los cambios de motorista y las dificultades financieras modificaron su posición competitiva. La venta a Dorilton Capital en 2020 cerró la propiedad de la familia fundadora, pero conservó el nombre Williams. Sus cambios de dueño se distinguen de las actualizaciones técnicas de cada FW y de los patrocinadores que acompañaron distintas temporadas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Williams Racing",
+        "url": "https://en.wikipedia.org/wiki/Williams_Racing",
+        "revision": 1377858107
+      }
+    ],
+    "wikipediaTitle": "Williams Racing"
+  },
+  "red-bull": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Red Bull Racing nació de la compra de Jaguar por Red Bull a finales de 2004 y debutó con su nueva identidad en 2005. La estructura de Milton Keynes tenía antecedentes en Stewart Grand Prix y Jaguar, de modo que el nuevo propietario heredó instalaciones y personal. El objetivo fue convertir esa base en un equipo capaz de disputar campeonatos, más allá de la presencia publicitaria de la bebida."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La llegada de Adrian Newey y el desarrollo de los autos con motor Renault acompañaron el ascenso de Sebastian Vettel. Entre 2010 y 2013 llegaron cuatro campeonatos consecutivos de pilotos y constructores. El comienzo de la era híbrida cambió el equilibrio: el equipo perdió su posición dominante y terminó modificando su relación con Renault. La asociación con Honda desde 2019 abrió otra fase del proyecto técnico."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Con Max Verstappen llegaron nuevos títulos, primero en una lucha ajustada en 2021 y después con autos especialmente competitivos bajo el reglamento de efecto suelo de 2022. Red Bull y su equipo de Faenza comparten propietario, pero tienen identidades y registros separados. Los patrocinadores del nombre comercial no constituyen un nuevo constructor."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Red Bull Racing",
+        "url": "https://en.wikipedia.org/wiki/Red_Bull_Racing",
+        "revision": 1371252330
+      }
+    ],
+    "wikipediaTitle": "Red Bull Racing"
+  },
+  "lotus": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Colin Chapman construyó el proyecto Lotus alrededor de la ligereza y de la experimentación. Team Lotus ingresó al Mundial en 1958, después de participar en otras categorías. Su relación con el fabricante de autos de carretera no elimina la distinción entre ambas organizaciones: el equipo de competición desarrolló una trayectoria propia."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El Lotus 25 convirtió el monocasco en una referencia; el 49 integró el motor Cosworth DFV como elemento estructural. Jim Clark, Graham Hill y Jochen Rindt estuvieron vinculados a esos avances. El Lotus 72 cambió la disposición del auto con radiadores laterales, mientras que los 78 y 79 explotaron el efecto suelo. La innovación también tuvo costos: algunas soluciones fueron difíciles de desarrollar y no todas dieron resultados."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "La historia original terminó en 1994 después de una etapa de dificultades. Los equipos llamados Lotus Racing y Lotus F1 en el siglo XXI utilizaron el nombre en proyectos distintos. Esta página mantiene separados esos registros para no atribuir a la organización de Chapman los autos o resultados de otras estructuras."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Team Lotus",
+        "url": "https://en.wikipedia.org/wiki/Team_Lotus",
+        "revision": 1366907720
+      }
+    ],
+    "wikipediaTitle": "Team Lotus"
+  },
+  "brabham": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Jack Brabham y Ron Tauranac crearon Motor Racing Developments en 1961 para fabricar autos de competición. Brabham aportaba la experiencia de un piloto campeón y Tauranac el diseño. El negocio incluyó monoplazas para clientes además del equipo de F1, por lo que su actividad industrial fue más amplia que sus participaciones como escudería."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "En 1966 Jack Brabham ganó el campeonato con un auto que llevaba su nombre, impulsado por Repco; Denny Hulme repitió el éxito al año siguiente. La posterior propiedad de Bernie Ecclestone y el trabajo de Gordon Murray dieron otro carácter al proyecto. El BT46B con ventilador y los autos turbo con motor BMW muestran dos caminos diferentes para buscar una ventaja técnica. Nelson Piquet ganó los títulos de 1981 y 1983."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Después de cambios de propietario y temporadas difíciles, el equipo dejó el Mundial en 1992. El nombre abarca generaciones muy distintas de chasis y motores: su continuidad estadística no debe ocultar esas diferencias de ingeniería y organización."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Brabham",
+        "url": "https://en.wikipedia.org/wiki/Brabham",
+        "revision": 1377222362
+      }
+    ],
+    "wikipediaTitle": "Brabham"
+  },
+  "renault": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Renault llevó un programa de fábrica al Mundial en 1977, con un motor turbo que despertó dudas por sus problemas iniciales de fiabilidad. El proyecto tenía su base técnica en Francia y buscaba demostrar el potencial de una tecnología permitida por el reglamento pero todavía poco explotada. La victoria de Jean-Pierre Jabouille en Francia en 1979 convirtió esa apuesta en una referencia."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El fabricante abandonó su primer equipo al final de 1985, aunque después tuvo un papel decisivo como proveedor de motores. Su regreso como constructor llegó mediante la compra de Benetton, cuya estructura de Enstone pasó a competir como Renault en 2002. Fernando Alonso ganó los campeonatos de 2005 y 2006. Tras la etapa de propiedad de Genii y la identidad Lotus F1, Renault recuperó el equipo para 2016."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "El cambio de nombre a Alpine en 2021 dio visibilidad a otra marca del grupo. Las distintas etapas Renault no comparten un único taller fundacional: el programa francés original y la estructura de Enstone tienen historias organizativas diferentes. La genealogía permite seguirlas sin sumar automáticamente los resultados bajo nombres distintos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Renault in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Renault_in_Formula_One",
+        "revision": 1378465100
+      }
+    ],
+    "wikipediaTitle": "Renault in Formula One"
+  },
+  "benetton": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "La empresa de indumentaria Benetton pasó de patrocinar equipos a adquirir Toleman para la temporada de 1986. El equipo conservó el conocimiento y las instalaciones de su predecesor, pero adoptó una nueva identidad comercial y deportiva. Su evolución ilustra cómo una marca ajena a la industria del automóvil podía convertirse en propietaria de una estructura competitiva."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los primeros autos utilizaron motores BMW y después Ford. La dirección de Flavio Briatore y el trabajo técnico de Ross Brawn y Rory Byrne acompañaron el crecimiento de Michael Schumacher, campeón en 1994 y 1995. El acuerdo con Renault para 1995 permitió también conquistar el campeonato de constructores. La salida de figuras clave hacia Ferrari debilitó al equipo y abrió una fase de reconstrucción."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Renault compró la estructura en 2000, aunque el nombre Benetton permaneció hasta 2001. Desde 2002 los resultados se registran bajo Renault. La continuidad del personal y de Enstone explica el parentesco; el cambio de propietario, motor o nombre se narra por separado para evitar tratarlos como un único acontecimiento."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Benetton Formula",
+        "url": "https://en.wikipedia.org/wiki/Benetton_Formula",
+        "revision": 1370962585
+      }
+    ],
+    "wikipediaTitle": "Benetton Formula"
+  },
+  "minardi": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Giancarlo Minardi desarrolló en Faenza un equipo que pasó por Fórmula 2 antes de debutar en F1 en 1985. El proyecto se apoyaba en una tradición local de preparación y competición, con recursos mucho menores que los grandes fabricantes. Su presencia sostenida tuvo más que ver con la capacidad de construir autos y formar personas que con la obtención de victorias."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los primeros años con motores Motori Moderni dieron paso a acuerdos con Ford, Ferrari y Lamborghini. El equipo logró puntos y actuaciones destacadas, pero sufrió recurrentemente la diferencia de presupuesto. Fernando Alonso debutó allí en 2001; otros pilotos y técnicos también utilizaron Minardi como puerta de entrada al Mundial. Paul Stoddart compró la escudería en 2001 y sostuvo su continuidad durante la última etapa."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "La compra por Red Bull en 2005 transformó la estructura en Toro Rosso para 2006. Faenza siguió siendo su base, pero cambió el propósito deportivo y la financiación. El nombre Minardi conserva su propio artículo y sus registros, mientras que la genealogía muestra cómo sus instalaciones continuaron bajo otras identidades."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Minardi",
+        "url": "https://en.wikipedia.org/wiki/Minardi",
+        "revision": 1370964863
+      }
+    ],
+    "wikipediaTitle": "Minardi"
+  },
+  "sauber": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Peter Sauber fundó su empresa en Suiza en 1970 y comenzó construyendo autos deportivos. La relación con Mercedes en los prototipos llevó al éxito en Le Mans y al campeonato de resistencia antes de entrar en F1 en 1993. La base de Hinwil trasladó esa experiencia a monoplazas con una organización independiente."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El equipo utilizó motores de distintos proveedores y se convirtió en una plataforma para jóvenes pilotos. BMW adquirió la estructura y compitió como BMW Sauber entre 2006 y 2009. Cuando el fabricante se retiró, Peter Sauber recuperó el equipo: la continuidad de las instalaciones no evitó nuevos problemas de financiación. La asociación con Alfa Romeo introdujo otro nombre comercial y, desde 2019, otra identidad en el registro del campeonato."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "La etapa llamada Kick Sauber comenzó en 2024 y forma parte de la transición hacia el proyecto Audi. Los resultados del archivo terminan en 2025: las fases posteriores no se utilizan para completar cifras históricas. Sauber, BMW Sauber y Alfa Romeo se relacionan mediante su genealogía, sin borrar la historia anterior de la marca Alfa Romeo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Sauber Motorsport",
+        "url": "https://en.wikipedia.org/wiki/Sauber_Motorsport",
+        "revision": 1370965469
+      }
+    ],
+    "wikipediaTitle": "Sauber Motorsport"
+  },
+  "tyrrell": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Ken Tyrrell construyó su organización a partir de categorías de formación y de su relación con Jackie Stewart. Antes de fabricar su propio chasis, el equipo compitió con autos de otros constructores, entre ellos Matra. El campeonato de Stewart en 1969 con un Matra preparado por Tyrrell precede a la primera generación de monoplazas que llevó el nombre del equipo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los Tyrrell propios aparecieron en 1970 y acompañaron los campeonatos de Stewart en 1971 y 1973. El P34 de seis ruedas representó una búsqueda muy visible de ventaja aerodinámica, pero dependía de neumáticos delanteros especiales y no se convirtió en un camino duradero. En décadas posteriores la escudería recurrió a diseños originales para competir con presupuestos cada vez más limitados."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "La compra por British American Tobacco cerró la etapa Tyrrell después de 1998. BAR no fue simplemente un nuevo auto: cambió la propiedad, el nombre y la organización. Sus resultados, y los de Honda, Brawn y Mercedes, se muestran en artículos diferentes aunque compartan una línea de continuidad."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Tyrrell Racing",
+        "url": "https://en.wikipedia.org/wiki/Tyrrell_Racing",
+        "revision": 1370913743
+      }
+    ],
+    "wikipediaTitle": "Tyrrell Racing"
+  },
+  "alpine": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alpine fue fundada como fabricante de deportivos por Jean Rédélé en 1955. Su nombre llegó como identidad del equipo de F1 en 2021, dentro del grupo Renault. La escudería heredó la estructura de Enstone y la actividad de motores de Viry-Châtillon; no nació como un equipo construido desde cero ese año."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El cambio sustituyó el nombre Renault en el campeonato y buscó relacionar el programa de F1 con la marca de deportivos. Esteban Ocon ganó el Gran Premio de Hungría de 2021. Los años siguientes incluyeron cambios de dirección y reorganizaciones del proyecto técnico, mientras la organización intentaba acercarse a los equipos de cabeza."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Su genealogía incluye Toleman, Benetton, Renault y Lotus F1. Las instalaciones y parte del conocimiento pueden continuar de una etapa a otra, pero cada nombre tiene sus propios autos y resultados. La cobertura estadística de este artículo se limita al cierre de 2025."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Alpine F1 Team",
+        "url": "https://en.wikipedia.org/wiki/Alpine_F1_Team",
+        "revision": 1378303087
+      }
+    ],
+    "wikipediaTitle": "Alpine F1 Team"
+  },
+  "aston-martin": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Aston Martin tuvo una primera participación de fábrica en F1 en 1959 y 1960 con los DBR4 y DBR5. El proyecto coincidió con el avance de los monoplazas de motor trasero, mientras sus autos conservaron motor delantero. La marca abandonó ese programa sin trasladar a F1 el éxito que alcanzaba en resistencia."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La identidad Aston Martin reapareció en 2021 sobre el equipo Racing Point, vinculado al grupo de Lawrence Stroll. Su base de Silverstone procede de una cadena que incluye Jordan, Midland, Spyker y Force India. Esta segunda etapa incorporó inversión en instalaciones y una nueva organización, con motores Mercedes y pilotos como Sebastian Vettel y Fernando Alonso."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "Las dos etapas comparten una marca, pero no una continuidad directa de equipo desde 1960. La genealogía de Silverstone corresponde al proyecto moderno; el relato histórico conserva también los autos de la primera intervención de fábrica. Los acuerdos de patrocinio se distinguen de la identidad Aston Martin."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Aston Martin in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One",
+        "revision": 1377949614
+      }
+    ],
+    "wikipediaTitle": "Aston Martin in Formula One"
+  },
+  "haas": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Gene Haas creó el equipo que debutó en F1 en 2016, después de desarrollar su empresa de máquinas herramienta y participar en NASCAR. Su propuesta redujo la cantidad de componentes producidos internamente mediante acuerdos con Ferrari y Dallara, dentro de las reglas sobre piezas que debe diseñar cada constructor."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La organización combinó una base estadounidense con trabajo técnico y operativo en Europa. Romain Grosjean obtuvo puntos en el debut de Australia de 2016, pero el desempeño posterior alternó temporadas competitivas con dificultades de desarrollo. Los cambios de pilotos y dirección formaron parte de la búsqueda de estabilidad."
+        ]
+      },
+      {
+        "title": "Identidad y legado",
+        "paragraphs": [
+          "El uso de motores y componentes Ferrari no convierte a Haas en Ferrari: la responsabilidad del constructor y su inscripción permanecen separadas. Del mismo modo, los patrocinadores o colaboradores técnicos añadidos al nombre comercial no deben reemplazar el emblema propio del equipo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Haas F1 Team",
+        "url": "https://en.wikipedia.org/wiki/Haas_F1_Team",
+        "revision": 1377839397
+      }
+    ],
+    "wikipediaTitle": "Haas F1 Team"
+  },
+  "brm": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "British Racing Motors nació en la posguerra como un proyecto británico impulsado por Raymond Mays y Peter Berthon. Buscaba reunir capacidad industrial para construir un auto y un motor capaces de competir internacionalmente."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El ambicioso motor V16 de la primera etapa fue seguido por soluciones más prácticas. Graham Hill ganó el título de 1962 con el P57. La posterior expansión de modelos y motores, incluido el V12, no logró sostener aquella competitividad, y el proyecto fue perdiendo presencia durante los años setenta."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: British Racing Motors",
+        "url": "https://en.wikipedia.org/wiki/British_Racing_Motors",
+        "revision": 1370557026
+      }
+    ],
+    "wikipediaTitle": "British Racing Motors"
+  },
+  "cooper": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Charles y John Cooper construyeron en Surbiton pequeños autos de competición que dieron protagonismo a los motores situados detrás del piloto. El aprendizaje en Fórmula 3 y Fórmula 2 precedió a su papel decisivo en F1."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los títulos de Jack Brabham en 1959 y 1960 consolidaron el motor trasero como referencia. Cooper también vendía chasis a equipos particulares. La pérdida de figuras clave y el avance de sus rivales redujeron su protagonismo en los años siguientes, aunque su influencia técnica sobrevivió al equipo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Cooper Car Company",
+        "url": "https://en.wikipedia.org/wiki/Cooper_Car_Company",
+        "revision": 1378799424
+      }
+    ],
+    "wikipediaTitle": "Cooper Car Company"
+  },
+  "alfa-romeo": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "La actividad de Alfa Romeo en Grandes Premios es anterior al Mundial. Los Alfetta 158, desarrollados antes de la guerra, permitieron a Giuseppe Farina y Juan Manuel Fangio ganar los primeros campeonatos de 1950 y 1951."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La marca se retiró como equipo después de 1951 y regresó décadas más tarde como motorista y constructor. La participación de fábrica de finales de los setenta y comienzos de los ochenta fue distinta del acuerdo moderno con Sauber. El nombre Alfa Romeo volvió a identificar a la estructura suiza entre 2019 y 2023: no se trataba del regreso material del equipo de los años cincuenta."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Alfa Romeo in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One",
+        "revision": 1370967280
+      }
+    ],
+    "wikipediaTitle": "Alfa Romeo in Formula One"
+  },
+  "ligier": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Guy Ligier llevó su experiencia como piloto y fabricante de deportivos a la creación de un equipo francés de F1. El debut en 1976 se apoyó en motores Matra y en una identidad visual y comercial fuertemente francesa."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Jacques Laffite ganó en Suecia en 1977 y el cambio a Ford ayudó a un comienzo muy competitivo en 1979. Las siguientes décadas incluyeron cambios de motor y propietario. Olivier Panis consiguió la última victoria en Mónaco en 1996; la compra por Alain Prost transformó la escudería en Prost Grand Prix para 1997."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Équipe Ligier",
+        "url": "https://en.wikipedia.org/wiki/%C3%89quipe_Ligier",
+        "revision": 1374705438
+      }
+    ],
+    "wikipediaTitle": "Équipe Ligier"
+  },
+  "maserati": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Los hermanos Maserati fundaron su empresa en Bolonia en 1914 y desarrollaron una amplia tradición de autos de competición. Su presencia en el Mundial fue una continuación de esa trayectoria, con equipos oficiales y numerosos usuarios privados de sus chasis."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El 250F de motor delantero se convirtió en su referencia más conocida y acompañó el campeonato de Juan Manuel Fangio en 1957. La retirada del programa oficial no hizo desaparecer de inmediato los autos de las parrillas. La historia posterior de la marca y sus otros campeonatos no se suma a las cifras de F1 de esta página."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Maserati in motorsport",
+        "url": "https://en.wikipedia.org/wiki/Maserati_in_motorsport",
+        "revision": 1353784141
+      }
+    ],
+    "wikipediaTitle": "Maserati in motorsport"
+  },
+  "matra": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Matra trasladó capacidades de una empresa industrial y aeroespacial francesa a la competición. Su programa incluyó monoplazas y resistencia, con ambiciones que iban más allá de una única categoría."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "En F1 coexistieron el proyecto de fábrica con motor Matra y el equipo de Ken Tyrrell con chasis Matra y motor Ford. Jackie Stewart ganó el campeonato de 1969 con esa segunda combinación. Después de dejar de fabricar chasis de F1, Matra continuó suministrando motores y obtuvo importantes éxitos en resistencia."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Equipe Matra Sports",
+        "url": "https://en.wikipedia.org/wiki/Equipe_Matra_Sports",
+        "revision": 1370963334
+      }
+    ],
+    "wikipediaTitle": "Equipe Matra Sports"
+  },
+  "vanwall": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Tony Vandervell desarrolló Vanwall para llevar un proyecto británico independiente a los Grandes Premios. El programa combinó su capacidad industrial con la contribución de ingenieros y diseñadores especializados."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Stirling Moss y Tony Brooks protagonizaron su etapa más competitiva. Vanwall ganó el primer campeonato de constructores en 1958, pero la salud de Vandervell y la reducción del programa limitaron su continuidad. Sus apariciones posteriores no mantuvieron una temporada completa como la de aquel título."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Vanwall",
+        "url": "https://en.wikipedia.org/wiki/Vanwall",
+        "revision": 1370966286
+      }
+    ],
+    "wikipediaTitle": "Vanwall"
+  },
+  "brawn": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Brawn GP nació en 2009 de la adquisición de la estructura Honda encabezada por Ross Brawn, después de que el fabricante japonés anunciara su retirada. La operación salvó el equipo de Brackley y adaptó su auto a un motor Mercedes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El BGP 001 aprovechó el nuevo reglamento aerodinámico y una interpretación del difusor que también utilizaron otros equipos. Jenson Button acumuló una ventaja decisiva al comienzo de la temporada. Brawn ganó ambos campeonatos en su único año con ese nombre y pasó a ser Mercedes para 2010."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Brawn GP",
+        "url": "https://en.wikipedia.org/wiki/Brawn_GP",
+        "revision": 1370962739
+      }
+    ],
+    "wikipediaTitle": "Brawn GP"
+  },
+  "jordan": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Eddie Jordan llegó a F1 en 1991 después de construir un equipo en categorías de formación. La escudería irlandesa se instaló en Silverstone y debutó con el 191, un auto competitivo que ayudó a consolidar su reputación."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La primera victoria llegó con Damon Hill en Bélgica en 1998. Heinz-Harald Frentzen disputó el campeonato en 1999, pero el equipo no pudo sostener el mismo nivel durante los años siguientes. La venta a Midland cerró la etapa Jordan al terminar 2005; la estructura siguió bajo nuevos nombres."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Jordan Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/Jordan_Grand_Prix",
+        "revision": 1372044215
+      }
+    ],
+    "wikipediaTitle": "Jordan Grand Prix"
+  },
+  "honda": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Honda ingresó a F1 en 1964 con un programa de chasis y motores propios. La iniciativa japonesa pretendía desarrollar conocimiento y mostrar sus capacidades en una categoría dominada por fabricantes europeos."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Richie Ginther ganó en México en 1965 y John Surtees en Italia en 1967. El retiro al finalizar 1968 fue seguido por regresos como motorista. La compra de BAR dio origen a otra etapa como constructor entre 2006 y 2008. El cierre de ese programa dejó la estructura a Brawn: las diferentes intervenciones Honda no fueron un único equipo ininterrumpido."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Honda in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Honda_in_Formula_One",
+        "revision": 1372207125
+      }
+    ],
+    "wikipediaTitle": "Honda in Formula One"
+  },
+  "march": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "March Engineering nació en 1969 con una propuesta de fabricar autos para equipos clientes en distintas categorías. Max Mosley, Alan Rees, Graham Coaker y Robin Herd formaron el grupo fundador."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los monoplazas de F1 debutaron en 1970, pero la actividad en Fórmula 2, Fórmula 3 e Indy también fue fundamental. La distinción entre autos vendidos a otros participantes y el equipo oficial explica su presencia en tantas inscripciones. La operación de F1 pasó a llamarse Leyton House en 1990 antes de volver al nombre March en 1992."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: March Engineering",
+        "url": "https://en.wikipedia.org/wiki/March_Engineering",
+        "revision": 1377789088
+      }
+    ],
+    "wikipediaTitle": "March Engineering"
+  },
+  "wolf": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Walter Wolf creó su propio equipo después de la asociación de 1976 con Frank Williams. El proyecto de 1977 tuvo licencia canadiense, base en Inglaterra y dirección técnica de Harvey Postlethwaite."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Jody Scheckter ganó en el debut del equipo en Argentina y terminó subcampeón en 1977. La posterior pérdida de competitividad y la salida de Scheckter limitaron el programa. Wolf dejó F1 después de 1979 y sus activos pasaron a Fittipaldi."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Walter Wolf Racing",
+        "url": "https://en.wikipedia.org/wiki/Walter_Wolf_Racing",
+        "revision": 1373411413
+      }
+    ],
+    "wikipediaTitle": "Walter Wolf Racing"
+  },
+  "lotus-f1": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Lotus F1 fue el nombre adoptado por el equipo de Enstone desde 2012, bajo la propiedad de Genii y con acuerdos sobre la marca Lotus. Su estructura procedía de Renault y Benetton."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Kimi Räikkönen ganó con motores Renault en 2012 y 2013. La etapa final utilizó motores Mercedes en 2015 y estuvo afectada por dificultades financieras. Renault recuperó el equipo para 2016. Este Lotus no era la organización fundada por Colin Chapman."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Lotus F1",
+        "url": "https://en.wikipedia.org/wiki/Lotus_F1",
+        "revision": 1370969468
+      }
+    ],
+    "wikipediaTitle": "Lotus F1"
+  },
+  "alphatauri": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "AlphaTauri sustituyó al nombre Toro Rosso en 2020 para promocionar la marca de indumentaria de Red Bull. El equipo conservó su base en Faenza y su relación con el programa de pilotos del grupo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Pierre Gasly ganó en Monza en la primera temporada con la nueva identidad. El proyecto compitió bajo ese nombre hasta 2023, antes de convertirse en RB para 2024. El cambio comercial no corresponde a una nueva fundación del taller."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Scuderia AlphaTauri",
+        "url": "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri",
+        "revision": 1370970786
+      }
+    ],
+    "wikipediaTitle": "Scuderia AlphaTauri"
+  },
+  "bmw-sauber": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "BMW adquirió el equipo Sauber para desarrollar una participación de fábrica desde 2006. La operación combinó la base de Hinwil con la ingeniería de motores de BMW."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Robert Kubica ganó en Canadá en 2008, dentro de una etapa de crecimiento competitivo. BMW anunció su retirada de F1 en 2009 y Peter Sauber recuperó la estructura. El nombre BMW Sauber permaneció en la inscripción de 2010 por razones administrativas, aunque el auto utilizó motor Ferrari."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: BMW in Formula One",
+        "url": "https://en.wikipedia.org/wiki/BMW_in_Formula_One",
+        "revision": 1341928308
+      }
+    ],
+    "wikipediaTitle": "BMW in Formula One"
+  },
+  "eagle": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Dan Gurney y Carroll Shelby fundaron All American Racers en 1964. El nombre Eagle identificó autos destinados a distintos campeonatos, incluidos los proyectos de Indianápolis y Fórmula 1."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El programa europeo, Anglo American Racers, utilizó motores Climax y después Weslake. Gurney ganó el Gran Premio de Bélgica de 1967 con el Eagle-Weslake. El esfuerzo de F1 fue breve; la actividad estadounidense tuvo una continuidad y una escala distintas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: All American Racers",
+        "url": "https://en.wikipedia.org/wiki/All_American_Racers",
+        "revision": 1370967512
+      }
+    ],
+    "wikipediaTitle": "All American Racers"
+  },
+  "hesketh": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alexander Hesketh financió un equipo que alcanzó F1 en 1973 con James Hunt y un March. El proyecto pasó de utilizar un chasis comprado a construir su propio 308."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La victoria de Hunt en Países Bajos en 1975 fue el momento central del programa. Cuando Hesketh retiró su financiación, el nombre continuó durante un período con otros responsables y pilotos, sin repetir aquella competitividad."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Hesketh Racing",
+        "url": "https://en.wikipedia.org/wiki/Hesketh_Racing",
+        "revision": 1318591154
+      }
+    ],
+    "wikipediaTitle": "Hesketh Racing"
+  },
+  "penske": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Roger Penske desarrolló desde 1966 una organización estadounidense de competición con programas en varias categorías. Su entrada en F1 fue una parte breve de una actividad mucho más extensa."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El equipo empezó con Mark Donohue, cuya muerte en 1975 marcó profundamente el programa. John Watson ganó en Austria en 1976 con el PC4. Penske cerró después su equipo de F1 y continuó concentrándose en otras categorías; algunos chasis todavía fueron utilizados por participantes privados."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Team Penske",
+        "url": "https://en.wikipedia.org/wiki/Team_Penske",
+        "revision": 1375817715
+      }
+    ],
+    "wikipediaTitle": "Team Penske"
+  },
+  "porsche": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Porsche llevó a los monoplazas su experiencia en autos deportivos, primero en Fórmula 2 y después en el Mundial de F1. El equipo de fábrica mantuvo una intervención breve como constructor."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Dan Gurney ganó en Francia en 1962 con el 804. Porsche se concentró posteriormente en resistencia y en otros programas. Su regreso como proveedor de motores, incluido el proyecto TAG para McLaren, pertenece a la historia de los motores y no a nuevas participaciones como constructor Porsche."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Porsche",
+        "url": "https://en.wikipedia.org/wiki/Porsche",
+        "revision": 1378711180
+      }
+    ],
+    "wikipediaTitle": "Porsche"
+  },
+  "racing-point": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Racing Point surgió de la adquisición de los activos de Force India en 2018 por un grupo liderado por Lawrence Stroll. La nueva inscripción del equipo no conservó los puntos de constructores de la entidad anterior en aquella temporada."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La estructura de Silverstone compitió con la identidad Racing Point en 2019 y 2020. Sergio Pérez ganó el Gran Premio de Sakhir de 2020. El cambio a Aston Martin en 2021 vinculó la misma base operativa a la marca británica de deportivos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Racing Point F1 Team",
+        "url": "https://en.wikipedia.org/wiki/Racing_Point_F1_Team",
+        "revision": 1370970758
+      }
+    ],
+    "wikipediaTitle": "Racing Point F1 Team"
+  },
+  "shadow": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Don Nichols creó Shadow en Estados Unidos con un programa que comenzó en Can-Am y llegó a F1 en 1973. El equipo trasladó buena parte de su operación de monoplazas a Inglaterra."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Alan Jones ganó en Austria en 1977. La salida de personal que formó Arrows, y el conflicto sobre el diseño del primer auto de ese equipo, debilitaron a Shadow. Su programa de F1 terminó después de una etapa de dificultades financieras y deportivas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Shadow Racing Cars",
+        "url": "https://en.wikipedia.org/wiki/Shadow_Racing_Cars",
+        "revision": 1372853526
+      }
+    ],
+    "wikipediaTitle": "Shadow Racing Cars"
+  },
+  "stewart": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Jackie Stewart y su hijo Paul llevaron la experiencia de su equipo de categorías inferiores a un proyecto de F1 respaldado por Ford. Stewart Grand Prix debutó en 1997 desde Milton Keynes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Rubens Barrichello consiguió el primer podio y Johnny Herbert ganó el Gran Premio de Europa de 1999. Ford compró el equipo y lo convirtió en Jaguar para 2000. La misma línea de instalaciones continuó después con Red Bull, pero los resultados Stewart permanecen separados."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Stewart Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/Stewart_Grand_Prix",
+        "revision": 1371252440
+      }
+    ],
+    "wikipediaTitle": "Stewart Grand Prix"
+  },
+  "toro-rosso": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Red Bull compró Minardi y convirtió la estructura de Faenza en Toro Rosso para 2006. El proyecto ofreció una vía de desarrollo para pilotos vinculados al grupo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sebastian Vettel ganó en Monza en 2008 antes de pasar al equipo principal. Las reglas sobre el diseño de los chasis obligaron al equipo a desarrollar una mayor autonomía técnica. La identidad cambió a AlphaTauri en 2020, conservando Faenza como parte central de la organización."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Scuderia Toro Rosso",
+        "url": "https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso",
+        "revision": 1371281181
+      }
+    ],
+    "wikipediaTitle": "Scuderia Toro Rosso"
+  },
+  "arrows": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Arrows fue fundado en 1978 por un grupo que incluía a Jackie Oliver, Alan Rees, Tony Southgate y Franco Ambrosio, varios procedentes de Shadow. El primer auto originó una disputa judicial por su parecido con el diseño de su antiguo equipo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La escudería logró podios sin alcanzar una victoria mundialista. La inversión de Footwork cambió su nombre entre 1991 y 1996. Bajo Tom Walkinshaw recuperó la identidad Arrows y contrató a Damon Hill para 1997. Los problemas financieros terminaron con el programa durante 2002."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Arrows Grand Prix International",
+        "url": "https://en.wikipedia.org/wiki/Arrows_Grand_Prix_International",
+        "revision": 1371272788
+      }
+    ],
+    "wikipediaTitle": "Arrows Grand Prix International"
+  },
+  "bar": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "British American Racing nació de la compra de Tyrrell por British American Tobacco y debutó con su nueva identidad en 1999. Craig Pollock y Jacques Villeneuve fueron figuras centrales de la iniciativa."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El primer auto utilizó motor Supertec; desde 2000 llegó la relación con Honda. Jenson Button y Takuma Sato contribuyeron al segundo lugar de constructores en 2004. La progresiva adquisición por Honda convirtió el equipo de Brackley en su escudería de fábrica para 2006."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: British American Racing",
+        "url": "https://en.wikipedia.org/wiki/British_American_Racing",
+        "revision": 1370962744
+      }
+    ],
+    "wikipediaTitle": "British American Racing"
+  },
+  "force-india": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Vijay Mallya y Michiel Mol adquirieron Spyker y presentaron Force India para 2008. El equipo continuó operando desde Silverstone, con una identidad india y una historia de instalaciones que se remontaba a Jordan."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El cambio a motores Mercedes ayudó al crecimiento. Giancarlo Fisichella consiguió una pole y un podio en Bélgica en 2009; Sergio Pérez sumó nuevos podios en temporadas posteriores. La administración judicial de 2018 condujo a la venta de activos y a una nueva inscripción bajo Racing Point."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Force India",
+        "url": "https://en.wikipedia.org/wiki/Force_India",
+        "revision": 1376262051
+      }
+    ],
+    "wikipediaTitle": "Force India"
+  },
+  "jaguar": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Ford transformó Stewart Grand Prix en Jaguar Racing para la temporada de 2000. La marca buscaba utilizar F1 como escaparate global, apoyándose en la estructura existente de Milton Keynes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El programa obtuvo podios, pero no consiguió convertirse en un aspirante regular al campeonato. Cambios de dirección y resultados insuficientes acompañaron su trayectoria. Ford vendió el equipo a Red Bull al final de 2004, dando lugar a una nueva identidad desde 2005."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Jaguar in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Jaguar_in_Formula_One",
+        "revision": 1377893135
+      }
+    ],
+    "wikipediaTitle": "Jaguar in Formula One"
+  },
+  "toleman": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Ted Toleman trasladó a la competición el nombre de su negocio de transporte de automóviles. El equipo creció en Fórmula 2, donde ganó el campeonato de 1980 con Brian Henton, antes de entrar en F1 en 1981."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los motores Hart y el trabajo de Rory Byrne formaron parte de su identidad técnica. Ayrton Senna debutó con Toleman en 1984 y logró un destacado segundo puesto en Mónaco. Benetton adquirió el proyecto y sustituyó el nombre del equipo para 1986."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Toleman",
+        "url": "https://en.wikipedia.org/wiki/Toleman",
+        "revision": 1370968590
+      }
+    ],
+    "wikipediaTitle": "Toleman"
+  },
+  "prost": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alain Prost compró Ligier para crear Prost Grand Prix en 1997. La operación mantuvo buena parte de la estructura francesa y buscó convertirla en un equipo de mayor ambición."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La primera temporada con motores Mugen-Honda produjo podios. La asociación con Peugeot, y después el uso de motores Ferrari, no resolvieron los problemas de rendimiento y financiación. La liquidación al inicio de 2002 terminó con el equipo tras cinco temporadas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Prost Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/Prost_Grand_Prix",
+        "revision": 1371284662
+      }
+    ],
+    "wikipediaTitle": "Prost Grand Prix"
+  },
+  "toyota": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Toyota desarrolló su equipo de F1 desde Colonia, sobre la experiencia de su organización de rally y resistencia. El proyecto probó durante 2001 antes de debutar en el campeonato en 2002."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La fábrica construyó sus propios chasis y motores con una gran inversión. Consiguió poles y podios, pero no victorias mundialistas. Toyota anunció la retirada al finalizar 2009; sus instalaciones continuaron vinculadas a otros programas de competición."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Toyota in Formula One",
+        "url": "https://en.wikipedia.org/wiki/Toyota_in_Formula_One",
+        "revision": 1373575679
+      }
+    ],
+    "wikipediaTitle": "Toyota in Formula One"
+  },
+  "fittipaldi": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Wilson y Emerson Fittipaldi impulsaron un proyecto brasileño que debutó en 1975 con el nombre Copersucar. La iniciativa buscaba construir una escudería nacional y su propio monoplaza."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El equipo se trasladó progresivamente a una operación europea y adoptó el nombre Fittipaldi. La incorporación de los activos de Wolf no logró resolver sus dificultades. Los podios fueron momentos destacados de una trayectoria que terminó después de 1982."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Fittipaldi Automotive",
+        "url": "https://en.wikipedia.org/wiki/Fittipaldi_Automotive",
+        "revision": 1364638955
+      }
+    ],
+    "wikipediaTitle": "Fittipaldi Automotive"
+  },
+  "surtees": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "John Surtees fundó su equipo después de ganar campeonatos mundiales tanto en motociclismo como en F1. La estructura participó en Fórmula 2 y Fórmula 5000 además de ingresar a F1 con chasis propios en 1970."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los monoplazas TS obtuvieron podios, pero el presupuesto y la fiabilidad limitaron el crecimiento. Surtees cerró su participación en F1 después de 1978. Su trayectoria como piloto precede al constructor y no forma parte de los resultados del equipo que lleva su apellido."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Surtees Racing Organisation",
+        "url": "https://en.wikipedia.org/wiki/Surtees_Racing_Organisation",
+        "revision": 1374714569
+      }
+    ],
+    "wikipediaTitle": "Surtees Racing Organisation"
+  },
+  "osella": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Enzo Osella desarrolló una empresa italiana de autos de competición con antecedentes en Abarth y actividad destacada en carreras de montaña. Su equipo de F1 debutó en 1980."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los años con motores Ford y Alfa Romeo incluyeron resultados modestos y dificultades financieras. La intervención de Gabriele Rumi condujo al cambio de identidad a Fondmetal en 1991. Osella continuó como fabricante fuera de F1, por lo que la salida del Mundial no marca el final de toda su actividad."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Osella",
+        "url": "https://en.wikipedia.org/wiki/Osella",
+        "revision": 1374502759
+      }
+    ],
+    "wikipediaTitle": "Osella"
+  },
+  "larrousse": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Gérard Larrousse y Didier Calmels formaron un equipo francés que debutó en 1987 utilizando chasis Lola. La historia del participante y la del fabricante del auto no coinciden exactamente."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los motores Ford y Lamborghini acompañaron las primeras temporadas. La colaboración con Venturi en 1992 y los posteriores chasis LH cambiaron la identidad del constructor registrado. La falta de financiación impidió seguir en 1995; las tablas conservan esas distinciones entre equipo y chasis."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Larrousse",
+        "url": "https://en.wikipedia.org/wiki/Larrousse",
+        "revision": 1374032768
+      }
+    ],
+    "wikipediaTitle": "Larrousse"
+  },
+  "lola": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Eric Broadley fundó Lola en 1958 como fabricante de autos de competición. Su negocio consistió en desarrollar chasis para distintos equipos y categorías, no solamente en sostener una escudería de F1."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La participación de monoplazas Lola incluyó proyectos de épocas y responsables diferentes, desde los autos de comienzos de los sesenta hasta Larrousse. El fallido equipo de 1997 fue un episodio particular dentro de esa historia industrial. La actividad en resistencia y categorías estadounidenses fue mucho más amplia."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Lola Cars",
+        "url": "https://en.wikipedia.org/wiki/Lola_Cars",
+        "revision": 1375282575
+      }
+    ],
+    "wikipediaTitle": "Lola Cars"
+  },
+  "leyton-house": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Leyton House fue la identidad adoptada por el equipo March de F1 bajo la propiedad de Akira Akagi en 1990. La estructura y parte del conocimiento técnico continuaron desde la etapa anterior."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El CG901 de Adrian Newey mostró gran potencial, especialmente en Francia en 1990, pero fue difícil de poner a punto. Los problemas de financiación y de propiedad debilitaron al equipo, que volvió al nombre March en 1992."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Leyton House Racing",
+        "url": "https://en.wikipedia.org/wiki/Leyton_House_Racing",
+        "revision": 1370968852
+      }
+    ],
+    "wikipediaTitle": "Leyton House Racing"
+  },
+  "racing-bulls": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Racing Bulls identifica desde 2025 al equipo de Faenza que antes compitió como Minardi, Toro Rosso, AlphaTauri y RB. Es una estructura vinculada a Red Bull, con una identidad y una inscripción propias."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La organización combina el desarrollo de pilotos con la necesidad de competir por sus propios resultados. Sus colaboraciones técnicas se encuadran en las reglas de F1 sobre componentes compartidos y diseño del constructor. El nombre de 2025 se distingue de RB en 2024 en las tablas del archivo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Racing Bulls",
+        "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+        "revision": 1377730184
+      }
+    ],
+    "wikipediaTitle": "Racing Bulls"
+  },
+  "rb": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "RB fue la identidad utilizada en 2024 por la estructura que hasta 2023 se llamaba AlphaTauri. El cambio formó parte de una reorganización del equipo de Faenza y de su presentación comercial."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La participación de 2024 corresponde a esta entrada del archivo. Desde 2025 la identidad registrada es Racing Bulls. Ambos nombres se conectan en la genealogía, sin sumar sus resultados como si fueran una única temporada."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Racing Bulls",
+        "url": "https://en.wikipedia.org/wiki/Racing_Bulls",
+        "revision": 1377730184
+      }
+    ],
+    "wikipediaTitle": "Racing Bulls"
+  },
+  "kick-sauber": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Kick Sauber es la identidad adoptada por el equipo de Hinwil en 2024, después del período con el nombre Alfa Romeo. Su origen organizativo sigue siendo el proyecto de Peter Sauber."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Esta fase acompaña la preparación de la entrada de Audi. El archivo muestra los resultados bajo este nombre hasta el cierre de 2025 y mantiene separados los de Sauber, BMW Sauber y Alfa Romeo. Los nombres comerciales de patrocinadores no equivalen a una nueva fábrica de chasis."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Sauber Motorsport",
+        "url": "https://en.wikipedia.org/wiki/Sauber_Motorsport",
+        "revision": 1370965469
+      }
+    ],
+    "wikipediaTitle": "Sauber Motorsport"
+  },
+  "midland": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alex Shnaider adquirió Jordan en 2005 y cambió el nombre a Midland para 2006. El equipo mantuvo la operación de Silverstone, con licencia rusa."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La etapa fue breve y utilizó motores Toyota. La venta a Spyker durante 2006 abrió otra identidad para la misma estructura. El cambio de nombre refleja una operación de propiedad y marca, más que una mudanza o una nueva fundación."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Midland F1 Racing",
+        "url": "https://en.wikipedia.org/wiki/Midland_F1_Racing",
+        "revision": 1371273737
+      }
+    ],
+    "wikipediaTitle": "Midland F1 Racing"
+  },
+  "spyker": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "La compra de Midland permitió a Spyker entrar como equipo de F1 en 2007. La marca neerlandesa utilizó la estructura de Silverstone y motores Ferrari."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El programa duró una temporada bajo esta identidad. La posterior venta a Vijay Mallya y Michiel Mol dio origen a Force India para 2008. Su genealogía conserva los nombres Jordan y Midland como etapas anteriores."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Spyker F1",
+        "url": "https://en.wikipedia.org/wiki/Spyker_F1",
+        "revision": 1370965577
+      }
+    ],
+    "wikipediaTitle": "Spyker F1"
+  },
+  "virgin": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Virgin Racing llegó al Mundial en 2010 sobre el proyecto de Manor y Wirth Research. Richard Branson aportó la marca Virgin a una nueva escudería con una propuesta de desarrollo basada especialmente en simulación computacional."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El equipo utilizó motores Cosworth y tuvo dificultades para acercarse al resto de la parrilla. La inversión de Marussia condujo a una nueva identidad desde 2012. Los resultados Virgin de 2010 y 2011 se muestran separados de sus sucesores."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Virgin Racing",
+        "url": "https://en.wikipedia.org/wiki/Virgin_Racing",
+        "revision": 1370966311
+      }
+    ],
+    "wikipediaTitle": "Virgin Racing"
+  },
+  "marussia": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Marussia adoptó el nombre del equipo procedente de Virgin en 2012, con el respaldo de la empresa rusa de automóviles. La estructura mantuvo su vínculo con Manor."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Jules Bianchi obtuvo puntos en Mónaco en 2014. La administración judicial, el accidente fatal de Bianchi y la lucha por continuar marcaron el final de esta fase. La operación volvió a competir en 2015 bajo una combinación del nombre Manor y Marussia antes del cambio a Manor Racing."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Marussia F1",
+        "url": "https://en.wikipedia.org/wiki/Marussia_F1",
+        "revision": 1370969822
+      }
+    ],
+    "wikipediaTitle": "Marussia F1"
+  },
+  "manor": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Manor Racing fue la identidad utilizada en 2016 por la estructura que había competido como Virgin y Marussia. Sus antecedentes en categorías inferiores eran anteriores al ingreso a F1."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Con motores Mercedes y una nueva generación de auto, el equipo consiguió un punto con Pascal Wehrlein en Austria. La pérdida de posición en el campeonato de constructores y la falta de financiación llevaron al cierre antes de la temporada de 2017."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Manor Racing",
+        "url": "https://en.wikipedia.org/wiki/Manor_Racing",
+        "revision": 1370970274
+      }
+    ],
+    "wikipediaTitle": "Manor Racing"
+  },
+  "caterham": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Caterham fue el nombre adoptado en 2012 por el proyecto de Tony Fernandes que había debutado como Lotus Racing en 2010. El equipo tenía licencia malasia y una operación instalada en Inglaterra."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La adquisición de la marca de deportivos Caterham permitió resolver la disputa de identidad con otros proyectos Lotus. El cambio no trajo el salto competitivo esperado: la escudería terminó su actividad de F1 en 2014 después de graves problemas financieros."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Caterham F1",
+        "url": "https://en.wikipedia.org/wiki/Caterham_F1",
+        "revision": 1371382446
+      }
+    ],
+    "wikipediaTitle": "Caterham F1"
+  },
+  "lotus-racing": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Lotus Racing fue un nuevo equipo de Tony Fernandes que debutó en 2010 utilizando, mediante acuerdos comerciales, el histórico nombre Lotus. No era la continuación organizativa del Team Lotus de Colin Chapman."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Compitió con motores Cosworth y después Renault. La disputa sobre la marca y la adquisición de Caterham llevaron al cambio de nombre para 2012. Esa sucesión pertenece a una estructura distinta de Lotus F1, instalado en Enstone."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Team Lotus (2010–2011)",
+        "url": "https://en.wikipedia.org/wiki/Team_Lotus_(2010%E2%80%932011)",
+        "revision": 1377349323
+      }
+    ],
+    "wikipediaTitle": "Team Lotus (2010–2011)"
+  },
+  "footwork": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Footwork fue el nombre que tomó Arrows durante la inversión de la empresa japonesa dirigida por Wataru Ohashi. La asociación cambió la propiedad y la identidad comercial del equipo para 1991."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El motor Porsche de 1991 no produjo los resultados esperados y fue sustituido. Los acuerdos posteriores con Mugen-Honda y Ford acompañaron una etapa irregular. El nombre Arrows regresó en 1997 bajo la dirección de Tom Walkinshaw."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Footwork Arrows",
+        "url": "https://en.wikipedia.org/wiki/Footwork_Arrows",
+        "revision": 1370968562
+      }
+    ],
+    "wikipediaTitle": "Footwork Arrows"
+  },
+  "fondmetal": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Gabriele Rumi, empresario italiano de llantas, adquirió el equipo Osella y lo transformó en Fondmetal para 1991. El proyecto buscó mejorar una estructura que arrastraba recursos limitados."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La escudería utilizó motores Ford y desarrolló nuevos chasis, pero no logró asegurar el presupuesto necesario para completar una presencia estable. El programa terminó durante 1992. La empresa y sus actividades posteriores no se reducen a esos dos años de F1."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Fondmetal",
+        "url": "https://en.wikipedia.org/wiki/Fondmetal",
+        "revision": 1376846179
+      }
+    ],
+    "wikipediaTitle": "Fondmetal"
+  },
+  "forti": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Guido Forti y Paolo Guerci desarrollaron un equipo italiano con experiencia en Fórmula 3 y Fórmula 3000. La entrada en F1 en 1995 intentó trasladar esa trayectoria a una categoría mucho más costosa."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El primer auto quedó lejos de los equipos competitivos. La regla del 107 % y las dificultades de financiación complicaron la temporada siguiente. Forti abandonó el Mundial durante 1996, antes de completar su segundo año."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Forti",
+        "url": "https://en.wikipedia.org/wiki/Forti",
+        "revision": 1372010837
+      }
+    ],
+    "wikipediaTitle": "Forti"
+  },
+  "hrt": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "El proyecto de Adrián Campos para 2010 terminó convirtiéndose en Hispania Racing bajo la propiedad de José Ramón Carabante. Su debut utilizó un chasis Dallara y motor Cosworth."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La entrada fue apresurada y dejó poco margen para pruebas y desarrollo. Thesan Capital tomó el control en 2011 y el equipo fue concentrando su operación en España. No pudo asegurar la continuidad para 2013 después de tres temporadas sin puntos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: HRT Formula 1 Team",
+        "url": "https://en.wikipedia.org/wiki/HRT_Formula_1_Team",
+        "revision": 1370963693
+      }
+    ],
+    "wikipediaTitle": "HRT Formula 1 Team"
+  },
+  "coloni": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Enzo Coloni llevó a F1 en 1987 un equipo italiano con experiencia en categorías inferiores. La escudería afrontó el salto con un presupuesto reducido."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Las dificultades para clasificarse limitaron su presencia en carrera. El proyecto Subaru de 1990 no consiguió resolver los problemas de competitividad. La venta a Andrea Sassetti dio lugar a Andrea Moda para 1992, mientras Coloni continuó vinculado a otras categorías."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Scuderia Coloni",
+        "url": "https://en.wikipedia.org/wiki/Scuderia_Coloni",
+        "revision": 1370965499
+      }
+    ],
+    "wikipediaTitle": "Scuderia Coloni"
+  },
+  "andrea-moda": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Andrea Sassetti, empresario de calzado, adquirió los activos de Coloni para formar Andrea Moda en 1992. El proyecto tuvo que resolver problemas de inscripción y de disponibilidad de autos antes de competir."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El S921 fue desarrollado con Simtek. Roberto Moreno consiguió clasificarse en Mónaco, pero la mayoría de las participaciones terminó antes de la carrera. Los problemas de gestión y las sanciones culminaron en la exclusión del equipo del campeonato."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Andrea Moda Formula",
+        "url": "https://en.wikipedia.org/wiki/Andrea_Moda_Formula",
+        "revision": 1370967514
+      }
+    ],
+    "wikipediaTitle": "Andrea Moda Formula"
+  },
+  "simtek": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Nick Wirth y Max Mosley crearon Simtek como una consultora de ingeniería en 1989. Su experiencia en proyectos para terceros precedió a la formación de su propio equipo de F1 en 1994."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La muerte de Roland Ratzenberger en Imola marcó su primera temporada. El equipo intentó continuar y mejorar en 1995, pero la falta de recursos llevó al cierre durante ese año. Su nombre corresponde a la empresa técnica; los patrocinadores que figuraban junto al emblema no forman parte de la marca básica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Simtek",
+        "url": "https://en.wikipedia.org/wiki/Simtek",
+        "revision": 1370969679
+      }
+    ],
+    "wikipediaTitle": "Simtek"
+  },
+  "pacific": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Keith Wiggins fundó Pacific y construyó una trayectoria en categorías de formación antes de entrar en F1 en 1994. La adaptación al nivel técnico y económico del Mundial resultó especialmente difícil."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El primer año estuvo condicionado por numerosos intentos de clasificación fallidos. En 1995 hubo más participaciones, pero el equipo no logró una financiación sostenible y abandonó F1 al terminar la temporada."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Pacific Racing",
+        "url": "https://en.wikipedia.org/wiki/Pacific_Racing",
+        "revision": 1370913616
+      }
+    ],
+    "wikipediaTitle": "Pacific Racing"
+  },
+  "rial": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Günther Schmid, antiguo responsable de ATS, llevó la marca de llantas Rial a F1 en 1988. El equipo alemán desarrolló un programa pequeño con motor Ford."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Andrea de Cesaris obtuvo puntos en su primera temporada. El segundo año presentó mayores dificultades de desarrollo y clasificación, y Rial no continuó en el Mundial después de 1989. No debe confundirse esta escudería con el anterior proyecto ATS de Schmid."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Rial Racing",
+        "url": "https://en.wikipedia.org/wiki/Rial_Racing",
+        "revision": 1370969725
+      }
+    ],
+    "wikipediaTitle": "Rial Racing"
+  },
+  "zakspeed": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Erich Zakowski fundó Zakspeed en Alemania y desarrolló una destacada actividad en turismos antes de entrar en F1 en 1985. El proyecto fabricó su propio motor turbo además del chasis."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La combinación de motor y auto propios exigió recursos que el equipo no pudo sostener al nivel de los líderes. El cambio a motores Yamaha en 1989 coincidió con fuertes dificultades de clasificación. Su actividad continuó en otras categorías después de dejar F1."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Zakspeed",
+        "url": "https://en.wikipedia.org/wiki/Zakspeed",
+        "revision": 1374116270
+      }
+    ],
+    "wikipediaTitle": "Zakspeed"
+  },
+  "ats": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Automobili Turismo e Sport fue creada en Italia después de la salida de un grupo de técnicos y responsables de Ferrari a comienzos de los años sesenta. El proyecto quiso desarrollar autos de carretera y de F1."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Su participación mundialista de 1963 tuvo problemas de fiabilidad y organización y no alcanzó los resultados esperados. Este ATS italiano es distinto del equipo alemán financiado por la empresa de llantas ATS años después."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Automobili Turismo e Sport",
+        "url": "https://en.wikipedia.org/wiki/Automobili_Turismo_e_Sport",
+        "revision": 1376493215
+      }
+    ],
+    "wikipediaTitle": "Automobili Turismo e Sport"
+  },
+  "ats-wheels": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Günther Schmid utilizó la marca alemana de llantas ATS para un equipo que empezó en 1977 con un Penske y después desarrolló sus propios chasis."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los motores Ford y más tarde BMW acompañaron el proyecto. Pese a algunos resultados puntuables, los conflictos internos y las dificultades de recursos limitaron su continuidad. La participación terminó en 1984; la identidad no debe confundirse con ATS de Italia en 1963."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: ATS Wheels",
+        "url": "https://en.wikipedia.org/wiki/ATS_Wheels",
+        "revision": 1374897250
+      }
+    ],
+    "wikipediaTitle": "ATS Wheels"
+  },
+  "parnelli": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Parnelli Jones y Vel Miletich crearon una organización estadounidense que tuvo éxito en las carreras de monoplazas de su país. El programa de F1 llegó en 1974 con Mario Andretti."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El VPJ4 utilizó motor Ford y buscó trasladar el conocimiento de sus programas estadounidenses. El proyecto de F1 terminó en 1976, aunque la historia deportiva de Parnelli fuera de esa categoría fue considerablemente más amplia."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Vel's Parnelli Jones Racing",
+        "url": "https://en.wikipedia.org/wiki/Vel%27s_Parnelli_Jones_Racing",
+        "revision": 1370968981
+      }
+    ],
+    "wikipediaTitle": "Vel's Parnelli Jones Racing"
+  },
+  "ensign": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Morris Nunn creó Ensign después de desarrollar autos para Fórmula 3. La escudería entró en F1 en 1973 con una estructura pequeña y motores Ford."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Chris Amon y Clay Regazzoni estuvieron entre sus pilotos. La financiación limitada condicionó el desarrollo y la cantidad de autos disponibles. La integración del proyecto con Theodore cerró la identidad Ensign después de 1982."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Ensign Racing",
+        "url": "https://en.wikipedia.org/wiki/Ensign_Racing",
+        "revision": 1374714739
+      }
+    ],
+    "wikipediaTitle": "Ensign Racing"
+  },
+  "theodore": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Teddy Yip impulsó Theodore desde su vínculo con Macao y el automovilismo internacional. El nombre apareció tanto como participante de autos comprados como en proyectos de chasis propios."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Su actividad de F1 tuvo etapas discontinuas y diferentes colaboraciones, incluida la integración de Ensign. La distinción entre el dueño del equipo y el constructor del monoplaza es importante para interpretar sus resultados. El último período mundialista terminó en 1983."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Theodore Racing",
+        "url": "https://en.wikipedia.org/wiki/Theodore_Racing",
+        "revision": 1373232333
+      }
+    ],
+    "wikipediaTitle": "Theodore Racing"
+  },
+  "spirit": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "John Wickham y Gordon Coppuck crearon Spirit para competir en Fórmula 2 y desarrollar un proyecto ligado a Honda. La entrada en F1 en 1983 acompañó el regreso del fabricante japonés como motorista."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Cuando Honda pasó a suministrar a Williams, Spirit continuó con motores Hart y recursos limitados. La pequeña escudería dejó el campeonato durante 1985. Su papel como plataforma de desarrollo precedió a la presencia de Honda en equipos más competitivos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Spirit Racing",
+        "url": "https://en.wikipedia.org/wiki/Spirit_Racing",
+        "revision": 1370965563
+      }
+    ],
+    "wikipediaTitle": "Spirit Racing"
+  },
+  "ram": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "John Macdonald y Mick Ralph desarrollaron RAM como equipo que utilizaba autos de otros fabricantes. Su presencia como participante precedió a la construcción de chasis propios."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Las colaboraciones con March y la posterior identidad RAM se desarrollaron con presupuestos pequeños. La etapa de autos propios de los años ochenta utilizó motores Hart y tuvo numerosos problemas de clasificación. Las cifras de constructor no representan todos los años en que RAM inscribió autos ajenos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: RAM Racing",
+        "url": "https://en.wikipedia.org/wiki/RAM_Racing",
+        "revision": 1370969398
+      }
+    ],
+    "wikipediaTitle": "RAM Racing"
+  },
+  "osca": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Los hermanos Maserati fundaron OSCA en Bolonia en 1947 después de dejar la empresa que llevaba su apellido. La nueva organización se concentró especialmente en deportivos de pequeña cilindrada."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sus monoplazas y motores tuvieron una presencia reducida en el Mundial. Esa intervención no representa toda su actividad industrial ni sus resultados en carreras de deportivos, donde el proyecto tuvo mayor alcance."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: O.S.C.A.",
+        "url": "https://en.wikipedia.org/wiki/O.S.C.A.",
+        "revision": 1372471529
+      }
+    ],
+    "wikipediaTitle": "O.S.C.A."
+  },
+  "lancia": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Lancia, fundada en Turín por Vincenzo Lancia, desarrolló un programa de F1 que debutó en 1954. El D50 de Vittorio Jano situó los depósitos a los lados del habitáculo y propuso una disposición técnica muy particular."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La muerte de Alberto Ascari y las dificultades económicas acompañaron la retirada del programa en 1955. Los autos y el conocimiento técnico fueron transferidos a Ferrari, que desarrolló su propia versión. La transición de esos chasis no equivale a una continuidad del equipo Lancia en el Mundial."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Lancia",
+        "url": "https://en.wikipedia.org/wiki/Lancia",
+        "revision": 1378303200
+      }
+    ],
+    "wikipediaTitle": "Lancia"
+  },
+  "gordini": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Amédée Gordini construyó una reputación como preparador y fabricante en Francia, primero relacionado con Simca y después con una identidad independiente. Su apodo de mago reflejaba la capacidad de mejorar autos con pocos recursos."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los monoplazas Gordini afrontaron a fabricantes mucho mayores en los primeros años del Mundial. La financiación limitada y la fiabilidad condicionaron sus resultados. La posterior incorporación de Gordini al ámbito Renault pertenece a otra etapa de la empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Gordini",
+        "url": "https://en.wikipedia.org/wiki/Gordini",
+        "revision": 1378879792
+      }
+    ],
+    "wikipediaTitle": "Gordini"
+  },
+  "simca-gordini": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "La colaboración entre Simca y Amédée Gordini produjo autos de competición antes y al comienzo del Mundial. La preparación técnica de Gordini se apoyaba en componentes e identidad industrial Simca."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La separación comercial dio paso al nombre Gordini en los registros posteriores. La historia de ambas identidades está relacionada, pero las inscripciones conservan la combinación concreta de cada auto y temporada."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Gordini",
+        "url": "https://en.wikipedia.org/wiki/Gordini",
+        "revision": 1378879792
+      }
+    ],
+    "wikipediaTitle": "Gordini"
+  },
+  "talbot-lago": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Antonio Lago desarrolló Talbot-Lago sobre la fábrica francesa de Suresnes en los años treinta. Sus autos de Grandes Premios pertenecían a una tradición anterior al campeonato mundial."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El T26C con motor atmosférico fue utilizado por equipos y pilotos privados en los primeros años de F1. La presencia de chasis ya construidos explica que las participaciones no equivalgan siempre a un programa oficial de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Talbot-Lago",
+        "url": "https://en.wikipedia.org/wiki/Talbot-Lago",
+        "revision": 1378469516
+      }
+    ],
+    "wikipediaTitle": "Talbot-Lago"
+  },
+  "connaught": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Rodney Clarke y Mike Oliver desarrollaron Connaught a partir de Continental Autos en Surrey. El proyecto británico pasó de autos deportivos a monoplazas de Fórmula 2 y Fórmula 1."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los tipos A y B tuvieron una producción limitada. La victoria de Tony Brooks en Siracusa en 1955 fue importante para la industria británica, pero aquella carrera no pertenecía al Mundial. Los resultados de esta página mantienen esa diferencia."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Connaught Engineering",
+        "url": "https://en.wikipedia.org/wiki/Connaught_Engineering",
+        "revision": 1363143842
+      }
+    ],
+    "wikipediaTitle": "Connaught Engineering"
+  },
+  "hwm": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "John Heath y George Abecassis fundaron Hersham and Walton Motors, conocida como HWM, sobre un negocio británico de automóviles. Su equipo desarrolló deportivos y monoplazas de Fórmula 2."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La presencia mundialista se concentró en los años en que el campeonato utilizaba reglas de F2. Sus autos sirvieron a varios pilotos británicos antes de que la organización se centrara más en otras actividades."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Hersham and Walton Motors",
+        "url": "https://en.wikipedia.org/wiki/Hersham_and_Walton_Motors",
+        "revision": 1370963719
+      }
+    ],
+    "wikipediaTitle": "Hersham and Walton Motors"
+  },
+  "alta": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Geoffrey Taylor desarrolló Alta como un fabricante británico de autos deportivos y motores. Los pequeños proyectos de competición de la marca comenzaron antes de la Segunda Guerra Mundial."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los monoplazas Alta tuvieron una presencia limitada en el Mundial. Sus motores también fueron empleados por otros constructores: esas participaciones pertenecen al registro del motorista y no se convierten automáticamente en carreras de chasis Alta."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Alta Car and Engineering Company",
+        "url": "https://en.wikipedia.org/wiki/Alta_Car_and_Engineering_Company",
+        "revision": 1370962114
+      }
+    ],
+    "wikipediaTitle": "Alta Car and Engineering Company"
+  },
+  "afm": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alexander von Falkenhausen desarrolló AFM en Alemania en la posguerra. Su experiencia relacionada con BMW contribuyó a autos de competición que utilizaron componentes y motores de ese origen."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La actividad principal estuvo vinculada a Fórmula 2 y a las carreras alemanas. Las participaciones mundialistas deben entenderse dentro de ese contexto, cuando pequeños fabricantes y pilotos privados podían entrar con proyectos locales."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Alex von Falkenhausen Motorenbau",
+        "url": "https://en.wikipedia.org/wiki/Alex_von_Falkenhausen_Motorenbau",
+        "revision": 1370962095
+      }
+    ],
+    "wikipediaTitle": "Alex von Falkenhausen Motorenbau"
+  },
+  "era": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "English Racing Automobiles nació en Gran Bretaña en 1933, con Raymond Mays y Peter Berthon entre sus impulsores. Su reputación se construyó principalmente con las voiturettes anteriores a la guerra."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los autos y proyectos que aparecieron en el Mundial pertenecían a una fase posterior de aquella tradición. Las cifras de F1 no incluyen sus numerosos resultados previos ni describen por sí solas la importancia de ERA para la formación de técnicos británicos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: English Racing Automobiles",
+        "url": "https://en.wikipedia.org/wiki/English_Racing_Automobiles",
+        "revision": 1374673755
+      }
+    ],
+    "wikipediaTitle": "English Racing Automobiles"
+  },
+  "bugatti": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Ettore Bugatti fundó su empresa en Molsheim en 1909. Sus autos, especialmente el Type 35, tuvieron una presencia decisiva en los Grandes Premios anteriores al Mundial."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El intento de regresar con el Type 251 llevó a una única participación mundialista en el Gran Premio de Francia de 1956. Su disposición técnica y su breve programa fueron muy distintos de los autos de la etapa anterior. La historia moderna de la marca no se suma a esta entrada de F1."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Bugatti",
+        "url": "https://en.wikipedia.org/wiki/Bugatti",
+        "revision": 1372779108
+      }
+    ],
+    "wikipediaTitle": "Bugatti"
+  },
+  "de-tomaso": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alejandro de Tomaso creó su empresa en Módena en 1959. El desarrollo de deportivos estuvo acompañado por pequeños proyectos de monoplazas en distintas fórmulas."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sus apariciones de F1 incluyeron diferentes autos y acuerdos. El programa de 1970 con Frank Williams y Piers Courage fue una etapa específica, no una escudería continua durante toda la década. La muerte de Courage y los malos resultados cerraron aquel intento."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: De Tomaso",
+        "url": "https://en.wikipedia.org/wiki/De_Tomaso",
+        "revision": 1370963127
+      }
+    ],
+    "wikipediaTitle": "De Tomaso"
+  },
+  "dallara": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Giampaolo Dallara fundó su empresa en Varano de Melegari en 1972. Su especialidad fue la ingeniería y construcción de autos para equipos clientes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los chasis utilizados por Scuderia Italia entre 1988 y 1992 se registran como Dallara, mientras la organización participante tenía otro nombre. La empresa también trabajó para otros proyectos de F1. Esta diferencia explica por qué una historia de constructor no coincide necesariamente con la de una única escudería."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Dallara",
+        "url": "https://en.wikipedia.org/wiki/Dallara",
+        "revision": 1371279289
+      }
+    ],
+    "wikipediaTitle": "Dallara"
+  },
+  "martini": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Renato, conocido como Tico, Martini desarrolló sus autos en el entorno de la escuela Winfield de Magny-Cours. El fabricante tuvo una larga actividad en categorías de formación."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El intento de F1 de 1978 utilizó el MK23 y fue una intervención breve dentro de esa trayectoria. El nombre del constructor corresponde al apellido del ingeniero, no a la conocida marca de bebidas que patrocinó otros equipos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Automobiles Martini",
+        "url": "https://en.wikipedia.org/wiki/Automobiles_Martini",
+        "revision": 1366344212
+      }
+    ],
+    "wikipediaTitle": "Automobiles Martini"
+  },
+  "amon": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Chris Amon intentó desarrollar su propio constructor para 1974, después de competir para varias escuderías. El AF101 fue diseñado con Gordon Fowell y se sostuvo con recursos limitados."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El auto tuvo problemas de desarrollo y el proyecto no pudo consolidarse. La participación de Amon como piloto de autos ajenos, tanto antes como después, no debe confundirse con los registros de este constructor."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Chris Amon Racing",
+        "url": "https://en.wikipedia.org/wiki/Chris_Amon_Racing",
+        "revision": 1370972330
+      }
+    ],
+    "wikipediaTitle": "Chris Amon Racing"
+  },
+  "connew": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Peter Connew reunió un pequeño grupo para construir su propio monoplaza en Inglaterra. El PC1 de 1972 se desarrolló en un taller modesto, con un presupuesto muy reducido."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "François Migault llevó el auto a sus intentos mundialistas. Los problemas mecánicos y de financiación dejaron una participación breve. La importancia del caso está en mostrar la escala de los proyectos independientes que todavía podían intentar entrar en F1."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Connew",
+        "url": "https://en.wikipedia.org/wiki/Connew",
+        "revision": 1372011222
+      }
+    ],
+    "wikipediaTitle": "Connew"
+  },
+  "kojima": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Matsuhisa Kojima desarrolló una empresa japonesa de competición y llevó un monoplaza propio al Gran Premio de Japón de 1976. El proyecto utilizó motor Ford."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El KE007 llamó la atención en su primera aparición y el KE009 participó en 1977. Fueron intervenciones concentradas en Japón, distintas de un equipo que viajara durante toda la temporada."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Kojima Engineering",
+        "url": "https://en.wikipedia.org/wiki/Kojima_Engineering",
+        "revision": 1376095226
+      }
+    ],
+    "wikipediaTitle": "Kojima Engineering"
+  },
+  "maki": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Maki Engineering fue un pequeño proyecto japonés que intentó entrar en F1 durante los años setenta. La construcción de un chasis propio no estuvo acompañada de recursos suficientes para completar su desarrollo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los intentos de clasificación y los problemas del auto limitaron su presencia. La actividad registrada muestra por qué una inscripción o un intento de participar no debe confundirse con una salida efectiva en carrera."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Maki Engineering",
+        "url": "https://en.wikipedia.org/wiki/Maki_Engineering",
+        "revision": 1370964547
+      }
+    ],
+    "wikipediaTitle": "Maki Engineering"
+  },
+  "rebaque": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Héctor Rebaque organizó un equipo mexicano que utilizó autos Lotus antes de intentar un chasis propio. El HR100 fue desarrollado para la última parte de la temporada de 1979."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La breve intervención del HR100 representa el registro de constructor Rebaque. Los años en que su equipo utilizaba un Lotus, y su posterior trayectoria personal en Brabham, corresponden a identidades de chasis distintas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Rebaque",
+        "url": "https://en.wikipedia.org/wiki/Rebaque",
+        "revision": 1370969718
+      }
+    ],
+    "wikipediaTitle": "Rebaque"
+  },
+  "life": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Ernesto Vita creó Life en Italia para presentar un programa de F1 alrededor de un motor W12 experimental. El debut de 1990 utilizó un chasis procedente de otro proyecto y recursos muy escasos."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los problemas de potencia, fiabilidad y preparación impidieron superar la preclasificación. El posterior cambio de motor no resolvió la situación. Su historia ilustra la distancia entre una propuesta técnica original y un programa capaz de competir de manera sostenida."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Life Racing Engines",
+        "url": "https://en.wikipedia.org/wiki/Life_Racing_Engines",
+        "revision": 1372241942
+      }
+    ],
+    "wikipediaTitle": "Life Racing Engines"
+  },
+  "modena": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Modena Team participó en 1991 con un auto desarrollado por Lamborghini Engineering. La colaboración técnica explica que a menudo se lo recuerde como el proyecto Lambo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sin embargo, la inscripción correspondía a un equipo independiente y no a una escudería de fábrica Lamborghini. El programa mostró algún potencial al comienzo, pero las dificultades de clasificación y financiación impidieron continuar en 1992."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Modena (racing team)",
+        "url": "https://en.wikipedia.org/wiki/Modena_(racing_team)",
+        "revision": 1370969756
+      }
+    ],
+    "wikipediaTitle": "Modena (racing team)"
+  },
+  "onyx": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Mike Earle desarrolló Onyx a partir de su experiencia en categorías inferiores, incluida Fórmula 3000. El equipo ingresó en F1 en 1989 con motor Ford y un presupuesto pequeño."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Stefan Johansson consiguió un podio en Portugal en la primera temporada. Los cambios de dueño y los problemas financieros alteraron la continuidad del proyecto, que terminó durante 1990."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Onyx Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/Onyx_Grand_Prix",
+        "revision": 1370969713
+      }
+    ],
+    "wikipediaTitle": "Onyx Grand Prix"
+  },
+  "emeryson": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "La familia Emery desarrolló autos de competición en Gran Bretaña, con Paul Emery como figura central de los monoplazas. El proyecto combinó fabricación artesanal y preparación para distintos participantes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sus apariciones mundialistas fueron limitadas y estuvieron vinculadas a programas de Fórmula 2 y Fórmula 1. La posterior adquisición de activos por otros responsables no convierte todas esas escuderías en el mismo constructor."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Emeryson",
+        "url": "https://en.wikipedia.org/wiki/Emeryson",
+        "revision": 1370963300
+      }
+    ],
+    "wikipediaTitle": "Emeryson"
+  },
+  "ferguson": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Harry Ferguson Research desarrolló el P99 para demostrar un sistema de tracción a las cuatro ruedas. El auto trasladó a la competición conocimientos asociados a transmisión y control del vehículo."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Su presencia en el Mundial fue breve. La victoria de Stirling Moss en Oulton Park en 1961 ocurrió en una carrera de F1 fuera del campeonato y por eso no figura como una victoria mundialista aquí."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Ferguson Research",
+        "url": "https://en.wikipedia.org/wiki/Ferguson_Research",
+        "revision": 1375097461
+      }
+    ],
+    "wikipediaTitle": "Ferguson Research"
+  },
+  "lec": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "David Purley llevó a la competición el apoyo de la empresa familiar LEC Refrigeration. Después de utilizar autos de otros fabricantes, el proyecto construyó el CRP1 para 1977."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El monoplaza fue diseñado por Mike Pilbeam. El grave accidente de Purley durante el fin de semana del Gran Premio de Gran Bretaña marcó el programa. Las etapas con chasis comprados se distinguen de la participación del constructor LEC."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: LEC Refrigeration Racing",
+        "url": "https://en.wikipedia.org/wiki/LEC_Refrigeration_Racing",
+        "revision": 1378823802
+      }
+    ],
+    "wikipediaTitle": "LEC Refrigeration Racing"
+  },
+  "hill": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Graham Hill creó Embassy Hill en 1973, inicialmente con autos Shadow y después Lola. La escudería llegó a construir su propio GH1 en 1975."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El accidente aéreo que causó la muerte de Hill y de varios miembros del equipo en noviembre de 1975 terminó con el proyecto. La historia del participante incluye más autos que los registrados bajo el nombre de constructor Hill."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Embassy Hill",
+        "url": "https://en.wikipedia.org/wiki/Embassy_Hill",
+        "revision": 1370972379
+      }
+    ],
+    "wikipediaTitle": "Embassy Hill"
+  },
+  "venturi": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Venturi fue una marca francesa de deportivos fundada por Claude Poiraud y Gérard Godfroy. Su participación de F1 en 1992 se vinculó a una asociación con Larrousse."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La identidad Venturi correspondió al chasis y al acuerdo de aquella temporada, con motor Lamborghini. La colaboración terminó y Larrousse continuó bajo otra denominación de constructor. Sus posteriores programas deportivos pertenecen a otra historia."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Venturi (company)",
+        "url": "https://en.wikipedia.org/wiki/Venturi_(company)",
+        "revision": 1378567156
+      }
+    ],
+    "wikipediaTitle": "Venturi (company)"
+  },
+  "tec-mec": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Valerio Colotti desarrolló Tec-Mec a partir de su experiencia de ingeniería relacionada con Maserati. El monoplaza F415 intentó revisar un concepto de motor delantero cuando la categoría avanzaba hacia el motor trasero."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La aparición mundialista de 1959 fue extremadamente breve. El proyecto debe distinguirse tanto de Maserati como de Tecno, otro fabricante italiano con nombre parecido."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Tec-Mec",
+        "url": "https://en.wikipedia.org/wiki/Tec-Mec",
+        "revision": 1374896810
+      }
+    ],
+    "wikipediaTitle": "Tec-Mec"
+  },
+  "brp": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Alfred Moss y Ken Gregory fundaron British Racing Partnership en 1957. El equipo comenzó preparando y utilizando autos de otros fabricantes."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "BRP construyó su propio monoplaza para 1963 y continuó en 1964. Esa etapa como constructor es más corta que su historia como participante. Las tablas de esta página siguen la identidad del chasis, no todos los autos inscritos por BRP."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: British Racing Partnership",
+        "url": "https://en.wikipedia.org/wiki/British_Racing_Partnership",
+        "revision": 1370962757
+      }
+    ],
+    "wikipediaTitle": "British Racing Partnership"
+  },
+  "boro": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Boro surgió de la relación comercial entre Ensign y el grupo neerlandés HB Bewaking. El proyecto utilizó un auto derivado de Ensign bajo una identidad propia."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sus intervenciones mundialistas se concentraron en 1976 y 1977. El parentesco del diseño y los acuerdos de propiedad explican el origen, pero las inscripciones Boro permanecen separadas de las de Ensign."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Boro (Formula One)",
+        "url": "https://en.wikipedia.org/wiki/Boro_(Formula_One)",
+        "revision": 1370967705
+      }
+    ],
+    "wikipediaTitle": "Boro (Formula One)"
+  },
+  "token": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "El nombre Token combinó los de Tony Vlassopulos y Ken Grob, financiadores de un proyecto que tenía antecedentes en Rondel. El RJ02 llegó a F1 en 1974."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El programa fue breve y estuvo condicionado por la financiación. La reutilización posterior del auto por otros participantes debe distinguirse de la trayectoria original de Token."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Token Racing",
+        "url": "https://en.wikipedia.org/wiki/Token_Racing",
+        "revision": 1370968988
+      }
+    ],
+    "wikipediaTitle": "Token Racing"
+  },
+  "scirocco": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Hugh Powell impulsó Scirocco tras adquirir activos de Emeryson. El proyecto construyó un monoplaza con motor Coventry Climax para competir en los años sesenta."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los recursos limitados y la escasa preparación dejaron una presencia mundialista breve. Los vínculos con Emeryson explican su origen técnico sin hacer de ambos nombres un único registro de constructor."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Scirocco-Powell",
+        "url": "https://en.wikipedia.org/wiki/Scirocco-Powell",
+        "revision": 1370965481
+      }
+    ],
+    "wikipediaTitle": "Scirocco-Powell"
+  },
+  "shannon": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Aiden Jones y Paul Emery desarrollaron el Shannon para una pequeña iniciativa británica. El auto utilizó un motor Climax y fue llevado al Gran Premio de Gran Bretaña de 1966."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La intervención de Trevor Taylor fue breve. No hubo una temporada completa ni una continuidad industrial comparable a la de los grandes equipos; el archivo documenta esa aparición concreta."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Shannon Racing Cars",
+        "url": "https://en.wikipedia.org/wiki/Shannon_Racing_Cars",
+        "revision": 1370965542
+      }
+    ],
+    "wikipediaTitle": "Shannon Racing Cars"
+  },
+  "bellasi": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Silvio Moser colaboró con Bellasi para sustituir los monoplazas comprados por un auto propio. La pequeña iniciativa suiza e italiana desarrolló el F1 70 con motor Ford."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los intentos de 1970 y 1971 estuvieron limitados por problemas de preparación y clasificación. La trayectoria de Moser como piloto de otros chasis es anterior y más extensa que la de este constructor."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Bellasi",
+        "url": "https://en.wikipedia.org/wiki/Bellasi",
+        "revision": 1375565161
+      }
+    ],
+    "wikipediaTitle": "Bellasi"
+  },
+  "jbw": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Brian Naylor y Fred Wilkinson construyeron autos de competición bajo las iniciales JBW. El proyecto británico desarrolló pequeños monoplazas para las participaciones de Naylor."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Su presencia mundialista de finales de los cincuenta y comienzos de los sesenta fue reducida. Los autos representaban una iniciativa artesanal, con componentes adquiridos y un programa muy distinto de una fábrica de gran escala."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: JBW",
+        "url": "https://en.wikipedia.org/wiki/JBW",
+        "revision": 1371092768
+      }
+    ],
+    "wikipediaTitle": "JBW"
+  },
+  "gilby": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Syd Greene desarrolló Gilby como una empresa de ingeniería y competición británica. Keith Greene, su hijo, fue parte central de sus programas de monoplazas."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El proyecto pasó de preparar autos ajenos a construir un chasis propio. Sus apariciones de F1 fueron breves, con recursos limitados y motores de proveedores externos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Gilby Engineering",
+        "url": "https://en.wikipedia.org/wiki/Gilby_Engineering",
+        "revision": 1370963673
+      }
+    ],
+    "wikipediaTitle": "Gilby Engineering"
+  },
+  "klenk": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Hans Klenk adaptó un auto Veritas en el proyecto conocido como Meteor. Su intervención se relacionó con el ambiente alemán de pequeños fabricantes y pilotos privados de la posguerra."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La aparición mundialista del constructor se concentró en el Gran Premio de Alemania de 1954. El auto y su origen técnico no equivalen a una nueva escudería que disputara todo el campeonato."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Klenk",
+        "url": "https://en.wikipedia.org/wiki/Klenk",
+        "revision": 1370969391
+      }
+    ],
+    "wikipediaTitle": "Klenk"
+  },
+  "lds": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Louis Douglas Serrurier construyó en Sudáfrica los autos que llevaron las iniciales LDS. El proyecto desarrolló distintas generaciones sobre conceptos y componentes vinculados a otros monoplazas."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Las primeras versiones se relacionaron con Cooper y las posteriores con Brabham. Su participación en carreras sudafricanas fue más amplia que las pocas apariciones mundialistas de esta página. Cada registro conserva la identidad del chasis utilizado."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: LDS (automobile)",
+        "url": "https://en.wikipedia.org/wiki/LDS_(automobile)",
+        "revision": 1370964288
+      }
+    ],
+    "wikipediaTitle": "LDS (automobile)"
+  },
+  "stebro": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Peter Broeker y John Stevens desarrollaron Stebro en Canadá, con experiencia en pequeños monoplazas. El programa llegó al Mundial en el Gran Premio de Estados Unidos de 1963."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Broeker completó aquella carrera con el Stebro-Ford. Fue una aparición particular dentro de la actividad del proyecto, no el inicio de una campaña mundialista de varias temporadas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Stebro",
+        "url": "https://en.wikipedia.org/wiki/Stebro",
+        "revision": 1370965596
+      }
+    ],
+    "wikipediaTitle": "Stebro"
+  },
+  "trojan": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Trojan desarrolló autos de competición a partir de una actividad industrial británica. Su proyecto de F1 utilizó el T103 diseñado por Ron Tauranac."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Tim Schenken condujo el auto en 1974. El programa tuvo un alcance reducido y no continuó como una escudería permanente del Mundial. La relación técnica con Tauranac se distingue de los equipos Brabham que había diseñado antes."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Trojan–Tauranac Racing",
+        "url": "https://en.wikipedia.org/wiki/Trojan%E2%80%93Tauranac_Racing",
+        "revision": 1370968996
+      }
+    ],
+    "wikipediaTitle": "Trojan–Tauranac Racing"
+  },
+  "merzario": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Arturo Merzario creó su propio equipo después de competir para otras escuderías. Comenzó utilizando un March y después desarrolló autos bajo su apellido."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los pequeños presupuestos y la dificultad para clasificarse limitaron el programa de finales de los setenta. Su historia como piloto es más amplia que las participaciones del constructor Merzario."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Merzario",
+        "url": "https://en.wikipedia.org/wiki/Merzario",
+        "revision": 1370969708
+      }
+    ],
+    "wikipediaTitle": "Merzario"
+  },
+  "kauhsen": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Willi Kauhsen pasó de pilotar deportivos a dirigir proyectos de competición, incluidos programas de Fórmula 2. Su intento de F1 llegó en 1979 con un chasis propio."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El diseño y el desarrollo no alcanzaron el nivel necesario para superar la clasificación. La venta de activos a Merzario terminó con una intervención muy breve."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Kauhsen",
+        "url": "https://en.wikipedia.org/wiki/Kauhsen",
+        "revision": 1370968789
+      }
+    ],
+    "wikipediaTitle": "Kauhsen"
+  },
+  "eifelland": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Günther Hennerici llevó el nombre de su empresa de caravanas Eifelland a F1 en 1972. El proyecto utilizó una base March con una carrocería experimental de Luigi Colani."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La propuesta aerodinámica tuvo que modificarse para hacer el auto utilizable. Rolf Stommelen participó en un programa breve, cuya identidad de constructor refleja esa adaptación particular."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Eifelland",
+        "url": "https://en.wikipedia.org/wiki/Eifelland",
+        "revision": 1370967881
+      }
+    ],
+    "wikipediaTitle": "Eifelland"
+  },
+  "eurobrun": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "EuroBrun nació de la asociación de Walter Brun y Giampaolo Pavanello, que combinaron experiencias de resistencia y monoplazas. Debutó en F1 en 1988 con una pequeña estructura italiana."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Las dificultades de clasificación y de financiación dominaron las temporadas siguientes. El equipo dejó el campeonato durante 1990 sin haber conseguido una posición competitiva estable."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: EuroBrun",
+        "url": "https://en.wikipedia.org/wiki/EuroBrun",
+        "revision": 1370968435
+      }
+    ],
+    "wikipediaTitle": "EuroBrun"
+  },
+  "ags": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Henri Julien desarrolló AGS desde un taller de Gonfaron, en el sur de Francia. El proyecto creció en categorías de formación antes de dar el salto a F1 en 1986."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Con pocos recursos, obtuvo puntos aislados y atravesó varios cambios de dirección y propiedad. La fase mundialista terminó en 1991. Su origen de taller ayuda a entender la escala del proyecto frente a las fábricas mayores."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Automobiles Gonfaronnaises Sportives",
+        "url": "https://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives",
+        "revision": 1378843210
+      }
+    ],
+    "wikipediaTitle": "Automobiles Gonfaronnaises Sportives"
+  },
+  "frank-williams-racing-cars": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Frank Williams desarrolló esta primera organización utilizando chasis de otros fabricantes antes de impulsar autos propios. Su trayectoria incluyó marcas comerciales y acuerdos que cambiaron con la financiación."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La asociación con Walter Wolf en 1976 cerró esta fase. Williams Grand Prix Engineering, fundada con Patrick Head en 1977, fue un nuevo proyecto y tiene un artículo separado. No se atribuyen retrospectivamente a este constructor los campeonatos de aquella segunda escudería."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Frank Williams Racing Cars",
+        "url": "https://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars",
+        "revision": 1370963636
+      }
+    ],
+    "wikipediaTitle": "Frank Williams Racing Cars"
+  },
+  "wolf-williams": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Walter Wolf adquirió participación en la organización de Frank Williams para la temporada de 1976. El proyecto combinó activos y conocimientos de distintas procedencias."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "La asociación terminó después de esa temporada. Wolf formó su propio equipo para 1977, mientras Frank Williams creó Williams Grand Prix Engineering con Patrick Head. Ambas ramas se distinguen del breve período Wolf-Williams."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Frank Williams Racing Cars",
+        "url": "https://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars",
+        "revision": 1370963636
+      }
+    ],
+    "wikipediaTitle": "Frank Williams Racing Cars"
+  },
+  "politoys": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Politoys identificó el primer chasis propio encargado por Frank Williams, el FX3 de 1972. El nombre procedía del patrocinador y fabricante de juguetes, no de una empresa independiente dedicada a una larga producción de monoplazas."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El auto tuvo una intervención limitada y fue desarrollado posteriormente bajo otras denominaciones. La tabla conserva el nombre que correspondía a la inscripción de su etapa Politoys."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Polistil",
+        "url": "https://en.wikipedia.org/wiki/Polistil",
+        "revision": 1371751455
+      }
+    ],
+    "wikipediaTitle": "Polistil"
+  },
+  "iso-marlboro": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Iso-Marlboro fue una identidad utilizada por el proyecto de Frank Williams en los años setenta, vinculada a acuerdos con el fabricante de deportivos Iso y con Marlboro."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "El nombre histórico forma parte de la inscripción del constructor; no debe borrarse como si fuera un patrocinador añadido a un equipo actual. Su continuidad organizativa se sigue en la genealogía de la primera escudería de Williams."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Frank Williams Racing Cars",
+        "url": "https://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars",
+        "revision": 1370963636
+      }
+    ],
+    "wikipediaTitle": "Frank Williams Racing Cars"
+  },
+  "kurtis-kraft": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Frank Kurtis desarrolló Kurtis Kraft en California, con una importante actividad en midgets y autos para las carreras estadounidenses. La construcción para clientes fue central en su negocio."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Sus chasis alcanzaron numerosos éxitos en Indianápolis. Las 500 Millas formaron parte del Mundial entre 1950 y 1960: por eso estos autos aparecen en el archivo de F1 aunque su diseño y su programa pertenecían a las carreras estadounidenses."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Kurtis Kraft",
+        "url": "https://en.wikipedia.org/wiki/Kurtis_Kraft",
+        "revision": 1338026326
+      }
+    ],
+    "wikipediaTitle": "Kurtis Kraft"
+  },
+  "wetteroth": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Louis, conocido como Curly, Wetteroth construyó autos de competición en Estados Unidos. Su actividad en Indianápolis incluyó victorias anteriores a la creación del campeonato mundial."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los chasis que siguieron participando en las 500 Millas durante la década de 1950 explican su presencia en este archivo. Las cifras mundialistas no incluyen toda la trayectoria del constructor ni sus resultados anteriores a 1950."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Wetteroth",
+        "url": "https://en.wikipedia.org/wiki/Wetteroth",
+        "revision": 1307723639
+      }
+    ],
+    "wikipediaTitle": "Wetteroth"
+  },
+  "lesovsky": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Lujie Lesovsky fue un constructor de autos de competición estadounidense asociado a los programas de Indianápolis. Su trabajo se integró en una industria de talleres que fabricaban chasis para propietarios y pilotos."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los autos compitieron con motores de proveedores externos. Sus registros mundialistas corresponden a las 500 Millas cuando la prueba integraba el calendario de F1, no a una campaña europea de Grandes Premios."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Lesovsky",
+        "url": "https://en.wikipedia.org/wiki/Lesovsky",
+        "revision": 1370043121
+      }
+    ],
+    "wikipediaTitle": "Lesovsky"
+  },
+  "deidt": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Emil Diedt desarrolló chasis para las carreras estadounidenses, con una destacada presencia en Indianápolis. Los éxitos de sus autos anteriores a 1950 preceden al campeonato mundial."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Las participaciones recogidas aquí corresponden a la etapa en que las 500 Millas otorgaban puntos del Mundial. La identidad del constructor del chasis se distingue del propietario del equipo y del fabricante del motor."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Emil Diedt",
+        "url": "https://en.wikipedia.org/wiki/Emil_Diedt",
+        "revision": 1370042499
+      }
+    ],
+    "wikipediaTitle": "Emil Diedt"
+  },
+  "nichels": {
+    "chapters": [
+      {
+        "title": "Origen y propósito",
+        "paragraphs": [
+          "Ray Nichels construyó y preparó autos de competición en Estados Unidos, con actividad en distintas disciplinas. Su trayectoria industrial no se limita a Indianápolis."
+        ]
+      },
+      {
+        "title": "Cómo evolucionó",
+        "paragraphs": [
+          "Los autos inscritos en las 500 Millas durante los años del Mundial explican su presencia en este archivo. Los posteriores programas de turismos y otras carreras pertenecen a un contexto diferente y no se suman a los resultados de F1."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Nichels",
+        "url": "https://en.wikipedia.org/wiki/Nichels",
+        "revision": 1326999535
+      }
+    ],
+    "wikipediaTitle": "Nichels"
+  },
+  "adams": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Adams aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Bayliss Levrett, Bill Cantrell. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "alfa-special": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Alfa Special en el Mundial abarca 1963–1965. La primera inscripción del archivo corresponde a South African Grand Prix de 1963. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Peter de Klerk. Los motores registrados son Alfa Romeo. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "apollon": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Apollon en el Mundial se concentra en 1977. La primera inscripción del archivo corresponde a Italian Grand Prix de 1977. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Loris Kessel. Los motores registrados son Ford. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "arzani-volpini": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Arzani-Volpini en el Mundial se concentra en 1955. La primera inscripción del archivo corresponde a Italian Grand Prix de 1955. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Luigi Piotti. Los motores registrados son Maserati. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "aston-butterworth": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Aston Butterworth en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a Belgian Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Bill Aston, Robin Montgomerie-Charrington. Los motores registrados son Butterworth. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "balsa": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Balsa en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a German Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Marcel Balsa. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "behra-porsche": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Behra-Porsche en el Mundial abarca 1959–1960. La primera inscripción del archivo corresponde a Monaco Grand Prix de 1959. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Fred Gamble, Jean Behra, Maria Teresa de Filippis. Los motores registrados son Porsche. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "bmw": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de BMW en el Mundial se concentra en 1969. La primera inscripción del archivo corresponde a German Grand Prix de 1969. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Dieter Quester, Gerhard Mitter, Hubert Hahne. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "bromme": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Bromme aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Spider Webb, Bob Scott, Danny Kladis. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "christensen": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Christensen aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Jack Turner, Jim Hurtubise. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "cisitalia": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Cisitalia en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a Italian Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Piero Dusio. Los motores registrados son BPM. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "del-roy": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Del Roy aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Johnny Thomson. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "derrington-francis": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Derrington-Francis en el Mundial se concentra en 1964. La primera inscripción del archivo corresponde a Italian Grand Prix de 1964. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Mário de Araújo Cabral. Los motores registrados son ATS. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "dunn": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Dunn aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Al Herman, Chuck Weyant. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "elder": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Elder aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Ray Crawford. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "emw": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de EMW en el Mundial se concentra en 1953. La primera inscripción del archivo corresponde a German Grand Prix de 1953. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Edgar Barth. Los motores registrados son EMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "enb": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de ENB en el Mundial se concentra en 1962. La primera inscripción del archivo corresponde a German Grand Prix de 1962. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Lucien Bianchi. Los motores registrados son Maserati. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "epperly": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Epperly aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Jimmy Bryan, Jim Rathmann, Johnny Boyd. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "ewing": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Ewing aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Al Herman, Eddie Sachs, Jimmy Davies. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "frazer-nash": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Frazer-Nash en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a Swiss Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Ken Wharton, Tony Crook. Los motores registrados son Bristol, BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "fry": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Fry en el Mundial se concentra en 1959. La primera inscripción del archivo corresponde a British Grand Prix de 1959. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Mike Parkes. Los motores registrados son Climax. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "greifzu": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Greifzu en el Mundial se concentra en 1953. La primera inscripción del archivo corresponde a German Grand Prix de 1953. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Rudolf Krause. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "hall": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Hall aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Bill Mackey. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "heck": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Heck en el Mundial abarca 1952–1953. La primera inscripción del archivo corresponde a German Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Ernst Klodwig. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "krakau": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Krakau en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a German Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Harry Merkel. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "kuzma": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Kuzma aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Jimmy Bryan, Eddie Sachs, Gene Hartley. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "langley": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Langley aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Gene Hartley. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "lyncar": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Lyncar en el Mundial abarca 1974–1975. La primera inscripción del archivo corresponde a British Grand Prix de 1974. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran John Nicholson. Los motores registrados son Ford. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "marchese": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Marchese aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Chuck Stevenson, Myron Fohr. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "mcguire": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de McGuire en el Mundial se concentra en 1977. La primera inscripción del archivo corresponde a British Grand Prix de 1977. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Brian McGuire. Los motores registrados son Ford. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "meskowski": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Meskowski aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Bob Veith, Bobby Grim. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "moore": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Moore aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Bob Veith, Henry Banks, Lee Wallard. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "nacke": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Nacke en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a German Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Karl-Günther Bechem. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "olson": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Olson aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Jackie Holmes. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "pankratz": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Pankratz aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Jimmy Reece. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "pawl": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Pawl aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Eddie Johnson, Eddie Russo, Jimmy Davies. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "phillips": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Phillips aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Don Freeland, Don Branson, Bob Veith. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "protos": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Protos en el Mundial se concentra en 1967. La primera inscripción del archivo corresponde a German Grand Prix de 1967. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Brian Hart, Kurt Ahrens, Jr.. Los motores registrados son Ford. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "rae": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Rae aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Walt Ader. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "reif": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Reif en el Mundial se concentra en 1952. La primera inscripción del archivo corresponde a German Grand Prix de 1952. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Rudolf Krause. Los motores registrados son BMW. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "scarab": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Scarab en el Mundial se concentra en 1960. La primera inscripción del archivo corresponde a Monaco Grand Prix de 1960. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Chuck Daigh, Lance Reventlow, Richie Ginther. Los motores registrados son Scarab. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "schroeder": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Schroeder aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Andy Linden, Bob Scott, Bobby Ball. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "sherman": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Sherman aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Andy Linden, George Fonder. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "snowberger": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Snowberger aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Bill Schindler. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "stevens": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Stevens aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Andy Linden, Bill Schindler, Bob Scott. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "super-aguri": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Super Aguri en el Mundial abarca 2006–2008. La primera inscripción del archivo corresponde a Bahrain Grand Prix de 2006. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Takuma Sato, Anthony Davidson, Franck Montagny. Los motores registrados son Honda. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "sutton": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Sutton aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Mike Magill. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "tecno": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Tecno en el Mundial abarca 1969–1973. La primera inscripción del archivo corresponde a German Grand Prix de 1969. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Chris Amon, Derek Bell, Nanni Galli. Los motores registrados son Tecno, Ford. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "trevis": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Trevis aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Eddie Johnson, Bill Vukovich, Bud Tingelstad. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "turner": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Turner aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Mike Nazaruk. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "veritas": {
+    "chapters": [
+      {
+        "title": "La participación documentada",
+        "paragraphs": [
+          "La presencia documentada de Veritas en el Mundial abarca 1951–1953. La primera inscripción del archivo corresponde a Swiss Grand Prix de 1951. Estas fechas describen participaciones, no prueban por sí solas cuándo se fundó la empresa o cuándo empezó a fabricar autos."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Arthur Legat, Theo Helfrich, Toni Ulmen. Los motores registrados son Veritas. El índice de autos y las conexiones permiten separar el chasis, el participante y sus proveedores: tres responsabilidades que no siempre pertenecían a la misma empresa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  },
+  "watson": {
+    "chapters": [
+      {
+        "title": "Su contexto en Indianápolis",
+        "paragraphs": [
+          "Watson aparece en el campeonato a través de las 500 Millas de Indianápolis. Entre 1950 y 1960, la prueba estadounidense formó parte del Mundial aunque utilizaba reglas y autos distintos de los Grandes Premios europeos. El nombre del chasis identifica a su constructor; no necesariamente al dueño de la escudería que lo inscribía."
+        ]
+      },
+      {
+        "title": "Autos y protagonistas",
+        "paragraphs": [
+          "Entre los pilotos vinculados a sus registros figuran Dick Rathmann, Jim Rathmann, Pat Flaherty. Los motores registrados son Offenhauser. Para entender su historia conviene leer estos autos como productos de la tradición estadounidense de construcción para clientes, en lugar de asumir que existía una escudería europea de fábrica."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "F1DB: registros del campeonato",
+        "url": "https://github.com/f1db/f1db"
+      }
+    ],
+    "coverage": "record-only"
+  }
+}

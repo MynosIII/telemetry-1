@@ -1,0 +1,170 @@
+{
+  "ferrari": {
+    "title": "File:Prancing horse.svg",
+    "source": "https://en.wikipedia.org/wiki/File:Prancing_horse.svg",
+    "asset": "/history/team-logos/ferrari-clean.svg",
+    "license": "Fair use",
+    "role": "manufacturer"
+  },
+  "mclaren": {
+    "title": "File:Mclaren Logo 2021.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mclaren_Logo_2021.svg",
+    "asset": "/history/team-logos/mclaren-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "mercedes": {
+    "title": "File:Mercedes-Benz Logo 2010.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Logo_2010.svg",
+    "asset": "/history/team-logos/mercedes-clean.svg",
+    "license": "Public domain",
+    "role": "manufacturer"
+  },
+  "williams": {
+    "title": "File:Williams Racing 2022 logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Williams_Racing_2022_logo.svg",
+    "asset": "/history/team-logos/williams-clean.svg",
+    "license": "CC BY-SA 4.0",
+    "role": "team"
+  },
+  "alpine": {
+    "title": "File:Alpine F1 Team Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Alpine_F1_Team_Logo.svg",
+    "asset": "/history/team-logos/alpine-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "haas": {
+    "title": "File:Haas F1 Team Logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Haas_F1_Team_Logo.svg",
+    "asset": "/history/team-logos/haas-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "red-bull": {
+    "title": "File:Red Bull Racing - 2005 Logo.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_-_2005_Logo.png",
+    "asset": "/history/team-logos/red-bull-clean.png",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "alfa-romeo": {
+    "title": "File:Alfa Romeo logo.png",
+    "source": "https://en.wikipedia.org/wiki/File:Alfa_Romeo_logo.png",
+    "asset": "/history/team-logos/alfa-romeo-clean.png",
+    "license": "Fair use",
+    "role": "manufacturer"
+  },
+  "brawn": {
+    "title": "File:Brawn GP logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Brawn_GP_logo.svg",
+    "asset": "/history/team-logos/brawn-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "dallara": {
+    "title": "File:Dallara logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dallara_logo.svg",
+    "asset": "/history/team-logos/dallara-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "matra": {
+    "title": "File:Matra sports logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Matra_sports_logo.svg",
+    "asset": "/history/team-logos/matra-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "aston-martin": {
+    "title": "Aston Martin brand logo",
+    "source": "https://en.wikipedia.org/wiki/File:Aston_Martin_Lagonda_brand_logo.svg",
+    "asset": "/history/team-logos/aston-martin-clean.svg",
+    "role": "manufacturer",
+    "license": "Fair use"
+  },
+  "penske": {
+    "title": "File:Team Penske logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Team_Penske_logo.svg",
+    "asset": "/history/team-logos/penske-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "surtees": {
+    "title": "File:SurteesLogo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:SurteesLogo.svg",
+    "asset": "/history/team-logos/surtees-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "ligier": {
+    "title": "File:Logo Ligier.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_Ligier.svg",
+    "asset": "/history/team-logos/ligier-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "bugatti": {
+    "title": "File:Bugatti logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bugatti_logo.svg",
+    "asset": "/history/team-logos/bugatti-clean.svg",
+    "license": "Public domain",
+    "role": "manufacturer"
+  },
+  "honda": {
+    "title": "File:Logo Honda F1 Racing.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Logo_Honda_F1_Racing.svg",
+    "asset": "/history/team-logos/honda-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "coloni": {
+    "title": "File:Enzo coloni racing logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Enzo_coloni_racing_logo.svg",
+    "asset": "/history/team-logos/coloni-clean.svg",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "footwork": {
+    "title": "File:Footwork logo.png",
+    "source": "https://en.wikipedia.org/wiki/File:Footwork_logo.png",
+    "asset": "/history/team-logos/footwork-clean.png",
+    "license": "Fair use",
+    "role": "team"
+  },
+  "spyker": {
+    "title": "File:Spyker F1 Team logo.png",
+    "source": "https://en.wikipedia.org/wiki/File:Spyker_F1_Team_logo.png",
+    "asset": "/history/team-logos/spyker-clean.png",
+    "license": "Fair use",
+    "role": "team"
+  },
+  "forti": {
+    "title": "File:Forti logo.png",
+    "source": "https://en.wikipedia.org/wiki/File:Forti_logo.png",
+    "asset": "/history/team-logos/forti-clean.png",
+    "license": "Fair use",
+    "role": "team"
+  },
+  "ats-wheels": {
+    "title": "File:ATS logo.gif",
+    "source": "https://commons.wikimedia.org/wiki/File:ATS_logo.gif",
+    "asset": "/history/team-logos/ats-wheels-clean.gif",
+    "license": "Public domain",
+    "role": "team"
+  },
+  "lotus-f1": {
+    "title": "File:Lotus F1 Team logo.png",
+    "source": "https://en.wikipedia.org/wiki/File:Lotus_F1_Team_logo.png",
+    "asset": "/history/team-logos/lotus-f1-clean.png",
+    "license": "Fair use",
+    "role": "team"
+  },
+  "stewart": {
+    "title": "File:Stewart logo.png",
+    "source": "https://en.wikipedia.org/wiki/File:Stewart_logo.png",
+    "asset": "/history/team-logos/stewart-clean.png",
+    "license": "Fair use",
+    "role": "team"
+  }
+}
