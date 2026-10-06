@@ -1,3 +1,4 @@
+import { EntityFlag } from "./EntityFlag";
 import { Suspense } from "react";
 import Link from "next/link";
 import { HistoryCharts } from "./HistoryCharts";
@@ -161,7 +162,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
 
     <section id="conexiones" className="team-section">
       <h2>Conexiones</h2>
-      <div className="history-connections team-connections">{entity.relations.map(group => <details key={group.category} ><summary>{historyCategories[group.category]} <span>{group.items.length}</span></summary><div className="history-table-scroll"><table><thead><tr><th>Nombre</th><th>Etapa</th><th>GP compartidos</th><th>Victorias conjuntas</th></tr></thead><tbody>{group.items.map(item => <tr key={item.id}><td><Link prefetch={false} href={item.href}>{item.name} →</Link></td><td>{item.firstSeason}–{item.lastSeason}</td><td>{item.races}</td><td>{item.wins}</td></tr>)}</tbody></table></div></details>)}</div>
+      <div className="history-connections team-connections">{entity.relations.map(group => <details key={group.category} ><summary>{historyCategories[group.category]} <span>{group.items.length}</span></summary><div className="history-table-scroll"><table><thead><tr><th>Nombre</th><th>Etapa</th><th>GP compartidos</th><th>Victorias conjuntas</th></tr></thead><tbody>{group.items.map(item => <tr key={item.id}><td><EntityFlag href={item.href} /><Link prefetch={false} href={item.href}>{item.name} ↗</Link></td><td>{item.firstSeason}–{item.lastSeason}</td><td>{item.races}</td><td>{item.wins}</td></tr>)}</tbody></table></div></details>)}</div>
     </section>
 
     <section id="fuentes" className="team-section team-sources">
