@@ -23,11 +23,12 @@ export function RadarPanel({ sessionKey, at }: { sessionKey: number; at: number 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [frame, sessionKey]);
 
-  if (failed.size >= 3 && loaded === null) return null;
+  if (failed.has(frame) && loaded === null) return null;
   const from = frame * RADAR_STEP_MS;
+  const recent = from > Date.now() - 3 * 3_600_000;
   return (
     <section className="replay-panel replay-radar" aria-label="Lluvia por satélite">
-      <h2>Lluvia por satélite · {formatClock(from).slice(0, 5)} a {formatClock(from + RADAR_STEP_MS).slice(0, 5)}</h2>
+      <h2>{recent ? "Radar de lluvia" : "Lluvia por satélite"} · {formatClock(from).slice(0, 5)} a {formatClock(from + RADAR_STEP_MS).slice(0, 5)}</h2>
       <div className="radar-frame">
         {failed.has(frame) ? <p className="replay-empty">No hay imagen para esta media hora.</p> : (
           // eslint-disable-next-line @next/next/no-img-element
@@ -41,7 +42,11 @@ export function RadarPanel({ sessionKey, at }: { sessionKey: number; at: number 
         )}
         <i className="radar-pin" aria-hidden="true" />
       </div>
-      <p className="stint-note">Estimación de NASA (IMERG) cada 30 minutos, unos 330 km alrededor del circuito, marcado en el centro.</p>
+      <p className="stint-note">
+        {recent
+          ? "Radar de RainViewer, unos 300 km alrededor del circuito, marcado en el centro."
+          : "Estimación de NASA (IMERG) cada 30 minutos, unos 330 km alrededor del circuito, marcado en el centro."}
+      </p>
     </section>
   );
 }

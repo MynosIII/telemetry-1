@@ -48,6 +48,26 @@ export async function circuitLocation(key: number): Promise<{ lat: number; lon: 
   }
 }
 
+/**
+ * Ground radar from RainViewer for the last two hours, where IMERG has not arrived yet:
+ * the frame closest to `at`, as a transparent overlay.
+ */
+export async function recentRadarImage(lat: number, lon: number, at: number): Promise<ArrayBuffer | null> {
+  try {
+    const response = await fetch("https://api.rainviewer.com/public/weather-maps.json", { next: { revalidate: 300 }, signal: AbortSignal.timeout(7000) });
+    if (!response.ok) return null;
+    const maps = (await response.json()) as { host?: string; radar?: { past?: { time: number; path: string }[] } };
+    const frames = maps.radar?.past ?? [];
+    if (!maps.host || !frames.length) return null;
+    const frame = frames.reduce((best, item) => (Math.abs(item.time * 1000 - at) < Math.abs(best.time * 1000 - at) ? item : best));
+    if (Math.abs(frame.time * 1000 - at) > 20 * 60_000) return null;
+    const image = await fetch(`${maps.host}${frame.path}/512/8/${lat.toFixed(4)}/${lon.toFixed(4)}/2/1_1.png`, { signal: AbortSignal.timeout(8000) });
+    return image.ok && (image.headers.get("content-type") ?? "").startsWith("image/") ? await image.arrayBuffer() : null;
+  } catch {
+    return null;
+  }
+}
+
 /** A satellite precipitation map around the circuit for the 30-minute period starting at `at`. */
 export async function radarImage(lat: number, lon: number, at: number): Promise<ArrayBuffer | null> {
   const bbox = [lon - SPAN, lat - SPAN, lon + SPAN, lat + SPAN].map((value) => value.toFixed(3)).join(",");
