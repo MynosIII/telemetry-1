@@ -135,10 +135,11 @@ function simulate({ key, start, laps, qualifying, rain }) {
           duration_sector_2: Number(((marks[2] - marks[1]) / 1000).toFixed(3)),
           duration_sector_3: Number(((marks[3] - marks[2]) / 1000).toFixed(3)),
           is_pit_out_lap: (qualifying && lap === 1) || lap === (pitLap ?? -1) + 1,
-          st_speed: Math.round(300 + random() * 30)
+          st_speed: Math.round(300 + random() * 30),
+          ...Object.fromEntries([1, 2, 3].map((sector) => [`segments_sector_${sector}`, Array.from({ length: 7 }, (_, k) => (sector === 1 && k === 0 && ((qualifying && lap === 1) || lap === (pitLap ?? -1) + 1) ? 2064 : random() < 0.06 ? 2051 : random() < 0.55 ? 2049 : 2048))]))
         });
         if (lap === pitLap) {
-          pitRemaining = 2.6 + random();
+          pitRemaining = 17 + random() * 3;
           pits.push({ session_key: key, driver_number: number, lap_number: lap, date: new Date(t).toISOString(), pit_duration: Number((20 + random() * 3).toFixed(1)) });
         }
         lap += 1;
@@ -201,11 +202,14 @@ const raceStart = Date.parse("2026-09-20T13:00:00Z");
 const qualyStart = Date.parse("2026-09-19T14:00:00Z");
 const liveStart = BOOT - 6 * 60_000;
 const rainWindow = [raceStart + 9 * 60_000, raceStart + 16 * 60_000];
+const dryStart = Date.parse("2026-09-06T13:00:00Z");
 const MEETINGS = [
+  { meeting_key: 1299, meeting_name: "Gran Premio Seco", country_name: "Argentina", country_code: "ARG", location: "Córdoba", year: 2026, date_start: "2026-09-04T10:00:00Z" },
   { meeting_key: 1300, meeting_name: "Gran Premio de Prueba", country_name: "Argentina", country_code: "ARG", location: "Buenos Aires", year: 2026, date_start: "2026-09-18T10:00:00Z" },
   { meeting_key: 1301, meeting_name: "Gran Premio en Vivo", country_name: "Argentina", country_code: "ARG", location: "Termas", year: new Date(BOOT).getUTCFullYear(), date_start: new Date(liveStart - 86_400_000).toISOString() }
 ];
 const SESSIONS = [
+  { session_key: 9904, meeting_key: 1299, session_name: "Race", session_type: "Race", date_start: new Date(dryStart).toISOString(), date_end: new Date(dryStart + 7200_000).toISOString(), circuit_short_name: "Córdoba", country_name: "Argentina", country_code: "ARG", location: "Córdoba", year: 2026 },
   { session_key: 9901, meeting_key: 1300, session_name: "Qualifying", session_type: "Qualifying", date_start: new Date(qualyStart).toISOString(), date_end: new Date(qualyStart + 3600_000).toISOString(), circuit_short_name: "Buenos Aires", country_name: "Argentina", country_code: "ARG", location: "Buenos Aires", year: 2026 },
   { session_key: 9902, meeting_key: 1300, session_name: "Race", session_type: "Race", date_start: new Date(raceStart).toISOString(), date_end: new Date(raceStart + 7200_000).toISOString(), circuit_short_name: "Buenos Aires", country_name: "Argentina", country_code: "ARG", location: "Buenos Aires", year: 2026 },
   { session_key: 9903, meeting_key: 1301, session_name: "Race", session_type: "Race", date_start: new Date(liveStart).toISOString(), date_end: new Date(liveStart + 7200_000).toISOString(), circuit_short_name: "Termas", country_name: "Argentina", country_code: "ARG", location: "Termas", year: new Date(BOOT).getUTCFullYear() }
@@ -215,8 +219,11 @@ console.log("Simulating sessions…");
 const DATA = {
   9901: simulate({ key: 9901, start: qualyStart, laps: 5, qualifying: true }),
   9902: simulate({ key: 9902, start: raceStart, laps: 18, rain: rainWindow }),
-  9903: simulate({ key: 9903, start: liveStart, laps: 18 })
+  9903: simulate({ key: 9903, start: liveStart, laps: 18 }),
+  9904: simulate({ key: 9904, start: dryStart, laps: 24 })
 };
+DATA[9904].weather = weatherFor(9904, dryStart, 60);
+DATA[9904].race_control = [{ session_key: 9904, date: new Date(dryStart).toISOString(), flag: "GREEN", message: "GREEN LIGHT - PIT EXIT OPEN", category: "Flag", scope: "Track" }];
 DATA[9901].weather = weatherFor(9901, qualyStart, 60);
 DATA[9902].weather = weatherFor(9902, raceStart, 120, rainWindow);
 DATA[9903].weather = weatherFor(9903, liveStart, 120);

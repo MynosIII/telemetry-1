@@ -32,6 +32,8 @@ export type ReplayLap = {
   sectors: [number | null, number | null, number | null];
   pitOut: boolean;
   speedTrap: number | null;
+  /** Mini-sector status codes per sector (2048 yellow, 2049 green, 2051 purple, 2064 pit lane, 0 no data). */
+  segments: [number[], number[], number[]];
 };
 
 export type ReplayStint = {
@@ -156,6 +158,10 @@ function toDriver(row: Row): ReplayDriver | null {
   };
 }
 
+function segmentList(value: unknown): number[] {
+  return Array.isArray(value) ? value.map((item) => (typeof item === "number" ? item : 0)) : [];
+}
+
 function toLap(row: Row): ReplayLap | null {
   const lap = num(row.lap_number);
   if (lap === null) return null;
@@ -165,7 +171,8 @@ function toLap(row: Row): ReplayLap | null {
     duration: num(row.lap_duration),
     sectors: [num(row.duration_sector_1), num(row.duration_sector_2), num(row.duration_sector_3)],
     pitOut: row.is_pit_out_lap === true,
-    speedTrap: num(row.st_speed)
+    speedTrap: num(row.st_speed),
+    segments: [segmentList(row.segments_sector_1), segmentList(row.segments_sector_2), segmentList(row.segments_sector_3)]
   };
 }
 
@@ -472,4 +479,43 @@ export async function getCarDataChunk(key: number, driver: number, from: number,
     chunk.drs.push(num(row.drs) ?? 0);
   }
   return chunk;
+}
+
+/** Every car's inputs for a window, about one sample a second: parallel arrays, `t` in ms from `from`. */
+export type FieldInputsChunk = {
+  from: number;
+  to: number;
+  cars: Record<number, { t: number[]; speed: number[]; gear: number[]; throttle: number[]; brake: number[] }>;
+};
+
+const INPUT_STEP_MS = 900;
+
+export async function getFieldInputs(key: number, from: number, to: number): Promise<FieldInputsChunk> {
+  const rows = await openF1(`/car_data?session_key=${key}&${dateRange(from, to)}`);
+  const byDriver = new Map<number, { at: number; row: Row }[]>();
+  for (const row of rows) {
+    const driver = num(row.driver_number);
+    const at = time(row.date);
+    if (driver === null || at === null || at < from || at >= to) continue;
+    const list = byDriver.get(driver) ?? [];
+    list.push({ at, row });
+    byDriver.set(driver, list);
+  }
+  const cars: FieldInputsChunk["cars"] = {};
+  for (const [driver, list] of byDriver) {
+    list.sort((a, b) => a.at - b.at);
+    const car = { t: [] as number[], speed: [] as number[], gear: [] as number[], throttle: [] as number[], brake: [] as number[] };
+    let last = -Infinity;
+    for (const { at, row } of list) {
+      if (at - last < INPUT_STEP_MS) continue;
+      last = at;
+      car.t.push(at - from);
+      car.speed.push(num(row.speed) ?? 0);
+      car.gear.push(num(row.n_gear) ?? 0);
+      car.throttle.push(Math.min(100, Math.max(0, num(row.throttle) ?? 0)));
+      car.brake.push((num(row.brake) ?? 0) > 0 ? 1 : 0);
+    }
+    cars[driver] = car;
+  }
+  return { from, to, cars };
 }
