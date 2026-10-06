@@ -87,3 +87,27 @@
   .lap-summary-row { grid-template-columns: 4px minmax(0, 1fr); }
   .lap-summary-row dl { grid-column: 2; gap: 16px; flex-wrap: wrap; }
 }
+
+.tyre-chip { display: inline-flex; align-items: center; gap: 4px; margin-left: 6px; vertical-align: 2px; }
+.tyre-chip b { display: inline-grid; place-items: center; width: 20px; height: 20px; border: 2px solid; border-radius: 50%; font-size: 10px; font-weight: 800; }
+.tyre-chip small { display: inline; margin: 0; color: #9a9a9a; font-size: 12px; font-weight: 600; }
+
+.session-conditions { margin-top: 40px; display: grid; gap: 10px; }
+.session-conditions > h2 { margin: 0 0 4px; font: 750 24px/1.2 var(--font-ui); }
+.trace-band { fill: #2f7fd0; opacity: .16; }
+.conditions-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 4px 0 0; color: #a8a8a8; font-size: 13px; }
+.conditions-legend i { display: inline-block; width: 12px; height: 8px; margin-right: 6px; border-radius: 2px; vertical-align: 0; }
+.conditions-rain { background: rgba(47, 127, 208, .45); }
+
+.stint-chart { padding: 12px 14px; background: #111; border: 1px solid #262626; border-radius: 6px; }
+.stint-axis, .stint-row { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 10px; align-items: center; }
+.stint-axis > div { position: relative; height: 16px; }
+.stint-axis small { position: absolute; transform: translateX(-50%); color: #777; font-size: 11px; font-variant-numeric: tabular-nums; }
+.stint-row { width: 100%; padding: 2px 0; background: none; border: 0; color: #fff; cursor: pointer; text-align: left; }
+.stint-row:hover .stint-driver, .stint-row[aria-pressed=true] .stint-driver { color: #fff; }
+.stint-row[aria-pressed=true] .stint-track { outline: 1px solid #8a8a8a; outline-offset: 1px; }
+.stint-driver { display: flex; align-items: center; gap: 6px; color: #b5b5b5; font-size: 12px; font-weight: 700; }
+.stint-driver i { width: 3px; height: 14px; border-radius: 2px; }
+.stint-track { position: relative; height: 18px; background: #0b0b0b; border-radius: 3px; }
+.stint-wet { position: absolute; top: -2px; bottom: -2px; background: rgba(47, 127, 208, .3); }
+.stint-bar { position: absolute; top: 3px; bottom: 3px; display: grid; place-items: center; border-radius: 3px; border-right: 2px solid #111; color: #111; font-size: 10px; font-weight: 800; overflow: hidden; }
