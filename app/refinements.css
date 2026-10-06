@@ -107,6 +107,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .archive-record p, .archive-record div > span, .record-action { font-size: 11px; color: #b8b8bb; line-height: 1.5; }
 .record-index, .record-action, .classified-pill, .live-model-status, .topology-version { border-radius: 8px; }
 .record-index { transform: none; }
+.record-index.record-portrait { width: 45px; height: 55px; overflow: hidden; }
+.record-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block; }
 .search-box kbd { border-radius: 6px; font-size: 10px; }
 .race-tab { padding: 16px 22px; }
 .race-tab span, .race-tab strong { font-size: 12px; }

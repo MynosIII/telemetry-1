@@ -16,6 +16,7 @@ import { getHistoryIndex } from "@/lib/history";
 import { getNews } from "@/lib/news";
 import { NewsList } from "@/components/NewsList";
 import eloRatings from "@/lib/elo-ratings.json";
+import { driverPhoto } from "@/lib/driver-photos";
 
 export default async function Home() {
   const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
@@ -129,7 +130,7 @@ export default async function Home() {
             <h2 id="archive-title">EXPLORÁ EL <em>ARCHIVO</em></h2>
           </div>
         </div>
-        <SearchArchive />
+        <SearchArchive portraits={{ senna: driverPhoto("senna"), hamilton: driverPhoto("hamilton"), antonelli: driverPhoto("antonelli") }} />
       </section>
 
       <section className="section section-light" id="ranking" aria-labelledby="stats-title">

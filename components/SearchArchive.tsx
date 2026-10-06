@@ -2,13 +2,14 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { FallbackImage } from "./FallbackImage";
 
-type ArchiveRecord = { type: string; title: string; detail: string; tag: string; href?: string };
+type ArchiveRecord = { type: string; title: string; detail: string; tag: string; href?: string; driverId?: string };
 
 const records: ArchiveRecord[] = [
-  { type: "Piloto", title: "Ayrton Senna", detail: "Brasil · 3 campeonatos · 41 victorias", tag: "LEYENDA", href: "/pilotos/senna" },
-  { type: "Piloto", title: "Lewis Hamilton", detail: "Reino Unido · 7 campeonatos · Era moderna", tag: "PILOTO", href: "/pilotos/hamilton" },
-  { type: "Piloto", title: "Andrea Kimi Antonelli", detail: "Italia · Mercedes", tag: "ACTUAL", href: "/pilotos/antonelli" },
+  { type: "Piloto", title: "Ayrton Senna", detail: "Brasil · 3 campeonatos · 41 victorias", tag: "LEYENDA", href: "/pilotos/senna", driverId: "senna" },
+  { type: "Piloto", title: "Lewis Hamilton", detail: "Reino Unido · 7 campeonatos · Era moderna", tag: "PILOTO", href: "/pilotos/hamilton", driverId: "hamilton" },
+  { type: "Piloto", title: "Andrea Kimi Antonelli", detail: "Italia · Mercedes", tag: "ACTUAL", href: "/pilotos/antonelli", driverId: "antonelli" },
   { type: "Circuito", title: "Autodromo Nazionale Monza", detail: "Italia · 5.793 km · Templo de la velocidad", tag: "PISTA", href: "/historia/circuits/monza" },
   { type: "Circuito", title: "Suzuka International Racing Course", detail: "Japón · 5.807 km · Figura de ocho", tag: "PISTA", href: "/historia/circuits/suzuka" },
   { type: "Circuito", title: "Circuito de Buenos Aires", detail: "Argentina · Archivo histórico", tag: "HISTORIA" },
@@ -16,7 +17,7 @@ const records: ArchiveRecord[] = [
   { type: "Artículo", title: "Por qué cambia el rendimiento entre eras", detail: "Próximamente", tag: "PRÓXIMO" }
 ];
 
-export function SearchArchive() {
+export function SearchArchive({ portraits }: { portraits: Record<string, string | null> }) {
   const [query, setQuery] = useState("");
   const results = useMemo(() => {
     const needle = query.trim().toLocaleLowerCase("es");
@@ -42,7 +43,7 @@ export function SearchArchive() {
       <div className="archive-results" aria-live="polite">
         {results.length ? results.map((record) => (
           <article className="archive-record" key={record.title}>
-            <span className="record-index">{record.type.slice(0, 1)}</span>
+            <span className={`record-index${record.driverId ? " record-portrait" : ""}`} aria-hidden="true">{record.driverId ? <FallbackImage key={record.driverId} sources={portraits[record.driverId] ? [portraits[record.driverId]!] : []} alt="" fallback={record.title.split(" ").map(word => word[0]).slice(0, 2).join("")} /> : record.type.slice(0, 1)}</span>
             <div>
               <p>{record.type}</p>
               <h3>{record.href ? <Link href={record.href}>{record.title}</Link> : record.title}</h3>
