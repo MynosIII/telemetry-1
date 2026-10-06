@@ -1,11 +1,16 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, access } from 'node:fs/promises';
 
 const json = async file => JSON.parse(await readFile(`public/history/${file}`, 'utf8'));
 const analysis = await json('tyre-analysis.json');
+const logos = JSON.parse(await readFile('lib/tyre-logos.json', 'utf8'));
+const logoSources = JSON.parse(await readFile('data/tyre-logo-sources.json', 'utf8'));
 assert.equal(Object.keys(analysis.tyres).length, 9);
 const hrefs = new Set((await json('weekends.json')).races.map(r => r.href));
 for (const [id, tyre] of Object.entries(analysis.tyres)) {
+  assert.ok(logos[id]?.url.startsWith('/history/tyre-logos/'), `${id}: missing local brand logo`);
+  assert.equal(logos[id].source, logoSources[id]?.source, `${id}: missing logo provenance`);
+  await access(`public${logos[id].url}`);
   const entity = await json(`tyres/${id}.json`);
   const sum = key => tyre.seasons.reduce((n, s) => n + s[key], 0);
   assert.equal(sum('races'), entity.stats.races, `${id}: event coverage`);

@@ -1,10 +1,11 @@
 {
   "ferrari": {
-    "title": "File:Prancing horse.svg",
-    "source": "https://en.wikipedia.org/wiki/File:Prancing_horse.svg",
-    "asset": "/history/team-logos/ferrari-clean.svg",
-    "license": "Fair use",
-    "role": "manufacturer"
+    "title": "File:Ferrari.svg",
+    "source": "https://it.wikipedia.org/wiki/File:Ferrari.svg",
+    "asset": "/history/team-logos/ferrari-color.svg",
+    "license": "Marchio",
+    "role": "manufacturer",
+    "variant": "color"
   },
   "mclaren": {
     "title": "File:Mclaren Logo 2021.svg",
@@ -49,11 +50,12 @@
     "role": "team"
   },
   "alfa-romeo": {
-    "title": "File:Alfa Romeo logo.png",
-    "source": "https://en.wikipedia.org/wiki/File:Alfa_Romeo_logo.png",
-    "asset": "/history/team-logos/alfa-romeo-clean.png",
-    "license": "Fair use",
-    "role": "manufacturer"
+    "title": "Fichier:Logo Alfa Romeo (2015).svg",
+    "source": "https://fr.wikipedia.org/wiki/Fichier:Logo_Alfa_Romeo_(2015).svg",
+    "asset": "/history/team-logos/alfa-romeo-color.svg",
+    "license": "marque déposée",
+    "role": "manufacturer",
+    "variant": "color"
   },
   "brawn": {
     "title": "File:Brawn GP logo.svg",
@@ -77,11 +79,12 @@
     "role": "team"
   },
   "aston-martin": {
-    "title": "Aston Martin brand logo",
-    "source": "https://en.wikipedia.org/wiki/File:Aston_Martin_Lagonda_brand_logo.svg",
-    "asset": "/history/team-logos/aston-martin-clean.svg",
+    "title": "Fichier:Logo Aston Martin.svg",
+    "source": "https://fr.wikipedia.org/wiki/Fichier:Logo_Aston_Martin.svg",
+    "asset": "/history/team-logos/aston-martin-color.svg",
+    "license": "marque déposée",
     "role": "manufacturer",
-    "license": "Fair use"
+    "variant": "color"
   },
   "penske": {
     "title": "File:Team Penske logo.svg",
@@ -166,5 +169,21 @@
     "asset": "/history/team-logos/stewart-clean.png",
     "license": "Fair use",
     "role": "team"
+  },
+  "osella": {
+    "title": "File:Osella.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Osella.svg",
+    "asset": "/history/team-logos/osella-color.svg",
+    "license": "Trademark",
+    "role": "team",
+    "variant": "color"
+  },
+  "toyota": {
+    "title": "File:Toyota logo.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_logo.svg",
+    "asset": "/history/team-logos/toyota-color.svg",
+    "license": "Public domain",
+    "role": "manufacturer",
+    "variant": "color"
   }
 }

@@ -1,13 +1,13 @@
 {
   "afm": "/history/team-logos/afm.jpg",
   "ags": "/history/team-logos/ags.png",
-  "alfa-romeo": "/history/team-logos/alfa-romeo-clean.png",
+  "alfa-romeo": "/history/team-logos/alfa-romeo-color.svg",
   "alphatauri": "/history/team-logos/alphatauri.png",
   "alpine": "/history/team-logos/alpine-clean.svg",
   "amon": "/history/team-logos/amon.png",
   "andrea-moda": "/history/team-logos/andrea-moda.png",
   "arrows": "/history/team-logos/arrows.png",
-  "aston-martin": "/history/team-logos/aston-martin-clean.svg",
+  "aston-martin": "/history/team-logos/aston-martin-color.svg",
   "bar": "/history/team-logos/bar.png",
   "bellasi": "/history/team-logos/bellasi.png",
   "benetton": "/history/team-logos/benetton.jpg",
@@ -29,7 +29,7 @@
   "emeryson": "/history/team-logos/emeryson.jpg",
   "emw": "/history/team-logos/emw.png",
   "ensign": "/history/team-logos/ensign.jpg",
-  "ferrari": "/history/team-logos/ferrari-clean.svg",
+  "ferrari": "/history/team-logos/ferrari-color.svg",
   "fondmetal": "/history/team-logos/fondmetal.png",
   "gordini": "/history/team-logos/gordini.png",
   "haas": "/history/team-logos/haas-clean.svg",
@@ -87,5 +87,7 @@
   "forti": "/history/team-logos/forti-clean.png",
   "ats-wheels": "/history/team-logos/ats-wheels-clean.gif",
   "lotus-f1": "/history/team-logos/lotus-f1-clean.png",
-  "stewart": "/history/team-logos/stewart-clean.png"
+  "stewart": "/history/team-logos/stewart-clean.png",
+  "osella": "/history/team-logos/osella-color.svg",
+  "toyota": "/history/team-logos/toyota-color.svg"
 }

@@ -1,38 +1,47 @@
 {
   "avon": {
-    "url": "/history/tyre-logos/avon-color.svg",
+    "title": "File:Avon-logo.svg",
+    "asset": "/history/tyre-logos/avon-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Avon-logo.svg"
   },
   "englebert": {
-    "url": "/history/tyre-logos/englebert-color.svg",
+    "title": "File:Pneu Englebert.svg",
+    "asset": "/history/tyre-logos/englebert-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Pneu_Englebert.svg"
   },
   "firestone": {
-    "url": "/history/tyre-logos/firestone-color.svg",
+    "title": "File:Firestone.svg",
+    "asset": "/history/tyre-logos/firestone-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Firestone.svg"
   },
   "michelin": {
-    "url": "/history/tyre-logos/michelin-color.svg",
+    "title": "File:Michelin Wordmark.svg",
+    "asset": "/history/tyre-logos/michelin-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Michelin_Wordmark.svg"
   },
   "dunlop": {
-    "url": "/history/tyre-logos/dunlop-color.svg",
+    "title": "File:Dunlop brand logo.svg",
+    "asset": "/history/tyre-logos/dunlop-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Dunlop_brand_logo.svg"
   },
   "bridgestone": {
-    "url": "/history/tyre-logos/bridgestone-color.svg",
+    "title": "File:Bridgestone logo full color.svg",
+    "asset": "/history/tyre-logos/bridgestone-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Bridgestone_logo_full_color.svg"
   },
   "pirelli": {
-    "url": "/history/tyre-logos/pirelli-color.svg",
+    "title": "File:Pirelli - logo full (Italy, 1997).svg",
+    "asset": "/history/tyre-logos/pirelli-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Pirelli_-_logo_full_(Italy,_1997).svg"
   },
   "goodyear": {
-    "url": "/history/tyre-logos/goodyear-color.svg",
+    "title": "File:Goodyear Logo 2025.svg",
+    "asset": "/history/tyre-logos/goodyear-color.svg",
     "source": "https://en.wikipedia.org/wiki/File:Goodyear_Logo_2025.svg"
   },
   "continental": {
-    "url": "/history/tyre-logos/continental-color.svg",
+    "title": "File:Continental logo.svg",
+    "asset": "/history/tyre-logos/continental-color.svg",
     "source": "https://commons.wikimedia.org/wiki/File:Continental_logo.svg"
   }
 }
