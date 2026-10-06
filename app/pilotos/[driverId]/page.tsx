@@ -48,6 +48,7 @@ export default async function DriverPage({ params }: Props) {
             <div><span>PRIME SOSTENIDO</span><strong>{value(telemetry.model.sustainedPrime)}</strong></div>
           </div>
         ) : null}
+        {history ? <p className="driver-compare-link"><Link href={`/historia/comparar?a=${history.id}`} prefetch={false}>Comparar con otro piloto</Link></p> : null}
 
         {history ? <HistoryDossier entity={history} /> : null}
 

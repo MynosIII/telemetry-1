@@ -496,3 +496,7 @@ footer > p { color: #a6a6aa; }
 @media (max-width: 760px) {
   .site-subnav { padding-right: 40px; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent); }
 }
+
+/* Driver page: entry point to the head-to-head comparator. */
+.driver-compare-link { margin: -60px 0 50px; font-size: 14px; }
+.driver-compare-link a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
