@@ -12,7 +12,7 @@ export function CircuitPoleChart({ races }: { races: CircuitRace[] }) {
   const low = values.length ? Math.floor(Math.min(...values) / 5) * 5 : 0;
   const high = values.length ? Math.max(low + 5, Math.ceil(Math.max(...values) / 5) * 5) : 5;
   const first = rows[0]?.year ?? 0, last = rows.at(-1)?.year ?? first;
-  const x = (year:number) => 86 + (year-first) / Math.max(1,last-first) * 774;
+  const x = (year:number) => first === last ? 473 : 86 + (year-first) / (last-first) * 774;
   const y = (seconds:number) => 250 - (seconds-low)/(high-low)*210;
   let missing = true;
   const line = rows.map(r => { if(r.poleSeconds === null){missing=true;return "";} const command=missing?"M":"L";missing=false;return `${command}${x(r.year)},${y(r.poleSeconds)}`; }).join(" ");
