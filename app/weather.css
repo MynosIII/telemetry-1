@@ -1,0 +1,44 @@
+.circuit-weather { margin: 38px 0; color: #ececef; min-width: 0; }
+.weather-heading { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 24px; }
+.weather-heading h2 { font-size: clamp(28px,4vw,48px); margin: 8px 0; }
+.weather-heading h2 em { color: #ff1801; font-style: normal; }
+.weather-heading p { color: #a6a6ad; }
+.weather-heading a { white-space: nowrap; font-size: 13px; }
+.weather-box { background: #101114; border: 1px solid #292a2d; min-width: 0; margin-bottom: 20px; }
+.weather-box h3 { margin: 0; padding: 14px 18px; border-bottom: 1px solid #292a2d; font: 600 12px var(--font-ui); text-transform: uppercase; letter-spacing: .06em; }
+.weather-box h3 span { font-weight: 400; color: #a6a6ad; margin-left: 12px; }
+.weather-current { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); margin: 0; }
+.weather-current > div { padding: 20px 16px; border-right: 1px solid #292a2d; min-width: 0; }
+.weather-current dt { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: #a6a6ad; }
+.weather-current dd { font: 800 clamp(18px,2vw,29px) var(--font-ui); margin: 12px 0 6px; overflow-wrap: anywhere; }
+.weather-current > div:first-child dd { color: #ff3825; }
+.weather-current > div:nth-child(2) dd, .weather-rain { color: #28cfff; }
+.weather-current > div:last-child dd { color: #ffd34b; }
+.weather-current small { font-size: 11px; color: #a6a6ad; }
+.weather-layers { display: flex; flex-wrap: wrap; gap: 0; border-bottom: 1px solid #292a2d; }
+.weather-layers button, .weather-layers a { padding: 12px 18px; background: transparent; color: #bbb; border: 0; border-right: 1px solid #292a2d; cursor: pointer; font: 11px var(--font-ui); text-transform: uppercase; }
+.weather-layers button[aria-pressed=true] { background: #ff1801; color: white; }
+.weather-layers a { margin-left: auto; }
+.weather-layers button:focus-visible, .weather-hours:focus-visible { outline: 2px solid #28cfff; outline-offset: -3px; }
+.weather-map iframe { width: 100%; height: 520px; display: block; border: 0; }
+.weather-map > p, .weather-explanation, .weather-sources p { color: #a6a6ad; font-size: 12px; line-height: 1.7; padding: 12px 18px; margin: 0; }
+.weather-forecasts { display: grid; grid-template-columns: minmax(340px,1fr) minmax(0,2fr); gap: 20px; }
+.weather-days { width: 100%; border-collapse: collapse; font-size: 12px; }
+.weather-days td, .weather-days th { padding: 13px 10px; border-bottom: 1px solid #292a2d; text-align: left; }
+.weather-days thead { color: #a6a6ad; font-size: 10px; }
+.weather-days td:last-child { color: #28cfff; }
+.weather-days .is-race { background: #361613; }
+.weather-days small { display: block; color: #ff3825; font-size: 9px; }
+.weather-hours { display: flex; overflow-x: auto; scrollbar-color: #555 #17181b; }
+.weather-hours article { flex: 0 0 82px; padding: 18px 8px; text-align: center; border-right: 1px solid #292a2d; display: grid; gap: 12px; }
+.weather-hours time, .weather-hours small { font-size: 10px; color: #a6a6ad; }
+.weather-symbol { font-size: 24px; color: #ffd34b; }
+.weather-sources dl { display: flex; flex-wrap: wrap; gap: 28px; margin: 0; padding: 12px 18px 20px; }
+.weather-sources dt { font-size: 11px; color: #a6a6ad; }
+.weather-sources dd { margin: 8px 0 0; color: #ffd34b; font-size: 13px; }
+.weather-selector { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 24px 0; }
+.weather-selector select, .weather-selector button { background: #16171b; color: #eee; border: 1px solid #444; padding: 12px; max-width: 100%; }
+.weather-selector button { cursor: pointer; border-color: #ff1801; }
+.weather-unavailable { background: #18191c; border: 1px solid #444; padding: 20px; }
+@media(max-width:900px) { .weather-current { grid-template-columns: repeat(3,minmax(0,1fr)); } .weather-forecasts { grid-template-columns: 1fr; } }
+@media(max-width:540px) { .weather-heading { align-items: start; flex-direction: column; } .weather-current { grid-template-columns: repeat(2,minmax(0,1fr)); } .weather-map iframe { height: 420px; } .weather-days { font-size: 11px; } .weather-days th,.weather-days td { padding: 12px 6px; } .weather-box h3 span { display: block; margin: 8px 0 0; } .weather-layers button,.weather-layers a { padding: 12px; } }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { LiveTimingDashboard } from "@/components/LiveTimingDashboard";
 import { NextRacePanel } from "@/components/NextRacePanel";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -7,6 +8,7 @@ import { StaleDataNotice } from "@/components/StaleDataNotice";
 import { getCircuitProfile, getF1HomeData } from "@/lib/f1-data";
 import { getLiveTimingSnapshot } from "@/lib/live-timing";
 import { getWeatherRadarImage } from "@/lib/weather-radar";
+import { CircuitWeather } from "@/components/CircuitWeather";
 
 export const metadata: Metadata = {
   title: "En vivo",
@@ -58,6 +60,7 @@ export default async function LivePage() {
           radar
         }}
       />
+      <Suspense fallback={<p id="clima" className="weather-unavailable" role="status">Cargando el clima del circuito…</p>}><CircuitWeather circuit={mapCircuit} raceDate={(sessionRace ?? data.nextRace).date} /></Suspense>
       <NextRacePanel race={data.nextRace} circuit={data.nextCircuit} />
       <SiteFooter />
     </main>
