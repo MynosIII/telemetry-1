@@ -4,6 +4,9 @@ import { useEffect, useMemo, useState } from "react";
 import { TraceChart, valueAt, indexAt, type TraceSeries } from "@/components/replay/TraceChart";
 import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline";
 import { formatDelta, formatLapTime } from "@/components/replay/format";
+import { SessionConditions } from "@/components/replay/SessionConditions";
+import { TyreChip } from "@/components/replay/TyreChip";
+import { compoundInfo, rainedBetween, tyreOnLap, weatherAt } from "@/components/replay/tyres";
 import type { LapTelemetry, ReplayDriver, ReplayLap, ReplaySession, ReplaySessionSummary } from "@/lib/replay";
 
 const PRIMARY_COLOR = "#ef3b33";
@@ -136,9 +139,12 @@ function DriverGrid({ drivers, selected, onSelect, allowNone, label, disabled }:
   );
 }
 
-function lapOptionLabel(lap: ReplayLap, fastest: ReplayLap | null) {
-  const notes = [lap.lap === fastest?.lap ? "más rápida" : "", lap.pitOut ? "salida de boxes" : ""].filter(Boolean);
-  return `Vuelta ${lap.lap} · ${formatLapTime(lap.duration)}${notes.length ? ` (${notes.join(", ")})` : ""}`;
+function lapOptionLabel(lap: ReplayLap, fastest: ReplayLap | null, data: ReplaySession, driver: number) {
+  const tyre = tyreOnLap(data.stints, driver, lap.lap);
+  const wet = lap.start !== null && rainedBetween(data.weather, lap.start, lap.start + (lap.duration ?? 100) * 1000);
+  const notes = [lap.lap === fastest?.lap ? "más rápida" : "", lap.pitOut ? "salida de boxes" : "", wet ? "lluvia" : ""].filter(Boolean);
+  const tyreText = tyre ? ` · ${compoundInfo(tyre.compound).label} ${tyre.age} v.` : "";
+  return `Vuelta ${lap.lap} · ${formatLapTime(lap.duration)}${tyreText}${notes.length ? ` (${notes.join(", ")})` : ""}`;
 }
 
 export function TelemetryExplorer() {
@@ -353,7 +359,7 @@ export function TelemetryExplorer() {
         <label>
           <span>Vuelta</span>
           <select value={selection.lap ?? ""} onChange={(event) => update({ lap: Number(event.target.value) })} disabled={!primaryLaps.length}>
-            {primaryLaps.map((lap) => <option key={lap.lap} value={lap.lap}>{lapOptionLabel(lap, primaryFastest)}</option>)}
+            {data && selection.driver && primaryLaps.map((lap) => <option key={lap.lap} value={lap.lap}>{lapOptionLabel(lap, primaryFastest, data, selection.driver!)}</option>)}
           </select>
         </label>
       </div>
@@ -380,7 +386,7 @@ export function TelemetryExplorer() {
               <label className="replay-rival-lap">
                 <span>Vuelta de {rivalDriver?.acronym}</span>
                 <select value={selection.rivalLap ?? ""} onChange={(event) => update({ rivalLap: Number(event.target.value) })}>
-                  {rivalLaps.map((lap) => <option key={lap.lap} value={lap.lap}>{lapOptionLabel(lap, rivalFastest)}</option>)}
+                  {rivalLaps.map((lap) => <option key={lap.lap} value={lap.lap}>{lapOptionLabel(lap, rivalFastest, data, selection.rival!)}</option>)}
                 </select>
               </label>
             )}
@@ -393,19 +399,28 @@ export function TelemetryExplorer() {
           {[
             { driver: primaryDriver, lap: primaryLapInfo, color: PRIMARY_COLOR },
             ...(rivalDriver && rivalLapInfo ? [{ driver: rivalDriver, lap: rivalLapInfo, color: COMPARE_COLOR }] : [])
-          ].map(({ driver, lap, color }) => (
+          ].map(({ driver, lap, color }) => {
+            const tyre = data ? tyreOnLap(data.stints, driver.number, lap.lap) : null;
+            const reading = data && lap.start !== null ? weatherAt(data.weather, lap.start) : null;
+            const wet = data && lap.start !== null && rainedBetween(data.weather, lap.start, lap.start + (lap.duration ?? 100) * 1000);
+            return (
             <div className="lap-summary-row" key={driver.number}>
               <i style={{ background: color }} aria-hidden="true" />
               <div>
-                <strong>{driver.name}</strong>
-                <small>{driver.team} · Vuelta {lap.lap}</small>
+                <strong>{driver.name} {tyre && <TyreChip compound={tyre.compound} age={tyre.age} />}</strong>
+                <small>
+                  {driver.team} · Vuelta {lap.lap}
+                  {reading && ` · Pista ${reading.track?.toFixed(0) ?? "—"}° · Aire ${reading.air?.toFixed(0) ?? "—"}°`}
+                  {wet && " · Lluvia"}
+                </small>
               </div>
               <dl>
                 <div><dt>Tiempo</dt><dd>{formatLapTime(lap.duration)}</dd></div>
                 {lap.sectors.map((sector, i) => <div key={i}><dt>S{i + 1}</dt><dd>{formatLapTime(sector)}</dd></div>)}
               </dl>
             </div>
-          ))}
+            );
+          })}
           {primaryLapInfo.duration !== null && rivalLapInfo?.duration != null && (
             <p className="lap-summary-gap">
               {rivalDriver?.acronym} {formatDelta(rivalLapInfo.duration - primaryLapInfo.duration)} s respecto de {primaryDriver.acronym}
@@ -474,6 +489,8 @@ export function TelemetryExplorer() {
           </div>
         )
       )}
+
+      {data && <SessionConditions data={data} selected={selection.driver} onSelect={chooseDriver} />}
     </div>
   );
 }
