@@ -11,6 +11,7 @@ import { RadarPanel } from "@/components/replay/RadarPanel";
 import { StintChart } from "@/components/replay/StintChart";
 import { IncidentsPanel, RadioPanel } from "@/components/replay/ReplayFeeds";
 import { InputsCell, MiniSectors, useFieldInputs } from "@/components/replay/TowerTelemetry";
+import { PanelBoundary, PanelOptions, usePanelSettings } from "@/components/replay/ReplayOptions";
 import { TyreChip } from "@/components/replay/TyreChip";
 import { formatClock, formatElapsed, formatLapTime } from "@/components/replay/format";
 import { tyreOnLap, weatherAt } from "@/components/replay/tyres";
@@ -22,10 +23,32 @@ const SPEEDS = [1, 2, 5, 10, 30];
 const LIVE_DELAY_MS = 10_000;
 const LIVE_REFRESH_MS = 10_000;
 
+/** Bumped whenever the session or timeline payload changes shape, so year-long caches of the old shape are skipped. */
+const PAYLOAD_VERSION = 3;
+
 async function getJson<T>(url: string, init?: RequestInit): Promise<T> {
   const response = await fetch(url, init);
   if (!response.ok) throw new Error(String(response.status));
   return response.json() as Promise<T>;
+}
+
+/** Fills fields that older cached payloads lack, so a stale response cannot crash the page. */
+function loadSession(key: number, init?: RequestInit) {
+  return Promise.all([
+    getJson<ReplaySession>(`/api/replay/session?key=${key}&v=${PAYLOAD_VERSION}`, init),
+    getJson<ReplayTimeline>(`/api/replay/timeline?key=${key}&v=${PAYLOAD_VERSION}`, init)
+  ]).then(([session, timeline]) => {
+    for (const laps of Object.values(session.laps)) {
+      for (const lap of laps) lap.segments ??= [[], [], []];
+    }
+    session.stints ??= [];
+    session.weather ??= [];
+    timeline.radios ??= [];
+    timeline.raceControl ??= [];
+    timeline.pits ??= [];
+    timeline.track ??= [];
+    return [session, timeline] as const;
+  });
 }
 
 /** Last entry whose first element (a timestamp) is at or before `at`. */
@@ -117,6 +140,8 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
   const [following, setFollowing] = useState(live);
   const [towerView, setTowerView] = useState<"times" | "telemetry">("times");
   const [now, setNow] = useState(() => Date.now());
+  const panels = usePanelSettings();
+  const { shows } = panels;
 
   const chooseYear = useCallback((value: number) => setYear(value), []);
   const { sessions, error: listError } = useSessionList(year, chooseYear, retry);
@@ -139,10 +164,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
     const clock = window.setInterval(() => setNow(Date.now()), 1000);
     const refresh = window.setInterval(() => {
       if (document.visibilityState === "hidden" || !sessionKey) return;
-      Promise.all([
-        getJson<ReplaySession>(`/api/replay/session?key=${sessionKey}`, { cache: "no-store" }),
-        getJson<ReplayTimeline>(`/api/replay/timeline?key=${sessionKey}`, { cache: "no-store" })
-      ]).then(([session, sessionTimeline]) => {
+      loadSession(sessionKey, { cache: "no-store" }).then(([session, sessionTimeline]) => {
         setData(session);
         setTimeline(sessionTimeline);
       }).catch(() => undefined);
@@ -174,10 +196,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
     placedFor.current = null;
     if (!live) setPlaying(false);
     setError(null);
-    Promise.all([
-      getJson<ReplaySession>(`/api/replay/session?key=${sessionKey}`),
-      getJson<ReplayTimeline>(`/api/replay/timeline?key=${sessionKey}`)
-    ])
+    loadSession(sessionKey)
       .then(([session, sessionTimeline]) => {
         if (cancelled) return;
         setData(session);
@@ -438,6 +457,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
                 <i aria-hidden="true" />En directo
               </button>
             )}
+            <PanelOptions {...panels} />
             <div className="replay-clock">
               <strong>{formatElapsed(t - bounds.start)}</strong>
               <small>{formatClock(t)} ARG</small>
@@ -450,7 +470,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
               <small>{session.name}{leaderLap ? ` · Vuelta ${leaderLap}${session.type === "Race" && totalLaps && !live ? ` de ${totalLaps}` : ""}` : ""}</small>
             </div>
             {state && <div className={`replay-flag flag-${state.key}`}><i aria-hidden="true" />{state.label}</div>}
-            {weather && (
+            {weather && shows("weather") && (
               <dl className="replay-weather">
                 <div><dt>Aire</dt><dd>{weather.air?.toFixed(1) ?? "—"}°</dd></div>
                 <div><dt>Pista</dt><dd>{weather.track?.toFixed(1) ?? "—"}°</dd></div>
@@ -461,8 +481,11 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
             )}
           </div>
 
-          <div className="replay-stage">
+          <div className={shows("map") || shows("radar") ? "replay-stage" : "replay-stage replay-stage-solo"}>
+            {(shows("map") || shows("radar")) && (
             <div className="replay-column">
+            {shows("map") && (
+            <PanelBoundary name="el mapa">
             <section className="replay-panel replay-map">
               <TrackOutline points={timeline.track} markers={markers} label={`Posiciones en pista, ${session.meeting}`} showLabels />
               {selectedRow && (
@@ -474,10 +497,14 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
                 </p>
               )}
             </section>
+            </PanelBoundary>
+            )}
 
-            <RadarPanel sessionKey={session.key} at={t} />
+            {shows("radar") && <PanelBoundary name="la lluvia"><RadarPanel sessionKey={session.key} at={t} /></PanelBoundary>}
             </div>
+            )}
 
+            <PanelBoundary name="la clasificación">
             <section className="replay-panel replay-tower" aria-label="Clasificación">
               <div className="replay-speeds tower-views" role="radiogroup" aria-label="Columnas">
                 <button type="button" role="radio" aria-checked={towerView === "times"} onClick={() => setTowerView("times")}>Tiempos</button>
@@ -521,16 +548,18 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
                 </button>
               ))}
             </section>
+            </PanelBoundary>
           </div>
 
-          {selectedRow ? (
+          {shows("driver") && (selectedRow ? (
             <div className="replay-driver">
-              <DriverTelemetry sessionKey={session.key} driver={selectedRow.driver} at={t} live={live} />
-              <StintChart data={data} driver={selectedRow.driver} at={t} />
+              <PanelBoundary name="la telemetría"><DriverTelemetry sessionKey={session.key} driver={selectedRow.driver} at={t} live={live} /></PanelBoundary>
+              <PanelBoundary name="el stint"><StintChart data={data} driver={selectedRow.driver} at={t} /></PanelBoundary>
             </div>
-          ) : <p className="replay-hint">Elegí un piloto en la clasificación para ver su telemetría y su stint.</p>}
+          ) : <p className="replay-hint">Elegí un piloto en la clasificación para ver su telemetría y su stint.</p>)}
 
-          {session.type === "Race" && (
+          {session.type === "Race" && shows("pits") && (
+            <PanelBoundary name="las paradas">
             <PitProjection
               data={data}
               timeline={timeline}
@@ -540,9 +569,12 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
               selected={selected}
               onSelect={(driver) => setSelected((current) => (current === driver ? null : driver))}
             />
+            </PanelBoundary>
           )}
 
+          {(shows("control") || shows("incidents") || shows("radios")) && (
           <div className="replay-feeds">
+          {shows("control") && (
           <section className="replay-panel replay-control-feed" aria-label="Dirección de carrera">
             <h2>Dirección de carrera</h2>
             {messages.length ? (
@@ -557,11 +589,13 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
               </ol>
             ) : <p className="replay-empty">Todavía no hay mensajes en este momento de la sesión.</p>}
           </section>
-          <IncidentsPanel timeline={timeline} drivers={driverMap} at={t} selected={selected} />
-          <RadioPanel timeline={timeline} drivers={driverMap} at={t} playing={playing} speed={live && following ? 1 : speed} selected={selected} />
+          )}
+          {shows("incidents") && <PanelBoundary name="los incidentes"><IncidentsPanel timeline={timeline} drivers={driverMap} at={t} selected={selected} /></PanelBoundary>}
+          {shows("radios") && <PanelBoundary name="las radios"><RadioPanel timeline={timeline} drivers={driverMap} at={t} playing={playing} speed={live && following ? 1 : speed} selected={selected} /></PanelBoundary>}
           </div>
+          )}
 
-          {session.type === "Race" && <ChampionshipPanel data={data} rows={tower} />}
+          {session.type === "Race" && shows("championship") && <PanelBoundary name="el campeonato"><ChampionshipPanel data={data} rows={tower} /></PanelBoundary>}
         </>
       )}
     </div>

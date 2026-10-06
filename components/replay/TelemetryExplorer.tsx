@@ -197,7 +197,7 @@ export function TelemetryExplorer() {
     setData(null);
     setLoading(true);
     setError(null);
-    getJson<ReplaySession>(`/api/replay/session?key=${selection.session}`)
+    getJson<ReplaySession>(`/api/replay/session?key=${selection.session}&v=3`)
       .then((session) => {
         if (cancelled) return;
         setData(session);
