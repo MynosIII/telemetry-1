@@ -71,3 +71,9 @@ export const getChampionship = cache(async (year: string) => /^\d{4}$/.test(year
 export const getHistoricRace = cache(async (year: string, round: string) => /^\d{4}$/.test(year) && /^\d{1,2}$/.test(round) && Number(round) > 0 ? snapshot<HistoricRace>(readFile(path.join(process.cwd(), "public/history/races", `${year}-${Number(round)}.json`), "utf8")) : undefined);
 export const getHistoricCar = cache(async (id: string) => /^[a-z0-9_-]+$/.test(id) ? snapshot<HistoricCar>(readFile(path.join(process.cwd(), "public/history/cars", `${id}.json`), "utf8")) : undefined);
 export const getCarCatalogue = cache(async (): Promise<{ cars: CarSummary[]; source: string; cutoff: number }> => JSON.parse(await readFile(path.join(process.cwd(), "public/history/cars.json"), "utf8")));
+// Sprint results live only in the race files; sprints started in 2021.
+export const getSeasonSprints = cache(async (season: Championship) => {
+  if (season.year < 2021) return {};
+  const races = await Promise.all(season.races.map(r => getHistoricRace(String(r.year), String(r.round))));
+  return Object.fromEntries(races.filter(r => r?.sessions.sprint.length).map(r => [r!.round, r!.sessions.sprint.map(({ position, driver, constructor, engine }) => ({ position, driver, constructor, engine }))]));
+});
