@@ -3,7 +3,10 @@
 import { FallbackImage } from "./FallbackImage";
 import type { CarImage } from "@/lib/team-media";
 
-const licenseUrl = (license: string) => license === "CC BY 2.0" ? "https://creativecommons.org/licenses/by/2.0/" : license === "CC BY-SA 2.0" ? "https://creativecommons.org/licenses/by-sa/2.0/" : null;
+const licenseUrl = (license: string) => {
+  const cc = /^CC (BY(?:-SA)?) (\d\.\d)/.exec(license);
+  return cc ? `https://creativecommons.org/licenses/${cc[1].toLowerCase()}/${cc[2]}/` : /^CC0/.test(license) ? "https://creativecommons.org/publicdomain/zero/1.0/" : null;
+};
 
 /** A car's own photo file, then the archive's licensed photo; nothing when there is neither. */
 export function CarPhoto({ image, alt }: { image: CarImage; alt: string }) {

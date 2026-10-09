@@ -5,6 +5,8 @@ La página del equipo, la ficha del auto y el catálogo la toman sola en el pró
 En local, después de agregar fotos corré `node scripts/car-photo-manifest.mjs`.
 Para otro formato o nombre, agregá una entrada en `lib/car-photos.json`.
 
+Para buscarlas solas: `npm run fetch:car-photos` (necesita internet). Toma la foto del artículo de Wikipedia de cada auto y la publica con su crédito; si no hay, busca en Wikimedia Commons y Openverse y deja el resultado en `car-photos-revisar/` para revisar. Detalles al principio de `scripts/fetch-car-photos.mjs`.
+
 ## Adams
 
 - `adams.jpg` · Adams (1950)

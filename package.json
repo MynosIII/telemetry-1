@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "node scripts/car-photo-manifest.mjs",
+    "fetch:car-photos": "node scripts/fetch-car-photos.mjs",
     "build": "next build",
     "start": "next start",
     "verify:history": "node scripts/verify-history.mjs",
