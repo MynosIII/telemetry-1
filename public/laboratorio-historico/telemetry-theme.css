@@ -44,3 +44,10 @@ th { font-size: 12px; line-height: 1.5; }
 
 /* Inside the site, the section sub-bar replaces these tabs. */
 html.embedded .index-tabs { display: none; }
+
+/* One flat, sober style: no glows, offset shadows or hover jumps. */
+*, *::before, *::after { box-shadow: none !important; text-shadow: none !important; }
+.model-card:hover, .record-card:hover, .ranking-row:hover, .number-one-row:hover,
+.button:hover, .record-card.driver-card:hover { transform: none !important; translate: none !important; }
+.ranking-panel, .number-one-panel, .chart-shell { border-top: 1px solid var(--line); }
+h1 em { color: inherit; font-style: normal; }

@@ -139,7 +139,7 @@ export default async function ComparePage({ searchParams }: { searchParams: Prom
         </nav>
         <RatingChart series={[ratingSeries(a, axis), ratingSeries(b, axis)]} axis={axis} names={[a.name, b.name]} />
         <div className="ency-table-scroll"><table className="compare-table"><tbody>{model.map(r => <StatRow key={r.label} row={r} />)}</tbody></table></div>
-        <p className="ency-note">{[peak(a) ? `Pico de ${a.name}: ${peak(a)}.` : null, peak(b) ? `Pico de ${b.name}: ${peak(b)}.` : null].filter(Boolean).join(" ")} Por edad alinea a los dos pilotos el mismo día de su vida. El ELO es una estimación retrospectiva propia. <Link href="/ranking/modelo">Cómo funciona el modelo</Link>.</p>
+        <p className="ency-note">{[peak(a) ? `Pico de ${a.name}: ${peak(a)}.` : null, peak(b) ? `Pico de ${b.name}: ${peak(b)}.` : null].filter(Boolean).join(" ")} Por edad alinea a los dos pilotos el mismo día de su vida. El ELO es una estimación retrospectiva propia. <Link href="/ranking">Cómo funciona el modelo</Link>.</p>
       </section>
       {h2h.duels.length ? <details className="ency-method compare-races">
         <summary>Las {h2h.duels.length} carreras que compartieron</summary>

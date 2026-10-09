@@ -14,3 +14,6 @@ data/statsf1/
 data/statsf1-laps-led-sample.html
 __pycache__/
 *.py[cod]
+
+# Car photos found by scripts/fetch-car-photos.mjs, waiting for review.
+car-photos-revisar/

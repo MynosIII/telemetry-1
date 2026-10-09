@@ -190,9 +190,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .predestinato li, .career-header, .career-stage p, .career-stage small,
 .career-cards span, .career-cards b { font-size: 11px; line-height: 1.5; }
 .embed-title h1 { font-size: 20px; }
-.embed-title span, .embed-actions, .lab-live-strip, .lab-live-strip em { font-size: 11px; letter-spacing: .035em; }
+.embed-title span, .embed-actions { font-size: 11px; letter-spacing: .035em; }
 .embedded-experience { grid-template-rows: 76px minmax(74px, auto) minmax(0, 1fr); height: 100dvh; }
-.embedded-experience.with-live-strip { grid-template-rows: 76px minmax(74px, auto) minmax(64px, auto) minmax(0, 1fr); }
 .embed-header { padding-block: 12px; }
 .embed-actions a { padding-block: 10px; }
 footer > p, footer > div:last-child { font-size: 11px; line-height: 1.65; }
@@ -205,7 +204,6 @@ footer > p { color: #a6a6aa; }
   .site-header nav a { flex: 0 0 auto; display: flex; align-items: center; min-height: 44px; font-size: 11px; }
   section[id], [id="vueltas"] { scroll-margin-top: 136px; }
   .embedded-experience { grid-template-rows: 112px minmax(74px, auto) minmax(0, 1fr); }
-  .embedded-experience.with-live-strip { grid-template-rows: 112px minmax(74px, auto) minmax(64px, auto) minmax(0, 1fr); }
 }
 @media (max-width: 680px) {
   .site-header { padding-inline: 18px; }
@@ -234,7 +232,6 @@ footer > p { color: #a6a6aa; }
   .embed-header { padding-inline: 18px; gap: 12px; }
   .embed-title h1 { font-size: 17px; }
   .embed-actions { font-size: 10px; }
-  .lab-live-strip { padding-block: 10px; }
   .chart-legend { gap: 12px; padding-inline: 18px; font-size: 10px; }
 }
 
@@ -443,7 +440,7 @@ footer > p { color: #a6a6aa; }
 @media (max-width: 760px) { .site-subnav { padding-inline: 18px; } }
 
 /* Embedded pages stack header, sub-bar, title and frame without fixed grid rows. */
-.embedded-experience, .embedded-experience.with-live-strip { display: flex; flex-direction: column; }
+.embedded-experience { display: flex; flex-direction: column; }
 .embedded-experience > * { flex-shrink: 0; }
 .embedded-experience > .embed-header { min-height: 74px; }
 .embedded-experience > .experience-frame { flex: 1 1 0; min-height: 0; height: auto; }
@@ -505,3 +502,8 @@ footer > p { color: #a6a6aa; }
 @media (min-width: 1061px) {
   .site-header nav { gap: clamp(10px, 1.4vw, 24px); }
 }
+
+/* Ranking: the lab pages fill the space under the site header, no extra bars. */
+.ranking-frame { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; background: #080808; }
+.ranking-frame > .site-header { position: relative; }
+.ranking-frame-view { flex: 1; min-height: 0; width: 100%; border: 0; background: #080808; }

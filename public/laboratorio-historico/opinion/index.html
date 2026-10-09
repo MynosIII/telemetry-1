@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -267,26 +267,13 @@
     }
   </style>
 <link rel="stylesheet" href="/laboratorio-historico/telemetry-theme.css">
-<script>if (window.top !== window.self) document.documentElement.classList.add("embedded");</script>
+<link rel="canonical" href="https://telemetry-1.vercel.app/ranking/fan-index">
+<script>if (window.top !== window.self) document.documentElement.classList.add("embedded"); else location.replace("/ranking/fan-index" + location.hash);</script>
 </head>
 <body>
-  <header class="shell topbar">
-    <a class="brand" href="../"><span class="brand-mark">T1</span> TelemetryOne</a>
-    <div class="top-actions">
-      <nav class="index-tabs" aria-label="TelemetryOne indices">
-        <a class="index-tab" href="../" data-en="Statistical Index" data-es="Índice estadístico">Statistical Index</a>
-        <a class="index-tab" href="./" aria-current="page">Fan Index</a>
-      </nav>
-      <div class="lang-switch" role="group" aria-label="Language">
-        <button type="button" data-lang="en" aria-pressed="true">EN</button>
-        <button type="button" data-lang="es" aria-pressed="false">ES</button>
-      </div>
-    </div>
-  </header>
 
   <section class="shell hero">
     <div>
-      <p class="eyebrow" data-en="Public-comment Fan Index" data-es="Fan Index de comentarios públicos">Public-comment Fan Index</p>
       <h1 data-en="The internet’s <em>F1 GOAT.</em>" data-es="El <em>GOAT de F1</em> según internet.">The internet’s <em>F1 GOAT.</em></h1>
       <p class="lede" data-en="A ranking built from Formula 1 fan opinion across public conversations on the internet." data-es="Un ranking construido a partir de la opinión de los fans de Fórmula 1 en internet.">A ranking built from Formula 1 fan opinion across public conversations on the internet.</p>
     </div>
@@ -312,7 +299,7 @@
   <main class="shell">
     <section aria-labelledby="ranking-title">
       <div class="section-head">
-        <div><p class="eyebrow" data-en="Results" data-es="Resultados">Results</p><h2 id="ranking-title" data-en="The fan grid" data-es="La grilla de los fans">The fan grid</h2></div>
+        <div><h2 id="ranking-title" data-en="The fan grid" data-es="La grilla de los fans">The fan grid</h2></div>
         <p data-en="The positions summarize explicit preferences identified across the selected public conversations." data-es="Las posiciones resumen las preferencias explícitas identificadas en las conversaciones públicas seleccionadas.">The positions summarize explicit preferences identified across the selected public conversations.</p>
       </div>
       <div class="ranking-layout">
@@ -326,7 +313,7 @@
 
     <section class="live-survey-section" aria-labelledby="live-survey-title">
       <div class="section-head">
-        <div><p class="eyebrow" data-en="Live form" data-es="Formulario en vivo">Live form</p><h2 id="live-survey-title" data-en="The survey vote" data-es="El voto de la encuesta">The survey vote</h2></div>
+        <div><h2 id="live-survey-title" data-en="The survey vote" data-es="El voto de la encuesta">The survey vote</h2></div>
         <p data-en="Direct responses from the bilingual Google Form. Each person contributes one total vote, divided equally when several drivers are named." data-es="Respuestas directas del Google Forms bilingüe. Cada persona aporta un voto total, dividido en partes iguales cuando menciona a varios pilotos.">Direct responses from the bilingual Google Form. Each person contributes one total vote, divided equally when several drivers are named.</p>
       </div>
       <div class="panel live-survey" id="live-survey"><div class="status" data-en="Reading the live survey…" data-es="Leyendo la encuesta en vivo…">Reading the live survey…</div></div>
@@ -334,7 +321,7 @@
 
     <section class="findings-section" aria-labelledby="findings-title">
       <div class="section-head">
-        <div><p class="eyebrow" data-en="Key results" data-es="Resultados clave">Key results</p><h2 id="findings-title" data-en="What the sample shows" data-es="Qué muestra la muestra">What the sample shows</h2></div>
+        <div><h2 id="findings-title" data-en="What the sample shows" data-es="Qué muestra la muestra">What the sample shows</h2></div>
         <p data-en="Four summary measures capture the main patterns in the published sample and complement the complete driver ranking." data-es="Cuatro medidas resumen los principales patrones de la muestra publicada y complementan el ranking completo de pilotos.">Four summary measures capture the main patterns in the published sample and complement the complete driver ranking.</p>
       </div>
       <div class="finding-grid">
@@ -347,14 +334,14 @@
 
     <section class="sources-section" aria-labelledby="sources-title">
       <div class="section-head">
-        <div><p class="eyebrow" data-en="Provenance" data-es="Procedencia">Provenance</p><h2 id="sources-title" data-en="Where the votes came from" data-es="De dónde salieron los votos">Where the votes came from</h2></div>
+        <div><h2 id="sources-title" data-en="Where the votes came from" data-es="De dónde salieron los votos">Where the votes came from</h2></div>
         <p data-en="The source register documents every public conversation included in the corpus, together with its platform, sample size, and number of coded choices." data-es="El registro documenta cada conversación pública incluida en el corpus, junto con su plataforma, el tamaño de la muestra y la cantidad de elecciones codificadas.">The source register documents every public conversation included in the corpus, together with its platform, sample size, and number of coded choices.</p>
       </div>
       <div class="source-grid" id="sources"></div>
     </section>
 
     <section class="method-section" aria-labelledby="method-title">
-      <div class="section-head"><div><p class="eyebrow" data-en="Research method" data-es="Metodología de investigación">Research method</p><h2 id="method-title" data-en="From public corpus to Fan Index" data-es="Del corpus público al Fan Index">From public corpus to Fan Index</h2></div><p data-en="The study uses purposive sampling of public conversations centered on the greatest-driver question. Its unit of analysis is one explicit preference per anonymized author, with a documented corpus and coding protocol." data-es="El estudio utiliza un muestreo intencional de conversaciones públicas centradas en la pregunta por el mejor piloto de la historia. La unidad de análisis es una preferencia explícita por autor anonimizado, con un corpus y un protocolo de codificación documentados.">The study uses purposive sampling of public conversations centered on the greatest-driver question. Its unit of analysis is one explicit preference per anonymized author, with a documented corpus and coding protocol.</p></div>
+      <div class="section-head"><div><h2 id="method-title" data-en="From public corpus to Fan Index" data-es="Del corpus público al Fan Index">From public corpus to Fan Index</h2></div><p data-en="The study uses purposive sampling of public conversations centered on the greatest-driver question. Its unit of analysis is one explicit preference per anonymized author, with a documented corpus and coding protocol." data-es="El estudio utiliza un muestreo intencional de conversaciones públicas centradas en la pregunta por el mejor piloto de la historia. La unidad de análisis es una preferencia explícita por autor anonimizado, con un corpus y un protocolo de codificación documentados.">The study uses purposive sampling of public conversations centered on the greatest-driver question. Its unit of analysis is one explicit preference per anonymized author, with a documented corpus and coding protocol.</p></div>
       <div class="panel method-grid">
         <article class="method-step"><b>01 / CORPUS</b><h3 data-en="Sampling frame" data-es="Marco muestral">Sampling frame</h3><p data-en="Select public threads and videos whose central prompt asks, ranks, or debates the greatest Formula 1 driver of all time. Record URL, platform, date, and collection limit for every source." data-es="Seleccionar hilos y videos públicos cuya consigna central pregunte, ordene o debata quién es el mejor piloto de Fórmula 1 de la historia. Registrar URL, plataforma, fecha y límite de recolección de cada fuente.">Select public threads and videos whose central prompt asks, ranks, or debates the greatest Formula 1 driver of all time. Record URL, platform, date, and collection limit for every source.</p></article>
         <article class="method-step"><b>02 / UNIT</b><h3 data-en="Anonymized respondents" data-es="Respondentes anonimizados">Anonymized respondents</h3><p data-en="Hash author identifiers at collection time, collapse repeated answers, and remove conflicting choices. Names, profile images, and account links are excluded from the research dataset." data-es="Hashear los identificadores al recolectar, consolidar respuestas repetidas y remover elecciones contradictorias. Los nombres, fotos y enlaces de cuenta quedan fuera de la base de investigación.">Hash author identifiers at collection time, collapse repeated answers, and remove conflicting choices. Names, profile images, and account links are excluded from the research dataset.</p></article>
@@ -367,7 +354,8 @@
   <footer><div class="shell footer-inner"><span data-en="TelemetryOne Fan Index · public conversation, measured carefully." data-es="TelemetryOne Fan Index · conversación pública, medida con cuidado.">TelemetryOne Fan Index · public conversation, measured carefully.</span><span id="updated">—</span></div></footer>
 
   <script>
-    const state = { lang: 'en', data: null };
+    const state = { lang: /(?:^|; )NEXT_LOCALE=en(?:;|$)/.test(document.cookie) ? 'en' : 'es', data: null };
+    document.documentElement.lang = state.lang;
     const copy = {
       en: { rawVotes: 'raw votes', sources: 'sources', updated: 'Dataset built', view: 'Open source ↗',
         lead: (a, b, n) => `${a} leads ${b} by ${n} percentage points in the Fan Index.`,
@@ -404,7 +392,6 @@
       const contributingSources = data.sources.filter(source => source.validVotes > 0);
       document.documentElement.lang = state.lang;
       document.querySelectorAll('[data-en]').forEach(node => { node.innerHTML = node.dataset[state.lang]; });
-      document.querySelectorAll('[data-lang]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === state.lang)));
       const [leader, runnerUp] = data.ranking;
       document.querySelector('#winner-name').textContent = leader.name;
       document.querySelector('#winner-score').textContent = pct(leader.balancedShare);
@@ -452,7 +439,6 @@
       }).join('');
     }
 
-    document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => { state.lang = button.dataset.lang; render(); }));
     fetch('../data/opinion-ranking.json')
       .then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
       .then(data => { state.data = data; render(); })

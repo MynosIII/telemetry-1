@@ -18,6 +18,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/estadisticas/laboratorio", destination: "/ranking", permanent: true },
+      // The model view and its methodology now live on /ranking itself.
+      { source: "/ranking/modelo", destination: "/ranking", permanent: true },
       { source: "/predestinato", destination: "/juegos/predestinato", permanent: true },
       // Temporary: the archive may later move from /historia to /estadisticas itself.
       { source: "/estadisticas", destination: "/historia", permanent: false }

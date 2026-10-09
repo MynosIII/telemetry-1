@@ -53,7 +53,7 @@ export default async function RecordsPage({ searchParams }: { searchParams: Prom
     <details className="ency-method records-method"><summary>Cómo se cuenta</summary>
       <p>Todo se calcula con los resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB</a> del archivo, incluidas las 500 Millas de Indianápolis de 1950 a 1960. Las rachas recorren las carreras en las que el piloto o el equipo estuvo inscrito y no cuentan Indianápolis.</p>
       <p>Las poles son las oficiales de cada carrera. Los autos compartidos dan crédito a cada piloto; constructores y motores cuentan una vez por carrera. Las naciones siguen la nacionalidad del piloto.</p>
-      <p>Los récords del modelo v7.6 son una estimación retrospectiva propia, no estadística oficial. <Link href="/ranking/modelo">Cómo funciona el modelo</Link>.</p>
+      <p>Los récords del modelo v7.6 son una estimación retrospectiva propia, no estadística oficial. <Link href="/ranking">Cómo funciona el modelo</Link>.</p>
     </details>
   </div><SiteFooter /></main>;
 }
