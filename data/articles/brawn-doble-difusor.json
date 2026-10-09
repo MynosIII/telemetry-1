@@ -1,0 +1,133 @@
+{
+  "slug": "brawn-doble-difusor",
+  "title": "Brawn GP 2009: mucho más que un doble difusor",
+  "description": "La continuidad de Honda, una interpretación reglamentaria y un inicio extraordinario explican el campeonato del BGP 001.",
+  "category": "Ideas que cambiaron la F1",
+  "period": "2008–2009",
+  "lead": "El coche blanco de Brawn GP se convirtió en el símbolo de una temporada inesperada. Su difusor fue protagonista de la discusión, pero el campeonato también nació del trabajo previo de Honda, de una transición empresarial urgente y de resultados que había que sostener cuando los rivales reaccionaron.",
+  "sections": [
+    {
+      "id": "honda",
+      "title": "Un proyecto que sobrevivió a su fabricante",
+      "paragraphs": [
+        "El 5 de diciembre de 2008 Honda anunció que abandonaba la Fórmula 1. Su comunicado situaba la decisión en el deterioro económico mundial y en la necesidad de proteger el negocio principal. La retirada no significaba que el coche siguiente no existiera: el equipo había dedicado recursos a preparar el cambio de reglamento de 2009, mientras el rendimiento de su temporada anterior seguía siendo decepcionante.",
+        "La historia de Brawn empieza en esa diferencia entre la situación comercial y el trabajo técnico. Había personas, instalaciones y un proyecto que podían continuar si encontraban una estructura viable. El 6 de marzo de 2009 Honda comunicó la venta del equipo a Ross Brawn. El nuevo nombre no borraba lo construido antes; lo trasladaba a una organización que debía sobrevivir con condiciones muy diferentes a las de un fabricante mundial."
+      ],
+      "sourceIds": [
+        "retirada",
+        "venta",
+        "honda"
+      ]
+    },
+    {
+      "id": "reglamento",
+      "title": "La oportunidad del reinicio técnico",
+      "paragraphs": [
+        "Las normas de 2009 alteraron varias piezas del equilibrio competitivo. Cambiaron las dimensiones de los alerones y se eliminaron numerosos apéndices aerodinámicos. Regresaron los neumáticos lisos y apareció la opción de utilizar KERS, un sistema de recuperación de energía. El comienzo de esa etapa permitía que una interpretación acertada del nuevo conjunto compensara diferencias frente a equipos más exitosos en el pasado.",
+        "Brawn utilizó un motor Mercedes en el coche que había nacido dentro de Honda. Esa adaptación era parte esencial de la transición, junto con la conservación del personal y de los pilotos Jenson Button y Rubens Barrichello. El BGP 001 no debe describirse como un coche creado desde cero en unas pocas semanas. El relato resulta más interesante cuando se reconoce el largo trabajo previo y la necesidad de convertirlo rápidamente en una herramienta lista para competir."
+      ],
+      "sourceIds": [
+        "reglas",
+        "historia-honda",
+        "clasificacion"
+      ]
+    },
+    {
+      "id": "difusor",
+      "title": "Qué se discutía realmente en el doble difusor",
+      "paragraphs": [
+        "El difusor ocupa la zona posterior del fondo y organiza la expansión del aire que ha circulado bajo el coche. Las soluciones de Brawn, Toyota y Williams incorporaban canales adicionales mediante una interpretación de las superficies y transiciones descritas en el reglamento. La expresión doble difusor resumía esa disposición, pero no significaba que cualquier pieza con dos niveles produjera automáticamente el mismo rendimiento.",
+        "Los adversarios cuestionaron si aquellas aberturas eran agujeros prohibidos, si la geometría superaba los límites admitidos y si contradecía el propósito de las nuevas normas. La Corte Internacional de Apelación de la FIA examinó la controversia en abril de 2009 y confirmó la legalidad de los diseños impugnados. No fue una autorización exclusiva para Brawn: Toyota y Williams también formaban parte del caso. Este punto impide confundir una interpretación competitiva con una tecnología que solamente un equipo podía utilizar."
+      ],
+      "sourceIds": [
+        "sentencia"
+      ]
+    },
+    {
+      "id": "victorias",
+      "title": "La ventaja inicial y la respuesta de los demás",
+      "paragraphs": [
+        "Button ganó seis de las primeras siete carreras: Australia, Malasia, Baréin, España, Mónaco y Turquía. Red Bull interrumpió esa secuencia en China con Sebastian Vettel. El inicio permitió a Brawn construir una reserva de puntos antes de que el campeonato cambiara de ritmo. Al observar los resultados completos se entiende que el equipo no dominó cada circuito ni toda la temporada de la misma manera.",
+        "Después de Turquía, Button no volvió a ganar en 2009. Barrichello sí consiguió otras dos victorias, en los grandes premios de Europa e Italia. Red Bull, McLaren y Ferrari también aparecen en la lista de vencedores de la segunda parte del calendario. Por eso, atribuir los dos campeonatos a una pieza aislada sería una explicación insuficiente: el doble difusor importó, pero los resultados dependieron de cómo se combinaba con el resto del coche y de cómo se gestionaban las carreras."
+      ],
+      "sourceIds": [
+        "resultados",
+        "reglas"
+      ]
+    },
+    {
+      "id": "campeonato",
+      "title": "El campeonato como prueba de un conjunto",
+      "paragraphs": [
+        "Button terminó campeón con 95 puntos, por delante de Vettel, que sumó 84. Barrichello fue tercero con 77. Esas cifras pertenecen al sistema de puntuación de 2009 y no deben compararse directamente con totales de temporadas posteriores sin tener en cuenta el cambio de escala. Brawn logró también el campeonato de constructores, completando el doble título que hizo excepcional a su única campaña con ese nombre.",
+        "La enseñanza técnica y deportiva es más amplia que la búsqueda de un agujero reglamentario. Había que interpretar las reglas, diseñar una plataforma coherente, conservar la capacidad de operar y aprovechar las oportunidades iniciales. El difusor explica una parte del rendimiento; la continuidad de Honda explica de dónde salió el proyecto; los resultados explican cómo se convirtió en un título. Mantener juntas esas tres historias permite entender el BGP 001 sin convertirlo en una leyenda de un único componente."
+      ],
+      "sourceIds": [
+        "clasificacion",
+        "reglas",
+        "historia-honda"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "retirada",
+      "title": "Honda: comunicado de retirada, 5 de diciembre de 2008",
+      "url": "https://global.honda/en/newsroom/news/2008/c081205eng.html"
+    },
+    {
+      "id": "venta",
+      "title": "Honda: venta del equipo a Ross Brawn, 6 de marzo de 2009",
+      "url": "https://global.honda/en/newsroom/news/2009/c090306eng.html"
+    },
+    {
+      "id": "honda",
+      "title": "Honda: balance de la temporada 2008",
+      "url": "https://global.honda/en/F1/2008/"
+    },
+    {
+      "id": "historia-honda",
+      "title": "Honda: 75 años de historia, Fórmula 1",
+      "url": "https://global.honda/en/about/history-digest/75years-history/chapter5/section1_2/"
+    },
+    {
+      "id": "reglas",
+      "title": "Formula 1: el cambio aerodinámico de 2009",
+      "url": "https://www.formula1.com/en/latest/article/the-key-regulation-changes-in-f1-history-and-the-teams-that-nailed-them.2iq8c5E6S1HOffT5PBLl6i"
+    },
+    {
+      "id": "sentencia",
+      "title": "FIA: sentencia de la Corte Internacional de Apelación, abril de 2009",
+      "url": "https://www.fia.com/sites/default/files/judgements/ICA-14-04-2009-a.pdf"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: resultados de las carreras de 2009",
+      "url": "https://www.formula1.com/en/results/2009/races"
+    },
+    {
+      "id": "clasificacion",
+      "title": "Formula 1: clasificación de pilotos de 2009",
+      "url": "https://www.formula1.com/en/results/2009/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Historia de Brawn",
+      "href": "/historia/constructors/brawn"
+    },
+    {
+      "label": "Temporada 2009",
+      "href": "/historia/seasons/2009"
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Button_Spain_2009.jpg/1280px-Button_Spain_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Button_Spain_2009.jpg",
+    "author": "Jose Mª Izquierdo Galiot",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Jenson Button con Brawn en el Gran Premio de España de 2009.",
+    "alt": "Jenson Button con Brawn en el Gran Premio de España de 2009."
+  }
+}

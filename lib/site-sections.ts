@@ -15,6 +15,7 @@ export type SiteSection = {
 export const siteSections: SiteSection[] = [
   { href: "/", label: "Inicio", match: ["/"] },
   { href: "/noticias", label: "Noticias", match: ["/noticias"] },
+  { href: "/articulos", label: "Artículos", match: ["/articulos"] },
   {
     href: "/temporada",
     label: "Temporada",

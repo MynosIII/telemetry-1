@@ -1,0 +1,145 @@
+{
+  "slug": "efecto-suelo-lotus-brabham",
+  "title": "Lotus y Brabham: dos caminos para convertir el suelo en una ventaja",
+  "description": "Los túneles de los Lotus 78 y 79 y el ventilador del Brabham BT46B: aerodinámica, integración y política en la Fórmula 1 de 1978.",
+  "category": "Revoluciones técnicas",
+  "period": "1977–1983",
+  "lead": "Durante los años setenta, los equipos descubrieron que la parte más influyente de un Fórmula 1 podía estar debajo del auto. Lotus convirtió los pontones y sus faldillas en una herramienta para generar carga. Brabham respondió con un ventilador. Ambos proyectos obligaron a repensar qué debía hacer el suelo del monoplaza.",
+  "sections": [
+    {
+      "id": "suelo",
+      "title": "La pista también formaba parte del sistema",
+      "paragraphs": [
+        "Un alerón genera fuerzas aerodinámicas mediante el flujo que circula alrededor de su perfil. El efecto suelo permite aprovechar también el espacio entre el vehículo y la pista. Los Lotus de esta generación incorporaban canales bajo los pontones: su forma ayudaba a acelerar el aire y a crear una región de menor presión. La diferencia de presión entre ambas caras del auto producía carga sobre los neumáticos.",
+        "La explicación necesita dos cautelas. La carga no era gratuita: dependía de la geometría y de las condiciones de funcionamiento. Tampoco bastaba con añadir un túnel a cualquier monoplaza. El espacio ocupado por los radiadores, el combustible, la suspensión y el motor condicionaba el recorrido del aire. El hallazgo aerodinámico exigía reorganizar el vehículo para aprovecharlo."
+      ],
+      "sourceIds": [
+        "f1-lotus79",
+        "ctl78"
+      ]
+    },
+    {
+      "id": "lotus78",
+      "title": "Lotus 78: descubrir, sellar y mantener el flujo",
+      "paragraphs": [
+        "Peter Wright y Tony Rudd habían investigado ideas relacionadas con el suelo en BRM antes de desarrollarlas en Lotus. El Lotus 78 trasladó el concepto a la competición en 1977. Sus pontones, la forma inferior y las faldillas laterales trabajaban juntos. El sellado de los bordes ayudaba a impedir que el aire exterior invadiera la región de baja presión bajo el auto.",
+        "Classic Team Lotus conserva y restaura mecanismos que muestran cuánto trabajo hubo detrás de esas faldillas. Debían acompañar los movimientos del monoplaza y conservar contacto con la pista sin atascarse ni desgastarse demasiado. La apariencia relativamente simple ocultaba un problema continuo de ingeniería: el auto cambiaba de altura y de inclinación al frenar, acelerar, doblar o pasar por un desnivel. Mantener el funcionamiento a través de esos movimientos era tan importante como descubrirlo en un ensayo."
+      ],
+      "sourceIds": [
+        "ctl78",
+        "skirts",
+        "groundeffect"
+      ]
+    },
+    {
+      "id": "lotus79",
+      "title": "Lotus 79: perfeccionar una idea ya probada",
+      "paragraphs": [
+        "El 78 ganó carreras, pero el 79 llevó el concepto a un nivel superior en 1978. No fue la aparición de una idea completamente nueva: fue una revisión destinada a aprovechar mejor la arquitectura aerodinámica de su antecesor. Mario Andretti consiguió el campeonato de pilotos con Lotus, y Ronnie Peterson terminó segundo en la clasificación final. Peterson murió como consecuencia del accidente sufrido en Monza, una tragedia inseparable de la memoria de aquella temporada.",
+        "La continuidad entre los modelos también importa para interpretar las estadísticas. Lotus comenzó 1978 utilizando el 78 y luego incorporó el 79. Por eso el éxito anual de la escudería no debe atribuirse indiscriminadamente a un solo chasis. La historia técnica se reconstruye siguiendo cuándo apareció cada versión y qué carreras disputó, además de mirar el resultado del campeonato."
+      ],
+      "sourceIds": [
+        "f1-lotus79",
+        "groundeffect"
+      ]
+    },
+    {
+      "id": "brabham",
+      "title": "El problema de Brabham y la respuesta de Gordon Murray",
+      "paragraphs": [
+        "Brabham no podía reproducir con facilidad el planteo de Lotus: su motor Alfa Romeo de doce cilindros, ancho y plano, complicaba el espacio necesario para los canales bajo el auto. Gordon Murray buscó otra forma de reducir la presión inferior. El BT46B incorporó un gran ventilador posterior que extraía aire, con una función vinculada tanto a la refrigeración como al efecto aerodinámico.",
+        "La discusión reglamentaria giraba alrededor de la función principal del dispositivo. Las piezas cuyo propósito primordial era modificar la aerodinámica debían permanecer fijas respecto al auto. Brabham defendió el ventilador como parte del sistema de refrigeración. No era una discusión sobre si generaba carga —la generaba—, sino sobre cómo debía clasificarse una pieza con efectos simultáneos. El caso muestra hasta qué punto el diseño de una máquina puede depender de la interpretación de una frase del reglamento."
+      ],
+      "sourceIds": [
+        "murray-book",
+        "watson",
+        "gma-release"
+      ]
+    },
+    {
+      "id": "retirada",
+      "title": "Una carrera, una victoria y una retirada que suele contarse mal",
+      "paragraphs": [
+        "Niki Lauda ganó el Gran Premio de Suecia de 1978 con el BT46B. Fue su única participación mundialista. La versión popular afirma que las autoridades lo prohibieron inmediatamente por ser demasiado rápido. El testimonio de Murray ofrece una explicación más precisa: el proyecto obtuvo una evaluación favorable para seguir compitiendo aquella temporada, pero Bernie Ecclestone decidió retirarlo ante la presión de los otros constructores.",
+        "Ecclestone no solo dirigía Brabham; también tenía un papel central en la asociación de equipos. Mantener el auto podía amenazar esa alianza. Al narrar el desenlace conviene distinguir tres cosas: la legalidad evaluada en aquel momento, la decisión del equipo de dejar de utilizarlo y el posterior cierre de esa posibilidad reglamentaria. La victoria se mantuvo. El recuerdo de una prohibición instantánea simplifica un episodio donde política y tecnología resultaron inseparables."
+      ],
+      "sourceIds": [
+        "murray-book",
+        "gma-release"
+      ]
+    },
+    {
+      "id": "legado",
+      "title": "El límite de una generación y una idea que siguió viva",
+      "paragraphs": [
+        "Los monoplazas con túneles y faldillas cambiaron las prioridades del diseño. La altura del auto, el sellado lateral y la disposición de los componentes pasaron a condicionar directamente la carga disponible. La normativa de fondo plano de 1983 cerró esa etapa concreta de explotación del efecto suelo. No eliminó toda generación de carga debajo del vehículo: cambió las formas permitidas para conseguirla.",
+        "Lotus demostró el valor de desarrollar una arquitectura completa alrededor del flujo inferior. Brabham mostró que un impedimento de esa arquitectura podía producir una solución radicalmente diferente. Compararlos permite entender la innovación como una respuesta a restricciones reales: dos equipos perseguían un efecto semejante, pero sus motores, sus autos y su situación política hicieron que tomaran caminos distintos."
+      ],
+      "sourceIds": [
+        "f1-lotus79",
+        "ctl78",
+        "murray-book"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "f1-lotus79",
+      "title": "Formula 1 / Mark Hughes y Giorgio Piola — el Lotus 79",
+      "url": "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
+    },
+    {
+      "id": "ctl78",
+      "title": "Classic Team Lotus — el desarrollo aerodinámico del Type 78",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2021/it%E2%80%99s-all-about-the-aero%2C-pt-ii/"
+    },
+    {
+      "id": "skirts",
+      "title": "Classic Team Lotus — los mecanismos de las faldillas del Lotus 79",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2021/secrets-of-the-lotus-79-skirts/"
+    },
+    {
+      "id": "groundeffect",
+      "title": "Classic Team Lotus — Ground Effect: Lotus",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2016/ground-effect-lotus/"
+    },
+    {
+      "id": "murray-book",
+      "title": "Gordon Murray / Motor Sport — el BT46B y su retirada",
+      "url": "https://www.motorsportmagazine.com/articles/single-seaters/f1/gordon-murray-looks-back-notorious-brabham-fan-car/"
+    },
+    {
+      "id": "watson",
+      "title": "John Watson / Motor Sport — los Brabham de los años setenta",
+      "url": "https://www.motorsportmagazine.com/archive/article/july-2024/106/a-flare-of-colour-john-watson-on-the-exuberance-of-1970s-racing/"
+    },
+    {
+      "id": "gma-release",
+      "title": "Gordon Murray Group — historia del BT46B en el programa Special Vehicles",
+      "url": "https://gordonmurray-production.s3-eu-west-2.amazonaws.com/media/documents/Gordon_Murray_Group_confirms_double_debut_for_Special_Vehicles_at_Monterey_Car_Week.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1977",
+      "href": "/historia/seasons/1977"
+    },
+    {
+      "label": "Temporada 1978",
+      "href": "/historia/seasons/1978"
+    },
+    {
+      "label": "Historia de Brabham",
+      "href": "/historia/constructors/brabham"
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/2001_Goodwood_Festival_of_Speed_Brabham_BT46B_Fan_car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2001_Goodwood_Festival_of_Speed_Brabham_BT46B_Fan_car.jpg",
+    "author": "edvvc",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "El Brabham BT46B con ventilador, fotografiado en una exhibición en Goodwood en 2001.",
+    "alt": "El Brabham BT46B con ventilador, fotografiado en una exhibición en Goodwood en 2001."
+  }
+}

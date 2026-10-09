@@ -485,7 +485,7 @@ footer > p { color: #a6a6aa; }
 /* Phones: the six sections fit in one row, so none hides off-screen. */
 @media (max-width: 520px) {
   .site-header { padding-inline: 12px; }
-  .site-header nav { justify-content: space-between; gap: 0; padding-right: 0; -webkit-mask-image: none; mask-image: none; }
+  .site-header nav { justify-content: flex-start; gap: 18px; padding-right: 0; -webkit-mask-image: none; mask-image: none; }
   .site-header nav a { padding-inline: 3px; font-size: 10.5px; letter-spacing: .01em; }
   .site-header .header-cta { min-height: 44px; }
 }
@@ -500,3 +500,8 @@ footer > p { color: #a6a6aa; }
 /* Driver page: entry point to the head-to-head comparator. */
 .driver-compare-link { margin: -60px 0 50px; font-size: 14px; }
 .driver-compare-link a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Keep the expanded main menu legible without squeezing its labels. */
+@media (min-width: 1061px) {
+  .site-header nav { gap: clamp(10px, 1.4vw, 24px); }
+}

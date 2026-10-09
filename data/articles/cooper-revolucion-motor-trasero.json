@@ -1,0 +1,128 @@
+{
+  "slug": "cooper-revolucion-motor-trasero",
+  "title": "Cooper: cuando el motor cambió de lugar y la Fórmula 1 cambió de rumbo",
+  "description": "Del taller de Surbiton al campeonato de Jack Brabham: cómo una solución práctica terminó desplazando a los grandes autos de motor delantero.",
+  "category": "Revoluciones técnicas",
+  "period": "1946–1961",
+  "lead": "La revolución de Cooper no empezó con el motor más potente ni con una fábrica gigantesca. Empezó con un auto pequeño y una pregunta sencilla: qué ocurría si el motor se colocaba detrás del piloto. Sus victorias transformaron una elección de diseño en el nuevo punto de partida de la Fórmula 1.",
+  "sections": [
+    {
+      "id": "surbiton",
+      "title": "Una fábrica que nació de un taller",
+      "paragraphs": [
+        "Charles y John Cooper construyeron su empresa alrededor de la competición británica de posguerra. En Surbiton, un taller de reparación se convirtió en el lugar donde preparar monoplazas accesibles para pilotos particulares. John, formado como fabricante de herramientas y con experiencia haciendo instrumentos durante su servicio militar, trabajó con Eric Brandon en un pequeño auto de 500 centímetros cúbicos. Utilizaron componentes procedentes de Fiat Topolino y un motor de motocicleta JAP.",
+        "Colocar aquel motor detrás del asiento era una solución práctica para un vehículo compacto. La posición pasó a formar parte de la identidad de los Cooper de pequeña cilindrada y de su negocio de venta a clientes. Eso no significa que toda la producción siguiera inmediatamente ese camino: los Cooper-Bristol de Fórmula 2 también tuvieron motor delantero. La transformación posterior fue el resultado de experimentar, fabricar y competir, no de imponer una única fórmula desde el primer día."
+      ],
+      "sourceIds": [
+        "cooper-history"
+      ]
+    },
+    {
+      "id": "arquitectura",
+      "title": "Qué cambiaba al mover el motor",
+      "paragraphs": [
+        "En estos monoplazas, hablar de motor trasero suele ser una abreviatura: el motor estaba detrás del piloto, pero delante del eje posterior. La expresión más precisa es motor central trasero. No conviene confundirlo con un motor situado completamente detrás de las ruedas ni afirmar que Cooper inventó esa disposición para todo el automovilismo. Su aportación histórica fue convertirla en una solución ganadora y reproducible dentro del Mundial de Fórmula 1.",
+        "La reorganización permitía plantear un auto pequeño y liviano sin el largo conjunto mecánico de un monoplaza de motor delantero. El beneficio no dependía únicamente de la posición del propulsor: intervenían la estructura, el tamaño del motor, la transmisión y el reparto de masas. Cooper empezó a mostrar que ese conjunto podía compensar una desventaja de potencia. La historia de la innovación se entiende mejor como una nueva arquitectura completa que como el traslado aislado de una pieza."
+      ],
+      "sourceIds": [
+        "cooper-history",
+        "argentina-strategy",
+        "goodwood-t51"
+      ]
+    },
+    {
+      "id": "argentina",
+      "title": "Buenos Aires 1958: la estrategia también fue ingeniería",
+      "paragraphs": [
+        "Stirling Moss ganó el Gran Premio de Argentina de 1958 con el Cooper-Climax T43 del equipo de Rob Walker. Fue la primera victoria de un auto con esta disposición del motor en una carrera del Mundial de Fórmula 1. La precisión importa: no fue la primera victoria de un motor colocado detrás del piloto en toda la historia de los Grandes Premios.",
+        "Moss y el mecánico Alf Francis apostaron por completar la prueba sin cambiar neumáticos. El Cooper era más pequeño y menos potente que sus principales rivales, pero podía intentar una estrategia que evitaba una parada particularmente costosa para su equipo. Mantuvieron la intención oculta mientras los adversarios esperaban verlo entrar a boxes. El triunfo no demuestra que el nuevo concepto ya fuera superior en cualquier situación: muestra cómo sus características podían abrir una oportunidad deportiva distinta."
+      ],
+      "sourceIds": [
+        "argentina-strategy",
+        "results-1958"
+      ]
+    },
+    {
+      "id": "campeonatos",
+      "title": "Del golpe de efecto a los títulos de Brabham",
+      "paragraphs": [
+        "El segundo triunfo de Cooper en 1958 llegó en Mónaco con Maurice Trintignant, también para Rob Walker. Sin embargo, el campeonato de pilotos quedó en manos de Mike Hawthorn y Ferrari, y Vanwall ganó el de constructores. Ese año de transición impide reducir la revolución a un cambio instantáneo: los autos de motor delantero todavía podían ganar carreras y campeonatos.",
+        "La confirmación llegó en 1959. El T51, con el Coventry Climax de 2,5 litros detrás del piloto, llevó a Jack Brabham al campeonato mundial. Cooper vendía autos a otros equipos y pilotos, de modo que su idea también se difundía mediante una red de clientes. Brabham repitió el título en 1960. Dos campañas consecutivas dieron a la arquitectura una credibilidad que una única victoria estratégica no habría podido proporcionar."
+      ],
+      "sourceIds": [
+        "results-1958",
+        "standings-1959",
+        "goodwood-t51",
+        "cooper-family"
+      ]
+    },
+    {
+      "id": "legado",
+      "title": "Una revolución que también cambió quién podía competir",
+      "paragraphs": [
+        "Cooper representa otra transformación de la Fórmula 1: un constructor especializado podía combinar su chasis con un motor adquirido a un proveedor y ofrecer el resultado a equipos particulares. La innovación no exigía que cada participante diseñara todos los componentes en su propia fábrica. La competición podía organizarse alrededor de una especialidad y de una colaboración técnica.",
+        "Para leer sus resultados conviene separar los autos, los pilotos y los equipos que los inscribieron. El Cooper de Rob Walker y el equipo oficial compartían fabricante, pero no eran la misma estructura deportiva. Esa distinción explica por qué una revolución puede comenzar con la victoria de un cliente y terminar consolidada por un campeonato del constructor. El éxito de Cooper no borró de inmediato la vieja generación: hizo que el futuro dejara de parecerse a ella."
+      ],
+      "sourceIds": [
+        "cooper-history",
+        "goodwood-t51",
+        "cooper-family"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cooper-history",
+      "title": "Cooper Car Club — historia de la Cooper Car Company",
+      "url": "https://www.coopercars.org/html/history.html"
+    },
+    {
+      "id": "argentina-strategy",
+      "title": "Formula 1 / Mark Hughes — la estrategia de Moss en Argentina 1958",
+      "url": "https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d"
+    },
+    {
+      "id": "results-1958",
+      "title": "Formula 1 — resultados oficiales de 1958",
+      "url": "https://www.formula1.com/en/results/1958/races"
+    },
+    {
+      "id": "standings-1959",
+      "title": "Formula 1 — clasificación de pilotos de 1959",
+      "url": "https://www.formula1.com/en/results/1959/drivers"
+    },
+    {
+      "id": "goodwood-t51",
+      "title": "Goodwood — el Cooper T51 de Stirling Moss",
+      "url": "https://www.goodwood.com/grr/event-coverage/goodwood-revival/stirling-moss-race-winning-cooper-t51-returned-to-goodwood/"
+    },
+    {
+      "id": "cooper-family",
+      "title": "Goodwood — Mike Cooper y el legado de la familia",
+      "url": "https://www.goodwood.com/grr/f1/from-surbiton-to-goodwood-with-mike-cooper/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1958",
+      "href": "/historia/seasons/1958"
+    },
+    {
+      "label": "Temporada 1959",
+      "href": "/historia/seasons/1959"
+    },
+    {
+      "label": "Historia del Gran Premio de Argentina",
+      "href": "/historia/grands-prix/argentina"
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Cooper_T51_rear_Donington.jpg/1280px-Cooper_T51_rear_Donington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooper_T51_rear_Donington.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "La disposición posterior del motor en un Cooper T51 conservado en Donington.",
+    "alt": "La disposición posterior del motor en un Cooper T51 conservado en Donington."
+  }
+}

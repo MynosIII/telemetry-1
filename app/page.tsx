@@ -19,6 +19,8 @@ import eloRatings from "@/lib/elo-ratings.json";
 import { driverPhoto } from "@/lib/driver-photos";
 import { useTranslation } from "@/lib/i18n";
 import { getLang } from "@/lib/server-i18n";
+import { editorialArticles } from "@/lib/editorial-articles";
+import "./articles.css";
 
 export default async function Home() {
   const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
@@ -166,6 +168,14 @@ export default async function Home() {
             <div className="chart-legend"><span><i /> {t("ranking.chart.retro")}</span><span>{t("ranking.chart.archive")} {historyIndex.meta.firstSeason} - {historyIndex.meta.lastSeason}</span></div>
           </figure>
         </div>
+      </section>
+
+      <section className="editorial-more editorial-home" aria-labelledby="home-articles-title">
+        <p className="eyebrow eyebrow-red">LA BIBLIOTECA DE TELEMETRY ONE</p>
+        <h2 id="home-articles-title">Las ideas detrás de la velocidad</h2>
+        <p>De las primeras carreras al efecto suelo y los límites del reglamento: historias para entender cómo cambió el automovilismo.</p>
+        <div className="editorial-card-grid">{editorialArticles.filter(article => /epreuves|efecto|brawn/.test(article.slug)).slice(0,3).map(article => <Link className="editorial-card" href={`/articulos/${article.slug}`} key={article.slug}><p className="editorial-category">{article.category}</p><h3>{article.title}</h3><p>{article.description}</p><b>Leer artículo →</b></Link>)}</div>
+        <p><Link className="editorial-text-link" href="/articulos">Ver todos los artículos →</Link></p>
       </section>
 
       <PredestinatoFeature eyebrow={t("games.career")} />

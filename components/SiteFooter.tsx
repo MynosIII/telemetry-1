@@ -9,6 +9,7 @@ export function SiteFooter() {
       </Link>
       <p>Proyecto independiente sobre automovilismo. No afiliado a Formula One Group.</p>
       <div>
+        <Link href="/articulos">ARTÍCULOS ↗</Link>
         <a href="https://github.com/MynosIII" target="_blank" rel="noreferrer">GITHUB ↗</a>
         <Link href="/#top">INICIO ↑</Link>
       </div>

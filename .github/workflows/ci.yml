@@ -30,4 +30,5 @@ jobs:
       - run: npm run verify:drivers
       - run: npm run verify:circuits
       - run: npm run verify:grand-prix
+      - run: npm run verify:articles
       - run: npm run build

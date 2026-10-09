@@ -1,0 +1,75 @@
+{
+  "slug": "copa-gordon-bennett",
+  "title": "Gordon Bennett: cuando los automóviles corrieron por una nación",
+  "description": "La copa de 1900–1905 convirtió a los clubes nacionales, los fabricantes y los colores en protagonistas de una competencia internacional.",
+  "category": "Los orígenes",
+  "period": "1900–1906",
+  "lead": "Antes de los campeonatos de Fórmula 1, una copa promovida por el editor James Gordon Bennett Jr. propuso una forma peculiar de organizar la rivalidad: tres automóviles por país y una industria entera detrás de cada color. La regla ayudó a internacionalizar las carreras, pero también creó el conflicto que terminaría favoreciendo al Grand Prix.",
+  "sections": [
+    {
+      "id":"una-copa-entre-clubes",
+      "title":"Una copa entre clubes nacionales",
+      "paragraphs":[
+        "La primera edición se celebró en 1900 sobre la ruta París–Lyon, no en Le Mans. Fernand Charron ganó con un Panhard. La competición había sido concebida como un desafío entre clubes automovilísticos reconocidos: el Automobile Club de France era uno de ellos, junto con representantes de otros países que podían presentar sus equipos.",
+        "Cada nación disponía de un máximo de tres coches. La construcción debía corresponder al país representado, una exigencia que extendía la competencia a la fabricación y a los componentes. El objetivo no era únicamente demostrar que un piloto era rápido: el triunfo acreditaba la capacidad de una industria nacional. El país vencedor debía organizar la siguiente edición.",
+        "Así apareció una estructura que enlazaba resultados, representación y organización. Una fábrica buscaba prestigio; un club seleccionaba su equipo; el organizador debía preparar la prueba. Aunque hoy parece natural que un deporte posea instituciones internacionales, esta copa muestra parte del trabajo necesario para construirlas."
+      ],
+      "sourceIds":["copa1900", "copaenciclopedia"]
+    },
+    {
+      "id":"irlanda-y-el-verde",
+      "title":"Irlanda, Napier y la memoria del verde",
+      "paragraphs":[
+        "Selwyn Francis Edge ganó la edición de 1902 con un Napier y trasladó la responsabilidad organizativa al club británico. La siguiente prueba se disputó el 2 de julio de 1903 en Irlanda, entonces integrada en el Reino Unido. Las carreteras de la zona de Athy sirvieron para construir un circuito cerrado, en lugar de una larga carrera con una ciudad de destino diferente.",
+        "La historia local de la carrera describe el enorme esfuerzo de preparación y el entusiasmo que provocó la llegada de los equipos. El territorio anfitrión importaba tanto como las máquinas: había que disponer de rutas, controlar accesos y convivir con comunidades que nunca habían presenciado una competencia de esas características.",
+        "El verde británico quedó asociado a aquella cita irlandesa. Sin embargo, la explicación popular necesita un matiz: el Napier vencedor de 1902 ya había sido verde oliva. Irlanda reforzó una tradición y su significado; no conviene presentar 1903 como el instante inequívoco en que apareció por primera vez un coche británico verde."
+      ],
+      "sourceIds":["irlanda", "copaenciclopedia", "copa1903"]
+    },
+    {
+      "id":"un-piloto-belga-en-un-coche-aleman",
+      "title":"Un piloto belga en un coche alemán",
+      "paragraphs":[
+        "Camille Jenatzy ganó en Irlanda con un Mercedes. El piloto era belga, pero el automóvil competía por el equipo alemán y llevaba blanco. El ejemplo revela una diferencia decisiva respecto de una lectura demasiado literal del nacionalismo deportivo: la representación del coche, la del club y la nacionalidad del conductor no tenían por qué coincidir.",
+        "Mercedes-Benz recuerda ese triunfo como el resultado que llevó la copa de 1904 a Alemania. La carrera siguiente se celebró en el Taunus, y el ambiente internacional de aquellas ediciones acompañó las conversaciones entre clubes que desembocaron en la AIACR. Según la propia FIA, su antecesora se creó en 1904 y adoptó el nombre actual en 1946.",
+        "La competición dejó así una herencia más amplia que sus vencedores. Las reglas que hacían representar países a los fabricantes también obligaban a los clubes a entenderse. Organizar el automovilismo internacional requería acordar algo más que el próximo itinerario."
+      ],
+      "sourceIds":["mercedes", "fia", "copa1903"]
+    },
+    {
+      "id":"los-colores-no-nacieron-inmutables",
+      "title":"Los colores no nacieron como un código inmutable",
+      "paragraphs":[
+        "La copa contribuyó a vincular colores y países, pero las asignaciones tempranas no son una copia exacta de las tradiciones posteriores. En 1900, Francia utilizó azul, Alemania blanco y Estados Unidos rojo. El reglamento y las inscripciones de esos años muestran un sistema en formación; proyectar automáticamente el rojo italiano o las Flechas de Plata sobre toda la etapa confunde épocas distintas.",
+        "Lo perdurable fue la idea de que la pintura comunicara representación. Para el público, reconocer una nación sin consultar una lista facilitaba seguir la competencia. Para los fabricantes, una victoria podía convertirse en un argumento comercial que atravesaba fronteras. La carrocería pasó a transmitir una identidad además de cubrir una máquina.",
+        "La Fórmula 1 heredó parte de esa memoria visual, aunque sus equipos y sus patrocinadores construyeron después otras identidades. Un Ferrari rojo o una decoración británica verde pueden evocar esa tradición; no significa que cada escudería moderna deba obedecer el sistema original."
+      ],
+      "sourceIds":["copa1900", "copaenciclopedia"]
+    },
+    {
+      "id":"la-regla-que-quedo-chica",
+      "title":"La regla que quedó chica para la industria",
+      "paragraphs":[
+        "En 1905, la copa volvió a Francia y Léon Théry repitió su victoria con Richard-Brasier. La prueba de Auvernia reunió a seis representaciones nacionales. Pero el límite de tres coches planteaba un problema para un país con muchos fabricantes: una selección nacional dejaba fuera a empresas que también deseaban medirse y promocionar sus productos.",
+        "El Automobile Club de France decidió organizar una competencia diferente para 1906, sin aquella restricción por nación. El Grand Prix de l'ACF se disputó en la Sarthe y lo ganó Ferenc Szisz para Renault. La rivalidad se desplazaba hacia la inscripción de los fabricantes, aunque los colores y el prestigio nacional seguían formando parte del espectáculo.",
+        "Gordon Bennett no fue un Mundial de Fórmula 1 anticipado. Fue un experimento organizativo con seis ediciones, capaz de producir identidades y también tensiones. Su final permite ver cómo una regla útil para internacionalizar un deporte podía convertirse en un obstáculo cuando la industria que participaba en él crecía."
+      ],
+      "sourceIds":["copa1905", "copaenciclopedia", "aco"]
+    }
+  ],
+  "sources":[
+    {"id":"copa1900","title":"Gordon Bennett Cup: investigación de la edición de 1900","url":"https://gordonbennettcup.racing/1900-2/"},
+    {"id":"copaenciclopedia","title":"Wikipedia: Gordon Bennett Cup (auto racing)","url":"https://en.wikipedia.org/wiki/Gordon_Bennett_Cup_(auto_racing)"},
+    {"id":"irlanda","title":"Bibliotecas irlandesas: Gordon Bennett Cup Race 1903","url":"https://www.askaboutireland.ie/reading-room/sports-recreation/sport/gordon-bennett-cup-race-1/index.xml"},
+    {"id":"copa1903","title":"Wikipedia: 1903 Gordon Bennett Cup","url":"https://en.wikipedia.org/wiki/1903_Gordon_Bennett_Cup"},
+    {"id":"mercedes","title":"Mercedes-Benz Classic: aniversarios de su historia deportiva","url":"https://media.mercedes-benz.com/article/764f404c-7ea6-4d60-8e4a-608a511301ff"},
+    {"id":"fia","title":"FIA: los miembros fundadores y los 120 años de la federación","url":"https://www.fia.com/news/founding-members-meet-celebrate-fias-120th-anniversary"},
+    {"id":"copa1905","title":"Gordon Bennett Cup: investigación de la edición de 1905","url":"https://gordonbennettcup.racing/1905-2/"},
+    {"id":"aco","title":"ACO: los orígenes del Grand Prix en la Sarthe","url":"https://www.24h-lemans.com/fr/actualites/24-heures-du-mans-aux-origines-de-la-legende-51838"}
+  ],
+  "related":[
+    {"label":"París–Rouen y las primeras competencias","href":"/articulos/paris-rouen-1894"},
+    {"label":"Grandes Épreuves y campeonatos europeos","href":"/articulos/grandes-epreuves"},
+    {"label":"Historia del Grand Prix de Francia","href":"/historia/grands-prix/france"}
+  ]
+}

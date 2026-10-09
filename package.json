@@ -15,7 +15,9 @@
     "verify:drivers": "node scripts/verify-driver-achievements.mjs",
     "verify:circuits": "node scripts/verify-circuits.mjs",
     "verify:grand-prix": "node scripts/verify-grand-prix.mjs",
-    "build:grand-prix": "node scripts/build-grand-prix-editions.mjs"
+    "build:grand-prix": "node scripts/build-grand-prix-editions.mjs",
+    "build:articles": "node scripts/build-articles.mjs",
+    "verify:articles": "node scripts/verify-articles.mjs"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.22",

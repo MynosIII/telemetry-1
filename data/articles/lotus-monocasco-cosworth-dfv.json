@@ -1,0 +1,140 @@
+{
+  "slug": "lotus-monocasco-cosworth-dfv",
+  "title": "Lotus 25 y Cosworth DFV: dos revoluciones que no fueron el mismo auto",
+  "description": "Cómo el monocasco de 1962 y el conjunto Lotus 49–DFV de 1967 cambiaron la estructura del monoplaza y el acceso a un motor competitivo.",
+  "category": "Revoluciones técnicas",
+  "period": "1962–1983",
+  "lead": "Lotus modificó dos veces la manera de construir un Fórmula 1 durante los años sesenta. Primero hizo que la piel estructural del chasis trabajara como una caja resistente. Después integró un nuevo motor en el propio camino de las cargas del auto. Fueron innovaciones relacionadas, pero separadas por cinco años y por dos modelos distintos.",
+  "sections": [
+    {
+      "id": "monocasco",
+      "title": "1962: el chasis dejó de ser solamente una red de tubos",
+      "paragraphs": [
+        "El Lotus 25 debutó en el Gran Premio de los Países Bajos de 1962. Su gran novedad era la estructura de aluminio que envolvía al piloto: una bañera resistente en lugar de la tradicional estructura tubular cubierta por paneles de carrocería. El término monocasco se convirtió en la manera habitual de describirlo, aunque Classic Team Lotus emplea la precisión de semimonocasco para el modelo. La diferencia terminológica no modifica el cambio fundamental: los paneles pasaban a cumplir una función estructural.",
+        "Puede imaginarse la comparación entre una jaula de barras y una caja. En la primera, las barras soportan las cargas; en la segunda, las paredes colaboran para resistir la deformación. En un auto de carreras esa rigidez ayuda a que la suspensión trabaje sobre una base más estable. No hay una relación automática entre rigidez y victoria, pero sí un nuevo margen para organizar el peso, el espacio del piloto y la forma exterior del monoplaza."
+      ],
+      "sourceIds": [
+        "lotus25",
+        "ctl25"
+      ]
+    },
+    {
+      "id": "clark",
+      "title": "El talento de Clark necesitaba que la máquina llegara al final",
+      "paragraphs": [
+        "Jim Clark fue la referencia deportiva del Lotus 25, equipado con un Coventry Climax V8 de 1,5 litros. Conviene mantener juntos esos nombres: el 25 no nació con el Cosworth DFV. Su historia pertenece al reglamento de pequeña cilindrada de comienzos de los sesenta, mientras que el DFV llegaría después de la transición a los motores de tres litros.",
+        "La temporada de 1962 mostró tanto la velocidad de la nueva estructura como sus límites. Clark perdió la oportunidad de ganar el campeonato al sufrir una fuga de aceite en la última prueba. En 1963 obtuvo siete victorias puntuables y conquistó su primer título. La secuencia recuerda una condición básica de la ingeniería deportiva: una solución rápida necesita convertirse en un sistema confiable. La invención del chasis y el trabajo posterior para sostener sus prestaciones forman parte de la misma historia."
+      ],
+      "sourceIds": [
+        "ctl25",
+        "clark",
+        "lotus25"
+      ]
+    },
+    {
+      "id": "dfv",
+      "title": "1967: un motor financiado por Ford y diseñado por Cosworth",
+      "paragraphs": [
+        "El siguiente capítulo reunió a Colin Chapman, Ford y Cosworth. Keith Duckworth y Mike Costin desarrollaron un V8 de tres litros con financiación de Ford; Walter Hayes fue una figura clave para poner el proyecto en marcha. La denominación DFV significa Double Four Valve y refleja su parentesco técnico con el programa de cuatro cilindros FVA. No se trataba de una evolución del pequeño Climax del Lotus 25, sino de otro motor y de otra etapa reglamentaria.",
+        "El Lotus 49 fue el auto concebido alrededor del DFV. El motor participaba como elemento resistente del conjunto, enlazando el monocasco con la zona posterior del monoplaza. Por eso resulta insuficiente describirlo como un propulsor que simplemente se colocó dentro de un chasis existente. La forma de montar el motor cambiaba el modo de transmitir cargas y condicionaba el diseño de lo que había detrás del piloto."
+      ],
+      "sourceIds": [
+        "ford-dfv",
+        "ctl-dfv",
+        "ctl49"
+      ]
+    },
+    {
+      "id": "zandvoort",
+      "title": "Una victoria en el estreno y un trabajo que continuó después",
+      "paragraphs": [
+        "Jim Clark ganó el Gran Premio de los Países Bajos de 1967 en el estreno mundialista del Lotus 49 y del DFV. El resultado unió de inmediato ambos nombres, pero no convirtió la temporada completa en una campaña sin problemas. Una victoria inaugural demuestra potencial; la competitividad sostenida exige desarrollo, preparación y continuidad.",
+        "El 49 siguió compitiendo hasta 1970 y ganó Grandes Premios con varios pilotos. Graham Hill conquistó el campeonato de 1968, y el modelo también aportó a la campaña del título póstumo de Jochen Rindt en 1970, compartiendo ese año con el Lotus 72. Esta trayectoria ayuda a ver que un auto histórico no es una fotografía congelada de su debut: puede mantenerse activo mientras recibe cambios y mientras la escudería introduce su sucesor."
+      ],
+      "sourceIds": [
+        "ctl49",
+        "ctl49-gathering",
+        "ford-dfv"
+      ]
+    },
+    {
+      "id": "clientes",
+      "title": "La revolución más duradera fue poder comprarlo",
+      "paragraphs": [
+        "La importancia del DFV también fue industrial. Su disponibilidad para otros equipos desde 1968 dio a constructores especializados una alternativa a fabricar un motor propio. Un chasis diseñado por una escudería pequeña podía combinarse con una unidad competitiva suministrada por Cosworth. El campeonato abrió así más espacio a proyectos cuya principal especialidad era el vehículo, no la producción de motores.",
+        "Ford atribuye al DFV 155 victorias mundialistas entre 1967 y 1983. Ese total corresponde al alcance definido por esa fuente: no debe mezclarse sin explicación con derivados de la familia, otras categorías o todos los motores que llevaron la marca Ford. El monocasco del 25 cambió la estructura; el conjunto 49–DFV cambió su integración; el suministro a clientes amplió quién podía utilizar esa solución. Las tres historias están conectadas, pero conservar sus diferencias permite entender mejor por qué fueron decisivas."
+      ],
+      "sourceIds": [
+        "ctl-dfv",
+        "ford-dfv",
+        "ctl49-gathering",
+        "teams-1968"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lotus25",
+      "title": "Lotus Cars — Type 25 y el monocasco",
+      "url": "https://www.lotuscars.com/en-AE/lotus-story/race-cars/type-25"
+    },
+    {
+      "id": "ctl25",
+      "title": "Classic Team Lotus — registro del Type 25",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-25/"
+    },
+    {
+      "id": "clark",
+      "title": "Formula 1 — Jim Clark, Hall of Fame",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-jim-clark.2xXQsIYM7LBHJrP4Gw6rRD"
+    },
+    {
+      "id": "ford-dfv",
+      "title": "Ford Racing — The Ford V8 That Changed Formula 1",
+      "url": "https://www.fromtheroad.ford.com/eur/en/articles/2026/the-ford-v8-that-changed-formula-1"
+    },
+    {
+      "id": "ctl-dfv",
+      "title": "Classic Team Lotus — doce detalles técnicos del Lotus 49",
+      "url": "https://classicteamlotus.co.uk/media/4827/49-ten-things.pdf"
+    },
+    {
+      "id": "ctl49",
+      "title": "Classic Team Lotus — registro del Type 49",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-49/"
+    },
+    {
+      "id": "ctl49-gathering",
+      "title": "Classic Team Lotus — historia de los nueve Lotus 49",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2016/all-the-lotus-49s-together%2C-for-the-first-time-ever/"
+    },
+    {
+      "id": "teams-1968",
+      "title": "Formula 1 — clasificación de constructores de 1968",
+      "url": "https://www.formula1.com/en/results/1968/team"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1962",
+      "href": "/historia/seasons/1962"
+    },
+    {
+      "label": "Temporada 1967",
+      "href": "/historia/seasons/1967"
+    },
+    {
+      "label": "Historia de Zandvoort",
+      "href": "/historia/circuits/zandvoort"
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Lotus_49-1.JPG/1280px-Lotus_49-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lotus_49-1.JPG",
+    "author": "Deep silence (Mikaël Restoux)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "El Lotus 49: la integración del motor Ford-Cosworth DFV fue uno de sus rasgos técnicos decisivos.",
+    "alt": "El Lotus 49: la integración del motor Ford-Cosworth DFV fue uno de sus rasgos técnicos decisivos."
+  }
+}
