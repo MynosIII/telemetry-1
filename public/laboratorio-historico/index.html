@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Explore retrospective, car-adjusted Formula 1 driver ELO from 1950 onward.">
-  <title>F1 Historical Rating Lab</title>
+  <title>Ranking histórico · TelemetryOne</title>
   <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8"></script>
   <style>
     :root {
@@ -1435,28 +1435,52 @@
       .number-one-row:hover { transform: none; }
     }
 
+    /* Plain headline and summary line instead of a hero and a row of stat cards. */
+    h1 { font-size: clamp(2rem, 4vw, 3.2rem) !important; letter-spacing: -.03em; line-height: 1.05; }
+    .masthead { padding: 40px 0 18px; }
+    .dataset-strip { display: flex; flex-wrap: wrap; gap: 4px 22px; border: 0 !important; padding: 0 0 6px; overflow: visible !important; }
+    .dataset-stat, .dataset-stat + .dataset-stat { padding: 0 !important; border: 0 !important; }
+    .dataset-stat strong { display: inline; font-size: .95rem; letter-spacing: 0; }
+    .dataset-stat span { margin-left: 6px; font-size: .85rem; font-weight: 500; letter-spacing: 0; text-transform: none; }
+    main { padding-top: 28px; }
+
+    @media (max-width: 700px) {
+      .masthead { padding: 24px 0 10px; gap: 18px; }
+      .model-stamp { min-width: 0; }
+      main { padding-top: 18px; }
+      .section-heading p { font-size: .92rem; }
+      /* Chart first, then the controls to change it. */
+      .explorer { display: flex; flex-direction: column; }
+      .entity-tabs { order: 0; }
+      .toolbar { order: 1; padding: 12px; gap: 10px; }
+      .selection-bar { order: 2; padding: 10px 12px; min-height: 0; }
+      .explorer-main { order: 3; display: flex; flex-direction: column; }
+      .chart-column { order: 0; }
+      .driver-index { order: 1; border-top: 1px solid var(--line); border-bottom: 0; }
+      .entity-tab { min-height: 0; padding: 10px 12px; }
+      .entity-tab small, .view-option small, .control-label:not([for]), .axis-control, .driver-index-help { display: none; }
+      .view-picker { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+      .view-option { min-height: 44px; padding: 8px; text-align: center; }
+      .view-option strong { font-size: .8rem; }
+      .toolbar { grid-template-columns: 1fr; }
+      .button.primary { min-width: 0; }
+      .explorer:not(:has(.chip)) .comparison-control { display: none; }
+      .selection-placeholder { display: none; }
+      .selection-count { margin: 0; }
+      .plot-wrap { min-height: 0; padding: 4px 4px 0; }
+      #rating-chart { height: min(62vh, 440px); }
+      .chart-note { padding: 6px 12px 12px; }
+      .chart-note > span:first-child { display: none; }
+    }
   </style>
 <link rel="stylesheet" href="/laboratorio-historico/telemetry-theme.css">
-<script>if (window.top !== window.self) document.documentElement.classList.add("embedded");</script>
+<link rel="canonical" href="https://telemetry-1.vercel.app/ranking">
+<script>if (window.top !== window.self) document.documentElement.classList.add("embedded"); else location.replace("/ranking" + location.search);</script>
 </head>
 <body>
-  <header class="shell index-bar">
-    <a class="index-brand" href="./"><span class="index-brand-mark">T1</span> TelemetryOne</a>
-    <div class="index-bar-actions">
-      <nav class="index-tabs" aria-label="TelemetryOne indices">
-        <a class="index-tab" href="./" aria-current="page" data-i18n="statisticalIndex">Statistical Index</a>
-        <a class="index-tab" href="opinion/" data-i18n="fanIndex">Fan Index</a>
-      </nav>
-      <button class="language-toggle" id="language-toggle" type="button" aria-label="Cambiar el sitio a español">
-        <span id="language-toggle-copy">Español</span>
-        <span class="language-code" id="language-toggle-code" aria-hidden="true">ES</span>
-      </button>
-    </div>
-  </header>
   <header class="shell masthead">
     <div>
-      <p class="eyebrow" data-i18n="heroEyebrow">Historical performance model</p>
-      <h1 data-i18n-html="heroTitle">Every era.<br>One moving field.</h1>
+      <h1 data-i18n-html="heroTitle">Ranking histórico de pilotos</h1>
       <p class="intro" data-i18n="heroIntro">Explore how Formula 1 driver ratings evolved race by race after separating driver performance from car, circuit and race conditions.</p>
     </div>
     <div class="masthead-actions">
@@ -1492,7 +1516,6 @@
     <section aria-labelledby="explorer-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow" data-i18n="explorerEyebrow">Race-by-race explorer</p>
           <h2 id="explorer-title" data-i18n="explorerTitle">Build your comparison</h2>
         </div>
         <p data-i18n="explorerIntro">Search any driver, remove the field noise, and switch between championship race numbers and named Grand Prix events.</p>
@@ -1588,7 +1611,6 @@
     <section class="rankings" id="rankings-section" aria-labelledby="rankings-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow" data-i18n="rankingsEyebrow">Searchable all-time tables</p>
           <h2 id="rankings-title" data-i18n="rankingsTitle">Peak and sustained excellence</h2>
         </div>
         <p data-i18n="rankingsIntro">Sort by the greatest single moment or by accumulated strength across an active career.</p>
@@ -1638,7 +1660,6 @@
     <section class="records" id="records-section" aria-labelledby="records-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow" data-i18n="recordsEyebrow">Model records</p>
           <h2 id="records-title" data-i18n="recordsTitle">The shape of greatness</h2>
         </div>
         <p data-i18n="recordsIntro">These records use the complete supplied history and ranking files, regardless of which drivers are currently plotted. This page does not invoke or alter a rating model.</p>
@@ -1674,7 +1695,6 @@
     <section class="number-one" id="number-one-section" aria-labelledby="number-one-title">
       <div class="section-heading">
         <div>
-          <p class="eyebrow" data-i18n="numberOneEyebrow">Chronological No. 1</p>
           <h2 id="number-one-title" data-i18n="numberOneTitle">The line of succession</h2>
         </div>
         <p data-i18n="numberOneIntro">Every uninterrupted spell leading the post-race retrospective ELO. Drivers return whenever they reclaim the top position.</p>
@@ -1697,7 +1717,6 @@
       <button class="dialog-close" id="dialog-close" type="button" aria-label="Close driver profile" data-i18n-aria="closeProfile">×</button>
       <div class="profile-head">
         <div>
-          <p class="eyebrow" data-i18n="driverProfile">Driver profile</p>
           <h2 id="driver-dialog-title">Driver</h2>
           <p class="profile-subtitle" id="driver-dialog-subtitle"></p>
         </div>
@@ -1736,17 +1755,19 @@
       let datasetLoading = false;
       let liveSnapshot = null;
       const comparison = new Set();
-      let draftMode = "all";
-      let appliedMode = "all";
+      const narrowQuery = window.matchMedia("(max-width: 700px)");
+      const defaultMode = () => narrowQuery.matches ? "top" : "all";
+      let draftMode = defaultMode();
+      let appliedMode = draftMode;
       let appliedComparison = [];
       let axisMode = "number";
-      let language = "es";
+      const language = /(?:^|; )NEXT_LOCALE=en(?:;|$)/.test(document.cookie) ? "en" : "es";
 
       const translations = {
         en: {
           pageTitle: "F1 Historical Rating Lab",
           heroEyebrow: "Historical performance model",
-          heroTitle: "Every era.<br>One moving field.",
+          heroTitle: "All-time driver ranking",
           heroIntro: "Explore how Formula 1 driver ratings evolved race by race after separating driver performance from car, circuit and race conditions.",
           modelVersion: "Model version",
           currentView: "Database & analysis",
@@ -1956,7 +1977,7 @@
         es: {
           pageTitle: "Laboratorio histórico de ELO de F1",
           heroEyebrow: "Modelo histórico de rendimiento",
-          heroTitle: "Cada era.<br>Una parrilla en evolución.",
+          heroTitle: "Ranking histórico de pilotos",
           heroIntro: "Explora cómo evolucionaron las valoraciones de los pilotos de Fórmula 1 carrera a carrera, separando el rendimiento del piloto del coche, el circuito y las condiciones de carrera.",
           modelVersion: "Versión del modelo",
           currentView: "Base de datos y análisis",
@@ -2180,7 +2201,6 @@
       const wikiImage = document.getElementById("wiki-image");
       const wikiSummary = document.getElementById("wiki-summary");
       const wikiLink = document.getElementById("wiki-link");
-      const languageToggle = document.getElementById("language-toggle");
       const entityDriversButton = document.getElementById("entity-drivers");
       const entityCarsButton = document.getElementById("entity-cars");
       const driverRankingSearch = document.getElementById("driver-ranking-search");
@@ -2241,6 +2261,12 @@
         `${t("hoverConstructor")} %{customdata[6]}<br>` +
         `${t("hoverQualifying")} P%{customdata[11]} · ${t("hoverFinish")} P%{customdata[12]}<br>` +
         `${t("hoverStatus")} %{customdata[13]}<extra></extra>`;
+      const compactHoverTemplate = () =>
+        "<b>%{customdata[0]}</b><br>%{customdata[3]}<br>" +
+        `${metricLabel()} %{y:.1f} · #%{customdata[4]} ${t("hoverOf")} %{customdata[5]}<extra></extra>`;
+      const compactCarHoverTemplate = () =>
+        "<b>%{customdata[0]}</b><br>%{customdata[3]}<br>" +
+        `${t("carYAxisTitle")} %{y:.1%}<extra></extra>`;
       const carHoverTemplate = () =>
         "<b>%{customdata[0]}</b><br>" +
         `${t("hoverSeason")} %{customdata[1]}<br>` +
@@ -2277,9 +2303,6 @@
         document.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
           element.setAttribute("placeholder", t(element.dataset.i18nPlaceholder));
         });
-        languageToggle.setAttribute("aria-label", t("languageAria"));
-        document.getElementById("language-toggle-copy").textContent = t("languageCopy");
-        document.getElementById("language-toggle-code").textContent = t("languageCode");
         renderEntityLabels();
         renderDatasetMenu();
         renderRankings();
@@ -2481,8 +2504,8 @@
           activeDatasetId = datasetId;
           comparison.clear();
           appliedComparison = [];
-          draftMode = "all";
-          appliedMode = "all";
+          draftMode = defaultMode();
+          appliedMode = draftMode;
           activeProfileId = null;
           if (driverDialog.open) driverDialog.close();
           search.value = "";
@@ -2543,7 +2566,7 @@
           connectgaps: false,
           line: { color: colorFor(driver.id), width: overview ? .85 : 2.4 },
           opacity: overview ? .42 : 1,
-          hovertemplate: hoverTemplate()
+          hovertemplate: narrowQuery.matches ? compactHoverTemplate() : hoverTemplate()
         };
       }
 
@@ -2576,11 +2599,14 @@
           line: { color: colorFor(car.id), width: overview ? .9 : 2.4 },
           marker: { color: colorFor(car.id), size: overview ? 2 : 5 },
           opacity: overview ? .38 : 1,
-          hovertemplate: carHoverTemplate()
+          hovertemplate: narrowQuery.matches ? compactCarHoverTemplate() : carHoverTemplate()
         };
       }
 
       function axisSettings() {
+        if (narrowQuery.matches) {
+          return { title: { text: t("raceAxisTitle"), standoff: 6, font: { size: 11 } }, tickmode: "auto", nticks: 5, tickangle: 0, automargin: true };
+        }
         if (axisMode === "name") {
           const step = Math.max(1, Math.ceil(payload.events.length / 24));
           const ticks = payload.events.filter((_, index) => index % step === 0);
@@ -2638,20 +2664,22 @@
               : chosen.length === 1
                 ? t("comparingOne")
                 : tr("comparingMany", { count: numberFormat.format(chosen.length) });
+        const narrow = narrowQuery.matches;
         const layout = {
           paper_bgcolor: "#131412",
           plot_bgcolor: "#131412",
           font: { family: "Inter, ui-sans-serif, system-ui, sans-serif", color: "#adaca6", size: 12 },
-          margin: { l: 68, r: 26, t: 30, b: axisMode === "name" ? 122 : 72 },
+          margin: narrow ? { l: 44, r: 10, t: 12, b: 40 } : { l: 68, r: 26, t: 30, b: axisMode === "name" ? 122 : 72 },
           hovermode: "closest",
           hoverlabel: { bgcolor: "#0d0e0c", bordercolor: "#484943", font: { color: "#f5f4ef", size: 13 }, align: "left" },
-          showlegend: false,
+          showlegend: narrow && appliedMode !== "all",
+          legend: { orientation: "h", x: 0, y: -0.08, yanchor: "top", font: { size: 11, color: "#d6d6d6" }, itemclick: false, itemdoubleclick: false },
           xaxis: {
             ...axisSettings(),
             color: "#85867f",
             gridcolor: "#292a26",
             zeroline: false,
-            fixedrange: false,
+            fixedrange: narrow,
             range: appliedMode === "all"
               ? [1, payload.meta.events]
               : [
@@ -2660,23 +2688,25 @@
                 ]
           },
           yaxis: {
-            title: { text: entityType === "cars" ? t("carYAxisTitle") : metricLabel(), standoff: 12 },
+            title: { text: narrow ? "" : entityType === "cars" ? t("carYAxisTitle") : metricLabel(), standoff: 12 },
+            nticks: narrow ? 6 : undefined,
             color: "#85867f",
             gridcolor: "#292a26",
             zeroline: false,
-            fixedrange: false,
+            fixedrange: narrow,
             rangemode: "nonnegative",
             minallowed: 0,
             tickformat: entityType === "cars" ? ".0%" : undefined,
             range: entityType === "cars" ? [0, 1] : undefined
           },
-          dragmode: "pan",
+          dragmode: narrow ? false : "pan",
           transition: { duration: 180 }
         };
         Plotly.react(chart, traces, layout, {
           responsive: true,
           displaylogo: false,
-          scrollZoom: true,
+          displayModeBar: !narrow,
+          scrollZoom: !narrow,
           modeBarButtonsToRemove: ["lasso2d", "select2d", "autoScale2d"]
         });
       }
@@ -2755,8 +2785,8 @@
         entityType = nextType;
         comparison.clear();
         appliedComparison = [];
-        draftMode = "all";
-        appliedMode = "all";
+        draftMode = defaultMode();
+        appliedMode = draftMode;
         search.value = "";
         renderEntityLabels();
         renderDraftControls();
@@ -3298,15 +3328,6 @@
         document.getElementById("axis-name").setAttribute("aria-pressed", "true");
         renderChart();
       });
-      languageToggle.addEventListener("click", () => {
-        language = language === "en" ? "es" : "en";
-        applyStaticTranslations();
-        setDatasetSummary();
-        renderRecords();
-        renderDraftControls();
-        renderChart();
-        if (driverDialog.open && activeProfileId) openDriverProfile(activeProfileId);
-      });
       datasetPickerButton.addEventListener("click", () => {
         if (!datasetLoading) setDatasetMenuOpen(datasetMenu.hidden);
       });
@@ -3322,6 +3343,15 @@
       window.addEventListener("popstate", () => {
         const requested = new URLSearchParams(window.location.search).get("dataset") || datasetCatalog.defaultId;
         selectDataset(requested, false);
+      });
+
+      narrowQuery.addEventListener("change", () => {
+        if (appliedMode !== "compare") {
+          draftMode = defaultMode();
+          appliedMode = draftMode;
+          renderDraftControls();
+        }
+        renderChart();
       });
 
       applyStaticTranslations();

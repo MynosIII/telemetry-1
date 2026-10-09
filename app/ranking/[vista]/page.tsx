@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { EmbeddedExperience } from "@/components/EmbeddedExperience";
+import { RankingFrame } from "@/components/RankingFrame";
 
 const views = {
-  "fan-index": { title: "Fan Index", label: "RANKING · VOTO DE LOS FANS", source: "/laboratorio-historico/opinion/index.html" },
-  encuesta: { title: "Encuesta", label: "RANKING · FAN INDEX", source: "/laboratorio-historico/opinion/index.html#live-survey-title" },
-  modelo: { title: "Modelo v7.6", label: "RANKING · METODOLOGÍA", source: "/laboratorio-historico/index.html#methodology-section" }
+  "fan-index": { title: "Fan Index", description: "El mejor piloto de la historia según la opinión de los fans en internet.", source: "/laboratorio-historico/opinion/index.html" },
+  encuesta: { title: "Encuesta", description: "Encuesta abierta de TelemetryOne sobre el mejor piloto de Fórmula 1.", source: "/laboratorio-historico/opinion/index.html#live-survey-title" }
 } as const;
 
 type Props = { params: Promise<{ vista: string }> };
@@ -16,12 +15,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { vista } = await params;
-  return { title: views[vista as keyof typeof views]?.title ?? "Ranking" };
+  const view = views[vista as keyof typeof views];
+  return view ? { title: view.title, description: view.description } : { title: "Ranking" };
 }
 
 export default async function RankingViewPage({ params }: Props) {
   const { vista } = await params;
   const view = views[vista as keyof typeof views];
   if (!view) notFound();
-  return <EmbeddedExperience label={view.label} title={view.title} source={view.source} />;
+  return <RankingFrame title={view.title} source={view.source} />;
 }

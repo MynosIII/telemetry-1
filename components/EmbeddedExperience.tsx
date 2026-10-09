@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
-import { LabLiveStrip, type LabLiveSummary } from "@/components/LabLiveStrip";
 import { GameLogo } from "./GameLogo";
 
 type EmbeddedExperienceProps = {
@@ -8,13 +7,12 @@ type EmbeddedExperienceProps = {
   label: string;
   source: string;
   logo?: string;
-  liveSummary?: LabLiveSummary;
   back?: { href: string; label: string };
 };
 
-export function EmbeddedExperience({ title, label, source, logo, liveSummary, back = { href: "/", label: "INICIO" } }: EmbeddedExperienceProps) {
+export function EmbeddedExperience({ title, label, source, logo, back = { href: "/", label: "INICIO" } }: EmbeddedExperienceProps) {
   return (
-    <main className={`embedded-experience${liveSummary ? " with-live-strip" : ""}`}>
+    <main className="embedded-experience">
       <SiteHeader />
       <div className="embed-header">
         <div className="embed-identity">
@@ -29,9 +27,6 @@ export function EmbeddedExperience({ title, label, source, logo, liveSummary, ba
           <a href={source} target="_blank" rel="noreferrer">ABRIR / OPEN ↗</a>
         </div>
       </div>
-      {liveSummary ? (
-        <LabLiveStrip initialSummary={liveSummary} />
-      ) : null}
       <iframe
         className="experience-frame"
         src={source}

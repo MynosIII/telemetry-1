@@ -32,10 +32,9 @@ export const siteSections: SiteSection[] = [
     label: "Ranking",
     match: ["/ranking"],
     links: [
-      { href: "/ranking", label: "Índice estadístico" },
+      { href: "/ranking", label: "Modelo v7.6" },
       { href: "/ranking/fan-index", label: "Fan Index" },
-      { href: "/ranking/encuesta", label: "Encuesta" },
-      { href: "/ranking/modelo", label: "Modelo v7.6" }
+      { href: "/ranking/encuesta", label: "Encuesta" }
     ]
   },
   {
