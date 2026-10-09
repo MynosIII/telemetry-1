@@ -26,21 +26,34 @@ export function ArticleLibrary({ articles, categories, initialEra }: { articles:
     && normalize(`${article.title} ${article.description} ${article.period} ${(article.tags ?? []).join(" ")}`).includes(normalize(query.trim())));
   const groups = articleEras.map(era => ({...era, items: filtered.filter(article => article.year >= era.from && article.year <= era.to)
     .sort((a,b) => a.year-b.year || a.title.localeCompare(b.title,"es"))})).filter(era => era.items.length);
+  const activeEra = groups.some(era => era.id === selectedEra) ? selectedEra : null;
+  function updateFilters(nextCategory: string, nextQuery: string) {
+    const era = articleEras.find(item => item.id === selectedEra);
+    if (era && !articles.some(article => article.year >= era.from && article.year <= era.to
+      && (nextCategory === "Todos" || article.category === nextCategory)
+      && normalize(`${article.title} ${article.description} ${article.period} ${(article.tags ?? []).join(" ")}`).includes(normalize(nextQuery.trim())))) setSelectedEra(null);
+    setCategory(nextCategory);
+    setQuery(nextQuery);
+    setEraCount(1);
+    setExpanded([]);
+  }
   const searching = query.trim() !== "" || category !== "Todos";
-  const visibleGroups = selectedEra ? groups.filter(era => era.id === selectedEra) : searching ? groups : groups.slice(0,eraCount);
-  const nextEra = !selectedEra && !searching ? groups[eraCount] : undefined;
+  const visibleGroups = activeEra ? groups.filter(era => era.id === activeEra) : searching ? groups : groups.slice(0,eraCount);
+  const nextEra = !activeEra && !searching ? groups[eraCount] : undefined;
   return <section className="editorial-library" id="biblioteca" aria-labelledby="library-title">
     <div className="editorial-library-head"><div><p className="editorial-category">PARA EMPEZAR</p><h2 id="library-title">Un viaje por la historia</h2></div></div>
     <p className="editorial-timeline-intro">Empezá por las primeras carreras o elegí una época. Cada historia abre otra puerta.</p>
-    <nav ref={eraNav} className="editorial-era-nav" aria-label="Elegir una época">
-      <button type="button" aria-pressed={!selectedEra} onClick={() => {setSelectedEra(null);setEraCount(1);}}>Desde el principio</button>
-      {articleEras.map(era => <button key={era.id} type="button" aria-pressed={selectedEra === era.id} onClick={() => setSelectedEra(era.id)}>{era.label}</button>)}
-    </nav>
-    <details className="editorial-discovery"><summary>Buscar una historia o elegir un tema</summary><div className="editorial-controls">
+    <div className="editorial-controls">
+      <p className="editorial-filter-label">Elegí un tema</p>
       <div className="editorial-filters" aria-label="Filtrar historias por tema">{["Todos", ...categories].map(item => <button
-        key={item} type="button" aria-pressed={category === item} onClick={() => setCategory(item)}>{item}</button>)}</div>
-      <label className="editorial-search">Buscar una historia<input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Un auto, un lugar, una idea…" /></label>
-    </div></details>
+        key={item} type="button" aria-pressed={category === item} onClick={() => updateFilters(item,query)}>{item}</button>)}</div>
+      <label className="editorial-search">Buscar una historia<input type="search" value={query} onChange={event => updateFilters(category,event.target.value)} placeholder="Un auto, un lugar, una idea…" /></label>
+    </div>
+    {!!groups.length && <><p className="editorial-filter-label">Elegí una época</p>
+    <nav ref={eraNav} className="editorial-era-nav" aria-label="Elegir una época">
+      <button type="button" aria-pressed={!activeEra} onClick={() => {setSelectedEra(null);setEraCount(1);}}>Desde el principio</button>
+      {groups.map(era => <button key={era.id} type="button" aria-pressed={activeEra === era.id} onClick={() => setSelectedEra(era.id)}>{era.label}</button>)}
+    </nav></>}
     <p className="sr-only" role="status">{filtered.length ? `${filtered.length} historias coinciden con los filtros. Mostrando ${visibleGroups.map(era => era.label).join(", ")}.` : "No hay historias con esos filtros."}</p>
     <ol className="editorial-timeline">{visibleGroups.map(era => {
       const showAll = expanded.includes(era.id) || searching;
@@ -57,6 +70,6 @@ export function ArticleLibrary({ articles, categories, initialEra }: { articles:
     })}</ol>
     {!visibleGroups.length && <p className="editorial-empty">No encontramos historias con esos filtros. Probá otro término, elegí «Todos» o cambiá de época.</p>}
     {nextEra && <div className="editorial-next-era"><p>La historia sigue…</p><button className="editorial-load-more" type="button" onClick={() => setEraCount(previous => previous+1)}>Ver la siguiente época · {nextEra.label} →</button></div>}
-    {selectedEra && <button className="editorial-load-more" type="button" onClick={() => {setSelectedEra(null);setEraCount(articleEras.length);}}>Ver toda la línea del tiempo →</button>}
+    {activeEra && <button className="editorial-load-more" type="button" onClick={() => {setSelectedEra(null);setEraCount(articleEras.length);}}>Ver toda la línea del tiempo →</button>}
   </section>;
 }
