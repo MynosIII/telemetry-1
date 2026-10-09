@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { HistoryDossier } from "@/components/HistoryDossier";
 import { CircuitDossier } from "@/components/CircuitDossier";
+import { GrandPrixDossier } from "@/components/GrandPrixDossier";
 import { getHistoryEntity, historyCategories } from "@/lib/history";
 import { getCarCatalogue, getChampionship, getSeasonSprints } from "@/lib/championship-history";
 import { SeasonDossier } from "@/components/SeasonDossier";
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return season ? { title: `Temporada ${season.year} de Fórmula 1`, description: `Calendario, participantes, resultados, campeonatos, estadísticas y análisis TelemetryOne de la temporada ${season.year}.` } : { title: "Temporada histórica" };
   }
   const entity = await getHistoryEntity(category, entityId);
+  if (category === "grands-prix" && entity) return { title: `${entity.id === "indianapolis" ? "500 Millas de Indianápolis" : translate(entity.sources.wikipediaTitle, "races")} · Historia`, description: `Historia, sedes, ediciones anteriores al Mundial, ganadores y reportes de ${translate(entity.name, "countries")}. Resultados y análisis TelemetryOne hasta 2025.` };
   return entity ? { title: `${entity.name} · Historia`, description: `Historia, estadísticas, temporadas y conexiones de ${entity.name} en el Campeonato Mundial, ${entity.firstSeason}–${entity.lastSeason}.` } : { title: "Archivo histórico" };
 }
 export default async function EntityPage({ params }: Props) {
@@ -40,6 +42,7 @@ export default async function EntityPage({ params }: Props) {
   if (!entity) notFound();
   if (category === "drivers") redirect(`/pilotos/${entity.id}`);
   if (category === "circuits") return <CircuitDossier entity={entity} />;
+  if (category === "grands-prix") return <GrandPrixDossier entity={entity} />;
   if (category === "tyres" && Object.hasOwn(tyreCompanies, entity.id)) {
     const analysis = (await getTyreAnalysis()).tyres[entity.id];
     if (analysis) return <TyreDossier entity={entity} analysis={analysis} />;

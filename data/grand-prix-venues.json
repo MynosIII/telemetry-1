@@ -1,0 +1,1352 @@
+{
+  "monza": {
+    "id": "monza",
+    "name": "Monza",
+    "circuitId": "monza",
+    "href": "/historia/circuits/monza",
+    "latitude": 45.620556,
+    "longitude": 9.289444,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "monaco": {
+    "id": "monaco",
+    "name": "Monaco",
+    "circuitId": "monaco",
+    "href": "/historia/circuits/monaco",
+    "latitude": 43.734722,
+    "longitude": 7.420556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "silverstone": {
+    "id": "silverstone",
+    "name": "Silverstone",
+    "circuitId": "silverstone",
+    "href": "/historia/circuits/silverstone",
+    "latitude": 52.078611,
+    "longitude": -1.016944,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "spa-francorchamps": {
+    "id": "spa-francorchamps",
+    "name": "Spa-Francorchamps",
+    "circuitId": "spa-francorchamps",
+    "href": "/historia/circuits/spa-francorchamps",
+    "latitude": 50.437222,
+    "longitude": 5.971389,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "montreal": {
+    "id": "montreal",
+    "name": "Gilles Villeneuve",
+    "circuitId": "montreal",
+    "href": "/historia/circuits/montreal",
+    "latitude": 45.500578,
+    "longitude": -73.522461,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "interlagos": {
+    "id": "interlagos",
+    "name": "José Carlos Pace",
+    "circuitId": "interlagos",
+    "href": "/historia/circuits/interlagos",
+    "latitude": -23.701111,
+    "longitude": -46.697222,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "nurburgring": {
+    "id": "nurburgring",
+    "name": "Nürburgring",
+    "circuitId": "nurburgring",
+    "href": "/historia/circuits/nurburgring",
+    "latitude": 50.335556,
+    "longitude": 6.9475,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "hungaroring": {
+    "id": "hungaroring",
+    "name": "Hungaroring",
+    "circuitId": "hungaroring",
+    "href": "/historia/circuits/hungaroring",
+    "latitude": 47.582222,
+    "longitude": 19.251111,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "spielberg": {
+    "id": "spielberg",
+    "name": "Red Bull Ring",
+    "circuitId": "spielberg",
+    "href": "/historia/circuits/spielberg",
+    "latitude": 47.219722,
+    "longitude": 14.764722,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "hockenheimring": {
+    "id": "hockenheimring",
+    "name": "Hockenheimring",
+    "circuitId": "hockenheimring",
+    "href": "/historia/circuits/hockenheimring",
+    "latitude": 49.327778,
+    "longitude": 8.565833,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "catalunya": {
+    "id": "catalunya",
+    "name": "Catalunya",
+    "circuitId": "catalunya",
+    "href": "/historia/circuits/catalunya",
+    "latitude": 41.57,
+    "longitude": 2.261111,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "suzuka": {
+    "id": "suzuka",
+    "name": "Suzuka",
+    "circuitId": "suzuka",
+    "href": "/historia/circuits/suzuka",
+    "latitude": 34.843056,
+    "longitude": 136.540556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "zandvoort": {
+    "id": "zandvoort",
+    "name": "Zandvoort",
+    "circuitId": "zandvoort",
+    "href": "/historia/circuits/zandvoort",
+    "latitude": 52.388819,
+    "longitude": 4.540922,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "imola": {
+    "id": "imola",
+    "name": "Enzo e Dino Ferrari",
+    "circuitId": "imola",
+    "href": "/historia/circuits/imola",
+    "latitude": 44.341111,
+    "longitude": 11.713333,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "melbourne": {
+    "id": "melbourne",
+    "name": "Melbourne",
+    "circuitId": "melbourne",
+    "href": "/historia/circuits/melbourne",
+    "latitude": -37.849722,
+    "longitude": 144.968333,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "mexico-city": {
+    "id": "mexico-city",
+    "name": "Hermanos Rodríguez",
+    "circuitId": "mexico-city",
+    "href": "/historia/circuits/mexico-city",
+    "latitude": 19.404197,
+    "longitude": -99.088747,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "bahrain": {
+    "id": "bahrain",
+    "name": "Bahrain",
+    "circuitId": "bahrain",
+    "href": "/historia/circuits/bahrain",
+    "latitude": 26.0325,
+    "longitude": 50.510556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "buenos-aires": {
+    "id": "buenos-aires",
+    "name": "Juan y Oscar Gálvez",
+    "circuitId": "buenos-aires",
+    "href": "/historia/circuits/buenos-aires",
+    "latitude": -34.694272,
+    "longitude": -58.459347,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "kyalami": {
+    "id": "kyalami",
+    "name": "Kyalami",
+    "circuitId": "kyalami",
+    "href": "/historia/circuits/kyalami",
+    "latitude": -25.998611,
+    "longitude": 28.068889,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "watkins-glen": {
+    "id": "watkins-glen",
+    "name": "Watkins Glen",
+    "circuitId": "watkins-glen",
+    "href": "/historia/circuits/watkins-glen",
+    "latitude": 42.336944,
+    "longitude": -76.927222,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "indianapolis": {
+    "id": "indianapolis",
+    "name": "Indianapolis",
+    "circuitId": "indianapolis",
+    "href": "/historia/circuits/indianapolis",
+    "latitude": 39.798333,
+    "longitude": -86.232778,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "sepang": {
+    "id": "sepang",
+    "name": "Sepang",
+    "circuitId": "sepang",
+    "href": "/historia/circuits/sepang",
+    "latitude": 2.760556,
+    "longitude": 101.7375,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "magny-cours": {
+    "id": "magny-cours",
+    "name": "Magny-Cours",
+    "circuitId": "magny-cours",
+    "href": "/historia/circuits/magny-cours",
+    "latitude": 46.863242,
+    "longitude": 3.164228,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "paul-ricard": {
+    "id": "paul-ricard",
+    "name": "Paul Ricard",
+    "circuitId": "paul-ricard",
+    "href": "/historia/circuits/paul-ricard",
+    "latitude": 43.250556,
+    "longitude": 5.791667,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "shanghai": {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "circuitId": "shanghai",
+    "href": "/historia/circuits/shanghai",
+    "latitude": 31.338889,
+    "longitude": 121.219722,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "yas-marina": {
+    "id": "yas-marina",
+    "name": "Yas Marina",
+    "circuitId": "yas-marina",
+    "href": "/historia/circuits/yas-marina",
+    "latitude": 24.467222,
+    "longitude": 54.603056,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "marina-bay": {
+    "id": "marina-bay",
+    "name": "Marina Bay",
+    "circuitId": "marina-bay",
+    "href": "/historia/circuits/marina-bay",
+    "latitude": 1.291531,
+    "longitude": 103.86385,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "brands-hatch": {
+    "id": "brands-hatch",
+    "name": "Brands Hatch",
+    "circuitId": "brands-hatch",
+    "href": "/historia/circuits/brands-hatch",
+    "latitude": 51.356667,
+    "longitude": 0.2625,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "austin": {
+    "id": "austin",
+    "name": "Americas",
+    "circuitId": "austin",
+    "href": "/historia/circuits/austin",
+    "latitude": 30.132778,
+    "longitude": -97.641111,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "estoril": {
+    "id": "estoril",
+    "name": "Estoril",
+    "circuitId": "estoril",
+    "href": "/historia/circuits/estoril",
+    "latitude": 38.750833,
+    "longitude": -9.394167,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "adelaide": {
+    "id": "adelaide",
+    "name": "Adelaide",
+    "circuitId": "adelaide",
+    "href": "/historia/circuits/adelaide",
+    "latitude": -34.927222,
+    "longitude": 138.617222,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "reims": {
+    "id": "reims",
+    "name": "Reims-Gueux",
+    "circuitId": "reims",
+    "href": "/historia/circuits/reims",
+    "latitude": 49.254075,
+    "longitude": 3.930561,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "jacarepagua": {
+    "id": "jacarepagua",
+    "name": "Nelson Piquet",
+    "circuitId": "jacarepagua",
+    "href": "/historia/circuits/jacarepagua",
+    "latitude": -22.975556,
+    "longitude": -43.395,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "zolder": {
+    "id": "zolder",
+    "name": "Zolder",
+    "circuitId": "zolder",
+    "href": "/historia/circuits/zolder",
+    "latitude": 50.988889,
+    "longitude": 5.255556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "baku": {
+    "id": "baku",
+    "name": "Baku",
+    "circuitId": "baku",
+    "href": "/historia/circuits/baku",
+    "latitude": 40.3725,
+    "longitude": 49.853333,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "istanbul": {
+    "id": "istanbul",
+    "name": "Istanbul Park",
+    "circuitId": "istanbul",
+    "href": "/historia/circuits/istanbul",
+    "latitude": 40.951667,
+    "longitude": 29.405,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "jarama": {
+    "id": "jarama",
+    "name": "Jarama",
+    "circuitId": "jarama",
+    "href": "/historia/circuits/jarama",
+    "latitude": 40.617111,
+    "longitude": -3.585583,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "long-beach": {
+    "id": "long-beach",
+    "name": "Long Beach",
+    "circuitId": "long-beach",
+    "href": "/historia/circuits/long-beach",
+    "latitude": 33.766389,
+    "longitude": -118.192778,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "mosport": {
+    "id": "mosport",
+    "name": "Mosport",
+    "circuitId": "mosport",
+    "href": "/historia/circuits/mosport",
+    "latitude": 44.05,
+    "longitude": -78.677778,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "sochi": {
+    "id": "sochi",
+    "name": "Sochi",
+    "circuitId": "sochi",
+    "href": "/historia/circuits/sochi",
+    "latitude": 43.410278,
+    "longitude": 39.968271,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "detroit": {
+    "id": "detroit",
+    "name": "Detroit",
+    "circuitId": "detroit",
+    "href": "/historia/circuits/detroit",
+    "latitude": 42.32975,
+    "longitude": -83.040111,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "jerez": {
+    "id": "jerez",
+    "name": "Jerez",
+    "circuitId": "jerez",
+    "href": "/historia/circuits/jerez",
+    "latitude": 36.708333,
+    "longitude": -6.034167,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "anderstorp": {
+    "id": "anderstorp",
+    "name": "Anderstorp Raceway",
+    "circuitId": "anderstorp",
+    "href": "/historia/circuits/anderstorp",
+    "latitude": 57.264167,
+    "longitude": 13.601389,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "dijon": {
+    "id": "dijon",
+    "name": "Dijon-Prenois",
+    "circuitId": "dijon",
+    "href": "/historia/circuits/dijon",
+    "latitude": 47.3625,
+    "longitude": 4.899167,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "aintree": {
+    "id": "aintree",
+    "name": "Aintree",
+    "circuitId": "aintree",
+    "href": "/historia/circuits/aintree",
+    "latitude": 53.476944,
+    "longitude": -2.940556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "bremgarten": {
+    "id": "bremgarten",
+    "name": "Bremgarten",
+    "circuitId": "bremgarten",
+    "href": "/historia/circuits/bremgarten",
+    "latitude": 46.95,
+    "longitude": 7.410833,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "jeddah": {
+    "id": "jeddah",
+    "name": "Jeddah",
+    "circuitId": "jeddah",
+    "href": "/historia/circuits/jeddah",
+    "latitude": 21.543333,
+    "longitude": 39.172778,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "rouen": {
+    "id": "rouen",
+    "name": "Rouen-Les-Essarts",
+    "circuitId": "rouen",
+    "href": "/historia/circuits/rouen",
+    "latitude": 49.330639,
+    "longitude": 1.004583,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "valencia": {
+    "id": "valencia",
+    "name": "Valencia",
+    "circuitId": "valencia",
+    "href": "/historia/circuits/valencia",
+    "latitude": 39.458778,
+    "longitude": -0.325556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "clermont-ferrand": {
+    "id": "clermont-ferrand",
+    "name": "Charade",
+    "circuitId": "clermont-ferrand",
+    "href": "/historia/circuits/clermont-ferrand",
+    "latitude": 45.747222,
+    "longitude": 3.038889,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "fuji": {
+    "id": "fuji",
+    "name": "Fuji",
+    "circuitId": "fuji",
+    "href": "/historia/circuits/fuji",
+    "latitude": 35.371667,
+    "longitude": 138.926667,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "yeongam": {
+    "id": "yeongam",
+    "name": "Korea",
+    "circuitId": "yeongam",
+    "href": "/historia/circuits/yeongam",
+    "latitude": 34.733333,
+    "longitude": 126.416667,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "lusail": {
+    "id": "lusail",
+    "name": "Lusail",
+    "circuitId": "lusail",
+    "href": "/historia/circuits/lusail",
+    "latitude": 25.49,
+    "longitude": 51.454167,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "miami": {
+    "id": "miami",
+    "name": "Miami",
+    "circuitId": "miami",
+    "href": "/historia/circuits/miami",
+    "latitude": 25.958056,
+    "longitude": -80.238889,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "montjuic": {
+    "id": "montjuic",
+    "name": "Montjuïc",
+    "circuitId": "montjuic",
+    "href": "/historia/circuits/montjuic",
+    "latitude": 41.366389,
+    "longitude": 2.151667,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "buddh": {
+    "id": "buddh",
+    "name": "Buddh",
+    "circuitId": "buddh",
+    "href": "/historia/circuits/buddh",
+    "latitude": 28.350556,
+    "longitude": 77.535,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "las-vegas": {
+    "id": "las-vegas",
+    "name": "Las Vegas",
+    "circuitId": "las-vegas",
+    "href": "/historia/circuits/las-vegas",
+    "latitude": 36.175,
+    "longitude": -115.136389,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "phoenix": {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "circuitId": "phoenix",
+    "href": "/historia/circuits/phoenix",
+    "latitude": 33.447917,
+    "longitude": -112.074583,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "east-london": {
+    "id": "east-london",
+    "name": "Prince George",
+    "circuitId": "east-london",
+    "href": "/historia/circuits/east-london",
+    "latitude": -33.048611,
+    "longitude": 27.873611,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "aida": {
+    "id": "aida",
+    "name": "Aida",
+    "circuitId": "aida",
+    "href": "/historia/circuits/aida",
+    "latitude": 34.915,
+    "longitude": 134.221111,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "porto": {
+    "id": "porto",
+    "name": "Boavista",
+    "circuitId": "porto",
+    "href": "/historia/circuits/porto",
+    "latitude": 41.170472,
+    "longitude": -8.67325,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "caesars-palace": {
+    "id": "caesars-palace",
+    "name": "Caesars Palace",
+    "circuitId": "caesars-palace",
+    "href": "/historia/circuits/caesars-palace",
+    "latitude": 36.116944,
+    "longitude": -115.175,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "mont-tremblant": {
+    "id": "mont-tremblant",
+    "name": "Mont-Tremblant",
+    "circuitId": "mont-tremblant",
+    "href": "/historia/circuits/mont-tremblant",
+    "latitude": 46.187707,
+    "longitude": -74.609936,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "nivelles": {
+    "id": "nivelles",
+    "name": "Nivelles-Baulers",
+    "circuitId": "nivelles",
+    "href": "/historia/circuits/nivelles",
+    "latitude": 50.621111,
+    "longitude": 4.326944,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "pedralbes": {
+    "id": "pedralbes",
+    "name": "Pedralbes",
+    "circuitId": "pedralbes",
+    "href": "/historia/circuits/pedralbes",
+    "latitude": 41.390278,
+    "longitude": 2.116667,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "portimao": {
+    "id": "portimao",
+    "name": "Portimão",
+    "circuitId": "portimao",
+    "href": "/historia/circuits/portimao",
+    "latitude": 37.221944,
+    "longitude": -8.629444,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "avus": {
+    "id": "avus",
+    "name": "AVUS",
+    "circuitId": "avus",
+    "href": "/historia/circuits/avus",
+    "latitude": 52.480556,
+    "longitude": 13.251389,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "ain-diab": {
+    "id": "ain-diab",
+    "name": "Ain-Diab",
+    "circuitId": "ain-diab",
+    "href": "/historia/circuits/ain-diab",
+    "latitude": 33.578611,
+    "longitude": -7.6875,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "bugatti": {
+    "id": "bugatti",
+    "name": "Bugatti",
+    "circuitId": "bugatti",
+    "href": "/historia/circuits/bugatti",
+    "latitude": 47.937694,
+    "longitude": 0.225611,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "donington": {
+    "id": "donington",
+    "name": "Donington Park",
+    "circuitId": "donington",
+    "href": "/historia/circuits/donington",
+    "latitude": 52.829806,
+    "longitude": -1.379556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "dallas": {
+    "id": "dallas",
+    "name": "Fair Park",
+    "circuitId": "dallas",
+    "href": "/historia/circuits/dallas",
+    "latitude": 32.781944,
+    "longitude": -96.765556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "monsanto": {
+    "id": "monsanto",
+    "name": "Monsanto",
+    "circuitId": "monsanto",
+    "href": "/historia/circuits/monsanto",
+    "latitude": 38.719722,
+    "longitude": -9.203056,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "mugello": {
+    "id": "mugello",
+    "name": "Mugello",
+    "circuitId": "mugello",
+    "href": "/historia/circuits/mugello",
+    "latitude": 43.9975,
+    "longitude": 11.371944,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "pescara": {
+    "id": "pescara",
+    "name": "Pescara",
+    "circuitId": "pescara",
+    "href": "/historia/circuits/pescara",
+    "latitude": 42.475,
+    "longitude": 14.150833,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "riverside": {
+    "id": "riverside",
+    "name": "Riverside",
+    "circuitId": "riverside",
+    "href": "/historia/circuits/riverside",
+    "latitude": 33.937,
+    "longitude": -117.272556,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "sebring": {
+    "id": "sebring",
+    "name": "Sebring",
+    "circuitId": "sebring",
+    "href": "/historia/circuits/sebring",
+    "latitude": 27.454741,
+    "longitude": -81.348267,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "zeltweg": {
+    "id": "zeltweg",
+    "name": "Zeltweg",
+    "circuitId": "zeltweg",
+    "href": "/historia/circuits/zeltweg",
+    "latitude": 47.202222,
+    "longitude": 14.742222,
+    "coordinateScope": "circuit",
+    "source": "https://github.com/f1db/f1db"
+  },
+  "historic-phillip-island": {
+    "id": "historic-phillip-island",
+    "name": "Phillip Island",
+    "href": "https://en.wikipedia.org/wiki/Phillip_Island_Grand_Prix_Circuit",
+    "circuitId": null,
+    "latitude": -38.50306,
+    "longitude": 145.23639,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Phillip_Island_Grand_Prix_Circuit?oldid=1360093318"
+  },
+  "historic-bathurst": {
+    "id": "historic-bathurst",
+    "name": "Bathurst",
+    "href": "https://en.wikipedia.org/wiki/Mount_Panorama_Circuit",
+    "circuitId": null,
+    "latitude": -33.4475,
+    "longitude": 149.55639,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Mount_Panorama_Circuit?oldid=1376829275"
+  },
+  "historic-lobethal": {
+    "id": "historic-lobethal",
+    "name": "Lobethal",
+    "href": "https://en.wikipedia.org/wiki/Lobethal_Circuit",
+    "circuitId": null,
+    "latitude": -34.899859,
+    "longitude": 138.866753,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Lobethal_Circuit?oldid=1315087399"
+  },
+  "historic-point-cook": {
+    "id": "historic-point-cook",
+    "name": "Point Cook",
+    "href": "https://en.wikipedia.org/wiki/RAAF_Williams",
+    "circuitId": null,
+    "latitude": -37.93167,
+    "longitude": 144.75333,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/RAAF_Williams?oldid=1364990435"
+  },
+  "historic-leyburn": {
+    "id": "historic-leyburn",
+    "name": "Leyburn",
+    "href": "https://en.wikipedia.org/wiki/Leyburn,_Queensland",
+    "circuitId": null,
+    "latitude": -28.0122,
+    "longitude": 151.5838,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Leyburn%2C_Queensland?oldid=1342428454"
+  },
+  "historic-nuriootpa": {
+    "id": "historic-nuriootpa",
+    "name": "Nuriootpa",
+    "href": "https://en.wikipedia.org/wiki/Nuriootpa,_South_Australia",
+    "circuitId": null,
+    "latitude": -34.46667,
+    "longitude": 138.98333,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Nuriootpa%2C_South_Australia?oldid=1331256026"
+  },
+  "historic-narrogin": {
+    "id": "historic-narrogin",
+    "name": "Narrogin",
+    "href": "https://en.wikipedia.org/wiki/Narrogin",
+    "circuitId": null,
+    "latitude": -32.936,
+    "longitude": 117.178,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Narrogin?oldid=1373715440"
+  },
+  "historic-southport": {
+    "id": "historic-southport",
+    "name": "Southport",
+    "href": "https://en.wikipedia.org/wiki/Southport,_Queensland",
+    "circuitId": null,
+    "latitude": -27.9678,
+    "longitude": 153.4136,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Southport%2C_Queensland?oldid=1372285430"
+  },
+  "historic-port-wakefield": {
+    "id": "historic-port-wakefield",
+    "name": "Port Wakefield",
+    "href": "https://en.wikipedia.org/wiki/Port_Wakefield_Circuit",
+    "circuitId": null,
+    "latitude": -34.18306,
+    "longitude": 138.18194,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Port_Wakefield_Circuit?oldid=1379166395"
+  },
+  "historic-caversham": {
+    "id": "historic-caversham",
+    "name": "Caversham",
+    "href": "https://en.wikipedia.org/wiki/Caversham_Airfield",
+    "circuitId": null,
+    "latitude": -31.83778,
+    "longitude": 115.97417,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Caversham_Airfield?oldid=1369829118"
+  },
+  "historic-longford": {
+    "id": "historic-longford",
+    "name": "Longford",
+    "href": "https://en.wikipedia.org/wiki/Longford_Circuit",
+    "circuitId": null,
+    "latitude": -41.57889,
+    "longitude": 147.12361,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Longford_Circuit?oldid=1351544225"
+  },
+  "historic-lowood": {
+    "id": "historic-lowood",
+    "name": "Lowood",
+    "href": "https://en.wikipedia.org/wiki/Lowood_circuit",
+    "circuitId": null,
+    "latitude": -27.46111,
+    "longitude": 152.48611,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Lowood_Airfield_Circuit?oldid=1373265530"
+  },
+  "historic-mallala": {
+    "id": "historic-mallala",
+    "name": "Mallala",
+    "href": "https://en.wikipedia.org/wiki/Mallala_Motor_Sport_Park",
+    "circuitId": null,
+    "latitude": -34.415,
+    "longitude": 138.50472,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Mallala_Motor_Sport_Park?oldid=1376804218"
+  },
+  "historic-warwick-farm": {
+    "id": "historic-warwick-farm",
+    "name": "Warwick Farm",
+    "href": "https://en.wikipedia.org/wiki/Warwick_Farm_Raceway",
+    "circuitId": null,
+    "latitude": -33.91083,
+    "longitude": 150.945,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Warwick_Farm_Raceway?oldid=1321147629"
+  },
+  "historic-sandown": {
+    "id": "historic-sandown",
+    "name": "Sandown",
+    "href": "https://en.wikipedia.org/wiki/Sandown_Raceway",
+    "circuitId": null,
+    "latitude": -37.95083,
+    "longitude": 145.16722,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Sandown_Raceway?oldid=1370091188"
+  },
+  "historic-lakeside": {
+    "id": "historic-lakeside",
+    "name": "Lakeside",
+    "href": "https://en.wikipedia.org/wiki/Lakeside_International_Raceway",
+    "circuitId": null,
+    "latitude": -27.22806,
+    "longitude": 152.965,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Lakeside_International_Raceway?oldid=1370089194"
+  },
+  "historic-oran-park": {
+    "id": "historic-oran-park",
+    "name": "Oran Park",
+    "href": "https://en.wikipedia.org/wiki/Oran_Park_Raceway",
+    "circuitId": null,
+    "latitude": -34.00611,
+    "longitude": 150.73389,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Oran_Park_Raceway?oldid=1370090564"
+  },
+  "historic-surfers-paradise": {
+    "id": "historic-surfers-paradise",
+    "name": "Surfers Paradise",
+    "href": "https://en.wikipedia.org/wiki/Surfers_Paradise_International_Raceway",
+    "circuitId": null,
+    "latitude": -28.01639,
+    "longitude": 153.37611,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Surfers_Paradise_International_Raceway?oldid=1361505347"
+  },
+  "historic-wanneroo": {
+    "id": "historic-wanneroo",
+    "name": "Wanneroo",
+    "href": "https://en.wikipedia.org/wiki/Barbagallo_Raceway",
+    "circuitId": null,
+    "latitude": -31.6653,
+    "longitude": 115.7913,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Wanneroo_Raceway?oldid=1370092844"
+  },
+  "historic-calder": {
+    "id": "historic-calder",
+    "name": "Calder",
+    "href": "https://en.wikipedia.org/wiki/Calder_Park_Raceway",
+    "circuitId": null,
+    "latitude": -37.67167,
+    "longitude": 144.75583,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Calder_Park_Raceway?oldid=1351548834"
+  },
+  "historic-bois-de-la-cambre": {
+    "id": "historic-bois-de-la-cambre",
+    "name": "Bois de la Cambre",
+    "href": "https://en.wikipedia.org/wiki/Bois_de_la_Cambre",
+    "circuitId": null,
+    "latitude": 50.80306,
+    "longitude": 4.38111,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Bois_de_la_Cambre?oldid=1357262895"
+  },
+  "historic-lyon": {
+    "id": "historic-lyon",
+    "name": "Lyon",
+    "href": "https://en.wikipedia.org/wiki/Lyon",
+    "circuitId": null,
+    "latitude": 45.7675,
+    "longitude": 4.835,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Lyon?oldid=1379204142"
+  },
+  "historic-lasarte": {
+    "id": "historic-lasarte",
+    "name": "Lasarte",
+    "href": "https://en.wikipedia.org/wiki/Circuito_Lasarte",
+    "circuitId": null,
+    "latitude": 43.25639,
+    "longitude": -2.01861,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Circuito_Lasarte?oldid=1314916608"
+  },
+  "historic-le-mans": {
+    "id": "historic-le-mans",
+    "name": "Le Mans",
+    "href": "https://en.wikipedia.org/wiki/1906_French_Grand_Prix",
+    "circuitId": null,
+    "latitude": 48.0077,
+    "longitude": 0.1984,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Le_Mans"
+  },
+  "historic-dieppe": {
+    "id": "historic-dieppe",
+    "name": "Dieppe",
+    "href": "https://en.wikipedia.org/wiki/Dieppe",
+    "circuitId": null,
+    "latitude": 49.925,
+    "longitude": 1.075,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Dieppe?oldid=1378060730"
+  },
+  "historic-amiens": {
+    "id": "historic-amiens",
+    "name": "Amiens",
+    "href": "https://en.wikipedia.org/wiki/Amiens",
+    "circuitId": null,
+    "latitude": 49.892,
+    "longitude": 2.299,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Amiens?oldid=1375354689"
+  },
+  "historic-strasbourg": {
+    "id": "historic-strasbourg",
+    "name": "Estrasburgo",
+    "href": "https://en.wikipedia.org/wiki/Strasbourg",
+    "circuitId": null,
+    "latitude": 48.58333,
+    "longitude": 7.74583,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Strasbourg?oldid=1379190810"
+  },
+  "historic-tours": {
+    "id": "historic-tours",
+    "name": "Tours",
+    "href": "https://en.wikipedia.org/wiki/Tours",
+    "circuitId": null,
+    "latitude": 47.393611,
+    "longitude": 0.689167,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Tours?oldid=1377486597"
+  },
+  "historic-montlhery": {
+    "id": "historic-montlhery",
+    "name": "Montlhéry",
+    "href": "https://en.wikipedia.org/wiki/Autodrome_de_Linas-Montlh%C3%A9ry",
+    "circuitId": null,
+    "latitude": 48.622187,
+    "longitude": 2.235546,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Autodrome_de_Linas-Montlh%C3%A9ry?oldid=1375343781"
+  },
+  "historic-miramas": {
+    "id": "historic-miramas",
+    "name": "Miramas",
+    "href": "https://en.wikipedia.org/wiki/Miramas",
+    "circuitId": null,
+    "latitude": 43.5822,
+    "longitude": 5.0019,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Miramas?oldid=1341127223"
+  },
+  "historic-saint-gaudens": {
+    "id": "historic-saint-gaudens",
+    "name": "Saint-Gaudens",
+    "href": "https://en.wikipedia.org/wiki/Saint-Gaudens,_Haute-Garonne",
+    "circuitId": null,
+    "latitude": 43.1089,
+    "longitude": 0.7242,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Saint-Gaudens%2C_Haute-Garonne?oldid=1372910054"
+  },
+  "historic-pau": {
+    "id": "historic-pau",
+    "name": "Pau",
+    "href": "https://en.wikipedia.org/wiki/Pau,_Pyr%C3%A9n%C3%A9es-Atlantiques",
+    "circuitId": null,
+    "latitude": 43.3,
+    "longitude": -0.37,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Pau%2C_Pyr%C3%A9n%C3%A9es-Atlantiques?oldid=1376201618"
+  },
+  "historic-lyon-parilly": {
+    "id": "historic-lyon-parilly",
+    "name": "Lyon-Parilly",
+    "href": "https://en.wikipedia.org/wiki/Lyon",
+    "circuitId": null,
+    "latitude": 45.7675,
+    "longitude": 4.835,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Lyon?oldid=1379204142"
+  },
+  "historic-brooklands": {
+    "id": "historic-brooklands",
+    "name": "Brooklands",
+    "href": "https://en.wikipedia.org/wiki/Brooklands",
+    "circuitId": null,
+    "latitude": 51.34889,
+    "longitude": -0.4725,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Brooklands?oldid=1370117749"
+  },
+  "historic-nepliget": {
+    "id": "historic-nepliget",
+    "name": "Népliget",
+    "href": "https://en.wikipedia.org/wiki/N%C3%A9pliget",
+    "circuitId": null,
+    "latitude": 47.47806,
+    "longitude": 19.10694,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/People's_Park_(Budapest)?oldid=1352220059"
+  },
+  "historic-montichiari": {
+    "id": "historic-montichiari",
+    "name": "Montichiari",
+    "href": "https://it.wikipedia.org/wiki/Circuito_di_Montichiari",
+    "circuitId": null,
+    "latitude": 45.41666667,
+    "longitude": 10.4,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Montichiari"
+  },
+  "historic-livorno": {
+    "id": "historic-livorno",
+    "name": "Livorno",
+    "href": "https://en.wikipedia.org/wiki/Montenero_Circuit",
+    "circuitId": null,
+    "latitude": 43.5125,
+    "longitude": 10.31722,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Circuito_del_Montenero?oldid=1315087210"
+  },
+  "historic-milan": {
+    "id": "historic-milan",
+    "name": "Milán",
+    "href": "https://en.wikipedia.org/wiki/1947_Italian_Grand_Prix",
+    "circuitId": null,
+    "latitude": 45.46694444,
+    "longitude": 9.19,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Milan"
+  },
+  "historic-turin": {
+    "id": "historic-turin",
+    "name": "Turín",
+    "href": "https://en.wikipedia.org/wiki/Valentino_Park",
+    "circuitId": null,
+    "latitude": 45.054,
+    "longitude": 7.686,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Parco_del_Valentino?oldid=1320290312"
+  },
+  "historic-findel": {
+    "id": "historic-findel",
+    "name": "Findel",
+    "href": "https://en.wikipedia.org/wiki/Findel,_Luxembourg",
+    "circuitId": null,
+    "latitude": 49.62972,
+    "longitude": 6.20556,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Findel%2C_Luxembourg?oldid=1324593487"
+  },
+  "historic-thomson-road": {
+    "id": "historic-thomson-road",
+    "name": "Thomson Road",
+    "href": "https://en.wikipedia.org/wiki/Thomson_Road_Grand_Prix_circuit",
+    "circuitId": null,
+    "latitude": 1.3832,
+    "longitude": 103.8191056,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Thomson_Road_Grand_Prix_circuit?oldid=1352218381"
+  },
+  "historic-shah-alam": {
+    "id": "historic-shah-alam",
+    "name": "Shah Alam",
+    "href": "https://en.wikipedia.org/wiki/Shah_Alam_Circuit",
+    "circuitId": null,
+    "latitude": 3.07611,
+    "longitude": 101.54389,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Shah_Alam_Circuit?oldid=1370172926"
+  },
+  "historic-casablanca": {
+    "id": "historic-casablanca",
+    "name": "Casablanca",
+    "href": "https://en.wikipedia.org/wiki/Casablanca",
+    "circuitId": null,
+    "latitude": 33.533,
+    "longitude": -7.583,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Casablanca?oldid=1378883480"
+  },
+  "historic-anfa": {
+    "id": "historic-anfa",
+    "name": "Anfa",
+    "href": "https://en.wikipedia.org/wiki/Anfa_Circuit",
+    "circuitId": null,
+    "latitude": null,
+    "longitude": null,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Anfa_Circuit"
+  },
+  "historic-agadir": {
+    "id": "historic-agadir",
+    "name": "Agadir",
+    "href": "https://en.wikipedia.org/wiki/Agadir",
+    "circuitId": null,
+    "latitude": 30.42139,
+    "longitude": -9.58306,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Agadir?oldid=1379065451"
+  },
+  "historic-laguna-seca": {
+    "id": "historic-laguna-seca",
+    "name": "Laguna Seca",
+    "href": "https://en.wikipedia.org/wiki/Mazda_Raceway_Laguna_Seca",
+    "circuitId": null,
+    "latitude": 36.58417,
+    "longitude": -121.75361,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Laguna_Seca?oldid=1378408581"
+  },
+  "historic-cascais": {
+    "id": "historic-cascais",
+    "name": "Cascais",
+    "href": "https://en.wikipedia.org/wiki/Cascais",
+    "circuitId": null,
+    "latitude": 38.7,
+    "longitude": -9.417,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Cascais?oldid=1376568233"
+  },
+  "historic-saint-petersburg": {
+    "id": "historic-saint-petersburg",
+    "name": "San Petersburgo",
+    "href": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+    "circuitId": null,
+    "latitude": 59.9375,
+    "longitude": 30.30861,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Saint_Petersburg?oldid=1377129336"
+  },
+  "historic-guadarrama": {
+    "id": "historic-guadarrama",
+    "name": "Guadarrama",
+    "href": "https://en.wikipedia.org/wiki/Guadarrama",
+    "circuitId": null,
+    "latitude": 40.67277778,
+    "longitude": -4.08888889,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Guadarrama"
+  },
+  "historic-sitges-terramar": {
+    "id": "historic-sitges-terramar",
+    "name": "Sitges-Terramar",
+    "href": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_de_Sitges-Terramar",
+    "circuitId": null,
+    "latitude": 41.23833,
+    "longitude": 1.78056,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_de_Sitges-Terramar?oldid=1378726032"
+  },
+  "historic-norra-vram": {
+    "id": "historic-norra-vram",
+    "name": "Norra Vram",
+    "href": "https://en.wikipedia.org/wiki/Norra_Vram",
+    "circuitId": null,
+    "latitude": 56.083,
+    "longitude": 12.967,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Norra_Vram?oldid=1376937021"
+  },
+  "historic-skarpnack": {
+    "id": "historic-skarpnack",
+    "name": "Skarpnäck",
+    "href": "https://en.wikipedia.org/wiki/Skarpn%C3%A4ck_Airfield",
+    "circuitId": null,
+    "latitude": null,
+    "longitude": null,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Skarpn%C3%A4ck_Airfield"
+  },
+  "historic-rabelovsbanan": {
+    "id": "historic-rabelovsbanan",
+    "name": "Råbelövsbanan",
+    "href": "https://en.wikipedia.org/wiki/R%C3%A5bel%C3%B6vsbanan",
+    "circuitId": null,
+    "latitude": 56.07944,
+    "longitude": 14.16806,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/R%C3%A5bel%C3%B6vsbanan?oldid=1377127941"
+  },
+  "historic-karlskoga": {
+    "id": "historic-karlskoga",
+    "name": "Karlskoga",
+    "href": "https://en.wikipedia.org/wiki/Karlskoga_Motorstadion",
+    "circuitId": null,
+    "latitude": 59.38333,
+    "longitude": 14.51611,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Karlskoga_Motorstadion?oldid=1375675066"
+  },
+  "historic-savannah": {
+    "id": "historic-savannah",
+    "name": "Savannah",
+    "href": "https://en.wikipedia.org/wiki/Savannah,_Georgia",
+    "circuitId": null,
+    "latitude": 32.08111,
+    "longitude": -81.09111,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Savannah%2C_Georgia?oldid=1377956187"
+  },
+  "historic-milwaukee": {
+    "id": "historic-milwaukee",
+    "name": "Milwaukee",
+    "href": "https://en.wikipedia.org/wiki/Milwaukee",
+    "circuitId": null,
+    "latitude": 43.05,
+    "longitude": -87.95,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Milwaukee?oldid=1378848798"
+  },
+  "historic-santa-monica": {
+    "id": "historic-santa-monica",
+    "name": "Santa Monica",
+    "href": "https://en.wikipedia.org/wiki/Santa_Monica_Road_Race_Course",
+    "circuitId": null,
+    "latitude": 34.039,
+    "longitude": -118.488,
+    "coordinateScope": "reference",
+    "source": "https://en.wikipedia.org/wiki/Santa_Monica_Road_Race_Course?oldid=1314951799"
+  },
+  "historic-san-francisco": {
+    "id": "historic-san-francisco",
+    "name": "San Francisco",
+    "href": "https://en.wikipedia.org/wiki/Panama%E2%80%93Pacific_International_Exposition",
+    "circuitId": null,
+    "latitude": 37.804667,
+    "longitude": -122.44667,
+    "coordinateScope": "locality",
+    "source": "https://en.wikipedia.org/wiki/Panama%E2%80%93Pacific_International_Exposition?oldid=1377307739"
+  }
+}
