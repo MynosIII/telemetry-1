@@ -1,0 +1,118 @@
+{
+  "slug": "renault-r25",
+  "title": "Renault R25: el coche que Alonso volvió a encontrar quince años después",
+  "description": "El campeón de 2005 reunió una arquitectura poco convencional, tracción y la capacidad de sostener un campeonato.",
+  "year": 2005,
+  "period": "2005",
+  "tags": [
+    "Renault R25",
+    "Fernando Alonso",
+    "Giancarlo Fisichella"
+  ],
+  "lead": "En Yas Marina, el 11 de diciembre de 2020, Fernando Alonso volvió a conducir el Renault R25. La demostración celebraba el paso de Renault a Alpine, pero el coche azul y amarillo llevaba consigo otra transición: la de 2005, cuando terminó el reinado de Ferrari.",
+  "sections": [
+    {
+      "id": "regreso",
+      "title": "Un campeón en una pista de otra época",
+      "paragraphs": [
+        "El R25 salió después de la primera sesión de entrenamientos del Gran Premio de Abu Dabi. El sonido de su V10 contrastaba con el de las unidades híbridas de los coches contemporáneos. No era una comparación de prestaciones bajo condiciones iguales; era una reunión entre el piloto y una máquina que había cambiado su carrera. Alonso regresaría al equipo en 2021, con el nuevo nombre Alpine.",
+        "Quince años antes, aquel coche había llevado al español a su primer campeonato del mundo. Giancarlo Fisichella obtuvo la otra victoria que completó las ocho de Renault en 2005. El regreso de 2020 permitió ver una pieza conservada en movimiento, pero para entender su importancia hay que volver a las condiciones para las que se había diseñado: neumáticos ranurados, motor atmosférico y un campeonato con restricciones nuevas."
+      ],
+      "sourceIds": [
+        "regreso",
+        "alpine"
+      ]
+    },
+    {
+      "id": "arquitectura",
+      "title": "Un reparto de pesos que iba contra la corriente",
+      "paragraphs": [
+        "El R25 tenía un V10 de ángulo estrecho y una caja de cambios larga cuya carcasa de titanio contribuía a la rigidez posterior. Renault buscaba una distribución de masa más orientada hacia atrás que la de muchos adversarios. La decisión reforzaba la tracción, una característica particularmente valiosa al salir de curvas lentas y en el comienzo de una carrera.",
+        "Bob Bell dirigía el área del chasis, con Tim Densham como jefe de diseño y Dino Toso al frente de la aerodinámica. La transmisión disponía de seis relaciones cuando la mayoría de sus rivales utilizaba siete. La curva de par del motor permitía esa elección. El número menor no indicaba una carencia automática: formaba parte de una propuesta de instalación y comportamiento que debía funcionar como conjunto."
+      ],
+      "sourceIds": [
+        "tecnica"
+      ]
+    },
+    {
+      "id": "reglas",
+      "title": "Una temporada que exigía durar",
+      "paragraphs": [
+        "En 2005 se prohibieron los cambios rutinarios de neumáticos durante la carrera. Las excepciones por daños o seguridad no convertían una parada habitual en una oportunidad para estrenar cuatro cubiertas. Los motores también debían durar dos fines de semana. El rendimiento pasaba a medirse con una insistencia especial en conservar recursos, además de ser rápido en una vuelta.",
+        "La relación con Michelin y la consistencia del R25 ayudaron a Renault a competir bajo esas condiciones. El adversario principal de Alonso fue Kimi Räikkönen con McLaren, mientras Ferrari encontraba dificultades con el nuevo escenario. El campeonato no se resolvió en un circuito único: exigió que el coche y sus pilotos sumaran resultados suficientes cuando la carrera favorecía sus fortalezas y también cuando no lo hacía."
+      ],
+      "sourceIds": [
+        "neumaticos",
+        "ferrari",
+        "resultados",
+        "pilotos"
+      ]
+    },
+    {
+      "id": "brasil",
+      "title": "El tercer puesto que valía un título",
+      "paragraphs": [
+        "En Brasil, el 25 de septiembre de 2005, Alonso terminó tercero y aseguró el campeonato de pilotos. No necesitó ganar aquel gran premio para completar la tarea. En China, al final del año, volvió a vencer y Renault conquistó también el título de constructores. El coche acumuló ocho victorias, siete poles y dieciocho podios durante las diecinueve pruebas.",
+        "La demostración de Abu Dabi conservó la forma, los colores y la voz del R25. Su historia deportiva contiene algo más difícil de exhibir: la coherencia entre elecciones estructurales, entrega de motor, neumáticos y ejecución del campeonato. El regreso de Alonso acercó ambos tiempos sin confundirlos. La máquina que sonaba en 2020 seguía representando un problema resuelto en 2005, cuando ganar un domingo y ganar una temporada no siempre pedían exactamente lo mismo."
+      ],
+      "sourceIds": [
+        "alpine",
+        "pilotos",
+        "resultados",
+        "regreso"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "regreso",
+      "title": "Formula 1: demostración de Alonso con el R25, diciembre de 2020",
+      "url": "https://www.formula1.com/en/latest/article/watch-go-onboard-with-fernando-alonso-as-he-demos-his-title-winning-renault.3o4gEyZahIOUTgazdDqiPm"
+    },
+    {
+      "id": "alpine",
+      "title": "Alpine: Champions return to mark transition from Renault to Alpine",
+      "url": "https://media.alpinecars.com/champions-return-to-mark-transition-from-renault-to-alpine/?lang=eng"
+    },
+    {
+      "id": "tecnica",
+      "title": "Formula 1, Hughes y Piola: arquitectura del Renault R25",
+      "url": "https://www.formula1.com/en/latest/article/how-the-2005-renault-finally-ended-ferraris-dominance-and-delivered-alonsos.29UXCCyxpyKEvsyYhqKTcz"
+    },
+    {
+      "id": "neumaticos",
+      "title": "Bridgestone: reglamento de neumáticos de 2005",
+      "url": "https://ms.bridgestone.co.jp/special/document/f1/en/techs_regs/2005/"
+    },
+    {
+      "id": "ferrari",
+      "title": "Ferrari: restricciones y balance de 2005",
+      "url": "https://www.ferrari.com/en-US/formula1/year-2005"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2005",
+      "url": "https://www.formula1.com/en/results/2005/races"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 2005",
+      "url": "https://www.formula1.com/en/results/2005/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Renault",
+      "href": "/historia/constructors/renault"
+    },
+    {
+      "label": "Temporada 2005",
+      "href": "/historia/seasons/2005"
+    },
+    {
+      "label": "Los motores V10",
+      "href": "/articulos/motores-v10"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

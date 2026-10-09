@@ -1,0 +1,99 @@
+{
+  "slug": "cooper-t43",
+  "title": "Cooper T43: cuatro tornillos y una victoria en Buenos Aires",
+  "description": "El pequeño auto de Rob Walker hizo de una parada demasiado lenta la razón para no detenerse y cambió la dirección del Mundial.",
+  "category": "Autos de leyenda",
+  "period": "1958",
+  "year": 1958,
+  "tags": [
+    "Cooper T43",
+    "Stirling Moss",
+    "Rob Walker",
+    "Alf Francis"
+  ],
+  "lead": "Buenos Aires, 19 de enero de 1958. Alf Francis mostraba un neumático desde el muro de boxes mientras Stirling Moss seguía pasando de largo. Parecía anunciar una parada; en realidad, ambos intentaban terminar sin hacerla. El Cooper T43 tenía una razón muy concreta para evitar el cambio: cuatro tornillos en cada rueda.",
+  "sections": [
+    {
+      "id": "viaje",
+      "title": "El auto que llegó porque faltaba otro",
+      "paragraphs": [
+        "Moss debía competir habitualmente para Vanwall, pero el equipo no estuvo listo para la apertura argentina. El cambio de los combustibles admitidos exigía preparación y Vanwall decidió no participar. Moss propuso entonces utilizar el Cooper de Rob Walker. El propietario aceptó enviar el auto y a su mecánico, mientras los organizadores ayudaban a concretar el transporte aéreo de un piloto cuya presencia querían asegurar.",
+        "El T43 era una máquina nacida entre la Fórmula 2 y la Fórmula 1. En 1957 Rob Walker había trabajado con Cooper para utilizar una versión de mayor cilindrada del Coventry Climax FPF, junto con depósitos apropiados para las carreras largas. La adaptación no convirtió todos sus detalles en los de un gran auto oficial de Ferrari o Maserati. Aquella diferencia sería decisiva cuando hubiera que elegir una estrategia."
+      ],
+      "sourceIds": [
+        "strategy",
+        "archive"
+      ]
+    },
+    {
+      "id": "tornillos",
+      "title": "Una limitación se convirtió en el plan de carrera",
+      "paragraphs": [
+        "Los rivales principales tenían ruedas con fijación central que sus equipos podían cambiar rápidamente. Las del Cooper necesitaban retirar cuatro tornillos y Francis era el único mecánico disponible para hacerlo. Una parada habría consumido buena parte de la oportunidad deportiva. La alternativa era aprovechar la ligereza del auto para reducir el desgaste y completar la prueba con el mismo juego de Dunlop.",
+        "El motor estaba detrás del piloto y delante del eje posterior. El T43 no pretendía igualar la potencia de las grandes máquinas delanteras: ofrecía otra combinación de masa, tamaño y agilidad. La disposición mecánica era importante, pero Buenos Aires no se ganó únicamente con una idea de arquitectura. Moss debía convertir las características de ese vehículo concreto en un ritmo que sus neumáticos pudieran soportar hasta la última vuelta."
+      ],
+      "sourceIds": [
+        "strategy",
+        "wiki"
+      ]
+    },
+    {
+      "id": "carrera",
+      "title": "Musso esperó una parada que no llegó",
+      "paragraphs": [
+        "La estrategia se mantuvo oculta mientras los otros autos entraban a boxes. Moss tomó el mando y después administró su ritmo. Luigi Musso, con Ferrari, se convirtió en el perseguidor principal, pero durante una parte de la carrera esperó que el Cooper tuviera que detenerse. Francis contribuyó a sostener esa expectativa con el neumático exhibido al paso de su piloto.",
+        "En el tramo final empezó a verse la tela bajo la goma de las ruedas de Moss. El margen disminuyó, pero el Cooper alcanzó la llegada 2,7 segundos antes que Musso. La clasificación oficial registra ochenta vueltas completadas y el primer triunfo mundialista de un monoplaza con motor central trasero. La diferencia final parece pequeña; la transformación histórica que siguió terminó siendo enorme."
+      ],
+      "sourceIds": [
+        "strategy",
+        "result"
+      ]
+    },
+    {
+      "id": "herencia",
+      "title": "El T43 abrió una puerta por la que pasaron otros Cooper",
+      "paragraphs": [
+        "La primera aparición mundialista del modelo había sido Mónaco en 1957 con Jack Brabham. El estreno incluyó una carrera que terminó en sexto puesto, antes de que existiera la victoria argentina. El T43 ya planteaba la nueva disposición, pero aún faltaba un proceso de desarrollo. En 1958 apareció el T45, que incorporó mejoras de frenos y transmisión; después llegó el T51 con el que Brabham obtuvo el título de 1959.",
+        "La familia Cooper no se comprende como una sola máquina rebautizada cada año. El T43 conserva una identidad específica: fue el auto pequeño que hizo posible la apuesta de Moss y Francis. El campeonato de 1958 todavía quedó en manos de Mike Hawthorn y Ferrari, con Vanwall campeón de constructores. Sin dominar toda la temporada, el Cooper había demostrado algo que el resto de la parrilla ya no podía ignorar: el motor podía ir detrás y la carrera podía ganarse de otra manera."
+      ],
+      "sourceIds": [
+        "archive",
+        "wiki",
+        "season"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "strategy",
+      "title": "Formula 1 / Mark Hughes — la estrategia de Argentina 1958",
+      "url": "https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d"
+    },
+    {
+      "id": "archive",
+      "title": "Motor Sport — From the archives: Cooper",
+      "url": "https://www.motorsportmagazine.com/archive/article/may-1991/29/from-the-archives-cooper/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Cooper T43, historial",
+      "url": "https://en.wikipedia.org/wiki/Cooper_T43"
+    },
+    {
+      "id": "result",
+      "title": "Formula 1 — resultados de 1958",
+      "url": "https://www.formula1.com/en/results/1958/races"
+    },
+    {
+      "id": "season",
+      "title": "Formula 1 — clasificación de pilotos de 1958",
+      "url": "https://www.formula1.com/en/results/1958/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1958",
+      "href": "/historia/seasons/1958"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "lotus-25",
+  "title": "Lotus 25: la bañera de aluminio que sostuvo a Jim Clark",
+  "description": "El estreno de Zandvoort, una fuga de aceite en Sudáfrica y la campaña de 1963 cuentan cómo una nueva estructura llegó a convertirse en campeona.",
+  "category": "Autos de leyenda",
+  "period": "1962",
+  "year": 1962,
+  "tags": [
+    "Lotus 25",
+    "Jim Clark",
+    "Colin Chapman",
+    "Monocasco"
+  ],
+  "lead": "Zandvoort, mayo de 1962. Lotus presentó un auto cuyo cambio más importante era difícil de apreciar con la carrocería puesta. El 25 no llevaba al piloto dentro de una jaula de tubos cubierta por paneles: lo alojaba entre los laterales de una estructura de aluminio que trabajaba como una caja resistente.",
+  "sections": [
+    {
+      "id": "revelacion",
+      "title": "El secreto no estaba en un alerón",
+      "paragraphs": [
+        "Colin Chapman buscó otra manera de construir el núcleo del monoplaza. Lotus relaciona la idea con el chasis de espina central del Elan: al ensancharlo, el conductor podía colocarse entre dos laterales resistentes. El Type 25 utilizó chapas de aluminio remachadas para formar esa bañera estructural. El resultado ofrecía rigidez, menor masa y un volumen frontal más estrecho.",
+        "El auto no inauguró la idea del monocasco en toda la historia del transporte. Su papel decisivo fue introducir una estructura de ese tipo en la primera línea de la Fórmula 1. Classic Team Lotus lo describe con el matiz de semimonocasco. En cualquier caso, la transformación estaba en el trabajo que pasaban a realizar las paredes del habitáculo: dejaban de ser una cubierta que acompañaba al chasis para convertirse en parte de él."
+      ],
+      "sourceIds": [
+        "lotus",
+        "register"
+      ]
+    },
+    {
+      "id": "clark",
+      "title": "Un auto estrecho construido alrededor de su piloto",
+      "paragraphs": [
+        "Jim Clark iba reclinado en un habitáculo ajustado. Lotus recuerda que la posición le dificultaba ver la calzada inmediatamente delante del morro, aunque podía ver las ruedas y colocarlas con precisión. Los depósitos flexibles se alojaban en los laterales de la estructura. El espacio del combustible, el asiento y el tamaño del vehículo se resolvían juntos.",
+        "El motor era un Coventry Climax FWMV V8 de 1,5 litros, acompañado por una caja ZF de cinco marchas. Las decisiones esenciales pertenecían a la era de los motores pequeños. La célebre estructura del 25 no debe imaginarse con el DFV de tres litros que aparecería en el Lotus 49 cinco años después. El nuevo chasis tuvo que demostrar sus ventajas con la mecánica y los problemas concretos de 1962."
+      ],
+      "sourceIds": [
+        "lotus",
+        "register"
+      ]
+    },
+    {
+      "id": "sudafrica",
+      "title": "La última carrera terminó antes que el campeonato",
+      "paragraphs": [
+        "Clark llegó a la resolución del título de 1962 con una máquina capaz de ganar. En Sudáfrica, una fuga de aceite lo dejó fuera cuando todavía existía la posibilidad de superar a Graham Hill. BRM obtuvo el campeonato. Para Lotus, la velocidad del nuevo auto estaba confirmada, pero la campaña no había cerrado con el premio que esa velocidad prometía.",
+        "En 1963 se revisaron el peso, la alimentación del motor y otros detalles de preparación. Clark ganó siete de los diez Grandes Premios puntuables y Lotus consiguió tanto el título de pilotos como el de constructores. La distancia entre ambas temporadas se explica mediante mejoras que podían parecer pequeñas frente a la revolución de la bañera de aluminio. El chasis nuevo había abierto una oportunidad; terminar las carreras permitió convertirla en un campeonato."
+      ],
+      "sourceIds": [
+        "clark",
+        "lotus",
+        "results"
+      ]
+    },
+    {
+      "id": "conservacion",
+      "title": "Una estructura que todavía explica su época",
+      "paragraphs": [
+        "Los ejemplares del 25 conservados por propietarios y museos permiten ver la organización del habitáculo que normalmente ocultaba la carrocería. El registro de Classic Team Lotus identifica los chasis construidos y su situación. Separar esas unidades ayuda a seguir la vida material del modelo después de su campaña oficial, entre reconstrucciones, exposiciones y carreras históricas.",
+        "Clark volvió a ser campeón en 1965 con el desarrollo posterior de Lotus, cuyo modelo principal era el 33. El 25 ya había dejado una herencia duradera sin necesitar que se le asignaran todos los triunfos de su sucesor. Su historia sigue siendo la de una máquina particular: apareció en Zandvoort, perdió una corona por una avería y terminó definiendo una nueva forma de sostener al piloto y a la suspensión. La innovación más importante no era una pieza añadida al auto; era la estructura que lo mantenía unido."
+      ],
+      "sourceIds": [
+        "register",
+        "clark",
+        "lotus"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lotus",
+      "title": "Lotus Cars — Type 25, construcción y campañas",
+      "url": "https://www.lotuscars.com/en-AE/lotus-story/race-cars/type-25"
+    },
+    {
+      "id": "register",
+      "title": "Classic Team Lotus — registro del Type 25",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-25/"
+    },
+    {
+      "id": "clark",
+      "title": "Formula 1 — Jim Clark",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-jim-clark.2xXQsIYM7LBHJrP4Gw6rRD"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1963",
+      "url": "https://www.formula1.com/en/results/1963/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1962",
+      "href": "/historia/seasons/1962"
+    }
+  ]
+}

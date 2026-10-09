@@ -1,0 +1,100 @@
+{
+  "slug": "wisconsin-1878-vapor",
+  "title": "Un premio para reemplazar al caballo: Wisconsin, 1878",
+  "description": "Oshkosh y Green Bay compitieron con calderas y provisiones de agua. El premio estatal buscaba una herramienta útil; el resultado terminó entrando en la historia de las carreras.",
+  "category": "Los orígenes",
+  "year": 1878,
+  "period": "1878",
+  "tags": [
+    "Wisconsin",
+    "Oshkosh",
+    "Green Bay",
+    "Vapor",
+    "Estados Unidos"
+  ],
+  "lead": "El estado de Wisconsin ofrecía diez mil dólares por una máquina capaz de realizar en los caminos el trabajo de los animales. En julio de 1878, dos vehículos de vapor se presentaron a la prueba. La recompensa parecía mirar al transporte y al campo. La comparación entre sus resultados acabaría siendo recordada como una carrera.",
+  "sections": [
+    {
+      "id": "premio",
+      "title": "El estado pide una máquina útil",
+      "sourceIds": [
+        "westshore",
+        "herald"
+      ],
+      "paragraphs": [
+        "El concurso tenía un objetivo que podía medirse fuera de cualquier pista: desarrollar una alternativa práctica para transportar y trabajar. La noticia publicada en The West Shore describe un premio de la legislatura y dos máquinas admitidas al ensayo, Oshkosh y Green Bay. La larga ruta debía mostrar que un vehículo podía desplazarse de manera sostenida sobre caminos ordinarios. No bastaba con hacerlo avanzar unos minutos frente a un público reunido.",
+        "La preparación procedía del mundo de las calderas, los talleres y los suministros para motores de vapor. La reconstrucción de la sociedad histórica de Winnebago conserva datos del coste y del consumo del Oshkosh. Eran cifras que importaban tanto como el tiempo: una máquina que reemplazara al caballo debía ser construida, alimentada y mantenida. El concurso examinaba una promesa industrial antes de premiar una velocidad."
+      ]
+    },
+    {
+      "id": "salida",
+      "title": "Dos competidores y un primer problema",
+      "sourceIds": [
+        "westshore",
+        "farm"
+      ],
+      "paragraphs": [
+        "La prueba comenzó en Fort Howard, junto a Green Bay, el 16 de julio. Según el relato contemporáneo, el vehículo Green Bay sufrió una avería apenas fuera de la ciudad y volvió al taller. Oshkosh continuó hacia Appleton. La escena instala de inmediato el verdadero adversario de la prueba: había que conservar el funcionamiento durante una distancia extraordinaria para máquinas que todavía exigían una atención constante.",
+        "El periódico siguió su paso por las localidades. En Appleton hubo una llegada al final del día; en Neenah, una demostración de velocidad en las calles. El viaje no era una línea limpia entre salida y meta. Incluía descanso, abastecimiento y exhibición. Los vecinos podían conocer una máquina que hasta entonces había sido una propuesta de sus constructores. La competencia viajaba con ella y encontraba público a medida que avanzaba."
+      ]
+    },
+    {
+      "id": "agua",
+      "title": "La ruta también era una cuestión de provisiones",
+      "sourceIds": [
+        "herald",
+        "farm",
+        "westshore"
+      ],
+      "paragraphs": [
+        "El vapor llevaba consigo una condición material imposible de separar del rendimiento: se necesitaban combustible y agua. Los consumos conservados en la documentación histórica muestran la escala de ese esfuerzo. La máquina podía prescindir de los caballos para moverse, pero no de una organización que alimentara su caldera y atendiera sus mecanismos. La autonomía real surgía de ese trabajo, no solo de la capacidad del motor.",
+        "El recorrido de unas doscientas millas atravesaba varias localidades antes de alcanzar la zona de Madison. Cada reparación y cada parada podían cambiar la relación entre las máquinas. A diferencia de un campeonato moderno, la prueba no ofrecía una serie de carreras equivalentes para promediar virtudes y defectos. Todo quedaba concentrado en una travesía. El ganador era, ante todo, el vehículo que conseguía sostener su propuesta sobre el terreno."
+      ]
+    },
+    {
+      "id": "ganador",
+      "title": "Ganar no resolvía la pregunta industrial",
+      "sourceIds": [
+        "westshore",
+        "farm",
+        "pbs"
+      ],
+      "paragraphs": [
+        "Oshkosh fue reconocido como vencedor. La historia de la prueba conservó a los dos vehículos, pero especialmente a la máquina que completó el desafío. La interpretación como una de las primeras carreras estadounidenses nació de esa comparación organizada, de la distancia acordada y del resultado. El propósito original seguía siendo más amplio: comprobar una sustitución del trabajo animal, algo que una clasificación no podía garantizar para cualquier camino o tarea.",
+        "El episodio deja una imagen diferente de los comienzos del deporte motor. No todo partió de pilotos buscando prestigio o de fabricantes vendiendo coches a una élite urbana. También hubo estados que ofrecieron recompensas, talleres que adaptaban conocimientos del vapor y comunidades que observaban pasar un experimento. Antes de la gasolina y las categorías, Wisconsin ya tenía una ruta, dos competidores y una discusión sobre el futuro. El premio era para una herramienta; la historia terminó guardando una carrera."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "westshore",
+      "title": "The West Shore, septiembre de 1878: The Steam Wagon Contest in Wisconsin (University of Oregon)",
+      "url": "https://oregonnews.uoregon.edu/lccn/2012260361/1878-09-01/ed-1/seq-19.pdf"
+    },
+    {
+      "id": "herald",
+      "title": "Winnebago County Historical & Archaeological Society / Oshkosh Herald: julio de 1878",
+      "url": "https://oshkoshherald.com/wp-content/uploads/2020/07/July-29-2020-Oshkosh-Herald.pdf"
+    },
+    {
+      "id": "farm",
+      "title": "Farm Collector: investigación histórica de la prueba de 1878",
+      "url": "https://www.farmcollector.com/steam-traction/the-great-race-of-1878/"
+    },
+    {
+      "id": "pbs",
+      "title": "PBS Wisconsin: el Oshkosh y la historia local",
+      "url": "https://pbswisconsin.org/watch/wisconsin-hometown-stories/wisconsin-foodie-oshkosh-oshkosh-gosh/"
+    }
+  ],
+  "related": [
+    {
+      "label": "La carrera de Manchester de 1867",
+      "href": "/articulos/manchester-1867-carrera-vapor"
+    },
+    {
+      "label": "Duryea y la carrera de Chicago",
+      "href": "/articulos/duryea-motor-wagon"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "lotus-49",
+  "title": "Lotus 49: cuatro tornillos entre el motor y el futuro",
+  "description": "El estreno del DFV, un chasis construido durante la noche y las transformaciones que llevaron al auto de Clark hasta la era de los alerones.",
+  "category": "Autos de leyenda",
+  "period": "1967",
+  "year": 1967,
+  "tags": [
+    "Lotus 49",
+    "Lotus 49B",
+    "Cosworth DFV",
+    "Maurice Philippe"
+  ],
+  "lead": "Zandvoort, 4 de junio de 1967. Jim Clark ganó con un Lotus 49 que acababa de estrenar el Cosworth DFV. Graham Hill había conseguido la pole, pero su carrera terminó por una avería. En su primera tarde mundialista, el auto mostró el potencial y la fragilidad de un proyecto que todavía estaba empezando.",
+  "sections": [
+    {
+      "id": "integracion",
+      "title": "El motor no era solamente una fuente de potencia",
+      "paragraphs": [
+        "Colin Chapman y Maurice Philippe diseñaron el 49 alrededor del nuevo V8 de tres litros de Cosworth. Keith Duckworth y Mike Costin desarrollaron el motor con financiación de Ford. La colaboración distribuyó responsabilidades, pero buscaba un resultado integrado: el chasis y el propulsor debían diseñarse sabiendo qué función tendría cada uno dentro del otro.",
+        "El DFV soportaba cargas como parte resistente del vehículo. Cuatro fijaciones lo unían al monocasco y la zona posterior se organizaba a partir de él. No hacía falta una estructura independiente que envolviera por completo al motor. Classic Team Lotus destaca la permanencia de aquel método de montaje durante la carrera del DFV. La nueva unidad ofrecía prestaciones, pero también una manera de construir el resto del monoplaza."
+      ],
+      "sourceIds": [
+        "technical",
+        "museum",
+        "register"
+      ]
+    },
+    {
+      "id": "debut",
+      "title": "Ganar primero no significaba haber terminado",
+      "paragraphs": [
+        "El estreno victorioso de Clark convirtió al 49 y al DFV en una combinación memorable. Durante 1967 llegaron más triunfos, pero el campeonato fue para Denny Hulme y Brabham. El motor nuevo todavía necesitaba desarrollo y Lotus tenía que transformar su velocidad en regularidad. El equipo no había recibido una temporada resuelta dentro de una caja de transporte.",
+        "Un detalle de esa urgencia sobrevivió en el chasis R3. El National Motor Museum explica que se construyó durante la noche para que Graham Hill lo utilizara en el Gran Premio británico de 1967. Ese vehículo, conservado en Beaulieu, permite contar la innovación mediante el trabajo necesario para mantener el equipo en pista: dibujos, metal y una unidad terminada a tiempo para que un piloto pudiera competir."
+      ],
+      "sourceIds": [
+        "museum",
+        "register",
+        "results"
+      ]
+    },
+    {
+      "id": "alas",
+      "title": "El auto cambió mientras seguía ganando",
+      "paragraphs": [
+        "En 1968 el 49 recibió modificaciones y dio lugar al 49B. Aparecieron los alerones y se alteraron sus apoyos mientras la parrilla exploraba cuánto podía ganar mediante la carga aerodinámica. La imagen del modelo pasó de la carrocería limpia del debut a soluciones elevadas que se volverían problemáticas por las roturas. El reglamento y las decisiones de seguridad terminaron modificando esa primera carrera de experimentación.",
+        "También cambió su aspecto comercial. La decoración Gold Leaf sustituyó la identidad verde y amarilla de Lotus por una imagen vinculada a un patrocinador. El 49, así, atravesó dos transiciones al mismo tiempo: nuevos dispositivos aerodinámicos y una nueva presencia publicitaria. Graham Hill ganó el campeonato de 1968 con esta familia de autos, mientras el DFV empezaba a equipar a otros constructores."
+      ],
+      "sourceIds": [
+        "wiki",
+        "gathering",
+        "technical"
+      ]
+    },
+    {
+      "id": "duracion",
+      "title": "Nueve chasis y una historia hasta 1970",
+      "paragraphs": [
+        "Classic Team Lotus documenta nueve chasis del Type 49, con sus identidades y reconstrucciones. Clark, Hill, Jo Siffert y Jochen Rindt ganaron Grandes Premios con el modelo. Rindt lo utilizó todavía en 1970, cuando la escudería incorporaba el 72. Su victoria de Mónaco contribuyó a la campaña que terminó otorgándole el campeonato de manera póstuma.",
+        "Esa longevidad deja una familia de máquinas diferentes bajo un nombre común. Algunas tuvieron accidentes, cambios de piezas o destinos nuevos como autos de clientes. La estructura concebida alrededor del DFV seguía siendo el punto de unión. El 49 no fue importante únicamente porque apareció y ganó: lo fue porque aquella victoria pudo convertirse en un sistema utilizado, desarrollado y repetido, mucho después de que el primer auto saliera a la pista de Zandvoort."
+      ],
+      "sourceIds": [
+        "gathering",
+        "wiki",
+        "technical"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "technical",
+      "title": "Classic Team Lotus — doce detalles del Type 49",
+      "url": "https://classicteamlotus.co.uk/media/4827/49-ten-things.pdf"
+    },
+    {
+      "id": "museum",
+      "title": "National Motor Museum — Lotus 49 R3",
+      "url": "https://nationalmotormuseum.org.uk/collections/vehicles/lotus-49-r3/"
+    },
+    {
+      "id": "register",
+      "title": "Classic Team Lotus — registro del Type 49",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-49/"
+    },
+    {
+      "id": "gathering",
+      "title": "Classic Team Lotus — reunión de los chasis sobrevivientes",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2016/all-the-lotus-49s-together%2C-for-the-first-time-ever/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lotus 49, evolución y campañas",
+      "url": "https://en.wikipedia.org/wiki/Lotus_49"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1967",
+      "url": "https://www.formula1.com/en/results/1967/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1967",
+      "href": "/historia/seasons/1967"
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Lotus_49-1.JPG/1280px-Lotus_49-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lotus_49-1.JPG",
+    "author": "Deep silence (Mikaël Restoux)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "El Lotus 49: la integración del motor Ford-Cosworth DFV fue uno de sus rasgos técnicos decisivos.",
+    "alt": "El Lotus 49: la integración del motor Ford-Cosworth DFV fue uno de sus rasgos técnicos decisivos."
+  }
+}

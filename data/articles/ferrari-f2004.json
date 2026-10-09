@@ -1,0 +1,122 @@
+{
+  "slug": "ferrari-f2004",
+  "title": "Ferrari F2004: cuatro paradas para encontrar una pista libre",
+  "description": "El dominio de 2004 se entiende mejor mirando cómo Schumacher y Ferrari resolvieron el Gran Premio de Francia.",
+  "year": 2004,
+  "period": "2004",
+  "tags": [
+    "Ferrari F2004",
+    "Michael Schumacher",
+    "Ross Brawn"
+  ],
+  "lead": "En Magny-Cours, el 4 de julio de 2004, Ferrari hizo parar cuatro veces a Michael Schumacher. Fernando Alonso había salido desde la pole y conservaba la ventaja en pista. La respuesta del F2004 no fue un adelantamiento, sino una carrera reorganizada desde boxes.",
+  "sections": [
+    {
+      "id": "francia",
+      "title": "El rival estaba delante",
+      "paragraphs": [
+        "Renault aprovechó las características del circuito francés y de sus neumáticos Michelin para poner a Alonso en primera posición de salida. Ferrari podía tener un coche muy rápido y seguir encontrándose atrapado detrás de un adversario. En una pista donde adelantar era difícil, la velocidad disponible necesitaba convertirse en tiempo de carrera por otro camino.",
+        "Luca Baldisserri y Ross Brawn trabajaron en una estrategia de cuatro paradas. Las cargas de combustible más cortas permitían tramos rápidos, y la ejecución debía crear el espacio necesario para que Schumacher expresara el rendimiento del coche sin depender de superar al Renault sobre el asfalto. La victoria terminó siendo una demostración de cómo un monoplaza, sus neumáticos y la operación de boxes podían formar una sola herramienta."
+      ],
+      "sourceIds": [
+        "estrategia",
+        "francia"
+      ]
+    },
+    {
+      "id": "v10",
+      "title": "Una culminación del ciclo Ferrari",
+      "paragraphs": [
+        "El F2004 llevó a Schumacher y Barrichello durante la temporada de mayor número de victorias del equipo en aquel ciclo. Su motor era un V10 atmosférico de tres litros, instalado en un monocasco de carbono. En esa generación, los repostajes modificaban tanto la estrategia como la interpretación de la velocidad: una vuelta rápida debía leerse junto a la carga con la que se había realizado.",
+        "La ficha histórica de Ferrari sitúa al modelo entre los coches más representativos de su período de dominio. Su evolución no consistía en volver a inventar el monoplaza entero. El rendimiento aparecía al mejorar la integración, reducir pérdidas y hacer que distintas áreas se reforzaran mutuamente. Una máquina con pocas señales externas de ruptura podía ser profundamente superior al sumar muchos avances compatibles."
+      ],
+      "sourceIds": [
+        "ficha",
+        "modelo",
+        "ferrari"
+      ]
+    },
+    {
+      "id": "estructura",
+      "title": "La transmisión también sostenía la aerodinámica",
+      "paragraphs": [
+        "Ferrari introdujo en 2004 una envoltura de carbono sobre su caja de cambios de titanio para incrementar la rigidez. La transmisión no era solamente una forma de llevar potencia a las ruedas: su carcasa pertenecía a la estructura posterior del monoplaza. Mantener la geometría bajo carga contribuía a que la suspensión y las superficies aerodinámicas trabajaran de la manera prevista.",
+        "Ese detalle permite mirar más allá del motor y del sonido que hoy acompañan al F2004 en exhibiciones. El coche debía resistir esfuerzos mientras mantenía posiciones relativas muy precisas. La búsqueda de rigidez podía mejorar la calidad de esa plataforma sin convertirse en una pieza visible para el espectador. El resultado dependía de relaciones espaciales que casi siempre permanecían escondidas bajo la carrocería."
+      ],
+      "sourceIds": [
+        "caja",
+        "modelo"
+      ]
+    },
+    {
+      "id": "balance",
+      "title": "Quince victorias y dos campeonatos",
+      "paragraphs": [
+        "Schumacher ganó trece grandes premios en 2004 y Barrichello otros dos. Ferrari terminó con quince victorias en dieciocho carreras y ambos pilotos en las dos primeras posiciones del campeonato. El alemán conquistó su séptimo título mundial. Esas cifras muestran un dominio que no se limita al ejemplo francés, aunque Magny-Cours permite entender de qué estaba hecho.",
+        "El F2004 todavía ocupa un lugar central en la memoria de la Fórmula 1 por su ritmo, sus registros y el sonido de su motor. La estrategia de cuatro paradas agrega una imagen menos simple: incluso un coche extraordinario necesitaba que sus responsables le encontraran una carrera apropiada. Su velocidad no viajaba sola. La acompañaban decisiones que podían transformar un segundo puesto posible en una victoria que parecía difícil de alcanzar desde la parrilla."
+      ],
+      "sourceIds": [
+        "resultados",
+        "pilotos",
+        "estrategia"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "estrategia",
+      "title": "Formula 1, Mark Hughes: las cuatro paradas de Francia 2004",
+      "url": "https://www.formula1.com/en/latest/article/france-2004-how-ferrari-stole-victory-from-renault-with-a-secret-4-stop-plan.7yXeHIzXx8e8JEyBC401ET.7yXeHIzXx8e8JEyBC401ET"
+    },
+    {
+      "id": "francia",
+      "title": "Formula 1: resultado del Gran Premio de Francia 2004",
+      "url": "https://www.formula1.com/en/results/2004/races/762/france/race-result"
+    },
+    {
+      "id": "ficha",
+      "title": "Ferrari: ficha histórica del F2004",
+      "url": "https://www.ferrari.com/en-OM/history/garage/2004/f2004"
+    },
+    {
+      "id": "ferrari",
+      "title": "Ferrari: Unstoppable, 2004",
+      "url": "https://www.ferrari.com/en-RS/history/moments/2004/unstoppable"
+    },
+    {
+      "id": "caja",
+      "title": "Formula 1: origen de la envoltura de carbono de la transmisión",
+      "url": "https://www.formula1.com/en/latest/article/tech-insight-why-vettel-didnt-need-a-new-gearbox-after-stroll-crash.FHc9N4q5yuYaA66E6Auq4.FHc9N4q5yuYaA66E6Auq4"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Ferrari F2004",
+      "url": "https://en.wikipedia.org/wiki/Ferrari_F2004"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2004",
+      "url": "https://www.formula1.com/en/results/2004/races"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: campeonato de pilotos de 2004",
+      "url": "https://www.formula1.com/en/results/2004/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Ferrari",
+      "href": "/historia/constructors/ferrari"
+    },
+    {
+      "label": "Temporada 2004",
+      "href": "/historia/seasons/2004"
+    },
+    {
+      "label": "Ferrari F2002",
+      "href": "/articulos/ferrari-f2002"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

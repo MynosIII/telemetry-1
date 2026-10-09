@@ -1,0 +1,131 @@
+{
+  "slug": "mclaren-mp4-25",
+  "title": "McLaren MP4-25: dos campeones, dos respuestas para Monza",
+  "description": "El F-duct abrió una posibilidad aerodinámica nueva, pero cada carrera seguía exigiendo decisiones diferentes.",
+  "year": 2010,
+  "period": "2010",
+  "tags": [
+    "McLaren MP4-25",
+    "F-duct",
+    "Jenson Button",
+    "Lewis Hamilton"
+  ],
+  "lead": "En Monza, en septiembre de 2010, los dos McLaren no utilizaron la misma respuesta para las rectas italianas. Jenson Button conservó el F-duct; Lewis Hamilton eligió una configuración de alerón muy reducido. Un mismo coche había abierto dos caminos posibles.",
+  "sections": [
+    {
+      "id": "monza",
+      "title": "Una herramienta que no imponía una sola elección",
+      "paragraphs": [
+        "Button consiguió salir desde la primera fila y terminó segundo en el Gran Premio de Italia. Hamilton abandonó en la primera vuelta después de un contacto con el Ferrari de Felipe Massa. La diferencia entre sus carreras no sirve como experimento limpio para medir un dispositivo, pero sus elecciones de configuración sí muestran que el F-duct no anulaba el trabajo de puesta a punto.",
+        "El MP4-25 debía equilibrar carga en curva y resistencia en recta. El sistema ofrecía una manera de conservar un alerón con más carga y reducir su resistencia cuando se activaba. En Monza, donde cada equipo ya llevaba soluciones específicas para alta velocidad, la decisión de mantenerlo o renunciar a él seguía requiriendo una evaluación del coche completo. Button explicó que su opción le daba confianza en la frenada y en las curvas."
+      ],
+      "sourceIds": [
+        "button",
+        "italia",
+        "monza"
+      ]
+    },
+    {
+      "id": "rw80",
+      "title": "RW80 debajo del nombre F-duct",
+      "paragraphs": [
+        "McLaren denominaba RW80 al sistema conocido públicamente como F-duct. El coche integraba conductos que permitían alterar el flujo sobre el alerón trasero. Al bloquear una salida del aire dentro del cockpit, el piloto activaba un cambio de circulación que llevaba el alerón a un estado de menor eficacia y, con ello, reducía la resistencia al avance.",
+        "El detalle esencial era que no hacía falta abrir físicamente un flap como en el DRS posterior. La geometría del alerón permanecía en su sitio mientras cambiaba la manera en que trabajaba el aire. Incorporar el sistema desde el diseño daba a McLaren una ventaja práctica frente a equipos que debían encontrar espacio para conductos dentro de coches ya construidos. Copiar la idea y poder instalarla no eran la misma tarea."
+      ],
+      "sourceIds": [
+        "rw80",
+        "innovaciones"
+      ]
+    },
+    {
+      "id": "campeones",
+      "title": "Dos campeones recientes dentro del mismo equipo",
+      "paragraphs": [
+        "Hamilton había ganado el campeonato de 2008 y Button el de 2009. El MP4-25 reunió a ambos en McLaren, con un motor Mercedes V8 de 2,4 litros. La nueva campaña también eliminó los repostajes en carrera, cambiando el tipo de compromiso que el coche debía resolver desde la salida hasta la última vuelta.",
+        "Button ganó en Australia y China, mientras Hamilton venció en Turquía, Canadá y Bélgica. Los resultados muestran una campaña competitiva en escenarios diferentes, con oportunidades aprovechadas tanto en carreras alteradas por condiciones variables como en pruebas de ritmo más directo. El equipo terminó segundo entre los constructores, detrás de Red Bull, y mantuvo a sus pilotos dentro de una temporada que llegó con varios candidatos a la última carrera."
+      ],
+      "sourceIds": [
+        "resultados",
+        "balance",
+        "pilotos",
+        "modelo"
+      ]
+    },
+    {
+      "id": "legado",
+      "title": "Una idea breve y un coche con una historia más larga",
+      "paragraphs": [
+        "El F-duct quedó prohibido para 2011, cuando se introdujo el DRS mediante otro mecanismo y condiciones regladas. Su breve vida no convierte al MP4-25 en un experimento sin consecuencias. Durante 2010 sus rivales estudiaron formas de conseguir el mismo efecto, y la interacción entre el piloto y el dispositivo se convirtió en una discusión importante para las reglas.",
+        "La historia del coche tampoco debe quedar reducida a su conducto más famoso. Monza recuerda que el invento era una herramienta dentro de un conjunto que exigía elegir niveles de carga, comportamiento en frenada y compromisos de velocidad. Hamilton y Button aportaron respuestas distintas a la misma pista. Ese margen de interpretación humana es parte de lo que vuelve interesante al MP4-25, además de la elegancia de su solución aerodinámica."
+      ],
+      "sourceIds": [
+        "innovaciones",
+        "rw80",
+        "button",
+        "monza"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "button",
+      "title": "Autosport: Button explica su elección del F-duct en Monza",
+      "url": "https://www.autosport.com/f1/news/button-f-duct-the-right-choice-4441746/4441746/"
+    },
+    {
+      "id": "italia",
+      "title": "Formula 1: Gran Premio de Italia 2010",
+      "url": "https://www.formula1.com/en/results/2010/races/873/italy/race-result"
+    },
+    {
+      "id": "monza",
+      "title": "Análisis original de John Beamer: configuraciones de Monza 2010",
+      "url": "https://www.racefans.net/2010/09/20/technical-review-italian-grand-prix/"
+    },
+    {
+      "id": "rw80",
+      "title": "McLaren: RW80 y su funcionamiento",
+      "url": "https://www.mclaren.com/racing/formula-1/2021/united-states-grand-prix/mclaren-greatest-steals/"
+    },
+    {
+      "id": "innovaciones",
+      "title": "McLaren: relato del desarrollo del F-duct",
+      "url": "https://www.mclaren.com/racing/heritage/game-changers-innovations-that-changed-f1/"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2010",
+      "url": "https://www.formula1.com/en/results/2010/races"
+    },
+    {
+      "id": "balance",
+      "title": "Formula 1: McLaren, balance de 2010",
+      "url": "https://www.formula1.com/en/information/mclaren-year-by-year.6Gj22qyOorq5dpniarY3rP"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 2010",
+      "url": "https://www.formula1.com/en/results/2010/drivers"
+    },
+    {
+      "id": "modelo",
+      "title": "McLaren: MP4-25 up close",
+      "url": "https://www.mclaren.com/racing/heritage/mp4-25-up-close/"
+    }
+  ],
+  "related": [
+    {
+      "label": "McLaren",
+      "href": "/historia/constructors/mclaren"
+    },
+    {
+      "label": "Temporada 2010",
+      "href": "/historia/seasons/2010"
+    },
+    {
+      "label": "F-duct y DAS",
+      "href": "/articulos/f-duct-das-fronteras-reglamento"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

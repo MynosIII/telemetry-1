@@ -1,0 +1,93 @@
+{
+  "slug": "mercedes-w196",
+  "title": "Mercedes W 196 R: la carrocería que ganó en Reims y estorbó en Silverstone",
+  "description": "Dos formas exteriores, varias distancias entre ejes y una sofisticada mecánica acompañaron los títulos de Fangio de 1954 y 1955.",
+  "category": "Autos de leyenda",
+  "period": "1954",
+  "year": 1954,
+  "tags": [
+    "Mercedes-Benz W 196 R",
+    "Juan Manuel Fangio",
+    "Stromlinienwagen"
+  ],
+  "lead": "El 4 de julio de 1954, Juan Manuel Fangio y Karl Kling llevaron dos Mercedes de ruedas carenadas al primer y segundo puesto en Reims. Trece días después, en Silverstone, Fangio terminó cuarto. La carrocería que había ayudado a atravesar las rectas francesas dificultaba colocar el auto en las curvas inglesas.",
+  "sections": [
+    {
+      "id": "reims",
+      "title": "Una vuelta preparada para un reglamento nuevo",
+      "paragraphs": [
+        "Mercedes organizó su regreso a los Grandes Premios alrededor de la fórmula de 1954: motores atmosféricos de hasta 2,5 litros o sobrealimentados de 750 centímetros cúbicos. Hans Scherenberg coordinó el desarrollo técnico; Fritz Nallinger, Rudolf Uhlenhaut y Alfred Neubauer desempeñaron responsabilidades distintas en la preparación de la máquina, los ensayos y la dirección deportiva. El proyecto involucró una estructura industrial mucho mayor que la de los pequeños talleres británicos.",
+        "El primer W 196 R se presentó con una carrocería cerrada alrededor de las ruedas, pensada para reducir resistencia en pistas rápidas. Reims le ofreció el escenario adecuado. El doblete coincidió, además, con el triunfo alemán en el Mundial de fútbol de Berna. El resultado del auto tuvo una dimensión pública más amplia, aunque su siguiente examen mostraría que una gran victoria no resolvía todos los problemas de diseño."
+      ],
+      "sourceIds": [
+        "history"
+      ]
+    },
+    {
+      "id": "motor",
+      "title": "Lo que la carrocería escondía",
+      "paragraphs": [
+        "El ocho cilindros en línea tenía 2.497 centímetros cúbicos e incorporaba inyección directa. Sus válvulas utilizaban distribución desmodrómica: el mecanismo controlaba tanto la apertura como el cierre, evitando depender de un resorte para esta última operación. La solución permitía sostener regímenes elevados, pero su valor dependía de todo el trabajo de preparación que mantenía el motor en funcionamiento.",
+        "La máquina se construía sobre una estructura tubular, con suspensiones y frenos desarrollados como parte de un programa específico. La apariencia futurista no equivalía a un monocasco de aluminio. Debajo de la piel plateada había una combinación particular de decisiones, algunas muy sofisticadas y otras reconocibles dentro de la tradición de competición de Mercedes. Las distintas variantes recibieron cambios de admisión, peso y disposición de elementos durante las dos temporadas."
+      ],
+      "sourceIds": [
+        "exhibition",
+        "history",
+        "auction"
+      ]
+    },
+    {
+      "id": "ruedas",
+      "title": "Fangio necesitaba ver dónde estaba la rueda",
+      "paragraphs": [
+        "La dificultad de Silverstone llevó a utilizar la versión de ruedas descubiertas en circuitos sinuosos. Esta ganó en su presentación en Nürburgring en agosto de 1954. La adaptación no consistía en aceptar que la versión aerodinámica había fracasado para siempre: Mercedes conservó ambas carrocerías y las elegía según la pista. Fangio terminó la temporada con el título, después de haber ganado también para Maserati antes del debut de su nuevo equipo.",
+        "En 1955 se añadieron diferentes distancias entre ejes. La variante corta destinada a Mónaco muestra el grado de adaptación que buscaba la escudería. En Monza, en cambio, Fangio y Moss utilizaron autos carenados de batalla larga, mientras otros compañeros llevaron versiones abiertas. El W 196 R no fue una única forma ganadora; fue una familia de soluciones que podía presentar respuestas distintas en una misma carrera."
+      ],
+      "sourceIds": [
+        "history",
+        "exhibition"
+      ]
+    },
+    {
+      "id": "final",
+      "title": "Dos temporadas y una última demostración",
+      "paragraphs": [
+        "Fangio obtuvo otra corona en 1955 y Stirling Moss terminó segundo en el campeonato. El último Gran Premio del W 196 R fue Italia, donde Fangio ganó por delante de Piero Taruffi. Mercedes había cumplido sus objetivos en la Fórmula 1 y en los deportivos, pero el año también quedó marcado por la tragedia de Le Mans, protagonizada por el 300 SLR, un vehículo distinto derivado del mismo programa industrial.",
+        "La retirada cerró una campaña breve, no una tercera temporada de títulos. Los W 196 R sobrevivientes permiten reconocer hoy las dos carrocerías y sus variaciones. Uno de los carenados pasó décadas en el museo de Indianápolis antes de su venta. Su historia material conserva la paradoja inicial: el auto que parece más avanzado a primera vista no era necesariamente el más adecuado para cada circuito. La excelencia de Mercedes estuvo también en aceptar esa diferencia y construir una alternativa."
+      ],
+      "sourceIds": [
+        "history",
+        "auction",
+        "exhibition"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "history",
+      "title": "Mercedes-Benz Media — regreso a la competición, 1954–1955",
+      "url": "https://media.mercedes-benz.com/article/0ee71ec7-80ea-46c6-a0d4-c41b3f168a96"
+    },
+    {
+      "id": "exhibition",
+      "title": "Mercedes-Benz Media — las dos carrocerías del W 196 R",
+      "url": "https://media.mercedes-benz.com/article/b210a620-ecd7-42dc-b364-af3e85ff3d6c"
+    },
+    {
+      "id": "auction",
+      "title": "Mercedes-Benz Classic — historia del W 196 R Stromlinienwagen",
+      "url": "https://www.mercedes-benz.com/de/fahrzeuge/mercedes-benz-classic/mercedes-benz-w196r/"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1954",
+      "url": "https://www.formula1.com/en/results/1954/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1954",
+      "href": "/historia/seasons/1954"
+    }
+  ]
+}

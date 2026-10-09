@@ -1,0 +1,135 @@
+{
+  "slug": "motores-v10",
+  "title": "Los V10: diez cilindros entre dos épocas",
+  "description": "Honda y Renault encontraron en 1989 una combinación que acabó definiendo el sonido y la ingeniería de otra generación.",
+  "year": 1989,
+  "period": "1989–2005",
+  "tags": [
+    "V10",
+    "Honda RA109E",
+    "Renault RS1",
+    "Motores"
+  ],
+  "lead": "Cuando el campeonato de 1989 comenzó en Jacarepaguá, McLaren ya no llevaba el turbo con el que había dominado el año anterior. Detrás de Ayrton Senna y Alain Prost trabajaba el nuevo Honda RA109E, un V10 atmosférico nacido de una elección que aún estaba lejos de ser universal.",
+  "sections": [
+    {
+      "id": "eleccion",
+      "title": "Un número entre ocho y doce",
+      "paragraphs": [
+        "La prohibición de los turbos abrió una fórmula atmosférica de 3,5 litros. Los fabricantes podían responder con diferentes cantidades de cilindros. Honda estudió el V10 como una combinación entre la capacidad de girar y producir potencia asociada al V12 y las ventajas de tamaño y masa del V8. No era un promedio aritmético que garantizara éxito; era una hipótesis de diseño que exigía resolver sus propios problemas.",
+        "Renault también eligió diez cilindros para regresar como proveedor de Williams. La coincidencia no hizo idénticos a los motores: cada organización tenía sus geometrías, materiales y prioridades. Durante aquella primera temporada convivieron con alternativas V8 y V12. El V10 debía demostrar en pista que su compromiso podía ser competitivo, mientras el público descubría una Fórmula 1 cuyo sonido había cambiado con la desaparición de la sobrealimentación."
+      ],
+      "sourceIds": [
+        "honda",
+        "renault",
+        "temporada"
+      ]
+    },
+    {
+      "id": "vibraciones",
+      "title": "El RA109E cambió antes de estar listo",
+      "paragraphs": [
+        "Honda documenta dos modificaciones importantes durante el desarrollo. El ángulo inicial de 80 grados pasó a 72 después de problemas de vibración, y el motor incorporó un eje de equilibrado. También sustituyó la distribución por correa por un sistema de engranajes cuando las pruebas revelaron dificultades de durabilidad. Esta última decisión llegó pocos meses antes del inicio del campeonato.",
+        "El RA109E ganó diez grandes premios en 1989 y sostuvo los títulos de McLaren y de Prost. El resultado no significa que el proceso hubiera terminado: Honda siguió encontrando problemas de respuesta y desgaste que requerían investigación. La historia del V10 se vuelve más concreta al mirar esas rectificaciones. El motor campeón no era una forma definitiva elegida desde el primer dibujo, sino una máquina que había cambiado para poder sobrevivir y competir."
+      ],
+      "sourceIds": [
+        "honda",
+        "resultados",
+        "pilotos"
+      ]
+    },
+    {
+      "id": "alternativas",
+      "title": "Honda volvió al V12 mientras Renault consolidaba el V10",
+      "paragraphs": [
+        "En 1991 Honda suministró un V12 a McLaren y un V10 a Tyrrell. La decisión muestra que diez cilindros todavía no eran una obligación ni una respuesta única. El RA121E V12 dio ocho victorias y otro campeonato a Senna. La misma empresa exploraba dos familias de propulsores en paralelo, con necesidades de instalación y prioridades diferentes.",
+        "Renault continuó desarrollando sus V10 con Williams y después con Benetton. La sucesión de campeonatos de los años noventa convirtió a esa arquitectura en una de las imágenes técnicas dominantes del período. La reducción de cilindrada a tres litros en 1995 obligó a rediseñar el motor dentro de una nueva escala. El número de cilindros se mantuvo, pero sus dimensiones, sus regímenes y su integración siguieron cambiando."
+      ],
+      "sourceIds": [
+        "v12",
+        "tyrrell",
+        "renault"
+      ]
+    },
+    {
+      "id": "despedida",
+      "title": "La voz del R25 y el cambio de 2006",
+      "paragraphs": [
+        "El Renault R25 de 2005 pertenece al final de esa larga generación. Alonso y Renault conquistaron los campeonatos con un V10, y las demostraciones posteriores conservaron su sonido como una parte central de la memoria del coche. El reglamento de 2006 introdujo motores V8 de 2,4 litros, con una posibilidad limitada de autorizar motores ajustados a las reglas anteriores para equipos sin acceso a una alternativa competitiva.",
+        "Recordar a los V10 solamente por el ruido deja fuera su historia de decisiones. El Honda que cambió su ángulo, la coexistencia con un V12 y las sucesivas generaciones de Renault muestran una arquitectura que fue elegida, modificada y finalmente delimitada por el reglamento. Su voz sigue siendo reconocible, pero detrás hubo problemas de vibración, rigidez, tamaño y respuesta que cada fabricante tuvo que resolver de su propia manera."
+      ],
+      "sourceIds": [
+        "r25",
+        "fia2006",
+        "alpine"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "honda",
+      "title": "Honda: desarrollo del RA109E V10 de 1989",
+      "url": "https://global.honda/en/POWEREDbyHONDA/1989_ra109e/"
+    },
+    {
+      "id": "renault",
+      "title": "Renault Classic: la era de los motores V10",
+      "url": "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+    },
+    {
+      "id": "temporada",
+      "title": "Formula 1: carreras de 1989",
+      "url": "https://www.formula1.com/en/results/1989/races"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: constructores de 1989",
+      "url": "https://www.formula1.com/en/results/1989/team"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 1989",
+      "url": "https://www.formula1.com/en/results/1989/drivers"
+    },
+    {
+      "id": "v12",
+      "title": "Honda: RA121E V12 de 1991",
+      "url": "https://global.honda/en/POWEREDbyHONDA/1991_ra121e/"
+    },
+    {
+      "id": "tyrrell",
+      "title": "Honda: V10 de Tyrrell en 1991",
+      "url": "https://global.honda/en/POWEREDbyHONDA/1991_ra101e/"
+    },
+    {
+      "id": "fia2006",
+      "title": "FIA: reglamento técnico 2006, arquitectura y excepciones",
+      "url": "https://argent.fia.com/web/fia-public.nsf/035E7BF2DE8E684CC12573290033747B/%24FILE/07F1_TECHNICAL_REGULATIONS.pdf?Openelement="
+    },
+    {
+      "id": "r25",
+      "title": "Formula 1: Alonso conduce el R25 en Abu Dabi 2020",
+      "url": "https://www.formula1.com/en/latest/article/watch-go-onboard-with-fernando-alonso-as-he-demos-his-title-winning-renault.3o4gEyZahIOUTgazdDqiPm"
+    },
+    {
+      "id": "alpine",
+      "title": "Alpine: historia del R25 campeón",
+      "url": "https://media.alpinecars.com/champions-return-to-mark-transition-from-renault-to-alpine/?lang=eng"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1989",
+      "href": "/historia/seasons/1989"
+    },
+    {
+      "label": "Renault R25",
+      "href": "/articulos/renault-r25"
+    },
+    {
+      "label": "Motores V6 híbridos",
+      "href": "/articulos/motores-v6-hibridos"
+    }
+  ],
+  "category": "Ideas que cambiaron la F1"
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "fiat-805",
+  "title": "Fiat 805: la sobrealimentación encontró su primera gran victoria",
+  "description": "La sobrealimentación añadió una promesa de potencia y nuevos problemas al coche de Fiat. El 805 cuenta una parte de la transformación técnica de los Grand Prix.",
+  "category": "Autos de leyenda",
+  "year": 1923,
+  "period": "1923–1924",
+  "tags": [
+    "Fiat",
+    "805",
+    "805/405",
+    "Salamano",
+    "compresor",
+    "1923"
+  ],
+  "lead": "Carlo Salamano ganó en Monza el 9 de septiembre de 1923 con el Fiat 805 número 14. La carrera también llevaba el título de primer Grand Prix de Europa. Dos meses antes, los nuevos Fiat habían fracasado en Francia pese a su velocidad. El camino entre ambos resultados muestra una innovación que necesitó cambiar de compresor para llegar hasta el final.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Fornaca, ocho cilindros y una nueva cantidad de aire",
+      "paragraphs": [
+        "La fórmula de dos litros seguía vigente cuando Fiat preparó el 805. El grupo de diseño dirigido por Guido Fornaca adoptó un ocho cilindros y un compresor que elevaba la presión del aire de admisión. La idea permitía obtener más potencia sin aumentar la cilindrada. También añadía una máquina que debía soportar su propio trabajo y convivir con el motor durante una carrera larga.",
+        "Los compresores ya existían en otras aplicaciones automovilísticas. La novedad del 805 se mide dentro de los Grand Prix, no como invención absoluta del principio. La primera versión empleó un Wittig y prometió una ventaja clara de velocidad. La clasificación de una potencia en el banco de pruebas, sin embargo, todavía no respondía a la pregunta más importante: cuánto tiempo podía conservarla."
+      ],
+      "sourceIds": [
+        "temporada",
+        "aisa"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Tours obligó a revisar el mecanismo",
+      "paragraphs": [
+        "El Grand Prix de l’ACF de 1923 se disputó cerca de Tours. Los Fiat mostraron un ritmo muy elevado, pero ninguno terminó. Las reconstrucciones técnicas vinculan los problemas con el compresor y la entrada de suciedad. La carrera sobre carreteras polvorientas exigió algo que un ensayo podía no reproducir completamente: aspirar aire durante horas mientras otros automóviles circulaban delante.",
+        "La solución para Monza incorporó un compresor Roots. Cambiar esa pieza alteraba una parte central del nuevo sistema, no un accesorio secundario. Fiat necesitaba conservar la ganancia de potencia haciendo menos vulnerable la alimentación. La experiencia francesa convirtió un fracaso visible en información para el siguiente desarrollo, y dejó una diferencia material entre los 805 de ambas carreras."
+      ],
+      "sourceIds": [
+        "temporada",
+        "modelo",
+        "gpitalia"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Monza llegó precedida por otro accidente",
+      "paragraphs": [
+        "Antes de la carrera italiana, Pietro Bordino y Enrico Giaccone sufrieron un accidente durante una prueba del automóvil. Giaccone murió y Bordino quedó lesionado. El equipo llegó así al Grand Prix con el recuerdo de otra pérdida, después de los accidentes de la temporada anterior. La documentación de la carrera identifica a Bordino, Nazzaro y Salamano en los tres coches de Fiat.",
+        "El archivo de la Fondazione Pirelli conserva una fotografía del conjunto tomada el 9 de septiembre. La imagen permite poner rostros y una fecha a la máquina que suele aparecer únicamente en una cronología del compresor. Salamano era también un probador de fábrica: su experiencia se desarrolló trabajando para Fiat, y la carrera extendió ese trabajo ante un público internacional."
+      ],
+      "sourceIds": [
+        "gpitalia",
+        "archivo",
+        "salamano"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una victoria que cambió el desarrollo de los Grand Prix",
+      "paragraphs": [
+        "Salamano cubrió ochenta vueltas del trazado de diez kilómetros y terminó delante de su compañero Felice Nazzaro. La prueba se recuerda como la primera victoria de un automóvil sobrealimentado en un Grand Prix. El título de Grand Prix de Europa era una distinción de la carrera italiana; no suponía que el vencedor hubiese ganado además un campeonato europeo de pilotos.",
+        "La investigación de AISA sobre Salamano describe cómo el resultado fue celebrado como un éxito de la industria italiana frente a la extranjera. También recoge una consecuencia menos espectacular: el piloto siguió ligado a Fiat y desarrolló una larga carrera como probador. Su vida profesional no se redujo a la tarde en que ganó ante Nazzaro.",
+        "El 805 transmitió ideas mediante los ingenieros que cambiaron de empresa. Jano pasó a Alfa Romeo y el P2 adoptó sobrealimentación, mientras Bertarione ya había llevado experiencia de Fiat a Sunbeam. La victoria de Monza fue un hito visible dentro de esa circulación de conocimientos. El coche mostró que el compresor podía ganar una gran carrera cuando el resto del sistema y su resistencia alcanzaban a su velocidad."
+      ],
+      "sourceIds": [
+        "salamano",
+        "aisa",
+        "gpitalia",
+        "modelo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "temporada",
+      "title": "Wikipedia: desarrollo técnico de los Grand Prix de 1923",
+      "url": "https://en.wikipedia.org/wiki/1923_Grand_Prix_season"
+    },
+    {
+      "id": "aisa",
+      "title": "AISA: proyectistas y desarrollo de Fiat",
+      "url": "https://www.aisastoryauto.it/wp-content/uploads/2015/02/AISA-Monografia1-Fiat.pdf"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Fiat 805",
+      "url": "https://es.wikipedia.org/wiki/Fiat_805"
+    },
+    {
+      "id": "gpitalia",
+      "title": "Wikipedia: Grand Prix de Italia de 1923",
+      "url": "https://it.wikipedia.org/wiki/Gran_Premio_d%27Italia_1923"
+    },
+    {
+      "id": "archivo",
+      "title": "Fondazione Pirelli: Fiat 805, pilotos y fecha en Monza 1923",
+      "url": "https://www.fondazionepirelli.org/archivio-storico/fotografie/detail/IT-PIRELLI-FT0001-0000000440/la-scuderia-fiat-al-gran-premio-d-italia-del-1923.html"
+    },
+    {
+      "id": "salamano",
+      "title": "AISA: Carlo Salamano, piloto y probador de Fiat",
+      "url": "https://www.aisastoryauto.it/di-cosa-parliamo-oggi/carlo-salamano-1891-1969-pilota-e-collaudatore-fiat/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Fiat 804",
+      "href": "/articulos/fiat-804"
+    },
+    {
+      "label": "Alfa Romeo P2",
+      "href": "/articulos/alfa-romeo-p2"
+    },
+    {
+      "label": "Grandes Épreuves",
+      "href": "/articulos/grandes-epreuves"
+    }
+  ]
+}

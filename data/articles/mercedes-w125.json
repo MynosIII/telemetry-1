@@ -1,0 +1,114 @@
+{
+  "slug": "mercedes-w125",
+  "title": "Mercedes-Benz W125: aprender a sujetar seiscientos caballos",
+  "description": "Uhlenhaut y Wagner revisaron el chasis para aprovechar un enorme ocho cilindros: una temporada ganadora que conectó suspensión, potencia y trabajo de ensayo.",
+  "category": "Autos de leyenda",
+  "year": 1937,
+  "period": "1937",
+  "tags": [
+    "Mercedes-Benz",
+    "W125",
+    "Uhlenhaut",
+    "Wagner",
+    "1937"
+  ],
+  "lead": "En mayo de 1937, Hermann Lang ganó en Tripoli con el nuevo Mercedes-Benz W125. El coche había sido preparado para una sola temporada antes de que cambiara la fórmula de Grand Prix. Su enorme ocho cilindros suele concentrar la atención, pero el proyecto de Rudolf Uhlenhaut y Max Wagner comenzó por una pregunta de comportamiento: cómo conseguir que el chasis utilizara mejor la potencia.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Uhlenhaut probó el problema con sus propias manos",
+      "paragraphs": [
+        "La campaña del W25 de 1936 había decepcionado a Mercedes-Benz. Uhlenhaut, nuevo responsable del departamento, ensayó personalmente los automóviles y participó en la definición de otro chasis. El desarrollo del W125 no consistió únicamente en reemplazar un motor. La dirección de las ruedas, el trabajo de los muelles y la rigidez de la estructura debían coordinarse para mantener la máquina controlable.",
+        "El plazo era corto porque la fórmula de setecientos cincuenta kilogramos terminaba en 1937. Desde 1938 habría límites distintos de cilindrada para motores atmosféricos y sobrealimentados. Mercedes-Benz invirtió por ello en un coche que sabía temporal. La decisión muestra el valor asignado a una temporada competitiva y a la información que podía obtenerse construyendo una máquina nueva."
+      ],
+      "sourceIds": [
+        "clasico",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El chasis tenía que dejar trabajar a la suspensión",
+      "paragraphs": [
+        "El W125 utilizó un bastidor tubular de acero de sección ovalada y cuatro travesaños. Delante incorporó brazos dobles y muelles helicoidales; detrás, un eje De Dion con barras de torsión y amortiguación hidráulica. La disposición trasera conservaba la relación entre ruedas mientras parte del mecanismo permanecía unido al chasis. No era una suspensión independiente de cuatro ruedas como a veces se resume.",
+        "La puesta a punto recurrió a muelles más suaves y una amortiguación mayor que en soluciones anteriores. La distinción importa: el muelle sostiene y devuelve movimiento, mientras el amortiguador controla su velocidad. Un coche rígido no es necesariamente el que mantiene mejor sus neumáticos sobre una superficie irregular. Uhlenhaut buscó el comportamiento que sus pruebas habían mostrado necesario.",
+        "La arquitectura transmitía al bastidor las fuerzas de aceleración y frenado mediante elementos específicos. Esa coordinación hacía posible utilizar un gran motor sin que cada cambio de carga desorganizara el vehículo. La innovación más decisiva podía estar debajo de la carrocería, sin producir una silueta inmediatamente diferente para el público."
+      ],
+      "sourceIds": [
+        "clasico",
+        "suspension",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Un ocho en línea para la última temporada de la fórmula",
+      "paragraphs": [
+        "El propulsor era un ocho cilindros en línea de aproximadamente 5,6 litros con compresor. Las cifras de potencia variaban según evolución y ensayo, alrededor de seiscientos caballos. El motor no era un V8. La documentación de Mercedes-Benz describe también la colocación del compresor después de los carburadores, de modo que comprimía una mezcla ya preparada.",
+        "Lang ganó en el estreno de Tripoli y Caracciola obtuvo el Campeonato de Europa de 1937. El resultado principal del programa reunió las diferentes carreras y pilotos con una misma familia de coches. La potencia era excepcional para el período, pero dependía de frenos, neumáticos, suspensión y asistencia que debían funcionar durante la distancia de cada evento.",
+        "La carrocería aerodinámica de AVUS constituyó una preparación distinta de la versión abierta de Grand Prix. Una fotografía de ruedas cubiertas no representa automáticamente el coche que Caracciola condujo en otro circuito. La necesidad de identificar versiones aparece también en las velocidades máximas, que dependen del trazado y del objeto concreto."
+      ],
+      "sourceIds": [
+        "modelo",
+        "aurora",
+        "temporada"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El récord de 1938 tuvo otra mecánica",
+      "paragraphs": [
+        "El nombre W125 quedó unido después a un automóvil de récord con carrocería cerrada y motor de doce cilindros. Caracciola alcanzó un promedio de 432,7 kilómetros por hora sobre el kilómetro lanzado en enero de 1938. Esa máquina utilizaba elementos relacionados con el programa anterior, pero no llevaba el mismo ocho cilindros del Grand Prix de 1937. Sus cifras no deben añadirse sin explicación a la ficha del coche abierto.",
+        "La diferencia permite apreciar la especialización que ya existía dentro de un equipo. Una carrera con curvas y una recta cronometrada solicitaban soluciones distintas. El automóvil de récord reducía resistencia al aire y estaba preparado para un objetivo concreto; el W125 de competición debía conservar una capacidad repetible de frenar y cambiar de dirección.",
+        "El coche de 1937 dejó una herencia que excedía su única temporada. Uhlenhaut y Wagner habían utilizado el fracaso previo para revisar el sistema completo, y la estructura del vehículo encontró una mejor relación con sus neumáticos. La historia de seiscientos caballos termina así en un trabajo menos visible: lograr que una fuerza extraordinaria se pudiera aprovechar sobre una pista real."
+      ],
+      "sourceIds": [
+        "record",
+        "clasico",
+        "suspension"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "clasico",
+      "title": "Mercedes-Benz Classic: W125, Uhlenhaut y construcción del chasis",
+      "url": "https://event.media.mercedes-benz.com/article/f9a48175-8964-490e-9909-9f35cbea8a6f"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Mercedes-Benz W125 y su temporada de 1937",
+      "url": "https://de.wikipedia.org/wiki/Mercedes-Benz_W_125"
+    },
+    {
+      "id": "suspension",
+      "title": "Wikipedia: detalle de suspensión y amortiguación del W125",
+      "url": "https://de.wikipedia.org/wiki/Silberpfeil"
+    },
+    {
+      "id": "aurora",
+      "title": "Mercedes-Benz Classic: demostración del ocho cilindros W125",
+      "url": "https://media.mercedes-benz.com/en/article/775f798e-5407-479c-841b-7d6facdff64d"
+    },
+    {
+      "id": "temporada",
+      "title": "Wikipedia: Grand Prix de 1937",
+      "url": "https://en.wikipedia.org/wiki/1937_Grand_Prix_season"
+    },
+    {
+      "id": "record",
+      "title": "Wikipedia: W125 Rekordwagen, automóvil de doce cilindros",
+      "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_W125_Rekordwagen"
+    }
+  ],
+  "related": [
+    {
+      "label": "Mercedes-Benz W25",
+      "href": "/articulos/mercedes-w25"
+    },
+    {
+      "label": "Auto Union Type C",
+      "href": "/articulos/auto-union-type-c"
+    }
+  ]
+}

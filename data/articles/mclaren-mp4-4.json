@@ -1,0 +1,131 @@
+{
+  "slug": "mclaren-mp4-4",
+  "title": "McLaren MP4/4: la perfección terminó a dos vueltas de Monza",
+  "description": "El chasis de Steve Nichols, el Honda RA168E y dos campeones hicieron de 1988 una temporada extraordinaria.",
+  "category": "Autos de leyenda",
+  "year": 1988,
+  "period": "1988",
+  "tags": [
+    "McLaren MP4/4",
+    "Honda",
+    "Ayrton Senna",
+    "Alain Prost"
+  ],
+  "lead": "El 11 de septiembre de 1988, en Monza, Ayrton Senna se encontró con el Williams de Jean-Louis Schlesser cuando faltaban dos vueltas. El contacto dejó a McLaren sin su decimocuarta victoria consecutiva. Fue la única carrera de toda la temporada que el MP4/4 no ganó.",
+  "sections": [
+    {
+      "id": "monza",
+      "title": "La excepción italiana",
+      "paragraphs": [
+        "Alain Prost ya había abandonado cuando Senna intentó superar al coche doblado. Ferrari terminó primero y segundo con Gerhard Berger y Michele Alboreto. Aquel resultado introdujo una interrupción muy visible en una secuencia que hasta entonces parecía no tener salida para los demás. La derrota de Monza se recuerda precisamente porque fue excepcional, no porque resumiera el comportamiento del coche.",
+        "El MP4/4 ganó quince de dieciséis grandes premios. Senna obtuvo ocho victorias y Prost siete, con diez dobletes para el equipo. La suma muestra la profundidad del dominio: no dependía de que solamente un piloto consiguiera aprovecharlo. También explica por qué la disputa por el campeonato se trasladó al interior de McLaren, mientras sus adversarios buscaban oportunidades bastante más escasas."
+      ],
+      "sourceIds": [
+        "titulos",
+        "honda",
+        "legacy"
+      ]
+    },
+    {
+      "id": "diseno",
+      "title": "Un coche bajo, un motor nuevo para la asociación",
+      "paragraphs": [
+        "Steve Nichols fue el jefe de diseño del MP4/4, dentro de una organización cuya dirección técnica encabezaba Gordon Murray. La historia de sus contribuciones ha generado debates posteriores, pero los registros de Honda y del propio Nichols permiten mantener clara la responsabilidad del diseño sin convertir el coche en una simple reproducción del Brabham BT55.",
+        "La posición baja de los elementos era parte de un paquete pensado alrededor del Honda RA168E. El motor, el chasis y sus necesidades de instalación tenían que encajar, en vez de competir por el mismo espacio. La silueta que terminó siendo un icono era la consecuencia visible de esa coordinación. Sus resultados tampoco se explican por una línea de carrocería aislada: suspensión, frenos, peso y operación del equipo acompañaban a la aerodinámica."
+      ],
+      "sourceIds": [
+        "nichols",
+        "mp44",
+        "honda"
+      ]
+    },
+    {
+      "id": "ultima-era",
+      "title": "El último año turbo obligaba a administrar",
+      "paragraphs": [
+        "En 1988 la Fórmula 1 se preparaba para cerrar su primera etapa turbo. Las restricciones de combustible y presión de sobrealimentación hacían que ganar no consistiera únicamente en encontrar potencia. Honda desarrolló el RA168E para esas condiciones, y la asociación con McLaren reunió una plataforma competitiva con un propulsor capaz de utilizar sus recursos con eficacia.",
+        "Esa relación entre consumo y rendimiento introduce un matiz detrás de las imágenes de velocidad. Un motor que entregaba mucho en una clasificación no garantizaba por sí solo una carrera completa. El MP4/4 tenía que recorrer la distancia reglamentaria y responder a lo que Senna y Prost necesitaban en diferentes circuitos. La superioridad del conjunto se manifestó tanto en su ritmo como en la repetición de resultados."
+      ],
+      "sourceIds": [
+        "honda",
+        "asociacion",
+        "legacy"
+      ]
+    },
+    {
+      "id": "dos-pilotos",
+      "title": "Una máquina compartida por dos interpretaciones",
+      "paragraphs": [
+        "Senna ganó su primer campeonato del mundo al concluir la temporada. Prost aportó siete victorias al mismo coche y fue el otro centro de la campaña. La clasificación de 1988 aplicaba un sistema de descarte: contaban los mejores once resultados del piloto. Por eso, leer el campeonato exige mirar sus reglas además de sumar todas las llegadas a meta.",
+        "McLaren conquistó también el título de constructores con 199 puntos. La cifra pertenece a aquella escala de puntuación, pero la proporción del dominio sigue siendo evidente en las victorias, los dobletes y el número de vueltas lideradas. Monza aporta el contrapunto que necesita cualquier relato sobre una máquina casi perfecta: incluso un conjunto extraordinario continúa dependiendo de maniobras, averías y situaciones que el diseño nunca puede controlar por completo."
+      ],
+      "sourceIds": [
+        "titulos",
+        "legacy",
+        "resultados",
+        "reglamento1988"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "titulos",
+      "title": "McLaren: sus campeonatos de constructores",
+      "url": "https://www.mclaren.com/racing/heritage/the-title-winning-10-the-history-of-mclarens-constructors-championship-victories/"
+    },
+    {
+      "id": "honda",
+      "title": "Honda: McLaren MP4/4 de 1988",
+      "url": "https://global.honda/en/F1/machine/1988_McLarenHondaMP44/"
+    },
+    {
+      "id": "legacy",
+      "title": "McLaren: MP4/4, ficha de legado",
+      "url": "https://www.mclaren.com/cars/gl_en/legacy/mclaren-mp44"
+    },
+    {
+      "id": "nichols",
+      "title": "Steve Nichols: patrimonio de competición",
+      "url": "https://www.nichols-cars.com/racingheritage"
+    },
+    {
+      "id": "mp44",
+      "title": "McLaren: The MP4/4",
+      "url": "https://www.mclaren.com/racing/heritage/50-years-of-f1/the-mp4-4-3502211/"
+    },
+    {
+      "id": "asociacion",
+      "title": "Honda y McLaren",
+      "url": "https://global.honda/en/F1/mclaren/mclaren-and-honda/"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: clasificación de pilotos de 1988",
+      "url": "https://www.formula1.com/en/results/1988/drivers"
+    },
+    {
+      "id": "reglamento1988",
+      "title": "Wikipedia: clasificación de 1988 y mejores once resultados",
+      "url": "https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship"
+    }
+  ],
+  "related": [
+    {
+      "label": "McLaren",
+      "href": "/historia/constructors/mclaren"
+    },
+    {
+      "label": "Temporada 1988",
+      "href": "/historia/seasons/1988"
+    }
+  ],
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/1988_McLaren_MP4-4_1.jpg/1280px-1988_McLaren_MP4-4_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:1988_McLaren_MP4-4_1.jpg",
+    "author": "Calreyn88",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "El McLaren MP4/4 de 1988, conservado como testimonio de la etapa con motores Honda.",
+    "alt": "El McLaren MP4/4 de 1988, conservado como testimonio de la etapa con motores Honda."
+  }
+}

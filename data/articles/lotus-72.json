@@ -1,0 +1,105 @@
+{
+  "slug": "lotus-72",
+  "title": "Lotus 72: seis temporadas dentro de una cuña",
+  "description": "Radiadores laterales, dos decoraciones célebres y tres títulos de constructores hicieron del auto de Rindt y Fittipaldi mucho más que una silueta bonita.",
+  "category": "Autos de leyenda",
+  "period": "1970",
+  "year": 1970,
+  "tags": [
+    "Lotus 72",
+    "Lotus 72D",
+    "Jochen Rindt",
+    "Emerson Fittipaldi"
+  ],
+  "lead": "Monza, septiembre de 1972. Emerson Fittipaldi ganó el Gran Premio de Italia y se convirtió en campeón mundial con un Lotus 72D negro y dorado. Dos años antes, otro 72 había quedado ligado a la muerte de Jochen Rindt en la misma pista. Una familia de autos podía guardar ambas memorias.",
+  "sections": [
+    {
+      "id": "cuna",
+      "title": "El aire dejó de encontrarse con un gran radiador frontal",
+      "paragraphs": [
+        "Colin Chapman y Maurice Philippe prepararon el 72 con una nariz baja, en forma de cuña, y radiadores situados en los laterales. Retirar la refrigeración del morro permitía revisar el flujo y el volumen frontal del monoplaza. La carrocería exterior reflejaba esa organización: su forma no era una decoración aplicada a una máquina convencional, sino la consecuencia visible de haber movido sus componentes.",
+        "El Cosworth DFV y la caja Hewland seguían siendo elementos conocidos, pero la estructura y las suspensiones ofrecían un planteo nuevo. El diseño incluía frenos delanteros interiores y soluciones destinadas a controlar los movimientos del auto al acelerar y frenar. Algunas de esas ideas necesitaron cambios antes de funcionar adecuadamente en competición. La versión que después se volvió célebre fue el resultado de un estreno difícil y de una revisión continua."
+      ],
+      "sourceIds": [
+        "lotus",
+        "wiki"
+      ]
+    },
+    {
+      "id": "rindt",
+      "title": "El año de una corona sin celebración",
+      "paragraphs": [
+        "El 72 debutó en el Gran Premio de España de 1970. Jochen Rindt continuó utilizando también el Lotus 49 mientras el nuevo auto maduraba. Cuando el 72 empezó a responder, ganó en Países Bajos, Francia, Gran Bretaña y Alemania. La campaña tuvo, así, una transición entre dos modelos, no un reemplazo instantáneo durante el primer fin de semana.",
+        "Rindt murió en las prácticas de Monza. Los puntos reunidos terminaron siendo suficientes para el título y lo convirtieron en el único campeón póstumo de la Fórmula 1. Emerson Fittipaldi ganó más adelante en Watkins Glen con el 72, un resultado decisivo para la resolución del campeonato. La escudería conservó el éxito deportivo, pero la historia del auto quedó marcada por la pérdida de su piloto principal."
+      ],
+      "sourceIds": [
+        "lotus",
+        "wiki",
+        "results70"
+      ]
+    },
+    {
+      "id": "fittipaldi",
+      "title": "El negro y dorado llegó después",
+      "paragraphs": [
+        "En 1972 el 72D recibió la decoración de John Player Special. La publicidad de pago no empezaba allí: Lotus ya había utilizado Gold Leaf con el 49 y con las primeras versiones del 72. Lo que cambió fue la identidad gráfica, cuya combinación negra y dorada convirtió al auto en una de las imágenes más reconocibles de la categoría.",
+        "Fittipaldi obtuvo el campeonato de 1972 y Lotus ganó el de constructores. La escudería repitió este último en 1973 con el trabajo de Fittipaldi y Ronnie Peterson, mientras Jackie Stewart fue campeón de pilotos. El 72 terminó acumulando veinte victorias mundialistas y tres títulos de constructores. Su permanencia hasta 1975 explica la amplitud de ese registro: distintas versiones acompañaron a varios pilotos durante una parte importante de la década."
+      ],
+      "sourceIds": [
+        "lotus",
+        "register",
+        "results73"
+      ]
+    },
+    {
+      "id": "archivo",
+      "title": "Los números de dos chasis se habían cruzado",
+      "paragraphs": [
+        "La reconstrucción histórica del modelo encontró un problema inesperado en dos unidades. Classic Team Lotus documentó que los chasis 72/3 y 72/7 habían intercambiado sus identidades atribuidas. Durante años, uno volvió a pintarse como un Gold Leaf porque se lo consideraba el otro. Las diferencias físicas entre ambos permitieron revisar esa asignación cuando regresaron al taller.",
+        "El auto de Fittipaldi restaurado en Hethel recuperó su historia correcta a través de esa investigación. La anécdota muestra la distancia entre reconocer una decoración y conocer una máquina: dos ejemplares de la misma familia podían conservar detalles que desmentían la etiqueta recibida. El 72 siguió cambiando en pista y después fuera de ella. Su larga vida no terminó cuando fue reemplazado; continuó dentro de los archivos, los talleres y las carreras históricas que todavía lo mantienen en movimiento."
+      ],
+      "sourceIds": [
+        "restoration",
+        "register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lotus",
+      "title": "Lotus Cars — Type 72, diseño y campañas",
+      "url": "https://www.lotuscars.com/ja-JP/lotus-story/race-cars/type-72"
+    },
+    {
+      "id": "register",
+      "title": "Classic Team Lotus — registro del Type 72",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-72/"
+    },
+    {
+      "id": "restoration",
+      "title": "Classic Team Lotus — recuperación de la identidad del 72 de Fittipaldi",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2020/fittipaldi-grand-prix-winning-f1-lotus-restored/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lotus 72, desarrollo",
+      "url": "https://en.wikipedia.org/wiki/Lotus_72"
+    },
+    {
+      "id": "results70",
+      "title": "Formula 1 — resultados de 1970",
+      "url": "https://www.formula1.com/en/results/1970/races"
+    },
+    {
+      "id": "results73",
+      "title": "Formula 1 — clasificación de constructores de 1973",
+      "url": "https://www.formula1.com/en/results/1973/team"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1970",
+      "href": "/historia/seasons/1970"
+    }
+  ]
+}

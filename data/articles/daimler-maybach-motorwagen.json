@@ -1,0 +1,100 @@
+{
+  "slug": "daimler-maybach-motorwagen",
+  "title": "Daimler y Maybach: el carruaje que empezó a viajar sin caballos",
+  "description": "Un motor pequeño abrió posibilidades que no terminaban en el automóvil. El carruaje de 1886 fue una de las formas que encontró el trabajo de Daimler y Maybach.",
+  "category": "Autos de leyenda",
+  "year": 1886,
+  "period": "1885–1889",
+  "tags": [
+    "Daimler",
+    "Maybach",
+    "Motorwagen",
+    "Reitwagen",
+    "1886"
+  ],
+  "lead": "El 8 de marzo de 1886, Gottlieb Daimler encargó un carruaje a Wilhelm Wimpff & Sohn, en Stuttgart. Aquel objeto convencional se convirtió en un vehículo experimental al recibir un motor desarrollado con Wilhelm Maybach. El proyecto proponía una idea de enorme alcance: una misma máquina compacta podía encontrar trabajo sobre ruedas, sobre el agua y, más adelante, en el aire.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Un motor pequeño para salir del edificio",
+      "paragraphs": [
+        "Daimler y Maybach conocían el mundo de los motores estacionarios. Su nueva investigación buscaba una máquina de combustión interna suficientemente ligera y veloz para instalarla en un medio de transporte. El motor de cilindro vertical recibió el apodo de reloj de pie por su silueta. Su importancia estaba en permitir que la fuente de movimiento viajara junto al usuario, en lugar de permanecer vinculada a una instalación fija.",
+        "Antes del carruaje, probaron una versión en el Reitwagen de 1885. Era un vehículo de dos ruedas principales, acompañado por pequeñas ruedas auxiliares, que servía como banco de ensayo móvil. La documentación del museo Mercedes-Benz destaca su papel experimental. El objetivo principal no era perfeccionar una motocicleta comercial, sino comprobar cómo respondía el motor al desplazarse con una estructura y un conductor."
+      ],
+      "sourceIds": [
+        "reitwagen",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Wimpff proporcionó el vehículo; el taller, el movimiento",
+      "paragraphs": [
+        "El encargo de 1886 fue un coche de modelo Americaine. Daimler y Maybach instalaron una versión mayor de su monocilíndrico, de alrededor de 1,1 caballos. La apariencia de carruaje permaneció reconocible: cuatro grandes ruedas, asientos altos y una dirección propia de los vehículos de tracción animal. La transformación permitió ensayar una aplicación sin fabricar de inmediato cada parte de un automóvil completamente nuevo.",
+        "La historia oficial diferencia este procedimiento del seguido por Carl Benz, que diseñó su triciclo como un conjunto integrado. Ambos caminos permiten comprender la etapa inicial. Unos investigadores aprovechaban soluciones existentes para demostrar un motor; otros reorganizaban el vehículo alrededor del nuevo mecanismo. Ninguna de las dos experiencias ocurrió todavía dentro de la empresa Mercedes-Benz, creada décadas más tarde."
+      ],
+      "sourceIds": [
+        "motorcar",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La refrigeración también formaba parte del ensayo",
+      "paragraphs": [
+        "El carruaje comenzó con un motor refrigerado por aire y pasó a utilizar agua en 1887. Ese cambio muestra que instalar una máquina no terminaba el proyecto. La temperatura, el suministro de combustible y la transferencia del movimiento exigían soluciones compatibles con un objeto que circulaba por caminos. Una experiencia satisfactoria en un taller no garantizaba el mismo funcionamiento sobre ruedas.",
+        "El museo conserva el Reitwagen como testimonio de esa exploración y distintas instituciones documentan modelos del carruaje de 1886. La escala material ayuda a leer la historia: se trataba de fabricar, adaptar y volver a probar. Los primeros vehículos no eran versiones incompletas de un coche moderno que sus autores ya pudieran visualizar entero; resolvían una secuencia de problemas inmediatos con medios disponibles."
+      ],
+      "sourceIds": [
+        "motorcar",
+        "reitwagen",
+        "smithsonian"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una invención que circuló mediante licencias",
+      "paragraphs": [
+        "La posibilidad de utilizar motores compactos en diferentes transportes se extendió mediante acuerdos comerciales. La historia de Mercedes-Benz registra contactos en Francia, Gran Bretaña y Norteamérica; William Steinway obtuvo derechos de representación en Estados Unidos y Canadá. Esa circulación explica por qué las primeras carreras reunieron vehículos de fabricantes diferentes con motores relacionados técnicamente.",
+        "En 1894, Peugeot y Panhard & Levassor utilizaron motores construidos bajo licencia Daimler en París–Rouen. El carruaje experimental había dejado paso a una red industrial. Maybach continuaría desarrollando soluciones que desembocaron en el Mercedes 35 PS de 1901, con un chasis mucho más bajo. Entre ambos objetos cambió la relación entre motor y vehículo: el motor ya no se limitaba a ocupar el espacio que antes dejaba un caballo."
+      ],
+      "sourceIds": [
+        "historia",
+        "reitwagen",
+        "motorcar"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "historia",
+      "title": "Mercedes-Benz Group: empresas precursoras y primeros motores",
+      "url": "https://group.mercedes-benz.com/company/tradition/company-history/1886-1920.html"
+    },
+    {
+      "id": "motorcar",
+      "title": "Mercedes-Benz Classic: historia del Motor Carriage 1886",
+      "url": "https://store.mercedes-benz.com/global/en/Daimler-Motor-Carriage-1886/B66041416"
+    },
+    {
+      "id": "reitwagen",
+      "title": "Mercedes-Benz Museum: Reitwagen de 1885",
+      "url": "https://www.mercedes-benz.com/en/art-and-culture/museum/exhibition/daimler-riding-carriage/"
+    },
+    {
+      "id": "smithsonian",
+      "title": "Smithsonian: modelo del Daimler Motor Carriage de 1886",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1382926"
+    }
+  ],
+  "related": [
+    {
+      "label": "Benz Patent-Motorwagen",
+      "href": "/articulos/benz-patent-motorwagen"
+    },
+    {
+      "label": "Mercedes 35 PS",
+      "href": "/articulos/mercedes-35-ps"
+    }
+  ]
+}

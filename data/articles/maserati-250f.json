@@ -1,0 +1,100 @@
+{
+  "slug": "maserati-250f",
+  "title": "Maserati 250F: la persecución que Fangio terminó en Nürburgring",
+  "description": "El seis cilindros de 1954 ganó en su debut, llegó a clientes particulares y encontró su tarde legendaria con el quinto título del argentino.",
+  "category": "Autos de leyenda",
+  "period": "1957",
+  "year": 1957,
+  "tags": [
+    "Maserati 250F",
+    "Juan Manuel Fangio",
+    "Giulio Alfieri"
+  ],
+  "lead": "Nürburgring, 4 de agosto de 1957. Después de una parada que le había quitado el liderato, Juan Manuel Fangio persiguió a los Ferrari de Peter Collins y Mike Hawthorn. El Maserati 250F recuperó la distancia perdida y ganó. Aquella tarde terminó de dar forma a la leyenda del quinto campeonato del argentino.",
+  "sections": [
+    {
+      "id": "1954",
+      "title": "Un auto preparado para otra fórmula",
+      "paragraphs": [
+        "El 250F nació para el reglamento de 2,5 litros de 1954. Maserati combinó una estructura tubular con un seis cilindros en línea situado delante del piloto. El nombre describía el volumen aproximado del motor y su destino de Fórmula 1. Su primera carrera mundialista, en Argentina, terminó con una victoria de Fangio.",
+        "El argentino ganó también en Bélgica antes de incorporarse a Mercedes. Sus resultados con ambas marcas contribuyeron al título de 1954. El 250F no necesitó esperar a la campaña de 1957 para ser competitivo: empezó ganando y siguió desarrollándose dentro de una parrilla que cambiaba rápidamente. La disposición de motor delantero era todavía el punto de referencia para los equipos principales."
+      ],
+      "sourceIds": [
+        "wiki",
+        "brand",
+        "results54"
+      ]
+    },
+    {
+      "id": "clientes",
+      "title": "Una máquina oficial que también podía comprarse",
+      "paragraphs": [
+        "Stirling Moss utilizó un 250F privado durante 1954. El modelo llegó a otros pilotos y equipos que no tenían una fábrica propia de monoplazas. Maserati podía sostener una campaña oficial y al mismo tiempo suministrar una máquina reconocible a participantes particulares. Esa difusión hizo del auto una presencia habitual en la Fórmula 1 de mediados de los cincuenta.",
+        "La familia no permaneció idéntica. Los vehículos recibieron revisiones de peso, motor y transmisión, y Maserati investigó también alternativas que no reemplazaron completamente al seis cilindros conocido. El 250F de la gran campaña de Fangio era el resultado de ese desarrollo. Una misma denominación reunió unidades con historias y ajustes diferentes, entre los autos de fábrica y aquellos que seguían compitiendo en manos de clientes."
+      ],
+      "sourceIds": [
+        "wiki",
+        "museum"
+      ]
+    },
+    {
+      "id": "1957",
+      "title": "Fangio volvió a encontrar un auto para su ritmo",
+      "paragraphs": [
+        "Después de su campeonato con Ferrari en 1956, Fangio regresó a Maserati. Ganó en Argentina, Mónaco y Francia antes de llegar al Gran Premio alemán. La estrategia en Nürburgring incluía una parada para reponer combustible y cambiar neumáticos. El tiempo perdido allí dejó a los Ferrari delante y convirtió la segunda parte de la prueba en una persecución.",
+        "La remontada exigió superar las referencias que el propio argentino había establecido sobre el largo circuito. Fangio alcanzó a Collins y Hawthorn y consiguió la victoria. Maserati recuerda ese resultado como la actuación que aseguró su lugar junto al título de 1957. No fue el triunfo de una tecnología insólita, sino el punto más alto de la relación entre una máquina madura y un piloto que sabía extraer de ella algo extraordinario."
+      ],
+      "sourceIds": [
+        "brand",
+        "results57",
+        "wiki"
+      ]
+    },
+    {
+      "id": "despues",
+      "title": "El auto siguió en pista mientras cambiaba la época",
+      "paragraphs": [
+        "Maserati redujo su participación oficial después de 1957. Los 250F continuaron apareciendo con particulares, incluso cuando los Cooper de motor central trasero empezaban a mostrar otro camino. La máquina conservó su presencia mundialista hasta 1960. El modelo que había estrenado la fórmula de 2,5 litros también pudo verse cerca del final de ella.",
+        "En Balcarce, el Museo Fangio conserva la relación del campeón con el 250F dentro de su recorrido por las máquinas de sus títulos. Ese contexto permite volver desde la leyenda alemana hacia el objeto: un motor delante, una estructura tubular y cuatro ruedas que el piloto debía llevar por la pista. Nürburgring le dio su relato más famoso; las temporadas anteriores, los clientes y las unidades conservadas muestran cuánto trabajo había detrás de aquella tarde."
+      ],
+      "sourceIds": [
+        "museum",
+        "wiki",
+        "brand"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "brand",
+      "title": "Maserati — Fangio, el 250F y las raíces deportivas",
+      "url": "https://www.maserati.com/au/en/brand/stories-of-audacity/f-tributo/racing-roots"
+    },
+    {
+      "id": "museum",
+      "title": "Museo Fangio — Maserati 250F de 1957",
+      "url": "https://www.museofangio.com/en/virtual-visit/museo-fangio/16-con-velocidad-maxima-a-la-cumbre-mundial/6/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Maserati 250F, evolución y bibliografía",
+      "url": "https://en.wikipedia.org/wiki/Maserati_250F"
+    },
+    {
+      "id": "results54",
+      "title": "Formula 1 — resultados de 1954",
+      "url": "https://www.formula1.com/en/results/1954/races"
+    },
+    {
+      "id": "results57",
+      "title": "Formula 1 — resultados de 1957",
+      "url": "https://www.formula1.com/en/results/1957/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1957",
+      "href": "/historia/seasons/1957"
+    }
+  ]
+}

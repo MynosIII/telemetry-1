@@ -1,0 +1,108 @@
+{
+  "slug": "williams-fw14b",
+  "title": "Williams FW14B: Red Five y el coche que no hizo falta reemplazar",
+  "description": "Mansell, Newey y Head convirtieron una evolución provisional en el campeón de 1992.",
+  "year": 1992,
+  "period": "1992",
+  "tags": [
+    "Williams FW14B",
+    "Nigel Mansell",
+    "Suspensión activa"
+  ],
+  "lead": "En Silverstone, el 12 de julio de 1992, Nigel Mansell ganó desde la pole, lideró cada vuelta y marcó el giro más rápido. El número cinco rojo atravesó una carrera que convirtió la superioridad del FW14B en una celebración pública.",
+  "sections": [
+    {
+      "id": "silverstone",
+      "title": "El número rojo frente a su público",
+      "paragraphs": [
+        "La victoria británica reunió los elementos del gran premio perfecto. Mansell había llegado a la temporada después de varias oportunidades de campeonato que se habían escapado, y el FW14B le ofrecía una herramienta capaz de cambiar aquella historia. La letra B puede parecer pequeña al lado de semejante resultado, pero indica que el coche era una evolución de la arquitectura estrenada el año anterior.",
+        "En 1991, el FW14 ya había mostrado velocidad. Los problemas de fiabilidad, especialmente alrededor de la transmisión, complicaron su campaña. Para 1992 Williams no necesitaba solamente un diseño más rápido: necesitaba que su rendimiento pudiera repetirse con regularidad. El coche que finalmente ganó el campeonato nació de esa combinación de mejora técnica y consolidación, con Patrick Head y Adrian Newey en funciones centrales."
+      ],
+      "sourceIds": [
+        "equipo",
+        "newey"
+      ]
+    },
+    {
+      "id": "altura",
+      "title": "Una suspensión al servicio del aire",
+      "paragraphs": [
+        "La suspensión activa fue la característica más célebre del FW14B. Su importancia estaba vinculada a la aerodinámica: controlar la plataforma del coche ayudaba a mantener la relación entre sus superficies y el suelo. Un fondo eficaz necesita algo más que una forma correcta dibujada en reposo; también depende de cómo se inclina y cambia de altura cuando el piloto frena, acelera o entra en una curva.",
+        "La incorporación del sistema al FW14 exigió adaptar un coche que no había nacido completamente alrededor de él. Williams mantuvo, además, el motor Renault V10 de 3,5 litros y una transmisión semiautomática. La electrónica no sustituyó el trabajo de aerodinámica ni la conducción. Permitió que distintos componentes operaran juntos dentro de una ventana más favorable. La superioridad se encontraba en esa relación, no en una caja aislada de control."
+      ],
+      "sourceIds": [
+        "equipo",
+        "testimonio",
+        "motor"
+      ]
+    },
+    {
+      "id": "fw15",
+      "title": "Guardar un coche nuevo en lugar de estrenarlo",
+      "paragraphs": [
+        "Williams había preparado el FW15 para dar otro paso, pero el rendimiento del FW14B hizo innecesario utilizarlo durante 1992. Adrian Newey explicó posteriormente que la prioridad pasó a ser la fiabilidad del coche activo ya disponible. La decisión revela algo poco habitual en los relatos de innovación: a veces el mejor desarrollo consiste en resistir la tentación de reemplazar una solución que funciona.",
+        "Mansell ganó las primeras cinco carreras del año. El resto de la campaña no fue una secuencia sin interrupciones, pero la ventaja acumulada permitió asegurar el título en Hungría con cinco grandes premios por disputar. El FW14B terminaría con diez victorias: nueve del británico y una de Riccardo Patrese, en Japón. El registro de carreras permite ubicar ese último triunfo con precisión."
+      ],
+      "sourceIds": [
+        "newey",
+        "resultados",
+        "equipo"
+      ]
+    },
+    {
+      "id": "confianza",
+      "title": "El piloto seguía siendo parte del sistema",
+      "paragraphs": [
+        "La capacidad de mantener una plataforma estable no hacía que el coche eligiera por sí solo cómo atacar una vuelta. Mansell y Patrese debían interpretar sus respuestas, sus niveles de adherencia y las oportunidades de cada circuito. La combinación más exitosa fue la del británico con una máquina que le permitió aprovechar un rendimiento extraordinario sin perder el peso de su propia ejecución.",
+        "La temporada de 1992 cerró una larga búsqueda personal y abrió una breve etapa de sofisticación electrónica que alcanzaría otra forma en el FW15C. El FW14B conserva un lugar especial porque hizo visible una idea difícil de observar desde las tribunas: el aire podía trabajar mejor cuando el coche controlaba su postura. En Silverstone, esa ingeniería terminó traducida en una imagen mucho más sencilla, el cinco rojo cruzando primero la meta."
+      ],
+      "sourceIds": [
+        "equipo",
+        "testimonio",
+        "resultados"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "equipo",
+      "title": "Williams: Mansell y el FW14B",
+      "url": "https://www.williamsf1.com/articles/22794892-7962-4c82-b00b-90aac32870b8/nigel-mansell-and-the-fw14b-an-iconic-duo"
+    },
+    {
+      "id": "newey",
+      "title": "Adrian Newey: sus seis coches favoritos, entrevista",
+      "url": "https://www.motorsportmagazine.com/archive/article/september-2014/36/adrian-newey/"
+    },
+    {
+      "id": "testimonio",
+      "title": "Motor Sport: suspensión activa, testimonios de sus protagonistas",
+      "url": "https://www.motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride/"
+    },
+    {
+      "id": "motor",
+      "title": "Renault: historia de sus motores de Fórmula 1",
+      "url": "https://media.renault-group.nl/wp-content/uploads/2013/06/F1_motor_presskit.pdf"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 1992",
+      "url": "https://www.formula1.com/en/results/1992/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Williams",
+      "href": "/historia/constructors/williams"
+    },
+    {
+      "label": "Temporada 1992",
+      "href": "/historia/seasons/1992"
+    },
+    {
+      "label": "Williams FW15C",
+      "href": "/articulos/williams-fw15c"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

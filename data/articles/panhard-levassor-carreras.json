@@ -1,0 +1,105 @@
+{
+  "slug": "panhard-levassor-carreras",
+  "title": "Panhard & Levassor: una arquitectura probada en la carretera",
+  "description": "Antes de los nombres de modelo célebres, Panhard y Levassor reorganizaron el automóvil. Las primeras carreras pusieron a prueba tanto la máquina como las reglas del premio.",
+  "category": "Autos de leyenda",
+  "year": 1895,
+  "period": "1891–1900",
+  "tags": [
+    "Panhard",
+    "Levassor",
+    "4HP",
+    "Gordon Bennett",
+    "State d’art"
+  ],
+  "lead": "En junio de 1895, Émile Levassor regresó a París después de recorrer la ruta hasta Burdeos y vuelta con un Panhard de dos plazas. Había llegado antes que sus rivales, pero el premio principal estaba reservado a un vehículo de cuatro asientos. La velocidad y el reglamento volvieron a contar historias distintas en una industria que todavía aprendía a competir.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Desde las máquinas herramientas al automóvil",
+      "paragraphs": [
+        "Panhard & Levassor surgió de un taller industrial parisino dedicado a máquinas herramientas. La asociación de René Panhard y Émile Levassor incorporó las licencias Daimler a la producción de vehículos de gasolina. El conocimiento alemán del motor encontró una aplicación francesa que fue reorganizando el conjunto del automóvil. El museo MAUTO describe una transición hacia motor delantero y tracción trasera en sus primeras series.",
+        "Los vehículos de aquella etapa tenían denominaciones y configuraciones que evolucionaban rápidamente. State d’art, expresión utilizada a veces para elogiar la técnica de un Panhard, no identifica un modelo histórico comprobado. Para seguir las carreras conviene reconocer el coche de cuatro caballos de Levassor y las máquinas posteriores de la Copa Gordon Bennett, sin atribuirles retrospectivamente una identidad comercial única."
+      ],
+      "sourceIds": [
+        "mauto",
+        "registro"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "París–Burdeos: dos plazas y un resultado excepcional",
+      "paragraphs": [
+        "La prensa técnica de 1895 describió el Panhard que había llegado primero: motor de petróleo de dos cilindros colocado delante, acceso para engrase y mantenimiento y depósitos que condicionaban las paradas. Le Technologiste anunció unos 1.175 kilómetros cubiertos en aproximadamente 48 horas y 42 minutos. El texto es una fuente contemporánea que combina descripción mecánica y promoción comercial.",
+        "La Locomotion Automobile publicó después la distribución de premios. Levassor recibió el segundo porque el primero exigía un automóvil de cuatro plazas. La clasificación demuestra que un viaje rápido todavía podía ser evaluado mediante criterios prácticos. La capacidad de transportar pasajeros formaba parte de la pregunta que se hacía la organización, junto con la resistencia mecánica."
+      ],
+      "sourceIds": [
+        "technologiste",
+        "locomotion"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "El sistema Panhard y su consecuencia práctica",
+      "paragraphs": [
+        "El motor delantero, la caja de cambios y la transmisión al eje posterior dieron forma a una disposición que sería muy influyente. La solución repartía funciones en lugares diferenciados: producir potencia delante, seleccionar una relación intermedia y mover las ruedas traseras. La historia del automóvil agrupó esa arquitectura bajo el nombre de sistema Panhard. Su éxito no depende de adjudicar cada componente a un solo inventor.",
+        "La historia del club Les Doyennes permite seguir esa diversidad a través de los motores: los primeros bicilíndricos en V Daimler fueron sucedidos por los Phénix y después por los Centaure. Arthur Krebs buscó reducir las cargas económicas de las licencias mediante nuevos diseños. La evolución de una familia mecánica incluía así una pregunta comercial, además de potencia y refrigeración: cuánto costaba fabricar cada unidad con derechos ajenos.",
+        "La documentación del club sitúa la adopción del volante en 1898 y la llegada de la transmisión por cardán en 1908, mientras las cadenas continuaron utilizadas en grandes cilindradas. Esa cronología impide atribuir todas las soluciones a un único coche de carrera. Los motores, los mandos y la transmisión cambiaban en años diferentes, con aplicaciones que convivían dentro de una misma fábrica."
+      ],
+      "sourceIds": [
+        "registro",
+        "mauto"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "La reputación se volvió internacional",
+      "paragraphs": [
+        "En 1900, Fernand Charron ganó la primera Copa Gordon Bennett con un Panhard & Levassor sobre la ruta París–Lyon. El resultado introdujo la marca en una competencia entre representaciones nacionales, distinta de los concursos iniciales. La ingeniería debía ahora producir un coche rápido, pero también resistir una distancia larga y representar el prestigio industrial de Francia frente a rivales extranjeros.",
+        "El balance de Panhard en la exposición internacional de Milán de 1906 enumeraba carreras, premios y exposiciones como parte de una misma historia empresarial. Esa mezcla ilumina los orígenes del deporte: una victoria anunciaba la capacidad de fabricar. Los coches de Levassor y Charron conectan el motor bajo licencia con una arquitectura propia y muestran cómo la carretera podía convertirse en una sala de exposición que recorría países."
+      ],
+      "sourceIds": [
+        "copa",
+        "milan"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mauto",
+      "title": "MAUTO: historia de Panhard",
+      "url": "https://www.museoauto.com/en/qrcode/storia-della-panhard/"
+    },
+    {
+      "id": "registro",
+      "title": "Les Doyennes de Panhard & Levassor: familias de motores y vehículos de 1891 a los años veinte",
+      "url": "https://doyennes-panhard-levassor.fr/fr/les-modeles-de-1891-aux-annees-20/"
+    },
+    {
+      "id": "technologiste",
+      "title": "Le Technologiste, julio de 1895: automóvil Panhard & Levassor (CNUM)",
+      "url": "https://cnum.cnam.fr/pgi/redir.php?ident=P931.57&onglet=c"
+    },
+    {
+      "id": "locomotion",
+      "title": "La Locomotion Automobile, julio de 1895: premios de París–Burdeos (reproducción)",
+      "url": "https://motorracinghistory.com/apres-la-course-translation-la-locomotion-automobile-no-7-july-1895/"
+    },
+    {
+      "id": "copa",
+      "title": "Gordon Bennett Cup: edición de 1900",
+      "url": "https://gordonbennettcup.racing/1900-2/"
+    },
+    {
+      "id": "milan",
+      "title": "Exposición de Milán 1906: sección Panhard & Levassor (CNUM)",
+      "url": "https://cnum.cnam.fr/pgi/redir.php?ident=8XAE646.P1&onglet=c"
+    }
+  ],
+  "related": [
+    {
+      "label": "Copa Gordon Bennett",
+      "href": "/articulos/copa-gordon-bennett"
+    }
+  ]
+}

@@ -1,88 +1,166 @@
 {
-  "slug":"grandes-epreuves",
-  "title":"Grandes Épreuves: el orden internacional antes de la Fórmula 1",
-  "description":"Qué significaba una Grande Épreuve, cómo se eligieron las carreras de los campeonatos de entreguerras y por qué 1950 no fue el comienzo de todos los Grand Prix.",
-  "category":"Los orígenes",
-  "period":"1906–1950",
-  "lead":"Un Grand Prix podía ser importante sin formar parte de un campeonato, y una Grande Épreuve no equivalía automáticamente a una carrera puntuable. Entender esas diferencias permite leer el automovilismo de entreguerras sin imponerle el calendario y las categorías de la Fórmula 1 actual.",
-  "sections":[
+  "slug": "grandes-epreuves",
+  "title": "Antes del Mundial: el mapa de las Grandes Épreuves",
+  "description": "Qué significaba una Grande Épreuve, cómo se eligieron las carreras de los campeonatos de entreguerras y por qué 1950 no fue el comienzo de todos los Grand Prix.",
+  "category": "Los orígenes",
+  "period": "1906–1950",
+  "lead": "En 1931, Ferdinando Minoia fue campeón de Europa sin ganar ninguna de las carreras elegidas para el certamen. No era una anomalía del relato: era el resultado de sus reglas. Antes de que el Mundial ordenara la memoria del automovilismo, los Grand Prix formaban un mapa de prestigios, fórmulas y campeonatos que no siempre coincidían.",
+  "sections": [
     {
-      "id":"prestigio-y-calendario",
-      "title":"Prestigio, reglamento y lugar en el calendario",
-      "paragraphs":[
+      "id": "prestigio-y-calendario",
+      "title": "Prestigio, reglamento y lugar en el calendario",
+      "paragraphs": [
         "La expresión francesa Grande Épreuve identificaba las grandes pruebas del calendario internacional. Las reconstrucciones suelen utilizarla para agrupar los principales acontecimientos desde el Grand Prix de l'ACF de 1906; su función institucional quedó más definida con la Commission Sportive Internationale de la AIACR, creada en 1922. La designación concedía prioridad al fijar fechas y distinguía eventos entre un número creciente de carreras.",
         "No todos los Grand Prix recibían esa condición, ni todas las Grandes Épreuves sumaban puntos para un mismo campeonato. La lista cambiaba con el tiempo. Incluso la clase de vehículos podía variar: algunas ediciones del Grand Prix de Francia se reservaron a deportivos. Por eso el nombre de una prueba no basta para conocer su reglamento o su situación deportiva.",
-        "La AIACR había nacido en 1904 como asociación de clubes nacionales. La historia oficial de la FIA conecta ese proceso con la cooperación surgida alrededor de la Copa Gordon Bennett. Antes de construir un campeonato estable, el deporte necesitó instituciones que pudieran coordinar a los organizadores."
+        "La AIACR había nacido en 1904 como asociación de clubes nacionales. La cooperación surgida alrededor de Gordon Bennett ya había mostrado que cada carrera dependía de acuerdos más amplios. Con la creación de la comisión deportiva, esa red pudo ordenar fechas y reglamentos. Una gran prueba empezaba a ocupar un lugar institucional, además del lugar que le concedían sus espectadores."
       ],
-      "sourceIds":["criterios", "grande", "fia"]
+      "sourceIds": [
+        "criterios",
+        "grande",
+        "fia"
+      ]
     },
     {
-      "id":"un-titulo-para-las-marcas",
-      "title":"El primer Mundial premiaba a las marcas",
-      "paragraphs":[
+      "id": "un-titulo-para-las-marcas",
+      "title": "El primer Mundial premiaba a las marcas",
+      "paragraphs": [
         "Entre 1925 y 1927 se disputó un Campeonato Mundial de fabricantes. Alfa Romeo, Bugatti y Delage obtuvieron los títulos de esos años. La unidad premiada era la marca, una diferencia esencial respecto del Campeonato Mundial de pilotos inaugurado en 1950. Convertir a los pilotos destacados de aquellas temporadas en campeones mundiales individuales produce un palmarés que nunca fue adjudicado así.",
         "Las grandes pruebas sirvieron de base a aquel intento, pero mantener un campeonato requería que las carreras previstas se celebraran bajo las condiciones acordadas. Los proyectos de 1928, 1929 y 1930 no produjeron títulos oficiales. El prestigio de los eventos sobrevivía; la estructura del certamen podía fracasar.",
         "La revista histórica de la FIA describe un deporte expuesto a ciclos de participación y retirada de los fabricantes. El reglamento debía responder a esas variaciones, y a la presencia creciente de equipos ajenos a las fábricas. La continuidad de un calendario no estaba garantizada por el éxito de una sola carrera."
       ],
-      "sourceIds":["criterios", "fiaauto14", "fiaauto9"]
+      "sourceIds": [
+        "criterios",
+        "fiaauto14",
+        "fiaauto9"
+      ]
     },
     {
-      "id":"el-europeo-de-pilotos",
-      "title":"El Europeo y una manera distinta de sumar",
-      "paragraphs":[
+      "id": "el-europeo-de-pilotos",
+      "title": "El Europeo y una manera distinta de sumar",
+      "paragraphs": [
         "El Campeonato de Europa de pilotos apareció en 1931. Las pruebas elegidas fueron los Grand Prix de Italia, Francia y Bélgica, con carreras de diez horas. Ferdinando Minoia consiguió el título sin ganar ninguna. La investigación de Hans Etzrodt reconstruye cómo la distancia recorrida y el sistema de puntuación permitieron superar a Giuseppe Campari después de la última prueba.",
         "No hubo un campeonato de pilotos continuo durante toda la década: después de 1931 y 1932, la serie regresó en 1935 y continuó hasta 1939. En la etapa de 1935–1938 se premiaba al menor total de puntos. Un primero recibía uno, un segundo dos y un tercero tres; para otros participantes importaba también la proporción de carrera completada. Abandonar pronto o no salir era especialmente costoso.",
-        "Esa lógica valoraba la persistencia de una manera diferente del sistema actual. No debe confundirse con un simple cálculo retrospectivo de victorias. El campeón surgía de unas reglas concretas y de una selección de pruebas, mientras otras carreras de gran importancia podían quedar fuera del certamen."
+        "Una llegada tenía valor incluso cuando no había una victoria. El sistema convertía la persistencia en un elemento decisivo y hacía que completar una parte de la distancia cambiara el balance del campeonato. Minoia terminó delante de Campari dentro de ese marco. Fuera de él, otros eventos seguían ofreciendo prestigio y triunfos: la temporada de un piloto era más grande que el pequeño grupo de carreras elegido para adjudicar el título."
       ],
-      "sourceIds":["europeo1931", "tablas", "europeowiki"]
+      "sourceIds": [
+        "europeo1931",
+        "tablas",
+        "europeowiki"
+      ]
     },
     {
-      "id":"europa-no-era-otra-carrera",
-      "title":"Grand Prix de Europa: una distinción que podía superponerse",
-      "paragraphs":[
+      "id": "europa-no-era-otra-carrera",
+      "title": "Grand Prix de Europa: una distinción que podía superponerse",
+      "paragraphs": [
         "El Grand Prix de Europa fue durante muchos años una distinción añadida a un acontecimiento nacional, no una carrera extra que hubiera que sumar al calendario. Monza acogió esa designación en 1923; después la recibieron otros eventos y sedes. Una misma edición podía tener, por ejemplo, un nombre nacional y el título europeo.",
         "La diferencia evita duplicar resultados cuando se comparan historiales. Un ganador del Grand Prix de Italia que además era Grand Prix de Europa había ganado una competencia, no dos. El caso de Silverstone 1950 muestra la continuidad de esa tradición: la carrera inaugural del Mundial también llevó el título de Grand Prix de Europa.",
         "Grand Prix era el nombre del evento; Grande Épreuve expresaba su posición institucional; Europeo o Mundial podía designar un campeonato, y Grand Prix de Europa una distinción del propio acontecimiento. Esas capas se relacionaban, pero no eran intercambiables."
       ],
-      "sourceIds":["criterios", "f1origen"]
+      "sourceIds": [
+        "criterios",
+        "f1origen"
+      ]
     },
     {
-      "id":"1939-y-la-guerra",
-      "title":"1939: el campeonato que no tuvo resolución internacional",
-      "paragraphs":[
+      "id": "1939-y-la-guerra",
+      "title": "1939: el campeonato que no tuvo resolución internacional",
+      "paragraphs": [
         "La temporada de 1939 exige cautela. Hermann Lang suele aparecer como campeón europeo, pero la AIACR no adjudicó oficialmente aquel título. Las reconstrucciones históricas señalan un desacuerdo sobre el sistema de puntos que debía aplicarse; usando el de los años precedentes, Hermann Paul Müller habría quedado delante. La guerra impidió cerrar el proceso previsto.",
         "La autoridad deportiva alemana proclamó a Lang campeón, pero esa decisión nacional no sustituía a una adjudicación de la federación internacional. Los historiadores conservan la diferencia porque altera el significado del resultado. Una tabla que escribe simplemente un nombre puede ocultar una controversia documental y política.",
         "La Segunda Guerra Mundial interrumpió además la actividad que sustentaba el calendario europeo. El regreso posterior necesitó recuperar coches, equipos y organización, junto con un acuerdo técnico capaz de reunir material de procedencias distintas."
       ],
-      "sourceIds":["tablas", "criterios", "europeowiki", "fiaauto14"]
+      "sourceIds": [
+        "tablas",
+        "criterios",
+        "europeowiki",
+        "fiaauto14"
+      ]
     },
     {
-      "id":"formula-y-mundial",
-      "title":"Primero la fórmula; después, el Mundial",
-      "paragraphs":[
+      "id": "formula-y-mundial",
+      "title": "Primero la fórmula; después, el Mundial",
+      "paragraphs": [
         "En 1946 se acordó la nueva fórmula internacional, aplicada formalmente desde 1947: motores atmosféricos de hasta 4,5 litros o sobrealimentados de hasta 1,5 litros. La AIACR pasó a llamarse FIA. La categoría técnica ya podía organizar carreras antes de que existiera su nuevo Mundial de pilotos.",
         "El 13 de mayo de 1950, Silverstone inauguró ese campeonato. Entre sus siete rondas estaban las 500 Millas de Indianápolis, que utilizaban reglas diferentes. Por eso incluso el primer calendario mundial exige distinguir certamen y reglamento de una prueba.",
-        "Leer los años anteriores con esas distinciones permite apreciar su diversidad. El Mundial heredó instituciones y grandes eventos; no convirtió retroactivamente cada carrera previa en Fórmula 1 ni otorgó campeonatos a quienes nunca los recibieron."
+        "El Mundial heredó esa red de clubes, grandes eventos y decisiones técnicas. Su calendario terminó dando una continuidad nueva a parte del mapa anterior, pero no borró los caminos que habían quedado fuera. Minoia, las marcas campeonas de los años veinte y el título sin adjudicar de 1939 pertenecían a otra organización del deporte. Sus historias sobrevivieron aunque el centro de la memoria se desplazara hacia 1950."
       ],
-      "sourceIds":["f1origen", "fia", "f1silverstone"]
+      "sourceIds": [
+        "f1origen",
+        "fia",
+        "f1silverstone"
+      ]
     }
   ],
-  "sources":[
-    {"id":"criterios","title":"Hans Etzrodt, The Golden Era: criterios de Grandes Épreuves, campeonatos y Grand Prix de Europa","url":"https://www.goldenera.fi/gpw4.htm"},
-    {"id":"grande","title":"Wikipedia: Grande Épreuve (revisión histórica)","url":"https://fr.wikipedia.org/w/index.php?title=Grande_%C3%89preuve&oldid=204956735"},
-    {"id":"fia","title":"FIA: fundación de la AIACR y cambio de nombre","url":"https://www.fia.com/news/founding-members-meet-celebrate-fias-120th-anniversary"},
-    {"id":"fiaauto14","title":"FIA AUTO 14: historia del desarrollo de las fórmulas de Grand Prix","url":"https://api.fia.com/sites/default/files/auto_14.pdf"},
-    {"id":"fiaauto9","title":"FIA AUTO 9: historia de los campeonatos internacionales","url":"https://www.fia.com/sites/default/files/auto9.pdf"},
-    {"id":"europeo1931","title":"Hans Etzrodt, The Golden Era: reconstrucción documental del Europeo de 1931","url":"https://www.goldenera.fi/cha1.htm"},
-    {"id":"tablas","title":"The Golden Era: tablas, puntuación y falta de adjudicación oficial en 1939","url":"https://www.goldenera.fi/cha.htm"},
-    {"id":"europeowiki","title":"Wikipedia: Championnat d'Europe des pilotes","url":"https://fr.wikipedia.org/wiki/Championnat_d%27Europe_des_pilotes"},
-    {"id":"f1origen","title":"Formula 1: preguntas sobre el origen de la categoría y su Mundial","url":"https://www.formula1.com/en/latest/article/why-is-it-called-formula-1-and-12-other-questions-about-the-championships.1GHeel6u4jga6hMpX2eFs1"},
-    {"id":"f1silverstone","title":"Formula 1: 75 años de la carrera inaugural del Mundial en Silverstone","url":"https://corp.formula1.com/formula-1-marks-75th-anniversary-with-new-colourised-footage-of-first-grand-prix-at-silverstone/"}
+  "sources": [
+    {
+      "id": "criterios",
+      "title": "Hans Etzrodt, The Golden Era: criterios de Grandes Épreuves, campeonatos y Grand Prix de Europa",
+      "url": "https://www.goldenera.fi/gpw4.htm"
+    },
+    {
+      "id": "grande",
+      "title": "Wikipedia: Grande Épreuve (revisión histórica)",
+      "url": "https://fr.wikipedia.org/w/index.php?title=Grande_%C3%89preuve&oldid=204956735"
+    },
+    {
+      "id": "fia",
+      "title": "FIA: fundación de la AIACR y cambio de nombre",
+      "url": "https://www.fia.com/news/founding-members-meet-celebrate-fias-120th-anniversary"
+    },
+    {
+      "id": "fiaauto14",
+      "title": "FIA AUTO 14: historia del desarrollo de las fórmulas de Grand Prix",
+      "url": "https://api.fia.com/sites/default/files/auto_14.pdf"
+    },
+    {
+      "id": "fiaauto9",
+      "title": "FIA AUTO 9: historia de los campeonatos internacionales",
+      "url": "https://www.fia.com/sites/default/files/auto9.pdf"
+    },
+    {
+      "id": "europeo1931",
+      "title": "Hans Etzrodt, The Golden Era: reconstrucción documental del Europeo de 1931",
+      "url": "https://www.goldenera.fi/cha1.htm"
+    },
+    {
+      "id": "tablas",
+      "title": "The Golden Era: tablas, puntuación y falta de adjudicación oficial en 1939",
+      "url": "https://www.goldenera.fi/cha.htm"
+    },
+    {
+      "id": "europeowiki",
+      "title": "Wikipedia: Championnat d'Europe des pilotes",
+      "url": "https://fr.wikipedia.org/wiki/Championnat_d%27Europe_des_pilotes"
+    },
+    {
+      "id": "f1origen",
+      "title": "Formula 1: preguntas sobre el origen de la categoría y su Mundial",
+      "url": "https://www.formula1.com/en/latest/article/why-is-it-called-formula-1-and-12-other-questions-about-the-championships.1GHeel6u4jga6hMpX2eFs1"
+    },
+    {
+      "id": "f1silverstone",
+      "title": "Formula 1: 75 años de la carrera inaugural del Mundial en Silverstone",
+      "url": "https://corp.formula1.com/formula-1-marks-75th-anniversary-with-new-colourised-footage-of-first-grand-prix-at-silverstone/"
+    }
   ],
-  "related":[
-    {"label":"Grand Prix de Europa y sus designaciones honoríficas","href":"/historia/grands-prix/europe"},
-    {"label":"Grand Prix de Italia, desde Montichiari","href":"/historia/grands-prix/italy"},
-    {"label":"La temporada inaugural de 1950","href":"/historia/seasons/1950"},
-    {"label":"Copa Gordon Bennett","href":"/articulos/copa-gordon-bennett"}
-  ]
+  "related": [
+    {
+      "label": "Grand Prix de Europa y sus designaciones honoríficas",
+      "href": "/historia/grands-prix/europe"
+    },
+    {
+      "label": "Grand Prix de Italia, desde Montichiari",
+      "href": "/historia/grands-prix/italy"
+    },
+    {
+      "label": "La temporada inaugural de 1950",
+      "href": "/historia/seasons/1950"
+    },
+    {
+      "label": "Copa Gordon Bennett",
+      "href": "/articulos/copa-gordon-bennett"
+    }
+  ],
+  "year": 1906,
+  "tags": []
 }

@@ -1,0 +1,94 @@
+{
+  "slug": "benz-patent-motorwagen",
+  "title": "Benz Patent-Motorwagen: la carretera que completó la patente",
+  "description": "Tres ruedas, una patente y el viaje de Bertha Benz: la máquina que salió del taller necesitaba demostrar que también podía servir fuera de él.",
+  "category": "Autos de leyenda",
+  "year": 1886,
+  "period": "1885–1888",
+  "tags": [
+    "Benz",
+    "Patent-Motorwagen",
+    "Bertha Benz",
+    "1886"
+  ],
+  "lead": "En agosto de 1888, Bertha Benz llegó a una farmacia de Wiesloch buscando combustible para el automóvil que llevaba a Pforzheim. A bordo viajaban también sus hijos. La parada convirtió una invención registrada dos años antes en un problema concreto de viaje: un vehículo nuevo necesitaba encontrar recursos en un mundo que todavía no estaba preparado para recibirlo.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Un automóvil construido como conjunto",
+      "paragraphs": [
+        "Carl Benz desarrolló en Mannheim un vehículo de tres ruedas con motor de combustión interna. Solicitó la patente número 37435 el 29 de enero de 1886. Su trabajo no consistió simplemente en añadir una máquina a una carrocería disponible: motor, transmisión y estructura debían funcionar como un conjunto. La elección de tres ruedas evitaba el problema de resolver una dirección adecuada para un eje delantero de cuatro ruedas.",
+        "El primer modelo montaba un monocilíndrico de aproximadamente 0,75 caballos. La cifra, pequeña desde una perspectiva actual, era suficiente para probar una idea: transportar personas mediante un motor ligero instalado en el propio vehículo. Las ruedas de radios y la mecánica descubierta permiten ver lo que un automóvil moderno oculta. Cada elemento tenía que ocupar un lugar antes de que existiera una arquitectura generalmente aceptada."
+      ],
+      "sourceIds": [
+        "benz",
+        "patente"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El viaje de Bertha utilizó otra versión",
+      "paragraphs": [
+        "La travesía de Mannheim a Pforzheim se realizó con el Patent-Motorwagen número 3, una evolución del vehículo inicial. Bertha viajó junto a Eugen y Richard y recorrió más de cien kilómetros. La distinción entre versiones importa: el modelo del viaje tenía mayores posibilidades prácticas que el prototipo asociado a la patente. Presentar ambos como un objeto idéntico borra el trabajo de desarrollo realizado entre 1886 y 1888.",
+        "Wiesloch conserva la memoria de la parada en su farmacia. El producto adquirido fue ligroína, un derivado del petróleo vendido para limpieza. Su uso como combustible revela la ausencia de una red específica de abastecimiento. El recorrido obligaba a aprovechar tiendas, fuentes y talleres que atendían necesidades anteriores al automóvil. La infraestructura del viaje tuvo que improvisarse con lo disponible."
+      ],
+      "sourceIds": [
+        "wiesloch",
+        "dpma"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La prueba estaba en los inconvenientes",
+      "paragraphs": [
+        "La oficina alemana de patentes recoge los incidentes tradicionalmente asociados al trayecto: una conducción de combustible obstruida, problemas de encendido, necesidad de agua de refrigeración y trabajo sobre los frenos. Son relatos históricos transmitidos después del viaje, no un registro telemétrico. Su valor consiste en mostrar qué tareas imponía el uso prolongado de una máquina nueva, más allá de la presentación de un mecanismo en funcionamiento.",
+        "Las subidas también hicieron visible la necesidad de mejorar las relaciones de transmisión. La experiencia de Bertha aportó observaciones que el taller por sí solo no podía producir del mismo modo. El automóvil debía detenerse, volver a arrancar y adaptarse al terreno. La fiabilidad no era una propiedad anunciada en una ficha: se construía identificando aquello que fallaba durante una jornada real."
+      ],
+      "sourceIds": [
+        "dpma",
+        "benz"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Del experimento a la movilidad",
+      "paragraphs": [
+        "El papel de Bertha antecedía a la travesía. Había apoyado financieramente el trabajo de Carl y participaba del proyecto que hizo posible la máquina. La narrativa centrada exclusivamente en el hombre que firmó la patente resulta insuficiente para explicar cómo una invención adquirió credibilidad pública. El viaje mostró que podía cumplir una función comprensible: llevar una familia de una ciudad a otra y regresar.",
+        "La historia de las carreras nacería de esa misma transición, cuando vehículos capaces de desplazarse empezaron a compararse entre sí. El Patent-Motorwagen no fue un coche de Grand Prix; su aportación está antes de la especialización deportiva. La farmacia de Wiesloch recuerda una escala distinta del progreso: antes de discutir un récord de vuelta, había que encontrar unos litros de combustible y demostrar que el automóvil podía continuar."
+      ],
+      "sourceIds": [
+        "wiesloch",
+        "patente",
+        "benz"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "benz",
+      "title": "Mercedes-Benz Group: Patent Motor Car 1885–1886",
+      "url": "https://group.mercedes-benz.com/company/tradition/company-history/1885-1886.html"
+    },
+    {
+      "id": "patente",
+      "title": "Wikipedia: Benz Patent-Motorwagen y versiones",
+      "url": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen"
+    },
+    {
+      "id": "wiesloch",
+      "title": "Ayuntamiento de Wiesloch: Bertha Benz y la farmacia",
+      "url": "https://www.wiesloch.de/stadt--aktuelles/geschichtliches/persoenlichkeiten.html"
+    },
+    {
+      "id": "dpma",
+      "title": "Oficina Alemana de Patentes: Bertha Benz",
+      "url": "https://www.deutsches-patentamt.de/dpma/veroeffentlichungen/patentefrauen/berthabenz/index.html"
+    }
+  ],
+  "related": [
+    {
+      "label": "Daimler y Maybach",
+      "href": "/articulos/daimler-maybach-motorwagen"
+    }
+  ]
+}

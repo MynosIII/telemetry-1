@@ -6,4 +6,4 @@ const directory = path.resolve('data/articles');
 const articles = fs.readdirSync(directory).filter(file => file.endsWith('.json')).sort()
   .map(file => JSON.parse(fs.readFileSync(path.join(directory,file),'utf8')));
 fs.writeFileSync('data/articles-index.json',`${JSON.stringify(articles,null,2)}\n`);
-console.log(`Article index: ${articles.length} original articles.`);
+console.log(`Article index: ${articles.length} source-backed stories.`);

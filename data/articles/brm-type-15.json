@@ -1,0 +1,106 @@
+{
+  "slug": "brm-type-15",
+  "title": "BRM Type 15: dieciséis cilindros para una promesa británica",
+  "description": "El proyecto nacional que llevó un V16 de 1,5 litros a Silverstone y convirtió la potencia extraordinaria en un problema de organización y fiabilidad.",
+  "category": "Autos de leyenda",
+  "period": "1951",
+  "year": 1951,
+  "tags": [
+    "BRM Type 15",
+    "BRM P15",
+    "V16",
+    "Raymond Mays"
+  ],
+  "lead": "En Silverstone, el 14 de julio de 1951, Reg Parnell llegó quinto con un BRM Type 15. El resultado parece modesto junto a la victoria de Ferrari, pero detrás de aquel auto había una ambición desmesurada: reunir a la industria británica alrededor de un motor de dieciséis cilindros que cabía en apenas litro y medio.",
+  "sections": [
+    {
+      "id": "nacion",
+      "title": "Un proyecto que debía representar a un país",
+      "paragraphs": [
+        "Raymond Mays y Peter Berthon llegaron a BRM desde la experiencia de ERA, los monoplazas británicos de antes de la guerra. El nuevo proyecto reunió respaldo de empresas del sector automotor y una aspiración de prestigio nacional. No era simplemente el siguiente auto de un pequeño constructor: sus promotores querían demostrar que Gran Bretaña podía construir una máquina capaz de disputar la primera línea de los Grandes Premios.",
+        "El entusiasmo aportó recursos, pero también creó una forma complicada de fabricar. Muchas piezas dependían de empresas que colaboraban con el programa, en lugar de una cadena de producción dirigida desde un único taller. La historia del Type 15 es inseparable de esa coordinación industrial. Antes de discutir cómo utilizar toda su potencia, BRM necesitaba conseguir que una colección de soluciones especializadas se comportara como un solo vehículo."
+      ],
+      "sourceIds": [
+        "museum",
+        "goodwood",
+        "engine"
+      ]
+    },
+    {
+      "id": "v16",
+      "title": "Un motor pequeño lleno de piezas pequeñas",
+      "paragraphs": [
+        "El propulsor superalimentado tenía dieciséis cilindros y 1.496 centímetros cúbicos. El National Motor Museum conserva una unidad del auto y publica una cifra de 600 caballos a 12.000 revoluciones por minuto. Esa especificación describe el potencial alcanzado por el programa; no significa que cada aparición inicial utilizara exactamente ese ajuste. El motor siguió desarrollándose mientras el proyecto buscaba fiabilidad.",
+        "El archivo actual de BRM ofrece otra instantánea: para Fangio en Albi en 1953 registra 585 caballos a 11.800 revoluciones y una fuerte presión de sobrealimentación. Las cifras ayudan a comprender la fascinación que provoca el auto, pero también la dificultad de llevarlo por una pista. La entrega de potencia, la temperatura y la respuesta del conjunto importaban tanto como la cifra máxima obtenida en una prueba de motor."
+      ],
+      "sourceIds": [
+        "museum",
+        "brm"
+      ]
+    },
+    {
+      "id": "silverstone",
+      "title": "Una llegada que no pudo convertirse en costumbre",
+      "paragraphs": [
+        "Parnell acabó quinto y Peter Walker séptimo en el Gran Premio británico de 1951. El chasis uno conservado en Beaulieu es el que Parnell condujo aquella tarde. Para el museo, esta fue la única carrera del Mundial que terminó el programa V16. El dato resume una contradicción: una máquina celebrada por su sofisticación tuvo una presencia mundialista muy limitada.",
+        "El Type 15 sí compitió y ganó fuera del campeonato. Reg Parnell obtuvo triunfos en Goodwood en 1950, y el programa continuó apareciendo en pruebas británicas y continentales. La competición de entonces contenía muchas más oportunidades que el calendario puntuable. Parte de su reputación nació allí, en encuentros donde una actuación brillante podía coexistir con una temporada mundialista prácticamente vacía."
+      ],
+      "sourceIds": [
+        "museum",
+        "result",
+        "goodwood"
+      ]
+    },
+    {
+      "id": "despues",
+      "title": "El fracaso que no terminó con BRM",
+      "paragraphs": [
+        "El cambio de los Grandes Premios puntuables a la Fórmula 2 en 1952 dejó al motor de 1,5 litros sobrealimentado sin ese escenario central. BRM pasó a formar parte de la Owen Racing Organisation y siguió buscando una solución competitiva. En el catálogo de la marca, el V16 queda al comienzo de una historia que incluye motores más sencillos, la primera victoria mundialista de 1959 y los títulos de 1962.",
+        "La recuperación contemporánea del programa ha vuelto a utilizar los dibujos históricos para construir unidades de continuación. Es una forma de preservar un trabajo que no consiguió sus objetivos originales, pero dejó una maquinaria y una experiencia extraordinarias. El Type 15 no necesita un campeonato imaginario para ser memorable: su verdadera historia está en el contraste entre una industria que quiso mostrar todo lo que sabía hacer y un auto que necesitaba, sobre todo, funcionar como un conjunto."
+      ],
+      "sourceIds": [
+        "brm",
+        "museum",
+        "continuation"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museum",
+      "title": "National Motor Museum — BRM Type 15",
+      "url": "https://nationalmotormuseum.org.uk/vehicle-collection/brm-1-5-litre-v16-type-15-mki/"
+    },
+    {
+      "id": "brm",
+      "title": "BRM — catálogo histórico",
+      "url": "https://www.britishracingmotors.co.uk/cars/"
+    },
+    {
+      "id": "goodwood",
+      "title": "Goodwood — Hell On Wheels",
+      "url": "https://www.goodwood.com/editorial/hell-on-wheels/"
+    },
+    {
+      "id": "result",
+      "title": "Formula 1 — GP británico de 1951",
+      "url": "https://www.formula1.com/en/results/1951/races/105/great-britain/race-result"
+    },
+    {
+      "id": "engine",
+      "title": "Wikipedia — British Racing Motors V16, documentación técnica y bibliografía",
+      "url": "https://en.wikipedia.org/wiki/British_Racing_Motors_V16"
+    },
+    {
+      "id": "continuation",
+      "title": "Motorsport UK — proyecto de continuación del BRM V16",
+      "url": "https://www.motorsportuk.org/wp-content/uploads/2020/11/revolution-issue-20-november-2020.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1951",
+      "href": "/historia/seasons/1951"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "brabham-bt46b",
+  "title": "Brabham BT46B: un altímetro en el habitáculo del auto ventilador",
+  "description": "Murray encontró una respuesta al ancho motor Alfa Romeo; Lauda ganó en Suecia y Ecclestone eligió conservar su alianza con los otros equipos.",
+  "category": "Autos de leyenda",
+  "period": "1978",
+  "year": 1978,
+  "tags": [
+    "Brabham BT46B",
+    "Gordon Murray",
+    "Niki Lauda",
+    "Fan car"
+  ],
+  "lead": "Anderstorp, junio de 1978. Detrás del Brabham BT46B aparecía un ventilador; delante de Niki Lauda, un instrumento procedente de un avión. Gordon Murray había usado un altímetro para advertirle si el sellado inferior dejaba de funcionar. La máquina más polémica de la temporada dependía de esa señal sencilla.",
+  "sections": [
+    {
+      "id": "problema",
+      "title": "El motor no dejaba espacio para copiar a Lotus",
+      "paragraphs": [
+        "Brabham utilizaba el ancho motor Alfa Romeo de doce cilindros. Sus culatas ocupaban parte del espacio que una solución como la de Lotus necesitaba para los canales inferiores. Murray buscó una alternativa a los pontones Venturi: extraer aire mediante un ventilador posterior y mantener una zona sellada bajo el auto.",
+        "John Watson, el otro piloto de Brabham, recordó el BT46B como una respuesta concreta a aquella dificultad. El proyecto no consistía en añadir una turbina que impulsara la máquina como un avión. El efecto relevante era la reducción de presión inferior, combinada con la refrigeración. La arquitectura existente dictaba la pregunta; el ventilador permitió intentar una respuesta distinta sin sustituir inmediatamente el motor."
+      ],
+      "sourceIds": [
+        "watson",
+        "wiki",
+        "gma"
+      ]
+    },
+    {
+      "id": "instrumento",
+      "title": "Una solución de avión para un problema pegado a la pista",
+      "paragraphs": [
+        "El sellado de las faldillas era crítico. Si una se dañaba, el piloto podía perder carga al entrar en una curva para la que había contado con ella. Murray explicó que su equipo obtuvo un altímetro de desguace, lo conectó con una medición de presión y lo instaló en el habitáculo. Unas zonas de color permitían distinguir si seguía existiendo la diferencia de presión necesaria.",
+        "El instrumento no tenía que informar una altura de vuelo útil. La misma clase de medición que en un avión sirve para interpretar la altitud permitía observar lo que ocurría bajo el monoplaza. El detalle revela una creatividad menos espectacular que la hélice exterior, pero esencial para utilizarla: el auto necesitaba que sus pilotos reconocieran cuándo su ventaja había dejado de estar disponible."
+      ],
+      "sourceIds": [
+        "murray"
+      ]
+    },
+    {
+      "id": "suecia",
+      "title": "La victoria y la discusión sobre la función principal",
+      "paragraphs": [
+        "Lauda ganó el Gran Premio de Suecia con el BT46B. La máquina había llegado a la carrera con una defensa reglamentaria preparada: el ventilador servía principalmente a la refrigeración y su influencia aerodinámica se consideraba secundaria. La norma prohibía piezas móviles cuyo propósito principal fuera modificar la aerodinámica, de modo que clasificar la función del dispositivo era decisivo.",
+        "Brabham no negaba que el auto generara carga mediante la extracción de aire. El debate no estaba en descubrir un efecto secreto, sino en determinar cómo encajaba una pieza con dos funciones en el texto del reglamento. Los competidores podían ver el ventilador, y algunos lo cuestionaron. La victoria de Lauda convirtió esa discusión técnica en un asunto urgente para toda la parrilla."
+      ],
+      "sourceIds": [
+        "gma",
+        "wiki",
+        "results"
+      ]
+    },
+    {
+      "id": "ecclestone",
+      "title": "Una máquina retirada y una alianza conservada",
+      "paragraphs": [
+        "El BT46B no volvió a competir en el Mundial. Murray sostuvo que los responsables técnicos habían aceptado su utilización durante el resto del año, antes de cerrar esa posibilidad reglamentaria. Ecclestone decidió retirarlo ante la presión de otros constructores. Su posición combinaba la dirección de Brabham con un papel central en la asociación que reunía a los equipos.",
+        "La victoria permaneció en la clasificación oficial. El auto quedó con un triunfo en su única participación, pero la estadística no explica por sí sola el final del programa. El resultado deportivo favorecía continuar; la negociación entre escuderías empujó hacia otro lado. El ventilador y el altímetro sobrevivieron como símbolos de una máquina capaz de alterar ambos terrenos, el del diseño y el de la política. Su historia no terminó con un motor roto, sino con una decisión tomada fuera del habitáculo.",
+        "La crónica contemporánea de Denis Jenkinson añade otra pieza: en agosto de 1978 describió una decisión de la CSI del 23 de junio que prohibía los ventiladores, manteniendo el resultado de Suecia. También relató una propuesta de los equipos para permitirlos hasta agosto que la comisión no aceptó. Su relato y el recuerdo posterior de Murray ponen el acento en momentos diferentes de la negociación. La retirada del auto y el cierre reglamentario aparecen así dentro de un proceso, no como una descalificación de la victoria."
+      ],
+      "sourceIds": [
+        "murray",
+        "gma",
+        "wiki",
+        "jenkinson1978"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "watson",
+      "title": "John Watson / Motor Sport — los Brabham de los años setenta",
+      "url": "https://www.motorsportmagazine.com/archive/article/july-2024/106/a-flare-of-colour-john-watson-on-the-exuberance-of-1970s-racing/"
+    },
+    {
+      "id": "murray",
+      "title": "Gordon Murray / Motor Sport — testimonio sobre el BT46B",
+      "url": "https://www.motorsportmagazine.com/articles/single-seaters/f1/gordon-murray-looks-back-notorious-brabham-fan-car/"
+    },
+    {
+      "id": "gma",
+      "title": "Gordon Murray Group — descripción histórica del BT46B",
+      "url": "https://gordonmurray-production.s3-eu-west-2.amazonaws.com/media/documents/Gordon_Murray_Group_confirms_double_debut_for_Special_Vehicles_at_Monterey_Car_Week.pdf"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Brabham BT46, variantes y reglamento",
+      "url": "https://en.wikipedia.org/wiki/Brabham_BT46"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1978",
+      "url": "https://www.formula1.com/en/results/1978/races"
+    },
+    {
+      "id": "jenkinson1978",
+      "title": "Denis Jenkinson / Motor Sport, agosto de 1978: The Brabham-Alfa Romeo fan",
+      "url": "https://www.motorsportmagazine.com/archive/article/august-1978/33/the-brabham-alfa-romeo-fan/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1978",
+      "href": "/historia/seasons/1978"
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/2001_Goodwood_Festival_of_Speed_Brabham_BT46B_Fan_car.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2001_Goodwood_Festival_of_Speed_Brabham_BT46B_Fan_car.jpg",
+    "author": "edvvc",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "El Brabham BT46B con ventilador, fotografiado en una exhibición en Goodwood en 2001.",
+    "alt": "El Brabham BT46B con ventilador, fotografiado en una exhibición en Goodwood en 2001."
+  }
+}

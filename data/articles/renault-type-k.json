@@ -1,0 +1,105 @@
+{
+  "slug": "renault-type-k",
+  "title": "Renault Type K: cruzar los Alpes con menos potencia",
+  "description": "París–Viena dio al Renault Type K una oportunidad de demostrar que la carretera exigía algo más que tamaño y potencia. Marcel Renault convirtió el viaje en una victoria.",
+  "category": "Autos de leyenda",
+  "year": 1902,
+  "period": "1902",
+  "tags": [
+    "Renault",
+    "Type K",
+    "Marcel Renault",
+    "1902"
+  ],
+  "lead": "En junio de 1902, Marcel Renault llegó a Viena con el Type K número 147. Había cruzado carreteras alpinas para derrotar a coches de mayor potencia. El resultado dio notoriedad a Renault Frères y a un motor propio de cuatro cilindros. Para una fábrica joven, la carrera convirtió una decisión de ingeniería en una noticia que podía vender automóviles.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Tres hermanos y dos clases de vehículos",
+      "paragraphs": [
+        "La empresa de Billancourt había participado en competencias desde sus primeros años. Louis y Marcel pilotaban mientras Fernand contribuía a la organización comercial. París–Viena ofreció una oportunidad para ir más allá de las victorias de categoría: Renault inscribió cuatro voiturettes y tres coches ligeros Type K. La elección repartía esfuerzos entre las clases y mostraba un programa que buscaba reconocimiento en el conjunto de la carrera.",
+        "Los automóviles grandes podían ofrecer mucha más potencia, pero también arrastraban peso. Los Renault ligeros proponían una relación distinta entre masa, motor y carretera. El recorrido incluyó la región alpina y el paso del Arlberg, con exigencias que no se reducen a una recta. Una máquina capaz de mantener velocidad y conservar sus componentes podía recuperar lo que parecía perder en una comparación de cifras."
+      ],
+      "sourceIds": [
+        "historia",
+        "prensa"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Un cuatro cilindros salido de Renault",
+      "paragraphs": [
+        "El museo oficial The Originals describe un motor de 3.770 centímetros cúbicos construido con dos bloques de dos cilindros. Era el primer cuatro cilindros de la marca, después de una etapa en que había utilizado motores De Dion-Bouton. El cambio permitía atribuir la capacidad del automóvil a un trabajo propio, con consecuencias para la reputación técnica de Renault.",
+        "La ficha museística anuncia 24 caballos y una caja de tres velocidades más marcha atrás. Es una arquitectura que todavía exigía al conductor y al mecánico trabajar sobre la máquina durante la prueba. Las fotografías conservadas muestran radiadores laterales y un capó inclinado que se volvería reconocible. La carrocería ligera y el motor no fueron dos proyectos separados: debían hacer posible una larga jornada sobre caminos difíciles."
+      ],
+      "sourceIds": [
+        "museo",
+        "motores"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Una llegada que sorprendió al organizador",
+      "paragraphs": [
+        "Marcel recorrió alrededor de 1.300 kilómetros de competición a una media que Renault recuerda como 62,5 kilómetros por hora. El museo conserva una anécdota reveladora: su ventaja fue tan inesperada que los oficiales no estaban preparados cuando llegó. El episodio aparece en el relato patrimonial de la marca y expresa la sorpresa del resultado; no permite inventar una escena ni atribuir pensamientos al piloto.",
+        "El Type K derrotó a competidores asociados a Mercedes y Panhard & Levassor. El triunfo también tenía un acompañante: René Vauthier, el mecánico de Marcel. La documentación fotográfica y las reconstrucciones históricas permiten devolverle un lugar que desaparece cuando el coche se presenta únicamente como una hazaña de su conductor. En las carreras de carretera, observar el motor, asistir las reparaciones y compartir el viaje eran parte del trabajo.",
+        "La velocidad de la carrera pertenecía a una ruta y a un sistema de tiempos, no al recorrido cotidiano completo entre dos ciudades. Las neutralizaciones y las reglas de cada tramo complican la comparación con una media moderna. El resultado más claro permanece intacto: Renault había conseguido una victoria internacional con un coche de su propia construcción."
+      ],
+      "sourceIds": [
+        "museo",
+        "modelo",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Lo que una victoria cambiaba en el catálogo",
+      "paragraphs": [
+        "The Originals señala que Renault ofreció después modelos de 10 a 14 caballos derivados de la experiencia del Type K y publicitó la relación con el coche vencedor. La carrera funcionó como una prueba pública de capacidad industrial. El cliente no compraba el automóvil exacto de Marcel, pero podía asociar la marca con la resistencia que había mostrado en una ruta célebre.",
+        "El éxito tuvo una continuación muy distinta en París–Madrid 1903, donde Marcel sufrió el accidente que le costó la vida con un Type O. Ese desenlace no vuelve inevitable la historia de 1902; recuerda que cada mejora ocurría dentro de una organización de carrera que todavía podía fallar gravemente. El Type K conserva su importancia como una demostración de que el rendimiento dependía del conjunto del vehículo y del modo en que encontraba la carretera."
+      ],
+      "sourceIds": [
+        "museo",
+        "modelo",
+        "prensa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museo",
+      "title": "The Originals Renault: Type K de 1902",
+      "url": "https://theoriginals.renault.com/en/type-k"
+    },
+    {
+      "id": "motores",
+      "title": "Renault Alemania: desarrollo del primer cuatro cilindros",
+      "url": "https://presse.renault.de/110-jahre-renault-motoren-effizienz-und-fahrspass-ab-werk/?lang=deu"
+    },
+    {
+      "id": "prensa",
+      "title": "Renault Austria: 115 años de historia deportiva",
+      "url": "https://media.renault.at/article/1675"
+    },
+    {
+      "id": "historia",
+      "title": "Planète Renault: París–Viena y Type K",
+      "url": "https://www.planeterenault.com/15-histoire/20-sport-auto/5401-type-e-course/amp/"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Renault Type K",
+      "url": "https://fr.wikipedia.org/wiki/Renault_Type_K"
+    }
+  ],
+  "related": [
+    {
+      "label": "Renault Type O",
+      "href": "/articulos/renault-type-o"
+    },
+    {
+      "label": "Renault AK 1906",
+      "href": "/articulos/renault-ak-1906"
+    }
+  ]
+}

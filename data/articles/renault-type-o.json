@@ -1,0 +1,111 @@
+{
+  "slug": "renault-type-o",
+  "title": "Renault Type O: el coche de una carrera que terminó en Burdeos",
+  "description": "El Type O salió hacia Madrid en 1903. La carrera terminó en Burdeos y Marcel Renault murió después de su accidente: una historia que cambió a la empresa y a las pruebas de carretera.",
+  "category": "Autos de leyenda",
+  "year": 1903,
+  "period": "1903",
+  "tags": [
+    "Renault",
+    "Type O",
+    "Marcel Renault",
+    "París–Madrid",
+    "1903"
+  ],
+  "lead": "El 24 de mayo de 1903, Marcel Renault salió de Versailles con el objetivo de llegar a Madrid. Su Type O llevaba la experiencia del triunfo en París–Viena del año anterior. La prueba se detuvo aquella misma jornada en Burdeos después de una serie de accidentes. Marcel quedó gravemente herido cerca de Couhé-Vérac y murió días después.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Una fábrica que se había hecho visible en la carretera",
+      "paragraphs": [
+        "La victoria de Marcel en 1902 había demostrado el potencial de los Renault ligeros. El Type O continuó la apuesta por un cuatro cilindros en un automóvil de competición de dimensiones contenidas. La descripción publicada por L’Illustration antes de París–Madrid identificaba un coche ligero Renault con motor de gasolina de cuatro cilindros, transmisión por cardán y chasis de chapa de acero estampada.",
+        "Esa fuente contemporánea anunciaba treinta caballos y un peso vacío de unos 650 kilogramos. Otras reconstrucciones dan cifras diferentes para el Type O. La variación obliga a tratar con cuidado los datos de una máquina de desarrollo, pero no impide comprender su propósito: hacer una carrera larga con una arquitectura menos pesada que la de varios rivales de mayor potencia."
+      ],
+      "sourceIds": [
+        "illustration",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "La velocidad pasaba por los pueblos",
+      "paragraphs": [
+        "París–Madrid reunió coches de distintas clases y motocicletas sobre carreteras públicas. La salida escalonada no eliminaba los adelantamientos ni el polvo. Los competidores circulaban por un territorio habitado donde una multitud quería ver pasar las máquinas. La velocidad creciente se enfrentó con un sistema de organización que no podía convertir toda la ruta en un espacio controlado.",
+        "Los relatos de prensa describen accidentes que afectaron a pilotos, mecánicos y espectadores. La Locomotion documentó que las autoridades francesas pararon la carrera y que España retiró su autorización. Burdeos se convirtió en el final de una competencia cuyo destino previsto todavía estaba mucho más lejos. Ese cambio no fue una simple reducción de distancia: reveló que la forma misma de organizar carreras debía reconsiderarse."
+      ],
+      "sourceIds": [
+        "locomotion",
+        "stampa"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Marcel Renault y la documentación de un accidente",
+      "paragraphs": [
+        "Marcel sufrió su accidente mientras alcanzaba a Léon Théry cerca de Couhé-Vérac. Las reconstrucciones relacionan la pérdida de control con el polvo y una curva difícil de percibir. El carácter fragmentario de los relatos exige distinguir el lugar y el desenlace documentados de los detalles que cada crónica interpretó. Marcel murió el 26 de mayo según las biografías modernas, después de ser atendido por sus lesiones.",
+        "La Stampa Sportiva publicó el impacto de la noticia sobre Louis Renault y la suspensión de la actividad del equipo. Algunas noticias contemporáneas tienen errores de fechas o edad, lo que recuerda una limitación de la prensa inmediata. Su valor está en registrar la conmoción del momento, no en ofrecer una precisión automática sobre cada circunstancia.",
+        "Louis había terminado el trayecto competitivo hasta Burdeos con un resultado destacado. La situación de la familia y la retirada de la prueba impidieron que ese éxito pudiera presentarse como una continuación normal de 1902. Los automóviles que habían servido para construir la fama del taller se encontraron en el centro de un desastre público."
+      ],
+      "sourceIds": [
+        "stampa",
+        "locomotion",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Después de la carretera, el circuito",
+      "paragraphs": [
+        "Renault interrumpió su participación directa durante un período y regresó a las grandes competencias con otro sistema organizativo. En 1906, Ferenc Szisz ganó el Grand Prix de l’ACF sobre carreteras cerradas de la Sarthe. El Type O no fue un paso técnico predestinado hacia aquel coche: fue una máquina de una etapa cuya forma de competir había demostrado límites graves.",
+        "Su historia conserva una pregunta que acompaña al automovilismo desde entonces. Una mejora de velocidad puede modificar la relación entre el vehículo y el entorno más rápido de lo que la organización consigue responder. París–Madrid obligó a reconocer esa diferencia. El nombre Type O une el éxito previo de una familia fabricante con el momento en que la carretera abierta dejó de parecer una solución sostenible para las grandes carreras."
+      ],
+      "sourceIds": [
+        "aco",
+        "prensa",
+        "locomotion"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "illustration",
+      "title": "L’Illustration, 23 de mayo de 1903: preparación de París–Madrid (reproducción)",
+      "url": "https://motorracinghistory.com/en-route-pour-madrid-lillustration-23-may-1903/"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Renault Type O",
+      "url": "https://fr.wikipedia.org/wiki/Renault_Type_O"
+    },
+    {
+      "id": "locomotion",
+      "title": "La Locomotion, 30 de mayo de 1903: la carrera detenida (reproducción)",
+      "url": "https://motorracinghistory.com/la-course-paris-madrid-translation-la-locomotion-30-may-1903/"
+    },
+    {
+      "id": "stampa",
+      "title": "La Stampa Sportiva, 7 de junio de 1903: Marcel Renault (reproducción)",
+      "url": "https://motorracinghistory.com/la-parigi-madrid-la-stampa-sportiva-7-june-1903/"
+    },
+    {
+      "id": "aco",
+      "title": "ACO: París–Madrid y la preparación del circuito de 1906",
+      "url": "https://www.24h-lemans.com/en/news/1906-1923-the-aco-the-driving-force-that-gave-us-the-24-hours-of-le-mans-56715"
+    },
+    {
+      "id": "prensa",
+      "title": "Renault Austria: historia deportiva de la marca",
+      "url": "https://media.renault.at/article/1675"
+    }
+  ],
+  "related": [
+    {
+      "label": "Renault Type K",
+      "href": "/articulos/renault-type-k"
+    },
+    {
+      "label": "Renault AK 1906",
+      "href": "/articulos/renault-ak-1906"
+    }
+  ]
+}

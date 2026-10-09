@@ -1,0 +1,94 @@
+{
+  "slug": "lotus-16",
+  "title": "Lotus 16: la miniatura de Vanwall que llegó justo cuando cambiaba el motor",
+  "description": "La máquina delantera de Chapman reunió soluciones sofisticadas, una caja difícil y un aspecto que acabaría perteneciendo a la última etapa de su arquitectura.",
+  "category": "Autos de leyenda",
+  "period": "1958",
+  "year": 1958,
+  "tags": [
+    "Lotus 16",
+    "Colin Chapman",
+    "Queerbox",
+    "Graham Hill"
+  ],
+  "lead": "Reims, julio de 1958. Lotus llevó a Graham Hill un Type 16 estrecho y de líneas redondeadas. El motor seguía delante del piloto. La escudería estaba afinando una forma conocida de construir un Grand Prix mientras el Cooper que había ganado en Argentina empezaba a indicar otra dirección.",
+  "sections": [
+    {
+      "id": "vanwall",
+      "title": "La experiencia anterior apareció en una máquina más pequeña",
+      "paragraphs": [
+        "Colin Chapman había trabajado en el desarrollo de Vanwall y utilizó parte de esa experiencia al preparar el Lotus 16. Classic Team Lotus lo describe como una pequeña versión de aquella idea, aunque la máquina tenía su propia estructura y necesidades. Era una evolución más sofisticada del Type 12, no el primer auto de competición construido por Chapman.",
+        "El Coventry Climax se colocó delante y ligeramente inclinado para reducir la altura del conjunto. El árbol de transmisión y el asiento obligaban a resolver cómo bajar al piloto sin perder espacio mecánico. La carrocería de Frank Costin acompañaba esa organización con una forma destinada a atravesar el aire eficientemente. La arquitectura frontal todavía ofrecía margen para trabajar, incluso mientras aparecía una alternativa cada vez más convincente."
+      ],
+      "sourceIds": [
+        "register",
+        "wiki"
+      ]
+    },
+    {
+      "id": "caja",
+      "title": "La transmisión ocupó demasiado tiempo del programa",
+      "paragraphs": [
+        "La caja Lotus de cinco marchas, conocida como Queerbox, era compacta y buscaba reducir peso y volumen. Su funcionamiento secuencial ofrecía un planteo diferente al de otras transmisiones de la época. Keith Duckworth había trabajado en su desarrollo antes de fundar Cosworth con Mike Costin. Aquella relación terminó conectando una solución problemática de Lotus con una empresa que después transformaría los motores de la categoría.",
+        "La transmisión siguió dando dificultades de fiabilidad. No era suficiente que la idea fuera avanzada: los elementos tenían que resistir el uso repetido de una carrera. En un equipo pequeño, las reparaciones y revisiones de una pieza podían consumir una parte considerable de los recursos disponibles. El 16 reunió decisiones ingeniosas, pero también mostró el costo deportivo de intentar demasiadas cosas mientras el auto todavía necesitaba terminar pruebas."
+      ],
+      "sourceIds": [
+        "wiki",
+        "register"
+      ]
+    },
+    {
+      "id": "resultados",
+      "title": "La velocidad no se convirtió en una campaña ganadora",
+      "paragraphs": [
+        "Hill y otros pilotos de Lotus utilizaron el 16 durante las temporadas de 1958 y 1959. El modelo también se preparó para Fórmula 2 mediante distintas configuraciones de motor. Su presencia en ambas categorías pertenecía a una época en la que un constructor pequeño buscaba aprovechar el mismo trabajo estructural dentro de varios programas.",
+        "El mejor resultado mundialista fue un cuarto puesto de Innes Ireland en Países Bajos en 1959. No hubo victorias puntuables del modelo. Los resultados describen una máquina que podía acercarse, pero no sostener el desafío de manera suficiente frente a equipos consolidados. Al mismo tiempo, Cooper ganaba con su motor detrás y ponía en discusión la estructura sobre la que Lotus había concentrado su esfuerzo."
+      ],
+      "sourceIds": [
+        "wiki",
+        "results"
+      ]
+    },
+    {
+      "id": "ultimo",
+      "title": "El auto que hizo más clara la necesidad del siguiente",
+      "paragraphs": [
+        "Lotus respondió en 1960 con el Type 18 de motor central trasero. El 16 quedó como el último monoplaza delantero de la marca. El cambio no anuló todas las lecciones aprendidas: la atención al peso, la disposición del piloto y la búsqueda de una estructura pequeña siguieron dentro del proyecto siguiente.",
+        "Las carreras históricas reúnen hoy al 16 con Maserati y Cooper de la misma fórmula de 2,5 litros. Verlos juntos permite reconocer la transición que los resultados anunciaban: dos maneras de disponer el motor podían compartir parrilla durante unos años antes de que una se volviera dominante. El 16 conserva el atractivo de una máquina sofisticada construida al final de un camino. Su importancia no es haber detenido el cambio, sino mostrar cuánto había intentado Lotus antes de aceptarlo."
+      ],
+      "sourceIds": [
+        "register",
+        "goodwood",
+        "wiki"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "register",
+      "title": "Classic Team Lotus — registro del Type 16",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-16/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lotus 16, diseño y transmisión",
+      "url": "https://en.wikipedia.org/wiki/Lotus_16"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1959",
+      "url": "https://www.formula1.com/en/results/1959/races"
+    },
+    {
+      "id": "goodwood",
+      "title": "Goodwood — Richmond & Gordon Trophies, autos de 2,5 litros",
+      "url": "https://www.goodwood.com/grr/f1/video-2020-richmond--gordon-trophies-full-race/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1958",
+      "href": "/historia/seasons/1958"
+    }
+  ]
+}

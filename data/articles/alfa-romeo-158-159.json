@@ -1,0 +1,112 @@
+{
+  "slug": "alfa-romeo-158-159",
+  "title": "Alfa Romeo 158 y 159: el auto de antes de la guerra que ganó el nuevo Mundial",
+  "description": "La Alfetta sobrevivió a una interrupción histórica, acompañó a Farina y Fangio y agotó su largo desarrollo con dos campeonatos.",
+  "category": "Autos de leyenda",
+  "period": "1950",
+  "year": 1950,
+  "tags": [
+    "Alfa Romeo 158",
+    "Alfa Romeo 159",
+    "Alfetta",
+    "Giuseppe Farina"
+  ],
+  "lead": "Silverstone, 13 de mayo de 1950. Tres Alfa Romeo ocuparon el podio del primer Gran Premio del nuevo Campeonato Mundial. Giuseppe Farina ganó delante de Luigi Fagioli y Reg Parnell. La máquina que parecía señalar el comienzo de una era había empezado su propia historia doce años antes.",
+  "sections": [
+    {
+      "id": "origen",
+      "title": "Una voiturette llegó hasta el campeonato",
+      "paragraphs": [
+        "Gioacchino Colombo diseñó el 158 para la competición de pequeña cilindrada de finales de los años treinta. El nombre reunía sus dos cifras esenciales: litro y medio y ocho cilindros. El motor en línea utilizaba sobrealimentación. La primera victoria llegó en Livorno en 1938, antes de que existiera el campeonato que después convertiría al auto en una referencia mundial.",
+        "La guerra interrumpió la actividad, pero no borró la máquina. Alfa Romeo volvió a utilizarla en la competición de posguerra y continuó su desarrollo. La Alfetta de 1950 conservaba el origen del diseño, aunque ya no era simplemente el ejemplar de 1938 guardado sin cambios. Años de trabajo habían aumentado sus prestaciones y adaptado la preparación a las carreras que volvieron a organizarse en Europa."
+      ],
+      "sourceIds": [
+        "stellantis",
+        "museum",
+        "brand"
+      ]
+    },
+    {
+      "id": "farina",
+      "title": "El campeonato empezó con una superioridad conocida",
+      "paragraphs": [
+        "Alfa Romeo ganó los seis Grandes Premios europeos puntuables de 1950. Indianápolis formaba parte del campeonato, pero se disputaba con otra normativa y la escudería no participó. La diferencia ayuda a situar su dominio: fue absoluto en las pruebas europeas del Mundial que corrió, sin necesitar atribuirle una victoria estadounidense que perteneció a otra máquina.",
+        "Farina, Fangio y Fagioli sostuvieron la campaña. Farina consiguió la corona en la última carrera, en Monza, y Fangio quedó segundo en la clasificación anual. La primera temporada mundialista terminó dentro del mismo equipo que había dominado su apertura. La Alfetta conectó el prestigio acumulado por Alfa en los Grandes Premios anteriores con una nueva forma de organizar y recordar los resultados."
+      ],
+      "sourceIds": [
+        "results",
+        "standings",
+        "stellantis"
+      ]
+    },
+    {
+      "id": "159",
+      "title": "Otro número para una transformación profunda",
+      "paragraphs": [
+        "En 1951 la denominación cambió a 159. El museo de Alfa Romeo explica que el nuevo nombre reflejaba la profundidad de las modificaciones: entre ellas, la suspensión posterior De Dion y la evolución del motor. La estructura fundamental seguía siendo reconocible, pero las exigencias de potencia y de comportamiento habían llevado el proyecto a otra etapa.",
+        "Esa evolución tuvo un precio en combustible. Los motores sobrealimentados eran rápidos, pero requerían paradas y grandes cantidades de mezcla para completar la distancia. Ferrari respondió con un V12 atmosférico de 4,5 litros y González derrotó a Alfa en Silverstone. El auto que había ganado todos los encuentros europeos del año anterior ya tenía un rival capaz de explotar sus necesidades de consumo."
+      ],
+      "sourceIds": [
+        "museum",
+        "brand",
+        "ferrari"
+      ]
+    },
+    {
+      "id": "fangio",
+      "title": "La última corona cerró el programa",
+      "paragraphs": [
+        "Fangio ganó el campeonato de 1951 con el 159. La resolución en España terminó favoreciendo a Alfa Romeo en una temporada que ya no había sido una repetición fácil de 1950. El argentino inauguró su serie de cinco títulos, mientras la marca completaba el último capítulo de un desarrollo iniciado mucho antes del Mundial.",
+        "Alfa Romeo se retiró de la competición oficial de Fórmula 1 al final de aquella temporada. Los 158 y 159 quedaron como máquinas campeonas y como evidencia de una continuidad excepcional entre dos épocas. En el museo, sus formas permiten ver esa permanencia: motor delante, ruedas descubiertas y una carrocería estrecha. La tecnología que había ganado en 1938 todavía pudo ganar bajo la nueva bandera del Campeonato Mundial; después, sus límites y las circunstancias industriales llevaron a la escudería a cerrar el proyecto."
+      ],
+      "sourceIds": [
+        "museum",
+        "stellantis",
+        "results51"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "stellantis",
+      "title": "Alfa Romeo / Stellantis — Storie Alfa Romeo, episodio 4",
+      "url": "https://www.media.stellantis.com/uk-en/alfa-romeo/press/storie-alfa-romeo-episode-4-alfa-romeo-becomes-the-first-constructor-to-win-the-formula-1-championship"
+    },
+    {
+      "id": "museum",
+      "title": "Museo Alfa Romeo — Tipo 159",
+      "url": "https://www.museoalfaromeo.com/en-us/storia/Pages/GP-Tipo-159-Alfetta.aspx"
+    },
+    {
+      "id": "brand",
+      "title": "Alfa Romeo — historia de la marca y la Alfetta",
+      "url": "https://alfaromeo.co.nz/history"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1950",
+      "url": "https://www.formula1.com/en/results/1950/races"
+    },
+    {
+      "id": "standings",
+      "title": "Formula 1 — clasificación de 1950",
+      "url": "https://www.formula1.com/en/results/1950/drivers"
+    },
+    {
+      "id": "ferrari",
+      "title": "Ferrari — victoria británica de 1951 y consumo",
+      "url": "https://www.ferrari.com/en-US/formula1/1000-gp-british-1951"
+    },
+    {
+      "id": "results51",
+      "title": "Formula 1 — resultados de 1951",
+      "url": "https://www.formula1.com/en/results/1951/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1950",
+      "href": "/historia/seasons/1950"
+    }
+  ]
+}

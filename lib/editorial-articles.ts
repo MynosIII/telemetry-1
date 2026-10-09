@@ -7,6 +7,8 @@ export type EditorialArticle = {
   description: string;
   category: string;
   period: string;
+  year: number;
+  tags?: string[];
   lead: string;
   sections: { id: string; title: string; paragraphs: string[]; sourceIds: string[] }[];
   sources: { id: string; title: string; url: string }[];
@@ -19,4 +21,4 @@ export const articleBySlug = (slug: string) => editorialArticles.find(article =>
 export const readingMinutes = (article: EditorialArticle) => Math.max(1, Math.ceil(
   [article.lead, ...article.sections.flatMap(section => section.paragraphs)].join(" ").split(/\s+/).length / 200
 ));
-export const articleCategories = ["Los orígenes", "Revoluciones técnicas", "Ideas que cambiaron la F1"];
+export const articleCategories = ["Los orígenes", "Autos de leyenda", "Automovilismo argentino", "Revoluciones técnicas", "Ideas que cambiaron la F1"];

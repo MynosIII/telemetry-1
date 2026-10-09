@@ -1,0 +1,97 @@
+{
+  "slug": "ferrari-375-f1",
+  "title": "Ferrari 375 F1: el día que Silverstone dejó de pertenecer a Alfa Romeo",
+  "description": "La apuesta de Lampredi por un gran V12 atmosférico, la victoria de González y las huellas de un chasis restaurado setenta años después.",
+  "category": "Autos de leyenda",
+  "period": "1951",
+  "year": 1951,
+  "tags": [
+    "Ferrari 375 F1",
+    "Aurelio Lampredi",
+    "José Froilán González"
+  ],
+  "lead": "Silverstone, 14 de julio de 1951. José Froilán González terminó noventa vueltas delante de Juan Manuel Fangio. Su Ferrari 375 F1 había roto la superioridad de Alfa Romeo en los Grandes Premios del Mundial. La diferencia que sostuvo aquella victoria estaba tanto en el motor como en el combustible que el auto no necesitó gastar.",
+  "sections": [
+    {
+      "id": "silverstone",
+      "title": "Noventa vueltas para cambiar una relación de fuerzas",
+      "paragraphs": [
+        "González ganó en dos horas, cuarenta y dos minutos y dieciocho segundos. Fangio terminó segundo y Luigi Villoresi completó el podio con otro Ferrari. La clasificación convierte aquella tarde en un acontecimiento concreto: no fue una victoria simbólica concedida por ausencia del adversario, sino un enfrentamiento ganado contra la escudería que había dominado la primera temporada mundialista.",
+        "El duelo tenía además una historia anterior. Enzo Ferrari había trabajado con Alfa Romeo y organizado su actividad deportiva mucho antes de fabricar sus propios autos. La primera victoria mundialista de un Ferrari llegó, por tanto, frente a una casa con la que su fundador había compartido una parte decisiva de su vida. El 375 fue la máquina que transformó esa separación industrial en un resultado visible sobre la pista."
+      ],
+      "sourceIds": [
+        "result",
+        "first"
+      ]
+    },
+    {
+      "id": "lampredi",
+      "title": "La respuesta no era otro compresor",
+      "paragraphs": [
+        "Aurelio Lampredi desarrolló el V12 atmosférico que llevó a Ferrari hasta el límite de 4,5 litros permitido por el reglamento. El 375 F1 del archivo de la marca tiene 4.493,73 centímetros cúbicos, doce cilindros en V a sesenta grados y una caja de cuatro marchas. El número del modelo correspondía aproximadamente a la cilindrada de cada cilindro, una costumbre característica de los Ferrari de aquella época.",
+        "La elección contrastaba con los pequeños motores sobrealimentados de Alfa Romeo. El problema no se resolvía buscando únicamente una cifra de potencia: había que pensar qué ocurriría durante toda la carrera. El consumo del Ferrari le permitía reducir la cantidad de combustible y el tiempo necesario para reponerlo. En Silverstone, esa diferencia convirtió una característica del motor en una ventaja en boxes; el recorrido de una vuelta y la duración de una parada pertenecían al mismo cálculo."
+      ],
+      "sourceIds": [
+        "garage",
+        "first"
+      ]
+    },
+    {
+      "id": "ascari",
+      "title": "El auto también tuvo otras vidas",
+      "paragraphs": [
+        "El 375 había aparecido en el Gran Premio de Italia de 1950. Su desarrollo continuó y en 1951 Ferrari ganó también con Alberto Ascari en Alemania e Italia. González abrió la puerta, pero no fue el único piloto capaz de aprovechar el cambio. El campeonato terminó en manos de Fangio: derrotar a Alfa Romeo en una carrera y desplazarla de la clasificación anual eran desafíos diferentes.",
+        "Las unidades del modelo tampoco quedaron detenidas en aquella tarde inglesa. Un chasis que participó en la misma carrera con Ascari sobrevivió hasta convertirse en un proyecto de Ferrari Classiche. Se trataba del número cinco, no del auto ganador de González. Su restauración permite acercarse al acontecimiento a través de una máquina auténtica relacionada con él, conservando la identidad particular de cada participante."
+      ],
+      "sourceIds": [
+        "garage",
+        "restoration",
+        "season"
+      ]
+    },
+    {
+      "id": "archivo",
+      "title": "Las marcas del tiempo debajo de la carrocería",
+      "paragraphs": [
+        "La restauración del chasis cinco necesitó una carrocería nueva elaborada a partir de dibujos de archivo. Ferrari encontró diferencias en la estructura heredadas de reconstrucciones anteriores: había tubos redondos donde correspondían secciones cuadradas, y la zona del depósito tampoco conservaba la forma adecuada. Son detalles pequeños frente a la épica del primer triunfo, pero muestran cómo un auto histórico puede cambiar físicamente después de abandonar la competición principal.",
+        "Charles Leclerc lo condujo en Silverstone en 2021, cerca del septuagésimo aniversario de la victoria. La demostración reunió dos momentos del mismo fabricante sin confundir sus vehículos. El 375 conserva su lugar en la historia porque su solución técnica funcionó en una carrera exigente; el trabajo de archivo conserva algo más frágil: la posibilidad de reconocer qué máquina estuvo allí y cómo estaba construida."
+      ],
+      "sourceIds": [
+        "restoration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "garage",
+      "title": "Ferrari — ficha histórica del 375 F1",
+      "url": "https://www.ferrari.com/en-OM/history/garage/1950/375-f1"
+    },
+    {
+      "id": "first",
+      "title": "Ferrari — 100x1000, Gran Premio británico de 1951",
+      "url": "https://www.ferrari.com/en-US/formula1/1000-gp-british-1951"
+    },
+    {
+      "id": "result",
+      "title": "Formula 1 — resultado del GP británico de 1951",
+      "url": "https://www.formula1.com/en/results/1951/races/105/great-britain/race-result"
+    },
+    {
+      "id": "restoration",
+      "title": "Ferrari / Mark Dixon — restauración del 375 F1",
+      "url": "https://www.ferrari.com/en-EG/magazine/articles/history-revisited-restoring-the-375-f1?amp=true"
+    },
+    {
+      "id": "season",
+      "title": "Formula 1 — resultados de 1951",
+      "url": "https://www.formula1.com/en/results/1951/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1951",
+      "href": "/historia/seasons/1951"
+    }
+  ]
+}

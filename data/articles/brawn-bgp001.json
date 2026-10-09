@@ -1,0 +1,142 @@
+{
+  "slug": "brawn-bgp001",
+  "title": "Brawn BGP 001: el coche blanco que llegó a tiempo",
+  "description": "Una máquina nacida dentro de Honda ganó los dos campeonatos con un nombre nuevo y un motor Mercedes.",
+  "year": 2009,
+  "period": "2009",
+  "tags": [
+    "Brawn BGP 001",
+    "Jenson Button",
+    "Rubens Barrichello"
+  ],
+  "lead": "Melbourne, 29 de marzo de 2009: Jenson Button ganó el Gran Premio de Australia y Rubens Barrichello terminó segundo. El BGP 001 acababa de conseguir un doblete en el primer fin de semana del campeonato para un equipo cuyo futuro había estado en duda apenas semanas antes.",
+  "sections": [
+    {
+      "id": "melbourne",
+      "title": "Un debut que parecía un desenlace",
+      "paragraphs": [
+        "La parrilla australiana puso delante a los dos coches de Brawn. La carrera convirtió esa velocidad inicial en un resultado que pocos meses antes habría sido difícil de imaginar. Honda había anunciado su retirada el 5 de diciembre de 2008, en medio de la crisis económica mundial. El proyecto de 2009 continuaba existiendo, pero había perdido al fabricante que debía llevarlo a competir.",
+        "La venta a Ross Brawn fue anunciada el 6 de marzo. Entre ambas fechas, la continuidad del equipo había sido un problema tan urgente como el rendimiento del coche. El BGP 001 reunió una nueva identidad con personal y trabajo previo que provenían de Honda. El doblete de Melbourne no era el resultado de construir un monoplaza entero durante aquel breve intervalo; era la culminación de un proyecto que consiguió sobrevivir a su cambio de propietario."
+      ],
+      "sourceIds": [
+        "australia",
+        "venta",
+        "retirada",
+        "honda"
+      ]
+    },
+    {
+      "id": "motor",
+      "title": "Cambiar el corazón sin perder el proyecto",
+      "paragraphs": [
+        "El coche que había comenzado con la expectativa de utilizar un motor Honda terminó compitiendo con un Mercedes V8. La instalación de un propulsor diferente obligaba a adaptar una arquitectura ya avanzada. Esa tarea añadió otra presión al equipo: mantener el potencial de su diseño mientras resolvía una combinación que no era la prevista en el inicio del trabajo.",
+        "La documentación histórica de Honda reconoce que Brawn heredó los coches en desarrollo para 2009. El monoplaza conservó, por lo tanto, una continuidad que las fotografías de su nueva decoración pueden ocultar. Su carrocería blanca y sus acentos fluorescentes señalaban una organización distinta; debajo había conocimientos, instalaciones y decisiones tomadas durante la etapa anterior. El nombre nuevo y la historia material no empezaban en la misma fecha."
+      ],
+      "sourceIds": [
+        "historia",
+        "reglas",
+        "modelo"
+      ]
+    },
+    {
+      "id": "difusor",
+      "title": "La polémica viajaba debajo de la carrocería",
+      "paragraphs": [
+        "El doble difusor del BGP 001 se convirtió en su rasgo técnico más conocido. Brawn, Toyota y Williams habían interpretado las transiciones y aperturas del fondo de manera que podían alimentar canales adicionales. Los rivales cuestionaron la legalidad de esa disposición, y el debate llegó a la Corte Internacional de Apelación de la FIA.",
+        "La decisión de abril de 2009 confirmó la legalidad de los diseños impugnados. El coche no estaba compitiendo con una excepción personal concedida a Ross Brawn. La sentencia examinó los artículos y las geometrías en discusión, y sus consecuencias alcanzaban a los tres equipos. Ese contexto permite ver el difusor como parte de una competencia de interpretación y desarrollo, en lugar de una explicación mágica de cada resultado."
+      ],
+      "sourceIds": [
+        "sentencia"
+      ]
+    },
+    {
+      "id": "temporada",
+      "title": "El margen de abril tuvo que alcanzar hasta octubre",
+      "paragraphs": [
+        "Button ganó seis de las primeras siete carreras. Después de Turquía no volvió a vencer, aunque siguió sumando resultados para sostener su ventaja. Barrichello ganó los grandes premios de Europa e Italia en la segunda mitad del año. La lista de vencedores cambió cuando los rivales elevaron su rendimiento, y Brawn tuvo que administrar una campaña que ya no se parecía a su inicio.",
+        "En Brasil, Button aseguró el título de pilotos y el equipo el de constructores. El BGP 001 había transformado una continuidad empresarial incierta en una temporada campeona. Su significado reside tanto en la velocidad como en la capacidad de llegar a la primera carrera, competir y mantener una oportunidad cuando el panorama comenzó a estrecharse. El coche blanco de Melbourne fue el principio de una hazaña deportiva; para quienes habían evitado el cierre del proyecto, ya era también una victoria anterior a la bandera a cuadros."
+      ],
+      "sourceIds": [
+        "resultados",
+        "pilotos",
+        "reglas"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "australia",
+      "title": "Formula 1: Gran Premio de Australia 2009",
+      "url": "https://www.formula1.com/en/results/2009/races/843/australia/race-result"
+    },
+    {
+      "id": "retirada",
+      "title": "Honda: retirada de diciembre de 2008",
+      "url": "https://global.honda/en/newsroom/news/2008/c081205eng.html"
+    },
+    {
+      "id": "venta",
+      "title": "Honda: venta a Ross Brawn",
+      "url": "https://global.honda/en/newsroom/news/2009/c090306eng.html"
+    },
+    {
+      "id": "honda",
+      "title": "Honda: balance de su campaña 2008",
+      "url": "https://global.honda/en/F1/2008/"
+    },
+    {
+      "id": "historia",
+      "title": "Honda: la continuidad del proyecto de 2009",
+      "url": "https://global.honda/en/about/history-digest/75years-history/chapter5/section1_2/"
+    },
+    {
+      "id": "reglas",
+      "title": "Formula 1: reinicio aerodinámico de 2009",
+      "url": "https://www.formula1.com/en/latest/article/the-key-regulation-changes-in-f1-history-and-the-teams-that-nailed-them.2iq8c5E6S1HOffT5PBLl6i"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Brawn BGP 001",
+      "url": "https://en.wikipedia.org/wiki/Brawn_BGP_001"
+    },
+    {
+      "id": "sentencia",
+      "title": "FIA: sentencia del doble difusor",
+      "url": "https://www.fia.com/sites/default/files/judgements/ICA-14-04-2009-a.pdf"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2009",
+      "url": "https://www.formula1.com/en/results/2009/races"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 2009",
+      "url": "https://www.formula1.com/en/results/2009/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Brawn",
+      "href": "/historia/constructors/brawn"
+    },
+    {
+      "label": "Temporada 2009",
+      "href": "/historia/seasons/2009"
+    },
+    {
+      "label": "La historia del doble difusor",
+      "href": "/articulos/brawn-doble-difusor"
+    }
+  ],
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Button_Spain_2009.jpg/1280px-Button_Spain_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Button_Spain_2009.jpg",
+    "author": "Jose Mª Izquierdo Galiot",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Jenson Button con Brawn en el Gran Premio de España de 2009.",
+    "alt": "Jenson Button con Brawn en el Gran Premio de España de 2009."
+  }
+}

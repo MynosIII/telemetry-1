@@ -1,0 +1,111 @@
+{
+  "slug": "san-martin-villa-martelli",
+  "title": "Las pistas que la ciudad se llevó: San Martín y Villa Martelli",
+  "description": "Un óvalo de tierra, las carreras de Bucci y una fotografía de archivo permiten recuperar dos escenarios que quedaron fuera del mapa habitual del automovilismo.",
+  "category": "Automovilismo argentino",
+  "year": 1927,
+  "period": "1927–Década de 1940",
+  "tags": [
+    "Argentina",
+    "Villa Martelli",
+    "San Martín",
+    "Aperlo",
+    "Domingo Bucci"
+  ],
+  "lead": "En el archivo histórico de Vicente López hay una fotografía de un despiste. Su ficha habla de un autódromo en Villa Martelli, situado en terrenos de la fábrica Aperlo. La imagen abre una puerta a una ciudad distinta: una en la que las pistas podían aparecer, transformarse y desaparecer sin dejar un nombre reconocible para las generaciones siguientes.",
+  "sections": [
+    {
+      "id": "otra-ciudad",
+      "title": "Un óvalo antes del Gálvez",
+      "sourceIds": [
+        "carburando",
+        "reflejos"
+      ],
+      "paragraphs": [
+        "El 10 de julio de 1927 se inauguró el autódromo de San Martín. Las reconstrucciones locales lo ubican en el sector de Villa Maipú, sobre terrenos de la familia de César Oliveira. Su proximidad al área de Constituyentes y al límite de la Capital ayuda a explicar que, con el tiempo, se lo recuerde mediante referencias geográficas distintas. Pero una referencia cercana no convierte dos pistas en el mismo lugar.",
+        "El proyecto reunía a dirigentes, propietarios y corredores que buscaban un escenario propio. La tierra se compactaba y recibía petróleo; las curvas tenían peraltes. Era una solución muy diferente de un circuito moderno de asfalto. Debía demostrar que se podía organizar una carrera sin desplegar el espectáculo a lo largo de los caminos públicos. Construir tribunas y una torre de control era también concentrar al público y volver visible la competencia."
+      ]
+    },
+    {
+      "id": "bucci",
+      "title": "La hora de Domingo Bucci",
+      "sourceIds": [
+        "bucci",
+        "carburando",
+        "almanaque"
+      ],
+      "paragraphs": [
+        "El Campeonato de la Hora de la reunión inaugural quedó asociado a Domingo Bucci y su Hudson. El museo de la familia conserva otra dimensión del piloto: Bucci preparaba y modificaba los vehículos con los que corría. Su trayectoria llevaba al autódromo la experiencia de caminos, talleres y pruebas de larga distancia. No era solo una figura en una clasificación; era parte de la cultura mecánica que hacía posibles esas carreras.",
+        "Un documento contemporáneo permite seguir la vida del escenario sin depender únicamente del recuerdo de su inauguración. El Almanaque del Mensajero de 1929 enumera competencias de 1927 y 1928 en San Martín: automóviles standard, motocicletas, fuerza libre y pruebas de duración. Un mismo lugar reunía categorías y formatos diversos. La pista tenía una vida más amplia que la imagen de una sola carrera inaugural y servía a un deporte que todavía estaba acomodando sus especialidades."
+      ]
+    },
+    {
+      "id": "martelli",
+      "title": "La fotografía que conserva otro nombre",
+      "sourceIds": [
+        "archivo",
+        "reflejos"
+      ],
+      "paragraphs": [
+        "La ficha municipal de Villa Martelli procede del archivo del periódico El Martelliano y atribuye la fotografía a la revista El Gráfico. La fecha está estimada alrededor de la década de 1940. Su nota sitúa el autódromo en terrenos de la fábrica Aperlo. Ese es el dato firme que el documento permite recuperar; no aporta una fecha de inauguración, una longitud oficial o una lista completa de vencedores.",
+        "La imagen merece su propio lugar en el relato. Mientras la historia más conocida del automovilismo salta de los caminos al gran autódromo de Buenos Aires, la fotografía conserva un escenario de barrio. Su existencia obliga a mirar entre esos hitos. Las carreras también dejaron huellas en predios industriales y espacios cuya transformación urbana terminó borrando la pista, aunque un archivo siguiera guardando su nombre."
+      ]
+    },
+    {
+      "id": "memoria",
+      "title": "Lo que queda cuando desaparece una pista",
+      "sourceIds": [
+        "archivo",
+        "almanaque",
+        "bucci",
+        "archivoautos"
+      ],
+      "paragraphs": [
+        "San Martín y Villa Martelli sobreviven mediante fuentes distintas: resultados publicados, recuerdos de corredores, reconstrucciones locales y una ficha fotográfica. Juntarlas permite recuperar una geografía deportiva sin hacer que cada silencio se convierta en una leyenda. La atribución de primer autódromo suele corresponder en la bibliografía periodística a San Martín; el archivo de Villa Martelli documenta otro escenario, sin otorgarle ese título.",
+        "Los límites de los documentos no le quitan fuerza a la historia. La vuelven más cercana. Un autódromo puede desaparecer del paisaje y seguir presente en el nombre de un corredor, en una página de un almanaque o en la procedencia de una fotografía. En este caso, esas piezas devuelven dos pistas al mapa. No prometen reconstruir cada vuelta, pero permiten salir de la idea de que el automovilismo argentino tuvo un único camino hasta el Gálvez."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "archivo",
+      "title": "Archivo Histórico de Vicente López: autódromo de Villa Martelli, inventario 000000140-01",
+      "url": "https://www.vicentelopez.gov.ar/archivohistorico/ficha/000000140-01/accidente-en-el-autodromo-de-villa-martelli"
+    },
+    {
+      "id": "carburando",
+      "title": "Carburando: inauguración del autódromo de San Martín",
+      "url": "https://www.carburando.com/notas/un-dia-como-hoy-se-inauguraba-el-primer-autodromo-en-argentina"
+    },
+    {
+      "id": "reflejos",
+      "title": "Reflejos de la Ciudad: ubicación del autódromo en Villa Maipú",
+      "url": "https://reflejos-de-la-ciudad.vercel.app/nota/san-martin-en-el-recuerdo"
+    },
+    {
+      "id": "bucci",
+      "title": "Museo Bucci: trayectoria de Domingo Bucci",
+      "url": "https://museobucci.com/teams/domingo-bucci/"
+    },
+    {
+      "id": "almanaque",
+      "title": "Almanaque del Mensajero 1929: competencias en San Martín, sección Deportes",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Almanaque_del_Mensajero_1929.pdf"
+    },
+    {
+      "id": "archivoautos",
+      "title": "Archivo de autos: reconstrucción del autódromo de San Martín",
+      "url": "https://archivodeautos.wordpress.com/2016/03/27/el-autodromo-de-san-martin/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Buenos Aires y las carreras de 1901",
+      "href": "/articulos/argentina-1901-carreras-hipodromo"
+    },
+    {
+      "label": "El circuito de Buenos Aires",
+      "href": "/historia/circuits/buenos-aires"
+    }
+  ]
+}

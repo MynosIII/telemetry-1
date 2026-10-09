@@ -1,0 +1,95 @@
+{
+  "slug": "lotus-43",
+  "title": "Lotus 43: el único triunfo del H16 llegó con un motor prestado",
+  "description": "Jim Clark ganó en Watkins Glen con la respuesta de Lotus al reglamento de tres litros, una máquina breve que dejó ideas al futuro 49.",
+  "category": "Autos de leyenda",
+  "period": "1966",
+  "year": 1966,
+  "tags": [
+    "Lotus 43",
+    "BRM H16",
+    "Jim Clark",
+    "Maurice Philippe"
+  ],
+  "lead": "Watkins Glen, octubre de 1966. Jim Clark ganó el Gran Premio de Estados Unidos con un Lotus 43 y un motor H16 que BRM había proporcionado como repuesto. Era la única victoria mundialista que conseguiría aquella arquitectura. El auto había pasado buena parte de su temporada intentando simplemente estar listo para competir.",
+  "sections": [
+    {
+      "id": "treslitros",
+      "title": "El nuevo reglamento obligó a buscar un proveedor",
+      "paragraphs": [
+        "La Fórmula 1 pasó a motores atmosféricos de tres litros en 1966. Lotus venía de ganar el campeonato con un pequeño Coventry Climax, pero necesitaba otra respuesta para la nueva fórmula. Colin Chapman y Maurice Philippe prepararon el 43 alrededor del BRM P75, un H16 que prometía aprovechar la experiencia de Bourne con sus V8.",
+        "El chasis tomó ideas de la experiencia de Lotus en Indianápolis y de sus trabajos anteriores de estructura. El motor cumplía una función resistente dentro del conjunto, conectando la parte central con los elementos posteriores. La integración era una apuesta importante, aunque la unidad BRM imponía una masa y una complejidad mayores de las que el equipo esperaba. El auto y el motor tenían que madurar simultáneamente."
+      ],
+      "sourceIds": [
+        "wiki",
+        "register"
+      ]
+    },
+    {
+      "id": "espera",
+      "title": "Un estreno que se retrasó entre averías",
+      "paragraphs": [
+        "El 43 se preparaba para aparecer en Mónaco con Peter Arundell, pero no pudo completar esa presentación. Su primera actividad en Bélgica terminó condicionada por problemas del motor. Lotus continuó utilizando otros vehículos mientras intentaba hacer funcionar el proyecto de tres litros. El equipo no podía esperar a que el nuevo auto resolviera todo para seguir disputando carreras.",
+        "Clark llevó el 43 a Monza y abandonó por la transmisión. La historia de esa etapa quedó compuesta por sesiones y apariciones interrumpidas, con pocos resultados para justificar el esfuerzo. El motor de dieciséis cilindros generaba una impresión poderosa incluso detenido, pero el trabajo deportivo exigía repetir vueltas sin que una pieza obligara a terminar. Su cantidad de cilindros no podía sustituir esa condición."
+      ],
+      "sourceIds": [
+        "wiki",
+        "chassis"
+      ]
+    },
+    {
+      "id": "watkins",
+      "title": "Una tarde distinta dentro de un año complicado",
+      "paragraphs": [
+        "En Estados Unidos, el repuesto suministrado por BRM permitió que Clark disputara la carrera. Jack Brabham, campeón de la temporada con su propio equipo, abandonó mientras lideraba. Clark quedó delante y completó la victoria. La clasificación oficial conserva a Lotus-BRM como ganador, una asociación que casi nunca había conseguido una llegada de ese nivel.",
+        "El resultado fue el único triunfo mundialista del motor H16. La escudería de BRM no lo obtuvo con su propio P83: la combinación ganadora pertenecía al Lotus 43 y a Clark. Ese detalle mantiene separados el proveedor del motor, el constructor del chasis y el piloto que llevó el conjunto hasta la llegada. La máquina finalmente había completado la distancia que tantas veces la había dejado fuera."
+      ],
+      "sourceIds": [
+        "wiki",
+        "chassis",
+        "results"
+      ]
+    },
+    {
+      "id": "dosautos",
+      "title": "Una vida corta dejó ideas y dos estructuras",
+      "paragraphs": [
+        "Lotus construyó dos unidades del 43. Ambas participaron en la apertura de 1967 en Sudáfrica con Clark y Graham Hill, y ambas abandonaron. Después el equipo incorporó el 49 con el Cosworth DFV. La experiencia de utilizar el motor como miembro resistente seguía dentro del nuevo proyecto, aunque su ejecución y su mecánica fueran diferentes.",
+        "Los chasis del 43 pasaron a particulares y fueron adaptados con motores Ford V8 para actividad de Fórmula 5000. La máquina no quedó inmóvil después de su etapa mundialista: otra mecánica permitió continuar utilizando su estructura. El 43 conserva, así, una doble memoria. Fue la solución difícil de Lotus para un reglamento nuevo y también la única combinación que llevó al H16 hasta una victoria de Grand Prix. Su historia terminó siendo breve en el Mundial, pero no estéril."
+      ],
+      "sourceIds": [
+        "wiki",
+        "register",
+        "chassis"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "register",
+      "title": "Classic Team Lotus — registro del Type 43",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-43/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lotus 43, evolución y motor prestado",
+      "url": "https://en.wikipedia.org/wiki/Lotus_43"
+    },
+    {
+      "id": "chassis",
+      "title": "OldRacingCars — historial del Lotus 43/1",
+      "url": "https://www.oldracingcars.com/lotus/43/1"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1966",
+      "url": "https://www.formula1.com/en/results/1966/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1966",
+      "href": "/historia/seasons/1966"
+    }
+  ]
+}

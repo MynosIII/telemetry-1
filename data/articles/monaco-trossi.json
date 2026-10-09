@@ -1,0 +1,103 @@
+{
+  "slug": "monaco-trossi",
+  "title": "Monaco–Trossi: el motor radial que no encontró su carrera",
+  "description": "Un motor radial delante del piloto y tracción delantera: el Monaco-Trossi llevó una idea extrema a los ensayos, pero nunca encontró su lugar en un Grand Prix.",
+  "category": "Autos de leyenda",
+  "year": 1935,
+  "period": "1935",
+  "tags": [
+    "Monaco–Trossi",
+    "Augusto Monaco",
+    "Carlo Felice Trossi",
+    "radial",
+    "1935"
+  ],
+  "lead": "En 1935, un automóvil con un enorme frente circular llegó a los entrenamientos de Monza. El Monaco–Trossi reunía dieciséis cilindros alrededor de su cigüeñal, motor de dos tiempos y tracción delantera. Su apariencia recordaba un avión, pero su problema era enteramente terrestre: convertir esa potencia en un vehículo estable. Nunca llegó a disputar el Grand Prix.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Un ingeniero y un piloto que financiaba proyectos",
+      "paragraphs": [
+        "Augusto Monaco trabajó junto a Carlo Felice Trossi para construir un coche de competición diferente. Trossi era un piloto con recursos propios y una relación importante con la Scuderia Ferrari, además de interés por la aviación y los experimentos mecánicos. El archivo de MAUTO conserva ese mundo mediante documentos, vehículos y objetos personales. El automóvil surgió de esa cooperación, no de una escudería de gran producción.",
+        "El museo de Turín presenta a Trossi como una figura cuya actividad no cabe únicamente en resultados deportivos. Su colección incluye desde automóviles de carrera hasta una miniatura funcional y componentes procedentes de aviones. Ese contexto ayuda a entender por qué respaldó una máquina radial: el proyecto reunió conocimientos e intereses que podían circular entre medios de transporte distintos."
+      ],
+      "sourceIds": [
+        "exposicion",
+        "mauto"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Dos filas de cilindros ocupaban la nariz",
+      "paragraphs": [
+        "El motor del Monaco–Trossi tenía dieciséis cilindros en dos filas radiales. La descripción museística detalla un sistema de dos tiempos con una cámara de combustión compartida por cada pareja de cilindros. No era simplemente instalar un motor de caza disponible en un chasis; la construcción tenía una disposición específica y debía impulsar las ruedas delanteras del automóvil.",
+        "La ficha de MAUTO señala 3.982 centímetros cúbicos, alrededor de 250 caballos y unos 710 kilogramos. La gran superficie frontal mostraba el volumen ocupado por el motor, mientras el cuerpo del coche se estrechaba hacia atrás. Esa forma hacía visible una elección de ingeniería: concentrar una parte importante de la masa y la transmisión delante del conductor.",
+        "La tracción delantera no era una invención inédita, pero resultaba poco usual en aquel entorno de Grand Prix. Las ruedas directrices debían transmitir también la potencia. La elección obligaba a coordinar fuerzas que un coche de motor delantero y propulsión trasera distribuía de otra manera."
+      ],
+      "sourceIds": [
+        "mauto",
+        "tecnica",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La prueba del coche completo",
+      "paragraphs": [
+        "El automóvil se ensayó durante los entrenamientos para el Grand Prix de Italia de 1935. MAUTO documenta que resultó inestable y difícil de controlar a alta velocidad. La potencia disponible y la baja masa respecto del límite de 750 kilogramos no bastaron para darle un comportamiento competitivo. La máquina no pasó de su fase de pruebas.",
+        "El resultado permite explicar por qué una ficha puede engañar: sumar cilindrada, caballos y peso no describe las reacciones de un coche en una curva. El reparto de masas, la dirección, la transmisión y el trabajo de los neumáticos forman un sistema. En el Monaco–Trossi, ese sistema no consiguió transformar una idea llamativa en una herramienta utilizable durante una carrera.",
+        "Por eso no existe una clasificación de Grand Prix del modelo que pueda incorporarse a su palmarés. Su presencia en Monza corresponde a ensayos. La diferencia preserva el interés real del proyecto: el automóvil llegó suficientemente lejos para probarse, y la prueba produjo una respuesta negativa sobre su viabilidad deportiva."
+      ],
+      "sourceIds": [
+        "mauto",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El museo conserva lo que la parrilla nunca vio",
+      "paragraphs": [
+        "La familia Trossi donó el automóvil al Museo Nazionale dell’Automobile. La pieza sobrevivió como un objeto singular, capaz de mostrar una posibilidad que otros diseños no adoptaron. Su valor no depende de imaginar qué habría ocurrido con más presupuesto. Los componentes permiten estudiar aquello que sus autores construyeron y los documentos registran los límites encontrados.",
+        "Una exposición reciente de MAUTO utilizó reconstrucción sonora para explorar el motor que llevaba décadas sin escucharse. La institución explica que se trató de una recreación mediante síntesis, no de una grabación recuperada de 1935. La distinción muestra cómo una pieza técnica puede interpretarse con recursos nuevos sin convertir esa interpretación en evidencia histórica.",
+        "El Monaco–Trossi deja un final diferente al de un coche campeón: la decisión de detener un experimento. Ese desenlace es parte de la historia del Grand Prix. La ingeniería también avanza cuando una máquina real demuestra que una idea prometedora, pese a su potencia y a su singularidad, necesita una coordinación que todavía no consigue."
+      ],
+      "sourceIds": [
+        "exposicion",
+        "mauto",
+        "tecnica"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mauto",
+      "title": "MAUTO: Monaco Trossi, ficha y pruebas de 1935",
+      "url": "https://www.museoauto.com/en/collection/monaco-trossi/"
+    },
+    {
+      "id": "exposicion",
+      "title": "MAUTO: Carlo Felice Trossi y la investigación sobre el proyecto",
+      "url": "https://www.museoauto.com/en/exhibitions/carlo-felice-trossi-unfinished-hero-3/"
+    },
+    {
+      "id": "tecnica",
+      "title": "360CarMuseum: transcripción de la descripción técnica museística",
+      "url": "https://360carmuseum.com/en/museum/45/exhibit/2346"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Monaco–Trossi",
+      "url": "https://fr.wikipedia.org/wiki/Monaco-Trossi"
+    }
+  ],
+  "related": [
+    {
+      "label": "Historia de Monza",
+      "href": "/historia/circuits/monza"
+    },
+    {
+      "label": "Alfa Romeo Tipo A",
+      "href": "/articulos/alfa-romeo-tipo-a"
+    }
+  ]
+}

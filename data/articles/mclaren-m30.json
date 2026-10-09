@@ -1,0 +1,114 @@
+{
+  "slug": "mclaren-m30",
+  "title": "McLaren M30: cuatro grandes premios al final de una era",
+  "description": "El último McLaren de la serie M tuvo una vida breve, mientras cambiaban el equipo y su futuro piloto campeón.",
+  "category": "Autos de leyenda",
+  "year": 1980,
+  "period": "1980",
+  "tags": [
+    "McLaren M30",
+    "Alain Prost",
+    "Gordon Coppuck"
+  ],
+  "lead": "Zandvoort, 31 de agosto de 1980: Alain Prost terminó sexto con el nuevo McLaren M30. Fue un punto para el piloto francés y una de las pocas huellas deportivas de un coche que apareció cuando el equipo ya estaba a punto de cambiar de rumbo.",
+  "sections": [
+    {
+      "id": "zandvoort",
+      "title": "Una llegada demasiado tardía",
+      "paragraphs": [
+        "El M30 debutó en el Gran Premio de los Países Bajos de 1980. La carrera de Zandvoort lo situó inmediatamente en los registros del campeonato: Prost completó la prueba en sexto lugar. Para un coche nuevo, puntuar ofrecía un resultado tangible, pero faltaban muy pocas carreras para que terminara el año. Su evaluación y su futuro debían resolverse con una cantidad limitada de oportunidades.",
+        "En Italia, disputada aquella temporada en Imola, el francés terminó séptimo. En Canadá abandonó. El calendario de la corta vida del M30 concentra su historia en un tramo final donde McLaren buscaba una mejora mientras cambiaba la organización que debía sostenerla. Un coche puede llevar un número superior al anterior y, sin embargo, disponer de menos tiempo para convertirse en una solución estable."
+      ],
+      "sourceIds": [
+        "modelo",
+        "resultados",
+        "registro"
+      ]
+    },
+    {
+      "id": "continuidad",
+      "title": "Gordon Coppuck y el camino del aluminio",
+      "paragraphs": [
+        "Diseñado por Gordon Coppuck, el M30 conservaba un monocasco de aluminio y el motor Ford-Cosworth DFV. Su propósito era desarrollar el rendimiento de efecto suelo respecto del M29. Esas elecciones lo colocaban dentro de una continuidad técnica reconocible: no era todavía el salto a los materiales compuestos que John Barnard preparaba para el siguiente ciclo.",
+        "La comparación entre ambos modelos explica mejor la transición que una oposición simplificada entre coche malo y coche bueno. McLaren buscaba mejorar con las herramientas que ya conocía, mientras una nueva dirección estudiaba una estructura distinta. Las dos vías coexistieron durante un período breve. El M30 pertenece a ese momento en que la competencia no se detiene, aunque el futuro del equipo esté dejando de coincidir con el futuro de su coche más reciente."
+      ],
+      "sourceIds": [
+        "modelo",
+        "nombres",
+        "mp41"
+      ]
+    },
+    {
+      "id": "watkins-glen",
+      "title": "Un accidente cerró el recorrido",
+      "paragraphs": [
+        "La única unidad del M30 sufrió daños en los entrenamientos del Gran Premio de Estados Unidos de 1980, en Watkins Glen. Prost no tomó la salida de aquella carrera. La clasificación de su temporada termina, por eso, sin un resultado estadounidense que pudiera compensar los problemas anteriores. El recorrido de la máquina quedó reducido a cuatro fines de semana del campeonato, con tres participaciones efectivas en carrera.",
+        "El punto de Zandvoort siguió siendo su aporte deportivo más visible. Nada de eso permite adivinar qué habría conseguido con un programa de desarrollo más largo, pero sí indica qué llegó a demostrar realmente. Para escribir su historia hay que aceptar esa brevedad: algunas máquinas importan por la frontera que ocupan, aunque no acumulen suficientes kilómetros ni resultados para convertirse en un linaje."
+      ],
+      "sourceIds": [
+        "modelo",
+        "registro",
+        "resultados"
+      ]
+    },
+    {
+      "id": "fin-m",
+      "title": "El último número de la familia M",
+      "paragraphs": [
+        "McLaren identifica al M30 como el final de su antigua serie de nombres. La integración con Project Four introdujo después el prefijo MP4, asociado a la nueva etapa de Ron Dennis. El cambio de nomenclatura acompañó una transformación empresarial y material: el MP4/1 comenzaría a competir con su célula de carbono, mientras el M29 todavía debía cubrir parte de la transición.",
+        "Prost dejó el equipo y se incorporó a Renault antes de que ese nuevo coche llegara a las carreras. Regresaría a McLaren años más tarde en condiciones muy diferentes. El M30 queda entre esas dos historias: el primer año del futuro campeón y el último tramo de una organización que pronto volvería a ganar. Su corta existencia ofrece una escala distinta para mirar la Fórmula 1, donde una temporada puede contener tanto un final industrial como el comienzo de una carrera extraordinaria."
+      ],
+      "sourceIds": [
+        "nombres",
+        "prost",
+        "mp41"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "modelo",
+      "title": "Wikipedia: McLaren M30",
+      "url": "https://en.wikipedia.org/wiki/McLaren_M30"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: Alain Prost, resultados de 1980",
+      "url": "https://www.formula1.com/en/results/1980/drivers/ALAPRO01/alain-prost"
+    },
+    {
+      "id": "registro",
+      "title": "Racing Sports Cars: participaciones del McLaren M30",
+      "url": "https://www.racingsportscars.com/type/results/McLaren/M30.html"
+    },
+    {
+      "id": "nombres",
+      "title": "McLaren: fin de la serie M y llegada de MP4",
+      "url": "https://www.mclaren.com/racing/latest-news/mclarenracing/article/colour-by-numbers-6122243/"
+    },
+    {
+      "id": "mp41",
+      "title": "McLaren: MP4/1",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
+    },
+    {
+      "id": "prost",
+      "title": "McLaren: Alain Prost",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/drivers/alain-prost/"
+    }
+  ],
+  "related": [
+    {
+      "label": "McLaren M29",
+      "href": "/articulos/mclaren-m29"
+    },
+    {
+      "label": "McLaren MP4/1",
+      "href": "/articulos/mclaren-mp4-1"
+    },
+    {
+      "label": "Temporada 1980",
+      "href": "/historia/seasons/1980"
+    }
+  ]
+}

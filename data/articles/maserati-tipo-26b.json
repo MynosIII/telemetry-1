@@ -1,0 +1,102 @@
+{
+  "slug": "maserati-tipo-26b",
+  "title": "Maserati Tipo 26B: el taller aprendió a fabricar su propio nombre",
+  "description": "Un ocho cilindros de dos litros, la Targa Florio y un accidente que apartó a Alfieri: el Tipo 26B consolidó a Maserati antes de convertirse en la base de una idea de dieciséis cilindros.",
+  "category": "Autos de leyenda",
+  "year": 1927,
+  "period": "1927–1930",
+  "tags": [
+    "Maserati",
+    "Tipo 26",
+    "Tipo 26B",
+    "Alfieri Maserati",
+    "1927"
+  ],
+  "lead": "En la Targa Florio de 1927, Alfieri Maserati terminó tercero con el Tipo 26B. El resultado dio visibilidad a una fábrica joven de Bolonia que ya llevaba su propio tridente en el coche. Pocos meses después, un accidente en la Coppa Messina interrumpió la actividad del fundador al volante. La máquina continuó compitiendo mientras el taller aprendía a crecer sin depender de una sola persona.",
+  "sections": [
+    {
+      "id": "un-taller-con-experiencia",
+      "title": "Un taller que ya conocía los motores de otros",
+      "paragraphs": [
+        "Alfieri y sus hermanos habían trabajado con automóviles y motores de Isotta Fraschini y Diatto antes de construir coches bajo el nombre Maserati. El taller fundado en Bolonia en 1914 ofrecía experiencia mecánica, reparación y preparación. La llegada del Tipo 26 en 1926 cambió la relación con el público: el tridente identificaba ahora una máquina propia, no únicamente el trabajo realizado sobre la de otro fabricante.",
+        "El Tipo 26B fue una evolución de ese primer coche. La letra diferenciaba un motor de mayor cilindrada, próximo a dos litros, de la unidad de litro y medio del Tipo 26. No se trataba de empezar otra vez desde cero. El diseño aprovechó soluciones probadas y buscó eliminar problemas observados durante la experiencia inicial. La documentación del museo recuerda que los propios hermanos le daban un lugar especial en la construcción de su identidad industrial."
+      ],
+      "sourceIds": [
+        "archivo",
+        "mauto"
+      ]
+    },
+    {
+      "id": "hierro-y-elektron",
+      "title": "Hierro para sostener; una aleación ligera para ahorrar",
+      "paragraphs": [
+        "El motor de ocho cilindros en línea tenía 1.980 centímetros cúbicos, dos árboles de levas en cabeza y compresor Roots. El bloque de hierro fundido respondió a deformaciones que habían aparecido en el modelo anterior. La decisión muestra que un material más pesado podía resultar necesario en una pieza concreta, aunque el coche buscara mejorar su relación entre potencia y masa.",
+        "En otras partes se utilizó Elektron, una aleación basada en magnesio. Maserati documenta la colaboración con las fundiciones de Isotta Fraschini para fabricar cárteres y componentes de menor peso. La ingeniería repartía requisitos: rigidez donde el motor la necesitaba y ligereza donde podía aprovecharla. El automóvil no era un ejercicio de sustituir todos los materiales por el más liviano disponible.",
+        "La carrocería biplaza de aluminio se montaba sobre un bastidor de largueros y travesaños de acero. La ficha de MAUTO anuncia unos 155 caballos. Motor, chasis y proveedor de fundición componían una red de trabajo. La autonomía de una marca nueva no significaba fabricar absolutamente cada parte sin cooperación: significaba organizar un conjunto que pudiera competir bajo su nombre."
+      ],
+      "sourceIds": [
+        "maserati",
+        "mauto"
+      ]
+    },
+    {
+      "id": "alfieri-y-la-carrera",
+      "title": "La Targa Florio dio un resultado; Messina cambió al piloto",
+      "paragraphs": [
+        "Alfieri condujo el 26B hasta el tercer puesto absoluto de la Targa Florio de 1927. La carretera siciliana exigía resistencia y manejo durante una distancia prolongada. Ese resultado situó al automóvil entre rivales experimentados y dio a la fábrica una comprobación pública de su capacidad. El coche no necesitaba ganar inmediatamente para demostrar que podía completar una gran prueba.",
+        "Durante la Coppa Messina de aquel año, Alfieri sufrió un accidente grave que lo dejó con fracturas, lesiones internas y la pérdida de un riñón. El Sistema Archivistico Nazionale italiano conserva esa secuencia dentro de su biografía empresarial. La interrupción de su actividad deportiva obligó a distinguir entre la carrera de un fundador y la continuidad de los coches que había ayudado a construir.",
+        "El 26B siguió utilizado por pilotos de la casa y clientes. En 1928 obtuvo el Campeonato Italiano de marcas según MAUTO. Era un certamen nacional, con un significado propio, no el Mundial de fabricantes de la AIACR. El resultado mostró que el taller podía sostener actividad competitiva mientras su figura principal se recuperaba de un accidente."
+      ],
+      "sourceIds": [
+        "mauto",
+        "archivo"
+      ]
+    },
+    {
+      "id": "de-ocho-a-dieciseis",
+      "title": "La experiencia de dos litros se duplicó en otro proyecto",
+      "paragraphs": [
+        "En 1929, Maserati utilizó la experiencia del 26B para una construcción mucho más ambiciosa: el V4 reunió dos grupos de ocho cilindros en un ángulo estrecho. El nuevo coche dio a Borzacchini un récord de clase sobre diez kilómetros y una victoria en Tripoli en 1930. La relación técnica entre ambos modelos permite seguir cómo una unidad conocida podía servir de base a una investigación diferente.",
+        "El 26B tuvo una producción muy pequeña. El relato patrimonial de Maserati menciona ocho unidades entre 1927 y 1930, mientras otras fuentes distinguen ejemplares vendidos y construidos. Esas cantidades describen un taller especializado, no una línea masiva. Cada automóvil exigía trabajo y podía adquirir una historia propia con diferentes pilotos y modificaciones.",
+        "El ejemplar de MAUTO fue donado por Officine Alfieri Maserati y conserva una versión de esa primera familia. Su interés excede la ficha del motor: permite ver una empresa que aprendía a corregir deformaciones, obtener piezas ligeras, competir y atender clientes. Antes del espectacular V4, el 26B convirtió un taller con experiencia en una fábrica reconocible por una máquina que podía llevar su nombre hasta el final de una carrera."
+      ],
+      "sourceIds": [
+        "v4",
+        "maserati",
+        "mauto"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mauto",
+      "title": "MAUTO: Maserati 26B, trayectoria y ficha técnica",
+      "url": "https://www.museoauto.com/en/collection/maserati-26b/"
+    },
+    {
+      "id": "archivo",
+      "title": "Sistema Archivistico Nazionale: Alfieri Maserati y el accidente de 1927",
+      "url": "https://www.imprese.san.beniculturali.it/web/imprese/protagonisti/scheda-protagonista?articleId=122143&articleIdPadre=122138&groupId=18701&p_p_id=56_INSTANCE_6uZ0&p_p_lifecycle=1&p_p_state=normal&viewMode=normal"
+    },
+    {
+      "id": "maserati",
+      "title": "Maserati: historia y materiales del Tipo 26B",
+      "url": "https://www.maserati.com/qa/en/brand/stories-of-audacity/maserati-anantara-concorso-roma-2026"
+    },
+    {
+      "id": "v4",
+      "title": "Maserati: construcción del V4 a partir de dos unidades Tipo 26B",
+      "url": "https://www.media.stellantis.com/em-en/maserati/press/maserati-tipo-v4-and-mario-umberto-baconin-borzacchinis-cremona-record"
+    }
+  ],
+  "related": [
+    {
+      "label": "Maserati V4",
+      "href": "/articulos/maserati-v4"
+    },
+    {
+      "label": "Alfa Romeo P2",
+      "href": "/articulos/alfa-romeo-p2"
+    }
+  ]
+}

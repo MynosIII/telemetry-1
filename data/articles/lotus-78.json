@@ -1,0 +1,106 @@
+{
+  "slug": "lotus-78",
+  "title": "Lotus 78: el secreto que viajaba debajo de los pontones",
+  "description": "Andretti probó durante miles de kilómetros una máquina cuyo mayor avance necesitaba faldillas, sellado y un suelo que no se veía desde la tribuna.",
+  "category": "Autos de leyenda",
+  "period": "1977",
+  "year": 1977,
+  "tags": [
+    "Lotus 78",
+    "Mario Andretti",
+    "Gunnar Nilsson",
+    "Peter Wright"
+  ],
+  "lead": "Zolder, 1977. Mario Andretti consiguió una pole muy por delante del resto y Gunnar Nilsson terminó ganando con otro Lotus 78. La velocidad del auto empezaba a resultar demasiado evidente para seguir oculta. El secreto estaba bajo los pontones, en un espacio que la carrocería y las faldillas impedían mirar.",
+  "sections": [
+    {
+      "id": "tunel",
+      "title": "Una investigación que había empezado en otra escudería",
+      "paragraphs": [
+        "Peter Wright y Tony Rudd habían trabajado en ideas de flujo inferior durante su etapa en BRM. En Lotus retomaron la investigación con el apoyo de Colin Chapman. El ensayo decisivo combinó un modelo, un túnel de viento con suelo móvil y el sellado lateral. Al impedir que el aire exterior invadiera la parte inferior, el conjunto produjo una fuerza mucho mayor de la que se había observado antes.",
+        "El diseño del 78 organizó los pontones para formar canales entre su cara inferior y la pista. La velocidad del aire y la presión cambiaban a lo largo de ese recorrido. Ralph Bellamy y Tony Southgate trabajaron en el vehículo que llevó el concepto a la competición. Era una investigación colectiva convertida en un auto completo, no una invención que pudiera atribuirse a una sola persona frente a una hoja en blanco."
+      ],
+      "sourceIds": [
+        "f1",
+        "ctl"
+      ]
+    },
+    {
+      "id": "faldillas",
+      "title": "El hallazgo necesitaba conservarse en cada movimiento",
+      "paragraphs": [
+        "Las faldillas laterales eran indispensables para mantener separada la región inferior de baja presión. Su desarrollo pasó por diferentes materiales y mecanismos. Las primeras soluciones de tipo cepillo cedieron lugar a elementos más efectivos que debían deslizarse y acompañar los desniveles. La carga obtenida en un ensayo solo resultaba útil si el sellado seguía trabajando cuando el auto frenaba o doblaba.",
+        "Los radiadores, el combustible y la forma del monocasco tenían que acomodarse alrededor de esos canales. El 78 poseía un cuerpo central estrecho y pontones importantes en relación con el ancho del vehículo. Cada componente podía ayudar o entorpecer el camino del aire. La nueva arquitectura pedía que una parte de la mecánica dejara de ocupar lugares que ahora eran valiosos para la aerodinámica."
+      ],
+      "sourceIds": [
+        "skirts",
+        "ctl",
+        "f1"
+      ]
+    },
+    {
+      "id": "andretti",
+      "title": "Las victorias no bastaron para conseguir el título",
+      "paragraphs": [
+        "El 78 apareció en la primera carrera de 1977, en Argentina, y Andretti logró su primer triunfo en Long Beach. Nilsson ganó después en Bélgica. La temporada siguió sumando victorias para Lotus, pero los problemas de fiabilidad impidieron convertir toda su velocidad en puntos. Niki Lauda terminó siendo campeón con Ferrari.",
+        "Andretti había trabajado intensamente en las pruebas de Hethel antes del estreno. Classic Team Lotus recuerda miles de kilómetros recorridos para desarrollar la máquina. El trabajo previo no eliminó todos sus defectos: el equilibrio aerodinámico del 78 todavía obligaba a utilizar una carga posterior que aumentaba la resistencia en recta. La primera gran demostración del efecto suelo era competitiva, pero no había alcanzado todavía la eficacia del sucesor."
+      ],
+      "sourceIds": [
+        "model",
+        "f1",
+        "results"
+      ]
+    },
+    {
+      "id": "chasisdos",
+      "title": "El auto siguió ganando antes de ceder su lugar",
+      "paragraphs": [
+        "Lotus comenzó 1978 con el 78 mientras terminaba el 79. Andretti ganó en Argentina y Ronnie Peterson en Sudáfrica con el modelo anterior. Entre ambas temporadas, el Type 78 sumó siete victorias mundialistas. El campeonato de Andretti en 1978 quedó vinculado al 79, pero su comienzo también pertenecía al auto que había abierto el camino.",
+        "El chasis 78/2 tuvo una trayectoria especialmente clara: ganó con Nilsson en Bélgica y con Peterson en Sudáfrica. Después pasó décadas lejos de la competición, incluso expuesto en la recepción de una empresa. Classic Team Lotus documentó su regreso al taller para restaurarlo a especificación de época. Con la carrocería retirada, el trabajo permitió volver a observar aquello que los rivales intentaban descubrir en 1977: la geometría escondida bajo los pontones."
+      ],
+      "sourceIds": [
+        "ctl",
+        "model",
+        "results78"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "f1",
+      "title": "Formula 1 / Hughes y Piola — desarrollo de los Lotus 78 y 79",
+      "url": "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
+    },
+    {
+      "id": "ctl",
+      "title": "Classic Team Lotus — restauración e historia del 78/2",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2021/it%E2%80%99s-all-about-the-aero%2C-pt-ii/"
+    },
+    {
+      "id": "skirts",
+      "title": "Classic Team Lotus — evolución de las faldillas",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2021/secrets-of-the-lotus-79-skirts/"
+    },
+    {
+      "id": "model",
+      "title": "Classic Team Lotus — siete victorias del Type 78",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2014/tsm-launches-a-new-model/"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1977",
+      "url": "https://www.formula1.com/en/results/1977/races"
+    },
+    {
+      "id": "results78",
+      "title": "Formula 1 — resultados de 1978",
+      "url": "https://www.formula1.com/en/results/1978/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1977",
+      "href": "/historia/seasons/1977"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "lotus-21",
+  "title": "Lotus 21: una carrocería prestada y la primera victoria del equipo",
+  "description": "El auto bajo de 1961 llegó a Monza con una combinación de colores improvisada y terminó en Watkins Glen ganando con Innes Ireland.",
+  "category": "Autos de leyenda",
+  "period": "1961",
+  "year": 1961,
+  "tags": [
+    "Lotus 21",
+    "Innes Ireland",
+    "Jim Clark",
+    "Stirling Moss"
+  ],
+  "lead": "Monza, 1961. Innes Ireland dejó a disposición de Stirling Moss un Lotus 21 del equipo oficial. El arreglo se hizo tan cerca de la carrera que intercambiaron paneles y cubiertas: el chasis 933 conservó una combinación de colores de dos estructuras deportivas. La máquina todavía tendría otra historia decisiva ese año.",
+  "sections": [
+    {
+      "id": "urgencia",
+      "title": "Seis semanas para una fórmula más pequeña",
+      "paragraphs": [
+        "Lotus preparó el 21 para el nuevo límite de 1,5 litros. El fabricante recuerda que el prototipo se construyó en seis semanas. Coventry Climax todavía no podía proporcionar el V8 que los equipos británicos esperaban, de modo que el auto empezó trabajando con el cuatro cilindros FPF. Frente al motor de Ferrari, Lotus necesitaba aprovechar todo lo que pudiera conseguir mediante el vehículo.",
+        "Chapman redujo la altura del habitáculo y reclinó al piloto. La estructura seguía siendo tubular, pero la organización y la carrocería permitían ofrecer menos superficie frontal. La fórmula de motores pequeños hacía especialmente valioso no desperdiciar potencia atravesando el aire. El cambio no era un alerón exterior espectacular; se encontraba en la postura del conductor y en el volumen que lo rodeaba."
+      ],
+      "sourceIds": [
+        "lotus",
+        "wiki"
+      ]
+    },
+    {
+      "id": "zf",
+      "title": "La caja dejó de ser una investigación permanente",
+      "paragraphs": [
+        "La transmisión ZF de cinco marchas sustituyó la problemática caja Lotus utilizada en varios proyectos anteriores. El 21 recibió también revisiones de las suspensiones y de los elementos que transmitían movimiento a las ruedas posteriores. El auto combinaba decisiones nuevas con la necesidad de dejar atrás piezas que habían consumido demasiado trabajo de preparación.",
+        "Su debut mundialista fue Mónaco en 1961. La carrera la ganó Moss para Rob Walker con un 18, mientras el 21 iniciaba su campaña oficial. Los dos modelos compartieron así el mismo escenario sin que sus vidas deportivas fueran idénticas. Lotus estaba desarrollando un auto nuevo y sus clientes seguían encontrando resultados con la máquina anterior."
+      ],
+      "sourceIds": [
+        "lotus",
+        "wiki",
+        "results"
+      ]
+    },
+    {
+      "id": "933",
+      "title": "La mezcla de colores dejó una huella comprobable",
+      "paragraphs": [
+        "El chasis 933 de Ireland fue utilizado por Moss en el Gran Premio de Italia. Classic Team Lotus explica que se cambiaron la parte superior de la carrocería y la cubierta del motor con el auto de Rob Walker. La parte inferior y las ruedas conservaron la identidad del equipo oficial. La combinación visual no necesitó un proyecto artístico: surgió de un préstamo de material a último momento.",
+        "El mismo chasis se conserva dentro del registro histórico de la marca. Su restauración y sus apariciones en homenajes permiten reconocer una historia que podría perderse al devolver todos los paneles a un color uniforme. En los Grandes Premios de aquella época, los equipos compartían y adaptaban recursos de maneras que hoy resultan difíciles de imaginar. El 933 conserva una evidencia concreta de esa flexibilidad."
+      ],
+      "sourceIds": [
+        "tribute",
+        "lotus"
+      ]
+    },
+    {
+      "id": "watkins",
+      "title": "Ireland obtuvo la victoria que todavía faltaba",
+      "paragraphs": [
+        "Innes Ireland ganó el Gran Premio de Estados Unidos de 1961 en Watkins Glen con el 21. Fue la primera victoria mundialista de Team Lotus, diferenciada de los triunfos que Moss ya había conseguido para el constructor con Rob Walker. El nuevo número del modelo quedó ligado al momento en que el equipo de Chapman pudo completar su propio palmarés inaugural.",
+        "El 21 continuó apareciendo antes de ceder su lugar a los 24 y 25. Su historia queda entre el cambio de motor del 18 y la revolución estructural del monocasco. Fue una respuesta rápida al reglamento, un vehículo que podía prestarse y cambiar de carrocería, y finalmente un ganador. La máquina baja que se había construido en pocas semanas terminó entregando una victoria que el equipo llevaba varias temporadas buscando."
+      ],
+      "sourceIds": [
+        "lotus",
+        "wiki",
+        "results"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lotus",
+      "title": "Lotus Cars — Type 21, ingeniería y victoria",
+      "url": "https://www.lotuscars.com/en-FR/lotus-story/race-cars/type-21"
+    },
+    {
+      "id": "tribute",
+      "title": "Classic Team Lotus — chasis 933, préstamo a Moss y carrocería",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2021/classic-team-lotus-drivers-supporting-sir-stirling-moss-tribute-at-goodwood/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lotus 21, campañas y bibliografía",
+      "url": "https://en.wikipedia.org/wiki/Lotus_21"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1961",
+      "url": "https://www.formula1.com/en/results/1961/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1961",
+      "href": "/historia/seasons/1961"
+    }
+  ]
+}

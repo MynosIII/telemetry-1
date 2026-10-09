@@ -1,0 +1,109 @@
+{
+  "slug": "argentina-1901-carreras-hipodromo",
+  "title": "Una cigarrera de plata y dos carreras: Buenos Aires, 1901",
+  "description": "Antes de Fangio y de los autódromos, un programa benéfico reunió máquinas de vapor, un futuro presidente y una carrera que todavía cambia según quién la cuente.",
+  "category": "Automovilismo argentino",
+  "year": 1901,
+  "period": "1901–1904",
+  "tags": [
+    "Argentina",
+    "Juan Cassoulet",
+    "Marcelo T. de Alvear",
+    "Hipódromo de Belgrano",
+    "Locomobile"
+  ],
+  "lead": "El premio de Juan Cassoulet no fue una copa monumental. Fue una cigarrera con fosforera de plata. La recibió después de correr en Buenos Aires el 16 de noviembre de 1901, durante una jornada en la que el automóvil compartió escenario con una sociedad que apenas empezaba a conocerlo.",
+  "sections": [
+    {
+      "id": "una-tarde-distinta",
+      "title": "El hipódromo recibe otros motores",
+      "sourceIds": [
+        "feder",
+        "carburando"
+      ],
+      "paragraphs": [
+        "La Sociedad Damas de Caridad organizó el encuentro a beneficio del Instituto Siglo XX. El lugar fue el Hipódromo Argentino de Belgrano, también identificado en reconstrucciones históricas como el antiguo Hipódromo Nacional de Núñez. Los coches llegaron a un espacio concebido para caballos: la primera pista no había sido construida para ellos. La ciudad prestaba a la novedad un escenario que ya sabía reunir espectadores y ordenar una competencia.",
+        "El programa tenía cuatro números. Uno se suspendió y el reservado a los vehículos eléctricos quedó desierto. Esa ausencia suele desaparecer cuando se resume la tarde como una única carrera. Sin embargo, cuenta algo esencial: vapor, electricidad y combustible líquido todavía eran alternativas visibles. La historia del automóvil no había elegido una sola respuesta, y una convocatoria podía fracasar porque los inscriptos no aparecían."
+      ]
+    },
+    {
+      "id": "cassoulet",
+      "title": "El ganador que quedó fuera del gran relato",
+      "sourceIds": [
+        "feder",
+        "carburando"
+      ],
+      "paragraphs": [
+        "Cassoulet ganó la prueba de coches livianos con un Rochester. La reconstrucción de Gustavo Feder conserva nombres que las síntesis suelen borrar: Juan Abella, Marcelo Torcuato de Alvear y otros participantes. También registra las diferencias entre las fuentes respecto de la longitud recorrida y algunos puestos. Aquel resultado llegó hasta nosotros por diarios, revistas y relatos posteriores, no por una base de datos capaz de resolver automáticamente sus contradicciones.",
+        "El episodio más revelador es pequeño. La crónica de La Nación del día siguiente describió la rotura de una cadena en el coche de Alvear. Un inconveniente mecánico ya podía cambiar una clasificación. El futuro presidente quedó detrás de Cassoulet en esa prueba, pero todavía tenía otra oportunidad en el programa. El día no terminaba con un solo vencedor, ni todos los coches estaban compitiendo bajo la misma condición."
+      ]
+    },
+    {
+      "id": "alvear",
+      "title": "El vapor gana su propio duelo",
+      "sourceIds": [
+        "feder",
+        "cidoa"
+      ],
+      "paragraphs": [
+        "La prueba de peso libre enfrentó a Alvear y Aarón de Anchorena sobre un recorrido de tres kilómetros. Alvear utilizó un Locomobile de vapor; Anchorena, un Panhard de combustión. Ganó el primero. Ambos iban acompañados por sus chauffeurs, una presencia que acerca la escena al mundo de los propietarios y sus técnicos, más que a la imagen posterior de un piloto profesional aislado en un monoplaza.",
+        "Dalmiro Varela Castex participó como juez de llegada. Su nombre volvería a aparecer en la construcción institucional del automovilismo argentino. El museo del ACA conserva la patente número uno asociada a Varela Castex y reúne vehículos de tecnologías y procedencias distintas. Esas piezas ayudan a imaginar la escala de aquel ambiente: el deporte surgía dentro de una comunidad de propietarios, importadores y mecánicos que todavía tenía que organizarse."
+      ]
+    },
+    {
+      "id": "club",
+      "title": "Después de la novedad, una institución",
+      "sourceIds": [
+        "aca",
+        "museo",
+        "piglia"
+      ],
+      "paragraphs": [
+        "El Automóvil Club Argentino se fundó el 11 de junio de 1904, después de aquellas carreras. El orden importa porque muestra un deporte anterior a su principal institución nacional. Para sostenerlo no alcanzaba con repetir una reunión benéfica: hacían falta reglas, rutas, relaciones con las autoridades y una organización capaz de reunir a quienes utilizaban el automóvil para competir y para viajar.",
+        "La investigación académica sobre los primeros automovilistas argentinos describe ese cruce entre sociabilidad, prestigio y circulación de conocimientos. El automóvil permitía distinguirse, pero también exigía talleres, combustible y caminos. La transformación en una pasión extendida vendría después. En 1901, su historia todavía cabía en un programa de cuatro números, dos carreras disputadas y un objeto de plata. Cassoulet ganó uno de esos números. Alvear ganó otro. Recordar a ambos devuelve a aquella tarde su forma real."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "feder",
+      "title": "Gustavo Feder / Autohistoria: primera carrera de autos en Argentina",
+      "url": "https://autohistoria.com.ar/primera-carrera-de-autos-en-argentina/"
+    },
+    {
+      "id": "carburando",
+      "title": "Carburando: los participantes y el Rochester de Cassoulet",
+      "url": "https://www.carburando.com/notas/se-cumplen-117-anos-de-la-primera-carrera-de-autos-en-bs"
+    },
+    {
+      "id": "cidoa",
+      "title": "CIDOA: los primeros automóviles en Argentina",
+      "url": "https://cidoa.org.ar/primeros-automoviles-en-argentina/"
+    },
+    {
+      "id": "aca",
+      "title": "ACA: aniversario y fecha de fundación",
+      "url": "https://www.aca.org.ar/2022/06/11/aniversario-118/"
+    },
+    {
+      "id": "museo",
+      "title": "Museo del Automóvil Club Argentino: patrimonio y patente de Varela Castex",
+      "url": "https://www.aca.org.ar/museo/"
+    },
+    {
+      "id": "piglia",
+      "title": "Repositorio UNMdP: investigación sobre los orígenes del automovilismo argentino",
+      "url": "https://humadoc.mdp.edu.ar/files/original/c68b78124289244298abda2191903e2e4d3c09e8.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Las pistas olvidadas de San Martín y Villa Martelli",
+      "href": "/articulos/san-martin-villa-martelli"
+    },
+    {
+      "label": "París–Rouen y las primeras competencias",
+      "href": "/articulos/paris-rouen-1894"
+    }
+  ]
+}

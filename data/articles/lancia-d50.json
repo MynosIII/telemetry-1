@@ -1,0 +1,104 @@
+{
+  "slug": "lancia-d50",
+  "title": "Lancia D50: los depósitos laterales que llegaron a Ferrari",
+  "description": "El proyecto de Vittorio Jano debutó con Ascari, cambió de manos tras una crisis y acabó sosteniendo el cuarto título de Fangio.",
+  "category": "Autos de leyenda",
+  "period": "1954",
+  "year": 1954,
+  "tags": [
+    "Lancia D50",
+    "Lancia-Ferrari D50",
+    "Vittorio Jano"
+  ],
+  "lead": "Pedralbes, octubre de 1954. Alberto Ascari consiguió la pole con el nuevo Lancia D50 y marcó la vuelta rápida durante la carrera. Después, un problema de embrague lo dejó fuera. El estreno condensó la historia que esperaba al auto: una velocidad evidente y muy poco tiempo para convertirla en un proyecto estable.",
+  "sections": [
+    {
+      "id": "estreno",
+      "title": "Una respuesta distinta a la fórmula de dos litros y medio",
+      "paragraphs": [
+        "Vittorio Jano diseñó el D50 para el reglamento que entraba en vigor en 1954. Lancia llegaba al Mundial con un V8 de aproximadamente 2,5 litros y una disposición de componentes que lo distinguía de inmediato. A cada lado del asiento aparecían los grandes depósitos de combustible, separados de la carrocería central como dos cuerpos suspendidos entre las ruedas.",
+        "La posición del combustible buscaba reducir los cambios de equilibrio mientras el depósito se vaciaba. Su forma también intervenía en el flujo de aire alrededor del vehículo. El motor estaba colocado de manera que el árbol de transmisión pudiera evitar una elevación excesiva del asiento del piloto. Jano combinaba, así, el problema de consumir combustible con la necesidad de construir un auto bajo y compacto."
+      ],
+      "sourceIds": [
+        "wiki",
+        "club"
+      ]
+    },
+    {
+      "id": "ascari",
+      "title": "De Barcelona a las calles de Italia",
+      "paragraphs": [
+        "La pole de Ascari en España mostró que la llegada tardía del D50 no equivalía a un proyecto lento. El embrague que interrumpió su carrera recordaba, sin embargo, lo que faltaba desarrollar. En 1955 el auto ganó pruebas no puntuables con Ascari: el Gran Premio del Valentino, en Turín, y el de Nápoles. Lancia tenía resultados que defendían su apuesta antes de consolidar una campaña mundialista.",
+        "La vida del programa cambió en pocas semanas. Ascari sufrió un accidente en Mónaco, sobrevivió tras caer al puerto y murió después en un ensayo en Monza. La pérdida de su piloto principal se sumó a los problemas económicos de la empresa. El auto no desapareció por haber agotado su potencial en pista. La situación de la casa que lo había creado hizo imposible continuar de la misma manera."
+      ],
+      "sourceIds": [
+        "club",
+        "wiki",
+        "ascari"
+      ]
+    },
+    {
+      "id": "traspaso",
+      "title": "Una herencia que necesitaba ser trabajada",
+      "paragraphs": [
+        "Lancia transfirió el material de competición a Ferrari en 1955. El D50 pasó a otro equipo junto con una experiencia técnica que Ferrari podía aprovechar. Maranello no se limitó a pintar su nombre sobre una máquina terminada: la configuración recibió cambios importantes y, a lo largo de 1956, los cuerpos laterales perdieron su función original de depósitos separados.",
+        "La ficha histórica de Ferrari registra para el D50 un V8 de 2.485,98 centímetros cúbicos y una caja de cinco marchas. Los números sirven como retrato de la versión conservada por la marca, no como explicación completa de todas sus transformaciones. Entre el Lancia de Ascari y el Ferrari de Fangio había continuidad de proyecto, pero también ajustes destinados a hacerlo adecuado para sus nuevos pilotos, neumáticos y procedimientos de preparación."
+      ],
+      "sourceIds": [
+        "ferrari",
+        "wiki"
+      ]
+    },
+    {
+      "id": "monza",
+      "title": "El campeonato acabó en el auto de Collins",
+      "paragraphs": [
+        "Fangio llegó al Gran Premio de Italia de 1956 todavía en lucha por su cuarto campeonato. Un problema en su máquina dejó la resolución abierta. Peter Collins le cedió su D50 y el argentino terminó segundo detrás de Stirling Moss, con los puntos que necesitaba. Ferrari recuerda aquella llegada como el cierre de una temporada difícil, no como un paseo inevitable de principio a fin.",
+        "Compartir autos estaba permitido y los puntos se repartían según las reglas del momento. La escena conecta al campeón con su compañero y con una máquina que ya había pertenecido a otra escudería. Es una historia de competición construida mediante transferencias: de combustible dentro del diseño, de material entre empresas y finalmente de un asiento entre pilotos. El D50 alcanzó el campeonato después de cambiar mucho más que su insignia."
+      ],
+      "sourceIds": [
+        "fangio",
+        "results",
+        "wiki"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lancia D50, desarrollo y transferencia",
+      "url": "https://en.wikipedia.org/wiki/Lancia_D50"
+    },
+    {
+      "id": "club",
+      "title": "Lancia Club — historia deportiva de la marca",
+      "url": "https://lancia-club.it/storia-sportiva/"
+    },
+    {
+      "id": "ferrari",
+      "title": "Ferrari — ficha histórica del D50",
+      "url": "https://www.ferrari.com/en-PA/history/garage/1955/d50"
+    },
+    {
+      "id": "fangio",
+      "title": "Ferrari — Fangio y la campaña de 1956",
+      "url": "https://www.ferrari.com/en-CA/magazine/articles/when-juan-fangio-met-the-ferrari-860-monza"
+    },
+    {
+      "id": "ascari",
+      "title": "Formula 1 — Alberto Ascari",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-alberto-ascari.6zgWYwDIjoQmYSiz48FAZD"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1956",
+      "url": "https://www.formula1.com/en/results/1956/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1954",
+      "href": "/historia/seasons/1954"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "alfa-romeo-p1",
+  "title": "Alfa Romeo P1: el proyecto detenido antes de la salida",
+  "description": "El primer Grand Prix de Alfa Romeo comenzó con un coche nuevo y una tragedia en Monza. La historia del P1 continuó en otro proyecto y en la memoria de Ugo Sivocci.",
+  "category": "Autos de leyenda",
+  "year": 1923,
+  "period": "1923–1924",
+  "tags": [
+    "Alfa Romeo",
+    "P1",
+    "GPR 1923",
+    "Merosi",
+    "Sivocci"
+  ],
+  "lead": "En septiembre de 1923, Alfa Romeo llevó a Monza tres automóviles de Grand Prix diseñados por Giuseppe Merosi. Ugo Sivocci murió durante los entrenamientos con uno de ellos. Los P1 no tomaron la salida. La carrera que debía presentar una nueva ambición terminó dejando una ausencia en la parrilla y una transformación del equipo técnico.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Merosi tenía una experiencia que llevar al Grand Prix",
+      "paragraphs": [
+        "Giuseppe Merosi había contribuido a construir la identidad inicial de Alfa Romeo y sus automóviles. En 1923, la victoria de Sivocci en la Targa Florio con un RL proporcionó un éxito internacional importante. El proyecto de Grand Prix respondía a otra clase de exigencias: una fórmula de dos litros, rivales especializados y un circuito italiano que daba enorme visibilidad al enfrentamiento entre fabricantes.",
+        "El nuevo coche recibió la denominación Gran Premio Romeo de 1923 y pasó a conocerse como P1. Merosi eligió un seis cilindros en línea de 1.990 centímetros cúbicos, doble árbol de levas y doble encendido. Su construcción reflejaba un intento de competir con una base propia antes de la llegada de Vittorio Jano. El proyecto existía con una lógica independiente del éxito posterior del P2."
+      ],
+      "sourceIds": [
+        "cherrett",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Tres coches llegaron a un circuito cercano",
+      "paragraphs": [
+        "Las unidades estaban destinadas a Antonio Ascari, Giuseppe Campari y Ugo Sivocci. Monza se encontraba cerca del mundo industrial milanés en que Alfa Romeo producía sus coches. El Grand Prix de Italia también había recibido la designación de Grand Prix de Europa, aumentando el peso público del estreno. Una empresa podía conseguir allí prestigio deportivo y una identidad capaz de influir en sus ventas.",
+        "La construcción seguía incluyendo dos plazas, eje rígido y suspensión por ballestas. La descripción de Angela Cherrett registra una caja de cuatro marchas y una carrocería con cola puntiaguda que alojaba el depósito. Son elementos concretos de un coche concebido para una larga carrera, donde el reglamento y el trabajo del mecánico todavía afectaban directamente su forma."
+      ],
+      "sourceIds": [
+        "cherrett",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Sivocci dejó una memoria mayor que el resultado",
+      "paragraphs": [
+        "Sivocci sufrió un accidente mortal durante los entrenamientos y Alfa Romeo retiró sus automóviles. El relato oficial de la marca vincula su nombre al Quadrifoglio utilizado en la victoria de la Targa Florio, convertido después en emblema deportivo. Esa memoria se superpuso a la historia del P1 y dio al accidente un lugar permanente en la identidad de la empresa.",
+        "La biografía conservada por la familia Sivocci matiza las interpretaciones exclusivamente supersticiosas del trébol: también podía facilitar el reconocimiento del automóvil desde lejos. El documento recuerda que Sivocci ganó con un número considerado infortunado y murió con otro. La marca ha transmitido el símbolo como homenaje; el accidente sigue siendo un hecho histórico que no necesita una explicación mágica.",
+        "El retiro dejó al P1 sin la oportunidad de disputar aquella carrera. Llamarlo simplemente un coche derrotado confunde una participación interrumpida con una comparación completa de rendimiento. Sus limitaciones técnicas formaban parte del proyecto, pero en Monza no hubo un resultado deportivo del modelo que pueda medirse como si hubiera completado una temporada."
+      ],
+      "sourceIds": [
+        "sivocci",
+        "drivers",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Jano llegó; Merosi no desapareció de inmediato",
+      "paragraphs": [
+        "En octubre de 1923, Vittorio Jano pasó de Fiat a Alfa Romeo y comenzó el trabajo que desembocó en el P2. El cambio de diseñador del coche de Grand Prix no equivale a que toda la carrera de Merosi terminara esa semana: siguió vinculado a los modelos de producción durante un período posterior. La transición reunió decisiones empresariales y técnicas, además de la memoria del accidente.",
+        "La documentación del P1 registra una evolución sobrealimentada en 1924, pero su historia pública quedó eclipsada por el P2. El automóvil fallido ofrece otra forma de leer el progreso: un fabricante podía disponer de experiencia y de pilotos destacados sin conseguir consolidar un programa. El proyecto siguiente no nació de la nada; encontró una organización que había aprendido, sufrido y decidido cambiar.",
+        "Conservar esa secuencia devuelve al P1 su identidad. No es solo el coche anterior al vencedor ni el vehículo de una tragedia. Representa el momento en que Alfa Romeo intentó llevar su experiencia de deportivos a la clase internacional y descubrió que la entrada a ese mundo podía alterar a la fábrica antes de producir una sola clasificación."
+      ],
+      "sourceIds": [
+        "p2",
+        "modelo",
+        "cherrett"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cherrett",
+      "title": "Angela Cherrett: Alfa Romeo, descripción del GPR 1923 (extracto)",
+      "url": "https://porschecarshistory.com/wp-content/old/biblio3/74/AR8.pdf"
+    },
+    {
+      "id": "historia",
+      "title": "Alfa Romeo: historia inicial y Targa Florio 1923",
+      "url": "https://www.alfaromeo.com/history"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Alfa Romeo P1",
+      "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_P1"
+    },
+    {
+      "id": "sivocci",
+      "title": "Archivo familiar: biografía de Ugo Sivocci",
+      "url": "https://sivocci.net/biografia.html"
+    },
+    {
+      "id": "drivers",
+      "title": "Alfa Romeo: historia de sus pilotos",
+      "url": "https://www.alfaromeo.ca/en/our-legacy/history/drivers"
+    },
+    {
+      "id": "p2",
+      "title": "Museo Alfa Romeo: llegada de Jano y desarrollo del P2",
+      "url": "https://www.museoalfaromeo.com/en-us/storia/Pages/GP-P2-1925.aspx"
+    }
+  ],
+  "related": [
+    {
+      "label": "Alfa Romeo P2",
+      "href": "/articulos/alfa-romeo-p2"
+    },
+    {
+      "label": "Grand Prix de Italia",
+      "href": "/historia/grands-prix/italy"
+    }
+  ]
+}

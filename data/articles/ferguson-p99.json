@@ -1,0 +1,94 @@
+{
+  "slug": "ferguson-p99",
+  "title": "Ferguson P99: la lluvia que le dio una oportunidad a cuatro ruedas motrices",
+  "description": "La Gold Cup de 1961 reunió a Stirling Moss con un auto experimental que miraba hacia los vehículos de calle tanto como hacia la Fórmula 1.",
+  "category": "Autos de leyenda",
+  "period": "1961",
+  "year": 1961,
+  "tags": [
+    "Ferguson P99",
+    "Stirling Moss",
+    "Tony Rolt",
+    "Claude Hill"
+  ],
+  "lead": "Oulton Park, 23 de septiembre de 1961. En una Gold Cup disputada con la pista húmeda, Stirling Moss ganó al volante de un Ferguson P99. El motor estaba delante, justo cuando la Fórmula 1 se estaba acostumbrando a verlo detrás. La novedad decisiva aparecía en otro lugar: las cuatro ruedas recibían fuerza del motor.",
+  "sections": [
+    {
+      "id": "proyecto",
+      "title": "Harry Ferguson buscaba una demostración",
+      "paragraphs": [
+        "El P99 procedía de Ferguson Research, una empresa interesada en demostrar las ventajas de la tracción integral y de sistemas de frenado que evitaran el bloqueo. Harry Ferguson veía la competición como una herramienta para llamar la atención sobre una tecnología con aplicaciones de seguridad en los vehículos de calle. La máquina de carreras era también un ensayo público.",
+        "En el proyecto participaron Claude Hill, Fred Dixon y Tony Rolt. Sus experiencias combinaban ingeniería y competición: Rolt había ganado Le Mans y Hill había trabajado en el desarrollo de automóviles deportivos. El museo de Ferguson sitúa el comienzo de esa colaboración en 1950. La aparición del P99 en 1961 era el resultado de una investigación prolongada, no una ocurrencia surgida durante un solo invierno de Fórmula 1."
+      ],
+      "sourceIds": [
+        "museum",
+        "rolt"
+      ]
+    },
+    {
+      "id": "mecanica",
+      "title": "Un monoplaza que iba en contra de la corriente",
+      "paragraphs": [
+        "El auto llevaba un Coventry Climax de cuatro cilindros y 1,5 litros delante del piloto. La tracción a ambos ejes condicionaba el espacio ocupado por la transmisión y el reparto de los componentes. Mientras Cooper y Lotus consolidaban la disposición central trasera, Ferguson defendía otra prioridad: distribuir el esfuerzo de impulsar el auto sobre cuatro puntos de contacto.",
+        "También se instaló un sistema Dunlop Maxaret relacionado con el control del bloqueo de ruedas. La documentación del museo distingue su uso experimental de su utilización en carrera: no debe imaginarse un campeonato ganado con un ABS moderno permanentemente activo. La combinación de soluciones muestra lo particular del P99. Era una máquina que podía parecer antigua por la posición de su motor y adelantada por la investigación que viajaba junto a él."
+      ],
+      "sourceIds": [
+        "museum",
+        "goodwood"
+      ]
+    },
+    {
+      "id": "goldcup",
+      "title": "Un triunfo que no necesitó ser puntuable para importar",
+      "paragraphs": [
+        "Rob Walker colaboró en las apariciones del P99. Su participación en el Gran Premio británico de Aintree de 1961 acabó sin resultado útil, pero la oportunidad llegó en Oulton Park. Moss ganó la Gold Cup, una prueba organizada bajo reglas de Fórmula 1 que no otorgaba puntos para el Campeonato Mundial. El carácter no puntuable no modifica la categoría técnica de los autos que estaban compitiendo.",
+        "Las condiciones húmedas favorecían una demostración de tracción. Allí, la capacidad de utilizar las cuatro ruedas motrices ofreció un escenario más convincente que una carrera completamente seca. El triunfo se recuerda como el único obtenido por un auto de tracción integral en una prueba de Fórmula 1. Su importancia estaba en haber demostrado una posibilidad, aunque esa posibilidad no se convirtiera en el camino elegido por las escuderías del Mundial."
+      ],
+      "sourceIds": [
+        "goodwood",
+        "goldcup",
+        "rolt"
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "El auto siguió cerca de quienes lo habían creado",
+      "paragraphs": [
+        "El P99 tuvo una vida posterior en las carreras de montaña. Peter Westbury lo utilizó dentro de su campaña en el campeonato británico de ascensos. Esa especialidad ofrecía otro marco para explorar sus cualidades, sin exigir que el programa siguiera el mismo recorrido que una escudería mundialista. La investigación podía sobrevivir al final de la breve experiencia en los Grandes Premios.",
+        "La familia Rolt continuó vinculada al auto y su conservación. Stuart Rolt relató esa continuidad durante una aparición en Goodwood; el museo de Ferguson informa que la máquina ya no se encuentra en sus instalaciones, aunque conserva documentación y recuerdos. El destino del P99 devuelve la historia a su propósito original: construir, comprobar y mantener una tecnología. Oulton Park le dio la fotografía más famosa, pero la investigación había empezado mucho antes y no terminó al bajar la bandera."
+      ],
+      "sourceIds": [
+        "rolt",
+        "museum"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museum",
+      "title": "Ferguson Family Museum — historia del P99",
+      "url": "https://www.ferguson-museum.co.uk/racing_car.htm"
+    },
+    {
+      "id": "goodwood",
+      "title": "Goodwood — el primer Fórmula 1 de tracción integral",
+      "url": "https://www.goodwood.com/grr/f1/video-the-first-all-wheel-drive-f1-car/"
+    },
+    {
+      "id": "rolt",
+      "title": "Historic Racing News — el P99 y la familia Rolt",
+      "url": "https://www.historicracingnews.com/Article/Gallery-and-Video-The-Ferguson-P99-Four-Wheel-Drive-Formula-One-Winner/687"
+    },
+    {
+      "id": "goldcup",
+      "title": "Wikipedia — International Gold Cup de 1961, resultados y bibliografía",
+      "url": "https://en.wikipedia.org/wiki/1961_International_Gold_Cup"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1961",
+      "href": "/historia/seasons/1961"
+    }
+  ]
+}

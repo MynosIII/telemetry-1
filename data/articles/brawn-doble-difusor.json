@@ -4,51 +4,52 @@
   "description": "La continuidad de Honda, una interpretación reglamentaria y un inicio extraordinario explican el campeonato del BGP 001.",
   "category": "Ideas que cambiaron la F1",
   "period": "2008–2009",
-  "lead": "El coche blanco de Brawn GP se convirtió en el símbolo de una temporada inesperada. Su difusor fue protagonista de la discusión, pero el campeonato también nació del trabajo previo de Honda, de una transición empresarial urgente y de resultados que había que sostener cuando los rivales reaccionaron.",
+  "lead": "El 5 de diciembre de 2008 Honda anunció que abandonaba la Fórmula 1. Menos de cuatro meses después, en Melbourne, dos coches blancos terminaron primero y segundo con el nombre Brawn GP. Entre esas fechas, un proyecto de ingeniería tuvo que encontrar la manera de seguir existiendo.",
   "sections": [
     {
-      "id": "honda",
-      "title": "Un proyecto que sobrevivió a su fabricante",
+      "id": "retirada",
+      "title": "Una fábrica se retiraba; el coche no había desaparecido",
       "paragraphs": [
-        "El 5 de diciembre de 2008 Honda anunció que abandonaba la Fórmula 1. Su comunicado situaba la decisión en el deterioro económico mundial y en la necesidad de proteger el negocio principal. La retirada no significaba que el coche siguiente no existiera: el equipo había dedicado recursos a preparar el cambio de reglamento de 2009, mientras el rendimiento de su temporada anterior seguía siendo decepcionante.",
-        "La historia de Brawn empieza en esa diferencia entre la situación comercial y el trabajo técnico. Había personas, instalaciones y un proyecto que podían continuar si encontraban una estructura viable. El 6 de marzo de 2009 Honda comunicó la venta del equipo a Ross Brawn. El nuevo nombre no borraba lo construido antes; lo trasladaba a una organización que debía sobrevivir con condiciones muy diferentes a las de un fabricante mundial."
+        "El comunicado de Honda relacionaba la retirada con el deterioro económico mundial y la necesidad de proteger el negocio principal. Los resultados de 2008 habían sido insuficientes, pero el equipo ya dedicaba recursos a la gran modificación de normas prevista para 2009. El futuro coche y el futuro comercial habían dejado de avanzar en la misma dirección.",
+        "La venta a Ross Brawn fue anunciada el 6 de marzo de 2009. La continuidad conservó personas, instalaciones y el proyecto desarrollado dentro de Honda, aunque cambiaron propietario, nombre y condiciones de operación. Esa secuencia evita imaginar que el monoplaza apareció por completo durante las pocas semanas anteriores a Australia. Lo extraordinario no fue producirlo de la nada, sino impedir que el trabajo previo desapareciera antes de llegar a la primera carrera."
       ],
       "sourceIds": [
         "retirada",
         "venta",
-        "honda"
+        "honda",
+        "historia-honda"
       ]
     },
     {
-      "id": "reglamento",
-      "title": "La oportunidad del reinicio técnico",
+      "id": "reglas",
+      "title": "Un reinicio que desplazó a los favoritos",
       "paragraphs": [
-        "Las normas de 2009 alteraron varias piezas del equilibrio competitivo. Cambiaron las dimensiones de los alerones y se eliminaron numerosos apéndices aerodinámicos. Regresaron los neumáticos lisos y apareció la opción de utilizar KERS, un sistema de recuperación de energía. El comienzo de esa etapa permitía que una interpretación acertada del nuevo conjunto compensara diferencias frente a equipos más exitosos en el pasado.",
-        "Brawn utilizó un motor Mercedes en el coche que había nacido dentro de Honda. Esa adaptación era parte esencial de la transición, junto con la conservación del personal y de los pilotos Jenson Button y Rubens Barrichello. El BGP 001 no debe describirse como un coche creado desde cero en unas pocas semanas. El relato resulta más interesante cuando se reconoce el largo trabajo previo y la necesidad de convertirlo rápidamente en una herramienta lista para competir."
+        "La temporada devolvía los neumáticos lisos, modificaba los alerones y eliminaba muchos apéndices aerodinámicos. También permitía utilizar KERS, el sistema de recuperación de energía. En una categoría donde las mejoras suelen acumularse sobre coches anteriores, ese cambio abría la posibilidad de alterar el orden conocido. Haber ganado antes no garantizaba interpretar mejor el problema nuevo.",
+        "Brawn consiguió un motor Mercedes para completar el conjunto que Honda había preparado. Button y Barrichello permanecieron como pilotos. La transición tenía que resolver una tarea industrial y otra deportiva al mismo tiempo: instalar una alternativa de propulsión y llegar con un coche capaz de competir. El doblete de Melbourne mostró que las dos habían encontrado una respuesta suficientemente buena, pero pronto la discusión se concentró en una zona casi invisible desde las tribunas."
       ],
       "sourceIds": [
         "reglas",
         "historia-honda",
-        "clasificacion"
+        "resultados"
       ]
     },
     {
-      "id": "difusor",
-      "title": "Qué se discutía realmente en el doble difusor",
+      "id": "sentencia",
+      "title": "El aire encontraba una segunda salida",
       "paragraphs": [
-        "El difusor ocupa la zona posterior del fondo y organiza la expansión del aire que ha circulado bajo el coche. Las soluciones de Brawn, Toyota y Williams incorporaban canales adicionales mediante una interpretación de las superficies y transiciones descritas en el reglamento. La expresión doble difusor resumía esa disposición, pero no significaba que cualquier pieza con dos niveles produjera automáticamente el mismo rendimiento.",
-        "Los adversarios cuestionaron si aquellas aberturas eran agujeros prohibidos, si la geometría superaba los límites admitidos y si contradecía el propósito de las nuevas normas. La Corte Internacional de Apelación de la FIA examinó la controversia en abril de 2009 y confirmó la legalidad de los diseños impugnados. No fue una autorización exclusiva para Brawn: Toyota y Williams también formaban parte del caso. Este punto impide confundir una interpretación competitiva con una tecnología que solamente un equipo podía utilizar."
+        "El difusor organiza la expansión del aire al final del fondo. Brawn, Toyota y Williams utilizaron una interpretación de sus superficies y transiciones para incorporar canales adicionales. Los demás cuestionaron si las aberturas eran admisibles y si la disposición excedía los límites de la geometría reglamentaria. La controversia llegó a la Corte Internacional de Apelación de la FIA.",
+        "La decisión de abril confirmó la legalidad de los diseños impugnados. La sentencia examinó los argumentos sobre agujeros, alturas y la aplicación de artículos concretos; no entregó una excepción personal a Brawn. Sus consecuencias alcanzaban a los tres equipos que habían elegido esa vía. Una parte importante de la competencia pasaba entonces a ser práctica: los rivales podían estudiar el concepto, pero introducirlo en una arquitectura ya construida exigía trabajo propio."
       ],
       "sourceIds": [
         "sentencia"
       ]
     },
     {
-      "id": "victorias",
-      "title": "La ventaja inicial y la respuesta de los demás",
+      "id": "cambio",
+      "title": "El campeonato dejó de parecerse a su comienzo",
       "paragraphs": [
-        "Button ganó seis de las primeras siete carreras: Australia, Malasia, Baréin, España, Mónaco y Turquía. Red Bull interrumpió esa secuencia en China con Sebastian Vettel. El inicio permitió a Brawn construir una reserva de puntos antes de que el campeonato cambiara de ritmo. Al observar los resultados completos se entiende que el equipo no dominó cada circuito ni toda la temporada de la misma manera.",
-        "Después de Turquía, Button no volvió a ganar en 2009. Barrichello sí consiguió otras dos victorias, en los grandes premios de Europa e Italia. Red Bull, McLaren y Ferrari también aparecen en la lista de vencedores de la segunda parte del calendario. Por eso, atribuir los dos campeonatos a una pieza aislada sería una explicación insuficiente: el doble difusor importó, pero los resultados dependieron de cómo se combinaba con el resto del coche y de cómo se gestionaban las carreras."
+        "Button ganó seis de las primeras siete carreras. Después de Turquía, el registro de vencedores cambió y él no volvió a ganar durante 2009. Red Bull se convirtió en un rival cada vez más fuerte; McLaren y Ferrari también encontraron carreras para vencer. La reserva de puntos de los primeros meses pasó a tener un valor que no podía verse solamente en la velocidad de una vuelta.",
+        "Barrichello consiguió dos triunfos en la segunda parte del año, en Europa e Italia. Su aporte mantuvo otra fuente de resultados para el equipo cuando la racha de Button había terminado. El doble difusor seguía siendo una parte relevante del coche, pero la temporada demostraba que compartir una idea técnica no producía resultados idénticos ni que una ventaja inicial pudiera permanecer intacta mientras el resto de la parrilla investigaba."
       ],
       "sourceIds": [
         "resultados",
@@ -56,16 +57,17 @@
       ]
     },
     {
-      "id": "campeonato",
-      "title": "El campeonato como prueba de un conjunto",
+      "id": "brasil",
+      "title": "Una llegada a Interlagos para cerrar dos títulos",
       "paragraphs": [
-        "Button terminó campeón con 95 puntos, por delante de Vettel, que sumó 84. Barrichello fue tercero con 77. Esas cifras pertenecen al sistema de puntuación de 2009 y no deben compararse directamente con totales de temporadas posteriores sin tener en cuenta el cambio de escala. Brawn logró también el campeonato de constructores, completando el doble título que hizo excepcional a su única campaña con ese nombre.",
-        "La enseñanza técnica y deportiva es más amplia que la búsqueda de un agujero reglamentario. Había que interpretar las reglas, diseñar una plataforma coherente, conservar la capacidad de operar y aprovechar las oportunidades iniciales. El difusor explica una parte del rendimiento; la continuidad de Honda explica de dónde salió el proyecto; los resultados explican cómo se convirtió en un título. Mantener juntas esas tres historias permite entender el BGP 001 sin convertirlo en una leyenda de un único componente."
+        "En Brasil, Button aseguró el campeonato de pilotos y Brawn el de constructores. El británico terminó el año con 95 puntos, Vettel con 84 y Barrichello con 77. Son cifras de la escala de 2009, suficientes para describir la diferencia sin trasladarlas directamente a una puntuación posterior.",
+        "La hazaña reúne tres historias que conviene mantener conectadas. Honda había construido la posibilidad técnica; la nueva organización permitió que continuara; los pilotos y el equipo la transformaron en un campeonato. El difusor es el detalle que hizo reconocible al coche, pero no puede reemplazar esa cadena. Los dos monoplazas blancos de Melbourne terminaron convirtiéndose en campeones porque un proyecto tuvo velocidad y también una oportunidad concreta de llegar, correr y sostenerse."
       ],
       "sourceIds": [
         "clasificacion",
-        "reglas",
-        "historia-honda"
+        "resultados",
+        "historia-honda",
+        "reglas"
       ]
     }
   ],
@@ -129,5 +131,12 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "caption": "Jenson Button con Brawn en el Gran Premio de España de 2009.",
     "alt": "Jenson Button con Brawn en el Gran Premio de España de 2009."
-  }
+  },
+  "year": 2009,
+  "tags": [
+    "Brawn GP",
+    "Doble difusor",
+    "Honda",
+    "Jenson Button"
+  ]
 }

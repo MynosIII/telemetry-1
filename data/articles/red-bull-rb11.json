@@ -1,0 +1,122 @@
+{
+  "slug": "red-bull-rb11",
+  "title": "Red Bull RB11: el camuflaje no pudo esconder una temporada difícil",
+  "description": "El coche de 2015 vivió una etapa de dificultades híbridas y dejó una de las decoraciones de pruebas más recordadas.",
+  "year": 2015,
+  "period": "2015",
+  "tags": [
+    "Red Bull RB11",
+    "Daniel Ricciardo",
+    "Daniil Kvyat"
+  ],
+  "lead": "En Jerez, el 1 de febrero de 2015, Red Bull presentó el RB11 cubierto por una decoración de líneas negras y blancas. El camuflaje hizo del coche una imagen inolvidable antes de que la temporada revelara problemas bastante menos fáciles de disimular.",
+  "sections": [
+    {
+      "id": "jerez",
+      "title": "Una presentación que alteró la vista",
+      "paragraphs": [
+        "La decoración de pruebas recibió el nombre de CamoBull. Recordaba los patrones utilizados para dificultar la lectura de las formas de prototipos y convirtió la primera salida del RB11 en un acontecimiento visual. El diseño no fue su identidad habitual durante el campeonato: el coche regresó a sus colores de carrera, con el azul y el violeta vinculados a la asociación con Infiniti.",
+        "Daniel Ricciardo compartía el equipo con Daniil Kvyat, que ocupaba el lugar dejado por Sebastian Vettel. Red Bull había ganado cuatro campeonatos consecutivos entre 2010 y 2013, y Ricciardo consiguió tres victorias durante 2014. El RB11 llegó, por lo tanto, a una organización acostumbrada a medir sus temporadas con títulos y triunfos. En 2015 tuvo que medirse con expectativas muy distintas."
+      ],
+      "sourceIds": [
+        "presentacion",
+        "decoracion",
+        "historia"
+      ]
+    },
+    {
+      "id": "hibrido",
+      "title": "Un problema que no pertenecía al doble difusor",
+      "paragraphs": [
+        "El RB11 era un monoplaza de 2015, con una unidad Renault V6 turbo híbrida de 1,6 litros. Pertenecía al segundo año de las reglas introducidas en 2014. Su identidad técnica no corresponde al episodio del doble difusor de 2009 ni a los primeros coches campeones del equipo: la instalación y la gestión de energía habían cambiado profundamente.",
+        "La ficha histórica de Red Bull atribuye una parte importante de las dificultades a la falta de rendimiento y fiabilidad frente a Mercedes y Ferrari. El chasis y la unidad de potencia debían formar un conjunto competitivo, y mejorar uno no permitía borrar automáticamente las limitaciones del otro. El RB11 representa una etapa en que la fortaleza aerodinámica del equipo no bastaba para recuperar el nivel deportivo que había alcanzado antes del cambio reglamentario."
+      ],
+      "sourceIds": [
+        "ficha",
+        "reglas"
+      ]
+    },
+    {
+      "id": "nariz",
+      "title": "Cuatro ensayos de choque para una nueva nariz",
+      "paragraphs": [
+        "En el Gran Premio de España, Red Bull introdujo una nariz más corta después de superar su homologación. El análisis técnico publicado por Formula 1 registra que fueron necesarios cuatro ensayos de choque. El cambio modificaba la relación entre el morro y los soportes del alerón delantero, además de afectar al recorrido del aire hacia el resto del coche.",
+        "El detalle muestra que incluso una temporada sin victorias contenía investigación y desarrollo concretos. La pieza debía cumplir los requisitos de seguridad antes de aportar la ganancia buscada en pista. El proceso no se resume en encontrar una forma más atractiva: geometría, estructura y aerodinámica tenían que superar exigencias distintas. La decoración de Jerez había ocultado líneas; el trabajo real consistía en convertir otras líneas en un coche mejor."
+      ],
+      "sourceIds": [
+        "nariz"
+      ]
+    },
+    {
+      "id": "podios",
+      "title": "Tres podios y ninguna victoria",
+      "paragraphs": [
+        "Kvyat terminó segundo y Ricciardo tercero en Hungría. El australiano consiguió otro segundo puesto en Singapur. Esos fueron los tres podios del RB11, que no ganó ningún gran premio. Red Bull acabó cuarto en el campeonato de constructores con 187 puntos. El registro deportivo permite dimensionar la distancia entre la reputación de la escudería y las posibilidades de aquel coche.",
+        "El RB11 no necesita ser convertido en un campeón para merecer un artículo. Explica el costo de una transición tecnológica, el trabajo que continúa detrás de un resultado insuficiente y la forma en que una organización acostumbrada a ganar debe atravesar un ciclo diferente. Su camuflaje sigue siendo una imagen potente; su historia más reveladora está en lo que esa imagen no podía cambiar, la necesidad de resolver una plataforma híbrida capaz de competir con las mejores."
+      ],
+      "sourceIds": [
+        "resultados",
+        "constructores",
+        "ficha",
+        "historia"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "presentacion",
+      "title": "Red Bull: presentación del RB11 en Jerez",
+      "url": "https://www.redbull.com/gb-en/galleries/infiniti-red-bull-racing-rb11-launch-gallery-c3"
+    },
+    {
+      "id": "decoracion",
+      "title": "Red Bull Racing: las decoraciones históricas del RB11",
+      "url": "https://www.redbullracing.com/int-en/top-5-red-bull-racing-liveries-of-f1-history-050126"
+    },
+    {
+      "id": "ficha",
+      "title": "Red Bull Racing: RB11",
+      "url": "https://www.redbullracing.com/int-en/cars/rb11"
+    },
+    {
+      "id": "nariz",
+      "title": "Formula 1: nueva nariz del RB11, mayo de 2015",
+      "url": "https://www.formula1.com/en/latest/article/red-bull-rb11-new-nose.2BFnEqlsMguWhY6mpdWJBy.2BFnEqlsMguWhY6mpdWJBy"
+    },
+    {
+      "id": "reglas",
+      "title": "FIA: guía de las unidades de potencia híbridas de 2014",
+      "url": "https://www.fia.com/news/2014-f1-power-unit-guide"
+    },
+    {
+      "id": "historia",
+      "title": "Formula 1: Red Bull, temporada por temporada",
+      "url": "https://www.formula1.com/en/information/red-bull-racing-year-by-year.5gsBMoMf3DhOSBOJ8Cx8Bi"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2015",
+      "url": "https://www.formula1.com/en/results/2015/races"
+    },
+    {
+      "id": "constructores",
+      "title": "Formula 1: constructores de 2015",
+      "url": "https://www.formula1.com/en/results/2015/team"
+    }
+  ],
+  "related": [
+    {
+      "label": "Red Bull",
+      "href": "/historia/constructors/red-bull"
+    },
+    {
+      "label": "Temporada 2015",
+      "href": "/historia/seasons/2015"
+    },
+    {
+      "label": "Red Bull RB6",
+      "href": "/articulos/red-bull-rb6"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

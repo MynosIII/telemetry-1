@@ -1,0 +1,112 @@
+{
+  "slug": "ferrari-158",
+  "title": "Ferrari 158: el V8 blanco y azul que hizo campeón a Surtees",
+  "description": "Una estructura nueva, una disputa fuera de pista y la ayuda de Bandini acompañaron la resolución del Mundial de 1964 en México.",
+  "category": "Autos de leyenda",
+  "period": "1964",
+  "year": 1964,
+  "tags": [
+    "Ferrari 158 F1",
+    "John Surtees",
+    "NART",
+    "Lorenzo Bandini"
+  ],
+  "lead": "Ciudad de México, 25 de octubre de 1964. John Surtees terminó segundo con un Ferrari que no estaba pintado de rojo. El 158 llevaba los colores blanco y azul de NART. A su espalda llegó Lorenzo Bandini; delante ganó Dan Gurney. Esa combinación otorgó al británico un campeonato por un solo punto.",
+  "sections": [
+    {
+      "id": "v8",
+      "title": "El motor pequeño llegó dentro de otra estructura",
+      "paragraphs": [
+        "Ferrari preparó el 158 como sucesor del V6 de la familia 156. El nuevo motor tenía ocho cilindros y 1,5 litros, organizado para ofrecer un conjunto compacto dentro de las exigencias del reglamento. La carrocería alargada envolvía una estructura que incorporaba paneles resistentes, un paso de Maranello hacia los métodos de construcción que Lotus había llevado al primer plano.",
+        "La escudería no utilizó una única mecánica durante toda la campaña. El 156 anterior y el posterior 1512 de doce cilindros también formaron parte de su actividad. El 158 era la referencia de Surtees, pero las decisiones sobre autos y motores variaban entre pilotos y carreras. Ferrari trabajaba con más de una posibilidad mientras buscaba superar a Lotus y BRM."
+      ],
+      "sourceIds": [
+        "ferrari",
+        "wiki",
+        "year"
+      ]
+    },
+    {
+      "id": "surtees",
+      "title": "El campeón de las motos aprendió otro vehículo",
+      "paragraphs": [
+        "Surtees había ganado siete títulos mundiales de motociclismo, en las clases de 350 y 500 centímetros cúbicos, antes de llegar a Ferrari. Su experiencia sobre dos ruedas no hizo inmediata la adaptación a un monoplaza, pero aportó una relación precisa con la preparación y el comportamiento mecánico. Enzo Ferrari lo incorporó como primera referencia deportiva en 1963.",
+        "Con el 158, Surtees ganó en Nürburgring y Monza durante 1964. Las dos victorias lo mantuvieron dentro de una lucha que también incluía a Graham Hill y Jim Clark. El campeonato no se decidió mediante una sucesión abrumadora de primeros puestos: necesitó puntos recogidos en diferentes carreras y conservar una oportunidad hasta la última. El segundo lugar en Estados Unidos fue parte de esa acumulación."
+      ],
+      "sourceIds": [
+        "surtees",
+        "year",
+        "results"
+      ]
+    },
+    {
+      "id": "colores",
+      "title": "El auto seguía siendo Ferrari bajo otra inscripción",
+      "paragraphs": [
+        "Enzo Ferrari tuvo una disputa con las autoridades deportivas italianas relacionada con la homologación de sus autos y renunció temporalmente a competir bajo los colores nacionales. Luigi Chinetti y su North American Racing Team inscribieron los vehículos para las últimas pruebas de 1964. Los colores blanco y azul reflejaban esa inscripción estadounidense.",
+        "La apariencia de la máquina puede sugerir hoy una excepción estética, pero entonces formaba parte de un conflicto administrativo real. Surtees no había abandonado Ferrari para incorporarse a otra fábrica. El motor, el auto y la preparación seguían perteneciendo al programa de Maranello. NART proporcionó la vía para que el equipo continuara compitiendo mientras su propietario mantenía la protesta."
+      ],
+      "sourceIds": [
+        "wiki",
+        "surtees",
+        "year"
+      ]
+    },
+    {
+      "id": "mexico",
+      "title": "Bandini dejó pasar al compañero que necesitaba los puntos",
+      "paragraphs": [
+        "La carrera mexicana alteró varias veces la posibilidad de título. Graham Hill quedó retrasado después de un incidente con Bandini, y Clark perdió la victoria por un problema mecánico en el tramo final. Surtees necesitaba terminar segundo; Bandini permitió que su compañero avanzara y acabó tercero. El resultado dejó a Surtees campeón con cuarenta puntos frente a treinta y nueve de Hill.",
+        "Ferrari ganó también el campeonato de constructores. El 158 cerró su temporada bajo una decoración inusual y con un piloto que había conseguido la máxima corona sobre dos y cuatro ruedas. Su historia reúne un motor distinto, una estructura en transformación y una decisión de equipo al final de la última prueba. La máquina blanca y azul de México no fue un paréntesis dentro de la tradición roja: fue el auto con el que esa tradición obtuvo uno de sus títulos más ajustados."
+      ],
+      "sourceIds": [
+        "mexico",
+        "resultmex",
+        "surtees"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ferrari",
+      "title": "Ferrari — 158 F1",
+      "url": "https://www.ferrari.com/en-CA/formula1/158-f1"
+    },
+    {
+      "id": "year",
+      "title": "Ferrari — temporada 1964",
+      "url": "https://www.ferrari.com/en-CA/formula1/year-1964"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Ferrari 158, estructura y NART",
+      "url": "https://en.wikipedia.org/wiki/Ferrari_158"
+    },
+    {
+      "id": "surtees",
+      "title": "Formula 1 — John Surtees",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-john-surtees.7a0aXDMmG4DZeRFpzeN4vz"
+    },
+    {
+      "id": "mexico",
+      "title": "MexicoGP — historia de la edición de 1964",
+      "url": "https://www.mexicogp.mx/mexicogp/mexicogp-1964/"
+    },
+    {
+      "id": "resultmex",
+      "title": "Formula 1 — resultado del GP mexicano de 1964",
+      "url": "https://www.formula1.com/en/results/1964/races/224/mexico/race-result"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1964",
+      "url": "https://www.formula1.com/en/results/1964/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1964",
+      "href": "/historia/seasons/1964"
+    }
+  ]
+}

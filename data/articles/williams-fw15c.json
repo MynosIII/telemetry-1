@@ -1,0 +1,107 @@
+{
+  "slug": "williams-fw15c",
+  "title": "Williams FW15C: el último laboratorio activo de Alain Prost",
+  "description": "La máquina de 1993 llevó a Prost a su cuarto título antes de que cambiaran las reglas sobre ayudas electrónicas.",
+  "year": 1993,
+  "period": "1993",
+  "tags": [
+    "Williams FW15C",
+    "Alain Prost",
+    "Damon Hill",
+    "Electrónica"
+  ],
+  "lead": "En Estoril, el 26 de septiembre de 1993, Alain Prost terminó segundo y aseguró su cuarto campeonato del mundo. El Williams FW15C lo llevó a ese último título con una red de sistemas que pronto dejaría de estar permitida.",
+  "sections": [
+    {
+      "id": "estoril",
+      "title": "Un segundo puesto para cerrar una carrera extraordinaria",
+      "paragraphs": [
+        "Michael Schumacher ganó el Gran Premio de Portugal, pero el segundo puesto bastó a Prost para conquistar el campeonato. El francés había regresado después de pasar 1992 fuera de las carreras. Williams le entregó una máquina que continuaba el dominio del FW14B, aunque su arquitectura había sido concebida con mayor integración de los sistemas activos.",
+        "Damon Hill compartía el equipo y llevaba el número cero. Nigel Mansell, campeón del año anterior, había partido hacia el automovilismo estadounidense, de modo que Williams no podía asignar su número uno a otro piloto. El detalle dio al FW15C una identidad gráfica tan recordada como sus soluciones técnicas: Prost con el dos y Hill con el cero, ambos al volante del mismo laboratorio móvil."
+      ],
+      "sourceIds": [
+        "resultados",
+        "temporada",
+        "modelo"
+      ]
+    },
+    {
+      "id": "sistemas",
+      "title": "De añadir sistemas a diseñar alrededor de ellos",
+      "paragraphs": [
+        "El FW14B había recibido la suspensión activa sobre una base concebida antes de integrarla plenamente. El proyecto FW15 permitió organizar el coche con esa tecnología desde su origen. Patrick Head, Adrian Newey y los especialistas de electrónica y sistemas trabajaban en una máquina donde la actitud de la plataforma podía administrarse con un grado de detalle creciente.",
+        "El FW15C automatizaba cambios que el piloto del modelo anterior podía seleccionar mediante un mando de altura delantera. El objetivo era mantener una postura aerodinámica eficaz mientras variaban las condiciones de la vuelta. Esa relación explica por qué llamarlo simplemente coche fácil resulta insuficiente. Sus sistemas alteraban la manera de extraer rendimiento, y el piloto debía comprender cuándo y cómo confiar en sus respuestas."
+      ],
+      "sourceIds": [
+        "tecnica",
+        "modelo"
+      ]
+    },
+    {
+      "id": "boton",
+      "title": "Un botón para aliviar la resistencia",
+      "paragraphs": [
+        "Entre las funciones del FW15C figuraba la posibilidad de bajar su parte posterior para provocar la pérdida de eficacia del difusor y reducir la resistencia al avance. El software asociaba ese uso con un margen adicional de revoluciones. Era una manera de buscar velocidad en recta modificando la postura del coche, décadas antes de que otras herramientas de reducción de resistencia se hicieran familiares al público.",
+        "La transmisión podía operar con cambios semiautomáticos o en un modo automático, y el control de tracción formaba parte de la plataforma. El sistema antibloqueo se introdujo desde el Gran Premio de Francia. Cada elemento agregaba posibilidades, pero también trabajo de integración y puesta a punto. La complejidad no estaba solamente dentro de las unidades de control: había que convertirla en un comportamiento reproducible sobre diferentes circuitos."
+      ],
+      "sourceIds": [
+        "tecnica"
+      ]
+    },
+    {
+      "id": "limite",
+      "title": "Diez victorias antes del cambio de reglas",
+      "paragraphs": [
+        "Prost ganó siete carreras en 1993. Hill obtuvo sus primeros tres triunfos consecutivos en Hungría, Bélgica e Italia. El coche sumó diez victorias y Williams volvió a ganar el campeonato de constructores. La temporada incluyó también derrotas frente a Ayrton Senna y a Schumacher, una medida útil para recordar que su superioridad técnica no eliminaba la competencia ni las circunstancias de cada carrera.",
+        "Para 1994 quedaron prohibidos la suspensión activa y buena parte de las ayudas electrónicas asociadas. El FW15C no fue descalificado por lo que había conseguido: su camino de desarrollo se cerró con reglas nuevas. Prost se retiró como campeón, y Williams tuvo que reconstruir la relación entre aerodinámica y plataforma para un coche sin aquel control activo. Estoril había cerrado un campeonato personal y una breve forma de imaginar el futuro de la Fórmula 1."
+      ],
+      "sourceIds": [
+        "resultados",
+        "reglas",
+        "tecnica"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tecnica",
+      "title": "Formula 1, Hughes y Piola: la tecnología del FW15C",
+      "url": "https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS.6IzOXYuuPYOWyaaGGS4AgS"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 1993",
+      "url": "https://www.formula1.com/en/results/1993/races"
+    },
+    {
+      "id": "temporada",
+      "title": "Formula 1: clasificación de pilotos de 1993",
+      "url": "https://www.formula1.com/en/results/1993/drivers"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Williams FW15C",
+      "url": "https://en.wikipedia.org/wiki/Williams_FW15C"
+    },
+    {
+      "id": "reglas",
+      "title": "Formula 1: cambios técnicos decisivos, 1994",
+      "url": "https://www.formula1.com/en/latest/article/the-key-regulation-changes-in-f1-history-and-the-teams-that-nailed-them.2iq8c5E6S1HOffT5PBLl6i"
+    }
+  ],
+  "related": [
+    {
+      "label": "Williams",
+      "href": "/historia/constructors/williams"
+    },
+    {
+      "label": "Temporada 1993",
+      "href": "/historia/seasons/1993"
+    },
+    {
+      "label": "Williams FW14B",
+      "href": "/articulos/williams-fw14b"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

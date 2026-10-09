@@ -1,0 +1,107 @@
+{
+  "slug": "bugatti-type-35",
+  "title": "Bugatti Type 35: las ruedas brillantes de un estreno difícil",
+  "description": "Las ruedas de aluminio, el taller de Molsheim y los coches vendidos a particulares hicieron del Type 35 algo más duradero que una sucesión de victorias.",
+  "category": "Autos de leyenda",
+  "year": 1924,
+  "period": "1924–1931",
+  "tags": [
+    "Bugatti",
+    "Type 35",
+    "Type 35B",
+    "Type 35C",
+    "Ettore Bugatti",
+    "1924"
+  ],
+  "lead": "El 3 de agosto de 1924, cinco Bugatti Type 35 disputaron el Grand Prix de Francia cerca de Lyon. Habían viajado desde Molsheim sin incidentes y llevaban ruedas de aluminio que parecían anunciar una ventaja técnica. En carrera, los problemas de neumáticos arruinaron el estreno. La máquina que después construyó una reputación extraordinaria tuvo que empezar aprendiendo a perder.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Ettore buscaba una solución completa",
+      "paragraphs": [
+        "El Type 35 apareció después de otros proyectos de competición de Bugatti. Ettore reunió un ocho cilindros en línea, un chasis ligero y una carrocería estrecha con una cola cuidadosamente proporcionada. La arquitectura evitaba que un motor potente resultara inútil por un conjunto excesivamente pesado. La forma del automóvil expresaba decisiones de fabricación y de comportamiento, además de una identidad estética.",
+        "El modelo inicial de dos litros era atmosférico. Los rodamientos de su cigüeñal y las tres válvulas por cilindro formaban parte de una mecánica refinada que la familia posterior modificaría. Hablar de un único Type 35 con una potencia fija reúne versiones diferentes. A lo largo de los años, la cilindrada, la sobrealimentación y detalles del chasis crearon variantes adaptadas a usos y reglamentos distintos."
+      ],
+      "sourceIds": [
+        "modelo",
+        "museo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Una rueda incluía parte del freno",
+      "paragraphs": [
+        "La rueda de aluminio fundido tenía ocho radios anchos, aro desmontable y tambor de freno integrado. Bugatti pudo fabricar el conjunto en su propia fundición de Molsheim. La pieza reunía funciones que otros coches distribuían entre componentes separados. El cambio de una rueda implicaba trabajar sobre una unidad cuya forma ayudaba también a evacuar calor de los frenos.",
+        "El Bugatti Trust conserva dibujos que permiten seguir versiones y medidas de ruedas, sin depender exclusivamente de una publicidad de época. Su documentación muestra que el diseño fue evolucionando. El Type 35 que suele ilustrar una colección puede llevar frenos o ruedas diferentes a los de Lyon; identificar esas modificaciones aporta una historia más rica que repetir una ficha universal del modelo."
+      ],
+      "sourceIds": [
+        "ruedas",
+        "trust"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Lyon puso el neumático en el centro de la historia",
+      "paragraphs": [
+        "La crónica patrimonial de Bugatti describe un viaje sin problemas desde la fábrica hasta Lyon y ajustes menores durante los entrenamientos. La carrera tenía treinta y cinco vueltas de un trazado de unos veintitrés kilómetros. El coche debía mantener sus cualidades durante horas sobre carreteras, no únicamente demostrar una buena velocidad en una prueba corta.",
+        "Las bandas de rodadura de los neumáticos comenzaron a separarse, problema atribuido por la investigación de la marca a una vulcanización defectuosa. Las averías dañaron el resultado y sometieron las nuevas ruedas a golpes importantes. La experiencia mostró que una pieza innovadora podía funcionar bien y aun así quedar vinculada al fracaso de otra. El automóvil no competía mediante componentes independientes: todos sufrían las consecuencias del conjunto.",
+        "Bugatti mantuvo las ruedas de aluminio y siguió desarrollando el Type 35. El hecho de que la causa se identificara en los neumáticos dio a la fábrica una razón técnica para continuar. Una carrera decepcionante podía servir para separar una idea correcta de una aplicación que todavía necesitaba mejores recursos."
+      ],
+      "sourceIds": [
+        "estreno",
+        "ruedas"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "La familia encontró carreteras y clientes",
+      "paragraphs": [
+        "Las variantes Type 35T, 35C y 35B incorporaron cambios de cilindrada o compresor. La versión 35A ofreció una mecánica más sencilla. El Type 35 dejó de ser únicamente el automóvil del equipo oficial y se extendió entre pilotos privados, una característica esencial de su presencia en tantas pruebas. La reputación de un fabricante podía viajar mediante los coches que vendía a competidores.",
+        "La familia ganó repetidamente la Targa Florio entre 1925 y 1929 y quedó ligada a nombres como Meo Costantini, Albert Divo y Louis Chiron. El Musée National de l’Automobile conserva un Type 35B y lo presenta como una pieza central del prestigio deportivo de Bugatti. Las victorias se sumaron en categorías y recorridos diversos; una cifra global necesita siempre explicar qué carreras incluye.",
+        "Las ruedas que llamaron la atención en Lyon siguen haciendo reconocible al coche. Su belleza permanece unida a una función documentada. El Type 35 cuenta una historia en que el primer resultado no anticipó toda la carrera de un diseño: la fábrica debió identificar un problema, sostener lo que funcionaba y construir una familia capaz de encontrar muchas ocasiones diferentes para competir."
+      ],
+      "sourceIds": [
+        "modelo",
+        "museo",
+        "trust"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "modelo",
+      "title": "Wikipedia: variantes y trayectoria del Bugatti Type 35",
+      "url": "https://en.wikipedia.org/wiki/Bugatti_Type_35"
+    },
+    {
+      "id": "museo",
+      "title": "Musée National de l’Automobile: Bugatti Type 35B",
+      "url": "https://www.citedelautomobile.com/fr/collections/bugatti-type-35b/"
+    },
+    {
+      "id": "ruedas",
+      "title": "Bugatti: historia técnica de sus ruedas de aluminio",
+      "url": "https://newsroom.bugatti.com/en/press-releases/aluminium-wheels-as-a-bugatti-invention"
+    },
+    {
+      "id": "trust",
+      "title": "Bugatti Trust: documentación y dibujos de las ruedas del Type 35",
+      "url": "https://www.bugatti-trust.co.uk/wp-content/uploads/2013/03/Bugatti-Trust-Newsletter-32.pdf"
+    },
+    {
+      "id": "estreno",
+      "title": "Bugatti: reconstrucción del estreno de 1924",
+      "url": "https://newsroom.bugatti.com/press-releases/bugatti-type-35-the-making-of-a-champion-1"
+    }
+  ],
+  "related": [
+    {
+      "label": "Grand Prix de Francia",
+      "href": "/historia/grands-prix/france"
+    },
+    {
+      "label": "Alfa Romeo P2",
+      "href": "/articulos/alfa-romeo-p2"
+    }
+  ]
+}

@@ -4,69 +4,69 @@
   "description": "McLaren en 2010 y Mercedes en 2020 encontraron dos soluciones muy distintas para modificar el comportamiento del coche durante una vuelta.",
   "category": "Ideas que cambiaron la F1",
   "period": "2010–2021",
-  "lead": "Un conducto de aire y una dirección que se movía hacia delante y atrás parecen tener poco en común. El F-duct del McLaren MP4-25 y el DAS del Mercedes W11 mostraron, sin embargo, que la acción del piloto podía abrir posibilidades que las reglas debían evaluar con precisión.",
+  "lead": "Barcelona, 20 de febrero de 2020: las imágenes a bordo del Mercedes mostraron a Lewis Hamilton desplazando el volante hacia delante y atrás. Diez años antes, McLaren había encontrado otra forma de convertir una acción del piloto en rendimiento. El F-duct y el DAS no hacían lo mismo, pero ambos cambiaron la conversación sobre lo permitido.",
   "sections": [
     {
-      "id": "compromisos",
-      "title": "El coche que necesita comportarse de dos maneras",
+      "id": "barcelona",
+      "title": "El movimiento que reveló una investigación",
       "paragraphs": [
-        "Un monoplaza debe resolver compromisos. La carga aerodinámica ayuda en las curvas, pero su producción suele traer resistencia al avance en las rectas. La alineación de las ruedas delanteras afecta al comportamiento al girar y también a la forma en que los neumáticos trabajan cuando el coche avanza sin curva. Una configuración conveniente para una parte de la vuelta puede resultar menos favorable en otra.",
-        "El F-duct y el DAS respondieron a problemas distintos dentro de ese escenario. El primero buscaba reducir la resistencia asociada al alerón trasero a alta velocidad. El segundo permitía variar la convergencia de las ruedas delanteras mediante el movimiento longitudinal del volante. No eran dos versiones de la misma tecnología, ni pruebas de que un coche pudiera cambiar libremente cualquier reglaje en marcha: cada solución dependía de mecanismos concretos y de la interpretación de normas diferentes."
+        "El giro del volante era familiar. Su desplazamiento longitudinal, en cambio, hizo visible una posibilidad que hasta entonces permanecía dentro del coche. Mercedes identificó el sistema como DAS, Dual Axis Steering. La convergencia de las ruedas delanteras cambiaba cuando el piloto tiraba del volante o lo empujaba.",
+        "James Allison explicó que el equipo había trabajado en la solución antes de mostrarla. La sorpresa pública no equivalía a una improvisación técnica. Mercedes describiría después cómo muchas ideas de desarrollo permanecen invisibles para el espectador, y cómo el DAS había llamado la atención precisamente porque podía observarse la acción que lo operaba. La imagen del volante convirtió una investigación mecánica y reglamentaria en una pregunta compartida por todo el paddock."
       ],
       "sourceIds": [
-        "mclaren",
-        "das"
+        "das",
+        "desarrollo"
       ]
     },
     {
       "id": "fduct",
-      "title": "El MP4-25 y un alerón sin apertura de DRS",
+      "title": "McLaren había hecho cambiar el aire",
       "paragraphs": [
-        "McLaren estrenó en 2010 el sistema conocido como F-duct, denominado RW80 dentro del equipo. Su función era provocar la pérdida de eficacia aerodinámica del alerón trasero mediante el manejo del flujo de aire, reduciendo la resistencia en las rectas. La actuación del piloto formaba parte del funcionamiento del sistema. La particularidad estaba en utilizar conductos para alterar el comportamiento aerodinámico, en lugar de abrir un flap como hace el DRS.",
-        "El MP4-25 no ganó el campeonato, pero su solución fue copiada por otros equipos y quedó como uno de los rasgos técnicos más reconocibles de esa temporada. McLaren terminó segundo entre los constructores y ganó cinco carreras. El valor de un invento no se mide solamente por el título: también puede verse en la velocidad con que obliga a los rivales a investigar una respuesta y en la discusión reglamentaria que genera."
+        "En 2010, el MP4-25 introdujo RW80, el proyecto que se conoció como F-duct. El sistema manejaba el flujo de aire para provocar la pérdida de eficacia del alerón trasero y reducir la resistencia en las rectas. El piloto podía activar el cambio al bloquear una salida dentro del cockpit. La geometría del alerón no necesitaba abrirse físicamente.",
+        "La solución integraba conductos dentro de una arquitectura diseñada para recibirlos. Los rivales podían entender el principio y seguir enfrentándose al problema de dónde instalar su propia versión. El MP4-25 ganó cinco carreras y McLaren terminó segundo entre los constructores. El F-duct no entregó un campeonato, pero hizo que otras organizaciones dedicaran tiempo y recursos a un efecto que el equipo había convertido en una herramienta operable."
       ],
       "sourceIds": [
         "mclaren",
+        "innovaciones",
         "temporada-mclaren",
         "mp425"
       ]
     },
     {
-      "id": "drs",
-      "title": "El cierre de una vía y la apertura de otra",
+      "id": "dos-epocas",
+      "title": "Reducir resistencia no significaba usar el mismo mecanismo",
       "paragraphs": [
-        "El F-duct fue prohibido para 2011. Ese mismo año llegó el DRS, que perseguía una reducción de resistencia mediante un dispositivo y unas condiciones de uso definidos por el reglamento. Hay una relación funcional entre ambos, pero no conviene presentar el DRS como el mismo mecanismo con otro nombre. Uno desviaba aire para alterar el funcionamiento del alerón; el otro permitía modificar la posición de un elemento autorizado.",
-        "La secuencia ilustra una decisión frecuente en la Fórmula 1: el regulador puede rechazar una vía particular de desarrollo y permitir otra que considere más controlable. El hecho de que el F-duct desapareciera no significa que sus resultados anteriores fueran ilegales. La diferencia entre una norma vigente y una norma futura es fundamental para leer estas historias sin transformar cada prohibición posterior en una sanción retroactiva."
+        "El F-duct quedó prohibido para 2011, cuando apareció el DRS. Ambos podían reducir la resistencia asociada al alerón trasero, pero mediante medios diferentes. El DRS permitía mover un elemento autorizado bajo condiciones definidas, mientras el F-duct alteraba el flujo sobre una superficie que permanecía en su posición.",
+        "El relato de McLaren incluye una observación útil de sus protagonistas: no puede demostrarse una relación causal directa y completa entre la aparición del F-duct y la decisión de introducir el DRS. Las fechas y la semejanza de objetivos explican que suelan contarse juntos, pero no autorizan a convertir uno en una copia del otro. El cambio de reglas cerró una vía de actuación y dejó otra delimitada de manera distinta."
       ],
       "sourceIds": [
-        "mclaren",
-        "innovaciones"
+        "innovaciones",
+        "mclaren"
       ]
     },
     {
-      "id": "das",
-      "title": "El W11 de 2020 y las dos acciones del volante",
+      "id": "direccion",
+      "title": "La protesta obligó a definir qué era dirigir",
       "paragraphs": [
-        "Diez años después, las imágenes de las pruebas de Barcelona mostraron a los pilotos de Mercedes desplazando el volante hacia delante y atrás. El DAS, sigla de Dual Axis Steering, añadía esa acción longitudinal al giro convencional. El movimiento modificaba la convergencia de las ruedas delanteras: su orientación relativa vista desde arriba. Pertenece al Mercedes W11 de 2020; el W12 de 2021 ya no podía utilizarlo.",
-        "En el Gran Premio de Austria de 2020, una protesta de Red Bull llevó a los comisarios a examinar si debía considerarse parte de la dirección o una modificación prohibida de la suspensión. La decisión situó el DAS dentro del sistema de dirección y rechazó la protesta. Ese razonamiento específico es más útil que describirlo como un simple permiso general para mover piezas: la legalidad dependía de la función, la mecánica y el texto aplicable al coche de aquella temporada."
+        "En Austria, en 2020, Red Bull protestó contra el DAS. La discusión examinó si debía considerarse parte de la dirección o una modificación prohibida de la suspensión. Los comisarios rechazaron la protesta y situaron el sistema dentro de la dirección: actuaba sobre la alineación de las ruedas delanteras mediante una acción del piloto integrada con el mecanismo existente.",
+        "El DAS pertenecía al Mercedes W11. La clasificación de una pieza dentro de las reglas era tan importante como su construcción, porque una misma modificación podía resultar admisible o no según su función reglamentaria. La decisión no autorizaba a cambiar cualquier geometría en marcha. Explicaba por qué ese mecanismo concreto podía utilizarse bajo el texto vigente en 2020. La pista y el documento normativo formaban dos partes de la misma investigación."
       ],
       "sourceIds": [
-        "das",
         "decision",
-        "w12"
+        "das"
       ]
     },
     {
-      "id": "limites",
-      "title": "Lo que sabemos de su utilidad y de sus límites",
+      "id": "eifel",
+      "title": "El frío mostró una utilidad y el año siguiente cerró el camino",
       "paragraphs": [
-        "Mercedes explicó que el DAS resultó especialmente útil para trabajar con los neumáticos delanteros en las bajas temperaturas del Gran Premio de Eifel de 2020. El ejemplo permite hablar de una utilidad observada sin adjudicarle una ganancia universal de décimas ni responsabilizarlo por sí solo del rendimiento del W11. La relación entre alineación y temperatura dependía de las condiciones y de la manera de utilizar el sistema.",
-        "La FIA confirmó que el DAS no estaría permitido en 2021, aun cuando muchas partes de los coches de 2020 continuaron por las medidas de ahorro adoptadas durante la pandemia. F-duct y DAS tuvieron vidas reglamentarias breves y legados distintos. Al reunirlos, la historia relevante no es la de una trampa repetida, sino la de ingenieros que estudiaron problemas concretos, pilotos que operaron nuevas herramientas y normas que acabaron delimitando con mayor detalle lo que el coche podía hacer."
+        "Mercedes señaló que el DAS fue especialmente útil en las bajas temperaturas del Gran Premio de Eifel. La convergencia ofrecía una manera de trabajar con los neumáticos delanteros, aunque no hay una ganancia fija pública que permita resumir su rendimiento en una cifra universal. La utilidad dependía de condiciones y operación, como tantas decisiones de puesta a punto.",
+        "La FIA confirmó que el sistema no estaría permitido en 2021. El W12, sucesor del W11, ya no lo llevaba. F-duct y DAS tuvieron carreras reglamentarias breves, pero dejaron historias distintas de ingeniería. Uno hizo trabajar al aire de otra manera; el otro añadió una acción a la dirección. Los dos revelaron cuánto rendimiento podía existir todavía dentro de preguntas muy precisas, antes de que la siguiente versión de las reglas cerrara esas posibilidades."
       ],
       "sourceIds": [
         "eifel",
         "fia2021",
-        "desarrollo"
+        "w12"
       ]
     }
   ],
@@ -139,5 +139,12 @@
       "label": "Temporada 2020",
       "href": "/historia/seasons/2020"
     }
+  ],
+  "year": 2010,
+  "tags": [
+    "F-duct",
+    "DAS",
+    "McLaren MP4-25",
+    "Mercedes W11"
   ]
 }

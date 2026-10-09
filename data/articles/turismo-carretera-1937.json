@@ -1,0 +1,105 @@
+{
+  "slug": "turismo-carretera-1937",
+  "title": "Hipómenes y el país que aprendió a seguir una carrera",
+  "description": "El Gran Premio de 1937, las carrocerías cerradas y los caminos argentinos: una historia de cómo el Turismo Carretera encontró su nombre y su público.",
+  "category": "Automovilismo argentino",
+  "year": 1937,
+  "period": "1937–1948",
+  "tags": [
+    "Argentina",
+    "Turismo Carretera",
+    "Ángel Lo Valvo",
+    "Hipómenes",
+    "Fangio",
+    "Gálvez"
+  ],
+  "lead": "El nombre del ganador era Hipómenes. Detrás del seudónimo estaba Ángel Lo Valvo, un piloto de Arrecifes al volante de un Ford. Su triunfo en el Gran Premio de 1937 quedó como el punto de partida del Turismo Carretera, aunque la categoría todavía estaba construyendo la forma con la que sería reconocida.",
+  "sections": [
+    {
+      "id": "permiso",
+      "title": "La primera victoria fue poder salir a la ruta",
+      "sourceIds": [
+        "actc",
+        "aniversario"
+      ],
+      "paragraphs": [
+        "La prueba nació de una negociación entre el deseo de competir y las condiciones impuestas para utilizar los caminos. La historia institucional de la ACTC describe una autorización para autos de carrocería cerrada, excluyendo los vehículos de carrera y los gran sport. El cambio afectaba a las máquinas y al tipo de espectáculo. La imagen de los grandes coches abiertos de fuerza libre dejaba paso a vehículos más cercanos a los que podían verse fuera de la competencia.",
+        "Los caminos no estaban allí como una pista preparada. Eran parte de un territorio que la carrera debía atravesar y de una circulación que las autoridades tenían que regular. Organizar el Gran Premio significaba acordar un recorrido, establecer restricciones y disponer ayuda a lo largo de una distancia extraordinaria. El deporte no se resolvía únicamente en el taller: también se decidía en oficinas, permisos y relaciones entre clubes y organismos públicos."
+      ]
+    },
+    {
+      "id": "camino",
+      "title": "Un resultado que necesitaba muchos días",
+      "sourceIds": [
+        "actc",
+        "aniversario"
+      ],
+      "paragraphs": [
+        "La largada del 5 de agosto de 1937 abrió una prueba que atravesó varias provincias durante más de diez días. Las reconstrucciones hablan de un recorrido cercano a los 6.900 kilómetros. A esa escala, la velocidad debía convivir con la resistencia del vehículo y la capacidad de reparar. Cada problema consumía una parte de la carrera que no se veía desde una tribuna: había que volver a poner el auto en marcha y seguir.",
+        "Lo Valvo ganó con el Ford. El apodo Hipómenes quedó ligado al comienzo de una categoría que todavía no poseía décadas de resultados, una rivalidad consolidada ni un calendario propio comparable al actual. La carrera daba a los aficionados un recorrido para seguir y nombres que podían reconocer. Las noticias llegaban desde lugares separados por cientos de kilómetros: el país entero podía convertirse en el escenario de una misma competencia."
+      ]
+    },
+    {
+      "id": "nombre",
+      "title": "Primero hubo una carrera; después, un título",
+      "sourceIds": [
+        "actc",
+        "palmares"
+      ],
+      "paragraphs": [
+        "La distinción entre 1937 y 1939 explica parte de esa construcción. La ACTC reconoce el Gran Premio de 1937 como su primera carrera, pero su palmarés de campeones de la especialidad comienza con el título de Lo Valvo en 1939. La Comisión Deportiva del ACA había separado campeonatos de pista, velocidad y carretera. La clasificación deportiva fue dando un marco más definido a una práctica que ya tenía seguidores.",
+        "El nombre Turismo Carretera reunió el tipo de automóvil con el lugar de la competencia. No apareció como un eslogan colocado sobre un deporte terminado. Creció alrededor de coches de turismo, carreras de ruta y la denominación de campeón de carretera. Ese proceso dejó una categoría capaz de conservar su identidad incluso cuando, muchos años después, sus autos y sus escenarios se alejaron de las máquinas y caminos del comienzo."
+      ]
+    },
+    {
+      "id": "pasion",
+      "title": "Los talleres se convierten en emblemas",
+      "sourceIds": [
+        "actc",
+        "aca",
+        "bucci"
+      ],
+      "paragraphs": [
+        "Fangio ganó los campeonatos de 1940 y 1941. Los Gálvez se convirtieron en referentes de Ford, mientras el piloto de Balcarce quedó asociado a Chevrolet. La rivalidad entre marcas adquirió rostros, localidades y talleres. El automovilismo argentino podía prolongar la discusión de una carrera en una conversación cotidiana: un resultado significaba también defender un trabajo mecánico y una pertenencia.",
+        "La gran prueba sudamericana de 1948 llevó aquella escala aún más lejos. La historia institucional recuerda el trayecto hasta Caracas, ganado por Domingo Marimón, y el regreso entre Lima y Buenos Aires, ganado por Oscar Gálvez. No fue el origen de todo, sino la expansión de una cultura que ya había aprendido a relacionar competencia y viaje. Desde el seudónimo de Lo Valvo hasta esas distancias continentales, el TC fue reuniendo una historia donde la ruta, el auto y el público tenían el mismo peso."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "actc",
+      "title": "ACTC: historia institucional y orígenes del Turismo Carretera",
+      "url": "https://actc.org.ar/institucional/historia"
+    },
+    {
+      "id": "aniversario",
+      "title": "Carlos Eduardo Pérez Pengüe / APRA: Gran Premio Argentino de 1937, publicado en TC Magazine",
+      "url": "https://apraasociacionperiodistasradiales.blogspot.com/p/blog-page_23.html"
+    },
+    {
+      "id": "palmares",
+      "title": "ACTC: Ángel Lo Valvo y el campeonato de 1939",
+      "url": "https://lists.actc.org.ar/institucional/campeones-historia-Valvo.html"
+    },
+    {
+      "id": "aca",
+      "title": "ACA: el legado de los Grandes Premios de carretera",
+      "url": "https://www.gph.aca.org.ar/gph-historia/"
+    },
+    {
+      "id": "bucci",
+      "title": "Museo Bucci: mecánica y competición en los años anteriores al TC",
+      "url": "https://museobucci.com/teams/domingo-bucci/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Las pistas de San Martín y Villa Martelli",
+      "href": "/articulos/san-martin-villa-martelli"
+    },
+    {
+      "label": "El nacimiento del Mundial",
+      "href": "/articulos/grandes-epreuves"
+    }
+  ]
+}

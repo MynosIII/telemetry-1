@@ -1,0 +1,121 @@
+{
+  "slug": "auto-union-type-c",
+  "title": "Auto Union Type C: dieciséis cilindros detrás de Rosemeyer",
+  "description": "Los cuatro anillos, el V16 detrás del piloto y la temporada de Rosemeyer: la historia del Type C y las diferencias entre un coche de Grand Prix y uno de récord.",
+  "category": "Autos de leyenda",
+  "year": 1936,
+  "period": "1934–1937",
+  "tags": [
+    "Auto Union",
+    "Type A",
+    "Type C",
+    "V16",
+    "Rosemeyer",
+    "Porsche",
+    "1936"
+  ],
+  "lead": "En 1936, Bernd Rosemeyer ganó el Campeonato de Europa con un Auto Union Type C. El conductor estaba sentado por delante de un enorme V16 y el combustible ocupaba una zona intermedia del automóvil. La silueta mostraba una arquitectura que rompía con la disposición habitual de los Grand Prix. También llevaba cuatro anillos: la identidad de un grupo industrial recién formado.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Cuatro empresas necesitaban un nombre común",
+      "paragraphs": [
+        "Auto Union nació en 1932 de la unión de Audi, DKW, Horch y la división automovilística de Wanderer. La crisis había creado una necesidad de cooperación y el banco estatal de Sajonia impulsó la reorganización. El grupo buscaba mantener las marcas comerciales mientras presentaba una identidad compartida. La competición ofrecía una manera de hacer visible un nombre nuevo.",
+        "Ferdinand Porsche recibió el encargo de un coche de Grand Prix y el departamento trabajó en la fábrica Horch de Zwickau. En 1934 apareció el Type A con motor de dieciséis cilindros colocado detrás del conductor. Hans Stuck protagonizó las primeras demostraciones y carreras. La ubicación del motor era una decisión de proyecto, no un detalle de carrocería aplicado después de construir un coche convencional."
+      ],
+      "sourceIds": [
+        "union",
+        "audi1934",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El Type C llevó la idea hasta seis litros",
+      "paragraphs": [
+        "La fórmula de setecientos cincuenta kilogramos limitaba la masa medida bajo determinadas condiciones, pero no la cilindrada de modo directo. Auto Union desarrolló el motor a través de sus sucesivas versiones. El Type C de 1936 llegó a unos seis litros y una potencia anunciada de 520 caballos. La ganancia se acompañó de una gran capacidad de empuje a regímenes relativamente bajos.",
+        "El conductor se situaba cerca del frente y el depósito quedaba entre su plaza y el motor. Esa disposición buscaba reducir el cambio de balance a medida que disminuía el combustible. El diseño modificaba también la percepción del piloto: un gran volumen mecánico quedaba detrás y las reacciones del coche necesitaban un manejo adecuado a ese reparto de masas.",
+        "Audi recuerda el V16 como una máquina difícil y extraordinaria, pero la dificultad no era una propiedad mágica. Los neumáticos, la suspensión y la entrega de potencia debían coordinarse sobre pistas de firme irregular. El coche podía ofrecer enormes recursos y exigir al mismo tiempo mucho trabajo para utilizarlos."
+      ],
+      "sourceIds": [
+        "silver",
+        "goodwood",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Rosemeyer dio a la máquina una temporada",
+      "paragraphs": [
+        "Rosemeyer había llegado desde las motocicletas y ganó notoriedad rápidamente. En 1936 consiguió el campeonato europeo y el título alemán de montaña. El Type C permitió que las carreras y las subidas compartieran una tecnología, aunque cada evento requería su preparación. La reputación del piloto y la identidad del nuevo grupo industrial se reforzaron mutuamente ante el público.",
+        "Las victorias ocurrían en una Alemania bajo el régimen nazi, que utilizaba el deporte y la industria como instrumentos de propaganda. La espectacularidad de las Flechas de Plata no puede separarse de ese contexto. Describir el coche mediante su arquitectura y sus pilotos permite apreciar la ingeniería sin convertir la celebración oficial de la época en una valoración del régimen.",
+        "El campeonato se disputó contra Mercedes-Benz y otros fabricantes, no contra una sola máquina inmóvil. Los rivales también desarrollaban motores y chasis. La campaña de 1936 representa el momento en que el sistema de Auto Union funcionó especialmente bien dentro de ese enfrentamiento."
+      ],
+      "sourceIds": [
+        "silver",
+        "historia",
+        "campeonato"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Un coche abierto no era el automóvil de récord",
+      "paragraphs": [
+        "Auto Union construyó carrocerías especiales para AVUS e intentos de récord. Las ruedas cubiertas y las formas alargadas que aparecen en fotografías no identifican automáticamente al Type C de Grand Prix convencional. La velocidad dependía de la versión, del motor preparado y de la tarea. Utilizar cuatrocientos kilómetros por hora como máximo general del coche abierto mezcla programas diferentes.",
+        "La persecución de récords llegó a un desenlace fatal el 28 de enero de 1938, cuando Rosemeyer murió durante un intento sobre la autopista Frankfurt–Darmstadt. El vehículo estaba preparado específicamente para esa actividad. El episodio sitúa un límite humano junto a las cifras que acompañaban a los dieciséis cilindros.",
+        "Las reconstrucciones de Audi Tradition permiten hoy ver automóviles de esa familia funcionando. La institución identifica expresamente los ejemplares reconstruidos que utiliza en demostraciones. Mantener esa distinción protege la historia material y no resta interés a la experiencia. El Type C explica una arquitectura, una temporada y un esfuerzo industrial cuyos resultados sobreviven en objetos originales, documentación y reproducciones reconocidas como tales."
+      ],
+      "sourceIds": [
+        "silver",
+        "goodwood",
+        "campeonato"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "union",
+      "title": "Audi: unión de las cuatro empresas en 1932",
+      "url": "https://www.audi.com/en/united-to-form-auto-union-ag-17310"
+    },
+    {
+      "id": "audi1934",
+      "title": "Audi: construcción de los primeros Auto Union y debut de 1934",
+      "url": "https://www.audi.com/en/press-releases/how-the-silver-arrow-legend-was-born-1166"
+    },
+    {
+      "id": "historia",
+      "title": "Audi: historia de Auto Union y su actividad de competición",
+      "url": "https://www.audi.com/en/company-history-17227"
+    },
+    {
+      "id": "silver",
+      "title": "Audi: la era de las Flechas de Plata y los coches de récord",
+      "url": "https://www.audi.com/en/the-age-of-the-silver-arrows-17267"
+    },
+    {
+      "id": "goodwood",
+      "title": "Audi Japan: Type C, títulos de 1936 y presentación de Audi Tradition en Goodwood",
+      "url": "https://audi-press.jp/press-releases/2018/b7rqqm000000n7cv.html"
+    },
+    {
+      "id": "campeonato",
+      "title": "Audi Magazine: Rosemeyer y el Auto Union Type C",
+      "url": "https://magazine.audi.com.au/article/motorsport-royalty"
+    }
+  ],
+  "related": [
+    {
+      "label": "Mercedes-Benz W25",
+      "href": "/articulos/mercedes-w25"
+    },
+    {
+      "label": "Mercedes-Benz W125",
+      "href": "/articulos/mercedes-w125"
+    },
+    {
+      "label": "Grandes Épreuves",
+      "href": "/articulos/grandes-epreuves"
+    }
+  ]
+}

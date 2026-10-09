@@ -1,0 +1,101 @@
+{
+  "slug": "brabham-bt46",
+  "title": "Brabham BT46: el auto que quiso enfriarse con su propia piel",
+  "description": "Antes del ventilador hubo una apuesta por intercambiadores planos; el BT46 volvió a los radiadores convencionales y ganó en Monza.",
+  "category": "Autos de leyenda",
+  "period": "1978",
+  "year": 1978,
+  "tags": [
+    "Brabham BT46",
+    "Gordon Murray",
+    "Niki Lauda",
+    "John Watson"
+  ],
+  "lead": "Kyalami, marzo de 1978. El Brabham BT46 apareció con un radiador ancho y bajo dentro del morro. Unos meses antes, Gordon Murray había querido eliminar ese volumen enfriando el auto mediante paneles en la superficie de la carrocería. La primera versión visible en un Gran Premio ya conservaba las huellas de una rectificación.",
+  "sections": [
+    {
+      "id": "piel",
+      "title": "La refrigeración podía cambiar la forma completa del auto",
+      "paragraphs": [
+        "El BT46 nació como respuesta a los problemas de espacio y peso del Brabham con motor Alfa Romeo. Murray intentó sustituir los radiadores convencionales por intercambiadores planos dispuestos sobre la carrocería. Si la superficie exterior podía disipar el calor, se reduciría la necesidad de grandes entradas de aire y cuerpos voluminosos. La propuesta conectaba refrigeración y aerodinámica en una misma decisión.",
+        "Los ensayos mostraron que el sistema no tenía la capacidad necesaria. El motor se calentaba y la idea fue abandonada antes del estreno mundialista. John Watson, piloto del equipo, recordó años después aquella combinación de intercambiadores y monocasco de sección característica de Murray. La máquina de competición no perdió toda su identidad al cambiar de refrigeración, pero sí tuvo que recuperar parte del volumen que el diseño original esperaba eliminar."
+      ],
+      "sourceIds": [
+        "watson",
+        "wiki",
+        "notes"
+      ]
+    },
+    {
+      "id": "kyalami",
+      "title": "El auto llegó con radiadores donde parecía que ya no harían falta",
+      "paragraphs": [
+        "La crónica técnica de Kyalami de 1978 describe un radiador de agua ancho y poco profundo integrado en el morro. Los elementos destinados al aceite se distribuían a los lados y encima del motor. La revisión devolvía una solución reconocible, aunque adaptada a la forma del nuevo Brabham.",
+        "La suspensión posterior y la caja de seis marchas Alfa Romeo ya habían aparecido durante el desarrollo del BT45B. Su destino era el BT46. Esa continuidad permitía que algunas piezas llegaran probadas antes de que el auto nuevo completara su preparación. El equipo empezó 1978 con el modelo anterior y presentó el 46 en la tercera carrera. El estreno no era la realización intacta de una idea inicial, sino una máquina corregida para poder correr."
+      ],
+      "sourceIds": [
+        "notes",
+        "wiki"
+      ]
+    },
+    {
+      "id": "alfa",
+      "title": "La potencia del doce cilindros imponía sus condiciones",
+      "paragraphs": [
+        "El Alfa Romeo de tres litros ofrecía una alternativa al Cosworth DFV que utilizaban muchos adversarios. La unidad de doce cilindros era potente, pero su anchura, su masa y sus necesidades de combustible condicionaban el vehículo. Murray debía organizar el chasis alrededor de esa realidad, en vez de diseñar primero una silueta ideal y buscar después un motor que entrara.",
+        "El BT46B con ventilador fue una respuesta posterior al desafío aerodinámico de Lotus. Su única aparición victoriosa en Suecia volvió tan famoso el dispositivo que muchas veces eclipsó al auto convencional. Sin embargo, Brabham completó la mayor parte de la temporada con el BT46 sin aquel gran ventilador. La historia del proyecto no terminó cuando la variante B fue retirada."
+      ],
+      "sourceIds": [
+        "wiki",
+        "watson",
+        "notes"
+      ]
+    },
+    {
+      "id": "monza",
+      "title": "La otra victoria quedó detrás del episodio sueco",
+      "paragraphs": [
+        "Niki Lauda ganó el Gran Premio de Italia de 1978 con el BT46 convencional. Andretti y Villeneuve cruzaron delante, pero recibieron penalizaciones por adelantarse a la segunda salida. La jornada quedó marcada por el accidente inicial de Ronnie Peterson, cuyas consecuencias resultarían fatales. El triunfo de Brabham ocupó un lugar deportivo real dentro de una carrera que se recuerda, sobre todo, por aquella tragedia.",
+        "Lauda y Watson contribuyeron a que Brabham terminara tercero en el campeonato de constructores. El BT46 apareció todavía en Argentina en 1979 con Nelson Piquet, antes de ceder su lugar al BT48. Su recorrido conserva una historia distinta de la del ventilador: empezó con una refrigeración que no funcionó, se adaptó para competir y encontró otra victoria mediante una configuración más convencional. La piel del auto no pudo reemplazar sus radiadores; el proyecto sí pudo sobrevivir a esa primera decepción."
+      ],
+      "sourceIds": [
+        "wiki",
+        "results",
+        "fia"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "notes",
+      "title": "Motor Sport — notas técnicas de Kyalami, abril de 1978",
+      "url": "https://www.motorsportmagazine.com/archive/article/april-1978/99/notes-cars-kyalami/"
+    },
+    {
+      "id": "watson",
+      "title": "John Watson / Motor Sport — recuerdos del BT46",
+      "url": "https://www.motorsportmagazine.com/archive/article/july-2024/106/a-flare-of-colour-john-watson-on-the-exuberance-of-1970s-racing/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Brabham BT46, arquitectura y variantes",
+      "url": "https://en.wikipedia.org/wiki/Brabham_BT46"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1978",
+      "url": "https://www.formula1.com/en/results/1978/races"
+    },
+    {
+      "id": "fia",
+      "title": "FIA / Monza — archivo de ganadores y modelos, 1978",
+      "url": "https://www.fia.com/sites/default/files/f1_gp_italia_2018_media_kit_01-09.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1978",
+      "href": "/historia/seasons/1978"
+    }
+  ]
+}

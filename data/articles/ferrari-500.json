@@ -1,0 +1,105 @@
+{
+  "slug": "ferrari-500",
+  "title": "Ferrari 500: el pequeño cuatro cilindros que ocupó un campeonato entero",
+  "description": "Aurelio Lampredi encontró una respuesta sobria para la Fórmula 2; Ascari convirtió esa preparación en dos títulos mundiales.",
+  "category": "Autos de leyenda",
+  "period": "1952",
+  "year": 1952,
+  "tags": [
+    "Ferrari 500 F2",
+    "Alberto Ascari",
+    "Aurelio Lampredi"
+  ],
+  "lead": "Bremgarten, mayo de 1952. Alberto Ascari no estaba en la salida: preparaba su aventura en Indianápolis. Ferrari ganó de todos modos, con Piero Taruffi delante de Rudi Fischer. Ambos conducían un 500 F2. La nueva temporada empezaba mostrando que el auto de Lampredi podía sostener su superioridad incluso sin la estrella de la escudería.",
+  "sections": [
+    {
+      "id": "formula",
+      "title": "Una categoría distinta para el mismo título",
+      "paragraphs": [
+        "Los Grandes Premios europeos del Mundial de 1952 y 1953 se disputaron con reglas de Fórmula 2. El cambio siguió a la retirada de Alfa Romeo y a la falta de una parrilla suficientemente sólida para la fórmula anterior. Indianápolis permaneció en el calendario con su normativa propia. Ferrari llegó con un proyecto preparado para el reglamento de dos litros, mientras el campeonato buscaba una salida viable.",
+        "El título seguía siendo el Campeonato Mundial de Pilotos. Ascari no ganó una competición secundaria separada de la historia oficial: sus dos coronas ocupan las temporadas de 1952 y 1953 del mismo palmarés. La particularidad estaba en los autos admitidos. Esa coyuntura llevó al centro del automovilismo una máquina mucho más pequeña que el Ferrari 375 F1 que había derrotado a Alfa Romeo el año anterior."
+      ],
+      "sourceIds": [
+        "wiki",
+        "ascari",
+        "results"
+      ]
+    },
+    {
+      "id": "lampredi",
+      "title": "Cuatro cilindros, sin la obligación de impresionar",
+      "paragraphs": [
+        "Lampredi abandonó aquí la cantidad de cilindros que suele asociarse con Ferrari. El 500 utilizaba cuatro en línea, dos litros de cilindrada aproximada y alimentación atmosférica. Los números del modelo volvían a describir, de forma redondeada, el volumen de cada cilindro. Su ficha técnica no presenta un V4: los cuatro pistones trabajaban dentro de un mismo bloque en línea.",
+        "La preparación de Ferrari no fue únicamente disponer de un motor adecuado. La estructura, la transmisión y la disposición de sus componentes formaban un conjunto probado antes de iniciar el calendario mundialista. El modelo había corrido en Módena en 1951. La sobriedad aparente del cuatro cilindros ocultaba una ventaja de tiempo: otros competidores debían alcanzar a una escudería que ya había convertido el nuevo reglamento en una máquina utilizable."
+      ],
+      "sourceIds": [
+        "technical",
+        "wiki"
+      ]
+    },
+    {
+      "id": "ascari",
+      "title": "Las carreras empezaron a repetirse",
+      "paragraphs": [
+        "Ascari regresó de Indianápolis y ganó los seis Grandes Premios europeos restantes de 1952: Bélgica, Francia, Gran Bretaña, Alemania, Países Bajos e Italia. Los resultados sitúan su dominio en lugares muy diferentes, desde Spa hasta las calles y caminos que componían Rouen. El 500 no dependía de una única pista favorable ni de una victoria aislada por estrategia.",
+        "En 1953 Ascari añadió cinco triunfos mundialistas y conservó el título. Sus compañeros también ganaron: Mike Hawthorn en Francia y Giuseppe Farina en Alemania. La escudería perdió el último Gran Premio europeo del bienio, en Monza, frente al Maserati de Fangio. Ese final competitivo forma parte de la historia del auto tanto como su larga sucesión de victorias: el adversario había terminado por acercarse."
+      ],
+      "sourceIds": [
+        "ascari",
+        "results",
+        "results53"
+      ]
+    },
+    {
+      "id": "fuera",
+      "title": "La vida del 500 no cabía en la campaña oficial",
+      "paragraphs": [
+        "Rudi Fischer y otros particulares utilizaron el modelo además de los pilotos de la Scuderia. La victoria de Taruffi en Suiza y el segundo puesto de Fischer en aquella misma carrera muestran esa difusión desde la primera prueba puntuable del año. Ferrari podía dominar mediante su equipo principal y, al mismo tiempo, vender una herramienta competitiva a clientes que construían sus propias campañas.",
+        "Con el regreso de los motores atmosféricos de 2,5 litros en 1954, la arquitectura del cuatro cilindros siguió ofreciendo una base de desarrollo. El 500 quedó asociado a la primera gran época de Ascari y a los primeros títulos mundiales de Ferrari, pero no fue solamente un objeto de dos temporadas. También fue experiencia acumulada, unidades vendidas y una demostración de que un diseño relativamente sencillo podía volverse extraordinario si llegaba listo antes que el resto."
+      ],
+      "sourceIds": [
+        "wiki",
+        "technical",
+        "museum"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Ferrari Tipo 500, historial y bibliografía",
+      "url": "https://en.wikipedia.org/wiki/Ferrari_Tipo_500"
+    },
+    {
+      "id": "ascari",
+      "title": "Formula 1 — Alberto Ascari",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-alberto-ascari.6zgWYwDIjoQmYSiz48FAZD"
+    },
+    {
+      "id": "technical",
+      "title": "Mitorosso — ficha histórica del 500 F2",
+      "url": "https://mitorosso.com/500-f2-alberto-ascari/"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1952",
+      "url": "https://www.formula1.com/en/results/1952/races"
+    },
+    {
+      "id": "results53",
+      "title": "Formula 1 — resultados de 1953",
+      "url": "https://www.formula1.com/en/results/1953/races"
+    },
+    {
+      "id": "museum",
+      "title": "Ferrari Museum — selección de monoplazas históricos",
+      "url": "https://cdn.ferrari.com/cms/network/media/pdf/pr_90_years_eng_fin.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1952",
+      "href": "/historia/seasons/1952"
+    }
+  ]
+}

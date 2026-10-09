@@ -1,0 +1,102 @@
+{
+  "slug": "maserati-v4",
+  "title": "Maserati V4: dieciséis cilindros para una carretera de Cremona",
+  "description": "Maserati reunió dos ocho cilindros en una máquina de dieciséis. En una carretera de Cremona, Borzacchini convirtió aquella apuesta en un récord de velocidad.",
+  "category": "Autos de leyenda",
+  "year": 1929,
+  "period": "1929–1931",
+  "tags": [
+    "Maserati",
+    "V4",
+    "Tipo 26B",
+    "Borzacchini",
+    "1929"
+  ],
+  "lead": "El 28 de septiembre de 1929, Baconin Borzacchini recorrió una carretera cerca de Cremona dos veces, una en cada sentido. El promedio de las pasadas dio al Maserati V4 un récord mundial de clase sobre diez kilómetros con salida lanzada. La velocidad hizo célebre una solución extrema: unir dos ocho cilindros para obtener una máquina de cuatro litros y dieciséis cilindros.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Alfieri quería sumar dos motores",
+      "paragraphs": [
+        "Los hermanos Maserati desarrollaban coches de competición desde su taller de Bolonia. El V4 llevó esa experiencia a una escala nueva combinando dos unidades relacionadas con el Tipo 26B. Los grupos de ocho cilindros quedaron colocados en un ángulo estrecho, con un cárter común y dos cigüeñales. Cada parte conservaba su alimentación, su encendido y su compresor.",
+        "El nombre describía la disposición en V y la cilindrada total de unos cuatro litros, no el número de cilindros. La ficha de Maserati indica 3.961 centímetros cúbicos y una potencia que fue variando con el desarrollo. Aumentar la cantidad de motores no solo añadía potencia: exigía un chasis capaz de soportarla, una transmisión adecuada y neumáticos que pudieran resistir la carga."
+      ],
+      "sourceIds": [
+        "maserati",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El récord tenía una clase y un procedimiento",
+      "paragraphs": [
+        "El V4 había debutado en Monza el 15 de septiembre con Alfieri al volante. Dos semanas después, Borzacchini utilizó la carretera de Padania Inferiore para el intento de Cremona. La prueba no consistía en alcanzar un máximo instantáneo leído en el automóvil. Se medía el tiempo sobre diez kilómetros y se repetía el recorrido en sentido inverso para producir un resultado homologable.",
+        "El promedio fue de 246,069 kilómetros por hora. El récord correspondía a la clase C, de tres a cinco litros. Esa precisión conserva el significado real del logro y permite compararlo con sus rivales sin convertirlo en récord absoluto de todas las máquinas. La carretera necesitaba también espacio de aceleración y frenada fuera del tramo cronometrado.",
+        "Una recta aprovechaba la gran potencia del V4 y reducía parte de sus dificultades de manejo. El dato es extraordinario por lo que acredita concretamente: la capacidad de sostener velocidad sobre una distancia larga, no una promesa de que el mismo coche fuese superior en cualquier circuito."
+      ],
+      "sourceIds": [
+        "maserati",
+        "tributo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Tripoli ofreció otra demostración",
+      "paragraphs": [
+        "Borzacchini ganó el Grand Prix de Tripoli en marzo de 1930 con el V4. La reconstrucción de The Golden Era identifica el recorrido de Tagiura, anterior a la pista de Mellaha utilizada después. La ubicación importa porque el nombre Tripoli cubre épocas y circuitos diferentes. El automóvil encontró allí una oportunidad favorable para un motor que necesitaba velocidad y espacio.",
+        "La victoria fue también un doblete de Maserati, con Luigi Arcangeli en otro modelo. El acontecimiento quedó ensombrecido por la muerte de Gastone Brilli Peri en los entrenamientos. La historia de una primera victoria de marca no sucede aislada del resto de sus participantes. Las tablas permiten reconocer al ganador, pero la crónica devuelve el contexto humano que una celebración puede dejar fuera.",
+        "El programa incluyó además la intención de competir en Indianápolis. La gran potencia no evitó dificultades y el resultado estadounidense no reprodujo el éxito de Tripoli. Llevar una máquina a otra categoría imponía condiciones nuevas: reglamento, combustible, distancia y conocimiento del lugar. La adaptación era parte del proyecto, no un trámite posterior al diseño."
+      ],
+      "sourceIds": [
+        "tripoli",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Los neumáticos y los frenos tenían que alcanzar al motor",
+      "paragraphs": [
+        "La documentación oficial de Maserati admite que el V4 tuvo desgaste elevado de neumáticos y frenos insuficientes para su potencia y masa. Su peso seco rondaba 1.050 kilogramos. Los dieciséis cilindros daban al piloto una reserva de fuerza excepcional, pero trasladaban el problema hacia aquello que debía sostener, detener y cambiar de dirección al automóvil.",
+        "La historia posterior incluyó desarrollos y una variante de mayor cilindrada, la V5. El proyecto no se convirtió en una solución universal para el Grand Prix. Su valor está en documentar qué ocurría al aumentar potencia mediante la combinación de mecanismos existentes. Una victoria y un récord podían demostrar la capacidad del motor sin cerrar la pregunta sobre la máquina completa.",
+        "Cremona conserva el momento más medible de esa ambición. Dos pasadas sobre una carretera produjeron un número que quedó asociado a Borzacchini y a Maserati. El V4 reúne la audacia de un taller con la comprobación de un límite: el rendimiento de un automóvil avanza solo hasta donde sus componentes logran trabajar juntos."
+      ],
+      "sourceIds": [
+        "maserati",
+        "modelo",
+        "tripoli"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "maserati",
+      "title": "Maserati: el récord de Cremona y la construcción del V4",
+      "url": "https://www.media.stellantis.com/em-en/maserati/press/maserati-tipo-v4-and-mario-umberto-baconin-borzacchinis-cremona-record"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Maserati Tipo V4",
+      "url": "https://en.wikipedia.org/wiki/Maserati_Tipo_V4"
+    },
+    {
+      "id": "tributo",
+      "title": "Maserati: F Tributo y el récord de clase de Borzacchini",
+      "url": "https://www.maserati.com/ro/ro/dealers/autoitalia/models/f-tributo"
+    },
+    {
+      "id": "tripoli",
+      "title": "Hans Etzrodt, The Golden Era: Tripoli 1930 y Maserati V4",
+      "url": "https://www.goldenera.fi/gp3001.htm"
+    }
+  ],
+  "related": [
+    {
+      "label": "Alfa Romeo Tipo A",
+      "href": "/articulos/alfa-romeo-tipo-a"
+    },
+    {
+      "label": "Grandes Épreuves",
+      "href": "/articulos/grandes-epreuves"
+    }
+  ]
+}

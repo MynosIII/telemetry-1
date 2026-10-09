@@ -1,0 +1,108 @@
+{
+  "slug": "duryea-motor-wagon",
+  "title": "Duryea Motor Wagon: una victoria entre la nieve de Chicago",
+  "description": "Frank Duryea ganó en el frío de Chicago con un coche distinto del prototipo que hoy conserva el Smithsonian. La victoria hizo visible el trabajo de dos hermanos.",
+  "category": "Autos de leyenda",
+  "year": 1895,
+  "period": "1893–1896",
+  "tags": [
+    "Duryea",
+    "Motor Wagon",
+    "Frank Duryea",
+    "Charles Duryea",
+    "1895"
+  ],
+  "lead": "El 28 de noviembre de 1895, Frank Duryea tomó la salida en Chicago con un automóvil fabricado junto a su hermano Charles. Era Acción de Gracias y el frío complicó la prueba organizada por el Times-Herald. Más de diez horas después, la máquina volvió como vencedora. Aquella jornada hizo pública una experiencia que había comenzado en un taller de Springfield.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El coche de Chicago tenía un antecesor",
+      "paragraphs": [
+        "Frank había probado un vehículo de gasolina sobre las calles de Springfield, Massachusetts, en septiembre de 1893. La pieza conservada en el Smithsonian fue construida a partir de un carruaje usado y representa ese primer período de trabajo. Los hermanos reunieron conocimientos mecánicos y experiencia con bicicletas en un proyecto que, antes de venderse, debía conseguir desplazarse por sus propios medios.",
+        "El automóvil de Chicago era una máquina posterior, con dos cilindros y neumáticos. La documentación histórica del Smithsonian distingue expresamente ambos vehículos. Ese detalle permite evitar una confusión frecuente: el objeto de museo no es el coche exacto que ganó en 1895. La conservación del prototipo y la desaparición del vencedor dejaron dos historias materiales muy diferentes para los investigadores."
+      ],
+      "sourceIds": [
+        "smithsonian",
+        "boletin"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El diario necesitaba participantes; los inventores, un escaparate",
+      "paragraphs": [
+        "El editor del Times-Herald, H. H. Kohlsaat, promovió una carrera inspirado por las competencias francesas. Su convocatoria recibió propuestas de inventores y fabricantes, pero reunir automóviles operativos resultó más difícil que anunciar el evento. El relato que Frank publicó años después recuerda aplazamientos y pruebas previas. La organización descubría al mismo tiempo que los participantes qué podía exigirse de aquellas máquinas.",
+        "Finalmente salieron seis vehículos. Tres eran Benz importados, dos utilizaban electricidad y el Duryea era el representante estadounidense de gasolina. No se enfrentaban todavía escuderías con temporadas completas, sino soluciones diferentes para un problema industrial compartido. La carretera, el frío y las pendientes proporcionaban una comparación que la descripción de un catálogo no podía resolver por sí sola."
+      ],
+      "sourceIds": [
+        "relato",
+        "magazine",
+        "nascar"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Llegar requería algo más que acelerar",
+      "paragraphs": [
+        "La ruta fue de Chicago a Evanston y regreso. El frío, la nieve y el estado de los caminos afectaron el funcionamiento y la tracción. Frank condujo acompañado por el árbitro Arthur W. White. La presencia de un observador dentro del vehículo muestra cómo se buscaba certificar una experiencia que no disponía de las instalaciones ni del cronometraje de un circuito moderno.",
+        "Las dificultades descritas por Frank incluyeron reparaciones y demoras; su victoria tardó diez horas y veintitrés minutos. Solo dos vehículos completaron el recorrido. La distancia suele expresarse como unas 52 millas, con variaciones entre reconstrucciones. La magnitud esencial es una jornada de trabajo para recorrer un trayecto que hoy resulta breve: mantener la máquina en movimiento era el acontecimiento deportivo.",
+        "La velocidad media baja no reduce el significado del resultado. El Duryea probó que podía recorrer una ruta en condiciones adversas y terminar antes que sus rivales. Esa demostración dio a los constructores un argumento visible para atraer atención y financiación. El público podía reconocer una finalidad concreta detrás de una mecánica todavía extraña."
+      ],
+      "sourceIds": [
+        "relato",
+        "magazine"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Trece unidades y dos hermanos con memorias distintas",
+      "paragraphs": [
+        "Durante 1896 se construyeron trece automóviles. El Smithsonian los presenta como un primer esfuerzo estadounidense por fabricar y vender una serie de coches de gasolina. El número revela la escala artesanal de la empresa: repetir trece veces una construcción ya era un paso significativo hacia un producto. El modelo de producción conservado se encuentra en The Henry Ford; el prototipo temprano está en Washington.",
+        "La investigación museística utilizó, entre otras fuentes, entrevistas con Frank realizadas en 1956 y 1957. La atribución del trabajo entre los hermanos fue discutida en sus recuerdos. La historia puede narrar esas diferencias sin resolverlas mediante un héroe único. Frank ganó la carrera; Charles participó en el proyecto; la documentación permite seguir tanto la cooperación como las disputas posteriores.",
+        "El coche vencedor de Chicago desapareció, según el boletín histórico del Smithsonian, por un malentendido de un trabajador años más tarde. La anécdota cambia el final de la victoria: lo que subsiste es una red de testimonios, fotografías y otros vehículos. La pieza perdida sigue siendo importante porque obligó a convertir una idea de taller en una máquina capaz de terminar una competencia pública."
+      ],
+      "sourceIds": [
+        "archivo",
+        "boletin",
+        "smithsonian"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "smithsonian",
+      "title": "Smithsonian: Duryea Motor Carriage de 1893",
+      "url": "https://americanhistory.si.edu/ko/collections/object/nmah_694756?form=FUNPYRYGFFP"
+    },
+    {
+      "id": "boletin",
+      "title": "Smithsonian Bulletin 213: los vehículos Duryea y el coche perdido de Chicago",
+      "url": "https://repository.si.edu/bitstreams/59d1e882-7ca3-4da8-8b57-c9a4b1209f2a/download"
+    },
+    {
+      "id": "archivo",
+      "title": "Don H. Berkebile, Smithsonian: The 1893 Duryea Automobile",
+      "url": "https://repository.si.edu/bitstreams/4bde2164-8f38-4c54-9b13-0dce7cc12fa5/download"
+    },
+    {
+      "id": "relato",
+      "title": "Frank Duryea: relato de la carrera de 1895 (reproducción)",
+      "url": "https://www.eyewitnesstohistory.com/duryea.htm"
+    },
+    {
+      "id": "magazine",
+      "title": "Smithsonian Magazine: el vehículo que ganó en Chicago",
+      "url": "https://www.smithsonianmag.com/smart-news/model-t-came-duryea-wagon-180961218/"
+    },
+    {
+      "id": "nascar",
+      "title": "NASCAR: la carrera de Chicago de 1895",
+      "url": "https://www.nascar.com/news-media/2023/06/29/before-the-chicago-street-race-there-was-the-race-that-started-it-all/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Benz Patent-Motorwagen",
+      "href": "/articulos/benz-patent-motorwagen"
+    }
+  ]
+}

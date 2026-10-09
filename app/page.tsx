@@ -174,7 +174,7 @@ export default async function Home() {
         <p className="eyebrow eyebrow-red">LA BIBLIOTECA DE TELEMETRY ONE</p>
         <h2 id="home-articles-title">Las ideas detrás de la velocidad</h2>
         <p>De las primeras carreras al efecto suelo y los límites del reglamento: historias para entender cómo cambió el automovilismo.</p>
-        <div className="editorial-card-grid">{editorialArticles.filter(article => /epreuves|efecto|brawn/.test(article.slug)).slice(0,3).map(article => <Link className="editorial-card" href={`/articulos/${article.slug}`} key={article.slug}><p className="editorial-category">{article.category}</p><h3>{article.title}</h3><p>{article.description}</p><b>Leer artículo →</b></Link>)}</div>
+        <div className="editorial-card-grid">{["san-martin-villa-martelli", "mclaren-mp4-1", "niza-semana-velocidad"].flatMap(slug => editorialArticles.filter(article => article.slug === slug)).map(article => <Link className="editorial-card" href={`/articulos/${article.slug}`} key={article.slug}><p className="editorial-category">{article.category} · {article.period}</p><h3>{article.title}</h3><p>{article.description}</p><b>Leer historia →</b></Link>)}</div>
         <p><Link className="editorial-text-link" href="/articulos">Ver todos los artículos →</Link></p>
       </section>
 

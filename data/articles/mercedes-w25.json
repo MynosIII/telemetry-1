@@ -1,0 +1,107 @@
+{
+  "slug": "mercedes-w25",
+  "title": "Mercedes-Benz W25: la Flecha de Plata detrás de la leyenda",
+  "description": "El debut de 1934, el campeonato de Caracciola y la pintura que Neubauer convirtió en leyenda: tres temporadas que explican el primer Mercedes de las Flechas de Plata.",
+  "category": "Autos de leyenda",
+  "year": 1934,
+  "period": "1934–1936",
+  "tags": [
+    "Mercedes-Benz",
+    "W25",
+    "Flechas de Plata",
+    "Caracciola",
+    "1934"
+  ],
+  "lead": "El 3 de junio de 1934, Manfred von Brauchitsch ganó el Eifelrennen en Nürburgring con el nuevo Mercedes-Benz W25. Décadas después, Alfred Neubauer contó que el equipo había lijado la pintura blanca para perder un kilogramo. El propio museo Mercedes-Benz advierte hoy que esa explicación no coincide con las reglas de aquella carrera. La historia real del coche resulta más interesante que el peso de una capa de pintura.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "La fórmula quería limitar mediante el peso",
+      "paragraphs": [
+        "La AIACR anunció un máximo de setecientos cincuenta kilogramos para su nueva fórmula de Grand Prix, medido sin algunos líquidos y componentes. La intención era contener el tamaño y la potencia de los automóviles. Mercedes-Benz desarrolló el W25 con motor delantero de ocho cilindros en línea y compresor. La nueva actividad se organizó después de un período de crisis económica y reducción del programa de carreras.",
+        "La idea regulatoria suponía que un coche ligero no podría recibir un motor excesivamente grande. El desarrollo de materiales y construcción permitió a las fábricas aumentar rápidamente la potencia dentro del límite. El W25 fue una respuesta que aprovechó esa relación entre norma y tecnología. Los agujeros de aligeramiento de sus mandos, soportes y estructura permanecen visibles en el ejemplar del museo."
+      ],
+      "sourceIds": [
+        "formula",
+        "museo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Nürburgring dio una victoria y una anécdota posterior",
+      "paragraphs": [
+        "El estreno deportivo exitoso ocurrió en el Eifelrennen, que no utilizaba la fórmula de peso como condición obligatoria. La institución explica por ello que el episodio de lijar pintura, narrado por Neubauer en su autobiografía, no puede aceptarse como el motivo necesario para tomar la salida. Además, había automóviles de metal descubierto anteriores a 1934.",
+        "El W25 sí ayudó a consolidar la imagen de las Flechas de Plata. La diferencia entre un hecho comprobado y una explicación legendaria no elimina la importancia del color. Permite seguir cómo el coche y el jefe de equipo construyeron una memoria pública después de la carrera. La historia de una tecnología incluye también la forma en que sus protagonistas decidieron recordarla."
+      ],
+      "sourceIds": [
+        "museo",
+        "audi"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Caracciola convirtió el desarrollo en campeonato",
+      "paragraphs": [
+        "El automóvil inicial llevaba un motor de unos 3,4 litros, y durante su vida deportiva aumentaron cilindrada y potencia. El equipo desarrolló distintas versiones a través de 1934, 1935 y 1936. Esas modificaciones hacen que una sola ficha no represente cada coche que llevó el nombre W25. La evolución del propulsor y del chasis acompañó a una competencia que también mejoraba.",
+        "Rudolf Caracciola ganó el Campeonato de Europa de 1935 con Mercedes-Benz. Luigi Fagioli, Hermann Lang y Von Brauchitsch formaron parte del programa en diferentes papeles y momentos. La carrera de un automóvil se apoyaba en pilotos, mecánicos, organización y ensayos, además de la potencia anunciada. El campeonato otorgaba un marco a resultados de varias pruebas, mientras otras competencias conservaban valor por sí mismas.",
+        "El deporte transcurría bajo el régimen nazi y la actividad industrial se utilizaba para proyectar prestigio político. La historia corporativa de Mercedes-Benz documenta esa época como parte de su pasado. La ingeniería del W25 debe ubicarse dentro de ese contexto, sin tratar las celebraciones oficiales como un escenario neutral."
+      ],
+      "sourceIds": [
+        "modelo",
+        "formula",
+        "nazi"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "1936 obligó a cambiar algo más que el motor",
+      "paragraphs": [
+        "La evolución de 1936 acortó la distancia entre ejes y elevó nuevamente la potencia, pero sus resultados no continuaron al nivel esperado. Mercedes-Benz solo obtuvo victorias importantes en Monaco y Túnez mientras Auto Union y Rosemeyer conseguían una campaña destacada. El fracaso relativo de una máquina desarrollada mostraba que ganar potencia no garantizaba conservar un coche equilibrado.",
+        "Rudolf Uhlenhaut asumió la dirección técnica del renovado departamento y probó personalmente los automóviles. El siguiente W125 reorganizó el chasis y la suspensión, además de utilizar un motor mayor. La transición nació de observar problemas del W25, no de un abandono arbitrario de una máquina ganadora.",
+        "El W25 tuvo tres temporadas para producir victorias, errores y conocimiento. La pintura lijada ofrece una historia breve y memorable; los cambios entre sus versiones explican mejor el trabajo del equipo. El primer Mercedes-Benz de esta familia de Flechas de Plata quedó definido tanto por el éxito de Caracciola como por las dificultades que hicieron necesario reemplazarlo."
+      ],
+      "sourceIds": [
+        "formula",
+        "modelo",
+        "museo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "formula",
+      "title": "Mercedes-Benz Classic: las Flechas de Plata de 1934–1939",
+      "url": "https://media.mercedes-benz.com/article/f9a48175-8964-490e-9909-9f35cbea8a6f"
+    },
+    {
+      "id": "museo",
+      "title": "Mercedes-Benz Museum: W25 y comprobación de la leyenda de la pintura",
+      "url": "https://media.mercedes-benz.com/article/0a4242b2-13c2-4e56-b052-38c77792e671"
+    },
+    {
+      "id": "audi",
+      "title": "Audi: primeras Flechas de Plata y reglamento de 1934",
+      "url": "https://www.audi.com/en/press-releases/how-the-silver-arrow-legend-was-born-1166"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Mercedes-Benz W25 y evoluciones",
+      "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_W25"
+    },
+    {
+      "id": "nazi",
+      "title": "Mercedes-Benz Group: la empresa en el período nazi",
+      "url": "https://group.mercedes-benz.com/company/tradition/company-history/1933-1945.html"
+    }
+  ],
+  "related": [
+    {
+      "label": "Mercedes-Benz W125",
+      "href": "/articulos/mercedes-w125"
+    },
+    {
+      "label": "Auto Union Type C",
+      "href": "/articulos/auto-union-type-c"
+    }
+  ]
+}

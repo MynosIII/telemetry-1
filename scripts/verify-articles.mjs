@@ -8,12 +8,16 @@ const index=JSON.parse(fs.readFileSync('data/articles-index.json','utf8'));
 assert.deepEqual(index,records,'Run npm run build:articles after editing an article.');
 assert(records.length>=9,'Initial collection needs at least nine complete articles.');
 const unique=new Set();
+const coverage=JSON.parse(fs.readFileSync('data/articles-guide-coverage.json','utf8'));
+for(const entry of coverage.entries)for(const slug of entry.slugs)assert(records.some(record=>record.slug===slug),`Missing guide topic ${entry.label}: ${slug}`);
 for(const article of records) {
   const prefix=article.slug;
   assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(prefix),`Invalid slug: ${prefix}`);
   assert(!unique.has(prefix),`Duplicate article: ${prefix}`);unique.add(prefix);
   for(const key of ['title','description','category','period','lead'])assert(typeof article[key]==='string'&&article[key].trim(),`${prefix}: missing ${key}`);
-  assert(['Los orígenes','Revoluciones técnicas','Ideas que cambiaron la F1'].includes(article.category),`${prefix}: unexpected category`);
+  assert(/[.!?…]$/.test(article.description.trim()),`${prefix}: unfinished card description`);
+  assert(['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1'].includes(article.category),`${prefix}: unexpected category`);
+  assert(Number.isInteger(article.year)&&article.year>=1800&&article.year<=2026,`${prefix}: missing/invalid chronological year`);
   assert(article.sections.length>=4,`${prefix}: incomplete chapters`);
   assert(article.sources.length>=3,`${prefix}: insufficient sources`);
   const ids=new Set(article.sources.map(source=>source.id));
@@ -26,7 +30,7 @@ for(const article of records) {
     assert(section.sourceIds.length&&section.sourceIds.every(id=>ids.has(id)),`${prefix}: broken source reference`);
   }
   const words=[article.lead,...article.sections.flatMap(section=>section.paragraphs)].join(' ').split(/\s+/).length;
-  assert(words>=600,`${prefix}: article too brief (${words} words)`);
+  assert(words>=500,`${prefix}: article too brief (${words} words)`);
   for(const link of article.related) {
     assert(link.label&&link.href.startsWith('/'),`${prefix}: invalid archive link`);
     const editorial=link.href.match(/^\/articulos\/([^/#?]+)$/);

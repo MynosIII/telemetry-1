@@ -1,0 +1,120 @@
+{
+  "slug": "alfa-romeo-p3",
+  "title": "Alfa Romeo P3: el viejo rival que ganó en Nürburgring",
+  "description": "Un puesto de conducción central y una transmisión poco habitual: el Tipo B convirtió el diseño de Jano en el escenario de algunas de las grandes carreras de Nuvolari.",
+  "category": "Autos de leyenda",
+  "year": 1932,
+  "period": "1932–1935",
+  "tags": [
+    "Alfa Romeo",
+    "P3",
+    "Tipo B",
+    "Nuvolari",
+    "Jano",
+    "1932",
+    "1935"
+  ],
+  "lead": "El 28 de julio de 1935, Tazio Nuvolari ganó el Grand Prix de Alemania con un Alfa Romeo Tipo B, conocido como P3. Frente a Mercedes-Benz y Auto Union, el automóvil de la Scuderia Ferrari parecía representar una generación que perdía terreno. Una parada complicada y un desenlace decidido por neumáticos hicieron de aquella victoria una de las más recordadas del período.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El monoplaza nació con otro propósito",
+      "paragraphs": [
+        "Vittorio Jano diseñó el Tipo B después del experimento bimotor Tipo A. El nuevo coche apareció en 1932 con un único ocho cilindros en línea, dos compresores y una plaza central. La disposición de transmisión dividía el movimiento hacia las ruedas traseras mediante ejes en V. El piloto podía sentarse entre ellos, en lugar de ocupar una posición elevada por encima de un árbol central convencional.",
+        "La ficha del museo describe la versión inicial de 2.654 centímetros cúbicos y unos 700 kilogramos. Su lógica combinaba potencia sobrealimentada y una organización más compacta de la máquina. El nombre P3 se convirtió en la denominación habitual, aunque Alfa Romeo utilizaba Tipo B. Ambos identifican la misma familia, con diferentes desarrollos a lo largo de su carrera."
+      ],
+      "sourceIds": [
+        "museo",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "De la fábrica a la Scuderia Ferrari",
+      "paragraphs": [
+        "Nuvolari ganó con el nuevo coche en Monza en 1932 y el Tipo B contribuyó al éxito de Alfa Romeo en el Campeonato de Europa. La marca pasó después por cambios financieros y de organización: en 1933 quedó integrada en el sector estatal italiano y la Scuderia Ferrari asumió un papel central en las carreras. La actividad de los coches y la identidad de la fábrica dejaron de coincidir de manera simple.",
+        "Las unidades se desarrollaron con aumentos de cilindrada y modificaciones de suspensión. El modelo que alcanzó Nürburgring en 1935 no llevaba exactamente la misma mecánica que el de su estreno. Comparar una cifra de potencia de 1932 con un rival de 1935 puede exagerar artificialmente el contraste. La desventaja frente a las máquinas alemanas existía, pero debe colocarse dentro de esa evolución."
+      ],
+      "sourceIds": [
+        "monza",
+        "historia",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La parada que convirtió la carrera en persecución",
+      "paragraphs": [
+        "La competencia alemana se disputó en condiciones difíciles sobre el Nordschleife. Nuvolari alcanzó el liderato antes de su parada de abastecimiento. El mecanismo de suministro de combustible falló y el equipo tuvo que utilizar recipientes manualmente. Las reconstrucciones coinciden en una demora superior a dos minutos y una reincorporación retrasada en la clasificación.",
+        "El Alfa Romeo continuó y recuperó posiciones. Manfred von Brauchitsch pasó a encabezar la carrera con su Mercedes-Benz. El duelo no exigió que ambos coches estuvieran juntos durante cada kilómetro: la amenaza se comunicaba mediante tiempos, distancia y carteles. El neumático que debía durar hasta el final era parte de la diferencia entre sostener una ventaja y terminar perdiéndola.",
+        "En la última vuelta, un neumático del Mercedes cedió y Nuvolari tomó la primera posición. La victoria no convierte al P3 en el coche generalmente más rápido de 1935. Explica algo más particular: una carrera podía premiar a un conjunto capaz de seguir funcionando, aprovechar las circunstancias y forzar a un rival a consumir sus recursos."
+      ],
+      "sourceIds": [
+        "carrera",
+        "goldenera",
+        "goodwood"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una historia que sobrevivió a la máquina dominante",
+      "paragraphs": [
+        "El resultado quedó integrado en la memoria de Alfa Romeo y de Nuvolari. El museo lo presenta entre sus victorias fundamentales y documentos del Centro de Documentación recuerdan la relación de Ferrari con el piloto durante aquellos años. El automóvil se convirtió en una pieza de identidad más allá de lo que una comparación mecánica podía predecir.",
+        "Su importancia técnica estaba también en el diseño de transmisión, el trabajo de Jano y el paso desde un programa de fábrica a un equipo que gestionaba coches de otra marca. La victoria de Nürburgring añadió un relato extraordinario a una máquina que ya había ganado campeonatos y carreras. Ninguno de esos capítulos requiere atribuir al coche poderes inexplicables.",
+        "El P3 permite contar la competición mediante una secuencia concreta de decisiones: reducir complejidad, colocar mejor al conductor, desarrollar un motor, transferir el programa y continuar después de una parada fallida. La última vuelta de 1935 conserva el momento en que esa historia encontró a un neumático que había llegado a su límite."
+      ],
+      "sourceIds": [
+        "goodwood",
+        "historia",
+        "museo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museo",
+      "title": "Museo Alfa Romeo: arquitectura del GP Tipo B",
+      "url": "https://www.museoalfaromeo.com/en-us/collezione/Pages/GP-Tipo-B.aspx"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Alfa Romeo P3/Tipo B y desarrollos",
+      "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_P3"
+    },
+    {
+      "id": "monza",
+      "title": "Museo Alfa Romeo: Monza y el debut del Tipo B",
+      "url": "https://www.museoalfaromeo.com/it-it/news/Pages/MonzaDays-2020.aspx"
+    },
+    {
+      "id": "historia",
+      "title": "Museo Alfa Romeo: organización de las carreras en los años treinta",
+      "url": "https://www.museoalfaromeo.com/it-it/storia/Pages/storia_sportiva.aspx"
+    },
+    {
+      "id": "carrera",
+      "title": "Wikipedia: Grand Prix de Alemania 1935",
+      "url": "https://en.wikipedia.org/wiki/1935_German_Grand_Prix"
+    },
+    {
+      "id": "goldenera",
+      "title": "The Golden Era: reconstrucción del Grand Prix de Alemania 1935",
+      "url": "https://www.goldenera.fi/gp3507.htm"
+    },
+    {
+      "id": "goodwood",
+      "title": "Goodwood: la influencia histórica del Tipo B",
+      "url": "https://static.goodwood.com/grr/race/historic/the-tipo-b-alfa-romeos-pre-war-f1-influencer/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Alfa Romeo Tipo A",
+      "href": "/articulos/alfa-romeo-tipo-a"
+    },
+    {
+      "label": "Grand Prix de Alemania",
+      "href": "/historia/grands-prix/germany"
+    }
+  ]
+}

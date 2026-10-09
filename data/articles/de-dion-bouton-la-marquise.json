@@ -1,0 +1,88 @@
+{
+  "slug": "de-dion-bouton-la-marquise",
+  "title": "La Marquise: vapor, artesanos y una carrera sin rivales",
+  "description": "Un aristócrata y dos artesanos construyeron una máquina de vapor. Su supervivencia conserva también las preguntas sobre una carrera en la que solo se presentó un vehículo.",
+  "category": "Autos de leyenda",
+  "year": 1884,
+  "period": "1884–1887",
+  "tags": [
+    "De Dion-Bouton",
+    "La Marquise",
+    "vapor",
+    "1887"
+  ],
+  "lead": "En Puteaux, en 1884, un vehículo de cuatro plazas reunió a un aristócrata que financiaba experimentos y a dos artesanos especialistas en máquinas de vapor. La Marquise salió de aquella asociación. Tres años después, Georges Bouton participó en una prueba de carretera que se recuerda como una carrera, aunque su automóvil fue el único en presentarse.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El taller detrás del nombre",
+      "paragraphs": [
+        "Albert de Dion conoció el trabajo de Georges Bouton y Charles-Armand Trépardoux a través de un modelo de máquina de vapor. El catálogo histórico de La Marquise describe el encuentro de 1881 como el comienzo de una asociación entre capital y habilidad de taller. De Dion aportó financiación; Bouton y Trépardoux, experiencia construyendo instrumentos y pequeños mecanismos. El desafío fue aumentar su escala sin perder las ventajas de una máquina compacta.",
+        "La caldera constituía el problema decisivo. Un sistema eficaz en un barco o una locomotora resultaba demasiado grande para un vehículo ligero. La Fondation Arts et Métiers recuerda que Trépardoux era especialista en vapor y que la empresa también recibió encargos navales. El automóvil no surgió en un vacío: aprovechó conocimientos desarrollados para mover otras cosas y los sometió a un límite nuevo de espacio y peso."
+      ],
+      "sourceIds": [
+        "catalogo",
+        "fundacion"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Una familia sentada sobre el agua",
+      "paragraphs": [
+        "La Marquise recibió su nombre en homenaje a la madre de De Dion. Sus cuatro ocupantes se sentaban en dos parejas de espaldas entre sí, disposición conocida como dos-à-dos. Debajo de los asientos estaba el depósito de agua; delante del conductor, la caldera. El combustible sólido, el agua y el vapor daban forma al vehículo tanto como los pasajeros. La autonomía dependía de mantener disponible ese suministro.",
+        "El catálogo de RM documenta dos pequeños motores de vapor y un sistema que automatizaba parte de la alimentación de agua cuando la presión era suficiente. El vehículo exigía preparación y atención antes de avanzar. Esa relación entre conductor y máquina resulta esencial para entender el período: arrancar no era una operación instantánea, y reducir el trabajo de manejo podía importar tanto como aumentar la velocidad."
+      ],
+      "sourceIds": [
+        "catalogo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La salida de 1887 y lo que permite afirmar",
+      "paragraphs": [
+        "En 1887, Bouton tomó parte en una prueba promovida en el entorno de París. La Marquise suele aparecer en los relatos sobre las primeras carreras porque fue el único automóvil que se presentó. Esa circunstancia describe mejor una demostración cronometrada que una competencia entre rivales. El prestigio posterior del episodio no debe ocultar lo extraordinario que ya era conseguir que un vehículo sin caballos completara una ruta.",
+        "Las fuentes discrepan sobre el itinerario y la identificación exacta del vehículo utilizado: el catálogo de La Marquise habla de ese quadriciclo, mientras la Fondation Arts et Métiers menciona un triciclo de vapor. Esa diferencia impide reconstruir una parrilla o una velocidad absoluta con seguridad. Lo documentado en común es la presencia de Bouton y la demostración pública de una tecnología que todavía buscaba una aplicación comercial."
+      ],
+      "sourceIds": [
+        "catalogo",
+        "fundacion",
+        "historia"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Del automóvil usado al objeto histórico",
+      "paragraphs": [
+        "La vida posterior de La Marquise también tiene su propia historia. Tras permanecer muchos años en la familia Doriol, llegó a manos del británico Tim Moore en 1987 incompleta y sin funcionar. La restauración utilizó un ejemplar conservado en Le Mans para reconstruir piezas. El catálogo de venta describe la fabricación de conexiones y tuberías y el trabajo necesario para recuperar la caldera. La conservación fue otro experimento práctico, a un siglo de distancia del original.",
+        "En 2011 se vendió por 4,62 millones de dólares. El precio mide el lugar adquirido por un objeto singular en el mercado histórico, no la importancia exclusiva de un inventor. La Marquise permite recordar a Bouton y Trépardoux junto con De Dion, y observar una etapa en que el vapor siguió siendo una opción real. Su historia termina en una máquina que todavía podía moverse, después de que el mundo hubiera elegido mayoritariamente otro combustible."
+      ],
+      "sourceIds": [
+        "catalogo",
+        "historia"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "catalogo",
+      "title": "RM Sotheby’s: catálogo e historial de La Marquise",
+      "url": "https://rmsothebys.com/auctions/hf11/lots/r153-1884-de-dionbouton-bouton-et-trepardoux-dosados-steam-runabout/"
+    },
+    {
+      "id": "fundacion",
+      "title": "Fondation Arts et Métiers: Charles-Armand Trépardoux y los primeros vehículos de vapor",
+      "url": "https://fondationartsetmetiers.org/patrimoine/les-portraits/"
+    },
+    {
+      "id": "historia",
+      "title": "History of Information: La Marquise y su historial",
+      "url": "https://www.historyofinformation.com/detail.php?entryid=3410"
+    }
+  ],
+  "related": [
+    {
+      "label": "París–Rouen 1894",
+      "href": "/articulos/paris-rouen-1894"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "renault-ak-1906",
+  "title": "Renault AK: un Grand Prix ganado también en las paradas",
+  "description": "Szisz ganó el Grand Prix de 1906 con un Renault enorme y una ventaja menos visible: el tiempo que podía ahorrar al cambiar sus neumáticos.",
+  "category": "Autos de leyenda",
+  "year": 1906,
+  "period": "1906",
+  "tags": [
+    "Renault",
+    "AK",
+    "AK 90CV",
+    "Szisz",
+    "Michelin",
+    "1906"
+  ],
+  "lead": "El 27 de junio de 1906, Ferenc Szisz completó la segunda jornada del Grand Prix del Automobile Club de France como ganador. El Renault número 3A había recorrido más de mil kilómetros de competición en la Sarthe. Su ventaja sobre Felice Nazzaro no nació solo de acelerar: en una prueba que castigaba los neumáticos, cambiar una cubierta era también una oportunidad para ganar tiempo.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "La Sarthe tenía una carrera nueva",
+      "paragraphs": [
+        "El Grand Prix de l’ACF apareció después de la última Copa Gordon Bennett. La organización ya no limitaba cada nación a tres automóviles y reunió a fabricantes en un circuito de carreteras cerradas de aproximadamente 103 kilómetros. La prueba se dividió en dos jornadas, con seis vueltas cada día. La extensión hacía de cada paso por los puntos de asistencia una operación importante.",
+        "Szisz había trabajado como mecánico y había acompañado a Louis Renault en competición antes de convertirse en piloto. El coche conocido como AK reunía un gran motor delantero de cuatro cilindros con una transmisión de tres velocidades. Su tamaño no se correspondía con una categoría moderna: la cilindrada rondaba trece litros, en una época anterior a los límites de motor que definirían los Grand Prix posteriores."
+      ],
+      "sourceIds": [
+        "renault",
+        "race",
+        "szisz"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Un aro desmontable cambiaba el trabajo",
+      "paragraphs": [
+        "La innovación decisiva de Michelin consistía en facilitar el cambio del aro que llevaba el neumático. El Renault utilizaba el sistema en las ruedas traseras. La descripción técnica de La Vie Automobile documentó una rueda de radios de madera, una banda fija y un aro desmontable asegurado mediante piezas y pernos. Cambiar el neumático dejaba de exigir desmontarlo por completo sobre el borde que permanecía en el coche.",
+        "Automobile Topics explicó la geometría y el manejo de las válvulas, un detalle pequeño que podía retrasar o acelerar la operación. Las piezas se preparaban para reducir el trabajo manual del piloto y su mecánico. En una carrera larga y calurosa, las cubiertas eran un recurso limitado. Ganar minutos cada vez que se reemplazaban modificaba la suma total de la jornada."
+      ],
+      "sourceIds": [
+        "tecnica",
+        "aros"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "El resultado necesitó más que una sola invención",
+      "paragraphs": [
+        "La crónica contemporánea de Automobile Topics registró doce horas, catorce minutos y siete segundos para Szisz y una ventaja final de poco más de media hora sobre Nazzaro. El Renault completó el último tramo con un problema de suspensión según ese relato. Las dos jornadas sometían a conductor y automóvil a una carga acumulada que no desaparecía con una parada rápida.",
+        "La Vie Automobile rechazó expresamente que los aros desmontables explicaran por sí solos la victoria. Otros automóviles también los utilizaron, incluidos rivales que no consiguieron un resultado equivalente. Su análisis añadió la regularidad del funcionamiento, el trabajo de abastecimiento y la conducción de Szisz. Es una advertencia técnica procedente de 1906: una mejora útil no transforma automáticamente en vencedor cualquier coche que la monte.",
+        "El contraste permite seguir una carrera más compleja que la leyenda de un neumático milagroso. Renault llevó una máquina capaz de mantener ritmo; Michelin redujo una tarea costosa; el equipo debía organizar recursos; Szisz tenía que seguir circulando cuando el desgaste se acumulaba. El resultado surgió de la combinación de esas capacidades."
+      ],
+      "sourceIds": [
+        "cronica",
+        "tecnica"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una victoria que dejó objetos y preguntas",
+      "paragraphs": [
+        "La repercusión del triunfo vinculó Renault con el nacimiento del Grand Prix. Los automóviles conservados o utilizados después en aniversarios no son necesariamente el ejemplar vencedor. Motor Sport identificó en 2006 a Agatha, un Renault de menor cilindrada encargado por William Vanderbilt, como un pariente operativo próximo, pero distinto. La historia de cada chasis importa tanto como la semejanza de su apariencia.",
+        "El AK permite observar un cambio duradero en la competición: la asistencia podía diseñarse con la misma intención que el motor. Los aros, las herramientas y la disposición de las paradas ya formaban parte del rendimiento. La escena de 1906 une tecnología de neumáticos y organización en un resultado medido por horas. Más tarde las diferencias se contarían en segundos, pero la necesidad de hacer que todo el trabajo encajara ya estaba presente."
+      ],
+      "sourceIds": [
+        "motor",
+        "renault",
+        "aros"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "renault",
+      "title": "Renault: 110 años de su victoria en el primer Grand Prix",
+      "url": "https://be.media.renaultgroup.com/il-y-a-110-ans-renault-gagne-le-premier-grand-prix-de-lhistoire/?lang=bel"
+    },
+    {
+      "id": "race",
+      "title": "Wikipedia: Grand Prix de Francia 1906",
+      "url": "https://en.wikipedia.org/wiki/1906_French_Grand_Prix"
+    },
+    {
+      "id": "szisz",
+      "title": "Wikipedia: Ferenc Szisz",
+      "url": "https://en.wikipedia.org/wiki/Ferenc_Szisz"
+    },
+    {
+      "id": "tecnica",
+      "title": "La Vie Automobile, 7 de julio de 1906: análisis del Renault vencedor (reproducción)",
+      "url": "https://motorracinghistory.com/la-voiture-de-course-renault-gagnante-du-grand-prix-translation-la-vie-automobile-7-july-1906/"
+    },
+    {
+      "id": "aros",
+      "title": "Automobile Topics, 28 de julio de 1906: efecto de los aros desmontables (reproducción)",
+      "url": "https://motorracinghistory.com/far-reaching-effects-of-the-grand-prix-automobile-topics-28-july-1906/"
+    },
+    {
+      "id": "cronica",
+      "title": "Automobile Topics, 30 de junio de 1906: resultado y carrera de Szisz (reproducción)",
+      "url": "https://motorracinghistory.com/the-flying-szisz-wins-grand-prix-automobile-topics-30-june-1906/"
+    },
+    {
+      "id": "motor",
+      "title": "Motor Sport: un Renault de la familia histórica y la visita al circuito de 1906",
+      "url": "https://www.motorsportmagazine.com/archive/article/july-2006/62/track-test-le-mans-1906/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Historia del Grand Prix de Francia",
+      "href": "/historia/grands-prix/france"
+    },
+    {
+      "label": "Gordon Bennett",
+      "href": "/articulos/copa-gordon-bennett"
+    }
+  ]
+}

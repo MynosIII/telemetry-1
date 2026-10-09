@@ -1,0 +1,125 @@
+{
+  "slug": "motores-v6-hibridos",
+  "title": "Los V6 híbridos: cuando el motor se convirtió en una red de energía",
+  "description": "Las reglas de 2014 conectaron combustión, turbo, recuperación y estrategia dentro de una unidad de potencia.",
+  "year": 2014,
+  "period": "2014–2025",
+  "tags": [
+    "V6 híbrido",
+    "MGU-K",
+    "MGU-H",
+    "Unidades de potencia"
+  ],
+  "lead": "Melbourne, 16 de marzo de 2014: Nico Rosberg ganó la primera carrera del nuevo reglamento de motores. Su Mercedes W05 llevaba un V6 turbo, pero esa descripción ya no alcanzaba para explicar qué impulsaba al coche. Había comenzado la era de la unidad de potencia.",
+  "sections": [
+    {
+      "id": "melbourne",
+      "title": "Una carrera con otra clase de recursos",
+      "paragraphs": [
+        "El campeonato dejó atrás el V8 atmosférico de 2,4 litros y adoptó un V6 turbo de 1,6 litros con inyección directa. La recuperación de energía pasó de ser un complemento a formar una parte mucho más profunda del rendimiento. La victoria de Rosberg abrió una temporada en la que Mercedes convirtió esa nueva fórmula en una ventaja considerable.",
+        "La expresión unidad de potencia agrupaba motor de combustión, turbocompresor, dos máquinas eléctricas, almacenamiento y electrónica de control. Esas partes no trabajaban como accesorios independientes. La forma en que intercambiaban energía podía influir en aceleración, consumo, respuesta y fiabilidad. Un problema eléctrico ya no significaba solamente perder una ayuda breve: podía comprometer una porción importante de las posibilidades del conjunto."
+      ],
+      "sourceIds": [
+        "carrera",
+        "guia",
+        "f1"
+      ]
+    },
+    {
+      "id": "energia",
+      "title": "Dos máquinas, dos caminos de recuperación",
+      "paragraphs": [
+        "El MGU-K estaba relacionado con la energía cinética y podía recuperar durante la frenada y aportar potencia al movimiento del coche. El MGU-H se vinculaba mecánicamente con el turbocompresor, permitiendo aprovechar energía de los gases de escape y controlar el comportamiento del turbo. Los nombres diferenciaban las funciones, pero la interacción entre ellas y la batería era parte central del sistema.",
+        "En las reglas de 2014, la potencia del MGU-K tenía un límite de 120 kilovatios. También existían límites de energía por vuelta para determinados intercambios con el almacenamiento. Confundir potencia con energía vuelve difícil entender la estrategia: una cifra indica cuánto puede entregarse en un instante; la otra, cuánto recurso puede utilizarse a lo largo de un período. El diseño tenía que optimizar ambas condiciones."
+      ],
+      "sourceIds": [
+        "fiafolleto",
+        "honda"
+      ]
+    },
+    {
+      "id": "combustible",
+      "title": "La eficiencia también podía ganar una recta",
+      "paragraphs": [
+        "El reglamento de 2014 introdujo una cantidad máxima de combustible para la carrera y un límite de flujo. El desarrollo debía producir rendimiento dentro de esas restricciones, en lugar de buscar potencia sin considerar la energía disponible. Recuperar, almacenar y decidir dónde entregar electricidad se volvió inseparable de la manera de utilizar la combustión.",
+        "Las necesidades de refrigeración y empaquetado también cambiaron. El chasis tenía que alojar componentes que generaban calor y ocupaban espacio, y el flujo exterior seguía siendo un recurso competitivo. La instalación de la unidad afectaba al coche que la rodeaba. Fabricantes y escuderías debían coordinar decisiones que antes podían parecer separadas: un beneficio en el motor podía abrir o cerrar posibilidades de aerodinámica y distribución de masa."
+      ],
+      "sourceIds": [
+        "f1",
+        "reglamento",
+        "modos"
+      ]
+    },
+    {
+      "id": "gestion",
+      "title": "El piloto recibía una máquina administrada por software",
+      "paragraphs": [
+        "La electrónica coordinaba el uso de la energía mediante modos de funcionamiento, mientras pilotos e ingenieros administraban las necesidades de cada vuelta y del campeonato. Mercedes explicó públicamente que sus modos atendían rendimiento, fiabilidad y kilometraje disponible. La respuesta que llegaba al acelerador era el resultado de una gestión más amplia que la apertura de combustible hacia un motor aislado.",
+        "La generación 2014–2025 llevó el turbo a un escenario distinto del iniciado por Renault en 1977. Compartían la sobrealimentación, pero el sistema híbrido agregaba caminos eléctricos de intercambio y control. Su interés histórico está en esa transformación del problema: ganar podía significar utilizar mejor una cantidad limitada de energía, no solamente producir la mayor cifra posible de potencia. El W05 de Melbourne inauguró una etapa donde el coche debía pensar su vuelta como un recorrido de recursos."
+      ],
+      "sourceIds": [
+        "modos",
+        "guia",
+        "transferencia",
+        "carrera"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "carrera",
+      "title": "Formula 1: carreras de 2014",
+      "url": "https://www.formula1.com/en/results/2014/races"
+    },
+    {
+      "id": "guia",
+      "title": "FIA: guía oficial de la unidad de potencia 2014",
+      "url": "https://www.fia.com/news/2014-f1-power-unit-guide"
+    },
+    {
+      "id": "fiafolleto",
+      "title": "FIA: diagrama y límites de energía de 2014",
+      "url": "https://www.fia.com/sites/default/files/news/files/FIA-leaflet-2014-A5-light.pdf"
+    },
+    {
+      "id": "f1",
+      "title": "Formula 1: explicación de los cambios técnicos de 2014",
+      "url": "https://www.formula1.com/en/latest/article/a-racing-revolution-understanding-2014s-technical-regulations.1bTbN3OAEksY00PVE62KvC"
+    },
+    {
+      "id": "honda",
+      "title": "Honda: flujo de energía en la unidad híbrida",
+      "url": "https://www.honda.co.jp/F1/spcontents2014/powerunit/06/"
+    },
+    {
+      "id": "reglamento",
+      "title": "FIA: reglamento técnico 2014",
+      "url": "https://www.fia.com/sites/default/files/regulation/file/1-2014%20TECHNICAL%20REGULATIONS%202014-01-23.pdf"
+    },
+    {
+      "id": "modos",
+      "title": "Mercedes: qué hacen los modos de motor",
+      "url": "https://www.mercedesamgf1.com/news/insight-what-are-engine-modes"
+    },
+    {
+      "id": "transferencia",
+      "title": "Mercedes: tecnología del MGU-H y respuesta del turbo",
+      "url": "https://www.mercedesamgf1.com/news/mercedes-amg-using-f1-know-how-in-new-road-car-technology"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 2014",
+      "href": "/historia/seasons/2014"
+    },
+    {
+      "label": "Renault y el turbo",
+      "href": "/articulos/renault-revolucion-turbo"
+    },
+    {
+      "label": "Mercedes W11",
+      "href": "/articulos/mercedes-w11"
+    }
+  ],
+  "category": "Ideas que cambiaron la F1"
+}

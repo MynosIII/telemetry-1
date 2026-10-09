@@ -1,10 +1,10 @@
 {
   "slug": "paris-rouen-1894",
-  "title": "París–Rouen 1894: antes de correr, había que convencer",
+  "title": "Llegó primero y no ganó: París–Rouen, 1894",
   "description": "Un concurso de vehículos sin caballos, un ganador que no llegó primero y el largo camino de las rutas públicas al Grand Prix.",
   "category": "Los orígenes",
   "period": "1894–1906",
-  "lead": "El 22 de julio de 1894, viajar de París a Rouen era una forma de responder una pregunta mucho más elemental que quién era el piloto más rápido: ¿podía el automóvil convertirse en una máquina práctica? La respuesta abrió un camino hacia el deporte, aunque aquel concurso todavía obedecía a una lógica muy distinta de la Fórmula 1.",
+  "lead": "Albert de Dion llegó primero a Rouen. El premio principal, sin embargo, fue para otros. Aquel 22 de julio de 1894 no se había convocado una carrera resuelta únicamente por el reloj: Le Petit Journal quería demostrar que una máquina sin caballos podía ser segura, manejable y útil. El desacuerdo entre la llegada y el premio contiene toda la historia del concurso.",
   "sections": [
     {
       "id": "un-concurso-para-el-publico",
@@ -12,9 +12,12 @@
       "paragraphs": [
         "Pierre Giffard impulsó la prueba desde Le Petit Journal. La iniciativa combinaba periodismo, demostración industrial y curiosidad popular. Sus protagonistas no debían limitarse a viajar deprisa: el jurado buscaba vehículos seguros, manejables y relativamente económicos. Para un lector acostumbrado a coches de caballos, la cuestión central era entender si aquellas máquinas podían resultar útiles y accesibles.",
         "En sus recuerdos publicados en 1907, Giffard describió además una preocupación política: una carrera descontrolada podía provocar accidentes y comprometer la aceptación del automóvil. El formato de concurso permitía presentar la experiencia como una demostración pública. Ese testimonio ayuda a entender la intención del organizador, aunque fue escrito trece años después y sus cifras no siempre coinciden con las reconstrucciones posteriores.",
-        "La importancia de París–Rouen está en esa exposición colectiva. Más que adjudicar una patente universal de primera carrera, permite observar cómo una novedad mecánica empezó a tener público, reglas y resultados discutidos. Esos elementos terminarían formando parte del automovilismo organizado."
+        "Giffard había encontrado una manera de poner la novedad frente a sus posibles usuarios. Había público, máquinas distintas y un jurado que debía explicar su decisión. El automóvil empezaba a salir del taller y de la demostración particular. En la carretera podía mostrar sus virtudes, pero también aquello que todavía lo separaba de un medio de transporte cotidiano."
       ],
-      "sourceIds": ["giffard", "museo"]
+      "sourceIds": [
+        "giffard",
+        "museo"
+      ]
     },
     {
       "id": "una-industria-en-movimiento",
@@ -22,9 +25,12 @@
       "paragraphs": [
         "Las reconstrucciones de Mercedes-Benz contabilizan 102 inscripciones y 21 vehículos admitidos a la prueba final después de las eliminatorias. La ruta del domingo cubrió aproximadamente 126 kilómetros. Son cantidades diferentes: inscribirse no equivalía a tomar la salida. Confundirlas transforma una selección de máquinas muy diversas en una carrera multitudinaria que nunca existió.",
         "En aquella carretera convivieron vehículos de vapor y de combustión interna. Panhard & Levassor y Peugeot utilizaron motores fabricados bajo licencia Daimler; también hubo un Roger-Benz entre quienes llegaron. La escena muestra una industria que avanzaba mediante talleres, acuerdos comerciales y circulación de conocimientos. La identidad del fabricante del vehículo y la del creador de su motor ya podían ser distintas.",
-        "No había todavía una solución única aceptada por todos. Las posibilidades de cada sistema se comparaban en marcha, con sus dificultades de operación a la vista del público. Llegar a Rouen era parte de la demostración, pero también lo era explicar cuánto trabajo exigía conducir y mantener cada máquina."
+        "La ruta permitía comparar las posibilidades de cada sistema sin esconder las dificultades de operación. La fuerza de una máquina de vapor y la relativa facilidad de otra de combustión no se traducían en la misma experiencia de uso. Llegar a Rouen era necesario; convencer al jurado de que el vehículo merecía ser utilizado fuera del concurso era otra parte del trabajo."
       ],
-      "sourceIds": ["mercedes1894", "benz"]
+      "sourceIds": [
+        "mercedes1894",
+        "benz"
+      ]
     },
     {
       "id": "llegar-primero-no-era-ganar",
@@ -32,9 +38,13 @@
       "paragraphs": [
         "El vehículo de vapor de Albert de Dion fue el primero en alcanzar Rouen. Sin embargo, el premio principal se compartió entre Panhard & Levassor y Les fils de Peugeot frères. No se trató de borrar al vencedor de una clasificación deportiva moderna: el jurado estaba resolviendo un concurso cuyo criterio incluía la facilidad de uso. De Dion recibió el segundo premio.",
         "Giffard recordó una deliberación en la que se compararon soluciones de dirección y construcción, además de reconocer la relación industrial entre las dos marcas premiadas. Las fuentes museísticas resumen el resultado mediante los criterios de seguridad, comodidad y economía. La velocidad importaba, pero no era la única variable que definía el éxito.",
-        "Por eso conviene separar orden de llegada y adjudicación del premio. La distinción no es un detalle de nomenclatura: explica qué estaba evaluando aquella sociedad. El automóvil debía demostrar su utilidad antes de convertirse en una máquina especializada para ganar carreras."
+        "La llegada había dado un nombre; el jurado dio otros. La distancia entre esos dos resultados quedó como un rasgo inolvidable del encuentro. Para los organizadores, un automóvil todavía tenía que demostrar que podía ser utilizado por alguien que no fuera su propio constructor. La velocidad estaba presente, pero compartía la mesa de deliberación con exigencias mucho menos espectaculares."
       ],
-      "sourceIds": ["giffard", "museo", "pariswiki"]
+      "sourceIds": [
+        "giffard",
+        "museo",
+        "pariswiki"
+      ]
     },
     {
       "id": "el-problema-de-la-carretera",
@@ -44,30 +54,76 @@
         "París–Madrid 1903 marcó una ruptura especialmente dura. Marcel Renault y otros participantes murieron, y las autoridades detuvieron la carrera en Burdeos. El relato histórico del Automobile Club de l'Ouest sitúa aquella tragedia entre los antecedentes que llevaron a buscar pruebas sobre carreteras cerradas. No basta con describirlo como una evolución técnica: fue también una reconsideración de cómo organizar el espectáculo.",
         "En 1906, el Grand Prix del Automobile Club de France utilizó un circuito vial de unos 103 kilómetros en la Sarthe. Ferenc Szisz ganó para Renault. Aquel recorrido todavía era enorme para los estándares actuales, pero la idea de repetir vueltas en un itinerario controlado permitía concentrar organización, cronometraje y asistencia."
       ],
-      "sourceIds": ["aco1906", "acoorigen"]
+      "sourceIds": [
+        "aco1906",
+        "acoorigen"
+      ]
     },
     {
       "id": "una-historia-sin-atajos",
-      "title": "Leer los orígenes sin convertirlos en Fórmula 1",
+      "title": "La carrera que todavía estaba por inventarse",
       "paragraphs": [
         "París–Rouen pertenece a la historia que hizo posible el automovilismo, no al palmarés del Mundial. Llamar Fórmula 1 a todas sus experiencias precursoras elimina diferencias esenciales entre concurso, carrera de carretera y Grand Prix. La conexión más interesante está en las preguntas que fueron apareciendo: qué vehículo admitía la organización, cómo se medía el resultado y a quién se premiaba.",
         "La historia posterior del Grand Prix de Francia permite seguir ese cambio de escala. Sus sedes y reglamentos muestran cómo el deporte fue construyendo un espacio propio. El salto desde una demostración de utilidad hasta una competencia internacional no ocurrió de una vez; necesitó normas, asociaciones, carreteras controladas y fabricantes dispuestos a transformar el prestigio de una llegada en reputación industrial."
       ],
-      "sourceIds": ["giffard", "aco1906", "acoorigen"]
+      "sourceIds": [
+        "giffard",
+        "aco1906",
+        "acoorigen"
+      ]
     }
   ],
   "sources": [
-    {"id":"giffard","title":"Pierre Giffard: La Première Course, La Vie au Grand Air, 29 de junio de 1907 (reproducción histórica)","url":"https://motorracinghistory.com/la-premiere-course-paris-rouen-1894-la-vie-au-grand-air-29-june-1907/"},
-    {"id":"museo","title":"Musée de la Station-Service et de la Pompe: París–Rouen 1894","url":"https://www.musee-pompe.fr/blog/1894/07/22/premiere-course-automobile-paris-rouen-1894/"},
-    {"id":"mercedes1894","title":"Mercedes-Benz Classic: 120 años de competición y París–Rouen","url":"https://media.mercedes-benz.fr/retromobile-2014--mercedes-benz-celebre--120-ans-de-competition-automobile-/"},
-    {"id":"benz","title":"Mercedes-Benz: Benz & Cie. y el automovilismo","url":"https://media.mercedes-benz.com/article/8267e59d-04ad-4536-8ee1-ab6b681940b5"},
-    {"id":"pariswiki","title":"Wikipedia: Paris–Rouen (motor race)","url":"https://en.wikipedia.org/wiki/Paris%E2%80%93Rouen_(motor_race)"},
-    {"id":"aco1906","title":"ACO: de 1906 a 1923, el origen organizativo de Le Mans","url":"https://www.24h-lemans.com/en/news/1906-1923-the-aco-the-driving-force-that-gave-us-the-24-hours-of-le-mans-56715"},
-    {"id":"acoorigen","title":"ACO: Aux origines de la légende","url":"https://www.24h-lemans.com/fr/actualites/24-heures-du-mans-aux-origines-de-la-legende-51838"}
+    {
+      "id": "giffard",
+      "title": "Pierre Giffard: La Première Course, La Vie au Grand Air, 29 de junio de 1907 (reproducción histórica)",
+      "url": "https://motorracinghistory.com/la-premiere-course-paris-rouen-1894-la-vie-au-grand-air-29-june-1907/"
+    },
+    {
+      "id": "museo",
+      "title": "Musée de la Station-Service et de la Pompe: París–Rouen 1894",
+      "url": "https://www.musee-pompe.fr/blog/1894/07/22/premiere-course-automobile-paris-rouen-1894/"
+    },
+    {
+      "id": "mercedes1894",
+      "title": "Mercedes-Benz Classic: 120 años de competición y París–Rouen",
+      "url": "https://media.mercedes-benz.fr/retromobile-2014--mercedes-benz-celebre--120-ans-de-competition-automobile-/"
+    },
+    {
+      "id": "benz",
+      "title": "Mercedes-Benz: Benz & Cie. y el automovilismo",
+      "url": "https://media.mercedes-benz.com/article/8267e59d-04ad-4536-8ee1-ab6b681940b5"
+    },
+    {
+      "id": "pariswiki",
+      "title": "Wikipedia: Paris–Rouen (motor race)",
+      "url": "https://en.wikipedia.org/wiki/Paris%E2%80%93Rouen_(motor_race)"
+    },
+    {
+      "id": "aco1906",
+      "title": "ACO: de 1906 a 1923, el origen organizativo de Le Mans",
+      "url": "https://www.24h-lemans.com/en/news/1906-1923-the-aco-the-driving-force-that-gave-us-the-24-hours-of-le-mans-56715"
+    },
+    {
+      "id": "acoorigen",
+      "title": "ACO: Aux origines de la légende",
+      "url": "https://www.24h-lemans.com/fr/actualites/24-heures-du-mans-aux-origines-de-la-legende-51838"
+    }
   ],
   "related": [
-    {"label":"Historia del Grand Prix de Francia","href":"/historia/grands-prix/france"},
-    {"label":"Gordon Bennett y los colores nacionales","href":"/articulos/copa-gordon-bennett"},
-    {"label":"Grandes Épreuves: el orden antes del Mundial","href":"/articulos/grandes-epreuves"}
-  ]
+    {
+      "label": "Historia del Grand Prix de Francia",
+      "href": "/historia/grands-prix/france"
+    },
+    {
+      "label": "Gordon Bennett y los colores nacionales",
+      "href": "/articulos/copa-gordon-bennett"
+    },
+    {
+      "label": "Grandes Épreuves: el orden antes del Mundial",
+      "href": "/articulos/grandes-epreuves"
+    }
+  ],
+  "year": 1894,
+  "tags": []
 }

@@ -1,0 +1,97 @@
+{
+  "slug": "mercedes-35-ps",
+  "title": "Mercedes 35 PS: la semana en que el automóvil bajó al suelo",
+  "description": "Niza fue el escaparate de un automóvil más bajo y distinto. Las exigencias de Jellinek y el trabajo de Maybach encontraron allí una demostración pública.",
+  "category": "Autos de leyenda",
+  "year": 1901,
+  "period": "1900–1901",
+  "tags": [
+    "Mercedes",
+    "35 PS",
+    "35 hp",
+    "Maybach",
+    "Jellinek",
+    "1901"
+  ],
+  "lead": "Entre el 25 y el 29 de marzo de 1901, la Semana de Niza recibió un automóvil que ya se alejaba de la silueta de un carruaje. El Mercedes 35 PS había llegado a Emil Jellinek pocos meses antes. Su éxito reunió la ambición de un comprador, el trabajo de Wilhelm Maybach y una manera diferente de pensar dónde debía estar cada parte de la máquina.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Un pedido que exigía cambiar el conjunto",
+      "paragraphs": [
+        "Jellinek vendía automóviles y participaba en el ambiente de las carreras de la Riviera. Para Daimler-Motoren-Gesellschaft era un cliente importante y un interlocutor dispuesto a reclamar mejoras. El nuevo proyecto salió del trabajo de Maybach y Paul Daimler, con una premisa visible en las fotografías: aumentar la estabilidad mediante una vía ancha, una distancia entre ejes mayor y un centro de gravedad bajo.",
+        "Gottlieb Daimler murió en marzo de 1900, antes de que el coche completara su desarrollo. El primer ejemplar se entregó a Jellinek el 22 de diciembre de ese año. La precisión cronológica permite ver una empresa que seguía produciendo después de la muerte de su fundador. El automóvil utilizó el nombre Mercedes, el de la hija de Jellinek, y convirtió una denominación personal en una identidad industrial."
+      ],
+      "sourceIds": [
+        "brasil",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "La estabilidad también era rendimiento",
+      "paragraphs": [
+        "El 35 PS tenía un chasis de acero diseñado para su función, un motor delantero de cuatro cilindros y una carrocería asentada más cerca del suelo. Su aspecto respondía a problemas de comportamiento. Al reducir la altura y ampliar la base de apoyo, el vehículo podía abordar los cambios de dirección con mayor estabilidad que las altas máquinas que lo precedían. No hacía falta convertir todo el chasis en aluminio para lograrlo.",
+        "La potencia anunciada daba nombre al modelo, pero la importancia del proyecto está en la relación entre sus partes. Un motor más potente exige refrigeración, transmisión y estabilidad compatibles. El 35 PS hizo de esa compatibilidad el centro del diseño. Las carreras de una semana ofrecían diferentes ocasiones para comprobarla, desde recorridos largos hasta una subida de montaña."
+      ],
+      "sourceIds": [
+        "modelo",
+        "innovaciones"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "El pequeño detalle del radiador",
+      "paragraphs": [
+        "Maybach había solicitado en septiembre de 1900 una patente para su radiador de panal. Sus numerosos conductos mejoraban el intercambio de calor entre el agua y el aire. El sistema permitió afrontar una necesidad que crecía con la potencia del motor: expulsar calor sin depender de un depósito desproporcionado. La parrilla frontal empezó a representar una pieza funcional decisiva, además de convertirse en un rasgo visual.",
+        "La documentación de Mercedes-Benz relaciona esa solución con el rendimiento en Niza. Las victorias incluyeron Nice–Salon–Nice y la subida Nice–La Turbie. Wilhelm Werner figuró entre los pilotos que demostraron las posibilidades de la máquina. El éxito no puede explicarse mediante una sola pieza, pero el radiador muestra cómo una innovación aparentemente discreta ayudó a mantener utilizable todo el conjunto."
+      ],
+      "sourceIds": [
+        "innovaciones",
+        "nice",
+        "brasil"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una marca surgida de una prueba pública",
+      "paragraphs": [
+        "La repercusión de la semana llevó el nombre Mercedes más allá de los coches de Jellinek. DMG lo registró como marca en 1902 y la familia Mercedes-Simplex prolongó el desarrollo. La experiencia deportiva tenía una consecuencia comercial inmediata: el vehículo que había impresionado en una carretera se convertía en una referencia para clientes que buscaban otras carrocerías y usos.",
+        "El 35 PS pertenece a una etapa anterior al Grand Prix de l’ACF de 1906 y al nombre Mercedes-Benz de 1926. Su historia puede seguirse sin adelantar esas fechas: un encargo se transformó en proyecto, el proyecto viajó a Niza y una semana de resultados dio fuerza a una identidad. En ese recorrido, el automóvil dejó de adaptar la forma del carruaje y empezó a organizarse alrededor de sus propias exigencias."
+      ],
+      "sourceIds": [
+        "brasil",
+        "nice",
+        "modelo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "brasil",
+      "title": "Mercedes-Benz Brasil: 125 años del Mercedes 35 hp",
+      "url": "https://imprensa.mercedes-benz.com.br/releases/mercedes-benz-celebra-125-anos-do-lancamento-do-primeiro-automovel-moderno"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Mercedes 35 hp, arquitectura y cronología",
+      "url": "https://en.wikipedia.org/wiki/Mercedes_35_hp"
+    },
+    {
+      "id": "innovaciones",
+      "title": "Mercedes-Benz: radiador de panal y arquitectura del 35 hp",
+      "url": "https://www.mercedes-benz.com.mx/es/passengercars/brand/noticias/innovaciones-sobresalientes.html"
+    },
+    {
+      "id": "nice",
+      "title": "Mercedes-Benz Classic: Nice Week 1901",
+      "url": "https://mb-france.mercedes-benz-clubs.com/wp-content/uploads/sites/21/2021/03/2021-Nice-1901txt.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Daimler y Maybach",
+      "href": "/articulos/daimler-maybach-motorwagen"
+    }
+  ]
+}

@@ -4,21 +4,123 @@
   "description": "Del RS01 de 1977 al triunfo de Dijon: cómo una tecnología permitida, pero poco explorada, transformó las prioridades de toda la parrilla.",
   "category": "Ideas que cambiaron la F1",
   "period": "1977–1989",
-  "lead": "Cuando Renault llegó a Silverstone en 1977, su pequeño V6 no parecía la respuesta evidente a los motores de tres litros. Dos años después, Jean-Pierre Jabouille ganó con él. Entre ambos momentos hubo una investigación que convirtió una posibilidad reglamentaria en una amenaza deportiva.",
+  "lead": "Dijon-Prenois, 1 de julio de 1979: Jean-Pierre Jabouille ganó el Gran Premio de Francia con el Renault RS10. Mientras Villeneuve y Arnoux se disputaban la segunda posición, una investigación iniciada años antes llegaba por primera vez a la bandera a cuadros como vencedora.",
   "sections": [
-    {"id":"una-opcion-distinta","title":"Una opción escondida a plena vista","paragraphs":["La fórmula de motores permitía convivir a los atmosféricos de tres litros con propulsores sobrealimentados de 1,5 litros. Renault eligió esta segunda vía cuando la mayoría de sus adversarios confiaba en soluciones ya conocidas. No inventó el turbocompresor: trasladó a la Fórmula 1 una experiencia que había desarrollado en otras disciplinas y aceptó las dificultades de convertirla en un conjunto competitivo.","La decisión cambiaba la pregunta de diseño. El volumen del motor dejaba de ser una medida suficiente para entender su potencial. La cantidad de aire que podía recibir, el comportamiento de la sobrealimentación y la capacidad de mantener ese rendimiento durante una carrera pasaban a ocupar el centro del proyecto. Era una apuesta por un sistema completo, que debía encontrar su lugar dentro de un monoplaza y dentro de un reglamento."],"sourceIds":["museo","aniversario"]},
-    {"id":"laboratorio","title":"El camino de la resistencia al RS01","paragraphs":["El trabajo previo incluyó motores turbo de resistencia y el prototipo de pruebas A500. En 1976 Renault ya ensayaba en pista una versión de 1,5 litros. La llegada a los grandes premios no fue, por lo tanto, una ocurrencia improvisada, sino una etapa de un programa que unía banco de ensayos, pruebas y competición. Elf acompañó ese desarrollo como socio del fabricante.","El RS01 debutó en el Gran Premio de Gran Bretaña de 1977 con Jabouille. Sus primeras participaciones mostraron el costo de explorar una vía nueva: averías, abandonos y una reputación que acabaría resumida en el apodo de la tetera amarilla. Aquel sobrenombre describe la percepción del paddock, pero no permite juzgar por sí solo la calidad de la investigación. Un coche experimental puede fallar mientras está revelando qué problemas deben resolverse."],"sourceIds":["museo","aniversario","dossier"]},
-    {"id":"aprendizaje","title":"La fiabilidad también era rendimiento","paragraphs":["En 1978 el coche fue acumulando modificaciones. La documentación histórica de Renault enumera cambios en carrocería, pistones, segmentos, camisas y refrigeración del aire de admisión. Estos detalles explican por qué la revolución no puede reducirse a colocar un turbo junto al motor. La combustión, las temperaturas y la instalación tenían que evolucionar a la vez para que la potencia pudiera utilizarse con continuidad.","El cuarto puesto de Jabouille en Estados Unidos, al final de 1978, produjo los primeros puntos de Renault y de un motor turbo en el campeonato. Fue un resultado modesto frente a una victoria, pero decisivo para el proceso: el concepto había logrado completar una carrera en una posición competitiva. El paso siguiente consistía en acercar su velocidad potencial a un comportamiento que el piloto pudiera explotar vuelta tras vuelta."],"sourceIds":["dossier","aniversario"]},
-    {"id":"dijon","title":"Dijon: una victoria detrás de un duelo famoso","paragraphs":["Durante 1979 llegó la configuración de doble turbo, que Renault identifica como una mejora importante en la respuesta. El RS10 terminó convirtiendo aquel progreso en una victoria en el Gran Premio de Francia, disputado en Dijon-Prenois. Jabouille ganó el 1 de julio; era el primer triunfo de Renault en Fórmula 1 y el primero de un monoplaza turbo en un gran premio del campeonato.","La carrera suele recordarse por el enfrentamiento de Gilles Villeneuve y René Arnoux por la segunda posición. Esa batalla extraordinaria no debe ocultar el resultado que cambió la discusión técnica: mientras ellos disputaban el podio, Jabouille demostraba que la apuesta francesa podía ganar. También conviene distinguir los coches: el RS01 había iniciado el programa, pero el vencedor de Dijon fue el RS10. La evolución, y no una única máquina milagrosa, había hecho posible el salto."],"sourceIds":["victoria","trayectoria"]},
-    {"id":"legado","title":"Una revolución que también cambió las reglas","paragraphs":["La promesa del turbo llevó a otros fabricantes a estudiar y adoptar la sobrealimentación. Renault había abierto una dirección que terminaría marcando buena parte de los años ochenta. El desafío ya no era exclusivamente producir más potencia: también había que controlar el consumo, la entrega y la resistencia mecánica dentro de límites reglamentarios que fueron endureciéndose.","La primera era turbo terminó al concluir 1988. Para 1989 los motores turbo quedaron prohibidos, después de medidas destinadas a contener potencia y costos. Ese desenlace no convierte el proyecto inicial en un fracaso. Muestra que una innovación exitosa puede modificar tanto la competencia que el regulador acaba redefiniendo sus condiciones. El legado del RS01 y del RS10 está en esa transformación: un camino que empezó con dudas obligó a toda la Fórmula 1 a reconsiderar cómo construir y administrar su motor."],"sourceIds":["reglas","trayectoria"]}
+    {
+      "id": "dijon",
+      "title": "Una victoria detrás de otro duelo",
+      "paragraphs": [
+        "Las últimas vueltas de Dijon quedaron asociadas al enfrentamiento entre Gilles Villeneuve y René Arnoux. Se adelantaron, recuperaron posiciones y terminaron separados por un margen pequeño. Jabouille, delante de ellos, cerraba una historia diferente. Su triunfo fue el primero de Renault en Fórmula 1 y el primero de un monoplaza turbo en una carrera del campeonato.",
+        "La diferencia importa porque el espectáculo de aquella batalla puede ocultar la consecuencia industrial de la llegada del RS10. El programa que había comenzado con abandonos ya había producido una pole y puntos. Dijon aportó la prueba que todavía faltaba: la sobrealimentación podía sostener un rendimiento ganador durante un gran premio. La tetera amarilla había dejado de ser solamente una promesa que salía del box."
+      ],
+      "sourceIds": [
+        "victoria",
+        "trayectoria"
+      ]
+    },
+    {
+      "id": "origen",
+      "title": "Una posibilidad reglamentaria y un taller de pruebas",
+      "paragraphs": [
+        "Las reglas permitían utilizar motores atmosféricos de tres litros o sobrealimentados de 1,5. Renault eligió la segunda alternativa, apoyándose en experiencia desarrollada en resistencia y otras disciplinas. No había inventado el turbocompresor; había decidido explorar con él una vía que los constructores establecidos de Fórmula 1 no estaban utilizando.",
+        "La preparación pasó por bancos de ensayo y por el prototipo A500. En 1976 el motor de 1,5 litros ya acumulaba pruebas en pista. Elf acompañaba el trabajo del fabricante, y el objetivo exigía algo más que alcanzar una cifra de potencia: había que construir una instalación que pudiera refrigerarse, responder al piloto y resistir. La cilindrada reducida era solamente una de las condiciones del problema. El resto aparecía cuando todo empezaba a trabajar dentro del coche."
+      ],
+      "sourceIds": [
+        "museo",
+        "aniversario",
+        "dossier"
+      ]
+    },
+    {
+      "id": "silverstone",
+      "title": "El RS01 llegó a Silverstone y no terminó",
+      "paragraphs": [
+        "Jabouille llevó el RS01 al Gran Premio de Gran Bretaña de 1977. El debut acabó en abandono, seguido por otras participaciones selectivas que ayudaron a acumular experiencia. El apodo de tetera amarilla acompañó los problemas de aquella primera etapa. Desde fuera, era fácil interpretar cada fallo como una confirmación de que la vía elegida no funcionaba.",
+        "Dentro del programa, cada avería obligaba a modificar piezas y procedimientos. Renault documenta cambios posteriores en pistones, segmentos, camisas y refrigeración del aire de admisión. La investigación no se resolvía colocando un turbo nuevo sobre un motor que permanecía igual. El conjunto tenía que evolucionar. La potencia disponible llevaba consigo temperaturas, esfuerzos y exigencias de instalación que todavía no habían quedado bajo control."
+      ],
+      "sourceIds": [
+        "dossier",
+        "aniversario",
+        "museo"
+      ]
+    },
+    {
+      "id": "respuesta",
+      "title": "De los primeros puntos a dos turbocompresores",
+      "paragraphs": [
+        "El cuarto puesto de Jabouille en Estados Unidos, al final de 1978, dio a Renault sus primeros puntos y produjo los primeros de un turbo en el campeonato. Era una llegada bastante menos llamativa que Dijon, pero significaba que el coche había completado una carrera en una posición competitiva. La fiabilidad comenzaba a convertirse en rendimiento efectivo.",
+        "En 1979 el equipo incorporó la configuración de doble turbo, identificada por Renault como una mejora importante de respuesta. La evolución terminó expresándose en el RS10 vencedor de Francia. Mantener separados los nombres del RS01 y del RS10 permite ver el trabajo entre ambos. El primero abrió el programa; el segundo consiguió el triunfo. La revolución tuvo una sucesión de pruebas, correcciones y coches antes de adquirir la forma compacta con la que suele recordarse."
+      ],
+      "sourceIds": [
+        "trayectoria",
+        "dossier",
+        "victoria"
+      ]
+    },
+    {
+      "id": "era",
+      "title": "El camino que terminaron siguiendo los demás",
+      "paragraphs": [
+        "El éxito del turbo llevó a otros fabricantes a desarrollar la sobrealimentación y convirtió esa arquitectura en una presencia dominante de los años ochenta. La búsqueda de potencia se acompañó de problemas de consumo, entrega y resistencia mecánica. Las reglas fueron introduciendo límites hasta que los turbos quedaron prohibidos para la temporada de 1989.",
+        "El final de aquella etapa no canceló lo que había sucedido en Dijon. Renault había cambiado las prioridades de una categoría entera: los rivales ya no podían dar por supuesto que el motor atmosférico era la única opción sensata para ganar. El RS10 cruzó primero la meta de una carrera; el programa que lo llevó allí había obligado a la Fórmula 1 a investigar otra manera de llegar."
+      ],
+      "sourceIds": [
+        "reglas",
+        "trayectoria"
+      ]
+    }
   ],
   "sources": [
-    {"id":"museo","title":"Renault The Originals: F1 RS01","url":"https://theoriginals.renault.com/en/f1-rs-01"},
-    {"id":"aniversario","title":"Renault: 40 años en Fórmula 1","url":"https://be.media.renaultgroup.com/renault-en-f1-depuis-40-ans/?lang=bel"},
-    {"id":"dossier","title":"Renault Classic: 30 ans de Formule 1","url":"https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"},
-    {"id":"victoria","title":"Renault Group: De la piste à la route","url":"https://www.renaultgroup.com/magazine/nos-actualites-groupe/de-la-piste-a-la-route/"},
-    {"id":"trayectoria","title":"Renault: The turbo journey, year by year","url":"https://media.renault-group.nl/wp-content/uploads/2013/06/F1_motor_presskit.pdf"},
-    {"id":"reglas","title":"Formula 1: cambios reglamentarios decisivos","url":"https://www.formula1.com/en/latest/article/the-key-regulation-changes-in-f1-history-and-the-teams-that-nailed-them.2iq8c5E6S1HOffT5PBLl6i"}
+    {
+      "id": "museo",
+      "title": "Renault The Originals: F1 RS01",
+      "url": "https://theoriginals.renault.com/en/f1-rs-01"
+    },
+    {
+      "id": "aniversario",
+      "title": "Renault: 40 años en Fórmula 1",
+      "url": "https://be.media.renaultgroup.com/renault-en-f1-depuis-40-ans/?lang=bel"
+    },
+    {
+      "id": "dossier",
+      "title": "Renault Classic: 30 ans de Formule 1",
+      "url": "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+    },
+    {
+      "id": "victoria",
+      "title": "Renault Group: De la piste à la route",
+      "url": "https://www.renaultgroup.com/magazine/nos-actualites-groupe/de-la-piste-a-la-route/"
+    },
+    {
+      "id": "trayectoria",
+      "title": "Renault: The turbo journey, year by year",
+      "url": "https://media.renault-group.nl/wp-content/uploads/2013/06/F1_motor_presskit.pdf"
+    },
+    {
+      "id": "reglas",
+      "title": "Formula 1: cambios reglamentarios decisivos",
+      "url": "https://www.formula1.com/en/latest/article/the-key-regulation-changes-in-f1-history-and-the-teams-that-nailed-them.2iq8c5E6S1HOffT5PBLl6i"
+    }
   ],
-  "related": [{"label":"Historia de Renault","href":"/historia/constructors/renault"},{"label":"Temporada 1979","href":"/historia/seasons/1979"},{"label":"Gran Premio de Francia","href":"/historia/grands-prix/france"}]
+  "related": [
+    {
+      "label": "Historia de Renault",
+      "href": "/historia/constructors/renault"
+    },
+    {
+      "label": "Temporada 1979",
+      "href": "/historia/seasons/1979"
+    },
+    {
+      "label": "Gran Premio de Francia",
+      "href": "/historia/grands-prix/france"
+    }
+  ],
+  "year": 1977,
+  "tags": [
+    "Renault RS01",
+    "Renault RS10",
+    "Jean-Pierre Jabouille",
+    "Turbo"
+  ]
 }

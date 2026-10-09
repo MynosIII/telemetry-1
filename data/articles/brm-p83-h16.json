@@ -1,0 +1,106 @@
+{
+  "slug": "brm-p83-h16",
+  "title": "BRM P83: el H16 que obligó a Stewart a pelear con la máquina",
+  "description": "Dos cigüeñales, una ambición de tres litros y un segundo puesto en Spa dentro de una historia de potencia que no logró volverse ligera.",
+  "category": "Autos de leyenda",
+  "period": "1966",
+  "year": 1966,
+  "tags": [
+    "BRM P83",
+    "BRM P75",
+    "H16",
+    "Tony Rudd"
+  ],
+  "lead": "Spa, junio de 1967. Jackie Stewart terminó segundo con un BRM P83 cuyo cambio le exigía sujetar la quinta marcha. El auto llevaba un motor de dieciséis cilindros dispuesto en dos planos. La promesa era extraordinaria; la carrera recordaba cuánto trabajo físico y mecánico hacía falta para sostenerla.",
+  "sections": [
+    {
+      "id": "reglamento",
+      "title": "Tres litros llegaron antes de que todos estuvieran preparados",
+      "paragraphs": [
+        "La Fórmula 1 duplicó en 1966 el límite de los motores atmosféricos, de litro y medio a tres litros. BRM había ganado el campeonato de 1962 y disponía de una experiencia valiosa con sus V8 pequeños. Tony Rudd buscó una forma de aprovechar ese conocimiento sin empezar toda la investigación de combustión desde cero.",
+        "La idea fue desarrollar un H16, identificado como P75: dos grupos de ocho cilindros planos, uno sobre otro, con dos cigüeñales conectados por engranajes. No eran dos motores completos atornillados a última hora. El conjunto requería un diseño específico para unirlos, sincronizarlos y transmitir la potencia. El proyecto del motor y el del chasis P83 avanzaron dentro de un programa que también debía mantener competitivos los autos anteriores."
+      ],
+      "sourceIds": [
+        "engine",
+        "brm",
+        "wiki"
+      ]
+    },
+    {
+      "id": "peso",
+      "title": "El problema estaba en todo lo que debía moverse",
+      "paragraphs": [
+        "La disposición prometía un propulsor compacto en longitud, pero acumulaba masa y pérdidas internas. Había más piezas móviles, engranajes y circuitos que integrar. El motor podía producir potencia elevada en un ensayo y aun así imponer un vehículo pesado, difícil de ajustar y poco tolerante a las averías. La distancia entre ambas cosas explica buena parte de la decepción del programa.",
+        "El P83 utilizaba una estructura monocasco diseñada alrededor de esa unidad. La refrigeración también exigió cambios visibles: durante su desarrollo aparecieron tuberías de agua por fuera de la carrocería. Eran soluciones de trabajo para mantener el conjunto utilizable, aunque la apariencia del auto quedara lejos de la sencillez que perseguían algunos rivales. BRM estaba intentando arreglar simultáneamente peso, temperatura, respuesta y fiabilidad."
+      ],
+      "sourceIds": [
+        "retrospective",
+        "wiki"
+      ]
+    },
+    {
+      "id": "spa",
+      "title": "Un podio no borró las dificultades",
+      "paragraphs": [
+        "Graham Hill y Stewart probaron la nueva máquina durante 1966. En el campeonato siguieron utilizándose los P261 con motores ampliados mientras el H16 maduraba. El P83 debutó en carrera mundialista en Monza, una aparición que terminó con problemas. La transición no fue una sustitución ordenada del viejo auto por uno superior: BRM tuvo que repartir su temporada entre soluciones incompletas.",
+        "El segundo puesto de Stewart en Bélgica en 1967 fue la mejor llegada del P83 en el Mundial. El trazado rápido de Spa proporcionó un resultado defendible, pero no cambió el balance del programa. La revisión más ligera P115 tampoco consiguió convertir la idea en un éxito sostenido. Cuando los rivales simplificaban sus vehículos alrededor del Cosworth DFV, BRM cargaba con una arquitectura cuya reparación y desarrollo absorbían recursos continuamente."
+      ],
+      "sourceIds": [
+        "wiki",
+        "retrospective",
+        "results"
+      ]
+    },
+    {
+      "id": "watkins",
+      "title": "La única victoria del motor llegó en otro chasis",
+      "paragraphs": [
+        "El H16 ganó una carrera mundialista, pero lo hizo en un Lotus 43 con Jim Clark en Watkins Glen en 1966. Lotus había adquirido motores BRM para atravesar la transición a la nueva fórmula. La victoria pertenece a esa combinación concreta, no al P83 oficial. El registro de Classic Team Lotus conserva los dos Type 43 construidos para alojar el tres litros.",
+        "BRM terminó favoreciendo el desarrollo de su V12. El H16 quedó como una de las grandes apuestas que la historia de la categoría recuerda por su complejidad. El P83 sobreviviente permite ver cómo esa apuesta condicionaba la máquina entera, desde las tuberías hasta el volumen posterior. Stewart en Spa le dio su mejor resultado: una llegada conseguida no porque desaparecieran las dificultades, sino mientras todavía tenía que pelear con ellas."
+      ],
+      "sourceIds": [
+        "lotus",
+        "engine",
+        "retrospective"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "engine",
+      "title": "Wikipedia — BRM P75, arquitectura del H16",
+      "url": "https://en.wikipedia.org/wiki/BRM_P75"
+    },
+    {
+      "id": "brm",
+      "title": "BRM — la década de 1960",
+      "url": "https://www.britishracingmotors.co.uk/1960-2/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — BRM P83, campañas y resultados",
+      "url": "https://en.wikipedia.org/wiki/BRM_P83"
+    },
+    {
+      "id": "retrospective",
+      "title": "Motor Sport — The H16 BRM, septiembre de 1994",
+      "url": "https://www.motorsportmagazine.com/archive/article/september-1994/38/the-h16-brm/"
+    },
+    {
+      "id": "lotus",
+      "title": "Classic Team Lotus — Type 43",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-43/"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1967",
+      "url": "https://www.formula1.com/en/results/1967/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1966",
+      "href": "/historia/seasons/1966"
+    }
+  ]
+}

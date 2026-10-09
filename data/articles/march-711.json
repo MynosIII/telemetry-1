@@ -1,0 +1,100 @@
+{
+  "slug": "march-711",
+  "title": "March 711: una bandeja de té que llevó a Peterson al subcampeonato",
+  "description": "Frank Costin dibujó el alerón más reconocible de 1971; la temporada de March fue bastante más larga y exitosa que la leyenda de su fracaso.",
+  "category": "Autos de leyenda",
+  "period": "1971",
+  "year": 1971,
+  "tags": [
+    "March 711",
+    "Ronnie Peterson",
+    "Frank Costin",
+    "Robin Herd"
+  ],
+  "lead": "Mónaco, mayo de 1971. Ronnie Peterson terminó segundo con un March 711 cuya nariz sostenía un alerón ovalado sobre una columna. La pieza parecía una bandeja suspendida. Bajo esa forma extraña, March había construido un auto capaz de acompañar al sueco hasta el segundo puesto del Campeonato Mundial.",
+  "sections": [
+    {
+      "id": "nuevo",
+      "title": "Robin Herd empezó otra vez desde el dibujo",
+      "paragraphs": [
+        "El March 701 había arrancado bien en 1970, pero el Lotus 72 y los nuevos rivales dejaron expuestos sus límites. Robin Herd preparó el 711 con una arquitectura revisada: radiadores laterales, una nariz redondeada y un monocasco que envolvía más completamente las piernas del piloto. Geoff Ferris, que había trabajado en Lotus, participó en el detalle del diseño.",
+        "Los frenos delanteros se montaron inicialmente dentro del vehículo, una elección destinada a reducir la masa que se movía con las ruedas. Una rotura en la Race of Champions llevó a trasladarlos hacia afuera. El proceso muestra un auto en desarrollo: March no conservó cada innovación por orgullo de autor. El alerón llamaba la atención del público, pero otras decisiones menos visibles también cambiaban mientras llegaban los resultados."
+      ],
+      "sourceIds": [
+        "orc",
+        "wiki"
+      ]
+    },
+    {
+      "id": "costin",
+      "title": "El ala trabajaba mejor cuando estaba sola",
+      "paragraphs": [
+        "Frank Costin, con experiencia en De Havilland y en carrocerías aerodinámicas de competición, fue responsable de la forma exterior más característica. El alerón delantero ovalado recibió varios apodos, entre ellos bandeja de té. Quedaba elevado sobre el morro y podía trabajar en un flujo relativamente limpio cuando el auto rodaba sin otro vehículo inmediatamente delante.",
+        "En tráfico, su comportamiento resultaba menos previsible. March descartó también parte de la carrocería cerrada posterior que Costin había propuesto. La historia del 711 se parece menos a un experimento utilizado cinco carreras y abandonado que a un diseño al que se le conservaron unos rasgos y se le retiraron otros. El equipo seguía buscando un compromiso entre las ventajas de la teoría y los problemas que aparecían al competir con otros autos."
+      ],
+      "sourceIds": [
+        "orc",
+        "f1"
+      ]
+    },
+    {
+      "id": "peterson",
+      "title": "Cuatro segundos puestos que sostuvieron un año",
+      "paragraphs": [
+        "Peterson terminó segundo en Mónaco, Silverstone, Monza y Mosport. Sus resultados lo llevaron al subcampeonato de pilotos detrás de Jackie Stewart. La máquina no ganó un Gran Premio mundialista, pero su temporada no puede describirse como un fracaso completo. Fue competitiva en pistas con características muy diferentes y obtuvo su reconocimiento mediante llegadas repetidas.",
+        "March también utilizó motores Alfa Romeo en parte de sus autos, una colaboración que no produjo una ventaja frente al Cosworth DFV. Andrea de Adamich y Nanni Galli quedaron vinculados a ese programa. Los particulares compraron otras unidades: Frank Williams las utilizó para Henri Pescarolo y Gene Mason para Skip Barber. El proyecto tenía que servir a una escudería oficial y a una red de clientes, no a un único piloto."
+      ],
+      "sourceIds": [
+        "results",
+        "standings",
+        "wiki"
+      ]
+    },
+    {
+      "id": "chasis",
+      "title": "El 711 todavía ofrece problemas de identidad",
+      "paragraphs": [
+        "Niki Lauda condujo un March 711 en su debut mundialista de 1971. Esa aparición conecta la máquina con una carrera que después sería mucho más famosa que aquel primer resultado. Al terminar la temporada, los chasis siguieron caminos diferentes, entre ventas, proyectos de ascensos y largos períodos fuera de la competición.",
+        "OldRacingCars documenta además autos 721 posteriormente convertidos a apariencia de 711 para carreras históricas. La semejanza visual no significa que una unidad conserve el mismo origen. La historia material resulta casi tan singular como la bandeja delantera: detrás de cada ejemplar hay una trayectoria que necesita seguirse por separado. Peterson convirtió el 711 en un subcampeón; la conservación posterior convirtió su silueta en una imagen que todavía obliga a preguntar qué auto, exactamente, se está mirando."
+      ],
+      "sourceIds": [
+        "orc",
+        "wiki",
+        "f1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "orc",
+      "title": "OldRacingCars / Allen Brown — March 711, historias de chasis",
+      "url": "https://www.oldracingcars.com/march/711/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — March 711, campañas y fuentes",
+      "url": "https://en.wikipedia.org/wiki/March_711"
+    },
+    {
+      "id": "f1",
+      "title": "Formula 1 — diez autos singulares, March 711",
+      "url": "https://www.formula1.com/en/latest/article/from-the-six-wheeled-tyrrell-to-the-dual-rear-wing-ferrari-10-of-the.1uvMU2qhHxAphWRhgjxwCj"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1971",
+      "url": "https://www.formula1.com/en/results/1971/races"
+    },
+    {
+      "id": "standings",
+      "title": "Formula 1 — clasificación de pilotos de 1971",
+      "url": "https://www.formula1.com/en/results/1971/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1971",
+      "href": "/historia/seasons/1971"
+    }
+  ]
+}

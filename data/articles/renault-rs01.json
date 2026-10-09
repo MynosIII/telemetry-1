@@ -1,0 +1,102 @@
+{
+  "slug": "renault-rs01",
+  "title": "Renault RS01: el humo que anunció la era del turbo",
+  "description": "La primera Renault de Fórmula 1 debutó en Silverstone, soportó las bromas del paddock y llegó a sus primeros puntos después de una larga investigación.",
+  "category": "Autos de leyenda",
+  "period": "1977",
+  "year": 1977,
+  "tags": [
+    "Renault RS01",
+    "Jean-Pierre Jabouille",
+    "Bernard Dudot",
+    "Yellow Teapot"
+  ],
+  "lead": "Silverstone, 16 de julio de 1977. Jean-Pierre Jabouille tomó la salida con un Renault amarillo y un V6 de apenas litro y medio. Los grandes motores atmosféricos de tres litros rodeaban al debutante. El RS01 no terminó la carrera, pero había llevado a la pista la pregunta que acabaría transformando la siguiente década.",
+  "sections": [
+    {
+      "id": "francia",
+      "title": "Alpine, Gordini y Renault llegaron al mismo proyecto",
+      "paragraphs": [
+        "Renault reunió experiencia procedente de Alpine y Gordini para preparar su entrada en la Fórmula 1. Jabouille había trabajado en el desarrollo de motores y monoplazas antes de convertirse en el piloto del programa mundialista. El prototipo Alpine A500 sirvió para los ensayos que precedieron al RS01. La máquina de Silverstone no salió de una investigación aislada de las otras competiciones de la marca.",
+        "Los motores turbo también se probaron en resistencia, con una cilindrada de dos litros. Esa línea condujo al Alpine Renault que ganó Le Mans en 1978. Para la Fórmula 1 el límite era de 1,5 litros sobrealimentados. Compartir conocimiento no significaba compartir exactamente el mismo motor, pero permitía que el trabajo en una categoría alimentara las decisiones que se tomaban en la otra."
+      ],
+      "sourceIds": [
+        "archive",
+        "museum"
+      ]
+    },
+    {
+      "id": "turbo",
+      "title": "La mitad de cilindrada necesitaba otra forma de respirar",
+      "paragraphs": [
+        "El RS01 utilizaba un V6 turbo de 1.492 centímetros cúbicos. El archivo de The Originals atribuye a su configuración conservada 525 caballos a 10.500 revoluciones por minuto. La cifra demuestra la ambición de extraer potencia de un motor pequeño, aunque un registro técnico de colección no resume todas las versiones utilizadas durante su desarrollo.",
+        "El turbocompresor aprovechaba la energía de los gases de escape para impulsar aire hacia el motor. Su respuesta, el calor y la resistencia de las piezas se convirtieron en problemas de trabajo cotidiano. Michelin acompañó el proyecto con sus neumáticos, añadiendo otra diferencia respecto al conjunto de proveedores habitual de buena parte de la parrilla. Renault debía desarrollar varias cosas a la vez, no únicamente presentar una cifra prometedora en el banco de ensayos."
+      ],
+      "sourceIds": [
+        "museum",
+        "archive",
+        "press"
+      ]
+    },
+    {
+      "id": "humo",
+      "title": "La tetera amarilla se ganó el apodo en carrera",
+      "paragraphs": [
+        "Las averías de 1977 y 1978 dejaron humo alrededor del auto con suficiente frecuencia como para convertirlo en la tetera amarilla del paddock. El museo de Renault conserva ese sobrenombre como parte de su propia historia. La burla no describe un proyecto abandonado: el equipo siguió trabajando sobre un vehículo que necesitaba convertir una posibilidad técnica en una distancia de carrera completa.",
+        "Durante 1978 se revisaron elementos del motor, el intercambio térmico y la carrocería. Renault documenta nuevos pistones, segmentos, camisas y un intercambiador de calor agua-aire entre las modificaciones. Jabouille terminó cuarto en Watkins Glen y consiguió los primeros puntos del equipo. La recompensa era pequeña frente a la inversión, pero aportaba algo que los ensayos no podían sustituir: un resultado dentro del mismo escenario donde se había cuestionado al proyecto."
+      ],
+      "sourceIds": [
+        "archive",
+        "wiki",
+        "museum"
+      ]
+    },
+    {
+      "id": "rs10",
+      "title": "La primera victoria necesitó un sucesor",
+      "paragraphs": [
+        "El RS01 siguió participando a comienzos de 1979 antes de ser reemplazado por el RS10. La victoria inaugural del turbo Renault llegó con este último en el Gran Premio de Francia de Dijon, no en Bélgica ni con el auto original. Jabouille fue el ganador. El triunfo suele quedar asociado al espectacular duelo por el segundo puesto entre René Arnoux y Gilles Villeneuve, pero el primer lugar marcaba la culminación del trabajo francés.",
+        "La historia del RS01 termina mejor si se conserva su función de pionero. No ganó un Gran Premio y no necesitó hacerlo para cambiar las decisiones de la categoría. Mostró que el reglamento permitía otra respuesta a los tres litros atmosféricos y que esa respuesta podía madurar. El humo de Silverstone pertenecía a una máquina incompleta; los puntos de Watkins Glen demostraron que el trabajo había empezado a cerrar sus problemas. El sucesor convirtió esa preparación en una victoria."
+      ],
+      "sourceIds": [
+        "museum",
+        "wiki",
+        "press",
+        "results"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museum",
+      "title": "Renault The Originals — RS01, historia y ficha técnica",
+      "url": "https://theoriginals.renault.com/es/f1-rs-01"
+    },
+    {
+      "id": "archive",
+      "title": "Renault Classic — treinta años de Fórmula 1",
+      "url": "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+    },
+    {
+      "id": "press",
+      "title": "Renault Sport — dossier de prensa de 2017",
+      "url": "https://media.renault-group.nl/wp-content/uploads/2017/02/rs_f1_dossier_de_presse_210217.pdf"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Renault RS01, campañas y evolución",
+      "url": "https://en.wikipedia.org/wiki/Renault_RS01"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1979",
+      "url": "https://www.formula1.com/en/results/1979/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1977",
+      "href": "/historia/seasons/1977"
+    }
+  ]
+}

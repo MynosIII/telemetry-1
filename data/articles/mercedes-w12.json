@@ -1,0 +1,134 @@
+{
+  "slug": "mercedes-w12",
+  "title": "Mercedes W12: una remontada en Interlagos y un final sin calma",
+  "description": "El coche de 2021 perdió el DAS y parte del fondo, pero llevó a Mercedes a un octavo título de constructores.",
+  "year": 2021,
+  "period": "2021",
+  "tags": [
+    "Mercedes W12",
+    "Lewis Hamilton",
+    "Valtteri Bottas"
+  ],
+  "lead": "En Interlagos, el 14 de noviembre de 2021, Lewis Hamilton ganó después de salir décimo. El día anterior había comenzado último el sprint. El W12 atravesó aquel fin de semana convertido en una máquina de remontar, dentro de un campeonato donde ya no había espacio para la comodidad.",
+  "sections": [
+    {
+      "id": "interlagos",
+      "title": "El fin de semana comenzó más atrás",
+      "paragraphs": [
+        "Una infracción en la apertura del alerón trasero descalificó a Hamilton de la clasificación del viernes. El británico pasó del último lugar del sprint al quinto, y una penalización por cambio de motor lo colocó décimo para el gran premio. El domingo completó la remontada y venció por delante de Max Verstappen.",
+        "El episodio reunió las dos caras del W12. Había una velocidad considerable, pero también una disputa deportiva y técnica extremadamente ajustada. La máquina tuvo que producir adelantamientos, sostener neumáticos y transformar su rendimiento en posiciones. Interlagos no fue una prueba abstracta de quién tenía el mejor coche: fue un fin de semana de sanciones, recuperación y lucha directa contra el rival principal del campeonato."
+      ],
+      "sourceIds": [
+        "saopaulo",
+        "hamilton",
+        "carrera"
+      ]
+    },
+    {
+      "id": "fondo",
+      "title": "Un heredero al que le recortaron el suelo",
+      "paragraphs": [
+        "El W12 conservó buena parte de la base del W11 por las medidas de continuidad adoptadas durante la pandemia. Sin embargo, las reglas de 2021 introdujeron cambios importantes en el fondo y en elementos próximos a las ruedas traseras. La reducción del área disponible obligó a recuperar carga dentro de un espacio aerodinámico distinto.",
+        "La presentación técnica de Mercedes enumeraba un recorte triangular en el borde del fondo, reducciones en apéndices de los conductos de freno y en determinadas aletas del difusor, además del cierre de ranuras. Esa lista explica por qué parecerse a un coche ganador no garantizaba conservar su comportamiento. El aire depende de la geometría que realmente encuentra, no de la continuidad del nombre o del monocasco."
+      ],
+      "sourceIds": [
+        "presentacion",
+        "explicacion"
+      ]
+    },
+    {
+      "id": "sin-das",
+      "title": "El volante volvió a tener una sola acción principal",
+      "paragraphs": [
+        "El W12 no podía utilizar el DAS. La FIA había confirmado su prohibición para 2021, aunque numerosas piezas del coche anterior siguieran siendo admisibles. Mercedes señaló que su desaparición liberaba algo de masa que podía distribuirse de otra manera. La tecnología más reconocible del W11 era, por lo tanto, parte de una ausencia en su sucesor.",
+        "El equipo también desarrolló la refrigeración, la suspensión y la unidad de potencia dentro de las posibilidades disponibles. Los componentes sujetos a homologación y las reglas de continuidad limitaban ciertos cambios, mientras la aerodinámica mantenía vías de investigación. El W12 exigía distinguir entre heredar un conjunto y poder transformarlo: algunas decisiones quedaban fijadas; otras podían seguir evolucionando durante el campeonato."
+      ],
+      "sourceIds": [
+        "fia",
+        "presentacion",
+        "equipo"
+      ]
+    },
+    {
+      "id": "final",
+      "title": "Dos campeonatos con desenlaces distintos",
+      "paragraphs": [
+        "Mercedes ganó el campeonato de constructores por octava temporada consecutiva. Hamilton terminó segundo en la clasificación de pilotos, detrás de Verstappen, después del controvertido final de Abu Dabi. El informe publicado por la FIA en marzo de 2022 identificó errores en el procedimiento de la última intervención del coche de seguridad, manteniendo los resultados como válidos y definitivos.",
+        "La historia del W12 necesita ambos balances. No fue el coche que entregó un octavo título de pilotos a Hamilton, pero sí el que prolongó la secuencia de constructores de Mercedes. Su campaña incluyó recuperación técnica, enfrentamientos cerrados y victorias donde el piloto tuvo que transformar velocidad en una larga serie de adelantamientos. Interlagos conserva una imagen particularmente clara de esa tarea: un coche que había comenzado su fin de semana al fondo terminó delante, sin que la temporada dejara por eso de estar abierta."
+      ],
+      "sourceIds": [
+        "constructores",
+        "pilotos",
+        "informe",
+        "carrera"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "saopaulo",
+      "title": "Wikipedia: cronología del Gran Premio de São Paulo 2021",
+      "url": "https://en.wikipedia.org/wiki/2021_S%C3%A3o_Paulo_Grand_Prix"
+    },
+    {
+      "id": "hamilton",
+      "title": "Formula 1: Lewis Hamilton, resultados de 2021",
+      "url": "https://www.formula1.com/en/results/2021/drivers/LEWHAM01/lewis-hamilton"
+    },
+    {
+      "id": "carrera",
+      "title": "Formula 1: carreras de 2021",
+      "url": "https://www.formula1.com/en/results/2021/races"
+    },
+    {
+      "id": "presentacion",
+      "title": "Mercedes: presentación técnica del W12",
+      "url": "https://media.mercedesamgf1.com/marsF1/en/instance/ko/Introducing-W12-the-Mercedes-AMG-Petronas-F1-Teams-2021-challenger.xhtml?oid=185149452"
+    },
+    {
+      "id": "explicacion",
+      "title": "Mercedes: James Allison explica el coche de 2021",
+      "url": "https://www.mercedesamgf1.com/news/the-2021-mercedes-f1-car-explained"
+    },
+    {
+      "id": "equipo",
+      "title": "Mercedes: Introducing W12",
+      "url": "https://www.mercedesamgf1.com/news/introducing-w12-the-mercedes-f1-challenger-for-the-2021-season"
+    },
+    {
+      "id": "fia",
+      "title": "FIA: prohibición del DAS para 2021",
+      "url": "https://www.fia.com/news/fia-takes-swift-action-safeguard-motor-sport-during-covid-19-pandemic"
+    },
+    {
+      "id": "informe",
+      "title": "FIA: informe sobre Abu Dabi 2021, publicado en marzo de 2022",
+      "url": "https://www.fia.com/sites/default/files/2021_f1_abu_dhabi_grand_prix_-_report_to_the_wmsc_-_19_march_2022_0.pdf"
+    },
+    {
+      "id": "constructores",
+      "title": "Formula 1: constructores de 2021",
+      "url": "https://www.formula1.com/en/results/2021/team"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 2021",
+      "url": "https://www.formula1.com/en/results/2021/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Mercedes",
+      "href": "/historia/constructors/mercedes"
+    },
+    {
+      "label": "Temporada 2021",
+      "href": "/historia/seasons/2021"
+    },
+    {
+      "label": "Mercedes W11",
+      "href": "/articulos/mercedes-w11"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

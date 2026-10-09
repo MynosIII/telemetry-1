@@ -1,0 +1,103 @@
+{
+  "slug": "mclaren-mp4-1",
+  "title": "McLaren MP4/1: el carbono que salió entero de Monza",
+  "description": "John Barnard, Hercules y un accidente que convirtió una discusión sobre materiales en una prueba visible.",
+  "category": "Autos de leyenda",
+  "year": 1981,
+  "period": "1981",
+  "tags": [
+    "McLaren MP4/1",
+    "John Barnard",
+    "Fibra de carbono"
+  ],
+  "lead": "En Monza, en septiembre de 1981, el McLaren de John Watson perdió el motor y la transmisión en un accidente. La célula del piloto permaneció entera. El MP4/1 acababa de presentar, de la forma menos deseable, una respuesta a quienes desconfiaban de su material.",
+  "sections": [
+    {
+      "id": "monza",
+      "title": "La prueba que nadie había programado",
+      "paragraphs": [
+        "Watson pudo salir del coche después del golpe en las Lesmo. El conjunto trasero había quedado separado, mientras el espacio que lo protegía conservaba su integridad. McLaren recordaría aquel accidente como un momento decisivo para la aceptación del carbono. No demostraba que un monoplaza fuese invulnerable; mostraba que su estructura podía comportarse de una manera muy distinta a la temida por los escépticos.",
+        "Dos meses antes, el mismo piloto había ganado el Gran Premio de Gran Bretaña. Silverstone había aportado la evidencia deportiva, y Monza añadió una evidencia material. La historia del MP4/1 quedó ligada a ambos lugares: uno le devolvió una victoria a McLaren; el otro permitió observar qué ocurría cuando la carga sobre el chasis superaba brutalmente las condiciones normales de una vuelta."
+      ],
+      "sourceIds": [
+        "watson",
+        "car"
+      ]
+    },
+    {
+      "id": "barnard",
+      "title": "Un modelo en un avión rumbo a Utah",
+      "paragraphs": [
+        "John Barnard buscaba una estructura ligera y rígida cuando las posibilidades de los compuestos todavía estaban lejos de ser una práctica común en Fórmula 1. El carbono ya aparecía en componentes menores, pero convertirlo en la célula central exigía un salto industrial. No bastaba con elegir un material: había que encontrar quién pudiera fabricar las piezas, unirlas y garantizar su consistencia.",
+        "La relación con Hercules, en Salt Lake City, hizo posible ese paso. Barnard viajó con un modelo a escala de su propuesta. La primera estructura utilizó cinco componentes principales de caras planas, una solución condicionada por la capacidad de producción disponible. La forma del coche conserva así una historia menos visible que sus resultados: una colaboración entre el taller de carreras y conocimientos desarrollados fuera del automovilismo."
+      ],
+      "sourceIds": [
+        "car",
+        "hercules"
+      ]
+    },
+    {
+      "id": "project-four",
+      "title": "Cambiar el equipo mientras cambiaba el coche",
+      "paragraphs": [
+        "El prefijo MP4 marcaba también la incorporación de Project Four a la organización. Ron Dennis y Barnard formaban parte de una transformación que superaba al diseño del monoplaza. Mientras el nuevo coche se completaba, el equipo tuvo que seguir compitiendo con el M29. La transición no ocurrió de una vez ni comenzó con un triunfo inmediato: desarrollo y calendario avanzaban a ritmos diferentes.",
+        "Watson y Andrea de Cesaris fueron los pilotos de aquella campaña. La primera victoria del nuevo modelo llegó después de varias carreras de aprendizaje. Eso distingue al MP4/1 de una revolución que puede parecer instantánea vista desde cuarenta años de distancia. El coche tenía que demostrar que la idea estructural podía convivir con motor, suspensión, transmisión y mantenimiento durante un fin de semana real."
+      ],
+      "sourceIds": [
+        "car",
+        "nombres",
+        "victoria"
+      ]
+    },
+    {
+      "id": "silverstone",
+      "title": "Ganar y convencer",
+      "paragraphs": [
+        "La victoria británica de Watson en 1981 fue la primera de McLaren desde 1977. El carbono dejó de ser solamente una promesa de rigidez o seguridad y apareció en la parte alta de una clasificación. El resultado tenía un peso particular para una escudería que venía de temporadas difíciles: la renovación empresarial y la nueva arquitectura podían producir un coche ganador.",
+        "Con el tiempo, el monocasco de carbono se convirtió en una solución habitual de la Fórmula 1. El valor histórico del MP4/1 reside en unir ese futuro a un proceso reconocible: un diseñador con una propuesta, un proveedor capaz de construirla, un equipo que financió el riesgo y un piloto que la llevó a la pista. En Monza, la estructura terminó de convencer a muchos de los que aún no estaban convencidos por Silverstone."
+      ],
+      "sourceIds": [
+        "victoria",
+        "watson",
+        "hercules"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "car",
+      "title": "McLaren: MP4/1",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
+    },
+    {
+      "id": "watson",
+      "title": "McLaren: Watson y Barnard recuerdan Monza",
+      "url": "https://www.mclaren.com/racing/team/be-brave-80s-90s-3154637/"
+    },
+    {
+      "id": "hercules",
+      "title": "McLaren: el origen del monocasco de carbono",
+      "url": "https://www.mclaren.com/racing/formula-1/2021/united-states-grand-prix/mclaren-greatest-steals/"
+    },
+    {
+      "id": "victoria",
+      "title": "McLaren: entrevista a Watson sobre Silverstone 1981",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/john-watson-interview-1981-british-gp/"
+    },
+    {
+      "id": "nombres",
+      "title": "McLaren: historia de los nombres de sus coches",
+      "url": "https://www.mclaren.com/racing/latest-news/mclarenracing/article/colour-by-numbers-6122243/"
+    }
+  ],
+  "related": [
+    {
+      "label": "McLaren",
+      "href": "/historia/constructors/mclaren"
+    },
+    {
+      "label": "Temporada 1981",
+      "href": "/historia/seasons/1981"
+    }
+  ]
+}

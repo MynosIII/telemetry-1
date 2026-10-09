@@ -1,0 +1,98 @@
+{
+  "slug": "auto-avio-815",
+  "title": "Auto Avio Costruzioni 815: el Ferrari que todavía no podía llamarse Ferrari",
+  "description": "Dos autos en la carrera de Brescia de 1940, piezas Fiat y la supervivencia de una unidad dentro de las colecciones italianas.",
+  "category": "Autos de leyenda",
+  "period": "1940",
+  "year": 1940,
+  "tags": [
+    "Auto Avio Costruzioni 815",
+    "Alberto Ascari",
+    "Alberto Massimino"
+  ],
+  "lead": "Brescia, 28 de abril de 1940. Alberto Ascari y Lotario Rangoni llevaron dos Auto Avio Costruzioni 815 a la carrera que sustituyó el recorrido tradicional de la Mille Miglia. Ninguno llegó al final. La primera máquina construida por Enzo Ferrari no nació con una victoria ni con su apellido sobre la carrocería.",
+  "sections": [
+    {
+      "id": "nombre",
+      "title": "Una separación empresarial antes que una marca nueva",
+      "paragraphs": [
+        "Enzo Ferrari había dejado Alfa Romeo y fundó Auto Avio Costruzioni. Las condiciones de su salida impedían utilizar inmediatamente su nombre en una nueva actividad de competición. El 815 apareció bajo esa identidad empresarial, antes de los Ferrari de 1947. La historia del fabricante empezó aquí con una denominación que después sería menos famosa que el apellido de su fundador.",
+        "Lotario Rangoni y Alberto Ascari recibieron las dos unidades. El museo de Alfa Romeo recuerda el episodio al reconstruir la relación de Rangoni con Enzo Ferrari y con las máquinas que habían formado parte de su vida deportiva. El encargo permitía a Ferrari volver a construir para competir, incluso mientras la empresa todavía no podía presentar el nombre que terminaría identificándola."
+      ],
+      "sourceIds": [
+        "alfa",
+        "wiki"
+      ]
+    },
+    {
+      "id": "piezas",
+      "title": "Ocho cilindros a partir de una base conocida",
+      "paragraphs": [
+        "Alberto Massimino y Vittorio Bellentani participaron en el diseño del auto. El número 815 describía ocho cilindros y una cilindrada aproximada de 1,5 litros. Para desarrollar el motor se utilizaron componentes vinculados al Fiat 1100, pero el resultado necesitaba un conjunto específico para reunirlos dentro de un ocho cilindros en línea.",
+        "La carrocería de Touring envolvía un vehículo deportivo de dos plazas. No era un monoplaza de Fórmula 1 ni un antecesor que hubiera participado en el campeonato de 1950. Su importancia pertenece a la formación de Ferrari como constructor. La pequeña producción, las piezas disponibles y el plazo para la carrera delimitaban lo que podía hacerse; la máquina surgió de esa combinación de experiencia, encargo y recursos."
+      ],
+      "sourceIds": [
+        "wiki",
+        "museum"
+      ]
+    },
+    {
+      "id": "brescia",
+      "title": "La carrera terminó antes de convertirse en un resultado",
+      "paragraphs": [
+        "La prueba de 1940 utilizó un circuito de carreteras entre Brescia, Cremona y Mantua, repetido varias veces, en lugar del recorrido tradicional hasta Roma y regreso. Los dos 815 abandonaron. La afirmación de que el auto ganó la Mille Miglia confunde este debut con las victorias posteriores de Ferrari bajo otra identidad y con otras máquinas.",
+        "Italia entró en la guerra pocas semanas después. El desarrollo deportivo quedó interrumpido y Auto Avio Costruzioni se volcó hacia otras actividades industriales. Los dos autos permanecieron como testimonios de una oportunidad breve. La primera máquina de Ferrari no pudo contar una carrera completa, pero ya había mostrado que su fundador pretendía diseñar y fabricar un automóvil propio después de su etapa con Alfa Romeo."
+      ],
+      "sourceIds": [
+        "wiki",
+        "motores"
+      ]
+    },
+    {
+      "id": "supervivencia",
+      "title": "El auto que volvió a aparecer fuera de la pista",
+      "paragraphs": [
+        "La supervivencia de uno de los 815 añade otro capítulo. La documentación regional y la memoria del museo de San Martino in Rio relacionan su recuperación en 1958 con Emilio Storchi Fermi, conocido como Barighin, y Domenico Gentili. El vehículo estuvo expuesto allí durante años, en una colección formada mediante búsquedas y rescates de automóviles antiguos.",
+        "Más tarde pasó a la colección Righini en Panzano. Motor Web Museum sigue ese vínculo entre ambas colecciones y conserva referencias a su exposición. La historia del 815 no se resuelve únicamente con las vueltas de 1940: también depende de quienes lo reconocieron y conservaron cuando ya no tenía una función deportiva. Su importancia quedó reconstruida desde una máquina que sobrevivió, recordando el momento en que Ferrari había vuelto a empezar y todavía utilizaba otro nombre."
+      ],
+      "sourceIds": [
+        "regional",
+        "motores",
+        "museum"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "alfa",
+      "title": "Museo Alfa Romeo — Enzo Ferrari y Lotario Rangoni",
+      "url": "https://www.museoalfaromeo.com/it-it/news/Pages/Tributo-Enzo-Ferrari-.aspx"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Auto Avio Costruzioni 815, diseño y carrera",
+      "url": "https://en.wikipedia.org/wiki/Auto_Avio_Costruzioni_815"
+    },
+    {
+      "id": "museum",
+      "title": "Scuderia San Martino — memoria del museo y el 815",
+      "url": "https://scuderiasanmartino.com/wp-content/uploads/2020/02/Gazzetta-1.pdf"
+    },
+    {
+      "id": "regional",
+      "title": "PatER / Regione Emilia-Romagna — recuperación del 815",
+      "url": "https://bbcc.regione.emilia-romagna.it/dettaglio-n/?s_id=210246"
+    },
+    {
+      "id": "motores",
+      "title": "Motor Web Museum — colección Righini y el 815",
+      "url": "https://www.motorwebmuseum.it/luoghi/castelfranco-emilia/le-meraviglie-della-collezione-righini/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Historia de Ferrari",
+      "href": "/historia/constructors/ferrari"
+    }
+  ]
+}

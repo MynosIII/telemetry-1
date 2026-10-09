@@ -1,0 +1,127 @@
+{
+  "slug": "alfa-romeo-p2",
+  "title": "Alfa Romeo P2: la máquina que puso un laurel en el emblema",
+  "description": "Vittorio Jano llegó desde Fiat y el P2 llevó a Alfa Romeo hasta el primer Mundial de marcas. Detrás de la victoria había una fábrica que estaba cambiando de rumbo.",
+  "category": "Autos de leyenda",
+  "year": 1924,
+  "period": "1924–1930",
+  "tags": [
+    "Alfa Romeo",
+    "P2",
+    "Jano",
+    "1924",
+    "1925"
+  ],
+  "lead": "En Monza, en septiembre de 1925, Gastone Brilli Peri ganó con un Alfa Romeo P2 y aseguró para la marca el primer Campeonato Mundial de fabricantes. El triunfo llegó después de la muerte de Antonio Ascari en Francia. El laurel que apareció alrededor del emblema de Alfa Romeo conservó un éxito técnico que también había costado la vida de su piloto principal.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Jano cruzó desde Fiat",
+      "paragraphs": [
+        "Vittorio Jano llegó a Alfa Romeo en octubre de 1923 con la experiencia de los proyectos de Fiat. Nicola Romeo le encargó construir un coche que diera identidad a la fábrica. El P1 había quedado detenido después del accidente de Sivocci y la empresa buscaba otra solución para el Grand Prix. Jano diseñó un ocho cilindros en línea de dos litros con dos árboles de levas y compresor Roots.",
+        "El P2 colocó la sobrealimentación dentro de un conjunto propio. La ficha del museo describe un dispositivo de refrigeración de la mezcla que precedía conceptualmente a soluciones posteriores: una cámara aleteada en el fondo del vehículo ayudaba a bajar la temperatura. La potencia exigía controlar también el calor. Ese detalle muestra que adoptar un compresor no terminaba el problema del motor; abría otros trabajos."
+      ],
+      "sourceIds": [
+        "museo",
+        "ficha"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Cremona y Lyon mostraron su capacidad",
+      "paragraphs": [
+        "El automóvil comenzó a competir en 1924 y Ascari lo llevó a la victoria en Cremona. Giuseppe Campari ganó después el Grand Prix de Francia en Lyon, que aquel año tenía también la distinción de Grand Prix de Europa. La pista de carreteras y las largas distancias sometieron el nuevo proyecto a una comprobación más extensa que cualquier ensayo de velocidad breve.",
+        "Las fuentes del museo recuerdan 1924 como el inicio de una reputación extraordinaria del P2. La combinación de organización, pilotos y diseño dio a Alfa Romeo victorias que trascendían una sola pieza. La relación con Pirelli acompañó esa evolución: el proveedor de neumáticos utilizó los triunfos para destacar la contribución de sus cubiertas, conservando una memoria del resultado desde el punto de vista de los componentes."
+      ],
+      "sourceIds": [
+        "victorias",
+        "pirelli",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "1925: un campeonato para la fábrica",
+      "paragraphs": [
+        "El Mundial de 1925 premiaba marcas, no pilotos. Alfa Romeo ganó en Bélgica con Ascari, pero el Grand Prix de Francia tuvo un desenlace fatal cuando el piloto sufrió un accidente. La retirada del equipo de aquella carrera dejó la definición del campeonato abierta hasta Italia. La narrativa del P2 incluye por eso dos finales franceses muy diferentes: el éxito de Campari en 1924 y la pérdida de Ascari al año siguiente.",
+        "Brilli Peri ganó en Monza y Campari terminó segundo. El campeonato añadió un laurel al emblema de Alfa Romeo. El símbolo se convirtió en una manera de llevar el resultado deportivo fuera del circuito y hacia cada identificación de la marca. El prestigio del proyecto de Jano estaba ya unido a un título internacional que la fábrica podía exhibir como suyo.",
+        "Los nombres de Ascari, Campari y Brilli Peri permiten seguir distintos trabajos y momentos de la temporada. Ninguno necesita recibir retroactivamente un título individual que las reglas no otorgaban. El coche ganó un campeonato mediante una sucesión de resultados de equipo, con decisiones de participación y retirada que fueron parte del certamen."
+      ],
+      "sourceIds": [
+        "monza",
+        "mundial",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una vida que continuó después de cambiar la fórmula",
+      "paragraphs": [
+        "La limitación a litro y medio introducida en 1926 redujo el espacio del P2 en las principales pruebas de la fórmula internacional. El modelo continuó utilizado en otras carreras y fue desarrollado para nuevos compromisos. Su historia llegó hasta 1930, cuando Achille Varzi ganó la Targa Florio con una versión modificada. Un automóvil podía sobrevivir a su reglamento original encontrando otra prueba adecuada.",
+        "Esa segunda vida distingue al P2 de un coche moderno usado durante una sola temporada. El diseño acumuló modificaciones, propietarios y carreras. La victoria de Varzi en una ruta siciliana añadió resistencia y manejo a una reputación nacida en los Grand Prix. Leer la familia entera exige conservar las diferencias entre el coche de Jano de 1924 y sus evoluciones.",
+        "El laurel de 1925 permanece como el resultado más visible, pero el P2 explica también cómo se movía el conocimiento entre fábricas y cómo una empresa transformaba prestigio deportivo en identidad. Su historia empieza con un ingeniero que cambia de lugar de trabajo y termina en un modelo capaz de seguir ganando cuando ya había cambiado el mundo para el que había sido diseñado."
+      ],
+      "sourceIds": [
+        "museo",
+        "modelo",
+        "targa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museo",
+      "title": "Museo Alfa Romeo: P2 y el encargo a Vittorio Jano",
+      "url": "https://www.museoalfaromeo.com/en-us/storia/Pages/GP-P2-1925.aspx"
+    },
+    {
+      "id": "ficha",
+      "title": "Museo Alfa Romeo: desarrollo técnico del P2 (versión italiana)",
+      "url": "https://www.museoalfaromeo.com/it-it/storia/Pages/GP-P2-1925.aspx"
+    },
+    {
+      "id": "victorias",
+      "title": "Museo Alfa Romeo: Tempio delle vittorie",
+      "url": "https://www.museoalfaromeo.com/en-us/news/Pages/tempio-delle-vittorie.aspx"
+    },
+    {
+      "id": "pirelli",
+      "title": "Fondazione Pirelli: archivo de la colaboración con Alfa Romeo",
+      "url": "https://www.fondazionepirelli.org/en/historical-archive/the-monza-race-track-tales-of-drivers-from-our-archives/"
+    },
+    {
+      "id": "monza",
+      "title": "Museo Alfa Romeo: Monza y el campeonato de 1925",
+      "url": "https://www.museoalfaromeo.com/it-it/news/Pages/MonzaDays-2020.aspx"
+    },
+    {
+      "id": "mundial",
+      "title": "Wikipedia: Grand Prix y Campeonato Mundial de fabricantes de 1925",
+      "url": "https://en.wikipedia.org/wiki/1925_Grand_Prix_season"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Alfa Romeo P2",
+      "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_P2"
+    },
+    {
+      "id": "targa",
+      "title": "Wikipedia: Targa Florio 1930",
+      "url": "https://en.wikipedia.org/wiki/1930_Targa_Florio"
+    }
+  ],
+  "related": [
+    {
+      "label": "Alfa Romeo P1",
+      "href": "/articulos/alfa-romeo-p1"
+    },
+    {
+      "label": "Fiat 805",
+      "href": "/articulos/fiat-805"
+    },
+    {
+      "label": "Alfa Romeo Tipo B/P3",
+      "href": "/articulos/alfa-romeo-p3"
+    }
+  ]
+}

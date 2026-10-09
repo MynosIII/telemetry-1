@@ -1,0 +1,111 @@
+{
+  "slug": "lotus-18",
+  "title": "Lotus 18: el auto azul que le dio a Lotus su primera victoria",
+  "description": "Rob Walker y Stirling Moss llevaron el primer Lotus de motor trasero hasta el triunfo en Mónaco, antes de repetir una hazaña frente a Ferrari.",
+  "category": "Autos de leyenda",
+  "period": "1960",
+  "year": 1960,
+  "tags": [
+    "Lotus 18",
+    "Stirling Moss",
+    "Rob Walker"
+  ],
+  "lead": "Mónaco, 29 de mayo de 1960. Stirling Moss ganó con un Lotus 18 azul inscrito por Rob Walker. El constructor obtuvo su primera victoria mundialista, pero el equipo oficial todavía esperaba la suya. Una máquina vendida a un particular había mostrado hasta dónde podía llegar el nuevo proyecto de Chapman.",
+  "sections": [
+    {
+      "id": "cambio",
+      "title": "El motor fue detrás y el auto se volvió más sencillo",
+      "paragraphs": [
+        "El Type 18 fue el primer Lotus de motor central trasero. Colin Chapman dejó atrás la arquitectura de los Type 12 y 16 y buscó una máquina ligera, pequeña y menos complicada en su concepto general. La estructura seguía siendo tubular; la revolución del monocasco llegaría después, con el 25.",
+        "El diseño sirvió para Fórmula 1, Fórmula 2 y Fórmula Junior mediante versiones diferentes. Esa flexibilidad era importante para un fabricante que vendía vehículos además de competir con su equipo oficial. La versión de Grand Prix utilizó el Coventry Climax de aproximadamente 2,5 litros en 1960. Las máquinas pequeñas de Junior tenían otra mecánica y otras necesidades, aunque compartieran la identidad de familia."
+      ],
+      "sourceIds": [
+        "lotus",
+        "register",
+        "wiki"
+      ]
+    },
+    {
+      "id": "moss",
+      "title": "Un cliente encontró la oportunidad en las calles",
+      "paragraphs": [
+        "Moss y Walker habían ganado con Cooper antes de utilizar Lotus. Su alianza reunía a un piloto de primera línea y a una estructura particular que podía elegir dónde adquirir sus autos. La victoria de Mónaco de 1960 llegó bajo lluvia y terminó delante del Cooper de Bruce McLaren. Lotus consiguió un resultado que sus propios pilotos todavía no habían obtenido.",
+        "El 18 fue una herramienta para esa colaboración, no un protagonista separado del trabajo de preparación. Los neumáticos, el motor y la estrategia de carrera tenían que sostenerse durante una prueba larga entre muros. A finales de 1960 Moss ganó también el Gran Premio de Estados Unidos. El constructor empezó a reunir triunfos mientras el equipo de Walker mantenía su propia identidad y sus colores."
+      ],
+      "sourceIds": [
+        "lotus",
+        "results",
+        "register"
+      ]
+    },
+    {
+      "id": "1961",
+      "title": "Ferrari tenía potencia; Moss tenía un Lotus conocido",
+      "paragraphs": [
+        "En 1961 el reglamento pasó a litro y medio. Moss volvió a Mónaco con el 18 y derrotó a los Ferrari 156. El auto fue presentado sin los paneles laterales del habitáculo para aliviar el calor alrededor del piloto. Durante casi tres horas sostuvo una carrera que él mismo consideró entre las mejores de su vida.",
+        "La unidad identificada como chasis 912 conserva la asociación con aquella victoria. Classic Team Lotus la incluyó en el homenaje a Moss de Goodwood en 2021. El ejemplo permite seguir la historia hasta una máquina específica, en lugar de atribuir toda la campaña a cualquier Lotus 18 expuesto con una decoración parecida. Las carreras de 1960 y 1961 compartían modelo y piloto, pero no el mismo reglamento de motores."
+      ],
+      "sourceIds": [
+        "tribute",
+        "masters",
+        "wiki"
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "El nombre siguió vivo mientras llegaba el 21",
+      "paragraphs": [
+        "Lotus desarrolló el 21 para su equipo en 1961, pero los particulares continuaron utilizando el 18 y combinaciones actualizadas conocidas como 18/21. Moss ganó en Nürburgring con una de esas evoluciones. Las piezas y las carrocerías podían pasar de una etapa a otra sin que la vida del auto terminara al anunciarse un número nuevo.",
+        "La victoria oficial de Team Lotus llegó finalmente con Innes Ireland y el 21 en Watkins Glen. El 18 había abierto antes la puerta mediante Walker. Su historia explica cómo un constructor puede cambiar la categoría desde una estructura de clientes: diseñar, vender y dejar que otro equipo encuentre el primer resultado. El pequeño auto azul de Mónaco convirtió el cambio de posición del motor en el comienzo del palmarés de Lotus."
+      ],
+      "sourceIds": [
+        "lotus",
+        "wiki",
+        "results61"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lotus",
+      "title": "Lotus Cars — Type 18, versiones y campañas",
+      "url": "https://www.lotuscars.com/de-AT/lotus-story/race-cars/type-18"
+    },
+    {
+      "id": "register",
+      "title": "Classic Team Lotus — Type 18 F1 y F2",
+      "url": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-18-f1-f2/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Lotus 18, desarrollo",
+      "url": "https://en.wikipedia.org/wiki/Lotus_18"
+    },
+    {
+      "id": "tribute",
+      "title": "Classic Team Lotus — chasis 912 en el homenaje a Moss",
+      "url": "https://classicteamlotus.co.uk/en/news/posts/2021/classic-team-lotus-drivers-supporting-sir-stirling-moss-tribute-at-goodwood/"
+    },
+    {
+      "id": "masters",
+      "title": "Formula 1 — Moss y Mónaco 1961",
+      "url": "https://www.formula1.com/en/latest/article/the-top-8-monaco-masters-and-their-greatest-wins-in-the-principality.HXmBf1G8pmqkYLH6DqQMM.HXmBf1G8pmqkYLH6DqQMM"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1960",
+      "url": "https://www.formula1.com/en/results/1960/races"
+    },
+    {
+      "id": "results61",
+      "title": "Formula 1 — resultados de 1961",
+      "url": "https://www.formula1.com/en/results/1961/races"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1960",
+      "href": "/historia/seasons/1960"
+    }
+  ]
+}

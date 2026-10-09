@@ -1,0 +1,101 @@
+{
+  "slug": "brm-p57",
+  "title": "BRM P57: Old Faithful llegó al final cuando el Lotus no pudo",
+  "description": "La máquina V8 de Graham Hill convirtió la constancia del programa de Bourne en dos campeonatos y siguió corriendo después de su año decisivo.",
+  "category": "Autos de leyenda",
+  "period": "1962",
+  "year": 1962,
+  "tags": [
+    "BRM P57",
+    "BRM P578",
+    "Old Faithful",
+    "Graham Hill"
+  ],
+  "lead": "East London, 29 de diciembre de 1962. Jim Clark abandonó con una fuga de aceite y Graham Hill ganó el Gran Premio de Sudáfrica. Su BRM terminó la distancia que necesitaba. La corona de pilotos y la de constructores cerraron el año de una máquina que acabaría recibiendo un nombre apropiado: Old Faithful.",
+  "sections": [
+    {
+      "id": "bourne",
+      "title": "La fábrica había recorrido un camino difícil",
+      "paragraphs": [
+        "BRM empezó la Fórmula 1 con el enorme programa del V16 y tardó años en obtener una victoria mundialista. Después del éxito de Jo Bonnier en 1959 llegó la transición al motor central trasero. El nuevo reglamento de litro y medio obligó a revisar otra vez la respuesta del equipo. Tony Rudd trabajó en un V8 propio que pudiera competir sin depender de la misma combinación utilizada por otros británicos.",
+        "Los primeros P57 participaron con motor Climax durante 1961. La versión equipada con el BRM V8 recibió también la denominación P578. Los nombres se superponen en diferentes fuentes porque describen momentos del mismo desarrollo. El auto campeón de 1962 pertenece a esa etapa con motor propio, no al conjunto inicial que todavía utilizaba la unidad comprada a Coventry Climax."
+      ],
+      "sourceIds": [
+        "wiki",
+        "brm",
+        "decade"
+      ]
+    },
+    {
+      "id": "motor",
+      "title": "Ocho cilindros que necesitaban una máquina completa",
+      "paragraphs": [
+        "El motor tenía 1.498 centímetros cúbicos, doble árbol de levas y dos válvulas por cilindro. La ficha de BRM para Old Faithful publica 193 caballos a 10.250 revoluciones. La estructura tubular no ofrecía el mismo salto conceptual que el monocasco del Lotus 25, pero había sido desarrollada junto con una mecánica que el equipo podía preparar y modificar.",
+        "La historia del P57 ayuda a ver que la arquitectura más nueva no gana por definición. Los frenos, la refrigeración, la transmisión y la entrega de potencia debían funcionar durante todo un calendario. BRM obtuvo un conjunto capaz de hacerlo. La precisión del trabajo de Hill y la preparación de la escudería se sumaron a un auto cuya principal virtud competitiva no dependía de una sola pieza extraordinaria."
+      ],
+      "sourceIds": [
+        "brm",
+        "wiki"
+      ]
+    },
+    {
+      "id": "hill",
+      "title": "Cuatro victorias y una última carrera abierta",
+      "paragraphs": [
+        "Hill ganó en Países Bajos, Alemania e Italia antes de la resolución sudafricana. Su temporada reunió la velocidad necesaria para vencer con la regularidad que mantuvo abierto el campeonato hasta el final. Clark y Lotus llegaron con una máquina muy rápida, y la lucha en East London dejó el título condicionado a que ese auto pudiera conservar la ventaja.",
+        "La avería de Clark dio el mando a Hill. La clasificación oficial registra ochenta y dos vueltas completadas y el triunfo del BRM. El campeonato terminó confirmando un programa que había tardado mucho en convertir su ambición industrial en resultados sostenidos. El P57 no fue un ganador por una sola oportunidad afortunada: la victoria final se añadió a las tres que ya había obtenido durante el año."
+      ],
+      "sourceIds": [
+        "hill",
+        "results",
+        "wiki"
+      ]
+    },
+    {
+      "id": "fiel",
+      "title": "La misma máquina todavía tenía más kilómetros por delante",
+      "paragraphs": [
+        "BRM conserva en su documentación la trayectoria posterior de Old Faithful. El auto siguió asociado a la escudería oficial, a Scuderia Centro Sud y a Maurice Trintignant durante las temporadas siguientes. La marca lo identifica entre los monoplazas con mayor recorrido de su época, con más de veinte mil millas acumuladas en competición.",
+        "La corona no terminó su vida útil. Como otros vehículos de aquella Fórmula 1, pudo cambiar de manos y permanecer en parrillas donde coexistían desarrollos recientes con máquinas de temporadas anteriores. Esa continuidad dio sentido al sobrenombre: una estructura competitiva y conocida todavía podía servir a otros pilotos. El P57 guarda el momento de la victoria de Hill, pero también una historia de trabajo repetido que continuó cuando las grandes fotografías del campeonato ya habían sido tomadas."
+      ],
+      "sourceIds": [
+        "brm",
+        "decade",
+        "wiki"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "brm",
+      "title": "BRM — P578 Old Faithful y su trayectoria",
+      "url": "https://www.britishracingmotors.co.uk/cars/"
+    },
+    {
+      "id": "decade",
+      "title": "BRM — historia de los años sesenta",
+      "url": "https://www.britishracingmotors.co.uk/1960-2/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — BRM P57 y P578, desarrollo",
+      "url": "https://en.wikipedia.org/wiki/BRM_P57"
+    },
+    {
+      "id": "hill",
+      "title": "Formula 1 — Graham Hill",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-graham-hill.NUqzbttsJ2gsuGtW9PzNG"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — GP sudafricano de 1962",
+      "url": "https://www.formula1.com/en/results/1962/races/204/south-africa/race-result"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1962",
+      "href": "/historia/seasons/1962"
+    }
+  ]
+}

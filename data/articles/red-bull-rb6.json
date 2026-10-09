@@ -1,0 +1,119 @@
+{
+  "slug": "red-bull-rb6",
+  "title": "Red Bull RB6: el campeón que chocó contra su propio compañero",
+  "description": "El primer doble título de Red Bull nació de un coche rápido y una temporada mucho menos sencilla que sus cifras de clasificación.",
+  "year": 2010,
+  "period": "2010",
+  "tags": [
+    "Red Bull RB6",
+    "Sebastian Vettel",
+    "Mark Webber",
+    "Adrian Newey"
+  ],
+  "lead": "En Istanbul Park, el 30 de mayo de 2010, los dos Red Bull chocaron cuando disputaban la primera posición. Sebastian Vettel quedó fuera y Mark Webber perdió la posibilidad de ganar. El RB6 tenía velocidad para dominar, pero su campeonato no iba a ser una marcha tranquila.",
+  "sections": [
+    {
+      "id": "turquia",
+      "title": "La velocidad también acercaba a los rivales internos",
+      "paragraphs": [
+        "Vettel intentó superar a Webber y el contacto cambió la carrera. McLaren consiguió el doblete, con Lewis Hamilton por delante de Jenson Button. El incidente dejó una imagen decisiva de la campaña: una máquina capaz de situar a sus dos pilotos delante podía convertir esa misma proximidad en un riesgo deportivo.",
+        "El RB6 había heredado el impulso del RB5, con el que Red Bull consiguió sus primeras victorias en 2009. Adrian Newey encabezaba un proyecto que ya se había vuelto un candidato serio al campeonato. La nueva temporada exigía ir más allá: repetir velocidad, conservar fiabilidad y convertir las posiciones de salida en resultados. La competencia interna agregó una dificultad que ninguna superficie aerodinámica podía resolver por sí sola."
+      ],
+      "sourceIds": [
+        "choque",
+        "video",
+        "historia"
+      ]
+    },
+    {
+      "id": "escape",
+      "title": "Encontrar trabajo para el aire del escape",
+      "paragraphs": [
+        "Durante las pruebas previas a 2010, el RB6 cambió la posición de sus salidas de escape y las acercó a la zona del fondo. Newey explicó posteriormente que el equipo había considerado esos gases una oportunidad poco aprovechada. Su energía podía contribuir al flujo alrededor de las ruedas traseras y al trabajo del difusor.",
+        "La solución reunía aerodinámica e instalación mecánica en una zona especialmente exigente por las temperaturas. El RB6 combinaba el doble difusor con la utilización del escape para reforzar el flujo. No era el mismo concepto que la incorporación de un canal adicional al fondo: las dos técnicas podían coexistir, pero respondían a mecanismos diferentes. El desarrollo posterior de los difusores soplados amplió una dirección que aquel coche ayudó a recuperar."
+      ],
+      "sourceIds": [
+        "newey"
+      ]
+    },
+    {
+      "id": "clasificacion",
+      "title": "Quince poles no eran quince victorias",
+      "paragraphs": [
+        "Red Bull consiguió quince poles en diecinueve grandes premios. El RB6 ganó nueve carreras: cinco con Vettel y cuatro con Webber. La diferencia entre ambas cuentas muestra por qué el campeonato mantuvo incertidumbre. La clasificación medía la velocidad de una vuelta; los puntos exigían conservarla entre tráfico, averías, decisiones y condiciones cambiantes.",
+        "El motor Renault V8 de 2,4 litros formaba parte de una máquina que hizo de la carga aerodinámica una fortaleza notable. La historia oficial del equipo identifica al RB6 como su primer coche doble campeón. Al leer esa ficha junto a los resultados, conviene mantener separados los datos de rendimiento y el relato de la campaña: el dominio potencial del monoplaza no produjo una secuencia igualmente dominante de victorias."
+      ],
+      "sourceIds": [
+        "resultados",
+        "ficha",
+        "historia"
+      ]
+    },
+    {
+      "id": "abudabi",
+      "title": "El título llegó en la última carrera",
+      "paragraphs": [
+        "Vettel ganó en Abu Dabi y obtuvo su primer campeonato mundial de pilotos. Había llegado a la última carrera detrás de Fernando Alonso y de Webber en puntos, de modo que el desenlace dependía de más de su propia victoria. Red Bull ya había asegurado el campeonato de constructores en Brasil, pero la disputa individual continuó abierta hasta Yas Marina.",
+        "El RB6 convirtió al equipo en campeón sin borrar las grietas de su temporada. Turquía permaneció como una advertencia, y la última carrera aportó el desenlace deportivo. Entre ambas, el coche mostró el poder de un diseño que hacía trabajar juntos chasis, suspensión, fondo y escape. Su historia es más interesante que una fila de quince poles: un proyecto extraordinariamente rápido tuvo que atravesar una campaña donde su propia fuerza generaba también parte de sus problemas."
+      ],
+      "sourceIds": [
+        "pilotos",
+        "resultados",
+        "historia",
+        "ficha"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "choque",
+      "title": "Formula 1: Webber recuerda su rivalidad con Vettel",
+      "url": "https://www.formula1.com/en/latest/article/f1-unscripted-with-henieken-webber-reveals-his-biggest-regret-over-multi-21.1O445nvLZAUB5x7X5aJUrN"
+    },
+    {
+      "id": "video",
+      "title": "Formula 1: imágenes del choque de Turquía 2010",
+      "url": "https://www.formula1.com/en/video/all-the-angles-webber-and-vettel-collide-at-turkey-2010.1687528164377435482"
+    },
+    {
+      "id": "newey",
+      "title": "Autosport: Newey explica el difusor soplado del RB6",
+      "url": "https://www.autosport.com/f1/news/f1-2009-13-part-four-the-exhaust-blown-diffuser-5102945/5102945/"
+    },
+    {
+      "id": "ficha",
+      "title": "Red Bull Racing: RB6",
+      "url": "https://www.redbullracing.com/int-en/cars/rb6"
+    },
+    {
+      "id": "historia",
+      "title": "Formula 1: Red Bull, temporada por temporada",
+      "url": "https://www.formula1.com/en/information/red-bull-racing-year-by-year.5gsBMoMf3DhOSBOJ8Cx8Bi"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2010",
+      "url": "https://www.formula1.com/en/results/2010/races"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 2010",
+      "url": "https://www.formula1.com/en/results/2010/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Red Bull",
+      "href": "/historia/constructors/red-bull"
+    },
+    {
+      "label": "Temporada 2010",
+      "href": "/historia/seasons/2010"
+    },
+    {
+      "label": "Red Bull RB11",
+      "href": "/articulos/red-bull-rb11"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

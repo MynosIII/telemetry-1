@@ -1,0 +1,95 @@
+{
+  "slug": "brabham-bt34",
+  "title": "Brabham BT34: la pinza de langosta que puso a Reutemann en pole",
+  "description": "El último diseño de Tauranac para Brabham tuvo una única unidad, un morro inconfundible y una segunda vida inesperada en 1972.",
+  "category": "Autos de leyenda",
+  "period": "1971",
+  "year": 1971,
+  "tags": [
+    "Brabham BT34",
+    "Ron Tauranac",
+    "Carlos Reutemann",
+    "Graham Hill"
+  ],
+  "lead": "Buenos Aires, enero de 1972. Carlos Reutemann debutó en el Mundial y consiguió la pole con un Brabham BT34. Delante de sus ruedas se extendían dos cuerpos de radiadores unidos por el alerón. El auto parecía una langosta; aquella primera clasificación del argentino lo hizo parecer también una amenaza.",
+  "sections": [
+    {
+      "id": "tauranac",
+      "title": "El equipo que continuó sin Jack",
+      "paragraphs": [
+        "Jack Brabham dejó de competir al terminar 1970. Ron Tauranac pasó a dirigir el futuro inmediato de la escudería y contrató a Graham Hill para acompañar el cambio. El BT34 fue su último diseño para Motor Racing Developments. Tim Schenken debía seguir usando los BT33 porque del nuevo auto se construyó una sola unidad.",
+        "El modelo era convencional en buena parte de su arquitectura: monocasco, motor Cosworth DFV y transmisión Hewland. La parte más llamativa resolvía una pregunta que preocupaba a toda la parrilla: dónde poner los radiadores para abandonar el gran morro frontal. Lotus había llevado los suyos a los laterales; Tauranac los colocó en dos volúmenes delante de las ruedas delanteras."
+      ],
+      "sourceIds": [
+        "orc",
+        "wiki"
+      ]
+    },
+    {
+      "id": "morro",
+      "title": "Una solución de refrigeración que dio identidad al auto",
+      "paragraphs": [
+        "Los cuerpos exteriores dejaban un espacio central para un alerón aproximadamente del ancho del habitáculo. Su forma acabó produciendo el apodo de pinza de langosta. No eran radiadores simplemente colgados de una lámina de metal: se alojaban dentro de carenados que organizaban la entrada y salida del aire. La apariencia extraña procedía de una decisión real de disposición mecánica.",
+        "La suspensión posterior conservaba el planteo del BT33. La caja FG400 permitía reducir peso respecto a la transmisión anterior. El BT34 era, así, una combinación de continuidad y cambio, no una colección de ocurrencias desligadas entre sí. Su singularidad visual volvió fácil recordar el auto, aunque los detalles de transmisión y suspensión explicaban también la forma en que Tauranac intentaba hacerlo competitivo."
+      ],
+      "sourceIds": [
+        "orc",
+        "wiki"
+      ]
+    },
+    {
+      "id": "hill",
+      "title": "Una victoria antes del cambio de propietario",
+      "paragraphs": [
+        "Graham Hill ganó el International Trophy de Silverstone en 1971, una carrera no puntuable de Fórmula 1. La victoria fue la última del británico en esta categoría. La campaña mundialista del BT34 resultó mucho menos convincente, y Brabham pasó por una etapa de incertidumbre mientras buscaba mantener su lugar frente a equipos con proyectos más estables. Su historial de chasis conserva la secuencia de esas apariciones, desde la Race of Champions hasta los Grandes Premios europeos y las visitas al continente americano.",
+        "Bernie Ecclestone compró la escudería y encargó a Ralph Bellamy revisar el BT34 y continuar el nuevo BT37. El cambio de dirección no hizo desaparecer la única unidad del auto. Carlos Reutemann la recibió para comenzar 1972. La misma máquina que había atravesado la campaña difícil de Hill se convirtió en el vehículo para una presentación que sorprendería al paddock."
+      ],
+      "sourceIds": [
+        "chassis",
+        "wiki",
+        "orc"
+      ]
+    },
+    {
+      "id": "argentina",
+      "title": "La primera fila no era una garantía de llegada",
+      "paragraphs": [
+        "La pole de Reutemann en Argentina acompañó un debut de enorme impacto. En carrera, el desgaste de neumáticos le quitó la posibilidad de transformar esa posición inicial en un podio: terminó séptimo. El resultado dejó dos historias dentro de un fin de semana, la velocidad capaz de llevarlo al primer puesto de salida y el trabajo que faltaba para sostenerla durante toda la distancia.",
+        "El argentino ganó después la prueba brasileña no puntuable con el BT34. Wilson Fittipaldi también condujo el auto durante 1972 y, más tarde, la unidad fue a la colección de los hermanos Fittipaldi en Brasil. Regresó al Reino Unido para competir en históricos. El BT34 había nacido como una apuesta de Tauranac, sobrevivió al cambio de dueño y terminó conservando una memoria especialmente argentina: el comienzo de Reutemann, delante de todos, en su primera clasificación mundialista."
+      ],
+      "sourceIds": [
+        "chassis",
+        "results",
+        "wiki"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "orc",
+      "title": "OldRacingCars / Allen Brown — Brabham BT34",
+      "url": "https://www.oldracingcars.com/brabham/bt34/"
+    },
+    {
+      "id": "chassis",
+      "title": "OldRacingCars — historial del BT34/1",
+      "url": "https://www.oldracingcars.com/brabham/bt34/1"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Brabham BT34, desarrollo y resultados",
+      "url": "https://en.wikipedia.org/wiki/Brabham_BT34"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — clasificación de pilotos de 1972",
+      "url": "https://www.formula1.com/en/results/1972/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1971",
+      "href": "/historia/seasons/1971"
+    }
+  ]
+}

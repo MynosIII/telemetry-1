@@ -1,0 +1,101 @@
+{
+  "slug": "mclaren-m7c",
+  "title": "McLaren M7C: de los alerones altos al primer podio de Reutemann",
+  "description": "La única unidad del modelo acompañó a Bruce McLaren en 1969, pasó por Surtees y Bonnier y terminó en Buenos Aires antes del debut mundialista de Lole.",
+  "category": "Autos de leyenda",
+  "period": "1969",
+  "year": 1969,
+  "tags": [
+    "McLaren M7C",
+    "Bruce McLaren",
+    "Carlos Reutemann",
+    "Jo Bonnier"
+  ],
+  "lead": "Buenos Aires, 24 de enero de 1971. Carlos Reutemann terminó tercero en una carrera de Fórmula 1 no puntuable con un McLaren M7C inscrito por Jo Bonnier. Faltaba un año para su pole mundialista con Brabham. El auto naranja que lo llevó al podio ya había tenido varias vidas.",
+  "sections": [
+    {
+      "id": "familia",
+      "title": "El M7 exitoso no era una sola máquina",
+      "paragraphs": [
+        "McLaren había obtenido sus primeras grandes victorias de Fórmula 1 con el M7A en 1968. La familia continuó mediante revisiones y nuevas versiones. El M7C apareció en el International Trophy de Silverstone en marzo de 1969, conducido por Bruce McLaren. OldRacingCars identifica una única unidad construida, M7C/1, que permite seguir la trayectoria del modelo con una precisión poco habitual.",
+        "Su estructura revisada conservaba el Cosworth DFV de tres litros y la transmisión característica del conjunto británico de la época. Bruce utilizó el nuevo auto mientras otros M7 actualizados seguían dentro de la campaña del equipo. La sucesión de letras no representaba que toda la parrilla de McLaren cambiara de un día para el otro: diferentes versiones podían compartir el mismo fin de semana."
+      ],
+      "sourceIds": [
+        "orc",
+        "book",
+        "chassis"
+      ]
+    },
+    {
+      "id": "alas",
+      "title": "Una fotografía extraña pertenecía a una etapa breve",
+      "paragraphs": [
+        "El M7C quedó asociado a los grandes alerones elevados de 1969, tanto delante como detrás. Los equipos buscaban aplicar las fuerzas aerodinámicas directamente sobre zonas relacionadas con las ruedas y la suspensión. Aquella experimentación produjo formas espectaculares, pero también estructuras frágiles y episodios que llevaron a modificar las reglas.",
+        "El auto siguió compitiendo después de que desaparecieran esos dispositivos altos. Reducir su historia al aspecto de una fotografía inicial hace perder la parte más larga de su campaña. La carrocería, los soportes y los alerones podían cambiar mientras el chasis seguía siendo el mismo. El M7C no fue desechado simplemente porque su primera forma exterior dejara de estar permitida."
+      ],
+      "sourceIds": [
+        "book",
+        "wiki",
+        "chassis"
+      ]
+    },
+    {
+      "id": "bruce",
+      "title": "Tres podios sostuvieron la temporada",
+      "paragraphs": [
+        "Bruce McLaren terminó segundo en el Gran Premio español de 1969 y tercero en Gran Bretaña y Alemania. También reunió puntos en otras carreras con el M7C. Esos resultados contribuyeron a su tercer lugar en la clasificación anual de pilotos, una campaña de regularidad detrás de los protagonistas principales del título.",
+        "La máquina no ganó un Gran Premio mundialista, pero tampoco puede describirse como un experimento sin resultados. Su único chasis recorrió escenarios diferentes y permitió a su constructor seguir compitiendo mientras el equipo desarrollaba otros proyectos. McLaren trabajaba además en Can-Am, una actividad que convivía con la Fórmula 1 y daba a la fábrica una agenda mucho más amplia que la de un solo auto de Grand Prix."
+      ],
+      "sourceIds": [
+        "chassis",
+        "standings",
+        "book"
+      ]
+    },
+    {
+      "id": "reutemann",
+      "title": "El mismo chasis pasó por otros equipos",
+      "paragraphs": [
+        "John Surtees utilizó el M7C en 1970 antes de desarrollar los monoplazas de su propia escudería. Después pasó a Jo Bonnier. El registro de carreras lo sitúa en Buenos Aires en 1971 con Reutemann, donde logró aquel tercer puesto no puntuable. La secuencia une a un fundador de equipo, a un campeón mundial y al argentino que todavía preparaba su entrada al campeonato.",
+        "La máquina siguió apareciendo con Bonnier durante 1971. OldRacingCars la registra posteriormente dentro de McLaren Racing, después de una trayectoria que también incluyó actividad fuera de los Grandes Premios principales. El M7C es una historia de continuidad material: cambiaban el piloto, la inscripción y el aspecto, pero el mismo chasis conservaba los recorridos anteriores. Su episodio argentino permite verlo desde una perspectiva menos habitual, como una de las máquinas con las que Reutemann empezó a demostrar su capacidad frente a un público de Fórmula 1."
+      ],
+      "sourceIds": [
+        "chassis",
+        "orc"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "orc",
+      "title": "OldRacingCars — McLaren M7C, unidad construida",
+      "url": "https://www.oldracingcars.com/mclaren/m7c/"
+    },
+    {
+      "id": "chassis",
+      "title": "OldRacingCars — historial del M7C/1",
+      "url": "https://www.oldracingcars.com/mclaren/m7c/1"
+    },
+    {
+      "id": "book",
+      "title": "William Taylor / Motor Sport — historia autorizada de la familia M7",
+      "url": "https://www.motorsportmagazine.com/archive/article/august-2008/64/m7a-mclarens-lucky-number/"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — McLaren M7A y variantes",
+      "url": "https://en.wikipedia.org/wiki/McLaren_M7A"
+    },
+    {
+      "id": "standings",
+      "title": "Formula 1 — clasificación de pilotos de 1969",
+      "url": "https://www.formula1.com/en/results/1969/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1969",
+      "href": "/historia/seasons/1969"
+    }
+  ]
+}

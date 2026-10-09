@@ -1,0 +1,113 @@
+{
+  "slug": "alfa-romeo-tipo-a",
+  "title": "Alfa Romeo Tipo A: dos motores bajo un solo conductor",
+  "description": "Dos motores y dos transmisiones en una sola máquina. Alfa Romeo buscó una respuesta extrema antes de encontrar otro camino con el Tipo B.",
+  "category": "Autos de leyenda",
+  "year": 1931,
+  "period": "1931",
+  "tags": [
+    "Alfa Romeo",
+    "Tipo A",
+    "6C 1750",
+    "Jano",
+    "Campari",
+    "1931"
+  ],
+  "lead": "En agosto de 1931, Giuseppe Campari ganó la Coppa Acerbo con un automóvil que escondía dos motores de seis cilindros. El Alfa Romeo Tipo A había llegado a Monza meses antes con dificultades técnicas y un accidente mortal. La victoria en Pescara mostró que la idea podía funcionar, pero no convirtió su compleja mecánica en el futuro elegido por Vittorio Jano.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "La potencia podía sumarse de otra manera",
+      "paragraphs": [
+        "Jano construyó el Tipo A reuniendo dos motores 6C de 1.752 centímetros cúbicos. Cada uno tenía su propia caja de cambios y su alimentación sobrealimentada. La ficha del Museo Alfa Romeo conserva esa duplicación: dos embragues, dos transmisiones y una potencia conjunta anunciada de 230 caballos. La ambición era aprovechar unidades conocidas para producir un coche mucho más fuerte.",
+        "El conductor ocupaba una sola plaza central. La solución convirtió al Tipo A en el primer monoplaza de Alfa Romeo, pero los automóviles de una plaza ya tenían antecedentes en otras competencias. Su importancia está dentro de la evolución de la marca. La carrocería reunió a un solo piloto con una mecánica doble, y esa paradoja visible explica el interés que sigue despertando."
+      ],
+      "sourceIds": [
+        "museo",
+        "modelo"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Monza necesitaba diez horas de resistencia",
+      "paragraphs": [
+        "El Grand Prix de Italia de 1931 inauguró el Campeonato de Europa y exigía una duración de diez horas. Durante los entrenamientos, Luigi Arcangeli sufrió un accidente mortal con el Tipo A. El programa siguió con otros automóviles y la nueva máquina no logró transformar su potencia en la regularidad que requería una prueba tan larga.",
+        "Los 8C 2300 de Alfa Romeo, preparados también para competición, obtuvieron el éxito principal de aquella jornada. Esa comparación interna muestra una empresa que probaba distintas respuestas simultáneamente. El Tipo A no vivía en una secuencia donde cada coche reemplazaba por completo al anterior; debía justificar su utilidad junto a proyectos que podían ser menos complejos y resultar más resistentes.",
+        "La dificultad consistía en coordinar mecanismos duplicados y mantener un conjunto pesado bajo control. El museo anuncia 930 kilogramos, muy lejos de las cifras extremadamente bajas que a veces aparecen en descripciones populares. Cada ganancia de motor traía consigo material adicional y más puntos que requerían atención."
+      ],
+      "sourceIds": [
+        "temporada",
+        "modelo",
+        "museo"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Campari encontró la victoria en Pescara",
+      "paragraphs": [
+        "La Coppa Acerbo ofreció en agosto una ocasión distinta. Campari condujo el Tipo A hasta la victoria en el circuito de carreteras de Pescara. La reconstrucción de The Golden Era registra doce vueltas de un trazado largo, con una duración mucho menor que la prueba de diez horas de Monza. Una misma máquina podía mostrar posibilidades diferentes al cambiar la exigencia del evento.",
+        "El resultado de Campari evitó que el coche quedara asociado únicamente al accidente y al abandono. La clasificación conserva también otras Alfa Romeo y rivales Bugatti y Maserati. No fue una demostración solitaria: el Tipo A ganó una carrera con oposición. El hecho de que el proyecto no tuviera continuación directa no elimina ese resultado, ni obliga a presentarlo como una revolución universal."
+      ],
+      "sourceIds": [
+        "acerbo",
+        "clasificacion"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Jano eligió reorganizar antes que duplicar",
+      "paragraphs": [
+        "En 1932 apareció el Tipo B, conocido como P3. El nuevo monoplaza utilizó un solo ocho cilindros y una transmisión particular que dejaba espacio para situar al piloto más bajo. La experiencia del Tipo A formó parte del problema que la fábrica había intentado resolver, pero el siguiente diseño tomó otro camino. La eficiencia del conjunto adquirió más importancia que la simple suma de dos propulsores.",
+        "El Tipo A conserva en sus mecanismos una forma concreta de pensar la competición: aprovechar motores disponibles y elevar la potencia mientras se encontraba una carrocería adecuada. También documenta el coste de esa solución en peso, coordinación y resistencia. El coche resulta interesante precisamente porque una victoria no bastó para convertirlo en la opción principal.",
+        "La pieza presentada por el museo permite inspeccionar lo que en una fotografía histórica apenas se reconoce. La evolución hacia el P3 no borró el intento anterior: dejó un capítulo corto con un resultado real, una pérdida humana y un problema técnico identificable. La historia del monoplaza también se construyó mediante máquinas cuya mejor idea terminó abandonada."
+      ],
+      "sourceIds": [
+        "museo",
+        "modelo",
+        "tipob"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "museo",
+      "title": "Museo Alfa Romeo: ficha técnica del GP Tipo A",
+      "url": "https://www.museoalfaromeo.com/en-us/collezione/Pages/GP-Tipo-A.aspx"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Alfa Romeo Tipo A",
+      "url": "https://en.wikipedia.org/wiki/Alfa_Romeo_Tipo_A"
+    },
+    {
+      "id": "temporada",
+      "title": "Wikipedia: Grand Prix de la temporada 1931",
+      "url": "https://en.wikipedia.org/wiki/1931_Grand_Prix_season"
+    },
+    {
+      "id": "acerbo",
+      "title": "The Golden Era: Coppa Acerbo de 1931",
+      "url": "https://www.goldenera.fi/gp3113.htm"
+    },
+    {
+      "id": "clasificacion",
+      "title": "Wikipedia: clasificación de la Coppa Acerbo de 1931",
+      "url": "https://it.wikipedia.org/wiki/Coppa_Acerbo_1931"
+    },
+    {
+      "id": "tipob",
+      "title": "Museo Alfa Romeo: GP Tipo B",
+      "url": "https://www.museoalfaromeo.com/en-us/collezione/Pages/GP-Tipo-B.aspx"
+    }
+  ],
+  "related": [
+    {
+      "label": "Alfa Romeo Tipo B/P3",
+      "href": "/articulos/alfa-romeo-p3"
+    },
+    {
+      "label": "Maserati V4",
+      "href": "/articulos/maserati-v4"
+    }
+  ]
+}

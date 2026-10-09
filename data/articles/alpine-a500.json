@@ -1,0 +1,100 @@
+{
+  "slug": "alpine-a500",
+  "title": "Alpine A500: el laboratorio negro que precedió a la Renault amarilla",
+  "description": "André de Cortanze y Jean-Pierre Jabouille pusieron el V6 turbo en pista antes de que Renault lo presentara a los Grandes Premios.",
+  "category": "Autos de leyenda",
+  "period": "1976",
+  "year": 1976,
+  "tags": [
+    "Alpine A500",
+    "André de Cortanze",
+    "Jean-Pierre Jabouille",
+    "Renault"
+  ],
+  "lead": "En 1976, Jean-Pierre Jabouille condujo un monoplaza Alpine negro por distintos circuitos de pruebas. El auto no estaba buscando puntos: era el A500, el laboratorio con el que Renault intentaba comprobar si un motor turbo de litro y medio podía convertirse en una máquina de Fórmula 1.",
+  "sections": [
+    {
+      "id": "dieppe",
+      "title": "Una fábrica de deportivos también sabía construir monoplazas",
+      "paragraphs": [
+        "Alpine tenía experiencia de competición mucho antes del A500. Su actividad reunió rally, resistencia y diferentes investigaciones de monoplazas. Renault había integrado la marca dentro de su estructura y el trabajo de Alpine podía alimentar proyectos que después aparecerían con otra identidad. La Fórmula 1 no nació allí de un taller ajeno a las carreras.",
+        "André de Cortanze dirigía la investigación y el desarrollo de Alpine. Su programa para el A500 necesitaba un vehículo en el que ensayar un motor turbo dentro de las dimensiones y exigencias de un monoplaza. La historia oficial de Alpine sitúa esa máquina entre los antecedentes del futuro Renault de Grand Prix. Era una etapa de fabricación y prueba, no una escudería que hubiera disputado ya una temporada completa."
+      ],
+      "sourceIds": [
+        "alpine",
+        "wiki"
+      ]
+    },
+    {
+      "id": "motor",
+      "title": "El banco de ensayos necesitaba salir a la pista",
+      "paragraphs": [
+        "Renault Classic documenta la secuencia del motor de 1.500 centímetros cúbicos: primero los ensayos en banco, después su instalación en un prototipo Alpine Renault A442 y finalmente su uso en el A500 durante 1976. La carrocería deportiva y el monoplaza ofrecían escenarios distintos para el mismo proceso de investigación.",
+        "En un circuito aparecían condiciones que un registro estático de potencia no podía reproducir completamente. El piloto debía frenar, volver a acelerar y utilizar el cambio mientras el conjunto recibía aire según la velocidad y la posición del vehículo. La respuesta del turbocompresor, la temperatura y la resistencia de los componentes tenían que observarse en ese entorno. El A500 convertía un proyecto de motor en un auto que podía mostrar sus problemas durante una vuelta."
+      ],
+      "sourceIds": [
+        "renault",
+        "wiki"
+      ]
+    },
+    {
+      "id": "jabouille",
+      "title": "Un piloto con otra tarea además de conducir rápido",
+      "paragraphs": [
+        "Jabouille tenía una relación de trabajo estrecha con el desarrollo de monoplazas y motores. En 1976 ganó el campeonato europeo de Fórmula 2, mientras participaba en la investigación que preparaba el siguiente paso. Renault necesitaba de él información utilizable para revisar la máquina, además de los tiempos que pudiera registrar.",
+        "El archivo de Alpine describe ensayos en Francia, España y Sudáfrica durante 1976 y 1977. Esos desplazamientos muestran un programa que buscaba someter el auto a entornos diferentes. La máquina negra podía parecerse a un participante de Grand Prix, pero su resultado más importante era otra clase de registro: lo que cada sesión permitía aprender antes de llevar el proyecto a una carrera."
+      ],
+      "sourceIds": [
+        "german",
+        "wiki",
+        "renault"
+      ]
+    },
+    {
+      "id": "identidad",
+      "title": "La experiencia cambió de nombre antes de competir",
+      "paragraphs": [
+        "La creación de Renault Sport reunió Alpine y Gordini dentro de una organización común. El trabajo del A500 alimentó el RS01, que debutó en el Gran Premio británico de 1977 con Jabouille. El monoplaza amarillo tuvo que resolver todavía muchas dificultades y pasó a ser conocido como la tetera amarilla por sus averías. El laboratorio había preparado la entrada, pero no había terminado todos los problemas.",
+        "La victoria Renault llegó en Dijon en 1979 con el sucesor RS10. El A500 conserva un lugar anterior y menos visible en esa cadena. No necesita una clasificación mundialista propia para demostrar su importancia: fue el vehículo que permitió salir del banco de motores y comprobar la idea en movimiento. Bajo la pintura negra había una etapa de trabajo que después quedó detrás de otros nombres, hasta que Alpine volvió a recordarla como parte de su propia historia."
+      ],
+      "sourceIds": [
+        "renault",
+        "museum",
+        "alpine"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "alpine",
+      "title": "Alpine Media — sesenta años de historia y André de Cortanze",
+      "url": "https://media.alpinecars.com/celebrating-60-years-of-alpine/?lang=fra"
+    },
+    {
+      "id": "german",
+      "title": "Alpine Presse — pruebas del A500 en 1976–1977",
+      "url": "https://presse.alpinecars.de/alpine-zuruck-im-motorsport-kultmarke-setzt-traditionsreiche-rennhistorie-fort/?lang=deu"
+    },
+    {
+      "id": "renault",
+      "title": "Renault Classic — el A500 como prototipo laboratorio",
+      "url": "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Alpine A500, desarrollo y bibliografía",
+      "url": "https://fr.wikipedia.org/wiki/Alpine_A500"
+    },
+    {
+      "id": "museum",
+      "title": "Renault The Originals — el sucesor RS01",
+      "url": "https://theoriginals.renault.com/es/f1-rs-01"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1976",
+      "href": "/historia/seasons/1976"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "mercedes-w11",
+  "title": "Mercedes W11: el campeón negro que llegó con un neumático roto",
+  "description": "DAS, nueva arquitectura posterior y una temporada excepcional detrás del séptimo título de Hamilton.",
+  "year": 2020,
+  "period": "2020",
+  "tags": [
+    "Mercedes W11",
+    "Lewis Hamilton",
+    "Valtteri Bottas",
+    "DAS"
+  ],
+  "lead": "Silverstone, 2 de agosto de 2020: Lewis Hamilton recorrió el último tramo del Gran Premio de Gran Bretaña con el neumático delantero izquierdo desinflado. El W11 cruzó primero la meta, en una imagen que unía su enorme ventaja con la fragilidad inevitable de cualquier coche.",
+  "sections": [
+    {
+      "id": "silverstone",
+      "title": "La última vuelta tenía otra velocidad",
+      "paragraphs": [
+        "Hamilton había liderado la carrera desde la pole. Valtteri Bottas sufrió antes un problema de neumático y el equipo pidió al británico que redujera el ritmo. La precaución no evitó su propio fallo en la última vuelta. Quedaban kilómetros por recorrer, y Max Verstappen recortaba la diferencia detrás de él.",
+        "El análisis publicado por Formula 1 muestra cómo cambió la conducción en ese tramo. La velocidad de paso por curvas rápidas se redujo drásticamente y el margen acumulado permitió conservar la primera posición. La escena resume una verdad que las cifras de dominio pueden esconder: el W11 era extraordinariamente rápido, pero ganar seguía requiriendo interpretar una situación imprevista con una máquina que ya no respondía como al principio."
+      ],
+      "sourceIds": [
+        "vuelta",
+        "hamilton"
+      ]
+    },
+    {
+      "id": "arquitectura",
+      "title": "La evolución escondida junto a la suspensión",
+      "paragraphs": [
+        "James Allison describió tres cambios arquitectónicos importantes al presentar el W11: trabajo en el conjunto delantero, una modificación en la posición de la protección lateral superior y una disposición posterior de suspensión que abría posibilidades aerodinámicas. La intención era mantener margen de desarrollo dentro de unas reglas que cambiaban poco respecto de 2019.",
+        "El detalle posterior era especialmente importante porque suspension, transmisión y aire compartían una zona estrecha. Cambiar la organización de sus elementos permitía buscar ganancias secundarias en superficies que dependían del espacio disponible. El W11 no había nacido con un nuevo reglamento que obligara a empezar desde cero; Mercedes eligió modificar partes difíciles de alterar durante una temporada para dar continuidad a su capacidad de mejorar."
+      ],
+      "sourceIds": [
+        "presentacion"
+      ]
+    },
+    {
+      "id": "das",
+      "title": "Un volante que también se desplazaba",
+      "paragraphs": [
+        "En las pruebas de Barcelona apareció la innovación más visible: los pilotos podían tirar del volante o empujarlo. El DAS modificaba la convergencia de las ruedas delanteras mediante esa acción longitudinal. El giro convencional continuaba funcionando, pero la dirección añadía un segundo modo de actuación que despertó preguntas técnicas y reglamentarias.",
+        "Los comisarios rechazaron una protesta de Red Bull en Austria y consideraron el sistema parte de la dirección. Mercedes explicó después su utilidad para trabajar con los neumáticos en el frío de Eifel. No existe una cifra pública universal que permita atribuirle una ganancia fija por vuelta. Su interés está en la oportunidad específica que abrió dentro del funcionamiento del coche de 2020, antes de quedar prohibido para 2021."
+      ],
+      "sourceIds": [
+        "das",
+        "decision",
+        "eifel",
+        "fia"
+      ]
+    },
+    {
+      "id": "negro",
+      "title": "Un coche distinto antes de empezar a correr",
+      "paragraphs": [
+        "El W11 se presentó inicialmente plateado, pero Mercedes adoptó una base negra antes del comienzo de la temporada. El equipo vinculó el cambio con su compromiso contra el racismo y con una mayor diversidad dentro de la organización. La pandemia había retrasado y reorganizado el campeonato; cuando el coche empezó a competir en Austria, su apariencia ya transmitía otro mensaje.",
+        "Hamilton ganó once de los diecisiete grandes premios y Bottas otros dos. Mercedes conquistó su séptimo campeonato consecutivo de constructores y Hamilton igualó los siete títulos de Michael Schumacher. El W11 conserva ese balance junto a momentos donde el dominio no alcanzaba para evitar dificultades. La llegada de Silverstone permite recordarlo completo: una arquitectura formidable, una campaña histórica y un piloto que todavía tuvo que encontrar la manera de llegar cuando una rueda dejó de cumplir su función."
+      ],
+      "sourceIds": [
+        "decoracion",
+        "resultados",
+        "pilotos",
+        "constructores"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "vuelta",
+      "title": "Formula 1: análisis de la última vuelta de Silverstone 2020",
+      "url": "https://www.formula1.com/en/latest/article/data-analysis-how-impressive-was-hamiltons-performance-on-three-wheels.4o9akvkxtOT4zB2nIkkx7f"
+    },
+    {
+      "id": "hamilton",
+      "title": "Hamilton relata el fallo de neumático, agosto de 2020",
+      "url": "https://www.formula1.com/en/latest/article/hamilton-says-his-heart-nearly-stopped-when-tyre-let-go-on-last-lap.3CP3IvFNgWPVFHncTsoQHG.3CP3IvFNgWPVFHncTsoQHG"
+    },
+    {
+      "id": "presentacion",
+      "title": "Mercedes: presentación técnica del W11",
+      "url": "https://media.mercedesamgf1.com/marsF1/en/instance/ko/Herzlich-willkommen-W11-The-Mercedes-AMG-Petronas-F1-Teams-2020-car-hits-the-track-at-Silverstone.xhtml?oid=180290999"
+    },
+    {
+      "id": "das",
+      "title": "Formula 1: explicación del DAS",
+      "url": "https://www.formula1.com/en/latest/article/das-explained-what-we-know-so-far-about-mercedes-trick-new-steering-system.4vgDQ6cc20xUfhdZGT0ejB"
+    },
+    {
+      "id": "decision",
+      "title": "FIA: decisión sobre la protesta contra el DAS",
+      "url": "https://www.fia.com/sites/default/files/doc_21_-_2020_austrian_grand_prix_-_decision_-_protest_-_car_44_0.pdf"
+    },
+    {
+      "id": "eifel",
+      "title": "Mercedes explica el DAS en Eifel, declaraciones recogidas por F1",
+      "url": "https://www.formula1.com/en/latest/article/mercedes-say-das-came-into-its-own-in-cold-eifel-gp-where-it-was-used-more.49IaSk75F5iIdckHjETOYA"
+    },
+    {
+      "id": "fia",
+      "title": "FIA: el DAS no permitido para 2021",
+      "url": "https://www.fia.com/news/fia-takes-swift-action-safeguard-motor-sport-during-covid-19-pandemic"
+    },
+    {
+      "id": "decoracion",
+      "title": "Mercedes: razones de la nueva decoración negra",
+      "url": "https://www.mercedesamgf1.com/news/5-questions-about-our-new-2020-f1-livery-answered"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2020",
+      "url": "https://www.formula1.com/en/results/2020/races"
+    },
+    {
+      "id": "pilotos",
+      "title": "Formula 1: pilotos de 2020",
+      "url": "https://www.formula1.com/en/results/2020/drivers"
+    },
+    {
+      "id": "constructores",
+      "title": "Formula 1: constructores de 2020",
+      "url": "https://www.formula1.com/en/results/2020/team"
+    }
+  ],
+  "related": [
+    {
+      "label": "Mercedes",
+      "href": "/historia/constructors/mercedes"
+    },
+    {
+      "label": "Temporada 2020",
+      "href": "/historia/seasons/2020"
+    },
+    {
+      "label": "Mercedes W12",
+      "href": "/articulos/mercedes-w12"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

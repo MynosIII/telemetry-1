@@ -1,10 +1,10 @@
 {
   "slug": "lotus-monocasco-cosworth-dfv",
-  "title": "Lotus 25 y Cosworth DFV: dos revoluciones que no fueron el mismo auto",
+  "title": "Lotus: primero una caja, después un motor que sostuvo el auto",
   "description": "Cómo el monocasco de 1962 y el conjunto Lotus 49–DFV de 1967 cambiaron la estructura del monoplaza y el acceso a un motor competitivo.",
   "category": "Revoluciones técnicas",
   "period": "1962–1983",
-  "lead": "Lotus modificó dos veces la manera de construir un Fórmula 1 durante los años sesenta. Primero hizo que la piel estructural del chasis trabajara como una caja resistente. Después integró un nuevo motor en el propio camino de las cargas del auto. Fueron innovaciones relacionadas, pero separadas por cinco años y por dos modelos distintos.",
+  "lead": "Jim Clark llegó a la última carrera de 1962 con posibilidades de ser campeón. Una fuga de aceite terminó con ellas. El Lotus 25 había demostrado la velocidad de su nueva estructura, pero aún debía completar el trabajo. Cinco años después, Clark ganó en Zandvoort con otro Lotus: esta vez, una parte de la revolución estaba en el motor que sostenía la zona posterior del auto.",
   "sections": [
     {
       "id": "monocasco",
@@ -23,7 +23,7 @@
       "title": "El talento de Clark necesitaba que la máquina llegara al final",
       "paragraphs": [
         "Jim Clark fue la referencia deportiva del Lotus 25, equipado con un Coventry Climax V8 de 1,5 litros. Conviene mantener juntos esos nombres: el 25 no nació con el Cosworth DFV. Su historia pertenece al reglamento de pequeña cilindrada de comienzos de los sesenta, mientras que el DFV llegaría después de la transición a los motores de tres litros.",
-        "La temporada de 1962 mostró tanto la velocidad de la nueva estructura como sus límites. Clark perdió la oportunidad de ganar el campeonato al sufrir una fuga de aceite en la última prueba. En 1963 obtuvo siete victorias puntuables y conquistó su primer título. La secuencia recuerda una condición básica de la ingeniería deportiva: una solución rápida necesita convertirse en un sistema confiable. La invención del chasis y el trabajo posterior para sostener sus prestaciones forman parte de la misma historia."
+        "La fuga de aceite de la última carrera dejó a Clark sin el campeonato de 1962. La nueva estructura ya había mostrado velocidad; la máquina todavía tenía que llegar al final. En 1963, Clark ganó siete pruebas puntuables y obtuvo su primer título. La misma idea que había terminado una temporada con una decepción pudo sostener la siguiente. El desarrollo continuaba después del estreno, entre carreras y soluciones a problemas menos visibles que el chasis."
       ],
       "sourceIds": [
         "ctl25",
@@ -62,7 +62,7 @@
       "title": "La revolución más duradera fue poder comprarlo",
       "paragraphs": [
         "La importancia del DFV también fue industrial. Su disponibilidad para otros equipos desde 1968 dio a constructores especializados una alternativa a fabricar un motor propio. Un chasis diseñado por una escudería pequeña podía combinarse con una unidad competitiva suministrada por Cosworth. El campeonato abrió así más espacio a proyectos cuya principal especialidad era el vehículo, no la producción de motores.",
-        "Ford atribuye al DFV 155 victorias mundialistas entre 1967 y 1983. Ese total corresponde al alcance definido por esa fuente: no debe mezclarse sin explicación con derivados de la familia, otras categorías o todos los motores que llevaron la marca Ford. El monocasco del 25 cambió la estructura; el conjunto 49–DFV cambió su integración; el suministro a clientes amplió quién podía utilizar esa solución. Las tres historias están conectadas, pero conservar sus diferencias permite entender mejor por qué fueron decisivas."
+        "Ford atribuye al DFV 155 victorias mundialistas entre 1967 y 1983. El dato pertenece a ese motor y a ese periodo; sus derivados seguirían otra historia. El monocasco había cambiado la manera de construir el Lotus. El 49 añadió una forma distinta de integrar el propulsor. Cuando otros equipos pudieron comprar el DFV, aquella combinación dejó de pertenecer a una sola fábrica. Lo que comenzó con dos decisiones de diseño acabó transformando quién podía construir un auto competitivo."
       ],
       "sourceIds": [
         "ctl-dfv",
@@ -136,5 +136,7 @@
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
     "caption": "El Lotus 49: la integración del motor Ford-Cosworth DFV fue uno de sus rasgos técnicos decisivos.",
     "alt": "El Lotus 49: la integración del motor Ford-Cosworth DFV fue uno de sus rasgos técnicos decisivos."
-  }
+  },
+  "year": 1962,
+  "tags": []
 }

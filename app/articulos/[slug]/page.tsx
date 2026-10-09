@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CircuitArticlePhoto } from "@/components/CircuitArticlePhoto";
 import { articleBySlug, editorialArticles, readingMinutes } from "@/lib/editorial-articles";
+import { eraForYear } from "@/lib/article-eras";
 import "../../articles.css";
 
 type Props = { params: Promise<{slug:string}> };
@@ -23,18 +24,17 @@ export default async function ArticlePage({params}:Props) {
   return <main className="editorial-page" id="top"><SiteHeader />
     <article>
       <header className="editorial-article-hero"><Link className="editorial-back" href="/articulos">← Todos los artículos</Link>
-        <p className="editorial-category">{article.category} · {article.period}</p><h1>{article.title}</h1>
+        <p className="editorial-category">{article.category}</p><Link className="editorial-date-tag" href={`/articulos?epoca=${eraForYear(article.year).id}#biblioteca`} aria-label={`Más historias de ${eraForYear(article.year).label}`}>{article.period} · Ver esta época ↗</Link><h1>{article.title}</h1>
         <p className="editorial-deck">{article.description}</p><p className="editorial-byline">Redacción Telemetry One · {readingMinutes(article)} min de lectura · Español</p>
       </header>
       <div className="editorial-reading-layout">
-        <aside className="editorial-toc"><nav aria-label="En este artículo"><p>EN ESTE ARTÍCULO</p><ol>{article.sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.title}</a></li>)}</ol><a href="#fuentes">Fuentes y referencias</a></nav></aside>
+        <aside className="editorial-toc"><details><summary>En esta historia</summary><nav aria-label="En esta historia"><ul>{article.sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.title}</a></li>)}</ul><a href="#fuentes">Fuentes para seguir leyendo</a></nav></details></aside>
         <div className="editorial-prose"><p className="editorial-lead">{article.lead}</p>
           {article.image && <CircuitArticlePhoto photo={article.image} />}
-          {article.sections.map((section,index) => <section key={section.id} id={section.id} className="editorial-chapter"><p className="editorial-chapter-number">{String(index+1).padStart(2,"0")}</p><h2>{section.title}</h2>
+          {article.sections.map(section => <section key={section.id} id={section.id} className="editorial-chapter"><h2>{section.title}</h2>
             {section.paragraphs.map((paragraph,i) => <p key={i}>{paragraph}</p>)}
-            <p className="editorial-section-sources">Referencias: {section.sourceIds.map((id,i) => {const source=article.sources.find(item=>item.id===id);return source && <span key={id}>{i>0?" · ":""}<a href={`#fuente-${id}`}>{source.title}</a></span>;})}</p>
           </section>)}
-          <section id="fuentes" className="editorial-sources"><h2>Fuentes y referencias</h2><p>Estas referencias permiten ampliar la lectura y consultar la documentación utilizada en cada sección.</p><ol>{article.sources.map(source => <li key={source.id} id={`fuente-${source.id}`}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ol></section>
+          <section id="fuentes" className="editorial-sources"><details><summary>Fuentes para seguir leyendo</summary><p>Archivos, testimonios y documentación que acompañan esta historia.</p><ul>{article.sources.map(source => <li key={source.id} id={`fuente-${source.id}`}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>)}</ul><details className="editorial-source-map"><summary>Consultar las fuentes por capítulo</summary>{article.sections.map(section => <div key={section.id}><h3>{section.title}</h3><ul>{section.sourceIds.map(id => {const source=article.sources.find(item=>item.id===id);return source && <li key={id}><a href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a></li>;})}</ul></div>)}</details></details></section>
           {!!article.related.length && <aside className="editorial-related"><h2>Seguí la historia en el archivo</h2>{article.related.map(link => <Link key={link.href} href={link.href}>{link.label} →</Link>)}</aside>}
         </div>
       </div>

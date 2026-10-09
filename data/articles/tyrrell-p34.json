@@ -1,0 +1,115 @@
+{
+  "slug": "tyrrell-p34",
+  "title": "Tyrrell P34: cuatro ruedas pequeñas delante de una victoria grande",
+  "description": "Derek Gardner encontró una forma distinta de buscar ventaja con el mismo DFV; en Anderstorp, los dos seis ruedas llegaron primero y segundo.",
+  "category": "Autos de leyenda",
+  "period": "1976",
+  "year": 1976,
+  "tags": [
+    "Tyrrell P34",
+    "Derek Gardner",
+    "Jody Scheckter",
+    "Patrick Depailler"
+  ],
+  "lead": "Anderstorp, 13 de junio de 1976. Jody Scheckter ganó y Patrick Depailler terminó segundo. Tyrrell había puesto doce ruedas en los dos primeros lugares del Gran Premio de Suecia. El P34 dejaba de ser solamente la fotografía más extraña de la parrilla: ya tenía una victoria mundialista.",
+  "sections": [
+    {
+      "id": "gardner",
+      "title": "Diferenciarse cuando muchos utilizaban lo mismo",
+      "paragraphs": [
+        "Derek Gardner buscaba una ventaja para una escudería que compartía motor Cosworth DFV, caja Hewland y neumáticos Goodyear con varios rivales. No podía contar con una unidad de potencia exclusiva que resolviera la diferencia. Su idea fue reducir el tamaño de las ruedas delanteras para limitar su interferencia aerodinámica y compensar la menor superficie individual usando cuatro.",
+        "El primer prototipo combinó el concepto con una base derivada del Tyrrell 007. El nombre Project 34 sustituyó la sucesión habitual de modelos y terminó abreviado como P34. Goodyear aceptó fabricar los neumáticos pequeños necesarios para probarlo. La colaboración fue fundamental: una escudería podía diseñar seis ruedas, pero necesitaba que alguien produjera y desarrollara la goma sobre la que todo el proyecto iba a correr."
+      ],
+      "sourceIds": [
+        "f1",
+        "team"
+      ]
+    },
+    {
+      "id": "jarama",
+      "title": "Una máquina extraña también podía ser rápida",
+      "paragraphs": [
+        "Depailler estrenó el P34 en el Gran Premio de España de 1976 y clasificó tercero. Scheckter utilizó todavía el 007 ese fin de semana. La presentación competitiva sorprendió porque el auto nuevo no necesitó una temporada entera para mostrar velocidad. En Mónaco, los dos P34 terminaron segundo y tercero detrás del Ferrari de Niki Lauda.",
+        "La multiplicación de las ruedas delanteras también multiplicaba discos de freno y elementos de dirección. Gardner no buscaba un espectáculo visual; intentaba organizar el contacto con la pista y el flujo alrededor de las ruedas. La solución obligaba a trabajar con mecanismos y neumáticos distintos a los convencionales. Su aspecto era sencillo de recordar, pero hacerla funcionar exigía un sistema completo alrededor de aquellas cuatro ruedas pequeñas."
+      ],
+      "sourceIds": [
+        "orc",
+        "wiki",
+        "results"
+      ]
+    },
+    {
+      "id": "suecia",
+      "title": "El doblete llegó cuando se abrió el camino",
+      "paragraphs": [
+        "En Suecia, Mario Andretti lideró con su Lotus hasta que el motor falló. Scheckter y Depailler ocuparon entonces los dos primeros puestos y los conservaron hasta la llegada. El P34 obtuvo así su única victoria mundialista. La oportunidad fue favorecida por una avería rival, pero Tyrrell tenía los dos autos en posición de aprovecharla: el resultado no apareció desde el fondo del pelotón.",
+        "Los podios continuaron durante la temporada y Scheckter terminó tercero en el campeonato de pilotos. El modelo también lideró carreras en otros circuitos. La campaña de 1976 dejó un conjunto de resultados suficiente para justificar que Tyrrell continuara con el concepto. El seis ruedas era más que una rareza que había acertado una vez; ofrecía una base real para pensar que todavía existía margen de desarrollo."
+      ],
+      "sourceIds": [
+        "orc",
+        "results",
+        "standings"
+      ]
+    },
+    {
+      "id": "neumaticos",
+      "title": "El proyecto dependía de una rueda que nadie más necesitaba",
+      "paragraphs": [
+        "Para 1977 llegó Ronnie Peterson en lugar de Scheckter. El P34 recibió modificaciones, pero los neumáticos delanteros pequeños no evolucionaban al mismo ritmo que los convencionales utilizados por la mayoría de la parrilla. Tyrrell dependía de una especialidad que el proveedor tenía que sostener para un solo equipo. El auto ganó peso y sus prestaciones se volvieron más difíciles de aprovechar.",
+        "La escudería abandonó el concepto para 1978 y encargó a Maurice Philippe un nuevo monoplaza de cuatro ruedas. Los P34 sobrevivientes pasaron a museos y colecciones; una unidad quedó durante muchos años en las instalaciones de Tamiya, la empresa de modelos que contribuyó a difundir su imagen. Las carreras históricas volvieron a mostrarlo después con neumáticos desarrollados para ese contexto. La victoria de Anderstorp permanece dentro de la campaña original, donde Gardner consiguió que una pregunta improbable tuviera una respuesta concreta."
+      ],
+      "sourceIds": [
+        "orc",
+        "wiki",
+        "team"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "f1",
+      "title": "Formula 1 — seis detalles del Tyrrell P34",
+      "url": "https://www.formula1.com/en/latest/article/six-fascinating-facts-tyrrell-p34.5Eqy5lE9SsSLmF9an1Ak5g.5Eqy5lE9SsSLmF9an1Ak5g"
+    },
+    {
+      "id": "orc",
+      "title": "OldRacingCars / Allen Brown — Tyrrell P34, historias de chasis",
+      "url": "https://www.oldracingcars.com/tyrrell/p34/"
+    },
+    {
+      "id": "team",
+      "title": "Team Tyrrell — historia del equipo",
+      "url": "https://www.teamtyrrell.com/about-tyrrell"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Tyrrell P34, diseño y evolución",
+      "url": "https://en.wikipedia.org/wiki/Tyrrell_P34"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1976",
+      "url": "https://www.formula1.com/en/results/1976/races"
+    },
+    {
+      "id": "standings",
+      "title": "Formula 1 — clasificación de pilotos de 1976",
+      "url": "https://www.formula1.com/en/results/1976/drivers"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1976",
+      "href": "/historia/seasons/1976"
+    }
+  ],
+  "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/ScheckterJody1976-07-31Tyrrell-FordP34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:ScheckterJody1976-07-31Tyrrell-FordP34.jpg",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Jody Scheckter con el Tyrrell P34 de seis ruedas en 1976.",
+    "alt": "Jody Scheckter con el Tyrrell P34 de seis ruedas en 1976."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ferrari-156",
+  "title": "Ferrari 156: la nariz de tiburón entre una victoria inesperada y un título trágico",
+  "description": "El V6 de Maranello dominó 1961, ganó con un debutante en Reims y llevó a Phil Hill a una corona inseparable de la pérdida de von Trips.",
+  "category": "Autos de leyenda",
+  "period": "1961",
+  "year": 1961,
+  "tags": [
+    "Ferrari 156 F1",
+    "Sharknose",
+    "Phil Hill",
+    "Giancarlo Baghetti"
+  ],
+  "lead": "Reims, julio de 1961. Giancarlo Baghetti ganó su primer Gran Premio mundialista con un Ferrari 156. La victoria no pertenecía al piloto más experimentado del equipo ni a su campaña principal. Un auto preparado para la nueva fórmula había permitido que un debutante atravesara la meta delante del resto.",
+  "sections": [
+    {
+      "id": "motor",
+      "title": "Ferrari llegó preparada para el litro y medio",
+      "paragraphs": [
+        "El reglamento de 1961 redujo los motores atmosféricos a 1,5 litros. Ferrari ya había ensayado una disposición de motor central trasero con sus vehículos de Fórmula 2 y utilizó esa experiencia para preparar el 156. Sus rivales británicos dependían en buena parte de un Coventry Climax que todavía tenía cuatro cilindros; Maranello ofrecía un V6.",
+        "La versión característica incorporó una apertura de ciento veinte grados entre bancadas, distinta a la de sesenta y cinco grados utilizada en otros Dino. El motor más bajo ayudaba a organizar el vehículo. La entrada de aire frontal, dividida en dos aberturas, dio al auto su apodo de nariz de tiburón. Era una forma visible de un conjunto cuya ventaja principal procedía también de su preparación mecánica."
+      ],
+      "sourceIds": [
+        "ferrari",
+        "wiki"
+      ]
+    },
+    {
+      "id": "baghetti",
+      "title": "Un debut que no volvió a repetirse de esa manera",
+      "paragraphs": [
+        "Baghetti había ganado pruebas no puntuables antes de llegar a Francia, de modo que no era un principiante sentado por primera vez en un monoplaza. La particularidad era su primera participación en el Mundial. Inscrito fuera de la alineación oficial habitual, utilizó un 156 y superó al Porsche de Dan Gurney en una carrera que terminó con una diferencia mínima.",
+        "El resultado quedó como una excepción en la historia del campeonato: ganar en el debut después de la carrera inaugural de 1950. Ferrari había convertido su ventaja técnica en una oportunidad para más de una estructura deportiva. El modelo de Baghetti y los autos de los pilotos oficiales compartían fabricante, pero sus inscripciones y sus campañas no eran idénticas. La victoria francesa conserva precisamente ese carácter inesperado."
+      ],
+      "sourceIds": [
+        "wiki",
+        "results",
+        "baghetti"
+      ]
+    },
+    {
+      "id": "hill",
+      "title": "Dos compañeros llegaron a Monza en lucha por la corona",
+      "paragraphs": [
+        "Phil Hill y Wolfgang von Trips llevaron el peso principal de la campaña de Ferrari. El estadounidense ganó en Bélgica; el alemán venció en Países Bajos y Gran Bretaña. Los resultados mantuvieron el título dentro del horizonte de ambos compañeros antes del Gran Premio de Italia. La superioridad del 156 no eliminaba la competencia entre quienes lo conducían.",
+        "En Monza, von Trips murió después de un accidente con el Lotus de Jim Clark que también costó la vida a espectadores. Hill ganó la carrera y se convirtió en campeón mundial. La clasificación deportiva y la tragedia quedaron unidas dentro del mismo fin de semana. Su biografía recuerda una corona obtenida en condiciones que impedían tratar el éxito como una celebración normal."
+      ],
+      "sourceIds": [
+        "hill",
+        "results"
+      ]
+    },
+    {
+      "id": "despues",
+      "title": "La silueta famosa no resume todas las versiones",
+      "paragraphs": [
+        "El 156 continuó en la competición después de 1961, aunque los adversarios recuperaron competitividad. Las revisiones posteriores cambiaron la carrocería y abandonaron la característica nariz del primer modelo. El nombre Ferrari 156 puede referirse, por eso, a vehículos que no tienen exactamente el aspecto que suele aparecer en las fotografías del campeonato de Hill.",
+        "Las recreaciones contemporáneas han devuelto esa silueta a exhibiciones y demostraciones, pero su presencia actual no equivale por sí misma a una unidad original conservada. La máquina histórica pertenece a una campaña de circunstancias específicas: Ferrari preparada para la nueva fórmula, Baghetti aprovechando una oportunidad y dos compañeros disputando la corona. La nariz de tiburón sobrevivió como imagen; las historias que reunió requieren mirar también las personas y los resultados detrás de ella."
+      ],
+      "sourceIds": [
+        "wiki",
+        "ferrari",
+        "hill"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ferrari",
+      "title": "Ferrari — 156 F1, desarrollo de 1961",
+      "url": "https://www.ferrari.com/en-US/formula1/156-f1"
+    },
+    {
+      "id": "wiki",
+      "title": "Wikipedia — Ferrari 156 F1, versiones y campañas",
+      "url": "https://en.wikipedia.org/wiki/Ferrari_156_F1"
+    },
+    {
+      "id": "hill",
+      "title": "Formula 1 — Phil Hill",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-phil-hill.6lgmSO6KAK9UgCNziJodGB"
+    },
+    {
+      "id": "results",
+      "title": "Formula 1 — resultados de 1961",
+      "url": "https://www.formula1.com/en/results/1961/races"
+    },
+    {
+      "id": "baghetti",
+      "title": "Wikipedia — Gran Premio de Francia de 1961",
+      "url": "https://en.wikipedia.org/wiki/1961_French_Grand_Prix"
+    }
+  ],
+  "related": [
+    {
+      "label": "Temporada 1961",
+      "href": "/historia/seasons/1961"
+    }
+  ]
+}

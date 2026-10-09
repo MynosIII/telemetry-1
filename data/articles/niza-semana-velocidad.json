@@ -1,0 +1,105 @@
+{
+  "slug": "niza-semana-velocidad",
+  "title": "La semana en que Niza puso a prueba el automóvil",
+  "description": "La montaña de La Turbie, los veraneantes de la Riviera y una sucesión de desafíos que convirtió a Niza en un laboratorio de velocidad.",
+  "category": "Los orígenes",
+  "year": 1897,
+  "period": "1897–1903",
+  "tags": [
+    "Niza",
+    "La Turbie",
+    "Semana de la velocidad",
+    "Nice Race Week",
+    "Wilhelm Maybach",
+    "Emil Jellinek"
+  ],
+  "lead": "Antes de que un circuito pudiera contener toda una carrera, Niza tenía una montaña. El camino hacia La Turbie obligaba a las máquinas a subir, resistir el calor y demostrar algo más que velocidad en una recta. A su alrededor, la Riviera reunió fabricantes, propietarios y periodistas. Durante unos días, el automóvil podía ocupar el centro de una ciudad acostumbrada a recibir visitantes.",
+  "sections": [
+    {
+      "id": "riviera",
+      "title": "Una ciudad de visitantes y máquinas",
+      "sourceIds": [
+        "tepas",
+        "club"
+      ],
+      "paragraphs": [
+        "El club local nació en 1896 como Nice-Vélo-Club. Su propia historia permite ver cuánto compartían todavía ciclismo y automóvil: socios, intereses y una forma de organizar actividades alrededor de una novedad mecánica. La presencia de visitantes adinerados en la Costa Azul dio al grupo propietarios dispuestos a probar vehículos y una audiencia interesada en sus resultados. El turismo de invierno aportaba al automovilismo un escenario que iba mucho más allá de una carretera.",
+        "Las pruebas de 1897 unieron viajes por etapas y la ascensión a La Turbie. En vez de reducir aquellos encuentros a una supuesta carrera fundadora de todos los formatos modernos, conviene mirarlos como una organización en crecimiento. Cada desafío examinaba una parte del automóvil. La subida imponía esfuerzo sostenido; las carreras de ruta exigían duración; las demostraciones de velocidad convertían el resultado en una noticia fácil de transmitir. La semana podía reunir todo ese interés en un mismo lugar."
+      ]
+    },
+    {
+      "id": "montana",
+      "title": "La montaña descubre las debilidades",
+      "sourceIds": [
+        "tepas",
+        "hillclimb"
+      ],
+      "paragraphs": [
+        "El recorrido de La Turbie utilizaba la carretera de la Grande Corniche y ascendía hasta la población situada sobre la costa. La pendiente cambiaba la prueba: una máquina capaz de desplazarse en terreno llano podía perder rendimiento al subir. La documentación patrimonial recuerda equipos que llevaban hielo para aliviar el calentamiento. Es un detalle pequeño, pero devuelve a la competición su dimensión de trabajo mecánico. Para terminar, también había que mantener vivo el motor.",
+        "Entre los protagonistas aparece André Michelin con un vehículo de vapor De Dion. La convivencia entre vapor y combustión hacía de la montaña una discusión práctica entre tecnologías. No era todavía un enfrentamiento entre marcas que hubieran aceptado una misma arquitectura básica. Se competía también para demostrar qué clase de máquina podía resultar útil. La carrera proporcionaba una respuesta visible, pero una victoria aislada no cerraba automáticamente el debate."
+      ]
+    },
+    {
+      "id": "mercedes",
+      "title": "El automóvil que encontró su escaparate",
+      "sourceIds": [
+        "mercedes",
+        "galeria"
+      ],
+      "paragraphs": [
+        "La semana de 1901 quedó vinculada al Mercedes 35 PS y a Wilhelm Werner. El proyecto de Wilhelm Maybach había respondido a las exigencias de Emil Jellinek: una máquina más baja y una organización de sus componentes diferente de la de los vehículos anteriores. Niza ofreció el espacio para convertir esas decisiones en resultados. La historia de Mercedes destaca su actuación tanto en las pruebas de velocidad como en la subida.",
+        "El contexto incluía una tragedia reciente. Wilhelm Bauer había muerto en La Turbie en 1900 al conducir un Daimler Phoenix. El desarrollo del nuevo coche no ocurrió en una sucesión abstracta de modelos; estuvo ligado a problemas concretos de estabilidad, funcionamiento y riesgo. La semana siguiente permitía medir los cambios, pero también presentarlos ante propietarios y periodistas. La competición era ensayo técnico y escaparate comercial al mismo tiempo."
+      ]
+    },
+    {
+      "id": "limite",
+      "title": "La velocidad encuentra una frontera",
+      "sourceIds": [
+        "tepas",
+        "hillclimb",
+        "mercedes"
+      ],
+      "paragraphs": [
+        "En 1903 murió el conde Elliott Zborowski durante la subida. Su mecánico y acompañante resultó gravemente herido. La documentación de TEPAS recoge la reacción crítica de la prensa y la posterior suspensión de la prueba por las autoridades. El espectáculo que prometía mostrar el progreso del automóvil también podía poner en cuestión su aceptación. La carretera, la organización y la protección del público seguían siendo parte de un problema sin resolver.",
+        "Hoy, una placa y una referencia conmemorativa al recorrido conservan parte de aquel pasado. La palabra semana resulta útil porque recuerda que el encuentro no se agotaba en una clasificación. Había varias maneras de someter una máquina a prueba y de convencer a quienes observaban. La tradición de reunir actividades de velocidad tiene muchas continuidades posteriores, pero Niza merece leerse en su propia época: un lugar donde la montaña, el turismo y la industria hicieron del automóvil una noticia, hasta que el riesgo obligó a detenerla."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tepas",
+      "title": "TEPAS / Maison méditerranéenne des sciences de l’homme: Nice–La Turbie",
+      "url": "https://tepas.mmsh.fr/notices_tepas/fiche-0027/"
+    },
+    {
+      "id": "club",
+      "title": "Automobile Club de Nice: historia del club",
+      "url": "https://www.automobileclubdenice.com/club/"
+    },
+    {
+      "id": "hillclimb",
+      "title": "Wikipedia: historia y ediciones de Nice–La Turbie",
+      "url": "https://fr.wikipedia.org/wiki/Course_de_c%C3%B4te_Nice_-_La_Turbie"
+    },
+    {
+      "id": "mercedes",
+      "title": "Mercedes-Benz Classic: el primer Mercedes y la semana de Niza",
+      "url": "https://media.mercedes-benz.fr/la-premiere-mercedes-le-22-novembre-1900--naissance-de-lautomobile-moderne-il-y-a-125-ans/"
+    },
+    {
+      "id": "galeria",
+      "title": "Mercedes-Benz: los resultados de marzo de 1901 en Niza",
+      "url": "https://media.mercedes-benz.fr/mercedes-benz-gallery--le-nouvel-ecrin-de-letoile-sur-les-champs-elysees/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Mercedes 35 PS: la máquina de Niza",
+      "href": "/articulos/mercedes-35-ps"
+    },
+    {
+      "label": "Los fabricantes en la Copa Gordon Bennett",
+      "href": "/articulos/copa-gordon-bennett"
+    }
+  ]
+}

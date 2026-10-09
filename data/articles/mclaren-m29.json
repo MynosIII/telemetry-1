@@ -1,0 +1,107 @@
+{
+  "slug": "mclaren-m29",
+  "title": "McLaren M29: el puente antes de la revolución",
+  "description": "El coche de Gordon Coppuck que recibió a Alain Prost y sostuvo a McLaren mientras se preparaba el MP4/1.",
+  "category": "Autos de leyenda",
+  "year": 1979,
+  "period": "1979–1981",
+  "tags": [
+    "McLaren M29",
+    "Gordon Coppuck",
+    "Alain Prost"
+  ],
+  "lead": "En Buenos Aires, el 13 de enero de 1980, Alain Prost terminó sexto en su primera carrera de Fórmula 1. Lo hizo con un McLaren M29, una máquina que hoy aparece en la historia entre coches mucho más célebres, pero que cargó con una transición decisiva.",
+  "sections": [
+    {
+      "id": "argentina",
+      "title": "Un debut con un punto",
+      "paragraphs": [
+        "Prost llegó a McLaren después de destacar en Fórmula 3. El sexto puesto argentino le dio un punto bajo la escala vigente, y en Brasil terminó quinto. Esos resultados iniciales podían parecer una señal prometedora para un recién llegado, aunque la temporada acabaría siendo mucho más áspera. El M29 acompañó el comienzo de una carrera que después alcanzaría cuatro campeonatos del mundo.",
+        "El coche había debutado en el Gran Premio de Gran Bretaña de 1979. Gordon Coppuck lo diseñó como respuesta a las dificultades de McLaren en plena expansión del efecto suelo. El motor seguía siendo el Ford-Cosworth DFV: una base conocida que permitía concentrar buena parte de la búsqueda de rendimiento en el chasis y la aerodinámica. La familiaridad del motor no resolvía automáticamente las nuevas exigencias del conjunto."
+      ],
+      "sourceIds": [
+        "prost1980",
+        "catalogo"
+      ]
+    },
+    {
+      "id": "efecto-suelo",
+      "title": "Una generación aprendía a trabajar debajo del coche",
+      "paragraphs": [
+        "El M29 pertenecía a la generación de monoplazas que buscaba rendimiento en el flujo de aire bajo los pontones. Esa dirección había cambiado la arquitectura de la Fórmula 1 y obligaba a integrar forma, rigidez y comportamiento de la suspensión. McLaren no estaba defendiendo una solución dominante; trataba de recuperar posiciones mientras otros equipos ya explotaban con más eficacia el nuevo recurso.",
+        "La ficha del modelo registra un monocasco de aluminio y sucesivas variantes. Su trayectoria se extendió más de lo que podría sugerir un nombre seguido por M30 y después por MP4/1. Las evoluciones permitían continuar compitiendo, pero también mostraban que sustituir un coche no dependía solamente de terminar un dibujo. Hacían falta fabricación, pruebas y una alternativa suficientemente lista para viajar al siguiente gran premio."
+      ],
+      "sourceIds": [
+        "catalogo",
+        "prost"
+      ]
+    },
+    {
+      "id": "1980",
+      "title": "Prost y Watson en una campaña sin victorias",
+      "paragraphs": [
+        "John Watson compartió equipo con Prost en 1980. McLaren no ganó ninguna carrera de esa temporada, y los registros del francés alternan puntos con abandonos y posiciones alejadas del podio. La comparación entre sus resultados iniciales y el resto del año ayuda a entender por qué aquella primera asociación terminó antes de que pudiera convertirse en la etapa ganadora que recordamos de los años ochenta.",
+        "Prost se marchó a Renault para 1981. La propia historia de McLaren describe 1980 como un año de transición, cuando el desarrollo del M29 de efecto suelo seguía planteando dificultades. Sería excesivo atribuir su salida a una sola pieza o a una clasificación particular: el equipo atravesaba un cambio de estructura y de orientación técnica. El M29 fue el instrumento con el que los pilotos experimentaron esa incertidumbre en pista."
+      ],
+      "sourceIds": [
+        "prost",
+        "prost1980",
+        "carreras1980"
+      ]
+    },
+    {
+      "id": "espera",
+      "title": "Seguir corriendo mientras llegaba el carbono",
+      "paragraphs": [
+        "Cuando el proyecto de Ron Dennis y John Barnard desembocó en el MP4/1, McLaren todavía necesitó utilizar el M29 al comienzo de 1981. La historia oficial del coche nuevo conserva ese detalle: su llegada se retrasó y el anterior tuvo que prolongar su servicio. El M29 no fue solamente el pasado que se descartó, sino la herramienta que permitió sostener el calendario durante la renovación.",
+        "Visto junto al MP4/1, ofrece una perspectiva más humana de una revolución industrial. El carbono no apareció sobre un vacío: había un equipo que debía correr, piezas ya disponibles, pilotos contratados y puntos todavía en juego. El nombre del M29 rara vez encabeza una lista de grandes campeones, pero cuenta algo que esas listas suelen perder: la distancia entre decidir un cambio y estar realmente en condiciones de competir con él."
+      ],
+      "sourceIds": [
+        "mp41",
+        "numeros"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "prost1980",
+      "title": "Formula 1: resultados de Alain Prost en 1980",
+      "url": "https://www.formula1.com/en/results/1980/drivers/ALAPRO01/alain-prost"
+    },
+    {
+      "id": "catalogo",
+      "title": "Wikipedia: McLaren M29, características y trayectoria",
+      "url": "https://en.wikipedia.org/wiki/McLaren_M29"
+    },
+    {
+      "id": "prost",
+      "title": "McLaren: historia de Alain Prost",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/drivers/alain-prost/"
+    },
+    {
+      "id": "carreras1980",
+      "title": "Formula 1: carreras de 1980",
+      "url": "https://www.formula1.com/en/results/1980/races"
+    },
+    {
+      "id": "mp41",
+      "title": "McLaren: la transición al MP4/1",
+      "url": "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
+    },
+    {
+      "id": "numeros",
+      "title": "McLaren: 50 hechos de su historia",
+      "url": "https://www.mclaren.com/racing/latest-news/mclarenracing/article/50-interesting-facts/"
+    }
+  ],
+  "related": [
+    {
+      "label": "McLaren MP4/1",
+      "href": "/articulos/mclaren-mp4-1"
+    },
+    {
+      "label": "Temporada 1980",
+      "href": "/historia/seasons/1980"
+    }
+  ]
+}

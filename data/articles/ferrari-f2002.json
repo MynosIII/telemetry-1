@@ -1,0 +1,125 @@
+{
+  "slug": "ferrari-f2002",
+  "title": "Ferrari F2002: el campeón que no estuvo en la primera carrera",
+  "description": "La espera en Fiorano, el debut ganador en Brasil y una temporada de dominio también marcada por controversias.",
+  "year": 2002,
+  "period": "2002–2003",
+  "tags": [
+    "Ferrari F2002",
+    "Michael Schumacher",
+    "Rubens Barrichello"
+  ],
+  "lead": "El 31 de marzo de 2002, Michael Schumacher ganó en Interlagos con un coche que todavía no había disputado un gran premio. Ferrari había preferido empezar el año con el F2001 mientras terminaba de comprobar la fiabilidad del nuevo F2002.",
+  "sections": [
+    {
+      "id": "espera",
+      "title": "Fiorano antes que Melbourne",
+      "paragraphs": [
+        "La decisión de mantener el coche anterior al comienzo de la temporada muestra la posición que Ferrari había alcanzado. Schumacher ganó en Australia y terminó tercero en Malasia con el F2001. El F2002 podía seguir acumulando pruebas sin que el equipo dejara de competir por los primeros puestos. La presión del calendario existía, pero no obligaba a estrenar una máquina que aún necesitaba validación.",
+        "En Brasil llegó la primera participación del F2002 y también su primera victoria. Barrichello recibió el nuevo modelo para San Marino, donde Ferrari consiguió un doblete. La entrada escalonada no disminuyó su importancia: permite ver que la superioridad deportiva descansaba también en un proceso de selección y verificación. El diseño debía demostrar su velocidad y después convertirla en un nivel de confianza útil para competir."
+      ],
+      "sourceIds": [
+        "ferrari",
+        "resultados",
+        "modelo"
+      ]
+    },
+    {
+      "id": "conjunto",
+      "title": "Un V10 dentro de una organización madura",
+      "paragraphs": [
+        "La ficha histórica de Ferrari registra un V10 de 2.996,62 centímetros cúbicos, con una V de 90 grados y una transmisión electrohidráulica de siete relaciones. Esa precisión ayuda a situar el coche en su época: motor atmosférico, neumáticos ranurados y carreras con repostajes. No era la misma tarea energética ni estratégica que resolverían años después las unidades híbridas.",
+        "El F2002 formaba parte del trabajo de una organización consolidada alrededor de Schumacher y Barrichello. Ross Brawn dirigía el área técnica y Rory Byrne encabezaba el diseño del chasis. El coche no dependía de un elemento visual tan fácilmente identificable como un ventilador o un alerón novedoso. Su historia es la de una arquitectura afinada, una operación eficaz y un programa que podía mejorar sus piezas sin perder continuidad."
+      ],
+      "sourceIds": [
+        "ficha",
+        "modelo",
+        "clientes"
+      ]
+    },
+    {
+      "id": "austria",
+      "title": "La victoria que abrió otra discusión",
+      "paragraphs": [
+        "En Austria, Barrichello cedió la primera posición a Schumacher cerca de la meta por una orden del equipo. Ferrari obtuvo el resultado que buscaba para el campeonato, pero la forma de conseguirlo provocó una controversia que sigue asociada al F2002. El episodio recuerda que la superioridad de un coche no determina por sí misma cómo una escudería decide distribuir sus oportunidades.",
+        "La carrera merece permanecer dentro de su historia, junto con las victorias obtenidas sin aquella intervención. Los coches son instrumentos de una organización deportiva y sus resultados contienen decisiones humanas. Si se cuenta solamente la cantidad de triunfos, desaparece parte de la discusión que generó la temporada: cuánto debía intervenir el equipo en una campaña donde ya disponía de una ventaja técnica considerable."
+      ],
+      "sourceIds": [
+        "austria",
+        "resultados",
+        "brawn-ordenes"
+      ]
+    },
+    {
+      "id": "julio",
+      "title": "Un campeonato resuelto antes de terminar el verano europeo",
+      "paragraphs": [
+        "Schumacher aseguró su quinto título mundial en el Gran Premio de Francia de julio. Ferrari concluyó el campeonato de constructores con 221 puntos, por delante de Williams y McLaren. La diferencia se construyó a lo largo del calendario, no únicamente en la primera carrera del modelo nuevo. El F2002 también siguió compitiendo al comienzo de 2003, hasta que el F2003-GA estuvo listo.",
+        "La memoria del coche combina dos tiempos: el trabajo paciente previo al debut y una velocidad de acumulación de resultados que permitió cerrar el título muy temprano. Ferrari todavía lo utiliza en sus programas históricos de pista, donde el sonido del V10 suele dominar la atención. Pero su detalle más revelador puede ser el menos espectacular: antes de convertirlo en campeón, el equipo había tenido la capacidad de esperar."
+      ],
+      "sourceIds": [
+        "clientes",
+        "ferrari",
+        "clasificacion",
+        "modelo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ferrari",
+      "title": "Ferrari: la temporada 2002",
+      "url": "https://www.ferrari.com/en-GW/history/moments/2002/homage-to-the-founder/more"
+    },
+    {
+      "id": "ficha",
+      "title": "Ferrari: ficha histórica del F2002",
+      "url": "https://www.ferrari.com/en-AO/history/garage/2002/f2002"
+    },
+    {
+      "id": "clientes",
+      "title": "Ferrari: F2002 y F1 Clienti en Mugello",
+      "url": "https://www.ferrari.com/en-CA/corse-clienti/articles/f1-clienti-the-best-of-the-21st-century-on-track-at-mugello"
+    },
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Ferrari F2002",
+      "url": "https://en.wikipedia.org/wiki/Ferrari_F2002"
+    },
+    {
+      "id": "resultados",
+      "title": "Formula 1: carreras de 2002",
+      "url": "https://www.formula1.com/en/results/2002/races"
+    },
+    {
+      "id": "clasificacion",
+      "title": "Formula 1: constructores de 2002",
+      "url": "https://www.formula1.com/en/results/2002/team"
+    },
+    {
+      "id": "austria",
+      "title": "Formula 1: Gran Premio de Austria 2002",
+      "url": "https://www.formula1.com/en/results/2002/races/725/austria/race-result"
+    },
+    {
+      "id": "brawn-ordenes",
+      "title": "Ross Brawn recuerda las órdenes de Austria 2002",
+      "url": "https://www.formula1.com/en/latest/article/team-orders-brawn-and-coulthard-on-the-strategy-thats-in-f1%27s-dna.2QChfezDgkGksYS8GEuI8c"
+    }
+  ],
+  "related": [
+    {
+      "label": "Ferrari",
+      "href": "/historia/constructors/ferrari"
+    },
+    {
+      "label": "Temporada 2002",
+      "href": "/historia/seasons/2002"
+    },
+    {
+      "label": "Ferrari F2004",
+      "href": "/articulos/ferrari-f2004"
+    }
+  ],
+  "category": "Autos de leyenda"
+}

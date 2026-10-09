@@ -1,0 +1,112 @@
+{
+  "slug": "fiat-804",
+  "title": "Fiat 804: el triunfo que inauguró la memoria de Monza",
+  "description": "La fórmula de dos litros llevó a Fiat a construir otra clase de coche. El 804 encontró la victoria en 1922, dentro de una carrera que dejó también una pérdida familiar.",
+  "category": "Autos de leyenda",
+  "year": 1922,
+  "period": "1922",
+  "tags": [
+    "Fiat",
+    "804",
+    "Bordino",
+    "Nazzaro",
+    "1922"
+  ],
+  "lead": "El 10 de septiembre de 1922, Pietro Bordino ganó el Grand Prix de Italia en el recién construido circuito de Monza. Detrás terminó Felice Nazzaro, también con un Fiat 804. Los automóviles que dieron prestigio al nuevo autódromo habían vivido semanas antes una carrera muy distinta en Francia: una victoria de Nazzaro y un accidente mortal dentro del mismo equipo.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Dos litros después de los gigantes",
+      "paragraphs": [
+        "El reglamento de Grand Prix de 1922 redujo la cilindrada máxima a dos litros. Fiat respondió con el 804, un coche de seis cilindros en línea y dos árboles de levas. El equipo de diseño reunía a ingenieros que desempeñarían papeles importantes en otras marcas, entre ellos Vittorio Jano y Vincenzo Bertarione. El automóvil salió de una red de personas antes de convertirse en una identidad de fábrica.",
+        "La limitación de motor cambiaba el modo de buscar velocidad. Ya no bastaba con ampliar cilindros de una máquina de gran tamaño: había que mejorar el funcionamiento de una unidad contenida. El 804 conservó una apariencia clásica de motor delantero y dos plazas, pero su mecánica pertenecía a una competencia que comenzaba a dar más importancia a la eficiencia de cada litro de cilindrada."
+      ],
+      "sourceIds": [
+        "modelo",
+        "aisa"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Estrasburgo: la victoria y el eje roto",
+      "paragraphs": [
+        "Fiat llevó tres 804 al Grand Prix de l’ACF de 1922, cerca de Estrasburgo. Los condujeron Bordino, Felice Nazzaro y su sobrino Biagio. La velocidad del equipo permitió controlar gran parte de la prueba, pero la fiabilidad tuvo un desenlace trágico: Biagio sufrió una rotura del eje trasero y el coche perdió una rueda. El accidente le costó la vida.",
+        "Felice terminó como ganador. La proximidad entre el resultado deportivo y la muerte de un familiar impide reducir la carrera a un éxito limpio de estadísticas. Las reconstrucciones del 804 documentan problemas similares en otro automóvil del equipo. Una máquina dominante podía contener una debilidad estructural que solo aparecía después de acumular kilómetros bajo carga.",
+        "El episodio señala un límite de la búsqueda de ligereza y velocidad. No permite atribuir a una decisión aislada todo el accidente sin documentación de ingeniería, pero sí muestra que motor y chasis no podían juzgarse por separado. La prueba francesa dejó a Fiat con una victoria y una responsabilidad técnica inmediata para su siguiente gran compromiso."
+      ],
+      "sourceIds": [
+        "modelo",
+        "biagio"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Monza recibió coches, obreros y compradores",
+      "paragraphs": [
+        "La inauguración del circuito italiano ofreció un escenario de prestigio industrial. Pirelli recuerda que Fiat organizó un tren especial para trabajadores procedentes de Turín. El público podía vincular las máquinas con quienes las habían construido. El doblete de Bordino y Nazzaro fue también una demostración para fabricantes y posibles compradores que querían reconocer una industria nacional competitiva.",
+        "Los 804 utilizaban neumáticos Pirelli Superflex Cord. El archivo de la compañía conserva testimonios y publicidad que relacionaron la victoria con ese producto. La asociación muestra cómo los componentes participaban del resultado y de su explotación comercial. El coche vencedor representaba una fábrica, pero su funcionamiento dependía también de proveedores que querían construir su propia reputación.",
+        "La carrera completó ochenta vueltas de un trazado combinado de diez kilómetros. El circuito permitía observar repetidamente los automóviles, organizar pruebas y concentrar la asistencia. Era un espacio industrial y deportivo permanente, diferente de las rutas que habían dado fama a Fiat en la primera década del siglo."
+      ],
+      "sourceIds": [
+        "pirelli",
+        "stellantis",
+        "fia"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una temporada abrió otra pregunta",
+      "paragraphs": [
+        "El 804 dejó triunfos destacados en Francia e Italia. Al año siguiente, Fiat sustituyó sus seis cilindros por ocho y añadió sobrealimentación en el 805. La transición ayuda a colocar ambos modelos en su sitio: el coche de 1922 aprovechó una nueva fórmula de dos litros; el de 1923 intentó superar sus límites aumentando la cantidad de aire que recibía el motor.",
+        "La carrera de Monza convirtió al 804 en parte de la memoria del autódromo, pero su historia completa incluye al equipo de diseño, a los trabajadores que viajaron y a Biagio Nazzaro. La primera victoria de un circuito no explica por sí sola la vida de un automóvil. En este caso, el palmarés funciona como puerta de entrada a una temporada en que el éxito técnico y su coste humano estuvieron profundamente unidos."
+      ],
+      "sourceIds": [
+        "aisa",
+        "stellantis",
+        "modelo"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "modelo",
+      "title": "Wikipedia: Fiat 804 y su temporada de 1922",
+      "url": "https://en.wikipedia.org/wiki/Fiat_804"
+    },
+    {
+      "id": "aisa",
+      "title": "AISA: los proyectistas de Fiat en sus primeros cuarenta años",
+      "url": "https://www.aisastoryauto.it/wp-content/uploads/2015/02/AISA-Monografia1-Fiat.pdf"
+    },
+    {
+      "id": "biagio",
+      "title": "Wikipedia: Biagio Nazzaro",
+      "url": "https://en.wikipedia.org/wiki/Biagio_Nazzaro"
+    },
+    {
+      "id": "pirelli",
+      "title": "Pirelli: Monza y los trabajadores presentes en 1922",
+      "url": "https://www.pirelli.com/global/en-ww/race/monza-racetrack-the-temple-of-speed"
+    },
+    {
+      "id": "stellantis",
+      "title": "Stellantis Heritage: homenaje al Fiat 804 en el centenario de Monza",
+      "url": "https://www.media.stellantis.com/de-de/heritage-hub-italy/press/formel-1-rennstrecke-von-monza-feiert-100-geburtstag-fiat-wird-fuer-den-sieg-beim-grand-prix-des-jahres-1922-mit-einer-gedenktafel-geehrt"
+    },
+    {
+      "id": "fia",
+      "title": "FIA: historial del Grand Prix de Italia en el dossier de 2025",
+      "url": "https://api.fia.com/sites/default/files/media_kit_-_italian_grand_prix_2025.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Historia de Monza",
+      "href": "/historia/circuits/monza"
+    },
+    {
+      "label": "Fiat 805",
+      "href": "/articulos/fiat-805"
+    }
+  ]
+}

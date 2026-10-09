@@ -1,0 +1,96 @@
+{
+  "slug": "manchester-1867-carrera-vapor",
+  "title": "Ocho millas antes del amanecer: la carrera de Manchester",
+  "description": "Dos vehículos de vapor, una noticia de pocas líneas y una fecha que se repite mal: el desafío de 1867 que antecedió al automovilismo de gasolina.",
+  "category": "Los orígenes",
+  "year": 1867,
+  "period": "1867",
+  "tags": [
+    "Manchester",
+    "Isaac Watt Boulton",
+    "Daniel Adamson",
+    "The Engineer",
+    "Ashton-under-Lyne",
+    "Old Trafford"
+  ],
+  "lead": "A las cuatro y media de la mañana, dos vehículos de vapor partieron de Ashton-under-Lyne hacia Old Trafford. El más grande llevaba ventaja en la salida. El pequeño lo alcanzó durante la primera milla. Mucho antes de los nombres que llenarían los campeonatos, una noticia breve ya podía contar una carrera.",
+  "sections": [
+    {
+      "id": "noticia",
+      "title": "El día de la carrera no era el día del periódico",
+      "sourceIds": [
+        "engineer",
+        "weeks"
+      ],
+      "paragraphs": [
+        "La noticia apareció en The Engineer del 30 de agosto de 1867. Sin embargo, el texto reproducido por investigadores de la historia del vapor sitúa la salida en el lunes 26 de ese mes. La diferencia importa porque el viernes de publicación acabó convertido, en numerosas síntesis, en la fecha del encuentro. Un detalle editorial desplazó cuatro días una de las historias que suelen presentarse como el comienzo de las carreras motorizadas.",
+        "El recorte no ofrece una ceremonia fundadora. Describe un acuerdo previo entre dos vehículos para llegar al recinto de exposición de Old Trafford. Ese formato es su fuerza: un itinerario, dos máquinas autopropulsadas y una comparación de desempeño. La competición existía dentro de la vida de los constructores y sus demostraciones. Todavía no necesitaba una institución que le diera el nombre de deporte ni un calendario que la conectara con otra carrera."
+      ]
+    },
+    {
+      "id": "constructores",
+      "title": "Un pequeño motor frente a uno grande",
+      "sourceIds": [
+        "weeks",
+        "engineer",
+        "boulton"
+      ],
+      "paragraphs": [
+        "Uno de los vehículos era de Isaac Watt Boulton; el otro procedía de Daniel Adamson & Co. La descripción contemporánea compara sus cilindros y destaca el mayor tamaño de la máquina de Adamson. A esta se le concedió una ventaja cercana a un cuarto de milla. El coche de Boulton llevaba cinco pasajeros. La imagen se aleja mucho de un vehículo dedicado a la competición: el resultado debía demostrar también lo que podía transportar.",
+        "Boulton pertenecía al mundo de la construcción y reparación de máquinas de vapor. Su trayectoria incluía material ferroviario, una conexión que ayuda a entender la forma de estos ensayos en carretera. La pregunta no era todavía cómo diseñar un auto deportivo moderno, sino cómo sacar la potencia mecánica de un entorno guiado y llevarla a caminos ordinarios. La prueba combinaba velocidad, capacidad de maniobra y utilidad."
+      ]
+    },
+    {
+      "id": "recorrido",
+      "title": "La ventaja desaparece durante la primera milla",
+      "sourceIds": [
+        "engineer",
+        "weeks"
+      ],
+      "paragraphs": [
+        "El vehículo menor adelantó al mayor en la primera milla y mantuvo la delantera. La noticia atribuye a Boulton un paso de dieciséis minutos para las primeras cuatro millas. Después tuvo que avanzar con cuidado por Manchester y llegó a Old Trafford en menos de una hora. El centro urbano formaba parte de la prueba, con una circulación que no se convertía en circuito porque dos máquinas estuvieran compitiendo.",
+        "La llegada tampoco cerró el ensayo. Ambos vehículos realizaron giros completos para mostrar su capacidad de maniobra. Ese final revela otra escala de prioridades: el tiempo del recorrido era interesante, pero también lo era conseguir que una máquina pesada girara en un espacio limitado. El público de una exposición podía juzgar las dos cosas. Competir era todavía una forma de mostrar que la propulsión mecánica podía funcionar fuera de un taller."
+      ]
+    },
+    {
+      "id": "origen",
+      "title": "Una carrera que no necesitó esperar a la gasolina",
+      "sourceIds": [
+        "weeks",
+        "boulton",
+        "engineer"
+      ],
+      "paragraphs": [
+        "La historia posterior suele buscar un único primer acontecimiento y entregarle toda la importancia. Manchester obliga a ampliar la mirada. Una comparación previamente acordada entre vehículos de vapor podía tener un ganador décadas antes de los grandes concursos franceses. Eso no vuelve iguales todos los episodios: una demostración, un desafío entre dos constructores y una competencia organizada para muchas marcas tenían públicos y objetivos diferentes.",
+        "El relato de 1867 conserva algo que las grandes cifras históricas pierden. Dos máquinas recorrieron una distancia relativamente corta y después probaron cómo giraban. Un periódico técnico lo consideró digno de unas líneas. Esas líneas bastaron para que la carrera sobreviviera, aunque su fecha se confundiera con la de la publicación. No hace falta agregarle pensamientos a sus ocupantes ni una bandera de llegada imaginaria: la pequeña ventaja concedida al vehículo grande y el adelantamiento del pequeño ya contienen una historia."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "engineer",
+      "title": "Reproducción de A Novel Race, The Engineer, 30 de agosto de 1867, y contraste documental",
+      "url": "https://anarchadia.blogspot.com/2010/01/when-was-first-motor-race-held.html?showComment=1580319840930"
+    },
+    {
+      "id": "weeks",
+      "title": "Lyman Horace Weeks, Automobile Biographies (1904): Daniel Adamson e Isaac Boulton",
+      "url": "https://www.ajhw.co.uk/books/book400/book400.html"
+    },
+    {
+      "id": "boulton",
+      "title": "Wikipedia: Isaac Watt Boulton y fuentes sobre su actividad ferroviaria",
+      "url": "https://en.wikipedia.org/wiki/Isaac_Watt_Boulton"
+    }
+  ],
+  "related": [
+    {
+      "label": "Wisconsin y las máquinas que intentaban reemplazar al caballo",
+      "href": "/articulos/wisconsin-1878-vapor"
+    },
+    {
+      "label": "París–Rouen: correr para convencer",
+      "href": "/articulos/paris-rouen-1894"
+    }
+  ]
+}

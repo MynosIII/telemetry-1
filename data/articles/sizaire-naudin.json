@@ -1,0 +1,112 @@
+{
+  "slug": "sizaire-naudin",
+  "title": "Sizaire-Naudin: la pequeña máquina que encontró su propia carrera",
+  "description": "Una máquina pequeña, una transmisión singular y las carreras de voiturettes: el camino de Sizaire-Naudin muestra otro automovilismo detrás de los grandes fabricantes.",
+  "category": "Autos de leyenda",
+  "year": 1906,
+  "period": "1905–1908",
+  "tags": [
+    "Sizaire-Naudin",
+    "8 HP",
+    "voiturettes",
+    "1906"
+  ],
+  "lead": "El 12 de noviembre de 1906, Georges Sizaire ganó la primera Coupe des Voiturettes cerca de Rambouillet. Su coche no intentaba parecerse al enorme Renault del Grand Prix de aquel año. La categoría premiaba otra combinación: ligereza, un motor pequeño y la capacidad de resistir pruebas prolongadas. Para Sizaire-Naudin, esa oportunidad se convirtió en una especialidad.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Tres socios y un automóvil sencillo",
+      "paragraphs": [
+        "Maurice y Georges Sizaire trabajaron con Louis Naudin en un proyecto que llegó al Salón de París de 1905. El museo MAUTO describe sus primeros coches como deportivos simples y robustos, con un monocilíndrico delantero de aproximadamente novecientos centímetros cúbicos. El chasis de madera reforzado con metal muestra cómo una empresa pequeña podía fabricar un automóvil sin adoptar cada solución de los grandes constructores.",
+        "El coche de ocho caballos conservado en Turín corresponde a 1907. Su cilindrada de 1.244 centímetros cúbicos y su presentación biplaza ayudan a identificar una versión dentro de una familia en evolución. Usarlo para ilustrar una victoria anterior exige explicar la diferencia de fecha. La historia de los Sizaire-Naudin se entiende mejor como una sucesión de vehículos pequeños que fueron modificando sus recursos."
+      ],
+      "sourceIds": [
+        "mauto",
+        "empresa"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "La suspensión aparecía delante de todos",
+      "paragraphs": [
+        "Una gran ballesta transversal en el eje delantero hacía reconocible al automóvil. La disposición de suspensión independiente utilizaba principios desarrollados en los Decauville y procuraba que cada rueda respondiera al terreno sin depender completamente del movimiento de la opuesta. Para un coche ligero que circulaba sobre caminos irregulares, controlar el contacto con el suelo tenía consecuencias prácticas sobre la velocidad y el cansancio.",
+        "La solución siguió teniendo importancia para los hermanos después de abandonar Sizaire-Naudin. El Louwman Museum describe el Sizaire Frères 4RI posterior como una continuación refinada de aquella experiencia, ahora con suspensión independiente en las cuatro ruedas. Esa persistencia revela un hilo de investigación técnica que sobrevivió al nombre de una empresa. El pequeño coche de competición formaba parte de un aprendizaje más amplio."
+      ],
+      "sourceIds": [
+        "louwman",
+        "mauto"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Rambouillet puso a prueba algo más que la potencia",
+      "paragraphs": [
+        "La Coupe des Voiturettes de 1906 fue organizada por L’Auto y el Automobile Club de France. Antes de la carrera final hubo una prueba de resistencia destinada a demostrar las cualidades de los coches. La competencia no reproducía simplemente el Grand Prix en escala reducida: sus reglas y el proceso de selección daban a la regularidad un papel central. Las empresas pequeñas podían aprovechar un reglamento que limitaba a los rivales de otro modo.",
+        "Georges Sizaire ganó sobre siete vueltas de unos 33,8 kilómetros. Louis Naudin prolongó los éxitos en las siguientes ediciones de la copa. La marca se construyó así una reputación dentro de las voiturettes. Sus triunfos ocurrieron antes del Fiat 804 de 1922, por lo que no fueron una respuesta posterior a aquel coche italiano. Son historias de categorías y años diferentes que se relacionan por sus soluciones a problemas de rendimiento."
+      ],
+      "sourceIds": [
+        "copa",
+        "empresa"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Cambiar de marcha sin una caja convencional",
+      "paragraphs": [
+        "La transmisión de los primeros Sizaire-Naudin utilizó un mecanismo particular: un eje desplazable permitía que piñones de distintos tamaños engranaran con la corona del puente. La patente US873461A, firmada por Maurice Sizaire y Louis Naudin y publicada en 1907, documenta los movimientos necesarios para cambiar la relación y obtener marcha atrás. La Nature describió el sistema al año siguiente, destacando que las tres velocidades eran directas. No era un conjunto de múltiples diferenciales como una analogía con la bicicleta podría sugerir, sino una forma alternativa de seleccionar la relación de transmisión.",
+        "Esa rareza mecánica no explica por sí sola las victorias. Su importancia está en mostrar que las soluciones habituales todavía no habían cerrado todas las posibilidades. La ligereza del chasis, el trabajo de suspensión, el monocilíndrico y una categoría adecuada funcionaron juntos. Cuando el automóvil ganó tamaño y complejidad, aquellas decisiones pudieron resultar menos ventajosas.",
+        "Las voiturettes ofrecen una historia paralela a la de las máquinas gigantes. Mientras los Grand Prix podían pasar por períodos de poca actividad, sus carreras mantenían un espacio para experimentar. Sizaire-Naudin ganó en ese espacio y dejó un recordatorio: una innovación puede aparecer porque un fabricante acepta deliberadamente trabajar con menos tamaño y recursos, no porque intente copiar al coche más potente disponible."
+      ],
+      "sourceIds": [
+        "transmision",
+        "louwman",
+        "copa",
+        "patente",
+        "nature"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mauto",
+      "title": "MAUTO: Sizaire-Naudin 8 HP de 1907",
+      "url": "https://www.museoauto.com/en/collection/sizare-naudin-8-hp/"
+    },
+    {
+      "id": "empresa",
+      "title": "Wikipedia: Sizaire-Naudin y carreras de voiturettes",
+      "url": "https://fr.wikipedia.org/wiki/Sizaire-Naudin"
+    },
+    {
+      "id": "louwman",
+      "title": "Louwman Museum: continuidad de la suspensión en el Sizaire Frères 4RI",
+      "url": "https://www.louwmanmuseum.nl/en/car/sizaire-freres-4ri-saloon-with-weymann-coachwork/"
+    },
+    {
+      "id": "copa",
+      "title": "Wikipedia: Coupe des Voiturettes de 1906",
+      "url": "https://fr.wikipedia.org/wiki/Coupe_des_Voiturettes_1906"
+    },
+    {
+      "id": "transmision",
+      "title": "Unique Cars and Parts: reconstrucción de la transmisión Sizaire-Naudin",
+      "url": "https://www.uniquecarsandparts.com/lost_marques_sizaire.htm"
+    },
+    {
+      "id": "patente",
+      "title": "Maurice Sizaire y Louis Naudin: patente estadounidense US873461A, cambio de velocidades (1907)",
+      "url": "https://patents.google.com/patent/US873461A/en"
+    },
+    {
+      "id": "nature",
+      "title": "La Nature, primer semestre de 1908: transmisión Sizaire et Naudin (CNUM)",
+      "url": "https://cnum.cnam.fr/pgi/redir.php?ident=4KY28.73&onglet=c"
+    }
+  ],
+  "related": [
+    {
+      "label": "Renault AK 1906",
+      "href": "/articulos/renault-ak-1906"
+    }
+  ]
+}
