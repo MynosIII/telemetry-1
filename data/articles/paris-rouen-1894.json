@@ -125,5 +125,14 @@
     }
   ],
   "year": 1894,
-  "tags": []
+  "tags": [],
+  "image": {
+    "url": "/articles/photos/paris-rouen-1894.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1894_paris-rouen_-_albert_lema%C3%AEtre_(peugeot_3hp)_1st.jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Albert Lemaître con el Peugeot número 65 en la prueba París–Rouen de 1894, en una fotografía de archivo.",
+    "alt": "Albert Lemaître con el Peugeot número 65 en la prueba París–Rouen de 1894, en una fotografía de archivo."
+  }
 }

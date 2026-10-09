@@ -103,5 +103,14 @@
       "label": "Temporada 1980",
       "href": "/historia/seasons/1980"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mclaren-m29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:McLaren_M29.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "McLaren M29 en la colección de Donington, fotografiado en 2007.",
+    "alt": "McLaren M29 en la colección de Donington, fotografiado en 2007."
+  }
 }

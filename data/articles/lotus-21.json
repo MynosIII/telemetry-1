@@ -91,5 +91,14 @@
       "label": "Temporada 1961",
       "href": "/historia/seasons/1961"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-21.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lotus_21_at_Silverstone_Classic_2011.jpg",
+    "author": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Un Lotus 21 durante Silverstone Classic 2011.",
+    "alt": "Un Lotus 21 durante Silverstone Classic 2011."
+  }
 }

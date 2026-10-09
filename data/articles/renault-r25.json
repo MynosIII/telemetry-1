@@ -114,5 +114,14 @@
       "href": "/articulos/motores-v10"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/renault-r25.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alonso_(Renault)_qualifying_at_USGP_2005.jpg",
+    "author": "Dan Smith",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Fernando Alonso con el Renault R25 durante la clasificación del Gran Premio de Estados Unidos de 2005.",
+    "alt": "Fernando Alonso con el Renault R25 durante la clasificación del Gran Premio de Estados Unidos de 2005."
+  }
 }

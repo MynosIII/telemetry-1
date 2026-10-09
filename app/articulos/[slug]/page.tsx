@@ -14,7 +14,7 @@ export async function generateMetadata({params}:Props):Promise<Metadata> {
   const article = articleBySlug((await params).slug);
   if (!article) return {title:"Artículo no encontrado"};
   return {title:article.title, description:article.description, alternates:{canonical:`/articulos/${article.slug}`},
-    openGraph:{type:"article",title:article.title,description:article.description,url:`/articulos/${article.slug}`}};
+    openGraph:{type:"article",title:article.title,description:article.description,url:`/articulos/${article.slug}`,images:article.image?[{url:article.image.url,alt:article.image.alt}]:undefined}};
 }
 
 export default async function ArticlePage({params}:Props) {
@@ -30,7 +30,7 @@ export default async function ArticlePage({params}:Props) {
       <div className="editorial-reading-layout">
         <aside className="editorial-toc"><details><summary>En esta historia</summary><nav aria-label="En esta historia"><ul>{article.sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.title}</a></li>)}</ul><a href="#fuentes">Fuentes para seguir leyendo</a></nav></details></aside>
         <div className="editorial-prose"><p className="editorial-lead">{article.lead}</p>
-          {article.image && <CircuitArticlePhoto photo={article.image} />}
+          {article.image && <CircuitArticlePhoto key={article.image.page} photo={article.image} />}
           {article.sections.map(section => <section key={section.id} id={section.id} className="editorial-chapter"><h2>{section.title}</h2>
             {section.paragraphs.map((paragraph,i) => <p key={i}>{paragraph}</p>)}
           </section>)}

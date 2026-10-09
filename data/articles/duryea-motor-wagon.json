@@ -104,5 +104,14 @@
       "label": "Benz Patent-Motorwagen",
       "href": "/articulos/benz-patent-motorwagen"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/duryea-motor-wagon.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Charles_E._Duryea_in_his_third_automobile_(1893-4),_winner_of_the_Chicago_contest_of_1894_LCCN2011661041.tif",
+    "author": "Fotógrafo no identificado; Biblioteca del Congreso de Estados Unidos",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Charles E. Duryea con uno de sus automóviles, en una fotografía histórica conservada por la Biblioteca del Congreso de Estados Unidos.",
+    "alt": "Charles E. Duryea con uno de sus automóviles, en una fotografía histórica conservada por la Biblioteca del Congreso de Estados Unidos."
+  }
 }

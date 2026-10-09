@@ -110,5 +110,14 @@
       "label": "Temporada 1980",
       "href": "/historia/seasons/1980"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mclaren-m30.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:McLaren_M30_Mont-Tremblant_2009.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "McLaren M30 en el paddock de Mont-Tremblant, fotografiado en 2009.",
+    "alt": "McLaren M30 en el paddock de Mont-Tremblant, fotografiado en 2009."
+  }
 }

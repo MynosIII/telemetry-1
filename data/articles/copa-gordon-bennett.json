@@ -132,5 +132,14 @@
     }
   ],
   "year": 1900,
-  "tags": []
+  "tags": [],
+  "image": {
+    "url": "/articles/photos/copa-gordon-bennett.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_James_Gordon_Bennett,_Jr..jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "James Gordon Bennett Jr., promotor de la copa que llevaba su nombre, en un retrato publicado antes de 1902.",
+    "alt": "James Gordon Bennett Jr., promotor de la copa que llevaba su nombre, en un retrato publicado antes de 1902."
+  }
 }

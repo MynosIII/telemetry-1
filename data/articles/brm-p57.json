@@ -97,5 +97,14 @@
       "label": "Temporada 1962",
       "href": "/historia/seasons/1962"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/brm-p57.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BRM_P57.jpg",
+    "author": "Kogo",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "caption": "Un BRM P57 en una carrera de automóviles históricos, fotografiado en 2014.",
+    "alt": "Un BRM P57 en una carrera de automóviles históricos, fotografiado en 2014."
+  }
 }

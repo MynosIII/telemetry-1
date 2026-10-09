@@ -108,5 +108,14 @@
       "label": "Grand Prix de Italia",
       "href": "/historia/grands-prix/italy"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/alfa-romeo-p1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfa-Romeo-P1-GP-byMerosi.jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Ugo Sivocci al volante del Alfa Romeo P1 en una fotografía de archivo de 1923.",
+    "alt": "Ugo Sivocci al volante del Alfa Romeo P1 en una fotografía de archivo de 1923."
+  }
 }

@@ -96,5 +96,14 @@
       "label": "Temporada 1971",
       "href": "/historia/seasons/1971"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/march-711.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1971_Andrea_de_Adamich,_March,_Fuchsr%C3%B6hre.jpg",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Andrea de Adamich con el March 711 durante los entrenamientos del Gran Premio de Alemania de 1971.",
+    "alt": "Andrea de Adamich con el March 711 durante los entrenamientos del Gran Premio de Alemania de 1971."
+  }
 }

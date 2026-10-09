@@ -98,5 +98,14 @@
       "label": "Alfa Romeo P2",
       "href": "/articulos/alfa-romeo-p2"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/maserati-tipo-26b.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1928_Maserati_Tipo_26B_Monoposto_(3)_(15049397802).jpg",
+    "author": "James Bond",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Un Maserati Tipo 26B monoposto de 1928 en una exhibición de 2014: una evolución de los primeros autos de la marca.",
+    "alt": "Un Maserati Tipo 26B monoposto de 1928 en una exhibición de 2014: una evolución de los primeros autos de la marca."
+  }
 }

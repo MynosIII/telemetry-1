@@ -105,5 +105,14 @@
       "label": "París–Rouen y las primeras competencias",
       "href": "/articulos/paris-rouen-1894"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/argentina-1901-carreras-hipodromo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marcelo_T._de_Alvear,_ca._1915.jpg",
+    "author": "Bain News Service (agencia editora)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Marcelo T. de Alvear en un retrato del archivo Bain tomado entre 1910 y 1915, años después de las primeras carreras argentinas.",
+    "alt": "Marcelo T. de Alvear en un retrato del archivo Bain tomado entre 1910 y 1915, años después de las primeras carreras argentinas."
+  }
 }

@@ -101,5 +101,14 @@
       "label": "Copa Gordon Bennett",
       "href": "/articulos/copa-gordon-bennett"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/panhard-levassor-carreras.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Levassor_et_Charles_d%27Hostingue,_Bordeaux-Paris-Bordeaux_1895_sur_Panhard_%26_Levassor_4_hp_Phenix_2_places.jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Émile Levassor y Charles d’Hostingue con un Panhard & Levassor de dos plazas, en una fotografía vinculada a la carrera de 1895.",
+    "alt": "Émile Levassor y Charles d’Hostingue con un Panhard & Levassor de dos plazas, en una fotografía vinculada a la carrera de 1895."
+  }
 }

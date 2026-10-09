@@ -98,5 +98,14 @@
       "label": "Temporada 1977",
       "href": "/historia/seasons/1977"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/renault-rs01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Retromobile_2013_-_Renault_F1_RS01_-_1978_-_102.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Renault RS01 expuesto en Rétromobile 2013.",
+    "alt": "Renault RS01 expuesto en Rétromobile 2013."
+  }
 }

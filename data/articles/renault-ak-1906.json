@@ -113,5 +113,14 @@
       "label": "Gordon Bennett",
       "href": "/articulos/copa-gordon-bennett"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/renault-ak-1906.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1906_French_Grand_Prix_Edmond.jpg",
+    "author": "Fotógrafo no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "J. Edmond con un Renault AK en el Gran Premio de Francia de 1906. El piloto de esta fotografía no es Ferenc Szisz.",
+    "alt": "J. Edmond con un Renault AK en el Gran Premio de Francia de 1906. El piloto de esta fotografía no es Ferenc Szisz."
+  }
 }

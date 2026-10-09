@@ -116,5 +116,14 @@
       "label": "Grand Prix de Alemania",
       "href": "/historia/grands-prix/germany"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/alfa-romeo-p3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfa_romeo_p3.jpg",
+    "author": "Fordcapri (Wikipedia en inglés)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Un Alfa Romeo P3 en una exhibición posterior a su época de competición.",
+    "alt": "Un Alfa Romeo P3 en una exhibición posterior a su época de competición."
+  }
 }

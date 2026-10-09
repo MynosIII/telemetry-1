@@ -101,5 +101,14 @@
       "label": "Temporada 1952",
       "href": "/historia/seasons/1952"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/ferrari-500.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_500_F2_front-left_Donington_Grand_Prix_Collection.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Ferrari 500 F2 en la Donington Grand Prix Collection, fotografiado en 2013.",
+    "alt": "Ferrari 500 F2 en la Donington Grand Prix Collection, fotografiado en 2013."
+  }
 }

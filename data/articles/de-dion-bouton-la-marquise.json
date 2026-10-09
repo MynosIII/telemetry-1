@@ -84,5 +84,14 @@
       "label": "París–Rouen 1894",
       "href": "/articulos/paris-rouen-1894"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/de-dion-bouton-la-marquise.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Georges_Bouton.jpg",
+    "author": "Fotógrafo no identificado; reproducción en Pierre Souvestre, Histoire de l’automobile (1907)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Georges Bouton en un retrato reproducido en Histoire de l’automobile, de Pierre Souvestre, publicado en 1907. Es una imagen posterior a los primeros ensayos de La Marquise.",
+    "alt": "Georges Bouton en un retrato reproducido en Histoire de l’automobile, de Pierre Souvestre, publicado en 1907. Es una imagen posterior a los primeros ensayos de La Marquise."
+  }
 }

@@ -101,5 +101,14 @@
       "label": "Renault AK 1906",
       "href": "/articulos/renault-ak-1906"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/renault-type-k.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Retromobile_2012_-_Renault_Type_K_-_1902_-_015.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Renault Type K de 1902 expuesto en Rétromobile 2012.",
+    "alt": "Renault Type K de 1902 expuesto en Rétromobile 2012."
+  }
 }

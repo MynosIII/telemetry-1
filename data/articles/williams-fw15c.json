@@ -103,5 +103,14 @@
       "href": "/articulos/williams-fw14b"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/williams-fw15c.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Williams_FW15C_front-left_2017_Williams_Conference_Centre.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Williams FW15C en la colección de Williams en Grove, fotografiado en 2017.",
+    "alt": "Williams FW15C en la colección de Williams en Grove, fotografiado en 2017."
+  }
 }

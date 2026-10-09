@@ -101,5 +101,14 @@
       "label": "Temporada 1970",
       "href": "/historia/seasons/1970"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-72.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1971_Emerson_Fittipaldi,_Lotus_72_(kl).JPG",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "caption": "Emerson Fittipaldi con el Lotus 72 durante los entrenamientos del Gran Premio de Alemania de 1971.",
+    "alt": "Emerson Fittipaldi con el Lotus 72 durante los entrenamientos del Gran Premio de Alemania de 1971."
+  }
 }

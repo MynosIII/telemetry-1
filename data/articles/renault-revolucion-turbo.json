@@ -122,5 +122,14 @@
     "Renault RS10",
     "Jean-Pierre Jabouille",
     "Turbo"
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/renault-revolucion-turbo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Renault_F1_RS10_L%27Atelier_Renault.jpg",
+    "author": "Alessandro Prada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "El Renault RS10 de 1979 expuesto en L’Atelier Renault de París, fotografiado en 2009.",
+    "alt": "El Renault RS10 de 1979 expuesto en L’Atelier Renault de París, fotografiado en 2009."
+  }
 }

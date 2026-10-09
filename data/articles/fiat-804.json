@@ -108,5 +108,14 @@
       "label": "Fiat 805",
       "href": "/articulos/fiat-805"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/fiat-804.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1922_french_gp_-_pietro_bordino_(fiat_804_2-litre_6-cyl).jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Pietro Bordino con el Fiat 804 en el Gran Premio de Francia de 1922, en una fotografía de archivo.",
+    "alt": "Pietro Bordino con el Fiat 804 en el Gran Premio de Francia de 1922, en una fotografía de archivo."
+  }
 }

@@ -118,5 +118,14 @@
       "href": "/articulos/red-bull-rb6"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/red-bull-rb11.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daniel_Ricciardo_b.jpg",
+    "author": "Veilleux79",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Daniel Ricciardo con el Red Bull RB11 en el Gran Premio de Canadá de 2015.",
+    "alt": "Daniel Ricciardo con el Red Bull RB11 en el Gran Premio de Canadá de 2015."
+  }
 }

@@ -91,5 +91,14 @@
       "label": "Temporada 1966",
       "href": "/historia/seasons/1966"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-43.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0624_112938AA_(27785376742).jpg",
+    "author": "Matthew Lamb",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Lotus 43 durante el Festival of Speed de Goodwood de 2016, en una demostración histórica.",
+    "alt": "Lotus 43 durante el Festival of Speed de Goodwood de 2016, en una demostración histórica."
+  }
 }

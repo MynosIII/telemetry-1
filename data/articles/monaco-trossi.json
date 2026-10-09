@@ -99,5 +99,14 @@
       "label": "Alfa Romeo Tipo A",
       "href": "/articulos/alfa-romeo-tipo-a"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/monaco-trossi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Monaco-Trossi1935.jpg",
+    "author": "Brian Snelson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "El Monaco-Trossi de 1935 en una exhibición posterior, fotografiado en 2007.",
+    "alt": "El Monaco-Trossi de 1935 en una exhibición posterior, fotografiado en 2007."
+  }
 }

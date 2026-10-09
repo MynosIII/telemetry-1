@@ -109,7 +109,16 @@
         "label": "Temporada 1950",
         "href": "/historia/seasons/1950"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/alfa-romeo-158-159.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa-Romeo-159-(1951).jpg",
+      "author": "Lennart Coopmans",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "caption": "Alfa Romeo 159 expuesto, fotografiado en 2006: una mirada posterior al auto que cerró la primera etapa de las Alfetta en el Mundial.",
+      "alt": "Alfa Romeo 159 expuesto, fotografiado en 2006: una mirada posterior al auto que cerró la primera etapa de las Alfetta en el Mundial."
+    }
   },
   {
     "slug": "alfa-romeo-p1",
@@ -221,7 +230,16 @@
         "label": "Grand Prix de Italia",
         "href": "/historia/grands-prix/italy"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/alfa-romeo-p1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa-Romeo-P1-GP-byMerosi.jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Ugo Sivocci al volante del Alfa Romeo P1 en una fotografía de archivo de 1923.",
+      "alt": "Ugo Sivocci al volante del Alfa Romeo P1 en una fotografía de archivo de 1923."
+    }
   },
   {
     "slug": "alfa-romeo-p2",
@@ -348,7 +366,16 @@
         "label": "Alfa Romeo Tipo B/P3",
         "href": "/articulos/alfa-romeo-p3"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/alfa-romeo-p2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_P2.jpg",
+      "author": "Brian Snelson",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Un Alfa Romeo P2 en un encuentro de automóviles históricos, fotografiado en 2007.",
+      "alt": "Un Alfa Romeo P2 en un encuentro de automóviles históricos, fotografiado en 2007."
+    }
   },
   {
     "slug": "alfa-romeo-p3",
@@ -468,7 +495,16 @@
         "label": "Grand Prix de Alemania",
         "href": "/historia/grands-prix/germany"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/alfa-romeo-p3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa_romeo_p3.jpg",
+      "author": "Fordcapri (Wikipedia en inglés)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Un Alfa Romeo P3 en una exhibición posterior a su época de competición.",
+      "alt": "Un Alfa Romeo P3 en una exhibición posterior a su época de competición."
+    }
   },
   {
     "slug": "alfa-romeo-tipo-a",
@@ -581,7 +617,16 @@
         "label": "Maserati V4",
         "href": "/articulos/maserati-v4"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/alfa-romeo-tipo-a.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Gran_Premio_tipo_A_1931.jpg",
+      "author": "tomislav medak",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Reconstrucción del Alfa Romeo Tipo A expuesta en el museo de la marca, fotografiada en 2009.",
+      "alt": "Reconstrucción del Alfa Romeo Tipo A expuesta en el museo de la marca, fotografiada en 2009."
+    }
   },
   {
     "slug": "alpine-a500",
@@ -681,7 +726,16 @@
         "label": "Temporada 1976",
         "href": "/historia/seasons/1976"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/alpine-a500.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alpine_A500_-_R%C3%A9tromobile_2025_(cropped).jpg",
+      "author": "Xavoun; recorte: Danyele",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "El prototipo Alpine A500 en Rétromobile 2025, décadas después de sus ensayos para el programa de Renault.",
+      "alt": "El prototipo Alpine A500 en Rétromobile 2025, décadas después de sus ensayos para el programa de Renault."
+    }
   },
   {
     "slug": "argentina-1901-carreras-hipodromo",
@@ -790,7 +844,16 @@
         "label": "París–Rouen y las primeras competencias",
         "href": "/articulos/paris-rouen-1894"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/argentina-1901-carreras-hipodromo.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Marcelo_T._de_Alvear,_ca._1915.jpg",
+      "author": "Bain News Service (agencia editora)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Marcelo T. de Alvear en un retrato del archivo Bain tomado entre 1910 y 1915, años después de las primeras carreras argentinas.",
+      "alt": "Marcelo T. de Alvear en un retrato del archivo Bain tomado entre 1910 y 1915, años después de las primeras carreras argentinas."
+    }
   },
   {
     "slug": "auto-avio-815",
@@ -888,7 +951,16 @@
         "label": "Historia de Ferrari",
         "href": "/historia/constructors/ferrari"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/auto-avio-815.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Car_Mus%C3%A9e_Enzo_Ferrari_0063_(cropped).JPG",
+      "author": "Arnaud 25",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Un Auto Avio Costruzioni 815 en el Museo Enzo Ferrari de Módena, fotografiado en 2013.",
+      "alt": "Un Auto Avio Costruzioni 815 en el Museo Enzo Ferrari de Módena, fotografiado en 2013."
+    }
   },
   {
     "slug": "auto-union-type-c",
@@ -1009,7 +1081,16 @@
         "label": "Grandes Épreuves",
         "href": "/articulos/grandes-epreuves"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/auto-union-type-c.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:MHV_Auto-Union_Typ_C_1936_01.jpg",
+      "author": "MartinHansV",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Auto Union Tipo C en el Deutsches Museum Verkehrszentrum de Múnich, fotografiado en 2007.",
+      "alt": "Auto Union Tipo C en el Deutsches Museum Verkehrszentrum de Múnich, fotografiado en 2007."
+    }
   },
   {
     "slug": "benz-patent-motorwagen",
@@ -1103,7 +1184,16 @@
         "label": "Daimler y Maybach",
         "href": "/articulos/daimler-maybach-motorwagen"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/benz-patent-motorwagen.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Replicas_of_Benz_Patent-Motorwagen_Model_1_Classic-Gala_2021_1X7A0062.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Una réplica del Benz Patent-Motorwagen Modelo 1 durante Classic-Gala 2021. La fotografía es contemporánea y no muestra una escena de 1886.",
+      "alt": "Una réplica del Benz Patent-Motorwagen Modelo 1 durante Classic-Gala 2021. La fotografía es contemporánea y no muestra una escena de 1886."
+    }
   },
   {
     "slug": "brabham-bt34",
@@ -1198,7 +1288,16 @@
         "label": "Temporada 1971",
         "href": "/historia/seasons/1971"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/brabham-bt34.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1971_Race_of_Champions_G_Hill_Brabham_BT34.jpg",
+      "author": "Gerald Swan",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Graham Hill con el Brabham BT34 en la Race of Champions de 1971.",
+      "alt": "Graham Hill con el Brabham BT34 en la Race of Champions de 1971."
+    }
   },
   {
     "slug": "brabham-bt46",
@@ -1299,7 +1398,16 @@
         "label": "Temporada 1978",
         "href": "/historia/seasons/1978"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/brabham-bt46.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lauda_at_1978_Dutch_Grand_Prix_(cropped).jpg",
+      "author": "Koen Suyk / Anefo; recorte: Danyele",
+      "license": "CC BY-SA 3.0 nl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+      "caption": "Niki Lauda con el Brabham BT46 convencional en el Gran Premio de los Países Bajos de 1978.",
+      "alt": "Niki Lauda con el Brabham BT46 convencional en el Gran Premio de los Países Bajos de 1978."
+    }
   },
   {
     "slug": "brabham-bt46b",
@@ -1800,7 +1908,16 @@
         "label": "Temporada 1962",
         "href": "/historia/seasons/1962"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/brm-p57.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:BRM_P57.jpg",
+      "author": "Kogo",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "Un BRM P57 en una carrera de automóviles históricos, fotografiado en 2014.",
+      "alt": "Un BRM P57 en una carrera de automóviles históricos, fotografiado en 2014."
+    }
   },
   {
     "slug": "brm-p83-h16",
@@ -1906,7 +2023,16 @@
         "label": "Temporada 1966",
         "href": "/historia/seasons/1966"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/brm-p83-h16.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:BRM_P83.jpg",
+      "author": "John Chapman (Pyrope)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "BRM P83 con motor H16 en la colección de Donington, fotografiado en 2007.",
+      "alt": "BRM P83 con motor H16 en la colección de Donington, fotografiado en 2007."
+    }
   },
   {
     "slug": "brm-type-15",
@@ -2012,7 +2138,16 @@
         "label": "Temporada 1951",
         "href": "/historia/seasons/1951"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/brm-type-15.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1950_BRM_Type_15.JPG",
+      "author": "Przemysław Jahr / Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "BRM Type 15 en el National Motor Museum de Beaulieu, fotografiado en 2008.",
+      "alt": "BRM Type 15 en el National Motor Museum de Beaulieu, fotografiado en 2008."
+    }
   },
   {
     "slug": "bugatti-type-35",
@@ -2119,7 +2254,16 @@
         "label": "Alfa Romeo P2",
         "href": "/articulos/alfa-romeo-p2"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/bugatti-type-35.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Bugatti_35,_Bj_1924,_M_Nicolosi_-_1976.jpg",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "caption": "Un Bugatti Type 35 durante un encuentro histórico en Nürburgring, fotografiado en 1976.",
+      "alt": "Un Bugatti Type 35 durante un encuentro histórico en Nürburgring, fotografiado en 1976."
+    }
   },
   {
     "slug": "cooper-revolucion-motor-trasero",
@@ -2348,7 +2492,16 @@
         "label": "Temporada 1958",
         "href": "/historia/seasons/1958"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/cooper-t43.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Cooper_T43_Donington_2007.jpg",
+      "author": "John Chapman (Pyrope)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Cooper T43 en el paddock de Donington durante un encuentro de automóviles históricos de 2007.",
+      "alt": "Cooper T43 en el paddock de Donington durante un encuentro de automóviles históricos de 2007."
+    }
   },
   {
     "slug": "copa-gordon-bennett",
@@ -2484,7 +2637,16 @@
       }
     ],
     "year": 1900,
-    "tags": []
+    "tags": [],
+    "image": {
+      "url": "/articles/photos/copa-gordon-bennett.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_James_Gordon_Bennett,_Jr..jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "James Gordon Bennett Jr., promotor de la copa que llevaba su nombre, en un retrato publicado antes de 1902.",
+      "alt": "James Gordon Bennett Jr., promotor de la copa que llevaba su nombre, en un retrato publicado antes de 1902."
+    }
   },
   {
     "slug": "daimler-maybach-motorwagen",
@@ -2584,7 +2746,16 @@
         "label": "Mercedes 35 PS",
         "href": "/articulos/mercedes-35-ps"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/daimler-maybach-motorwagen.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz-Museum_2015-01_by-RaBoe_021.jpg",
+      "author": "© Ra Boe / Wikipedia",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "La primera carroza motorizada de Daimler representada en una pieza de exposición del Mercedes-Benz Museum, fotografiada en 2015.",
+      "alt": "La primera carroza motorizada de Daimler representada en una pieza de exposición del Mercedes-Benz Museum, fotografiada en 2015."
+    }
   },
   {
     "slug": "de-dion-bouton-la-marquise",
@@ -2672,7 +2843,16 @@
         "label": "París–Rouen 1894",
         "href": "/articulos/paris-rouen-1894"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/de-dion-bouton-la-marquise.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Georges_Bouton.jpg",
+      "author": "Fotógrafo no identificado; reproducción en Pierre Souvestre, Histoire de l’automobile (1907)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Georges Bouton en un retrato reproducido en Histoire de l’automobile, de Pierre Souvestre, publicado en 1907. Es una imagen posterior a los primeros ensayos de La Marquise.",
+      "alt": "Georges Bouton en un retrato reproducido en Histoire de l’automobile, de Pierre Souvestre, publicado en 1907. Es una imagen posterior a los primeros ensayos de La Marquise."
+    }
   },
   {
     "slug": "duryea-motor-wagon",
@@ -2780,7 +2960,16 @@
         "label": "Benz Patent-Motorwagen",
         "href": "/articulos/benz-patent-motorwagen"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/duryea-motor-wagon.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Charles_E._Duryea_in_his_third_automobile_(1893-4),_winner_of_the_Chicago_contest_of_1894_LCCN2011661041.tif",
+      "author": "Fotógrafo no identificado; Biblioteca del Congreso de Estados Unidos",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Charles E. Duryea con uno de sus automóviles, en una fotografía histórica conservada por la Biblioteca del Congreso de Estados Unidos.",
+      "alt": "Charles E. Duryea con uno de sus automóviles, en una fotografía histórica conservada por la Biblioteca del Congreso de Estados Unidos."
+    }
   },
   {
     "slug": "efecto-suelo-lotus-brabham",
@@ -3084,7 +3273,16 @@
       "DAS",
       "McLaren MP4-25",
       "Mercedes W11"
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/f-duct-das-fronteras-reglamento.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jenson_Button_Bahrain_2010_cropped.jpg",
+      "author": "Andrew Griffith; recorte: Chubbennaitor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010: el auto que llevó el F-duct a las pistas.",
+      "alt": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010: el auto que llevó el F-duct a las pistas."
+    }
   },
   {
     "slug": "ferguson-p99",
@@ -3178,7 +3376,16 @@
         "label": "Temporada 1961",
         "href": "/historia/seasons/1961"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/ferguson-p99.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferguson_P99_-_Flickr_-_andrewbasterfield_(1).jpg",
+      "author": "Andrew Basterfield",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "El Ferguson P99 en un encuentro de automóviles históricos, fotografiado en 2011.",
+      "alt": "El Ferguson P99 en un encuentro de automóviles históricos, fotografiado en 2011."
+    }
   },
   {
     "slug": "ferrari-156",
@@ -3278,7 +3485,16 @@
         "label": "Temporada 1961",
         "href": "/historia/seasons/1961"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/ferrari-156.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_Tipo_156_Sharknose_(1961)_Solitude_Revival_2019_IMG_1632.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Una recreación del Ferrari 156 «Sharknose» en Solitude Revival 2019. La imagen no muestra un ejemplar original superviviente de 1961.",
+      "alt": "Una recreación del Ferrari 156 «Sharknose» en Solitude Revival 2019. La imagen no muestra un ejemplar original superviviente de 1961."
+    }
   },
   {
     "slug": "ferrari-158",
@@ -3390,7 +3606,16 @@
         "label": "Temporada 1964",
         "href": "/historia/seasons/1964"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/ferrari-158.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_158_F1_1964.jpg",
+      "author": "Tim Dobbelaere ( Flickr account: storem )",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Un Ferrari 158 expuesto, fotografiado en 2006, mucho después de la temporada de John Surtees.",
+      "alt": "Un Ferrari 158 expuesto, fotografiado en 2006, mucho después de la temporada de John Surtees."
+    }
   },
   {
     "slug": "ferrari-375-f1",
@@ -3487,7 +3712,16 @@
         "label": "Temporada 1951",
         "href": "/historia/seasons/1951"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/ferrari-375-f1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_375_F1_noBG.jpg",
+      "author": "János Korom Dr.",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Un Ferrari 375 F1 en una fotografía de 2002; el archivo utiliza un recorte fotográfico sobre fondo blanco.",
+      "alt": "Un Ferrari 375 F1 en una fotografía de 2002; el archivo utiliza un recorte fotográfico sobre fondo blanco."
+    }
   },
   {
     "slug": "ferrari-500",
@@ -3592,7 +3826,16 @@
         "label": "Temporada 1952",
         "href": "/historia/seasons/1952"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/ferrari-500.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_500_F2_front-left_Donington_Grand_Prix_Collection.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Ferrari 500 F2 en la Donington Grand Prix Collection, fotografiado en 2013.",
+      "alt": "Ferrari 500 F2 en la Donington Grand Prix Collection, fotografiado en 2013."
+    }
   },
   {
     "slug": "ferrari-f2002",
@@ -3717,7 +3960,16 @@
         "href": "/articulos/ferrari-f2004"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/ferrari-f2002.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F2002_front-right_Museo_Ferrari.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Ferrari F2002 en el Museo Ferrari, fotografiado en 2013.",
+      "alt": "Ferrari F2002 en el Museo Ferrari, fotografiado en 2013."
+    }
   },
   {
     "slug": "ferrari-f2004",
@@ -3839,7 +4091,16 @@
         "href": "/articulos/ferrari-f2002"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/ferrari-f2004.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher_Ferrari_2004.jpg",
+      "author": "Rick Dikeman",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004.",
+      "alt": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004."
+    }
   },
   {
     "slug": "fiat-804",
@@ -3951,7 +4212,16 @@
         "label": "Fiat 805",
         "href": "/articulos/fiat-805"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/fiat-804.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1922_french_gp_-_pietro_bordino_(fiat_804_2-litre_6-cyl).jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Pietro Bordino con el Fiat 804 en el Gran Premio de Francia de 1922, en una fotografía de archivo.",
+      "alt": "Pietro Bordino con el Fiat 804 en el Gran Premio de Francia de 1922, en una fotografía de archivo."
+    }
   },
   {
     "slug": "fiat-805",
@@ -4069,7 +4339,16 @@
         "label": "Grandes Épreuves",
         "href": "/articulos/grandes-epreuves"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/fiat-805.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Fiat-805._Pietro_Bordino(1923).jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Pietro Bordino con el Fiat 805 en una fotografía de archivo de 1923.",
+      "alt": "Pietro Bordino con el Fiat 805 en una fotografía de archivo de 1923."
+    }
   },
   {
     "slug": "grandes-epreuves",
@@ -4235,7 +4514,16 @@
       }
     ],
     "year": 1906,
-    "tags": []
+    "tags": [],
+    "image": {
+      "url": "/articles/photos/grandes-epreuves.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferdinando_Minoia_in_1931.jpg",
+      "author": "Agence de presse Meurisse",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Ferdinando Minoia en 1931, el año en que ganó el primer Campeonato Europeo de Pilotos.",
+      "alt": "Ferdinando Minoia en 1931, el año en que ganó el primer Campeonato Europeo de Pilotos."
+    }
   },
   {
     "slug": "lancia-d50",
@@ -4339,7 +4627,16 @@
         "label": "Temporada 1954",
         "href": "/historia/seasons/1954"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lancia-d50.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lancia_D50_at_Goodwood_Revival_2012.jpg",
+      "author": "David Merrett",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Un Lancia D50 en Goodwood Revival 2012: una demostración histórica muy posterior a su campaña original.",
+      "alt": "Un Lancia D50 en Goodwood Revival 2012: una demostración histórica muy posterior a su campaña original."
+    }
   },
   {
     "slug": "lotus-16",
@@ -4433,7 +4730,16 @@
         "label": "Temporada 1958",
         "href": "/historia/seasons/1958"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-16.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lotus_16.jpg",
+      "author": "Pyrope",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Lotus 16 en la colección de Donington, fotografiado en 2007.",
+      "alt": "Lotus 16 en la colección de Donington, fotografiado en 2007."
+    }
   },
   {
     "slug": "lotus-18",
@@ -4544,7 +4850,16 @@
         "label": "Temporada 1960",
         "href": "/historia/seasons/1960"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lotus_18_Stirling_Moss_Monaco_1961.jpg",
+      "author": "John Chapman (Pyrope)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "El Lotus 18 de Rob Walker asociado al triunfo de Stirling Moss en Mónaco, fotografiado en la colección de Donington en 2007.",
+      "alt": "El Lotus 18 de Rob Walker asociado al triunfo de Stirling Moss en Mónaco, fotografiado en la colección de Donington en 2007."
+    }
   },
   {
     "slug": "lotus-21",
@@ -4639,7 +4954,16 @@
         "label": "Temporada 1961",
         "href": "/historia/seasons/1961"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-21.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lotus_21_at_Silverstone_Classic_2011.jpg",
+      "author": "David Merrett",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Un Lotus 21 durante Silverstone Classic 2011.",
+      "alt": "Un Lotus 21 durante Silverstone Classic 2011."
+    }
   },
   {
     "slug": "lotus-25",
@@ -4734,7 +5058,16 @@
         "label": "Temporada 1962",
         "href": "/historia/seasons/1962"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-25.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1964_Lotus-Climax_25.jpg",
+      "author": "Chris Peeters",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "Un Lotus 25 de 1964 en un encuentro histórico, fotografiado en 2014.",
+      "alt": "Un Lotus 25 de 1964 en un encuentro histórico, fotografiado en 2014."
+    }
   },
   {
     "slug": "lotus-43",
@@ -4829,7 +5162,16 @@
         "label": "Temporada 1966",
         "href": "/historia/seasons/1966"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-43.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:FoS20162016_0624_112938AA_(27785376742).jpg",
+      "author": "Matthew Lamb",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Lotus 43 durante el Festival of Speed de Goodwood de 2016, en una demostración histórica.",
+      "alt": "Lotus 43 durante el Festival of Speed de Goodwood de 2016, en una demostración histórica."
+    }
   },
   {
     "slug": "lotus-49",
@@ -5050,7 +5392,16 @@
         "label": "Temporada 1970",
         "href": "/historia/seasons/1970"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-72.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1971_Emerson_Fittipaldi,_Lotus_72_(kl).JPG",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "caption": "Emerson Fittipaldi con el Lotus 72 durante los entrenamientos del Gran Premio de Alemania de 1971.",
+      "alt": "Emerson Fittipaldi con el Lotus 72 durante los entrenamientos del Gran Premio de Alemania de 1971."
+    }
   },
   {
     "slug": "lotus-78",
@@ -5156,7 +5507,16 @@
         "label": "Temporada 1977",
         "href": "/historia/seasons/1977"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/lotus-78.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_of_the_Americas_(23970306838).jpg",
+      "author": "mrlaugh (Flickr)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017.",
+      "alt": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017."
+    }
   },
   {
     "slug": "lotus-monocasco-cosworth-dfv",
@@ -5394,7 +5754,16 @@
         "label": "París–Rouen: correr para convencer",
         "href": "/articulos/paris-rouen-1894"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/manchester-1867-carrera-vapor.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ashton-under-lyne-town-hall2011.jpg",
+      "author": "Zboralski",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "caption": "El ayuntamiento de Ashton-under-Lyne, fotografiado en 2011. La localidad fue el punto de partida de la carrera de vapor de 1867; esta vista no identifica su salida exacta.",
+      "alt": "El ayuntamiento de Ashton-under-Lyne, fotografiado en 2011. La localidad fue el punto de partida de la carrera de vapor de 1867; esta vista no identifica su salida exacta."
+    }
   },
   {
     "slug": "march-711",
@@ -5494,7 +5863,16 @@
         "label": "Temporada 1971",
         "href": "/historia/seasons/1971"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/march-711.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1971_Andrea_de_Adamich,_March,_Fuchsr%C3%B6hre.jpg",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "caption": "Andrea de Adamich con el March 711 durante los entrenamientos del Gran Premio de Alemania de 1971.",
+      "alt": "Andrea de Adamich con el March 711 durante los entrenamientos del Gran Premio de Alemania de 1971."
+    }
   },
   {
     "slug": "maserati-250f",
@@ -5594,7 +5972,16 @@
         "label": "Temporada 1957",
         "href": "/historia/seasons/1957"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/maserati-250f.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Maserati_250_F,_Bj._1957_(1977-08-14)_S%C3%BCdkehre.jpg",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "caption": "Un Maserati 250F en una demostración histórica en Nürburgring, fotografiado en 1977.",
+      "alt": "Un Maserati 250F en una demostración histórica en Nürburgring, fotografiado en 1977."
+    }
   },
   {
     "slug": "maserati-tipo-26b",
@@ -5696,7 +6083,16 @@
         "label": "Alfa Romeo P2",
         "href": "/articulos/alfa-romeo-p2"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/maserati-tipo-26b.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1928_Maserati_Tipo_26B_Monoposto_(3)_(15049397802).jpg",
+      "author": "James Bond",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Un Maserati Tipo 26B monoposto de 1928 en una exhibición de 2014: una evolución de los primeros autos de la marca.",
+      "alt": "Un Maserati Tipo 26B monoposto de 1928 en una exhibición de 2014: una evolución de los primeros autos de la marca."
+    }
   },
   {
     "slug": "maserati-v4",
@@ -5798,7 +6194,16 @@
         "label": "Grandes Épreuves",
         "href": "/articulos/grandes-epreuves"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/maserati-v4.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1930-09-07_Monza_Maserati_V4_Ernesto_and_Alfieri_and_Parenti.jpg",
+      "author": "Fotógrafo no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Ernesto Maserati al volante de un Tipo V4, acompañado por Alfieri Maserati y otros integrantes del equipo, en una fotografía de archivo.",
+      "alt": "Ernesto Maserati al volante de un Tipo V4, acompañado por Alfieri Maserati y otros integrantes del equipo, en una fotografía de archivo."
+    }
   },
   {
     "slug": "mclaren-m29",
@@ -5905,7 +6310,16 @@
         "label": "Temporada 1980",
         "href": "/historia/seasons/1980"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mclaren-m29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:McLaren_M29.jpg",
+      "author": "John Chapman (Pyrope)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "McLaren M29 en la colección de Donington, fotografiado en 2007.",
+      "alt": "McLaren M29 en la colección de Donington, fotografiado en 2007."
+    }
   },
   {
     "slug": "mclaren-m30",
@@ -6019,7 +6433,16 @@
         "label": "Temporada 1980",
         "href": "/historia/seasons/1980"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mclaren-m30.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:McLaren_M30_Mont-Tremblant_2009.jpg",
+      "author": "John Chapman (Pyrope)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "McLaren M30 en el paddock de Mont-Tremblant, fotografiado en 2009.",
+      "alt": "McLaren M30 en el paddock de Mont-Tremblant, fotografiado en 2009."
+    }
   },
   {
     "slug": "mclaren-m7c",
@@ -6120,7 +6543,16 @@
         "label": "Temporada 1969",
         "href": "/historia/seasons/1969"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mclaren-m7c.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:McLarenBruce19690801.jpg",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "caption": "Bruce McLaren en un McLaren durante los entrenamientos del Gran Premio de Alemania de 1969. La ficha del archivo contiene identificaciones de modelo discrepantes, por lo que esta imagen se usa como contexto del piloto y la época.",
+      "alt": "Bruce McLaren en un McLaren durante los entrenamientos del Gran Premio de Alemania de 1969. La ficha del archivo contiene identificaciones de modelo discrepantes, por lo que esta imagen se usa como contexto del piloto y la época."
+    }
   },
   {
     "slug": "mclaren-mp4-1",
@@ -6223,7 +6655,16 @@
         "label": "Temporada 1981",
         "href": "/historia/seasons/1981"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mclaren-mp4-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_Watson_McLaren_MP4_1_2019_Silverstone_Classic_(48557916077).jpg",
+      "author": "davehamster (Flickr)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "El McLaren MP4/1 de John Watson, conservado y exhibido en Silverstone Classic 2019.",
+      "alt": "El McLaren MP4/1 de John Watson, conservado y exhibido en Silverstone Classic 2019."
+    }
   },
   {
     "slug": "mclaren-mp4-25",
@@ -6354,7 +6795,16 @@
         "href": "/articulos/f-duct-das-fronteras-reglamento"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/mclaren-mp4-25.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jenson_Button_Bahrain_2010_cropped.jpg",
+      "author": "Andrew Griffith; recorte: Chubbennaitor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010.",
+      "alt": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010."
+    }
   },
   {
     "slug": "mclaren-mp4-4",
@@ -6582,7 +7032,16 @@
         "label": "Daimler y Maybach",
         "href": "/articulos/daimler-maybach-motorwagen"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mercedes-35-ps.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes_35hp_by_Wilhelm_Maybach.jpg",
+      "author": "Mercedes-Benz (fotografía de fábrica)",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Mercedes 35 PS en una fotografía histórica de la marca, fechada en 1901.",
+      "alt": "Mercedes 35 PS en una fotografía histórica de la marca, fechada en 1901."
+    }
   },
   {
     "slug": "mercedes-ssk-sskl",
@@ -6708,7 +7167,16 @@
         "label": "Grand Prix de Monaco",
         "href": "/historia/grands-prix/monaco"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mercedes-ssk-sskl.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Retromobile_2012_-_Mercedes-Benz_SSK_-_1928_-_017.jpg",
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Mercedes-Benz SSK de 1928 expuesto en Rétromobile 2012.",
+      "alt": "Mercedes-Benz SSK de 1928 expuesto en Rétromobile 2012."
+    }
   },
   {
     "slug": "mercedes-w11",
@@ -6847,7 +7315,16 @@
         "href": "/articulos/mercedes-w12"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/mercedes-w11.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2020_Tuscan_Grand_Prix_-_race_day_(cropped).jpg",
+      "author": "Eustace Bagge; recorte: Danyele",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020.",
+      "alt": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020."
+    }
   },
   {
     "slug": "mercedes-w12",
@@ -6981,7 +7458,16 @@
         "href": "/articulos/mercedes-w11"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/mercedes-w12.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2021_Nr._44_Hamilton_(side).jpg",
+      "author": "Lukas Raich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Lewis Hamilton con el Mercedes W12 durante el fin de semana del Gran Premio de Austria de 2021.",
+      "alt": "Lewis Hamilton con el Mercedes W12 durante el fin de semana del Gran Premio de Austria de 2021."
+    }
   },
   {
     "slug": "mercedes-w125",
@@ -7095,7 +7581,16 @@
         "label": "Auto Union Type C",
         "href": "/articulos/auto-union-type-c"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mercedes-w125.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W_125_Donington.jpg",
+      "author": "John Chapman (Pyrope)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Mercedes-Benz W125 exhibido durante un encuentro histórico en Donington, fotografiado en 2007.",
+      "alt": "Mercedes-Benz W125 exhibido durante un encuentro histórico en Donington, fotografiado en 2007."
+    }
   },
   {
     "slug": "mercedes-w196",
@@ -7188,7 +7683,16 @@
         "label": "Temporada 1954",
         "href": "/historia/seasons/1954"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mercedes-w196.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:KlingK-MB-W196-1976.jpg",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "caption": "Karl Kling al volante de un Mercedes-Benz W196 en una demostración histórica de 1976 en Nürburgring.",
+      "alt": "Karl Kling al volante de un Mercedes-Benz W196 en una demostración histórica de 1976 en Nürburgring."
+    }
   },
   {
     "slug": "mercedes-w25",
@@ -7295,7 +7799,16 @@
         "label": "Auto Union Type C",
         "href": "/articulos/auto-union-type-c"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/mercedes-w25.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1934Mercedes-BenzW25-side_Goodwood,_2009.JPG",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Jochen Mass con un Mercedes-Benz W25 durante el Festival of Speed de Goodwood de 2009.",
+      "alt": "Jochen Mass con un Mercedes-Benz W25 durante el Festival of Speed de Goodwood de 2009."
+    }
   },
   {
     "slug": "monaco-trossi",
@@ -7398,7 +7911,16 @@
         "label": "Alfa Romeo Tipo A",
         "href": "/articulos/alfa-romeo-tipo-a"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/monaco-trossi.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Monaco-Trossi1935.jpg",
+      "author": "Brian Snelson",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "El Monaco-Trossi de 1935 en una exhibición posterior, fotografiado en 2007.",
+      "alt": "El Monaco-Trossi de 1935 en una exhibición posterior, fotografiado en 2007."
+    }
   },
   {
     "slug": "motores-v10",
@@ -7533,7 +8055,16 @@
         "href": "/articulos/motores-v6-hibridos"
       }
     ],
-    "category": "Ideas que cambiaron la F1"
+    "category": "Ideas que cambiaron la F1",
+    "image": {
+      "url": "/articles/photos/motores-v10.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Honda_RA109E_engine_front-left2_Honda_Collection_Hall.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Motor Honda RA109E V10 de 1989 en el Honda Collection Hall, fotografiado en 2013.",
+      "alt": "Motor Honda RA109E V10 de 1989 en el Honda Collection Hall, fotografiado en 2013."
+    }
   },
   {
     "slug": "motores-v6-hibridos",
@@ -7658,7 +8189,16 @@
         "href": "/articulos/mercedes-w11"
       }
     ],
-    "category": "Ideas que cambiaron la F1"
+    "category": "Ideas que cambiaron la F1",
+    "image": {
+      "url": "/articles/photos/motores-v6-hibridos.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Mercedes_PU106_Hybrid_Power_Unit_(49255122157).jpg",
+      "author": "David Merrett",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Unidad de potencia Mercedes PU106 Hybrid de 2016 expuesta en Silverstone, fotografiada en 2019.",
+      "alt": "Unidad de potencia Mercedes PU106 Hybrid de 2016 expuesta en Silverstone, fotografiada en 2019."
+    }
   },
   {
     "slug": "niza-semana-velocidad",
@@ -7763,7 +8303,16 @@
         "label": "Los fabricantes en la Copa Gordon Bennett",
         "href": "/articulos/copa-gordon-bennett"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/niza-semana-velocidad.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:La_Turbie_BW_1.JPG",
+      "author": "Berthold Werner",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "La Turbie fotografiada en 2006. Esta vista posterior muestra el entorno de la célebre subida vinculada a la Semana de la Velocidad de Niza.",
+      "alt": "La Turbie fotografiada en 2006. Esta vista posterior muestra el entorno de la célebre subida vinculada a la Semana de la Velocidad de Niza."
+    }
   },
   {
     "slug": "panhard-levassor-carreras",
@@ -7868,7 +8417,16 @@
         "label": "Copa Gordon Bennett",
         "href": "/articulos/copa-gordon-bennett"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/panhard-levassor-carreras.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Levassor_et_Charles_d%27Hostingue,_Bordeaux-Paris-Bordeaux_1895_sur_Panhard_%26_Levassor_4_hp_Phenix_2_places.jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Émile Levassor y Charles d’Hostingue con un Panhard & Levassor de dos plazas, en una fotografía vinculada a la carrera de 1895.",
+      "alt": "Émile Levassor y Charles d’Hostingue con un Panhard & Levassor de dos plazas, en una fotografía vinculada a la carrera de 1895."
+    }
   },
   {
     "slug": "paris-rouen-1894",
@@ -7997,7 +8555,16 @@
       }
     ],
     "year": 1894,
-    "tags": []
+    "tags": [],
+    "image": {
+      "url": "/articles/photos/paris-rouen-1894.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1894_paris-rouen_-_albert_lema%C3%AEtre_(peugeot_3hp)_1st.jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Albert Lemaître con el Peugeot número 65 en la prueba París–Rouen de 1894, en una fotografía de archivo.",
+      "alt": "Albert Lemaître con el Peugeot número 65 en la prueba París–Rouen de 1894, en una fotografía de archivo."
+    }
   },
   {
     "slug": "red-bull-rb11",
@@ -8119,7 +8686,16 @@
         "href": "/articulos/red-bull-rb6"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/red-bull-rb11.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Daniel_Ricciardo_b.jpg",
+      "author": "Veilleux79",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Daniel Ricciardo con el Red Bull RB11 en el Gran Premio de Canadá de 2015.",
+      "alt": "Daniel Ricciardo con el Red Bull RB11 en el Gran Premio de Canadá de 2015."
+    }
   },
   {
     "slug": "red-bull-rb6",
@@ -8238,7 +8814,16 @@
         "href": "/articulos/red-bull-rb11"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/red-bull-rb6.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Vettel_Bahrain_2010_(cropped).jpg",
+      "author": "Andrew Griffith; recorte: Chubbennaitor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Sebastian Vettel con el Red Bull RB6 durante los entrenamientos del Gran Premio de Baréin de 2010.",
+      "alt": "Sebastian Vettel con el Red Bull RB6 durante los entrenamientos del Gran Premio de Baréin de 2010."
+    }
   },
   {
     "slug": "renault-ak-1906",
@@ -8355,7 +8940,16 @@
         "label": "Gordon Bennett",
         "href": "/articulos/copa-gordon-bennett"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/renault-ak-1906.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1906_French_Grand_Prix_Edmond.jpg",
+      "author": "Fotógrafo no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "J. Edmond con un Renault AK en el Gran Premio de Francia de 1906. El piloto de esta fotografía no es Ferenc Szisz.",
+      "alt": "J. Edmond con un Renault AK en el Gran Premio de Francia de 1906. El piloto de esta fotografía no es Ferenc Szisz."
+    }
   },
   {
     "slug": "renault-r25",
@@ -8473,7 +9067,16 @@
         "href": "/articulos/motores-v10"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/renault-r25.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alonso_(Renault)_qualifying_at_USGP_2005.jpg",
+      "author": "Dan Smith",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Fernando Alonso con el Renault R25 durante la clasificación del Gran Premio de Estados Unidos de 2005.",
+      "alt": "Fernando Alonso con el Renault R25 durante la clasificación del Gran Premio de Estados Unidos de 2005."
+    }
   },
   {
     "slug": "renault-revolucion-turbo",
@@ -8599,7 +9202,16 @@
       "Renault RS10",
       "Jean-Pierre Jabouille",
       "Turbo"
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/renault-revolucion-turbo.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Renault_F1_RS10_L%27Atelier_Renault.jpg",
+      "author": "Alessandro Prada",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "El Renault RS10 de 1979 expuesto en L’Atelier Renault de París, fotografiado en 2009.",
+      "alt": "El Renault RS10 de 1979 expuesto en L’Atelier Renault de París, fotografiado en 2009."
+    }
   },
   {
     "slug": "renault-rs01",
@@ -8701,7 +9313,16 @@
         "label": "Temporada 1977",
         "href": "/historia/seasons/1977"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/renault-rs01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Retromobile_2013_-_Renault_F1_RS01_-_1978_-_102.jpg",
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Renault RS01 expuesto en Rétromobile 2013.",
+      "alt": "Renault RS01 expuesto en Rétromobile 2013."
+    }
   },
   {
     "slug": "renault-type-k",
@@ -8806,7 +9427,16 @@
         "label": "Renault AK 1906",
         "href": "/articulos/renault-ak-1906"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/renault-type-k.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Retromobile_2012_-_Renault_Type_K_-_1902_-_015.jpg",
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Renault Type K de 1902 expuesto en Rétromobile 2012.",
+      "alt": "Renault Type K de 1902 expuesto en Rétromobile 2012."
+    }
   },
   {
     "slug": "renault-type-o",
@@ -8917,7 +9547,16 @@
         "label": "Renault AK 1906",
         "href": "/articulos/renault-ak-1906"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/renault-type-o.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Marcel_Renault_1903.jpg",
+      "author": "Autor no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Marcel Renault durante la París–Madrid de mayo de 1903, en una fotografía de archivo.",
+      "alt": "Marcel Renault durante la París–Madrid de mayo de 1903, en una fotografía de archivo."
+    }
   },
   {
     "slug": "san-martin-villa-martelli",
@@ -9028,7 +9667,16 @@
         "label": "El circuito de Buenos Aires",
         "href": "/historia/circuits/buenos-aires"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/san-martin-villa-martelli.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Villa_Martelli_neighborhood_in_Buenos_Aires_Province,_Argentina.jpg",
+      "author": "Lombardia1",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Avenida Laprida, en Villa Martelli, fotografiada en 2021. Es una vista posterior del barrio, no una imagen del antiguo autódromo ni una identificación de su trazado.",
+      "alt": "Avenida Laprida, en Villa Martelli, fotografiada en 2021. Es una vista posterior del barrio, no una imagen del antiguo autódromo ni una identificación de su trazado."
+    }
   },
   {
     "slug": "sizaire-naudin",
@@ -9140,7 +9788,16 @@
         "label": "Renault AK 1906",
         "href": "/articulos/renault-ak-1906"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/sizaire-naudin.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mauto24_09_-_Sizaire_%26_Naudin.jpg",
+      "author": "Herranderssvensson",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "caption": "Sizaire & Naudin de 1907 en el Museo Nazionale dell’Automobile de Turín, fotografiado en 2024.",
+      "alt": "Sizaire & Naudin de 1907 en el Museo Nazionale dell’Automobile de Turín, fotografiado en 2024."
+    }
   },
   {
     "slug": "turismo-carretera-1937",
@@ -9245,7 +9902,16 @@
         "label": "El nacimiento del Mundial",
         "href": "/articulos/grandes-epreuves"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/turismo-carretera-1937.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Angel_Lo_Valvo_-_El_Gr%C3%A1fico_1031.jpg",
+      "author": "El Gráfico",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "Ángel Lo Valvo en la portada de El Gráfico del 14 de abril de 1939, dos años después del nacimiento del Turismo Carretera.",
+      "alt": "Ángel Lo Valvo en la portada de El Gráfico del 14 de abril de 1939, dos años después del nacimiento del Turismo Carretera."
+    }
   },
   {
     "slug": "tyrrell-p34",
@@ -9468,7 +10134,16 @@
         "href": "/articulos/williams-fw15c"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/williams-fw14b.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Williams_FW14B.jpg",
+      "author": "Mikelo",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Williams FW14B en una exposición del Design Museum de Londres, fotografiado en 2006.",
+      "alt": "Williams FW14B en una exposición del Design Museum de Londres, fotografiado en 2006."
+    }
   },
   {
     "slug": "williams-fw15c",
@@ -9575,7 +10250,16 @@
         "href": "/articulos/williams-fw14b"
       }
     ],
-    "category": "Autos de leyenda"
+    "category": "Autos de leyenda",
+    "image": {
+      "url": "/articles/photos/williams-fw15c.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Williams_FW15C_front-left_2017_Williams_Conference_Centre.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Williams FW15C en la colección de Williams en Grove, fotografiado en 2017.",
+      "alt": "Williams FW15C en la colección de Williams en Grove, fotografiado en 2017."
+    }
   },
   {
     "slug": "wisconsin-1878-vapor",
@@ -9675,6 +10359,15 @@
         "label": "Duryea y la carrera de Chicago",
         "href": "/articulos/duryea-motor-wagon"
       }
-    ]
+    ],
+    "image": {
+      "url": "/articles/photos/wisconsin-1878-vapor.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Oshkosh_Steam_Wagon.jpg",
+      "author": "Fotógrafo no identificado",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "caption": "El Oshkosh Steam Wagon en una fotografía histórica conservada en Wikimedia Commons, con sus ocupantes y acompañantes.",
+      "alt": "El Oshkosh Steam Wagon en una fotografía histórica conservada en Wikimedia Commons, con sus ocupantes y acompañantes."
+    }
   }
 ]

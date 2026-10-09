@@ -130,5 +130,14 @@
       "href": "/articulos/mercedes-w11"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/mercedes-w12.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2021_Nr._44_Hamilton_(side).jpg",
+    "author": "Lukas Raich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lewis Hamilton con el Mercedes W12 durante el fin de semana del Gran Premio de Austria de 2021.",
+    "alt": "Lewis Hamilton con el Mercedes W12 durante el fin de semana del Gran Premio de Austria de 2021."
+  }
 }

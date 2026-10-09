@@ -103,5 +103,14 @@
       "label": "Auto Union Type C",
       "href": "/articulos/auto-union-type-c"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mercedes-w25.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1934Mercedes-BenzW25-side_Goodwood,_2009.JPG",
+    "author": "Bahnfrend",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Jochen Mass con un Mercedes-Benz W25 durante el Festival of Speed de Goodwood de 2009.",
+    "alt": "Jochen Mass con un Mercedes-Benz W25 durante el Festival of Speed de Goodwood de 2009."
+  }
 }

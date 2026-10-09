@@ -96,5 +96,14 @@
       "label": "Mercedes 35 PS",
       "href": "/articulos/mercedes-35-ps"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/daimler-maybach-motorwagen.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz-Museum_2015-01_by-RaBoe_021.jpg",
+    "author": "© Ra Boe / Wikipedia",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "caption": "La primera carroza motorizada de Daimler representada en una pieza de exposición del Mercedes-Benz Museum, fotografiada en 2015.",
+    "alt": "La primera carroza motorizada de Daimler representada en una pieza de exposición del Mercedes-Benz Museum, fotografiada en 2015."
+  }
 }

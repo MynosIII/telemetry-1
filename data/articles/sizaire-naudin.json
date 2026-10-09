@@ -108,5 +108,14 @@
       "label": "Renault AK 1906",
       "href": "/articulos/renault-ak-1906"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/sizaire-naudin.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mauto24_09_-_Sizaire_%26_Naudin.jpg",
+    "author": "Herranderssvensson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "caption": "Sizaire & Naudin de 1907 en el Museo Nazionale dell’Automobile de Turín, fotografiado en 2024.",
+    "alt": "Sizaire & Naudin de 1907 en el Museo Nazionale dell’Automobile de Turín, fotografiado en 2024."
+  }
 }

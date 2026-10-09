@@ -96,5 +96,14 @@
       "label": "Temporada 1976",
       "href": "/historia/seasons/1976"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/alpine-a500.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alpine_A500_-_R%C3%A9tromobile_2025_(cropped).jpg",
+    "author": "Xavoun; recorte: Danyele",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "El prototipo Alpine A500 en Rétromobile 2025, décadas después de sus ensayos para el programa de Renault.",
+    "alt": "El prototipo Alpine A500 en Rétromobile 2025, décadas después de sus ensayos para el programa de Renault."
+  }
 }

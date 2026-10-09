@@ -117,5 +117,14 @@
       "label": "Grandes Épreuves",
       "href": "/articulos/grandes-epreuves"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/auto-union-type-c.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MHV_Auto-Union_Typ_C_1936_01.jpg",
+    "author": "MartinHansV",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Auto Union Tipo C en el Deutsches Museum Verkehrszentrum de Múnich, fotografiado en 2007.",
+    "alt": "Auto Union Tipo C en el Deutsches Museum Verkehrszentrum de Múnich, fotografiado en 2007."
+  }
 }

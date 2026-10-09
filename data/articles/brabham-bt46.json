@@ -97,5 +97,14 @@
       "label": "Temporada 1978",
       "href": "/historia/seasons/1978"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/brabham-bt46.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lauda_at_1978_Dutch_Grand_Prix_(cropped).jpg",
+    "author": "Koen Suyk / Anefo; recorte: Danyele",
+    "license": "CC BY-SA 3.0 nl",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "caption": "Niki Lauda con el Brabham BT46 convencional en el Gran Premio de los Países Bajos de 1978.",
+    "alt": "Niki Lauda con el Brabham BT46 convencional en el Gran Premio de los Países Bajos de 1978."
+  }
 }

@@ -101,5 +101,14 @@
       "label": "El nacimiento del Mundial",
       "href": "/articulos/grandes-epreuves"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/turismo-carretera-1937.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Angel_Lo_Valvo_-_El_Gr%C3%A1fico_1031.jpg",
+    "author": "El Gráfico",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Ángel Lo Valvo en la portada de El Gráfico del 14 de abril de 1939, dos años después del nacimiento del Turismo Carretera.",
+    "alt": "Ángel Lo Valvo en la portada de El Gráfico del 14 de abril de 1939, dos años después del nacimiento del Turismo Carretera."
+  }
 }

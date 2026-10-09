@@ -114,5 +114,14 @@
       "label": "Grandes Épreuves",
       "href": "/articulos/grandes-epreuves"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/fiat-805.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fiat-805._Pietro_Bordino(1923).jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Pietro Bordino con el Fiat 805 en una fotografía de archivo de 1923.",
+    "alt": "Pietro Bordino con el Fiat 805 en una fotografía de archivo de 1923."
+  }
 }

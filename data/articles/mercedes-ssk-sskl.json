@@ -122,5 +122,14 @@
       "label": "Grand Prix de Monaco",
       "href": "/historia/grands-prix/monaco"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mercedes-ssk-sskl.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Retromobile_2012_-_Mercedes-Benz_SSK_-_1928_-_017.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Mercedes-Benz SSK de 1928 expuesto en Rétromobile 2012.",
+    "alt": "Mercedes-Benz SSK de 1928 expuesto en Rétromobile 2012."
+  }
 }

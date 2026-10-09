@@ -90,5 +90,14 @@
       "label": "Temporada 1958",
       "href": "/historia/seasons/1958"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-16.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lotus_16.jpg",
+    "author": "Pyrope",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Lotus 16 en la colección de Donington, fotografiado en 2007.",
+    "alt": "Lotus 16 en la colección de Donington, fotografiado en 2007."
+  }
 }

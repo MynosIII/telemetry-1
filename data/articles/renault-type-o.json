@@ -107,5 +107,14 @@
       "label": "Renault AK 1906",
       "href": "/articulos/renault-ak-1906"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/renault-type-o.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marcel_Renault_1903.jpg",
+    "author": "Autor no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Marcel Renault durante la París–Madrid de mayo de 1903, en una fotografía de archivo.",
+    "alt": "Marcel Renault durante la París–Madrid de mayo de 1903, en una fotografía de archivo."
+  }
 }

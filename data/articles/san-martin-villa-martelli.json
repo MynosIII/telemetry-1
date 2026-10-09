@@ -107,5 +107,14 @@
       "label": "El circuito de Buenos Aires",
       "href": "/historia/circuits/buenos-aires"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/san-martin-villa-martelli.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Villa_Martelli_neighborhood_in_Buenos_Aires_Province,_Argentina.jpg",
+    "author": "Lombardia1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Avenida Laprida, en Villa Martelli, fotografiada en 2021. Es una vista posterior del barrio, no una imagen del antiguo autódromo ni una identificación de su trazado.",
+    "alt": "Avenida Laprida, en Villa Martelli, fotografiada en 2021. Es una vista posterior del barrio, no una imagen del antiguo autódromo ni una identificación de su trazado."
+  }
 }

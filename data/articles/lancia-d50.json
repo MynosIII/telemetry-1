@@ -100,5 +100,14 @@
       "label": "Temporada 1954",
       "href": "/historia/seasons/1954"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lancia-d50.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lancia_D50_at_Goodwood_Revival_2012.jpg",
+    "author": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Un Lancia D50 en Goodwood Revival 2012: una demostración histórica muy posterior a su campaña original.",
+    "alt": "Un Lancia D50 en Goodwood Revival 2012: una demostración histórica muy posterior a su campaña original."
+  }
 }

@@ -108,5 +108,14 @@
       "label": "Temporada 1950",
       "href": "/historia/seasons/1950"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/alfa-romeo-158-159.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfa-Romeo-159-(1951).jpg",
+    "author": "Lennart Coopmans",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "caption": "Alfa Romeo 159 expuesto, fotografiado en 2006: una mirada posterior al auto que cerró la primera etapa de las Alfetta en el Mundial.",
+    "alt": "Alfa Romeo 159 expuesto, fotografiado en 2006: una mirada posterior al auto que cerró la primera etapa de las Alfetta en el Mundial."
+  }
 }

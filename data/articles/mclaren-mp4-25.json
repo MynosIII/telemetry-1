@@ -127,5 +127,14 @@
       "href": "/articulos/f-duct-das-fronteras-reglamento"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/mclaren-mp4-25.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jenson_Button_Bahrain_2010_cropped.jpg",
+    "author": "Andrew Griffith; recorte: Chubbennaitor",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010.",
+    "alt": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010."
+  }
 }

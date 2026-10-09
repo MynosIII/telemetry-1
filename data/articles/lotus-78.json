@@ -102,5 +102,14 @@
       "label": "Temporada 1977",
       "href": "/historia/seasons/1977"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-78.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_of_the_Americas_(23970306838).jpg",
+    "author": "mrlaugh (Flickr)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017.",
+    "alt": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017."
+  }
 }

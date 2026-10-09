@@ -146,5 +146,14 @@
     "DAS",
     "McLaren MP4-25",
     "Mercedes W11"
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/f-duct-das-fronteras-reglamento.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jenson_Button_Bahrain_2010_cropped.jpg",
+    "author": "Andrew Griffith; recorte: Chubbennaitor",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010: el auto que llevó el F-duct a las pistas.",
+    "alt": "Jenson Button con el McLaren MP4-25 durante el fin de semana del Gran Premio de Baréin de 2010: el auto que llevó el F-duct a las pistas."
+  }
 }

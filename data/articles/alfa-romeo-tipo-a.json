@@ -109,5 +109,14 @@
       "label": "Maserati V4",
       "href": "/articulos/maserati-v4"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/alfa-romeo-tipo-a.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Gran_Premio_tipo_A_1931.jpg",
+    "author": "tomislav medak",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Reconstrucción del Alfa Romeo Tipo A expuesta en el museo de la marca, fotografiada en 2009.",
+    "alt": "Reconstrucción del Alfa Romeo Tipo A expuesta en el museo de la marca, fotografiada en 2009."
+  }
 }

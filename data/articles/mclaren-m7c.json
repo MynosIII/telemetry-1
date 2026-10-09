@@ -97,5 +97,14 @@
       "label": "Temporada 1969",
       "href": "/historia/seasons/1969"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mclaren-m7c.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:McLarenBruce19690801.jpg",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Bruce McLaren en un McLaren durante los entrenamientos del Gran Premio de Alemania de 1969. La ficha del archivo contiene identificaciones de modelo discrepantes, por lo que esta imagen se usa como contexto del piloto y la época.",
+    "alt": "Bruce McLaren en un McLaren durante los entrenamientos del Gran Premio de Alemania de 1969. La ficha del archivo contiene identificaciones de modelo discrepantes, por lo que esta imagen se usa como contexto del piloto y la época."
+  }
 }

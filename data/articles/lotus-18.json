@@ -107,5 +107,14 @@
       "label": "Temporada 1960",
       "href": "/historia/seasons/1960"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-18.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lotus_18_Stirling_Moss_Monaco_1961.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "El Lotus 18 de Rob Walker asociado al triunfo de Stirling Moss en Mónaco, fotografiado en la colección de Donington en 2007.",
+    "alt": "El Lotus 18 de Rob Walker asociado al triunfo de Stirling Moss en Mónaco, fotografiado en la colección de Donington en 2007."
+  }
 }

@@ -91,5 +91,14 @@
       "label": "Temporada 1962",
       "href": "/historia/seasons/1962"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/lotus-25.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1964_Lotus-Climax_25.jpg",
+    "author": "Chris Peeters",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Un Lotus 25 de 1964 en un encuentro histórico, fotografiado en 2014.",
+    "alt": "Un Lotus 25 de 1964 en un encuentro histórico, fotografiado en 2014."
+  }
 }

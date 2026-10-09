@@ -99,5 +99,14 @@
       "label": "Temporada 1981",
       "href": "/historia/seasons/1981"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mclaren-mp4-1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Watson_McLaren_MP4_1_2019_Silverstone_Classic_(48557916077).jpg",
+    "author": "davehamster (Flickr)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "El McLaren MP4/1 de John Watson, conservado y exhibido en Silverstone Classic 2019.",
+    "alt": "El McLaren MP4/1 de John Watson, conservado y exhibido en Silverstone Classic 2019."
+  }
 }

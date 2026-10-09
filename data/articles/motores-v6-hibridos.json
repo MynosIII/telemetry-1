@@ -121,5 +121,14 @@
       "href": "/articulos/mercedes-w11"
     }
   ],
-  "category": "Ideas que cambiaron la F1"
+  "category": "Ideas que cambiaron la F1",
+  "image": {
+    "url": "/articles/photos/motores-v6-hibridos.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2016_Mercedes_PU106_Hybrid_Power_Unit_(49255122157).jpg",
+    "author": "David Merrett",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Unidad de potencia Mercedes PU106 Hybrid de 2016 expuesta en Silverstone, fotografiada en 2019.",
+    "alt": "Unidad de potencia Mercedes PU106 Hybrid de 2016 expuesta en Silverstone, fotografiada en 2019."
+  }
 }

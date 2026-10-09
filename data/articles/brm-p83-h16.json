@@ -102,5 +102,14 @@
       "label": "Temporada 1966",
       "href": "/historia/seasons/1966"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/brm-p83-h16.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BRM_P83.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "BRM P83 con motor H16 en la colección de Donington, fotografiado en 2007.",
+    "alt": "BRM P83 con motor H16 en la colección de Donington, fotografiado en 2007."
+  }
 }

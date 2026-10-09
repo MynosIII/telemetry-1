@@ -89,5 +89,14 @@
       "label": "Temporada 1954",
       "href": "/historia/seasons/1954"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mercedes-w196.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:KlingK-MB-W196-1976.jpg",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Karl Kling al volante de un Mercedes-Benz W196 en una demostración histórica de 1976 en Nürburgring.",
+    "alt": "Karl Kling al volante de un Mercedes-Benz W196 en una demostración histórica de 1976 en Nürburgring."
+  }
 }

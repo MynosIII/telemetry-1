@@ -115,5 +115,14 @@
       "href": "/articulos/red-bull-rb11"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/red-bull-rb6.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vettel_Bahrain_2010_(cropped).jpg",
+    "author": "Andrew Griffith; recorte: Chubbennaitor",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Sebastian Vettel con el Red Bull RB6 durante los entrenamientos del Gran Premio de Baréin de 2010.",
+    "alt": "Sebastian Vettel con el Red Bull RB6 durante los entrenamientos del Gran Premio de Baréin de 2010."
+  }
 }

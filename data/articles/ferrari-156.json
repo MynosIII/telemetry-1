@@ -96,5 +96,14 @@
       "label": "Temporada 1961",
       "href": "/historia/seasons/1961"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/ferrari-156.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_Tipo_156_Sharknose_(1961)_Solitude_Revival_2019_IMG_1632.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Una recreación del Ferrari 156 «Sharknose» en Solitude Revival 2019. La imagen no muestra un ejemplar original superviviente de 1961.",
+    "alt": "Una recreación del Ferrari 156 «Sharknose» en Solitude Revival 2019. La imagen no muestra un ejemplar original superviviente de 1961."
+  }
 }

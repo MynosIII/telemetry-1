@@ -90,5 +90,14 @@
       "label": "Temporada 1961",
       "href": "/historia/seasons/1961"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/ferguson-p99.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferguson_P99_-_Flickr_-_andrewbasterfield_(1).jpg",
+    "author": "Andrew Basterfield",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "El Ferguson P99 en un encuentro de automóviles históricos, fotografiado en 2011.",
+    "alt": "El Ferguson P99 en un encuentro de automóviles históricos, fotografiado en 2011."
+  }
 }

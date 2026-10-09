@@ -123,5 +123,14 @@
       "label": "Alfa Romeo Tipo B/P3",
       "href": "/articulos/alfa-romeo-p3"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/alfa-romeo-p2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_P2.jpg",
+    "author": "Brian Snelson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Un Alfa Romeo P2 en un encuentro de automóviles históricos, fotografiado en 2007.",
+    "alt": "Un Alfa Romeo P2 en un encuentro de automóviles históricos, fotografiado en 2007."
+  }
 }

@@ -94,5 +94,14 @@
       "label": "Historia de Ferrari",
       "href": "/historia/constructors/ferrari"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/auto-avio-815.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Car_Mus%C3%A9e_Enzo_Ferrari_0063_(cropped).JPG",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Un Auto Avio Costruzioni 815 en el Museo Enzo Ferrari de Módena, fotografiado en 2013.",
+    "alt": "Un Auto Avio Costruzioni 815 en el Museo Enzo Ferrari de Módena, fotografiado en 2013."
+  }
 }

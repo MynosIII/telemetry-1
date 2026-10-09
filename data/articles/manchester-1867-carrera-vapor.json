@@ -92,5 +92,14 @@
       "label": "París–Rouen: correr para convencer",
       "href": "/articulos/paris-rouen-1894"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/manchester-1867-carrera-vapor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ashton-under-lyne-town-hall2011.jpg",
+    "author": "Zboralski",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "El ayuntamiento de Ashton-under-Lyne, fotografiado en 2011. La localidad fue el punto de partida de la carrera de vapor de 1867; esta vista no identifica su salida exacta.",
+    "alt": "El ayuntamiento de Ashton-under-Lyne, fotografiado en 2011. La localidad fue el punto de partida de la carrera de vapor de 1867; esta vista no identifica su salida exacta."
+  }
 }

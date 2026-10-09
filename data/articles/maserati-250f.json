@@ -96,5 +96,14 @@
       "label": "Temporada 1957",
       "href": "/historia/seasons/1957"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/maserati-250f.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Maserati_250_F,_Bj._1957_(1977-08-14)_S%C3%BCdkehre.jpg",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Un Maserati 250F en una demostración histórica en Nürburgring, fotografiado en 1977.",
+    "alt": "Un Maserati 250F en una demostración histórica en Nürburgring, fotografiado en 1977."
+  }
 }

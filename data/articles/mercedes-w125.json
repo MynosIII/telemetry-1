@@ -110,5 +110,14 @@
       "label": "Auto Union Type C",
       "href": "/articulos/auto-union-type-c"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mercedes-w125.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W_125_Donington.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Mercedes-Benz W125 exhibido durante un encuentro histórico en Donington, fotografiado en 2007.",
+    "alt": "Mercedes-Benz W125 exhibido durante un encuentro histórico en Donington, fotografiado en 2007."
+  }
 }

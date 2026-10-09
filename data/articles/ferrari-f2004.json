@@ -118,5 +118,14 @@
       "href": "/articulos/ferrari-f2002"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/ferrari-f2004.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher_Ferrari_2004.jpg",
+    "author": "Rick Dikeman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004.",
+    "alt": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004."
+  }
 }

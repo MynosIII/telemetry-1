@@ -98,5 +98,14 @@
       "label": "Grandes Épreuves",
       "href": "/articulos/grandes-epreuves"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/maserati-v4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1930-09-07_Monza_Maserati_V4_Ernesto_and_Alfieri_and_Parenti.jpg",
+    "author": "Fotógrafo no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Ernesto Maserati al volante de un Tipo V4, acompañado por Alfieri Maserati y otros integrantes del equipo, en una fotografía de archivo.",
+    "alt": "Ernesto Maserati al volante de un Tipo V4, acompañado por Alfieri Maserati y otros integrantes del equipo, en una fotografía de archivo."
+  }
 }

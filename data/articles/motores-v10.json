@@ -131,5 +131,14 @@
       "href": "/articulos/motores-v6-hibridos"
     }
   ],
-  "category": "Ideas que cambiaron la F1"
+  "category": "Ideas que cambiaron la F1",
+  "image": {
+    "url": "/articles/photos/motores-v10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Honda_RA109E_engine_front-left2_Honda_Collection_Hall.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Motor Honda RA109E V10 de 1989 en el Honda Collection Hall, fotografiado en 2013.",
+    "alt": "Motor Honda RA109E V10 de 1989 en el Honda Collection Hall, fotografiado en 2013."
+  }
 }

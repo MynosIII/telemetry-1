@@ -90,5 +90,14 @@
       "label": "Daimler y Maybach",
       "href": "/articulos/daimler-maybach-motorwagen"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/benz-patent-motorwagen.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Replicas_of_Benz_Patent-Motorwagen_Model_1_Classic-Gala_2021_1X7A0062.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Una réplica del Benz Patent-Motorwagen Modelo 1 durante Classic-Gala 2021. La fotografía es contemporánea y no muestra una escena de 1886.",
+    "alt": "Una réplica del Benz Patent-Motorwagen Modelo 1 durante Classic-Gala 2021. La fotografía es contemporánea y no muestra una escena de 1886."
+  }
 }

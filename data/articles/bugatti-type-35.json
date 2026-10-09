@@ -103,5 +103,14 @@
       "label": "Alfa Romeo P2",
       "href": "/articulos/alfa-romeo-p2"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/bugatti-type-35.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bugatti_35,_Bj_1924,_M_Nicolosi_-_1976.jpg",
+    "author": "Lothar Spurzem",
+    "license": "CC BY-SA 2.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "caption": "Un Bugatti Type 35 durante un encuentro histórico en Nürburgring, fotografiado en 1976.",
+    "alt": "Un Bugatti Type 35 durante un encuentro histórico en Nürburgring, fotografiado en 1976."
+  }
 }

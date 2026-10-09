@@ -108,5 +108,14 @@
       "label": "Temporada 1964",
       "href": "/historia/seasons/1964"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/ferrari-158.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_158_F1_1964.jpg",
+    "author": "Tim Dobbelaere ( Flickr account: storem )",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Un Ferrari 158 expuesto, fotografiado en 2006, mucho después de la temporada de John Surtees.",
+    "alt": "Un Ferrari 158 expuesto, fotografiado en 2006, mucho después de la temporada de John Surtees."
+  }
 }

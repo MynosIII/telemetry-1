@@ -101,5 +101,14 @@
       "label": "Los fabricantes en la Copa Gordon Bennett",
       "href": "/articulos/copa-gordon-bennett"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/niza-semana-velocidad.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Turbie_BW_1.JPG",
+    "author": "Berthold Werner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "La Turbie fotografiada en 2006. Esta vista posterior muestra el entorno de la célebre subida vinculada a la Semana de la Velocidad de Niza.",
+    "alt": "La Turbie fotografiada en 2006. Esta vista posterior muestra el entorno de la célebre subida vinculada a la Semana de la Velocidad de Niza."
+  }
 }

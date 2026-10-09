@@ -95,5 +95,14 @@
       "label": "Temporada 1958",
       "href": "/historia/seasons/1958"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/cooper-t43.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooper_T43_Donington_2007.jpg",
+    "author": "John Chapman (Pyrope)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Cooper T43 en el paddock de Donington durante un encuentro de automóviles históricos de 2007.",
+    "alt": "Cooper T43 en el paddock de Donington durante un encuentro de automóviles históricos de 2007."
+  }
 }

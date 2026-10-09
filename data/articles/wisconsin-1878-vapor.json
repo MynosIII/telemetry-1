@@ -96,5 +96,14 @@
       "label": "Duryea y la carrera de Chicago",
       "href": "/articulos/duryea-motor-wagon"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/wisconsin-1878-vapor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Oshkosh_Steam_Wagon.jpg",
+    "author": "Fotógrafo no identificado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "El Oshkosh Steam Wagon en una fotografía histórica conservada en Wikimedia Commons, con sus ocupantes y acompañantes.",
+    "alt": "El Oshkosh Steam Wagon en una fotografía histórica conservada en Wikimedia Commons, con sus ocupantes y acompañantes."
+  }
 }

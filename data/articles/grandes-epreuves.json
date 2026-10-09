@@ -162,5 +162,14 @@
     }
   ],
   "year": 1906,
-  "tags": []
+  "tags": [],
+  "image": {
+    "url": "/articles/photos/grandes-epreuves.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferdinando_Minoia_in_1931.jpg",
+    "author": "Agence de presse Meurisse",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Ferdinando Minoia en 1931, el año en que ganó el primer Campeonato Europeo de Pilotos.",
+    "alt": "Ferdinando Minoia en 1931, el año en que ganó el primer Campeonato Europeo de Pilotos."
+  }
 }

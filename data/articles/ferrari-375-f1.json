@@ -93,5 +93,14 @@
       "label": "Temporada 1951",
       "href": "/historia/seasons/1951"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/ferrari-375-f1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ferrari_375_F1_noBG.jpg",
+    "author": "János Korom Dr.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Un Ferrari 375 F1 en una fotografía de 2002; el archivo utiliza un recorte fotográfico sobre fondo blanco.",
+    "alt": "Un Ferrari 375 F1 en una fotografía de 2002; el archivo utiliza un recorte fotográfico sobre fondo blanco."
+  }
 }

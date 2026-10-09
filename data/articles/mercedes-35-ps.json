@@ -93,5 +93,14 @@
       "label": "Daimler y Maybach",
       "href": "/articulos/daimler-maybach-motorwagen"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/mercedes-35-ps.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes_35hp_by_Wilhelm_Maybach.jpg",
+    "author": "Mercedes-Benz (fotografía de fábrica)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "Mercedes 35 PS en una fotografía histórica de la marca, fechada en 1901.",
+    "alt": "Mercedes 35 PS en una fotografía histórica de la marca, fechada en 1901."
+  }
 }

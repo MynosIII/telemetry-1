@@ -91,5 +91,14 @@
       "label": "Temporada 1971",
       "href": "/historia/seasons/1971"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/brabham-bt34.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1971_Race_of_Champions_G_Hill_Brabham_BT34.jpg",
+    "author": "Gerald Swan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Graham Hill con el Brabham BT34 en la Race of Champions de 1971.",
+    "alt": "Graham Hill con el Brabham BT34 en la Race of Champions de 1971."
+  }
 }

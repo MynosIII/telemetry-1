@@ -102,5 +102,14 @@
       "label": "Temporada 1951",
       "href": "/historia/seasons/1951"
     }
-  ]
+  ],
+  "image": {
+    "url": "/articles/photos/brm-type-15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1950_BRM_Type_15.JPG",
+    "author": "Przemysław Jahr / Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "caption": "BRM Type 15 en el National Motor Museum de Beaulieu, fotografiado en 2008.",
+    "alt": "BRM Type 15 en el National Motor Museum de Beaulieu, fotografiado en 2008."
+  }
 }

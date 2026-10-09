@@ -104,5 +104,14 @@
       "href": "/articulos/williams-fw15c"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/williams-fw14b.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Williams_FW14B.jpg",
+    "author": "Mikelo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Williams FW14B en una exposición del Design Museum de Londres, fotografiado en 2006.",
+    "alt": "Williams FW14B en una exposición del Design Museum de Londres, fotografiado en 2006."
+  }
 }

@@ -135,5 +135,14 @@
       "href": "/articulos/mercedes-w12"
     }
   ],
-  "category": "Autos de leyenda"
+  "category": "Autos de leyenda",
+  "image": {
+    "url": "/articles/photos/mercedes-w11.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2020_Tuscan_Grand_Prix_-_race_day_(cropped).jpg",
+    "author": "Eustace Bagge; recorte: Danyele",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020.",
+    "alt": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020."
+  }
 }
