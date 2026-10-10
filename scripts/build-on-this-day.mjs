@@ -5,7 +5,7 @@ const add = event => { if (/^\d{4}-\d{2}-\d{2}$/.test(event.date ?? '')) events.
 for (const file of readdirSync('public/history/drivers')) {
   const d = read(`public/history/drivers/${file}`);
   for (const [key, kind, title] of [['dateOfBirth', 'Nacimiento', `Nació ${d.name}`], ['dateOfDeath', 'Fallecimiento', `Murió ${d.name}`]]) {
-    add({date:d.biography?.[key], kind, title, text:key === 'dateOfBirth' ? `El comienzo de la historia de ${d.name}, piloto de ${d.country ?? 'la Fórmula 1'}.` : `Recordamos la trayectoria de ${d.name} en el automovilismo.`, href:d.href, source:d.sources?.wikipedia});
+    add({date:d.biography?.[key], kind, title, text:key === 'dateOfBirth' ? `El comienzo de la historia de ${d.name}. Explorá su trayectoria en el Campeonato Mundial.` : `Recordamos la trayectoria de ${d.name} en el automovilismo.`, href:d.href, source:d.sources?.wikipedia});
   }
 }
 for (const file of readdirSync('public/history/races')) {
