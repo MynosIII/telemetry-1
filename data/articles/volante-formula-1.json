@@ -1,0 +1,133 @@
+{
+  "slug": "volante-formula-1",
+  "title": "El volante de un F1: una interfaz para conducir y gestionar",
+  "description": "Qué hacen botones, levas, selectores y pantalla, y cómo se organiza el trabajo del piloto a alta velocidad.",
+  "category": "Pilotaje y controles",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Pilotaje y controles",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "El volante dirige el auto, pero también concentra órdenes y señales. El piloto debe operarlo con guantes, vibraciones, aceleraciones y muy poco tiempo para mirar. Su complejidad no se explica contando botones: importa qué funciones permite ajustar, qué confirma la pantalla y cómo evita acciones involuntarias.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Dirección y mandos comparten un objeto",
+      "paragraphs": [
+        "El volante transmite la acción de dirección a través de su conexión con la columna. Al mismo tiempo, incorpora controles eléctricos y una interfaz visual. Su forma se adapta al espacio del cockpit y a las posiciones de las manos. El acoplamiento desmontable permite retirar el conjunto; esa función debe convivir con una unión segura y con la salida del piloto.",
+        "La estructura, el cableado y los controles se diseñan como un ensamblaje de competición. La pantalla no transforma al volante en una computadora que conduzca sola: comunica información y recibe órdenes dentro de los sistemas autorizados. La regulación delimita electrónica, cambios de marcha, embrague y otras funciones. Una pieza parecida en un simulador puede imitar su apariencia sin reproducir esos sistemas."
+      ],
+      "sourceIds": [
+        "wheel",
+        "C"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Levas, botones y selectores tienen tareas diferentes",
+      "paragraphs": [
+        "Las levas se utilizan para solicitar cambios de marcha y controlar funciones como el embrague, según la solución del equipo. Los botones favorecen acciones discretas: radio, confirmaciones o limitador del pit lane. Los selectores rotativos permiten elegir estados o valores. Es una clasificación funcional; la distribución exacta no es común a todos los autos.",
+        "El piloto puede disponer de ajustes de reparto de frenada y otros parámetros autorizados. Algunos modifican el comportamiento en fases de curva; otros gestionan operación o energía. Elegir un modo no garantiza que cualquier mapa solicitado sea legal en toda sesión. El sistema de control y el reglamento determinan qué puede aplicarse. Por eso una abreviatura leída en una foto antigua no basta para describir un volante de 2026."
+      ],
+      "sourceIds": [
+        "wheel",
+        "workload",
+        "C"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La pantalla debe convertir datos en decisiones",
+      "paragraphs": [
+        "Marcha, indicaciones de cambio, referencias de vuelta y mensajes pueden mostrarse según la configuración. La información se jerarquiza para que una señal importante no quede enterrada entre números. Una alarma tiene que ayudar a identificar una acción, no obligar al piloto a interpretar un informe extenso mientras frena.",
+        "Los mismos datos pueden ser útiles de forma diferente en clasificación y carrera. Una referencia temporal ayuda a juzgar preparación de vuelta; una indicación de estado permite gestionar un sistema. El color, la posición y la repetición forman parte de una interfaz entrenada. El equipo conoce además qué información conviene comunicar por radio y cuál presentar directamente. La atención disponible es un recurso limitado, igual que tiempo o energía."
+      ],
+      "sourceIds": [
+        "wheel",
+        "workload"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Ergonomía bajo fuerzas y vibraciones",
+      "paragraphs": [
+        "Guantes, movimientos bruscos y giro del volante dificultan usar mandos pequeños. Mercedes describe botones con respuesta táctil y protecciones para reducir pulsaciones accidentales. El diseño necesita que una acción deliberada se reconozca y que un roce involuntario no provoque la misma orden. La posición de un mando importa tanto como su función electrónica.",
+        "Los pilotos entrenan secuencias para determinados momentos de la vuelta. No todas las rectas ofrecen el mismo margen: algunas incluyen giro, cambios, preparación de frenada o vigilancia de un rival. La carga de trabajo crece cuando hay tráfico o una avería. Una buena interfaz hace más previsible esa operación y reduce la necesidad de apartar la mirada. Eso es una ventaja de conducción, no un detalle cosmético."
+      ],
+      "sourceIds": [
+        "wheel",
+        "workload"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Qué cambia en 2026 y qué se mantiene",
+      "paragraphs": [
+        "La gestión de energía y los estados aerodinámicos de 2026 introducen otro contexto de operación. Esas funciones están sujetas a reglas de activación y controles, y no deben confundirse con el DRS de generaciones anteriores. El principio general permanece: seleccionar la orden correcta en el instante adecuado y recibir una confirmación inteligible.",
+        "Para interpretar un volante, empezá por familias de funciones en lugar de memorizar un dibujo. Separá dirección, transmisión, frenada, energía y comunicación. Después preguntá a qué auto y temporada corresponde. Las preferencias personales pueden alterar forma y ubicación de levas sin cambiar el objetivo del sistema. El volante es el punto donde una enorme cantidad de ingeniería debe volverse una acción sencilla para una persona."
+      ],
+      "sourceIds": [
+        "B",
+        "C",
+        "terms",
+        "driverWheels"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wheel",
+      "title": "Mercedes: funcionamiento y construcción del volante de F1",
+      "url": "https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "workload",
+      "title": "Mercedes: carga de trabajo del piloto durante una vuelta",
+      "url": "https://www.mercedesamgf1.com/news/explained-driver-workload-during-a-lap"
+    },
+    {
+      "id": "B",
+      "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    },
+    {
+      "id": "driverWheels",
+      "title": "Formula 1: por qué los pilotos de Ferrari usaban volantes diferentes (2018)",
+      "url": "https://www.formula1.com/en/latest/article/tech-tuesday-why-vettels-ferrari-steering-wheel-continues-to-evolve.2jSi4Mnm68U8M6wOg0aeuo"
+    }
+  ],
+  "related": [
+    {
+      "label": "La evolución del volante",
+      "href": "/articulos/evolucion-volante-f1"
+    },
+    {
+      "label": "Subviraje y sobreviraje",
+      "href": "/articulos/subviraje-sobreviraje-balance"
+    }
+  ],
+  "image": {
+    "url": "/articles/photos/volante-formula-1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toyota_steering_wheel_1.jpg",
+    "author": "Mark Woodbury",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "Volante de Toyota F1 exhibido en Goodwood en 2008. Es un ejemplo histórico de disposición de mandos; sus funciones no deben extrapolarse al reglamento de 2026.",
+    "alt": "Volante de Toyota F1 exhibido en Goodwood en 2008. Es un ejemplo histórico de disposición de mandos; sus funciones no deben extrapolarse al reglamento de 2026."
+  }
+}

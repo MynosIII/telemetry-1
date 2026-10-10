@@ -1,0 +1,138 @@
+{
+  "slug": "slipstream-aire-sucio",
+  "title": "Slipstream y aire sucio: la misma estela, dos consecuencias",
+  "description": "Por qué seguir a otro auto puede ayudar en recta y perjudicar en curva, y qué significa realmente la succión.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "Detrás de un auto hay una estela con velocidades, direcciones y fluctuaciones diferentes de las del aire libre. En recta puede reducir la resistencia del perseguidor; en curva puede deteriorar su carga y su balance. Slipstream y aire sucio describen consecuencias de esa interacción, no dos tipos de aire que se encienden por separado.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El auto deja un flujo alterado",
+      "paragraphs": [
+        "Al desplazar aire y generar fuerzas, el vehículo produce una estela tridimensional. Hay déficit de velocidad longitudinal en ciertas regiones, desviaciones del flujo y turbulencia. El patrón depende del auto, su configuración, su velocidad y la distancia. No es un túnel vacío detrás del alerón ni un cilindro uniforme que conserve forma indefinidamente.",
+        "Para el perseguidor importa dónde queda cada pieza respecto de esa estela. Un alerón puede recibir un flujo distinto del que llega a los radiadores o al piso. También cambia la dirección de incidencia local. Utilizar solamente la velocidad del auto respecto del suelo para predecir las fuerzas omite la condición que realmente ven sus superficies: el aire que llega a ellas."
+      ],
+      "sourceIds": [
+        "wake",
+        "lift",
+        "dragEq"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "En recta se aprovecha una resistencia menor",
+      "paragraphs": [
+        "Con menos resistencia aerodinámica, una misma potencia puede permitir mayor aceleración o velocidad. A esa ventaja de seguir el paso abierto por otro vehículo se la llama rebufo, slipstream o tow. «Succión» es una expresión habitual, pero no implica una cuerda invisible que tire del perseguidor. La fuerza y el movimiento surgen del nuevo campo de presión y del balance de fuerzas del auto.",
+        "La ganancia depende de distancia, desplazamiento lateral, viento y tiempo disponible. Salir de la estela para adelantar cambia otra vez las condiciones: el auto puede recuperar resistencia justo cuando intenta completar la maniobra. Por eso alcanzar al rival no garantiza superarlo. Importan la diferencia de velocidad al abandonar el rebufo y la longitud restante de la recta."
+      ],
+      "sourceIds": [
+        "wake",
+        "dragEq"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "En curva la carga puede perder calidad y cantidad",
+      "paragraphs": [
+        "El perseguidor necesita que alas y piso produzcan apoyo con un balance utilizable. La estela puede reducir esa capacidad o cambiar cómo se reparte entre ejes. No alcanza con decir «hay menos aire»: variaciones de dirección, energía del flujo y fluctuaciones afectan los mecanismos de generación de carga. El coeficiente obtenido en aire libre deja de describir exactamente esa situación.",
+        "Un cambio de balance puede exigir más corrección de volante o limitar la velocidad de entrada. El efecto no tiene por qué ser idéntico en todas las curvas. Una lenta, con menor dependencia aerodinámica, plantea un problema distinto de una rápida. La distancia también fluctúa durante frenada y aceleración, de modo que el auto atraviesa estados de estela diferentes dentro de una misma vuelta."
+      ],
+      "sourceIds": [
+        "wake",
+        "lift",
+        "ground"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El coste llega a neumáticos y refrigeración",
+      "paragraphs": [
+        "Si el auto debe deslizar más para realizar la trayectoria, puede trabajar sus neumáticos de otra manera y aumentar su temperatura superficial. Las entradas de refrigeración también reciben un flujo alterado. Permanecer cerca puede obligar a gestionar temperaturas o a desplazarse lateralmente en ciertos tramos. La batalla se decide entonces por una combinación de aerodinámica, energía y capacidad de sostener la persecución.",
+        "Eso explica por qué un piloto a veces deja margen y vuelve a acercarse después. Puede preparar una oportunidad sin mantener continuamente la distancia mínima. Sin datos no conviene atribuir cada separación a neumáticos recalentados: tráfico, estrategia, batería y decisiones de conducción también intervienen. La estela ofrece un mecanismo posible que debe contrastarse con la situación."
+      ],
+      "sourceIds": [
+        "wake",
+        "rubber"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Rebufo, aerodinámica activa y Overtake no son lo mismo",
+      "paragraphs": [
+        "El rebufo existe por interacción entre vehículos, independientemente de un botón. En 2026 las configuraciones aerodinámicas autorizadas y la asistencia eléctrica de adelantamiento pertenecen a sistemas regulados distintos. Pueden combinarse con la estela, pero tienen sus propias condiciones de uso. El antiguo DRS tampoco era un nombre técnico para el slipstream.",
+        "Para leer una maniobra, separá tres preguntas: qué aire recibe el perseguidor, qué configuración aerodinámica utiliza y qué energía despliega. Después mirá la salida de la curva anterior. Una ventaja en recta puede quedar anulada si el auto perdió demasiado tiempo antes de llegar a ella. El aire sucio importa precisamente porque la oportunidad de adelantar empieza mucho antes del punto donde se ve el pase."
+      ],
+      "sourceIds": [
+        "B",
+        "C",
+        "terms"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wake",
+      "title": "McLaren: F1 Playbook, slipstream y dirty air",
+      "url": "https://www.mclaren.com/racing/formula-1/playbook/"
+    },
+    {
+      "id": "lift",
+      "title": "NASA Glenn: ecuación de sustentación",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+    },
+    {
+      "id": "dragEq",
+      "title": "NASA Glenn: ecuación de resistencia aerodinámica",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/"
+    },
+    {
+      "id": "ground",
+      "title": "Zerihan y Zhang (2000): Aerodynamics of a Single Element Wing in Ground Effect",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/aerodynamics-of-a-single-element-wing-in-ground-effect/"
+    },
+    {
+      "id": "rubber",
+      "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+      "url": "https://arxiv.org/abs/cond-mat/0605273"
+    },
+    {
+      "id": "B",
+      "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Resistencia aerodinámica",
+      "href": "/articulos/drag-resistencia-aerodinamica"
+    },
+    {
+      "label": "Carga aerodinámica",
+      "href": "/articulos/downforce-carga-aerodinamica"
+    },
+    {
+      "label": "Subviraje y sobreviraje",
+      "href": "/articulos/subviraje-sobreviraje-balance"
+    }
+  ]
+}

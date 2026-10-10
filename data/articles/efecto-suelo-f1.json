@@ -1,0 +1,136 @@
+{
+  "slug": "efecto-suelo-f1",
+  "title": "Efecto suelo: cuando la pista forma parte de la aerodinámica",
+  "description": "Cómo trabajan el piso y el difusor, por qué bajar el auto tiene un límite y cómo aparece el porpoising.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Avanzado",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Avanzado",
+    "explicación"
+  ],
+  "lead": "La pista modifica el flujo que circula bajo el auto. Esa proximidad puede permitir una región de presión baja que genera apoyo, pero también vuelve al vehículo sensible a la altura, el cabeceo y los baches. El efecto suelo es una interacción entre superficies y flujo, no una aspiradora que funciona siempre mejor cuanto más cerca está del asfalto.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El suelo cambia las condiciones del problema",
+      "paragraphs": [
+        "Un perfil aislado recibe un flujo con unas condiciones de contorno; cerca del piso, esas condiciones cambian. El espacio disponible, los gradientes de presión y los movimientos laterales condicionan el aire que pasa debajo. El auto obtiene una fuerza por la distribución de presión y los esfuerzos sobre sus superficies. El asfalto no necesita adherirse al vehículo para participar en esa distribución.",
+        "La analogía con Venturi ayuda a pensar en velocidad y presión dentro de un paso estrecho. Sin embargo, el bajo de un F1 no es un conducto hermético: recibe flujo perturbado y tiene intercambio lateral. Continuidad y Bernoulli ofrecen una primera lectura, mientras viscosidad, separación y estructuras tridimensionales determinan el comportamiento real. La carga se calcula integrando el campo de presiones, no multiplicando una supuesta succión uniforme por todo el piso."
+      ],
+      "sourceIds": [
+        "ground",
+        "bernoulli"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El difusor necesita recuperar presión",
+      "paragraphs": [
+        "En la parte posterior, el espacio entre auto y pista aumenta. Esa expansión permite recuperar presión hacia las condiciones de salida. Su geometría influye en el caudal y en el campo de presión de zonas anteriores, por lo que el difusor no trabaja como una pieza independiente que simplemente añade carga al final.",
+        "Una recuperación demasiado exigente puede producir separación. La capa límite dispone de una cantidad de movimiento limitada cerca de la pared y debe atravesar un gradiente adverso. Cambiar ángulo, altura o condiciones de llegada modifica ese equilibrio. El diseño busca una recuperación utilizable en varias situaciones, además de una cifra máxima favorable con el auto perfectamente alineado."
+      ],
+      "sourceIds": [
+        "ground",
+        "boundary"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Bajar ayuda hasta que deja de ayudar",
+      "paragraphs": [
+        "Las investigaciones de alas invertidas cerca del suelo encuentran regímenes distintos al variar altura. Un incremento inicial de carga puede dar paso a una respuesta menos favorable cuando cambian separación y estructuras vorticosas. El comportamiento exacto pertenece a la geometría estudiada; trasladar su altura crítica a otro piso no sería una predicción válida.",
+        "Para estudiar un auto se construye un mapa: fuerza y balance frente a altura delantera, altura trasera, guiñada y otros estados. La derivada de carga respecto de altura resulta tan importante como el máximo. Si un pequeño movimiento produce un cambio grande de apoyo, controlar la plataforma se vuelve difícil. Un paquete con algo menos de carga máxima puede permitir al piloto utilizar más rendimiento durante una vuelta real."
+      ],
+      "sourceIds": [
+        "ground",
+        "suspension"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Porpoising: una oscilación acoplada",
+      "paragraphs": [
+        "El porpoising combina aerodinámica y movimiento del vehículo. La carga modifica la altura; la altura modifica el flujo y la carga, y la suspensión responde. Si ese acoplamiento alimenta una oscilación, el auto puede alternar estados de apoyo y recuperación. El problema se hizo muy visible con la generación reglamentaria de 2022, aunque la física no nació aquel año.",
+        "No todo rebote es porpoising. Una excitación de baches, un contacto del piso o una respuesta mecánica pueden producir movimientos parecidos en una cámara. Para identificarlos hacen falta señales de altura, aceleración y carga, con su relación temporal. La explicación tampoco se reduce a que el auto «tape todo el aire»: existen geometrías y condiciones que cambian el mecanismo de la inestabilidad."
+      ],
+      "sourceIds": [
+        "porpoising",
+        "suspension",
+        "ground"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Cómo se investiga y qué permite el reglamento",
+      "paragraphs": [
+        "Un ensayo de túnel debe representar el movimiento relativo del suelo y del auto. La capa límite de una pista fija puede alterar resultados si no se controla. Simulación y experimento se complementan: el modelo numérico permite mirar regiones difíciles de medir, mientras los ensayos ofrecen una referencia para comprobar fuerzas y flujo.",
+        "Las reglas de 2026 delimitan otra geometría de piso respecto de generaciones anteriores. Efecto suelo no significa que un diseño legal en 1978 o 2022 se pueda instalar hoy. Lo que permanece es el problema físico: obtener apoyo eficiente, alimentar correctamente el bajo y mantener una respuesta estable cuando el auto cambia de estado. Esa estabilidad es una parte del rendimiento, no un requisito separado de ir rápido."
+      ],
+      "sourceIds": [
+        "C",
+        "ground",
+        "suspension"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ground",
+      "title": "Zerihan y Zhang (2000): Aerodynamics of a Single Element Wing in Ground Effect",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/aerodynamics-of-a-single-element-wing-in-ground-effect/"
+    },
+    {
+      "id": "bernoulli",
+      "title": "NASA Glenn: Bernoulli y Newton",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/"
+    },
+    {
+      "id": "boundary",
+      "title": "NASA Glenn: capa límite",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/"
+    },
+    {
+      "id": "suspension",
+      "title": "Mercedes: suspensión y control de la plataforma aerodinámica",
+      "url": "https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car"
+    },
+    {
+      "id": "porpoising",
+      "title": "McLaren: balance de los primeros seis meses del reglamento de 2022",
+      "url": "https://www.mclaren.com/racing/latest-news/mclarenracing/article/new-era-six-months/"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Cómo se genera downforce",
+      "href": "/articulos/downforce-carga-aerodinamica"
+    },
+    {
+      "label": "La forma de un F1",
+      "href": "/articulos/por-que-forma-auto-f1"
+    },
+    {
+      "label": "Lotus 78: un caso histórico",
+      "href": "/articulos/lotus-78"
+    }
+  ],
+  "image": {
+    "url": "/articles/photos/efecto-suelo-f1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_of_the_Americas_(23970306838).jpg",
+    "author": "mrlaugh (Flickr)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017.",
+    "alt": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017."
+  }
+}

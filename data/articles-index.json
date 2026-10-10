@@ -3431,6 +3431,301 @@
     }
   },
   {
+    "slug": "downforce-carga-aerodinamica",
+    "title": "Downforce: apoyo que depende del aire",
+    "description": "Qué es la carga aerodinámica, cómo se calcula y por qué más apoyo no significa automáticamente una vuelta mejor.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "Downforce es la componente aerodinámica que empuja al auto hacia la pista. Aumenta la carga que deben transmitir los neumáticos y puede permitir frenar o doblar con mayor intensidad. Su ventaja está en añadir apoyo sin aumentar de la misma forma la masa que hay que acelerar. Su dificultad está en que cambia con el movimiento, el entorno y la configuración.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Una fuerza se mide en newtons",
+        "paragraphs": [
+          "La presión sobre las superficies y los esfuerzos viscosos generan una fuerza resultante y momentos. Para describir el apoyo se puede escribir Fz = ½ρV²SCz. Hay que indicar el sentido positivo de Cz, porque algunas convenciones llaman negativa a la sustentación que apunta hacia abajo. También se necesita un área de referencia común: cambiar S cambia el coeficiente informado, aun cuando la fuerza física sea igual.",
+          "La velocidad relevante es relativa al aire. Un viento frontal o trasero modifica esa condición; un viento lateral puede cambiar incidencia y balance. La densidad también participa, por lo que altura sobre el nivel del mar y condiciones atmosféricas afectan el resultado. Dos autos con la misma cifra de velocidad respecto de la pista no necesariamente reciben idéntica presión dinámica."
+        ],
+        "sourceIds": [
+          "lift",
+          "downforce",
+          "altitude"
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/fuerzas-aerodinamicas.svg",
+          "alt": "Auto avanzando a la derecha, drag hacia la izquierda y downforce hacia abajo.",
+          "caption": "Esquema conceptual de Telemetry One. Las flechas indican direcciones; sus longitudes no representan magnitudes."
+        }
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Apoyo no es masa adicional",
+        "paragraphs": [
+          "Un auto hipotético de 800 kg pesa aproximadamente 7.848 N bajo gravedad estándar. Si generara 4.000 N de apoyo aerodinámico, los neumáticos soportarían una carga vertical total mayor, aunque su masa inercial siguiera siendo aproximadamente 800 kg. Es un ejemplo para distinguir magnitudes, no un dato de un F1 específico.",
+          "Hablar de «kilogramos de downforce» suele ser una manera abreviada de expresar el peso equivalente. Conviene convertirlo a fuerza cuando se hacen cálculos. Agregar lastre aumenta tanto el peso como la masa que debe acelerarse y frenarse; el apoyo aerodinámico tiene otra relación con la inercia. Esa diferencia explica parte de su utilidad en competición, aunque las fuerzas que lo generan también traigan resistencia y otros costes."
+        ],
+        "sourceIds": [
+          "lift",
+          "downforce"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "La relación con el neumático no es lineal",
+        "paragraphs": [
+          "Un modelo sencillo usa Fy ≈ μFz para relacionar carga normal y fuerza lateral. Sirve como primera idea, pero μ no permanece fijo en un neumático de competición. Cambian carga, temperatura, deslizamiento y estado del material. Duplicar carga vertical no garantiza duplicar fuerza lateral máxima; la sensibilidad a la carga obliga a mirar cómo se distribuye entre ruedas.",
+          "La fuerza necesaria para mantener una curva ideal de radio R es mv²/R. Subir velocidad aumenta esa demanda con el cuadrado, igual que en una aproximación básica aumenta el apoyo. Sin embargo, el auto real cambia coeficientes y estados de neumático al hacerlo. No se puede despejar una velocidad máxima fiable con dos números publicitarios sin conocer el resto del modelo."
+        ],
+        "sourceIds": [
+          "rubber",
+          "lift"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "El balance es tan importante como el total",
+        "paragraphs": [
+          "Alas, piso y carrocería contribuyen al resultado conjunto. Una distribución demasiado diferente de la que necesitan los ejes puede producir una respuesta difícil de aprovechar. El balance aerodinámico cambia con altura, cabeceo y dirección del flujo; no es necesariamente el mismo al frenar y al acelerar.",
+          "La suspensión sostiene la plataforma y permite que el paquete trabaje en un rango de condiciones. Una cifra máxima en túnel no describe toda la vuelta. Un diseño menos sensible puede permitir al piloto sostener más velocidad con confianza, mientras otro obliga a dejar margen porque pierde apoyo bruscamente al cambiar de altura. La carga útil es la que se puede utilizar en pista, no solamente la mayor medida registrada."
+        ],
+        "sourceIds": [
+          "suspension",
+          "ground",
+          "downforce"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "La elección se hace para una vuelta completa",
+        "paragraphs": [
+          "Más apoyo suele venir acompañado de un cambio de resistencia. El compromiso depende de cuánto tiempo se gana en frenada y curva y cuánto se pierde en recta. También afecta energía, temperaturas y posibilidad de seguir a otro auto. Un alerón grande en un circuito de altura no demuestra por sí solo una fuerza extraordinaria: puede compensar la menor densidad del aire.",
+          "En 2026 la aerodinámica activa permite estados autorizados que modifican ese compromiso durante la vuelta. Es necesario evaluar cada estado y la transición. El objetivo sigue siendo rendimiento integrado: carga, resistencia, balance y robustez trabajando juntos. La mejor configuración no se identifica contando superficies o comparando únicamente velocidad máxima."
+        ],
+        "sourceIds": [
+          "altitude",
+          "C",
+          "terms"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "lift",
+        "title": "NASA Glenn: ecuación de sustentación",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+      },
+      {
+        "id": "downforce",
+        "title": "Mercedes: fundamentos de downforce (contexto de 2022)",
+        "url": "https://www.mercedesamgf1.com/news/feature-downforce-in-formula-one-explained"
+      },
+      {
+        "id": "altitude",
+        "title": "Mercedes: altitud, aerodinámica, refrigeración y unidad de potencia",
+        "url": "https://www.mercedesamgf1.com/news/what-impact-does-high-altitude-have-on-an-f1-car"
+      },
+      {
+        "id": "rubber",
+        "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+        "url": "https://arxiv.org/abs/cond-mat/0605273"
+      },
+      {
+        "id": "suspension",
+        "title": "Mercedes: suspensión y control de la plataforma aerodinámica",
+        "url": "https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car"
+      },
+      {
+        "id": "ground",
+        "title": "Zerihan y Zhang (2000): Aerodynamics of a Single Element Wing in Ground Effect",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/aerodynamics-of-a-single-element-wing-in-ground-effect/"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Drag y potencia necesaria",
+        "href": "/articulos/drag-resistencia-aerodinamica"
+      },
+      {
+        "label": "Efecto suelo",
+        "href": "/articulos/efecto-suelo-f1"
+      }
+    ],
+    "image": {
+      "url": "/articles/photos/downforce-carga-aerodinamica.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher_Ferrari_2004.jpg",
+      "author": "Rick Dikeman",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "caption": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004.",
+      "alt": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004."
+    }
+  },
+  {
+    "slug": "drag-resistencia-aerodinamica",
+    "title": "Drag: el precio de atravesar el aire",
+    "description": "Resistencia de presión, fricción, carga inducida y por qué la potencia necesaria crece tan rápido con la velocidad.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "La resistencia aerodinámica es la componente de fuerza que se opone al movimiento relativo del auto a través del aire. A alta velocidad se convierte en una exigencia decisiva para la unidad de potencia. Reducirla ofrece oportunidades, pero una modificación que gana en recta puede perder más tiempo al doblar o enfriar peor el auto.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "La ecuación necesita referencias claras",
+        "paragraphs": [
+          "La expresión D = ½ρV²SCd reúne densidad, velocidad relativa al aire, área de referencia y coeficiente de resistencia. Cd no es una propiedad universal del auto sin condiciones: cambia con configuración, dirección del flujo, altura y régimen. Comparar coeficientes con áreas distintas puede producir una aparente ventaja que desaparece cuando se comparan fuerzas.",
+          "Si el conjunto SCd permaneciera constante, aumentar velocidad un 10% aumentaría resistencia un 21%. Es una comparación matemática controlada, no una regla exacta para todas las fases de una vuelta. Las superficies móviles, las deformaciones y el flujo que recibe el auto pueden alterar el coeficiente. Por eso los ensayos registran condiciones junto con la cifra."
+        ],
+        "sourceIds": [
+          "dragEq",
+          "drag"
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/fuerzas-aerodinamicas.svg",
+          "alt": "Auto avanzando a la derecha, drag hacia la izquierda y downforce hacia abajo.",
+          "caption": "Esquema conceptual de Telemetry One. Las flechas indican direcciones; sus longitudes no representan magnitudes."
+        }
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Hay varias formas de generar resistencia",
+        "paragraphs": [
+          "La distribución de presión aporta una parte de la fuerza; los esfuerzos de fricción sobre las superficies aportan otra. Las regiones de separación y la estela influyen en el balance de cantidad de movimiento. Un auto con ruedas descubiertas tiene interacciones muy diferentes de una forma aerodinámica ideal. Refrigerar tampoco es gratuito: introducir, conducir y evacuar aire condiciona el campo exterior y las pérdidas.",
+          "La generación de carga en un ala finita también se relaciona con resistencia inducida. Para alas ideales se usa una aproximación Cdi = Cl²/(πeAR), con eficiencia e y alargamiento AR. Es una herramienta de interpretación dentro de sus hipótesis; no una fórmula exacta del drag de todo un F1 con piso, ruedas y flujo no uniforme. Un Cd total no se obtiene aplicándola a una sola pieza y dando por resuelto el resto."
+        ],
+        "sourceIds": [
+          "induced",
+          "drag",
+          "altitude"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "La potencia tiene una dependencia más fuerte",
+        "paragraphs": [
+          "La potencia para vencer esa fuerza a velocidad V es P = DV. Si D varía con V² y las demás condiciones permanecen iguales, la potencia aerodinámica requerida varía con V³. Aumentar velocidad un 10% exigiría aproximadamente un 33,1% más de potencia para esa resistencia. Ese crecimiento explica por qué las últimas ganancias de velocidad máxima son costosas.",
+          "Por ejemplo, una resistencia hipotética de 1.500 N a 80 m/s necesita 120 kW para ser vencida. Son potencia mecánica y fuerza en esas condiciones; no potencia química de combustible ni una medición de un equipo. Rodadura, transmisión y otros efectos completan el balance. La velocidad final aparece cuando la fuerza propulsora disponible y las resistencias se equilibran, bajo el estado de energía y configuración correspondiente."
+        ],
+        "sourceIds": [
+          "dragEq"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Eficiencia no significa resistencia mínima",
+        "paragraphs": [
+          "La relación entre apoyo y resistencia es útil para comparar paquetes, siempre con las mismas referencias. Sin embargo, el punto de menor resistencia puede carecer de la carga necesaria para una curva. El objetivo es obtener el compromiso que mejor funciona en el trazado, no ganar un concurso de Cd mínimo.",
+          "Dos configuraciones pueden intercambiar ventajas entre curvas y rectas. La decisión incluye además balance, desgaste y facilidad para competir en tráfico. Ganar velocidad máxima con poca carga puede empeorar la salida de la curva anterior y hacer que la ventaja tarde demasiado en aparecer. El cronómetro de una vuelta completa responde a toda esa secuencia."
+        ],
+        "sourceIds": [
+          "downforce",
+          "dragEq"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Seguir otro auto y cambiar de configuración",
+        "paragraphs": [
+          "El rebufo puede reducir resistencia al modificar el aire que recibe el perseguidor. Al abandonar la estela se recuperan otras condiciones y puede cambiar la aceleración. No es una reducción permanente del Cd del diseño: es una interacción con otro vehículo. Separar geometría y entorno ayuda a interpretar lo que muestra una recta.",
+          "La aerodinámica activa de 2026 cambia superficies en zonas y condiciones autorizadas para reducir resistencia cuando conviene. Esa herramienta tiene límites y debe coordinarse con energía y carga. También importa refrigeración: cerrar una salida puede favorecer una medición aerodinámica y elevar una temperatura demasiado. La eficiencia real combina atravesar el aire con mantener funcionando el auto durante toda la carrera."
+        ],
+        "sourceIds": [
+          "wake",
+          "terms",
+          "C",
+          "altitude"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "dragEq",
+        "title": "NASA Glenn: ecuación de resistencia aerodinámica",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/"
+      },
+      {
+        "id": "drag",
+        "title": "NASA Glenn: coeficiente de resistencia",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+      },
+      {
+        "id": "induced",
+        "title": "NASA Glenn: resistencia inducida y límites del modelo de ala",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/induced-drag-coefficient/"
+      },
+      {
+        "id": "altitude",
+        "title": "Mercedes: altitud, aerodinámica, refrigeración y unidad de potencia",
+        "url": "https://www.mercedesamgf1.com/news/what-impact-does-high-altitude-have-on-an-f1-car"
+      },
+      {
+        "id": "downforce",
+        "title": "Mercedes: fundamentos de downforce (contexto de 2022)",
+        "url": "https://www.mercedesamgf1.com/news/feature-downforce-in-formula-one-explained"
+      },
+      {
+        "id": "wake",
+        "title": "McLaren: F1 Playbook, slipstream y dirty air",
+        "url": "https://www.mclaren.com/racing/formula-1/playbook/"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      }
+    ],
+    "related": [
+      {
+        "label": "Slipstream y aire sucio",
+        "href": "/articulos/slipstream-aire-sucio"
+      },
+      {
+        "label": "Downforce",
+        "href": "/articulos/downforce-carga-aerodinamica"
+      }
+    ],
+    "image": {
+      "url": "/articles/photos/drag-resistencia-aerodinamica.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2020_Tuscan_Grand_Prix_-_race_day_(cropped).jpg",
+      "author": "Eustace Bagge; recorte: Danyele",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020.",
+      "alt": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020."
+    }
+  },
+  {
     "slug": "duryea-motor-wagon",
     "title": "Duryea Motor Wagon: una victoria entre la nieve de Chicago",
     "description": "Frank Duryea ganó en el frío de Chicago con un coche distinto del prototipo que hoy conserva el Smithsonian. La victoria hizo visible el trabajo de dos hermanos.",
@@ -3545,6 +3840,142 @@
       "licenseUrl": null,
       "caption": "Charles E. Duryea con uno de sus automóviles, en una fotografía histórica conservada por la Biblioteca del Congreso de Estados Unidos.",
       "alt": "Charles E. Duryea con uno de sus automóviles, en una fotografía histórica conservada por la Biblioteca del Congreso de Estados Unidos."
+    }
+  },
+  {
+    "slug": "efecto-suelo-f1",
+    "title": "Efecto suelo: cuando la pista forma parte de la aerodinámica",
+    "description": "Cómo trabajan el piso y el difusor, por qué bajar el auto tiene un límite y cómo aparece el porpoising.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Avanzado",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Avanzado",
+      "explicación"
+    ],
+    "lead": "La pista modifica el flujo que circula bajo el auto. Esa proximidad puede permitir una región de presión baja que genera apoyo, pero también vuelve al vehículo sensible a la altura, el cabeceo y los baches. El efecto suelo es una interacción entre superficies y flujo, no una aspiradora que funciona siempre mejor cuanto más cerca está del asfalto.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "El suelo cambia las condiciones del problema",
+        "paragraphs": [
+          "Un perfil aislado recibe un flujo con unas condiciones de contorno; cerca del piso, esas condiciones cambian. El espacio disponible, los gradientes de presión y los movimientos laterales condicionan el aire que pasa debajo. El auto obtiene una fuerza por la distribución de presión y los esfuerzos sobre sus superficies. El asfalto no necesita adherirse al vehículo para participar en esa distribución.",
+          "La analogía con Venturi ayuda a pensar en velocidad y presión dentro de un paso estrecho. Sin embargo, el bajo de un F1 no es un conducto hermético: recibe flujo perturbado y tiene intercambio lateral. Continuidad y Bernoulli ofrecen una primera lectura, mientras viscosidad, separación y estructuras tridimensionales determinan el comportamiento real. La carga se calcula integrando el campo de presiones, no multiplicando una supuesta succión uniforme por todo el piso."
+        ],
+        "sourceIds": [
+          "ground",
+          "bernoulli"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "El difusor necesita recuperar presión",
+        "paragraphs": [
+          "En la parte posterior, el espacio entre auto y pista aumenta. Esa expansión permite recuperar presión hacia las condiciones de salida. Su geometría influye en el caudal y en el campo de presión de zonas anteriores, por lo que el difusor no trabaja como una pieza independiente que simplemente añade carga al final.",
+          "Una recuperación demasiado exigente puede producir separación. La capa límite dispone de una cantidad de movimiento limitada cerca de la pared y debe atravesar un gradiente adverso. Cambiar ángulo, altura o condiciones de llegada modifica ese equilibrio. El diseño busca una recuperación utilizable en varias situaciones, además de una cifra máxima favorable con el auto perfectamente alineado."
+        ],
+        "sourceIds": [
+          "ground",
+          "boundary"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Bajar ayuda hasta que deja de ayudar",
+        "paragraphs": [
+          "Las investigaciones de alas invertidas cerca del suelo encuentran regímenes distintos al variar altura. Un incremento inicial de carga puede dar paso a una respuesta menos favorable cuando cambian separación y estructuras vorticosas. El comportamiento exacto pertenece a la geometría estudiada; trasladar su altura crítica a otro piso no sería una predicción válida.",
+          "Para estudiar un auto se construye un mapa: fuerza y balance frente a altura delantera, altura trasera, guiñada y otros estados. La derivada de carga respecto de altura resulta tan importante como el máximo. Si un pequeño movimiento produce un cambio grande de apoyo, controlar la plataforma se vuelve difícil. Un paquete con algo menos de carga máxima puede permitir al piloto utilizar más rendimiento durante una vuelta real."
+        ],
+        "sourceIds": [
+          "ground",
+          "suspension"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Porpoising: una oscilación acoplada",
+        "paragraphs": [
+          "El porpoising combina aerodinámica y movimiento del vehículo. La carga modifica la altura; la altura modifica el flujo y la carga, y la suspensión responde. Si ese acoplamiento alimenta una oscilación, el auto puede alternar estados de apoyo y recuperación. El problema se hizo muy visible con la generación reglamentaria de 2022, aunque la física no nació aquel año.",
+          "No todo rebote es porpoising. Una excitación de baches, un contacto del piso o una respuesta mecánica pueden producir movimientos parecidos en una cámara. Para identificarlos hacen falta señales de altura, aceleración y carga, con su relación temporal. La explicación tampoco se reduce a que el auto «tape todo el aire»: existen geometrías y condiciones que cambian el mecanismo de la inestabilidad."
+        ],
+        "sourceIds": [
+          "porpoising",
+          "suspension",
+          "ground"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Cómo se investiga y qué permite el reglamento",
+        "paragraphs": [
+          "Un ensayo de túnel debe representar el movimiento relativo del suelo y del auto. La capa límite de una pista fija puede alterar resultados si no se controla. Simulación y experimento se complementan: el modelo numérico permite mirar regiones difíciles de medir, mientras los ensayos ofrecen una referencia para comprobar fuerzas y flujo.",
+          "Las reglas de 2026 delimitan otra geometría de piso respecto de generaciones anteriores. Efecto suelo no significa que un diseño legal en 1978 o 2022 se pueda instalar hoy. Lo que permanece es el problema físico: obtener apoyo eficiente, alimentar correctamente el bajo y mantener una respuesta estable cuando el auto cambia de estado. Esa estabilidad es una parte del rendimiento, no un requisito separado de ir rápido."
+        ],
+        "sourceIds": [
+          "C",
+          "ground",
+          "suspension"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "ground",
+        "title": "Zerihan y Zhang (2000): Aerodynamics of a Single Element Wing in Ground Effect",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/aerodynamics-of-a-single-element-wing-in-ground-effect/"
+      },
+      {
+        "id": "bernoulli",
+        "title": "NASA Glenn: Bernoulli y Newton",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/"
+      },
+      {
+        "id": "boundary",
+        "title": "NASA Glenn: capa límite",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/"
+      },
+      {
+        "id": "suspension",
+        "title": "Mercedes: suspensión y control de la plataforma aerodinámica",
+        "url": "https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car"
+      },
+      {
+        "id": "porpoising",
+        "title": "McLaren: balance de los primeros seis meses del reglamento de 2022",
+        "url": "https://www.mclaren.com/racing/latest-news/mclarenracing/article/new-era-six-months/"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      }
+    ],
+    "related": [
+      {
+        "label": "Cómo se genera downforce",
+        "href": "/articulos/downforce-carga-aerodinamica"
+      },
+      {
+        "label": "La forma de un F1",
+        "href": "/articulos/por-que-forma-auto-f1"
+      },
+      {
+        "label": "Lotus 78: un caso histórico",
+        "href": "/articulos/lotus-78"
+      }
+    ],
+    "image": {
+      "url": "/articles/photos/efecto-suelo-f1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_FIA_Masters_Historic_Formula_One_Championship,_Circuit_of_the_Americas_(23970306838).jpg",
+      "author": "mrlaugh (Flickr)",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "caption": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017.",
+      "alt": "Un Lotus 78 en una carrera del campeonato Masters Historic Formula One en el Circuit of the Americas, fotografiado en 2017."
     }
   },
   {
@@ -3827,6 +4258,307 @@
         "href": "/articulos/por-que-forma-auto-f1"
       }
     ]
+  },
+  {
+    "slug": "equipamiento-piloto-casco-hans-mono",
+    "title": "Casco, HANS y mono: las capas de protección del piloto",
+    "description": "Cómo trabajan casco, retención de cabeza y cuello, ropa resistente al fuego, guantes, calzado y arnés como un conjunto.",
+    "category": "Seguridad",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Seguridad",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "El equipamiento del piloto combina protecciones que actúan frente a riesgos diferentes. El casco gestiona impactos y otros peligros; el HANS limita movimientos relativos de cabeza y torso en determinados choques; la ropa retrasa la transferencia de calor. Su eficacia depende también de compatibilidad, ajuste y uso dentro del sistema del auto.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "El casco absorbe, distribuye y protege",
+        "paragraphs": [
+          "Un casco combina una carcasa exterior, un material de absorción y elementos interiores de ajuste, además de visor y otros componentes. La carcasa ayuda a distribuir cargas y afrontar penetración; el material interior gestiona energía mediante deformación. La homologación utiliza ensayos definidos para comprobar una especificación, no una garantía de que todo impacto posible tendrá el mismo resultado.",
+          "La familia FIA 8860-2018 incluye la variante ABP, Advanced Ballistic Protection. La exigencia balística responde a peligros de objetos proyectados, además de los ensayos de impacto, aplastamiento, visor y protección térmica aplicables. Las guías de la FIA y el capítulo de equipamiento del apéndice L permiten comprobar qué estándares se aceptan en una competición. Una etiqueta de homologación de otra disciplina no debe interpretarse como aceptación automática para F1."
+        ],
+        "sourceIds": [
+          "helmet",
+          "helmetGuide",
+          "appendices"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "La cabeza y el torso no se detienen solos al mismo tiempo",
+        "paragraphs": [
+          "En un choque, el arnés puede retener el torso mientras la cabeza tiende a continuar su movimiento. La diferencia crea una exigencia sobre el cuello. El HANS, Head And Neck Support, forma parte de los sistemas de retención frontal de cabeza, FHR: conecta el casco mediante correas a un dispositivo que transmite carga hacia el sistema de sujeción del torso.",
+          "No es un collarín blando que simplemente rellena espacio alrededor del cuello. Su funcionamiento depende de recorridos de carga y de la interacción con casco, correas, arnés y posición del piloto. La FIA distingue HANS de otras soluciones FHR homologadas. Esa distinción permite entender la función sin llamar HANS a cualquier objeto que un piloto lleve sobre los hombros."
+        ],
+        "sourceIds": [
+          "hans",
+          "hansGuide"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Un desarrollo que se volvió obligatorio",
+        "paragraphs": [
+          "Robert Hubbard y Jim Downing impulsaron el desarrollo del HANS a partir de un problema de lesiones en accidentes. La FIA documenta su desarrollo, pruebas y posterior integración en el automovilismo. En Fórmula 1 fue obligatorio para todos los pilotos desde 2003. La historia muestra que reconocer una necesidad no elimina inmediatamente las dificultades de comodidad, peso e integración.",
+          "Versiones posteriores mejoraron aspectos de movimiento y ergonomía, mientras el marco de homologación permitió evaluar alternativas. El objetivo es proteger dentro de escenarios de ensayo y de uso definidos, con un sistema que el piloto pueda llevar correctamente. Presentar el dispositivo como protección absoluta frente a cualquier dirección de choque sería una descripción equivocada de su alcance. Su contribución importante es gestionar una parte crítica del movimiento relativo durante impactos relevantes."
+        ],
+        "sourceIds": [
+          "hans",
+          "hansGuide"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "El mono resistente al fuego gana tiempo",
+        "paragraphs": [
+          "La ropa protectora no apaga un incendio: reduce la exposición y retrasa la transferencia de calor bajo condiciones ensayadas. La norma FIA 8856-2018 trata prendas como mono, ropa interior, pasamontañas, guantes, calcetines y calzado. Esos elementos forman capas y cubren zonas que un mono por sí solo no protege completamente.",
+          "Las fibras resistentes al calor, el ensamblaje y las costuras contribuyen a la respuesta. Resistencia a llama y aislamiento térmico no son exactamente lo mismo, y un número de segundos de ensayo no es un tiempo universal de supervivencia en un incendio real. Cambian flujo de calor, contacto, estado de la ropa y condiciones de exposición. Para explicar la protección hay que indicar qué evalúa la norma en lugar de convertir un resultado de laboratorio en una promesa."
+        ],
+        "sourceIds": [
+          "apparel",
+          "safetyLeaflet"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Manos, pies y rostro siguen teniendo trabajo que hacer",
+        "paragraphs": [
+          "Guantes y calzado deben ofrecer protección mientras permiten accionar volante y pedales. El pasamontañas y la ropa interior completan cobertura. La ergonomía de esos elementos se conecta con conducción y salida del vehículo: una solución que dificulte demasiado el movimiento puede perjudicar la capacidad de utilizar el auto o abandonar el cockpit.",
+          "La comodidad no es una alternativa a la seguridad; contribuye a que el equipamiento se utilice como fue diseñado. Los cambios de ropa o accesorios deben seguir compatibilidades y normas aplicables. La apariencia de una prenda no permite comprobar su especificación. La documentación identifica producto, homologación y condiciones, y las instrucciones del fabricante describen el uso del conjunto."
+        ],
+        "sourceIds": [
+          "apparel",
+          "helmetGuide",
+          "wheel"
+        ]
+      },
+      {
+        "id": "capitulo-6",
+        "title": "El arnés completa los recorridos de carga",
+        "paragraphs": [
+          "Asiento, arnés y apoyos del cockpit participan en la retención del piloto. El casco y el FHR no operan aislados de ellos. Los anclajes y la disposición deben trabajar dentro de la instalación definida; variar una parte del conjunto puede alterar la respuesta de otras. Esa es la razón por la que se verifica compatibilidad además de homologación individual.",
+          "Para el lector, la idea esencial es separar funciones: cabeza protegida frente a impacto y objetos, movimiento relativo limitado mediante FHR, cuerpo retenido y exposición térmica reducida por prendas. Las listas técnicas y la normativa vigente permiten identificar las especificaciones aceptadas. El sistema del auto, el equipamiento y los procedimientos de pista se complementan. Ninguna de esas capas reemplaza a las demás."
+        ],
+        "sourceIds": [
+          "homologation",
+          "hansGuide",
+          "C",
+          "appendices"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "helmet",
+        "title": "FIA 8860-2018 y 8860-2018-ABP: norma de cascos de alto rendimiento",
+        "url": "https://www.fia.com/sites/default/files/8860-2018_advanced_helmet_5.pdf"
+      },
+      {
+        "id": "helmetGuide",
+        "title": "FIA: guía de estándares de cascos y compatibilidad con FHR",
+        "url": "https://www.fia.com/sites/default/files/guidelines_helmets_web_1.pdf"
+      },
+      {
+        "id": "appendices",
+        "title": "FIA: ediciones vigentes de los apéndices H, L y O del Código Deportivo Internacional",
+        "url": "https://www.fia.com/regulation/category/123"
+      },
+      {
+        "id": "hans",
+        "title": "FIA: desarrollo y funcionamiento de HANS y otros sistemas FHR",
+        "url": "https://www.fia.com/news/auto-medical-safety-our-hans"
+      },
+      {
+        "id": "hansGuide",
+        "title": "FIA: guía de sistemas de retención frontal de la cabeza",
+        "url": "https://www.fia.com/sites/default/files/fia_standard_guidelines_frontal_head_restrain.pdf"
+      },
+      {
+        "id": "apparel",
+        "title": "FIA 8856-2018: ropa protectora para pilotos de automovilismo",
+        "url": "https://www.fia.com/sites/default/files/8856-2018_protecting_clothing_4.pdf"
+      },
+      {
+        "id": "safetyLeaflet",
+        "title": "FIA: funciones del equipamiento de seguridad del piloto",
+        "url": "https://www.fia.com/sites/default/files/safety_leaflet_driver_safety_equipment_0.pdf"
+      },
+      {
+        "id": "wheel",
+        "title": "Mercedes: funcionamiento y construcción del volante de F1",
+        "url": "https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work"
+      },
+      {
+        "id": "homologation",
+        "title": "FIA: equipamiento de seguridad y homologaciones",
+        "url": "https://www.fia.com/safety-equipment-homologation"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      }
+    ],
+    "related": [
+      {
+        "label": "Seguridad de circuitos y procedimientos",
+        "href": "/articulos/seguridad-pista-f1"
+      },
+      {
+        "label": "Cómo trabaja el volante",
+        "href": "/articulos/volante-formula-1"
+      }
+    ],
+    "image": {
+      "url": "/articles/photos/equipamiento-piloto-casco-hans-mono.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:John_hunter_nemechek_(49562237016).jpg",
+      "author": "Zach Catanzareti Photo",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "John Hunter Nemechek con casco y sistema de retención de cabeza en Daytona, en 2020. La foto corresponde a NASCAR y permite observar las correas y el dispositivo; no representa un equipamiento de F1 de 2026.",
+      "alt": "John Hunter Nemechek con casco y sistema de retención de cabeza en Daytona, en 2020. La foto corresponde a NASCAR y permite observar las correas y el dispositivo; no representa un equipamiento de F1 de 2026."
+    }
+  },
+  {
+    "slug": "evolucion-volante-f1",
+    "title": "De un aro a un centro de mando: la evolución del volante de F1",
+    "description": "Cómo la transmisión, la electrónica y las necesidades del piloto transformaron una pieza aparentemente sencilla.",
+    "category": "Revoluciones técnicas",
+    "kind": "history",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "1968–2026",
+    "year": 1968,
+    "tags": [
+      "Revoluciones técnicas",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "En el McLaren M7C de finales de los sesenta, el volante era ante todo un aro que permitía orientar el auto. Décadas después, el mismo lugar concentraba levas, selectores y pantallas. El cambio no fue una carrera por añadir botones: cada generación de sistemas trasladó al volante una parte nueva del trabajo del piloto.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "El cockpit repartía las tareas",
+        "paragraphs": [
+          "El archivo de McLaren muestra el contraste entre sus volantes antiguos y los posteriores. En los primeros ejemplos, dirección e instrumentación estaban claramente separadas. Cambiar de marcha requería actuar sobre una palanca dentro del cockpit, y el piloto debía organizar sus manos entre distintas tareas. La sencillez visible del aro no significaba una conducción sencilla.",
+          "El espacio, el diámetro y la forma respondían a necesidades mecánicas y ergonómicas. La pieza también transmitía información sobre el comportamiento del auto. Mirar un volante conservado exige devolverlo a su contexto: los mandos que faltan allí podían estar en otro lugar, y algunas funciones posteriores ni siquiera existían en el vehículo. Comparar cantidades de botones sin esa diferencia reduce la historia a una colección de objetos."
+        ],
+        "sourceIds": [
+          "wheelHistory"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "1989: cambiar de marcha sin buscar la palanca",
+        "paragraphs": [
+          "Ferrari introdujo su caja semiautomática en el 640 de 1989. La acción del piloto pasó a solicitar cambios mediante mandos próximos a las manos, en lugar de mover una palanca tradicional. La innovación conectaba transmisión, control y conducción; también tenía problemas de desarrollo y fiabilidad que debían resolverse. Su debut victorioso en Brasil no convierte aquel proceso en una evolución inevitable y sin dificultades.",
+          "McLaren incorporó esa tecnología en el MP4/7 de 1992, según su propio archivo. La adopción por distintas escuderías tuvo tiempos y soluciones particulares. A medida que los cambios se concentraban detrás del volante, mantener las manos en una posición de control se volvía una parte más importante del diseño. La palanca desaparecía, pero su tarea se integraba en una interfaz que seguía creciendo."
+        ],
+        "sourceIds": [
+          "ferrariShift",
+          "wheelHistory"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "La electrónica añadió elecciones, además de información",
+        "paragraphs": [
+          "Los volantes posteriores reunieron más botones y selectores para sistemas del auto. No todo era una automatización que redujera trabajo: algunas funciones daban al piloto nuevas decisiones durante la vuelta. El objeto debía permitir distinguirlas y ejecutarlas con precisión. Su forma evolucionó con esa distribución y con el espacio disponible alrededor de las manos.",
+          "La electrónica del auto tiene límites reglamentarios que cambian por época. Un volante antiguo puede contener controles asociados a sistemas que ya no se permiten, o presentar una función de otra manera. La historia de la interfaz sigue también la historia de las prohibiciones y de los procedimientos. Esa es la razón por la que reconstruir sus funciones exige más que identificar una sigla en una fotografía."
+        ],
+        "sourceIds": [
+          "wheelHistory",
+          "C"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "No hubo una única solución para pantalla y levas",
+        "paragraphs": [
+          "Los ejemplos de McLaren muestran que colocar más información en el volante no ocurrió de la misma forma en todos los modelos. Algunos diseños mantuvieron instrumentación fuera de él durante parte de la evolución. Elegir dónde mostrar datos también afecta tamaño, masa y visibilidad de la pieza que gira frente al piloto.",
+          "Las preferencias personales continúan importando. Formula 1 documentó diferencias entre los mandos de pilotos de Ferrari: las levas podían adaptarse a la forma de utilizar embrague y cambio. Dos volantes distintos del mismo equipo no indican necesariamente reglamentos diferentes. Una interfaz industrial debe ser consistente, pero también puede acomodar una mano, una técnica y una posición de conducción particulares."
+        ],
+        "sourceIds": [
+          "wheelHistory",
+          "driverWheels"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "La etapa híbrida y el desafío actual",
+        "paragraphs": [
+          "Los sistemas de energía añadieron otro lenguaje de estados y decisiones. En 2026 la coordinación entre despliegue eléctrico y aerodinámica autorizada plantea un contexto nuevo para los mandos. El piloto sigue necesitando señales que pueda leer y acciones que pueda repetir bajo presión. La electrónica más sofisticada no elimina ese requisito humano.",
+          "El archivo histórico y las explicaciones actuales de equipos permiten ver la continuidad: cada etapa intentó mantener el control del auto mientras trasladaba más tareas a las manos. La mejor evolución no es la que utiliza todo el espacio con interruptores. Es la que convierte complejidad mecánica y electrónica en una secuencia fiable de gestos. El aro inicial y el centro de mando moderno pertenecen al mismo problema: darle al piloto una forma eficaz de actuar."
+        ],
+        "sourceIds": [
+          "wheel",
+          "workload",
+          "terms"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "wheelHistory",
+        "title": "McLaren: volantes a través de las épocas, ejemplos de M7C a MP4-29",
+        "url": "https://www.mclaren.com/racing/team/through-the-ages-formula-one-steering-wheels/"
+      },
+      {
+        "id": "ferrariShift",
+        "title": "Ferrari: la caja semiautomática de 1989 y su evolución",
+        "url": "https://www.ferrari.com/en-CA/magazine/articles/great-ferrari-innovations-the-f1-semi-automatic-gearbox"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "driverWheels",
+        "title": "Formula 1: por qué los pilotos de Ferrari usaban volantes diferentes (2018)",
+        "url": "https://www.formula1.com/en/latest/article/tech-tuesday-why-vettels-ferrari-steering-wheel-continues-to-evolve.2jSi4Mnm68U8M6wOg0aeuo"
+      },
+      {
+        "id": "wheel",
+        "title": "Mercedes: funcionamiento y construcción del volante de F1",
+        "url": "https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work"
+      },
+      {
+        "id": "workload",
+        "title": "Mercedes: carga de trabajo del piloto durante una vuelta",
+        "url": "https://www.mercedesamgf1.com/news/explained-driver-workload-during-a-lap"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Cómo funciona el volante actual",
+        "href": "/articulos/volante-formula-1"
+      },
+      {
+        "label": "Reglamento 2026",
+        "href": "/articulos/reglamento-f1-2026"
+      }
+    ],
+    "image": {
+      "url": "/articles/photos/evolucion-volante-f1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-23_Steering_Wheel_at_Formula_1_Exhibition,_London.jpg",
+      "author": "Hullian111",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "caption": "Volante del McLaren MP4-23 de 2008, fotografiado en la Formula 1 Exhibition de Londres en febrero de 2025.",
+      "alt": "Volante del McLaren MP4-23 de 2008, fotografiado en la Formula 1 Exhibition de Londres en febrero de 2025."
+    }
   },
   {
     "slug": "f-duct-das-fronteras-reglamento",
@@ -10826,6 +11558,123 @@
     }
   },
   {
+    "slug": "seguridad-pista-f1",
+    "title": "Seguridad en pista: mucho más que una barrera",
+    "description": "Diseño del circuito, escapatorias, protección, señales, neutralizaciones y respuesta de emergencia como un sistema conjunto.",
+    "category": "Seguridad",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Seguridad",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "La seguridad de una carrera se construye antes de que se enciendan los semáforos. Trazado, barreras, personal, comunicaciones y procedimientos deben funcionar juntos. Una protección puede absorber energía, una señal puede evitar un segundo incidente y un servicio de intervención puede responder cuando las capas anteriores no fueron suficientes.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Diseñar para trayectorias y velocidades posibles",
+        "paragraphs": [
+          "La FIA revisa proyectos y realiza inspecciones para la licencia de un circuito. El análisis considera geometría, velocidades y posibles trayectorias de salida. No basta con medir cuántos metros hay hasta una pared: ángulo, vehículo y forma de llegar a ella cambian el problema. La licencia corresponde a unas condiciones y no convierte cualquier modificación posterior en equivalente.",
+          "Una escapatoria permite que el auto reduzca velocidad o que el piloto recupere control. Asfalto, grava y otras soluciones tienen respuestas distintas. La selección debe analizar el contexto de la curva y lo que ocurre después, incluidas barreras y zonas de servicio. Una superficie adecuada para un escenario puede tener inconvenientes en otro. El objetivo es una secuencia de protección, no una solución universal para todos los bordes."
+        ],
+        "sourceIds": [
+          "trackSafety",
+          "appendices"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Absorber energía y controlar la desaceleración",
+        "paragraphs": [
+          "La energía cinética es E = ½mv². Si la velocidad aumenta un 20%, la energía aumenta un 44% para la misma masa. Es una relación física que ayuda a entender por qué pequeños cambios de velocidad pueden alterar mucho la exigencia sobre una zona de impacto.",
+          "Las barreras buscan gestionar esa energía mediante una respuesta controlada, junto con las estructuras del auto. La deformación aumenta tiempo y distancia de detención respecto de una pared rígida. Sin embargo, el resultado depende del tipo de impacto y de cómo funciona el conjunto. Una imagen posterior con una barrera dañada no demuestra por sí sola un fallo: parte de su tarea puede ser deformarse. La evaluación requiere conocer el diseño y el incidente."
+        ],
+        "sourceIds": [
+          "trackSafety",
+          "C"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Banderas y paneles forman una red de información",
+        "paragraphs": [
+          "Los puestos de comisarios y paneles comunican riesgos y estados de pista. Amarilla indica peligro y obligaciones de conducción; roja interrumpe la sesión; verde señala un estado libre de la restricción correspondiente. Otras señales informan condiciones de superficie, tráfico o situaciones individuales. El significado exacto y su aplicación pertenecen a los procedimientos de la competición.",
+          "La señal debe llegar con tiempo y desde una posición que el piloto pueda interpretar. Comunicaciones, control de carrera y sistemas del auto añaden canales, pero no vuelven intercambiables todas las indicaciones. Un circuito necesita coherencia entre zonas y personal. La respuesta del piloto forma parte de la protección de quienes trabajan en pista, especialmente cuando un incidente obliga a intervenir fuera de una barrera."
+        ],
+        "sourceIds": [
+          "appendices",
+          "B"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Safety Car, VSC y bandera roja hacen cosas distintas",
+        "paragraphs": [
+          "El Safety Car controla el ritmo y reúne el tráfico detrás de un vehículo siguiendo un procedimiento de despliegue y regreso. El Virtual Safety Car establece referencias de tiempo que deben respetarse sin formar necesariamente esa misma fila. La bandera roja permite detener la sesión cuando las condiciones o la intervención lo requieren. Son herramientas de control del riesgo con efectos deportivos distintos.",
+          "La neutralización no significa que toda la pista deje de contener peligro. Los autos todavía se mueven, y el personal puede trabajar cerca de ellos. Por eso importan límites, separación y cumplimiento del procedimiento. Las decisiones sobre despliegue y reinicio consideran estado de pista, visibilidad y necesidades operativas. Que una parada en boxes resulte ventajosa no explica la razón de seguridad que activó el sistema."
+        ],
+        "sourceIds": [
+          "B",
+          "appendices"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Preparar la intervención antes del incidente",
+        "paragraphs": [
+          "Servicios médicos, rescate, extinción y recuperación deben disponer de accesos, personal y medios adecuados. Los apéndices de la FIA organizan aspectos de supervisión e intervención, y el circuito debe preparar su operación. La ubicación de un vehículo de emergencia y el acceso a un sector afectan cuánto tarda una respuesta y cómo puede ejecutarse sin crear otro riesgo.",
+          "Después de un incidente también se revisan barreras, pista y condiciones para continuar. El aprendizaje utiliza evidencias y reconstrucción, no solo el resultado final del piloto. La seguridad depende de varias capas que se refuerzan: prevenir salidas, reducir consecuencias, informar, controlar el tráfico y responder. Una carrera se puede reanudar porque ese sistema vuelve a estar preparado, no porque el lugar ya parezca tranquilo en televisión."
+        ],
+        "sourceIds": [
+          "trackSafety",
+          "appendices",
+          "homologation"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "trackSafety",
+        "title": "FIA: diseño, inspección y licencia de seguridad de circuitos",
+        "url": "https://www.fia.com/circuit-safety"
+      },
+      {
+        "id": "appendices",
+        "title": "FIA: ediciones vigentes de los apéndices H, L y O del Código Deportivo Internacional",
+        "url": "https://www.fia.com/regulation/category/123"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "B",
+        "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+      },
+      {
+        "id": "homologation",
+        "title": "FIA: equipamiento de seguridad y homologaciones",
+        "url": "https://www.fia.com/safety-equipment-homologation"
+      }
+    ],
+    "related": [
+      {
+        "label": "Equipamiento del piloto",
+        "href": "/articulos/equipamiento-piloto-casco-hans-mono"
+      },
+      {
+        "label": "Cómo seguir una carrera",
+        "href": "/articulos/como-funciona-formula-1"
+      }
+    ]
+  },
+  {
     "slug": "sizaire-naudin",
     "title": "Sizaire-Naudin: la pequeña máquina que encontró su propia carrera",
     "description": "Una máquina pequeña, una transmisión singular y las carreras de voiturettes: el camino de Sizaire-Naudin muestra otro automovilismo detrás de los grandes fabricantes.",
@@ -10945,6 +11794,276 @@
       "caption": "Sizaire & Naudin de 1907 en el Museo Nazionale dell’Automobile de Turín, fotografiado en 2024.",
       "alt": "Sizaire & Naudin de 1907 en el Museo Nazionale dell’Automobile de Turín, fotografiado en 2024."
     }
+  },
+  {
+    "slug": "slipstream-aire-sucio",
+    "title": "Slipstream y aire sucio: la misma estela, dos consecuencias",
+    "description": "Por qué seguir a otro auto puede ayudar en recta y perjudicar en curva, y qué significa realmente la succión.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "Detrás de un auto hay una estela con velocidades, direcciones y fluctuaciones diferentes de las del aire libre. En recta puede reducir la resistencia del perseguidor; en curva puede deteriorar su carga y su balance. Slipstream y aire sucio describen consecuencias de esa interacción, no dos tipos de aire que se encienden por separado.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "El auto deja un flujo alterado",
+        "paragraphs": [
+          "Al desplazar aire y generar fuerzas, el vehículo produce una estela tridimensional. Hay déficit de velocidad longitudinal en ciertas regiones, desviaciones del flujo y turbulencia. El patrón depende del auto, su configuración, su velocidad y la distancia. No es un túnel vacío detrás del alerón ni un cilindro uniforme que conserve forma indefinidamente.",
+          "Para el perseguidor importa dónde queda cada pieza respecto de esa estela. Un alerón puede recibir un flujo distinto del que llega a los radiadores o al piso. También cambia la dirección de incidencia local. Utilizar solamente la velocidad del auto respecto del suelo para predecir las fuerzas omite la condición que realmente ven sus superficies: el aire que llega a ellas."
+        ],
+        "sourceIds": [
+          "wake",
+          "lift",
+          "dragEq"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "En recta se aprovecha una resistencia menor",
+        "paragraphs": [
+          "Con menos resistencia aerodinámica, una misma potencia puede permitir mayor aceleración o velocidad. A esa ventaja de seguir el paso abierto por otro vehículo se la llama rebufo, slipstream o tow. «Succión» es una expresión habitual, pero no implica una cuerda invisible que tire del perseguidor. La fuerza y el movimiento surgen del nuevo campo de presión y del balance de fuerzas del auto.",
+          "La ganancia depende de distancia, desplazamiento lateral, viento y tiempo disponible. Salir de la estela para adelantar cambia otra vez las condiciones: el auto puede recuperar resistencia justo cuando intenta completar la maniobra. Por eso alcanzar al rival no garantiza superarlo. Importan la diferencia de velocidad al abandonar el rebufo y la longitud restante de la recta."
+        ],
+        "sourceIds": [
+          "wake",
+          "dragEq"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "En curva la carga puede perder calidad y cantidad",
+        "paragraphs": [
+          "El perseguidor necesita que alas y piso produzcan apoyo con un balance utilizable. La estela puede reducir esa capacidad o cambiar cómo se reparte entre ejes. No alcanza con decir «hay menos aire»: variaciones de dirección, energía del flujo y fluctuaciones afectan los mecanismos de generación de carga. El coeficiente obtenido en aire libre deja de describir exactamente esa situación.",
+          "Un cambio de balance puede exigir más corrección de volante o limitar la velocidad de entrada. El efecto no tiene por qué ser idéntico en todas las curvas. Una lenta, con menor dependencia aerodinámica, plantea un problema distinto de una rápida. La distancia también fluctúa durante frenada y aceleración, de modo que el auto atraviesa estados de estela diferentes dentro de una misma vuelta."
+        ],
+        "sourceIds": [
+          "wake",
+          "lift",
+          "ground"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "El coste llega a neumáticos y refrigeración",
+        "paragraphs": [
+          "Si el auto debe deslizar más para realizar la trayectoria, puede trabajar sus neumáticos de otra manera y aumentar su temperatura superficial. Las entradas de refrigeración también reciben un flujo alterado. Permanecer cerca puede obligar a gestionar temperaturas o a desplazarse lateralmente en ciertos tramos. La batalla se decide entonces por una combinación de aerodinámica, energía y capacidad de sostener la persecución.",
+          "Eso explica por qué un piloto a veces deja margen y vuelve a acercarse después. Puede preparar una oportunidad sin mantener continuamente la distancia mínima. Sin datos no conviene atribuir cada separación a neumáticos recalentados: tráfico, estrategia, batería y decisiones de conducción también intervienen. La estela ofrece un mecanismo posible que debe contrastarse con la situación."
+        ],
+        "sourceIds": [
+          "wake",
+          "rubber"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Rebufo, aerodinámica activa y Overtake no son lo mismo",
+        "paragraphs": [
+          "El rebufo existe por interacción entre vehículos, independientemente de un botón. En 2026 las configuraciones aerodinámicas autorizadas y la asistencia eléctrica de adelantamiento pertenecen a sistemas regulados distintos. Pueden combinarse con la estela, pero tienen sus propias condiciones de uso. El antiguo DRS tampoco era un nombre técnico para el slipstream.",
+          "Para leer una maniobra, separá tres preguntas: qué aire recibe el perseguidor, qué configuración aerodinámica utiliza y qué energía despliega. Después mirá la salida de la curva anterior. Una ventaja en recta puede quedar anulada si el auto perdió demasiado tiempo antes de llegar a ella. El aire sucio importa precisamente porque la oportunidad de adelantar empieza mucho antes del punto donde se ve el pase."
+        ],
+        "sourceIds": [
+          "B",
+          "C",
+          "terms"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "wake",
+        "title": "McLaren: F1 Playbook, slipstream y dirty air",
+        "url": "https://www.mclaren.com/racing/formula-1/playbook/"
+      },
+      {
+        "id": "lift",
+        "title": "NASA Glenn: ecuación de sustentación",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+      },
+      {
+        "id": "dragEq",
+        "title": "NASA Glenn: ecuación de resistencia aerodinámica",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/"
+      },
+      {
+        "id": "ground",
+        "title": "Zerihan y Zhang (2000): Aerodynamics of a Single Element Wing in Ground Effect",
+        "url": "https://researchportal.hkust.edu.hk/en/publications/aerodynamics-of-a-single-element-wing-in-ground-effect/"
+      },
+      {
+        "id": "rubber",
+        "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+        "url": "https://arxiv.org/abs/cond-mat/0605273"
+      },
+      {
+        "id": "B",
+        "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Resistencia aerodinámica",
+        "href": "/articulos/drag-resistencia-aerodinamica"
+      },
+      {
+        "label": "Carga aerodinámica",
+        "href": "/articulos/downforce-carga-aerodinamica"
+      },
+      {
+        "label": "Subviraje y sobreviraje",
+        "href": "/articulos/subviraje-sobreviraje-balance"
+      }
+    ]
+  },
+  {
+    "slug": "subviraje-sobreviraje-balance",
+    "title": "Subviraje y sobreviraje: qué quiere decir que el auto no dobla bien",
+    "description": "Cómo reconocer las dos respuestas, distinguir fases de curva y entender el papel de neumáticos, frenada y aerodinámica.",
+    "category": "Pilotaje y controles",
+    "kind": "explainer",
+    "level": "Inicial",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Pilotaje y controles",
+      "Inicial",
+      "explicación"
+    ],
+    "lead": "Un auto puede resistirse a girar o puede rotar más de lo que el piloto espera. Subviraje y sobreviraje describen esas respuestas, pero no identifican una causa única. La misma vuelta puede contener subviraje en entrada y sobreviraje en salida. Para entender una queja por radio hay que preguntar en qué fase apareció.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Subviraje: el giro conseguido queda corto",
+        "paragraphs": [
+          "En el lenguaje de pista, subviraje suele describir una situación en la que el auto abre su trayectoria y el piloto necesita más volante para obtener la rotación que busca. El tren delantero puede alcanzar antes su capacidad de fuerza lateral que la parte trasera. Añadir giro no garantiza que la curva se cierre: el neumático puede estar operando en una región donde esa acción ya no aporta la respuesta esperada.",
+          "La sensación no demuestra por sí sola que el alerón delantero produzca poca carga. Temperatura, velocidad, frenada, ajustes mecánicos y aire que recibe el auto pueden intervenir. Una explicación útil observa el conjunto y la fase de curva. El piloto informa de una respuesta; el equipo debe investigar qué condiciones la están produciendo."
+        ],
+        "sourceIds": [
+          "balance",
+          "suspension"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Sobreviraje: la rotación excede lo deseado",
+        "paragraphs": [
+          "En el uso habitual del término, sobreviraje aparece cuando la parte trasera pierde margen relativo y el auto gira más de lo esperado. El piloto puede necesitar una corrección de dirección. Una rotación moderada puede formar parte de una preferencia de conducción; una respuesta brusca que exige correcciones grandes reduce el rendimiento y puede impedir aplicar acelerador.",
+          "No es necesario que el auto haga un trompo para hablar de sobreviraje. Tampoco toda corrección visible prueba una pérdida completa de adherencia: puede haber viento, baches y ajustes transitorios de trayectoria. La comparación debe distinguir respuesta estable, transitoria y saturación de neumáticos. Los videos explicativos de pilotos ofrecen una primera imagen del fenómeno; los datos permiten identificar cuándo y por qué aparece en un auto concreto."
+        ],
+        "sourceIds": [
+          "balance",
+          "workload"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Entrada, centro y salida hacen preguntas distintas",
+        "paragraphs": [
+          "Al entrar se combinan frenada y giro. Durante el centro de curva, el auto necesita sostener fuerza lateral. En salida, acelerar utiliza otra parte de la capacidad del neumático. La transferencia de carga y la interacción entre fuerzas cambian a lo largo de esa secuencia. El balance no es necesariamente una propiedad única que permanezca fija durante todo el recorrido.",
+          "Un modelo de capacidad combinada representa cómo frenar o acelerar consume parte del margen que también se necesita para doblar. No es una frontera circular exacta para cualquier neumático, pero ayuda a entender la negociación. Pedir mucha aceleración cuando el auto todavía soporta elevada fuerza lateral puede producir otra respuesta que pedirla con la dirección casi abierta. La pregunta técnica es qué fuerzas se están solicitando simultáneamente."
+        ],
+        "sourceIds": [
+          "rubber",
+          "suspension"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "El aire cambia el balance a alta velocidad",
+        "paragraphs": [
+          "Al aumentar velocidad, alas y piso añaden apoyo y pueden cambiar su reparto entre ejes. El auto que responde bien en una curva lenta puede resultar distinto en una rápida. Cabeceo, altura y guiñada modifican las condiciones aerodinámicas; la suspensión participa sosteniendo la plataforma. Seguir a otro auto añade un flujo de llegada perturbado.",
+          "Por eso una mejora de carga total no garantiza resolver una queja de balance. Si cambia sobre todo un eje, el efecto sobre la rotación puede ser diferente del buscado. La información relevante combina velocidad, estado de marcha y respuesta de neumáticos. El ajuste se evalúa en un mapa de condiciones, no solamente en la curva donde la queja fue más fácil de escuchar."
+        ],
+        "sourceIds": [
+          "suspension",
+          "downforce",
+          "wake"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Leer la radio sin convertirla en un diagnóstico completo",
+        "paragraphs": [
+          "Cuando un piloto dice que el auto subvira, está entregando una observación valiosa sobre lo que puede hacer. El equipo la relaciona con trazada, mandos, tiempos y señales. Las temperaturas y el estado de neumáticos ayudan a comprobar hipótesis, mientras el reparto de frenada y otros ajustes autorizados pueden modificar ciertas respuestas.",
+          "Para seguir una carrera, buscá si el problema aparece al frenar, sostener giro o acelerar, y si ocurre siempre o solo en tráfico. Después mirá cómo evoluciona con un cambio de neumáticos o de condiciones. Subviraje y sobreviraje son un vocabulario para describir comportamiento. Entenderlos abre la investigación; no la termina con una única causa ni una receta de puesta a punto válida en cualquier situación."
+        ],
+        "sourceIds": [
+          "workload",
+          "balance",
+          "C"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "balance",
+        "title": "Formula 1: pilotos explican subviraje y sobreviraje",
+        "url": "https://www.formula1.com/en/video/f1-drivers-explain-f1-understeer-oversteer.1687519459644670702"
+      },
+      {
+        "id": "suspension",
+        "title": "Mercedes: suspensión y control de la plataforma aerodinámica",
+        "url": "https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car"
+      },
+      {
+        "id": "workload",
+        "title": "Mercedes: carga de trabajo del piloto durante una vuelta",
+        "url": "https://www.mercedesamgf1.com/news/explained-driver-workload-during-a-lap"
+      },
+      {
+        "id": "rubber",
+        "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+        "url": "https://arxiv.org/abs/cond-mat/0605273"
+      },
+      {
+        "id": "downforce",
+        "title": "Mercedes: fundamentos de downforce (contexto de 2022)",
+        "url": "https://www.mercedesamgf1.com/news/feature-downforce-in-formula-one-explained"
+      },
+      {
+        "id": "wake",
+        "title": "McLaren: F1 Playbook, slipstream y dirty air",
+        "url": "https://www.mclaren.com/racing/formula-1/playbook/"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      }
+    ],
+    "related": [
+      {
+        "label": "Downforce y reparto de apoyo",
+        "href": "/articulos/downforce-carga-aerodinamica"
+      },
+      {
+        "label": "Neumáticos",
+        "href": "/articulos/compuestos-neumaticos-f1"
+      },
+      {
+        "label": "Volante y ajustes",
+        "href": "/articulos/volante-formula-1"
+      }
+    ]
   },
   {
     "slug": "turismo-carretera-1937",
@@ -11173,6 +12292,139 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
       "caption": "Jody Scheckter con el Tyrrell P34 de seis ruedas en 1976.",
       "alt": "Jody Scheckter con el Tyrrell P34 de seis ruedas en 1976."
+    }
+  },
+  {
+    "slug": "volante-formula-1",
+    "title": "El volante de un F1: una interfaz para conducir y gestionar",
+    "description": "Qué hacen botones, levas, selectores y pantalla, y cómo se organiza el trabajo del piloto a alta velocidad.",
+    "category": "Pilotaje y controles",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Pilotaje y controles",
+      "Intermedio",
+      "explicación"
+    ],
+    "lead": "El volante dirige el auto, pero también concentra órdenes y señales. El piloto debe operarlo con guantes, vibraciones, aceleraciones y muy poco tiempo para mirar. Su complejidad no se explica contando botones: importa qué funciones permite ajustar, qué confirma la pantalla y cómo evita acciones involuntarias.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Dirección y mandos comparten un objeto",
+        "paragraphs": [
+          "El volante transmite la acción de dirección a través de su conexión con la columna. Al mismo tiempo, incorpora controles eléctricos y una interfaz visual. Su forma se adapta al espacio del cockpit y a las posiciones de las manos. El acoplamiento desmontable permite retirar el conjunto; esa función debe convivir con una unión segura y con la salida del piloto.",
+          "La estructura, el cableado y los controles se diseñan como un ensamblaje de competición. La pantalla no transforma al volante en una computadora que conduzca sola: comunica información y recibe órdenes dentro de los sistemas autorizados. La regulación delimita electrónica, cambios de marcha, embrague y otras funciones. Una pieza parecida en un simulador puede imitar su apariencia sin reproducir esos sistemas."
+        ],
+        "sourceIds": [
+          "wheel",
+          "C"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Levas, botones y selectores tienen tareas diferentes",
+        "paragraphs": [
+          "Las levas se utilizan para solicitar cambios de marcha y controlar funciones como el embrague, según la solución del equipo. Los botones favorecen acciones discretas: radio, confirmaciones o limitador del pit lane. Los selectores rotativos permiten elegir estados o valores. Es una clasificación funcional; la distribución exacta no es común a todos los autos.",
+          "El piloto puede disponer de ajustes de reparto de frenada y otros parámetros autorizados. Algunos modifican el comportamiento en fases de curva; otros gestionan operación o energía. Elegir un modo no garantiza que cualquier mapa solicitado sea legal en toda sesión. El sistema de control y el reglamento determinan qué puede aplicarse. Por eso una abreviatura leída en una foto antigua no basta para describir un volante de 2026."
+        ],
+        "sourceIds": [
+          "wheel",
+          "workload",
+          "C"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "La pantalla debe convertir datos en decisiones",
+        "paragraphs": [
+          "Marcha, indicaciones de cambio, referencias de vuelta y mensajes pueden mostrarse según la configuración. La información se jerarquiza para que una señal importante no quede enterrada entre números. Una alarma tiene que ayudar a identificar una acción, no obligar al piloto a interpretar un informe extenso mientras frena.",
+          "Los mismos datos pueden ser útiles de forma diferente en clasificación y carrera. Una referencia temporal ayuda a juzgar preparación de vuelta; una indicación de estado permite gestionar un sistema. El color, la posición y la repetición forman parte de una interfaz entrenada. El equipo conoce además qué información conviene comunicar por radio y cuál presentar directamente. La atención disponible es un recurso limitado, igual que tiempo o energía."
+        ],
+        "sourceIds": [
+          "wheel",
+          "workload"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Ergonomía bajo fuerzas y vibraciones",
+        "paragraphs": [
+          "Guantes, movimientos bruscos y giro del volante dificultan usar mandos pequeños. Mercedes describe botones con respuesta táctil y protecciones para reducir pulsaciones accidentales. El diseño necesita que una acción deliberada se reconozca y que un roce involuntario no provoque la misma orden. La posición de un mando importa tanto como su función electrónica.",
+          "Los pilotos entrenan secuencias para determinados momentos de la vuelta. No todas las rectas ofrecen el mismo margen: algunas incluyen giro, cambios, preparación de frenada o vigilancia de un rival. La carga de trabajo crece cuando hay tráfico o una avería. Una buena interfaz hace más previsible esa operación y reduce la necesidad de apartar la mirada. Eso es una ventaja de conducción, no un detalle cosmético."
+        ],
+        "sourceIds": [
+          "wheel",
+          "workload"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Qué cambia en 2026 y qué se mantiene",
+        "paragraphs": [
+          "La gestión de energía y los estados aerodinámicos de 2026 introducen otro contexto de operación. Esas funciones están sujetas a reglas de activación y controles, y no deben confundirse con el DRS de generaciones anteriores. El principio general permanece: seleccionar la orden correcta en el instante adecuado y recibir una confirmación inteligible.",
+          "Para interpretar un volante, empezá por familias de funciones en lugar de memorizar un dibujo. Separá dirección, transmisión, frenada, energía y comunicación. Después preguntá a qué auto y temporada corresponde. Las preferencias personales pueden alterar forma y ubicación de levas sin cambiar el objetivo del sistema. El volante es el punto donde una enorme cantidad de ingeniería debe volverse una acción sencilla para una persona."
+        ],
+        "sourceIds": [
+          "B",
+          "C",
+          "terms",
+          "driverWheels"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "wheel",
+        "title": "Mercedes: funcionamiento y construcción del volante de F1",
+        "url": "https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "workload",
+        "title": "Mercedes: carga de trabajo del piloto durante una vuelta",
+        "url": "https://www.mercedesamgf1.com/news/explained-driver-workload-during-a-lap"
+      },
+      {
+        "id": "B",
+        "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      },
+      {
+        "id": "driverWheels",
+        "title": "Formula 1: por qué los pilotos de Ferrari usaban volantes diferentes (2018)",
+        "url": "https://www.formula1.com/en/latest/article/tech-tuesday-why-vettels-ferrari-steering-wheel-continues-to-evolve.2jSi4Mnm68U8M6wOg0aeuo"
+      }
+    ],
+    "related": [
+      {
+        "label": "La evolución del volante",
+        "href": "/articulos/evolucion-volante-f1"
+      },
+      {
+        "label": "Subviraje y sobreviraje",
+        "href": "/articulos/subviraje-sobreviraje-balance"
+      }
+    ],
+    "image": {
+      "url": "/articles/photos/volante-formula-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Toyota_steering_wheel_1.jpg",
+      "author": "Mark Woodbury",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "caption": "Volante de Toyota F1 exhibido en Goodwood en 2008. Es un ejemplo histórico de disposición de mandos; sus funciones no deben extrapolarse al reglamento de 2026.",
+      "alt": "Volante de Toyota F1 exhibido en Goodwood en 2008. Es un ejemplo histórico de disposición de mandos; sus funciones no deben extrapolarse al reglamento de 2026."
     }
   },
   {

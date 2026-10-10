@@ -25,4 +25,4 @@ export const readingMinutes = (article: EditorialArticle) => Math.max(1, Math.ce
   [article.lead, ...article.sections.flatMap(section => section.paragraphs)].join(" ").split(/\s+/).length / 200
 ));
 export const articleCategories = ["Los orígenes", "Autos de leyenda", "Automovilismo argentino", "Revoluciones técnicas", "Ideas que cambiaron la F1"];
-export const explainerCategories = ["Para empezar", "Reglamento", "Aerodinámica", "Neumáticos y pista", "Motor y combustible"];
+export const explainerCategories = ["Para empezar", "Reglamento", "Aerodinámica", "Neumáticos y pista", "Motor y combustible", "Pilotaje y controles", "Seguridad"];

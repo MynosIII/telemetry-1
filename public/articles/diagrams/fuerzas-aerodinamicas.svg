@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+<title id="title">Componentes de fuerza aerodinámica en vista lateral</title><desc id="desc">Auto conceptual avanzando a la derecha. La resistencia apunta a la izquierda y el downforce hacia abajo. No representa valores ni una geometría real.</desc>
+<defs><marker id="red" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ff625b"/></marker><marker id="blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#59c5ff"/></marker><marker id="white" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#ddd"/></marker></defs>
+<rect width="760" height="340" fill="#18181c"/>
+<path d="M240 204 L240 180 L326 176 L345 144 L403 144 L439 181 L522 196 L539 215 L240 215Z" fill="#39393f" stroke="#ddd" stroke-width="3"/>
+<g fill="#18181c" stroke="#ddd" stroke-width="3"><circle cx="297" cy="212" r="25"/><circle cx="485" cy="212" r="25"/></g>
+<path d="M70 239 H690" stroke="#777"/>
+<path d="M360 110 H110" stroke="#ff625b" stroke-width="4" marker-end="url(#red)"/>
+<path d="M390 175 V307" stroke="#59c5ff" stroke-width="4" marker-end="url(#blue)"/>
+<path d="M515 75 H675" stroke="#ddd" stroke-width="3" marker-end="url(#white)"/>
+<g fill="#eee" font-family="sans-serif" font-size="19"><text x="32" y="36">FUERZAS AERODINÁMICAS · esquema lateral</text><text x="112" y="89" fill="#ff625b">Drag: resistencia</text><text x="430" y="295" fill="#59c5ff">Downforce: apoyo</text><text x="510" y="107">Avance del auto</text></g>
+</svg>

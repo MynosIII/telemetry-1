@@ -1,0 +1,135 @@
+{
+  "slug": "evolucion-volante-f1",
+  "title": "De un aro a un centro de mando: la evolución del volante de F1",
+  "description": "Cómo la transmisión, la electrónica y las necesidades del piloto transformaron una pieza aparentemente sencilla.",
+  "category": "Revoluciones técnicas",
+  "kind": "history",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "1968–2026",
+  "year": 1968,
+  "tags": [
+    "Revoluciones técnicas",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "En el McLaren M7C de finales de los sesenta, el volante era ante todo un aro que permitía orientar el auto. Décadas después, el mismo lugar concentraba levas, selectores y pantallas. El cambio no fue una carrera por añadir botones: cada generación de sistemas trasladó al volante una parte nueva del trabajo del piloto.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El cockpit repartía las tareas",
+      "paragraphs": [
+        "El archivo de McLaren muestra el contraste entre sus volantes antiguos y los posteriores. En los primeros ejemplos, dirección e instrumentación estaban claramente separadas. Cambiar de marcha requería actuar sobre una palanca dentro del cockpit, y el piloto debía organizar sus manos entre distintas tareas. La sencillez visible del aro no significaba una conducción sencilla.",
+        "El espacio, el diámetro y la forma respondían a necesidades mecánicas y ergonómicas. La pieza también transmitía información sobre el comportamiento del auto. Mirar un volante conservado exige devolverlo a su contexto: los mandos que faltan allí podían estar en otro lugar, y algunas funciones posteriores ni siquiera existían en el vehículo. Comparar cantidades de botones sin esa diferencia reduce la historia a una colección de objetos."
+      ],
+      "sourceIds": [
+        "wheelHistory"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "1989: cambiar de marcha sin buscar la palanca",
+      "paragraphs": [
+        "Ferrari introdujo su caja semiautomática en el 640 de 1989. La acción del piloto pasó a solicitar cambios mediante mandos próximos a las manos, en lugar de mover una palanca tradicional. La innovación conectaba transmisión, control y conducción; también tenía problemas de desarrollo y fiabilidad que debían resolverse. Su debut victorioso en Brasil no convierte aquel proceso en una evolución inevitable y sin dificultades.",
+        "McLaren incorporó esa tecnología en el MP4/7 de 1992, según su propio archivo. La adopción por distintas escuderías tuvo tiempos y soluciones particulares. A medida que los cambios se concentraban detrás del volante, mantener las manos en una posición de control se volvía una parte más importante del diseño. La palanca desaparecía, pero su tarea se integraba en una interfaz que seguía creciendo."
+      ],
+      "sourceIds": [
+        "ferrariShift",
+        "wheelHistory"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La electrónica añadió elecciones, además de información",
+      "paragraphs": [
+        "Los volantes posteriores reunieron más botones y selectores para sistemas del auto. No todo era una automatización que redujera trabajo: algunas funciones daban al piloto nuevas decisiones durante la vuelta. El objeto debía permitir distinguirlas y ejecutarlas con precisión. Su forma evolucionó con esa distribución y con el espacio disponible alrededor de las manos.",
+        "La electrónica del auto tiene límites reglamentarios que cambian por época. Un volante antiguo puede contener controles asociados a sistemas que ya no se permiten, o presentar una función de otra manera. La historia de la interfaz sigue también la historia de las prohibiciones y de los procedimientos. Esa es la razón por la que reconstruir sus funciones exige más que identificar una sigla en una fotografía."
+      ],
+      "sourceIds": [
+        "wheelHistory",
+        "C"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "No hubo una única solución para pantalla y levas",
+      "paragraphs": [
+        "Los ejemplos de McLaren muestran que colocar más información en el volante no ocurrió de la misma forma en todos los modelos. Algunos diseños mantuvieron instrumentación fuera de él durante parte de la evolución. Elegir dónde mostrar datos también afecta tamaño, masa y visibilidad de la pieza que gira frente al piloto.",
+        "Las preferencias personales continúan importando. Formula 1 documentó diferencias entre los mandos de pilotos de Ferrari: las levas podían adaptarse a la forma de utilizar embrague y cambio. Dos volantes distintos del mismo equipo no indican necesariamente reglamentos diferentes. Una interfaz industrial debe ser consistente, pero también puede acomodar una mano, una técnica y una posición de conducción particulares."
+      ],
+      "sourceIds": [
+        "wheelHistory",
+        "driverWheels"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "La etapa híbrida y el desafío actual",
+      "paragraphs": [
+        "Los sistemas de energía añadieron otro lenguaje de estados y decisiones. En 2026 la coordinación entre despliegue eléctrico y aerodinámica autorizada plantea un contexto nuevo para los mandos. El piloto sigue necesitando señales que pueda leer y acciones que pueda repetir bajo presión. La electrónica más sofisticada no elimina ese requisito humano.",
+        "El archivo histórico y las explicaciones actuales de equipos permiten ver la continuidad: cada etapa intentó mantener el control del auto mientras trasladaba más tareas a las manos. La mejor evolución no es la que utiliza todo el espacio con interruptores. Es la que convierte complejidad mecánica y electrónica en una secuencia fiable de gestos. El aro inicial y el centro de mando moderno pertenecen al mismo problema: darle al piloto una forma eficaz de actuar."
+      ],
+      "sourceIds": [
+        "wheel",
+        "workload",
+        "terms"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wheelHistory",
+      "title": "McLaren: volantes a través de las épocas, ejemplos de M7C a MP4-29",
+      "url": "https://www.mclaren.com/racing/team/through-the-ages-formula-one-steering-wheels/"
+    },
+    {
+      "id": "ferrariShift",
+      "title": "Ferrari: la caja semiautomática de 1989 y su evolución",
+      "url": "https://www.ferrari.com/en-CA/magazine/articles/great-ferrari-innovations-the-f1-semi-automatic-gearbox"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "driverWheels",
+      "title": "Formula 1: por qué los pilotos de Ferrari usaban volantes diferentes (2018)",
+      "url": "https://www.formula1.com/en/latest/article/tech-tuesday-why-vettels-ferrari-steering-wheel-continues-to-evolve.2jSi4Mnm68U8M6wOg0aeuo"
+    },
+    {
+      "id": "wheel",
+      "title": "Mercedes: funcionamiento y construcción del volante de F1",
+      "url": "https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work"
+    },
+    {
+      "id": "workload",
+      "title": "Mercedes: carga de trabajo del piloto durante una vuelta",
+      "url": "https://www.mercedesamgf1.com/news/explained-driver-workload-during-a-lap"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Cómo funciona el volante actual",
+      "href": "/articulos/volante-formula-1"
+    },
+    {
+      "label": "Reglamento 2026",
+      "href": "/articulos/reglamento-f1-2026"
+    }
+  ],
+  "image": {
+    "url": "/articles/photos/evolucion-volante-f1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-23_Steering_Wheel_at_Formula_1_Exhibition,_London.jpg",
+    "author": "Hullian111",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Volante del McLaren MP4-23 de 2008, fotografiado en la Formula 1 Exhibition de Londres en febrero de 2025.",
+    "alt": "Volante del McLaren MP4-23 de 2008, fotografiado en la Formula 1 Exhibition de Londres en febrero de 2025."
+  }
+}

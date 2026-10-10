@@ -1,0 +1,148 @@
+{
+  "slug": "downforce-carga-aerodinamica",
+  "title": "Downforce: apoyo que depende del aire",
+  "description": "Qué es la carga aerodinámica, cómo se calcula y por qué más apoyo no significa automáticamente una vuelta mejor.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "Downforce es la componente aerodinámica que empuja al auto hacia la pista. Aumenta la carga que deben transmitir los neumáticos y puede permitir frenar o doblar con mayor intensidad. Su ventaja está en añadir apoyo sin aumentar de la misma forma la masa que hay que acelerar. Su dificultad está en que cambia con el movimiento, el entorno y la configuración.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Una fuerza se mide en newtons",
+      "paragraphs": [
+        "La presión sobre las superficies y los esfuerzos viscosos generan una fuerza resultante y momentos. Para describir el apoyo se puede escribir Fz = ½ρV²SCz. Hay que indicar el sentido positivo de Cz, porque algunas convenciones llaman negativa a la sustentación que apunta hacia abajo. También se necesita un área de referencia común: cambiar S cambia el coeficiente informado, aun cuando la fuerza física sea igual.",
+        "La velocidad relevante es relativa al aire. Un viento frontal o trasero modifica esa condición; un viento lateral puede cambiar incidencia y balance. La densidad también participa, por lo que altura sobre el nivel del mar y condiciones atmosféricas afectan el resultado. Dos autos con la misma cifra de velocidad respecto de la pista no necesariamente reciben idéntica presión dinámica."
+      ],
+      "sourceIds": [
+        "lift",
+        "downforce",
+        "altitude"
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/fuerzas-aerodinamicas.svg",
+        "alt": "Auto avanzando a la derecha, drag hacia la izquierda y downforce hacia abajo.",
+        "caption": "Esquema conceptual de Telemetry One. Las flechas indican direcciones; sus longitudes no representan magnitudes."
+      }
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Apoyo no es masa adicional",
+      "paragraphs": [
+        "Un auto hipotético de 800 kg pesa aproximadamente 7.848 N bajo gravedad estándar. Si generara 4.000 N de apoyo aerodinámico, los neumáticos soportarían una carga vertical total mayor, aunque su masa inercial siguiera siendo aproximadamente 800 kg. Es un ejemplo para distinguir magnitudes, no un dato de un F1 específico.",
+        "Hablar de «kilogramos de downforce» suele ser una manera abreviada de expresar el peso equivalente. Conviene convertirlo a fuerza cuando se hacen cálculos. Agregar lastre aumenta tanto el peso como la masa que debe acelerarse y frenarse; el apoyo aerodinámico tiene otra relación con la inercia. Esa diferencia explica parte de su utilidad en competición, aunque las fuerzas que lo generan también traigan resistencia y otros costes."
+      ],
+      "sourceIds": [
+        "lift",
+        "downforce"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La relación con el neumático no es lineal",
+      "paragraphs": [
+        "Un modelo sencillo usa Fy ≈ μFz para relacionar carga normal y fuerza lateral. Sirve como primera idea, pero μ no permanece fijo en un neumático de competición. Cambian carga, temperatura, deslizamiento y estado del material. Duplicar carga vertical no garantiza duplicar fuerza lateral máxima; la sensibilidad a la carga obliga a mirar cómo se distribuye entre ruedas.",
+        "La fuerza necesaria para mantener una curva ideal de radio R es mv²/R. Subir velocidad aumenta esa demanda con el cuadrado, igual que en una aproximación básica aumenta el apoyo. Sin embargo, el auto real cambia coeficientes y estados de neumático al hacerlo. No se puede despejar una velocidad máxima fiable con dos números publicitarios sin conocer el resto del modelo."
+      ],
+      "sourceIds": [
+        "rubber",
+        "lift"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El balance es tan importante como el total",
+      "paragraphs": [
+        "Alas, piso y carrocería contribuyen al resultado conjunto. Una distribución demasiado diferente de la que necesitan los ejes puede producir una respuesta difícil de aprovechar. El balance aerodinámico cambia con altura, cabeceo y dirección del flujo; no es necesariamente el mismo al frenar y al acelerar.",
+        "La suspensión sostiene la plataforma y permite que el paquete trabaje en un rango de condiciones. Una cifra máxima en túnel no describe toda la vuelta. Un diseño menos sensible puede permitir al piloto sostener más velocidad con confianza, mientras otro obliga a dejar margen porque pierde apoyo bruscamente al cambiar de altura. La carga útil es la que se puede utilizar en pista, no solamente la mayor medida registrada."
+      ],
+      "sourceIds": [
+        "suspension",
+        "ground",
+        "downforce"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "La elección se hace para una vuelta completa",
+      "paragraphs": [
+        "Más apoyo suele venir acompañado de un cambio de resistencia. El compromiso depende de cuánto tiempo se gana en frenada y curva y cuánto se pierde en recta. También afecta energía, temperaturas y posibilidad de seguir a otro auto. Un alerón grande en un circuito de altura no demuestra por sí solo una fuerza extraordinaria: puede compensar la menor densidad del aire.",
+        "En 2026 la aerodinámica activa permite estados autorizados que modifican ese compromiso durante la vuelta. Es necesario evaluar cada estado y la transición. El objetivo sigue siendo rendimiento integrado: carga, resistencia, balance y robustez trabajando juntos. La mejor configuración no se identifica contando superficies o comparando únicamente velocidad máxima."
+      ],
+      "sourceIds": [
+        "altitude",
+        "C",
+        "terms"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lift",
+      "title": "NASA Glenn: ecuación de sustentación",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+    },
+    {
+      "id": "downforce",
+      "title": "Mercedes: fundamentos de downforce (contexto de 2022)",
+      "url": "https://www.mercedesamgf1.com/news/feature-downforce-in-formula-one-explained"
+    },
+    {
+      "id": "altitude",
+      "title": "Mercedes: altitud, aerodinámica, refrigeración y unidad de potencia",
+      "url": "https://www.mercedesamgf1.com/news/what-impact-does-high-altitude-have-on-an-f1-car"
+    },
+    {
+      "id": "rubber",
+      "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+      "url": "https://arxiv.org/abs/cond-mat/0605273"
+    },
+    {
+      "id": "suspension",
+      "title": "Mercedes: suspensión y control de la plataforma aerodinámica",
+      "url": "https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car"
+    },
+    {
+      "id": "ground",
+      "title": "Zerihan y Zhang (2000): Aerodynamics of a Single Element Wing in Ground Effect",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/aerodynamics-of-a-single-element-wing-in-ground-effect/"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Drag y potencia necesaria",
+      "href": "/articulos/drag-resistencia-aerodinamica"
+    },
+    {
+      "label": "Efecto suelo",
+      "href": "/articulos/efecto-suelo-f1"
+    }
+  ],
+  "image": {
+    "url": "/articles/photos/downforce-carga-aerodinamica.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher_Ferrari_2004.jpg",
+    "author": "Rick Dikeman",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004.",
+    "alt": "Michael Schumacher con el Ferrari F2004 en el Gran Premio de Estados Unidos de 2004."
+  }
+}

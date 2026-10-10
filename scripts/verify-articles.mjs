@@ -35,7 +35,7 @@ for(const article of records) {
   assert(/[.!?…]$/.test(article.description.trim()),`${prefix}: unfinished card description`);
   const explanatory=article.kind==='explainer';
   assert(!article.kind||['history','explainer'].includes(article.kind),`${prefix}: invalid article kind`);
-  assert((explanatory?['Para empezar','Reglamento','Aerodinámica','Neumáticos y pista','Motor y combustible']:['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1']).includes(article.category),`${prefix}: unexpected category`);
+  assert((explanatory?['Para empezar','Reglamento','Aerodinámica','Neumáticos y pista','Motor y combustible','Pilotaje y controles','Seguridad']:['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1']).includes(article.category),`${prefix}: unexpected category`);
   if(explanatory) {
     assert(['Inicial','Intermedio','Avanzado'].includes(article.level),`${prefix}: missing reading level`);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(article.reviewedOn)&&Number.isFinite(Date.parse(article.reviewedOn)),`${prefix}: invalid review date`);

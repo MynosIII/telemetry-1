@@ -1,0 +1,132 @@
+{
+  "slug": "subviraje-sobreviraje-balance",
+  "title": "Subviraje y sobreviraje: qué quiere decir que el auto no dobla bien",
+  "description": "Cómo reconocer las dos respuestas, distinguir fases de curva y entender el papel de neumáticos, frenada y aerodinámica.",
+  "category": "Pilotaje y controles",
+  "kind": "explainer",
+  "level": "Inicial",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Pilotaje y controles",
+    "Inicial",
+    "explicación"
+  ],
+  "lead": "Un auto puede resistirse a girar o puede rotar más de lo que el piloto espera. Subviraje y sobreviraje describen esas respuestas, pero no identifican una causa única. La misma vuelta puede contener subviraje en entrada y sobreviraje en salida. Para entender una queja por radio hay que preguntar en qué fase apareció.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Subviraje: el giro conseguido queda corto",
+      "paragraphs": [
+        "En el lenguaje de pista, subviraje suele describir una situación en la que el auto abre su trayectoria y el piloto necesita más volante para obtener la rotación que busca. El tren delantero puede alcanzar antes su capacidad de fuerza lateral que la parte trasera. Añadir giro no garantiza que la curva se cierre: el neumático puede estar operando en una región donde esa acción ya no aporta la respuesta esperada.",
+        "La sensación no demuestra por sí sola que el alerón delantero produzca poca carga. Temperatura, velocidad, frenada, ajustes mecánicos y aire que recibe el auto pueden intervenir. Una explicación útil observa el conjunto y la fase de curva. El piloto informa de una respuesta; el equipo debe investigar qué condiciones la están produciendo."
+      ],
+      "sourceIds": [
+        "balance",
+        "suspension"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Sobreviraje: la rotación excede lo deseado",
+      "paragraphs": [
+        "En el uso habitual del término, sobreviraje aparece cuando la parte trasera pierde margen relativo y el auto gira más de lo esperado. El piloto puede necesitar una corrección de dirección. Una rotación moderada puede formar parte de una preferencia de conducción; una respuesta brusca que exige correcciones grandes reduce el rendimiento y puede impedir aplicar acelerador.",
+        "No es necesario que el auto haga un trompo para hablar de sobreviraje. Tampoco toda corrección visible prueba una pérdida completa de adherencia: puede haber viento, baches y ajustes transitorios de trayectoria. La comparación debe distinguir respuesta estable, transitoria y saturación de neumáticos. Los videos explicativos de pilotos ofrecen una primera imagen del fenómeno; los datos permiten identificar cuándo y por qué aparece en un auto concreto."
+      ],
+      "sourceIds": [
+        "balance",
+        "workload"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Entrada, centro y salida hacen preguntas distintas",
+      "paragraphs": [
+        "Al entrar se combinan frenada y giro. Durante el centro de curva, el auto necesita sostener fuerza lateral. En salida, acelerar utiliza otra parte de la capacidad del neumático. La transferencia de carga y la interacción entre fuerzas cambian a lo largo de esa secuencia. El balance no es necesariamente una propiedad única que permanezca fija durante todo el recorrido.",
+        "Un modelo de capacidad combinada representa cómo frenar o acelerar consume parte del margen que también se necesita para doblar. No es una frontera circular exacta para cualquier neumático, pero ayuda a entender la negociación. Pedir mucha aceleración cuando el auto todavía soporta elevada fuerza lateral puede producir otra respuesta que pedirla con la dirección casi abierta. La pregunta técnica es qué fuerzas se están solicitando simultáneamente."
+      ],
+      "sourceIds": [
+        "rubber",
+        "suspension"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El aire cambia el balance a alta velocidad",
+      "paragraphs": [
+        "Al aumentar velocidad, alas y piso añaden apoyo y pueden cambiar su reparto entre ejes. El auto que responde bien en una curva lenta puede resultar distinto en una rápida. Cabeceo, altura y guiñada modifican las condiciones aerodinámicas; la suspensión participa sosteniendo la plataforma. Seguir a otro auto añade un flujo de llegada perturbado.",
+        "Por eso una mejora de carga total no garantiza resolver una queja de balance. Si cambia sobre todo un eje, el efecto sobre la rotación puede ser diferente del buscado. La información relevante combina velocidad, estado de marcha y respuesta de neumáticos. El ajuste se evalúa en un mapa de condiciones, no solamente en la curva donde la queja fue más fácil de escuchar."
+      ],
+      "sourceIds": [
+        "suspension",
+        "downforce",
+        "wake"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Leer la radio sin convertirla en un diagnóstico completo",
+      "paragraphs": [
+        "Cuando un piloto dice que el auto subvira, está entregando una observación valiosa sobre lo que puede hacer. El equipo la relaciona con trazada, mandos, tiempos y señales. Las temperaturas y el estado de neumáticos ayudan a comprobar hipótesis, mientras el reparto de frenada y otros ajustes autorizados pueden modificar ciertas respuestas.",
+        "Para seguir una carrera, buscá si el problema aparece al frenar, sostener giro o acelerar, y si ocurre siempre o solo en tráfico. Después mirá cómo evoluciona con un cambio de neumáticos o de condiciones. Subviraje y sobreviraje son un vocabulario para describir comportamiento. Entenderlos abre la investigación; no la termina con una única causa ni una receta de puesta a punto válida en cualquier situación."
+      ],
+      "sourceIds": [
+        "workload",
+        "balance",
+        "C"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "balance",
+      "title": "Formula 1: pilotos explican subviraje y sobreviraje",
+      "url": "https://www.formula1.com/en/video/f1-drivers-explain-f1-understeer-oversteer.1687519459644670702"
+    },
+    {
+      "id": "suspension",
+      "title": "Mercedes: suspensión y control de la plataforma aerodinámica",
+      "url": "https://www.mercedesamgf1.com/news/the-suspension-of-a-formula-one-car"
+    },
+    {
+      "id": "workload",
+      "title": "Mercedes: carga de trabajo del piloto durante una vuelta",
+      "url": "https://www.mercedesamgf1.com/news/explained-driver-workload-during-a-lap"
+    },
+    {
+      "id": "rubber",
+      "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+      "url": "https://arxiv.org/abs/cond-mat/0605273"
+    },
+    {
+      "id": "downforce",
+      "title": "Mercedes: fundamentos de downforce (contexto de 2022)",
+      "url": "https://www.mercedesamgf1.com/news/feature-downforce-in-formula-one-explained"
+    },
+    {
+      "id": "wake",
+      "title": "McLaren: F1 Playbook, slipstream y dirty air",
+      "url": "https://www.mclaren.com/racing/formula-1/playbook/"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Downforce y reparto de apoyo",
+      "href": "/articulos/downforce-carga-aerodinamica"
+    },
+    {
+      "label": "Neumáticos",
+      "href": "/articulos/compuestos-neumaticos-f1"
+    },
+    {
+      "label": "Volante y ajustes",
+      "href": "/articulos/volante-formula-1"
+    }
+  ]
+}

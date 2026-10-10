@@ -1,0 +1,147 @@
+{
+  "slug": "drag-resistencia-aerodinamica",
+  "title": "Drag: el precio de atravesar el aire",
+  "description": "Resistencia de presión, fricción, carga inducida y por qué la potencia necesaria crece tan rápido con la velocidad.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "La resistencia aerodinámica es la componente de fuerza que se opone al movimiento relativo del auto a través del aire. A alta velocidad se convierte en una exigencia decisiva para la unidad de potencia. Reducirla ofrece oportunidades, pero una modificación que gana en recta puede perder más tiempo al doblar o enfriar peor el auto.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "La ecuación necesita referencias claras",
+      "paragraphs": [
+        "La expresión D = ½ρV²SCd reúne densidad, velocidad relativa al aire, área de referencia y coeficiente de resistencia. Cd no es una propiedad universal del auto sin condiciones: cambia con configuración, dirección del flujo, altura y régimen. Comparar coeficientes con áreas distintas puede producir una aparente ventaja que desaparece cuando se comparan fuerzas.",
+        "Si el conjunto SCd permaneciera constante, aumentar velocidad un 10% aumentaría resistencia un 21%. Es una comparación matemática controlada, no una regla exacta para todas las fases de una vuelta. Las superficies móviles, las deformaciones y el flujo que recibe el auto pueden alterar el coeficiente. Por eso los ensayos registran condiciones junto con la cifra."
+      ],
+      "sourceIds": [
+        "dragEq",
+        "drag"
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/fuerzas-aerodinamicas.svg",
+        "alt": "Auto avanzando a la derecha, drag hacia la izquierda y downforce hacia abajo.",
+        "caption": "Esquema conceptual de Telemetry One. Las flechas indican direcciones; sus longitudes no representan magnitudes."
+      }
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Hay varias formas de generar resistencia",
+      "paragraphs": [
+        "La distribución de presión aporta una parte de la fuerza; los esfuerzos de fricción sobre las superficies aportan otra. Las regiones de separación y la estela influyen en el balance de cantidad de movimiento. Un auto con ruedas descubiertas tiene interacciones muy diferentes de una forma aerodinámica ideal. Refrigerar tampoco es gratuito: introducir, conducir y evacuar aire condiciona el campo exterior y las pérdidas.",
+        "La generación de carga en un ala finita también se relaciona con resistencia inducida. Para alas ideales se usa una aproximación Cdi = Cl²/(πeAR), con eficiencia e y alargamiento AR. Es una herramienta de interpretación dentro de sus hipótesis; no una fórmula exacta del drag de todo un F1 con piso, ruedas y flujo no uniforme. Un Cd total no se obtiene aplicándola a una sola pieza y dando por resuelto el resto."
+      ],
+      "sourceIds": [
+        "induced",
+        "drag",
+        "altitude"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La potencia tiene una dependencia más fuerte",
+      "paragraphs": [
+        "La potencia para vencer esa fuerza a velocidad V es P = DV. Si D varía con V² y las demás condiciones permanecen iguales, la potencia aerodinámica requerida varía con V³. Aumentar velocidad un 10% exigiría aproximadamente un 33,1% más de potencia para esa resistencia. Ese crecimiento explica por qué las últimas ganancias de velocidad máxima son costosas.",
+        "Por ejemplo, una resistencia hipotética de 1.500 N a 80 m/s necesita 120 kW para ser vencida. Son potencia mecánica y fuerza en esas condiciones; no potencia química de combustible ni una medición de un equipo. Rodadura, transmisión y otros efectos completan el balance. La velocidad final aparece cuando la fuerza propulsora disponible y las resistencias se equilibran, bajo el estado de energía y configuración correspondiente."
+      ],
+      "sourceIds": [
+        "dragEq"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Eficiencia no significa resistencia mínima",
+      "paragraphs": [
+        "La relación entre apoyo y resistencia es útil para comparar paquetes, siempre con las mismas referencias. Sin embargo, el punto de menor resistencia puede carecer de la carga necesaria para una curva. El objetivo es obtener el compromiso que mejor funciona en el trazado, no ganar un concurso de Cd mínimo.",
+        "Dos configuraciones pueden intercambiar ventajas entre curvas y rectas. La decisión incluye además balance, desgaste y facilidad para competir en tráfico. Ganar velocidad máxima con poca carga puede empeorar la salida de la curva anterior y hacer que la ventaja tarde demasiado en aparecer. El cronómetro de una vuelta completa responde a toda esa secuencia."
+      ],
+      "sourceIds": [
+        "downforce",
+        "dragEq"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Seguir otro auto y cambiar de configuración",
+      "paragraphs": [
+        "El rebufo puede reducir resistencia al modificar el aire que recibe el perseguidor. Al abandonar la estela se recuperan otras condiciones y puede cambiar la aceleración. No es una reducción permanente del Cd del diseño: es una interacción con otro vehículo. Separar geometría y entorno ayuda a interpretar lo que muestra una recta.",
+        "La aerodinámica activa de 2026 cambia superficies en zonas y condiciones autorizadas para reducir resistencia cuando conviene. Esa herramienta tiene límites y debe coordinarse con energía y carga. También importa refrigeración: cerrar una salida puede favorecer una medición aerodinámica y elevar una temperatura demasiado. La eficiencia real combina atravesar el aire con mantener funcionando el auto durante toda la carrera."
+      ],
+      "sourceIds": [
+        "wake",
+        "terms",
+        "C",
+        "altitude"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "dragEq",
+      "title": "NASA Glenn: ecuación de resistencia aerodinámica",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/"
+    },
+    {
+      "id": "drag",
+      "title": "NASA Glenn: coeficiente de resistencia",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+    },
+    {
+      "id": "induced",
+      "title": "NASA Glenn: resistencia inducida y límites del modelo de ala",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/induced-drag-coefficient/"
+    },
+    {
+      "id": "altitude",
+      "title": "Mercedes: altitud, aerodinámica, refrigeración y unidad de potencia",
+      "url": "https://www.mercedesamgf1.com/news/what-impact-does-high-altitude-have-on-an-f1-car"
+    },
+    {
+      "id": "downforce",
+      "title": "Mercedes: fundamentos de downforce (contexto de 2022)",
+      "url": "https://www.mercedesamgf1.com/news/feature-downforce-in-formula-one-explained"
+    },
+    {
+      "id": "wake",
+      "title": "McLaren: F1 Playbook, slipstream y dirty air",
+      "url": "https://www.mclaren.com/racing/formula-1/playbook/"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Slipstream y aire sucio",
+      "href": "/articulos/slipstream-aire-sucio"
+    },
+    {
+      "label": "Downforce",
+      "href": "/articulos/downforce-carga-aerodinamica"
+    }
+  ],
+  "image": {
+    "url": "/articles/photos/drag-resistencia-aerodinamica.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2020_Tuscan_Grand_Prix_-_race_day_(cropped).jpg",
+    "author": "Eustace Bagge; recorte: Danyele",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020.",
+    "alt": "Lewis Hamilton con el Mercedes W11 durante el Gran Premio de la Toscana de 2020."
+  }
+}

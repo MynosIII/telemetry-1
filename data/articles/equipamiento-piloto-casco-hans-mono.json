@@ -1,0 +1,166 @@
+{
+  "slug": "equipamiento-piloto-casco-hans-mono",
+  "title": "Casco, HANS y mono: las capas de protección del piloto",
+  "description": "Cómo trabajan casco, retención de cabeza y cuello, ropa resistente al fuego, guantes, calzado y arnés como un conjunto.",
+  "category": "Seguridad",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Seguridad",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "El equipamiento del piloto combina protecciones que actúan frente a riesgos diferentes. El casco gestiona impactos y otros peligros; el HANS limita movimientos relativos de cabeza y torso en determinados choques; la ropa retrasa la transferencia de calor. Su eficacia depende también de compatibilidad, ajuste y uso dentro del sistema del auto.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El casco absorbe, distribuye y protege",
+      "paragraphs": [
+        "Un casco combina una carcasa exterior, un material de absorción y elementos interiores de ajuste, además de visor y otros componentes. La carcasa ayuda a distribuir cargas y afrontar penetración; el material interior gestiona energía mediante deformación. La homologación utiliza ensayos definidos para comprobar una especificación, no una garantía de que todo impacto posible tendrá el mismo resultado.",
+        "La familia FIA 8860-2018 incluye la variante ABP, Advanced Ballistic Protection. La exigencia balística responde a peligros de objetos proyectados, además de los ensayos de impacto, aplastamiento, visor y protección térmica aplicables. Las guías de la FIA y el capítulo de equipamiento del apéndice L permiten comprobar qué estándares se aceptan en una competición. Una etiqueta de homologación de otra disciplina no debe interpretarse como aceptación automática para F1."
+      ],
+      "sourceIds": [
+        "helmet",
+        "helmetGuide",
+        "appendices"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "La cabeza y el torso no se detienen solos al mismo tiempo",
+      "paragraphs": [
+        "En un choque, el arnés puede retener el torso mientras la cabeza tiende a continuar su movimiento. La diferencia crea una exigencia sobre el cuello. El HANS, Head And Neck Support, forma parte de los sistemas de retención frontal de cabeza, FHR: conecta el casco mediante correas a un dispositivo que transmite carga hacia el sistema de sujeción del torso.",
+        "No es un collarín blando que simplemente rellena espacio alrededor del cuello. Su funcionamiento depende de recorridos de carga y de la interacción con casco, correas, arnés y posición del piloto. La FIA distingue HANS de otras soluciones FHR homologadas. Esa distinción permite entender la función sin llamar HANS a cualquier objeto que un piloto lleve sobre los hombros."
+      ],
+      "sourceIds": [
+        "hans",
+        "hansGuide"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Un desarrollo que se volvió obligatorio",
+      "paragraphs": [
+        "Robert Hubbard y Jim Downing impulsaron el desarrollo del HANS a partir de un problema de lesiones en accidentes. La FIA documenta su desarrollo, pruebas y posterior integración en el automovilismo. En Fórmula 1 fue obligatorio para todos los pilotos desde 2003. La historia muestra que reconocer una necesidad no elimina inmediatamente las dificultades de comodidad, peso e integración.",
+        "Versiones posteriores mejoraron aspectos de movimiento y ergonomía, mientras el marco de homologación permitió evaluar alternativas. El objetivo es proteger dentro de escenarios de ensayo y de uso definidos, con un sistema que el piloto pueda llevar correctamente. Presentar el dispositivo como protección absoluta frente a cualquier dirección de choque sería una descripción equivocada de su alcance. Su contribución importante es gestionar una parte crítica del movimiento relativo durante impactos relevantes."
+      ],
+      "sourceIds": [
+        "hans",
+        "hansGuide"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El mono resistente al fuego gana tiempo",
+      "paragraphs": [
+        "La ropa protectora no apaga un incendio: reduce la exposición y retrasa la transferencia de calor bajo condiciones ensayadas. La norma FIA 8856-2018 trata prendas como mono, ropa interior, pasamontañas, guantes, calcetines y calzado. Esos elementos forman capas y cubren zonas que un mono por sí solo no protege completamente.",
+        "Las fibras resistentes al calor, el ensamblaje y las costuras contribuyen a la respuesta. Resistencia a llama y aislamiento térmico no son exactamente lo mismo, y un número de segundos de ensayo no es un tiempo universal de supervivencia en un incendio real. Cambian flujo de calor, contacto, estado de la ropa y condiciones de exposición. Para explicar la protección hay que indicar qué evalúa la norma en lugar de convertir un resultado de laboratorio en una promesa."
+      ],
+      "sourceIds": [
+        "apparel",
+        "safetyLeaflet"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Manos, pies y rostro siguen teniendo trabajo que hacer",
+      "paragraphs": [
+        "Guantes y calzado deben ofrecer protección mientras permiten accionar volante y pedales. El pasamontañas y la ropa interior completan cobertura. La ergonomía de esos elementos se conecta con conducción y salida del vehículo: una solución que dificulte demasiado el movimiento puede perjudicar la capacidad de utilizar el auto o abandonar el cockpit.",
+        "La comodidad no es una alternativa a la seguridad; contribuye a que el equipamiento se utilice como fue diseñado. Los cambios de ropa o accesorios deben seguir compatibilidades y normas aplicables. La apariencia de una prenda no permite comprobar su especificación. La documentación identifica producto, homologación y condiciones, y las instrucciones del fabricante describen el uso del conjunto."
+      ],
+      "sourceIds": [
+        "apparel",
+        "helmetGuide",
+        "wheel"
+      ]
+    },
+    {
+      "id": "capitulo-6",
+      "title": "El arnés completa los recorridos de carga",
+      "paragraphs": [
+        "Asiento, arnés y apoyos del cockpit participan en la retención del piloto. El casco y el FHR no operan aislados de ellos. Los anclajes y la disposición deben trabajar dentro de la instalación definida; variar una parte del conjunto puede alterar la respuesta de otras. Esa es la razón por la que se verifica compatibilidad además de homologación individual.",
+        "Para el lector, la idea esencial es separar funciones: cabeza protegida frente a impacto y objetos, movimiento relativo limitado mediante FHR, cuerpo retenido y exposición térmica reducida por prendas. Las listas técnicas y la normativa vigente permiten identificar las especificaciones aceptadas. El sistema del auto, el equipamiento y los procedimientos de pista se complementan. Ninguna de esas capas reemplaza a las demás."
+      ],
+      "sourceIds": [
+        "homologation",
+        "hansGuide",
+        "C",
+        "appendices"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "helmet",
+      "title": "FIA 8860-2018 y 8860-2018-ABP: norma de cascos de alto rendimiento",
+      "url": "https://www.fia.com/sites/default/files/8860-2018_advanced_helmet_5.pdf"
+    },
+    {
+      "id": "helmetGuide",
+      "title": "FIA: guía de estándares de cascos y compatibilidad con FHR",
+      "url": "https://www.fia.com/sites/default/files/guidelines_helmets_web_1.pdf"
+    },
+    {
+      "id": "appendices",
+      "title": "FIA: ediciones vigentes de los apéndices H, L y O del Código Deportivo Internacional",
+      "url": "https://www.fia.com/regulation/category/123"
+    },
+    {
+      "id": "hans",
+      "title": "FIA: desarrollo y funcionamiento de HANS y otros sistemas FHR",
+      "url": "https://www.fia.com/news/auto-medical-safety-our-hans"
+    },
+    {
+      "id": "hansGuide",
+      "title": "FIA: guía de sistemas de retención frontal de la cabeza",
+      "url": "https://www.fia.com/sites/default/files/fia_standard_guidelines_frontal_head_restrain.pdf"
+    },
+    {
+      "id": "apparel",
+      "title": "FIA 8856-2018: ropa protectora para pilotos de automovilismo",
+      "url": "https://www.fia.com/sites/default/files/8856-2018_protecting_clothing_4.pdf"
+    },
+    {
+      "id": "safetyLeaflet",
+      "title": "FIA: funciones del equipamiento de seguridad del piloto",
+      "url": "https://www.fia.com/sites/default/files/safety_leaflet_driver_safety_equipment_0.pdf"
+    },
+    {
+      "id": "wheel",
+      "title": "Mercedes: funcionamiento y construcción del volante de F1",
+      "url": "https://www.mercedesamgf1.com/news/how-does-an-f1-steering-wheel-work"
+    },
+    {
+      "id": "homologation",
+      "title": "FIA: equipamiento de seguridad y homologaciones",
+      "url": "https://www.fia.com/safety-equipment-homologation"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Seguridad de circuitos y procedimientos",
+      "href": "/articulos/seguridad-pista-f1"
+    },
+    {
+      "label": "Cómo trabaja el volante",
+      "href": "/articulos/volante-formula-1"
+    }
+  ],
+  "image": {
+    "url": "/articles/photos/equipamiento-piloto-casco-hans-mono.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:John_hunter_nemechek_(49562237016).jpg",
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "caption": "John Hunter Nemechek con casco y sistema de retención de cabeza en Daytona, en 2020. La foto corresponde a NASCAR y permite observar las correas y el dispositivo; no representa un equipamiento de F1 de 2026.",
+    "alt": "John Hunter Nemechek con casco y sistema de retención de cabeza en Daytona, en 2020. La foto corresponde a NASCAR y permite observar las correas y el dispositivo; no representa un equipamiento de F1 de 2026."
+  }
+}

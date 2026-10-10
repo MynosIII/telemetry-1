@@ -1,0 +1,117 @@
+{
+  "slug": "seguridad-pista-f1",
+  "title": "Seguridad en pista: mucho más que una barrera",
+  "description": "Diseño del circuito, escapatorias, protección, señales, neutralizaciones y respuesta de emergencia como un sistema conjunto.",
+  "category": "Seguridad",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Seguridad",
+    "Intermedio",
+    "explicación"
+  ],
+  "lead": "La seguridad de una carrera se construye antes de que se enciendan los semáforos. Trazado, barreras, personal, comunicaciones y procedimientos deben funcionar juntos. Una protección puede absorber energía, una señal puede evitar un segundo incidente y un servicio de intervención puede responder cuando las capas anteriores no fueron suficientes.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Diseñar para trayectorias y velocidades posibles",
+      "paragraphs": [
+        "La FIA revisa proyectos y realiza inspecciones para la licencia de un circuito. El análisis considera geometría, velocidades y posibles trayectorias de salida. No basta con medir cuántos metros hay hasta una pared: ángulo, vehículo y forma de llegar a ella cambian el problema. La licencia corresponde a unas condiciones y no convierte cualquier modificación posterior en equivalente.",
+        "Una escapatoria permite que el auto reduzca velocidad o que el piloto recupere control. Asfalto, grava y otras soluciones tienen respuestas distintas. La selección debe analizar el contexto de la curva y lo que ocurre después, incluidas barreras y zonas de servicio. Una superficie adecuada para un escenario puede tener inconvenientes en otro. El objetivo es una secuencia de protección, no una solución universal para todos los bordes."
+      ],
+      "sourceIds": [
+        "trackSafety",
+        "appendices"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Absorber energía y controlar la desaceleración",
+      "paragraphs": [
+        "La energía cinética es E = ½mv². Si la velocidad aumenta un 20%, la energía aumenta un 44% para la misma masa. Es una relación física que ayuda a entender por qué pequeños cambios de velocidad pueden alterar mucho la exigencia sobre una zona de impacto.",
+        "Las barreras buscan gestionar esa energía mediante una respuesta controlada, junto con las estructuras del auto. La deformación aumenta tiempo y distancia de detención respecto de una pared rígida. Sin embargo, el resultado depende del tipo de impacto y de cómo funciona el conjunto. Una imagen posterior con una barrera dañada no demuestra por sí sola un fallo: parte de su tarea puede ser deformarse. La evaluación requiere conocer el diseño y el incidente."
+      ],
+      "sourceIds": [
+        "trackSafety",
+        "C"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Banderas y paneles forman una red de información",
+      "paragraphs": [
+        "Los puestos de comisarios y paneles comunican riesgos y estados de pista. Amarilla indica peligro y obligaciones de conducción; roja interrumpe la sesión; verde señala un estado libre de la restricción correspondiente. Otras señales informan condiciones de superficie, tráfico o situaciones individuales. El significado exacto y su aplicación pertenecen a los procedimientos de la competición.",
+        "La señal debe llegar con tiempo y desde una posición que el piloto pueda interpretar. Comunicaciones, control de carrera y sistemas del auto añaden canales, pero no vuelven intercambiables todas las indicaciones. Un circuito necesita coherencia entre zonas y personal. La respuesta del piloto forma parte de la protección de quienes trabajan en pista, especialmente cuando un incidente obliga a intervenir fuera de una barrera."
+      ],
+      "sourceIds": [
+        "appendices",
+        "B"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Safety Car, VSC y bandera roja hacen cosas distintas",
+      "paragraphs": [
+        "El Safety Car controla el ritmo y reúne el tráfico detrás de un vehículo siguiendo un procedimiento de despliegue y regreso. El Virtual Safety Car establece referencias de tiempo que deben respetarse sin formar necesariamente esa misma fila. La bandera roja permite detener la sesión cuando las condiciones o la intervención lo requieren. Son herramientas de control del riesgo con efectos deportivos distintos.",
+        "La neutralización no significa que toda la pista deje de contener peligro. Los autos todavía se mueven, y el personal puede trabajar cerca de ellos. Por eso importan límites, separación y cumplimiento del procedimiento. Las decisiones sobre despliegue y reinicio consideran estado de pista, visibilidad y necesidades operativas. Que una parada en boxes resulte ventajosa no explica la razón de seguridad que activó el sistema."
+      ],
+      "sourceIds": [
+        "B",
+        "appendices"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Preparar la intervención antes del incidente",
+      "paragraphs": [
+        "Servicios médicos, rescate, extinción y recuperación deben disponer de accesos, personal y medios adecuados. Los apéndices de la FIA organizan aspectos de supervisión e intervención, y el circuito debe preparar su operación. La ubicación de un vehículo de emergencia y el acceso a un sector afectan cuánto tarda una respuesta y cómo puede ejecutarse sin crear otro riesgo.",
+        "Después de un incidente también se revisan barreras, pista y condiciones para continuar. El aprendizaje utiliza evidencias y reconstrucción, no solo el resultado final del piloto. La seguridad depende de varias capas que se refuerzan: prevenir salidas, reducir consecuencias, informar, controlar el tráfico y responder. Una carrera se puede reanudar porque ese sistema vuelve a estar preparado, no porque el lugar ya parezca tranquilo en televisión."
+      ],
+      "sourceIds": [
+        "trackSafety",
+        "appendices",
+        "homologation"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "trackSafety",
+      "title": "FIA: diseño, inspección y licencia de seguridad de circuitos",
+      "url": "https://www.fia.com/circuit-safety"
+    },
+    {
+      "id": "appendices",
+      "title": "FIA: ediciones vigentes de los apéndices H, L y O del Código Deportivo Internacional",
+      "url": "https://www.fia.com/regulation/category/123"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "B",
+      "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+    },
+    {
+      "id": "homologation",
+      "title": "FIA: equipamiento de seguridad y homologaciones",
+      "url": "https://www.fia.com/safety-equipment-homologation"
+    }
+  ],
+  "related": [
+    {
+      "label": "Equipamiento del piloto",
+      "href": "/articulos/equipamiento-piloto-casco-hans-mono"
+    },
+    {
+      "label": "Cómo seguir una carrera",
+      "href": "/articulos/como-funciona-formula-1"
+    }
+  ]
+}
