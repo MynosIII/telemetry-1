@@ -21,6 +21,7 @@ import { useTranslation } from "@/lib/i18n";
 import { getLang } from "@/lib/server-i18n";
 import { editorialArticles } from "@/lib/editorial-articles";
 import "./articles.css";
+import { OnThisDay } from "@/components/OnThisDay";
 
 export default async function Home() {
   const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
@@ -99,6 +100,8 @@ export default async function Home() {
       </section>
 
       <NextRacePanel race={data.nextRace} circuit={data.nextCircuit} />
+
+      <OnThisDay />
 
       <ChampionshipForecast market={marketForecast} model={modelForecast} />
 

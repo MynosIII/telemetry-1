@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/car-photo-manifest.mjs",
+    "prebuild": "node scripts/car-photo-manifest.mjs && node scripts/build-on-this-day.mjs",
     "fetch:car-photos": "node scripts/fetch-car-photos.mjs",
     "build": "next build",
     "start": "next start",
