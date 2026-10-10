@@ -1,0 +1,132 @@
+{
+  "slug": "por-que-forma-auto-f1",
+  "title": "Por qué un Fórmula 1 tiene esa forma",
+  "description": "Bernoulli, Venturi, Coandă y capa límite explicados como partes de un flujo real: carga, resistencia, refrigeración y estabilidad.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Intermedio",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "La forma de un Fórmula 1 intenta hacer varias cosas a la vez: apoyar los neumáticos contra el suelo, reducir pérdidas en recta, enfriar componentes y gestionar el aire que llega a cada pieza. No existe un único principio que explique todo. Presión, cantidad de movimiento, viscosidad y reglamento actúan juntos.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "La carga se obtiene del campo de presiones",
+      "paragraphs": [
+        "La fuerza aerodinámica resulta de integrar presión y esfuerzos viscosos sobre las superficies. Para describir carga vertical se usa una forma de la ecuación L = ½ρV²SCₗ. En un ala que produce apoyo hacia el suelo, el signo depende de la convención elegida. La densidad ρ, velocidad V, área de referencia S y coeficiente Cₗ deben declararse para comparar resultados.",
+        "Si velocidad y configuración fueran las únicas variables, pasar de 100 a 150 unidades de velocidad multiplicaría la fuerza por 2,25. Es un ejemplo matemático, no una predicción de un auto concreto: el coeficiente cambia con altura, ángulo, deformación y flujo. La carga permite generar más fuerza en los neumáticos, pero no añade masa inercial en la misma proporción. Tampoco aumenta el agarre ilimitadamente; el neumático tiene sensibilidad a la carga y una ventana térmica."
+      ],
+      "sourceIds": [
+        "lift"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Bernoulli y Newton describen el mismo problema",
+      "paragraphs": [
+        "Para un flujo ideal, estacionario e incompresible, a lo largo de una línea de corriente, Bernoulli relaciona p + ½ρV² + ρgz. A alturas parecidas, mayor velocidad puede corresponder a menor presión. Las hipótesis son esenciales: pérdidas viscosas, separación y compresibilidad impiden trasladar esa igualdad sin examen a cualquier punto del auto.",
+        "Newton aporta la lectura del balance de cantidad de movimiento: al cambiar la dirección del flujo se necesita una fuerza. La presión es parte del mecanismo que produce ese cambio. No son explicaciones rivales. Tampoco existe una obligación de que dos partículas separadas delante del ala vuelvan a encontrarse detrás al mismo tiempo. Esa historia del «camino más largo» no determina correctamente la sustentación y conduce a conclusiones erróneas sobre perfiles simétricos o invertidos."
+      ],
+      "sourceIds": [
+        "bernoulli"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Venturi, suelo y difusor",
+      "paragraphs": [
+        "En un conducto ideal, continuidad y Bernoulli relacionan la reducción de área, el aumento de velocidad y la caída de presión. El suelo de un auto utiliza una interacción con la pista que recuerda ese mecanismo, pero está abierto lateralmente, recibe aire perturbado y cambia de altura. Describirlo como un tubo Venturi perfecto omite esas condiciones.",
+        "El difusor participa en la recuperación de presión aguas abajo. Su expansión debe permitir que el flujo soporte el gradiente adverso sin una separación excesiva. Acercar el auto al suelo puede aumentar carga en parte del rango y reducirla fuera de él; no hay una mejora monotónica garantizada. La suspensión y el cabeceo convierten la geometría estática en una geometría cambiante. Un diseño potente pero muy sensible puede ser difícil de utilizar sobre baches o durante frenadas."
+      ],
+      "sourceIds": [
+        "ground",
+        "boundary"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Coandă y capa límite: cuándo el aire sigue la superficie",
+      "paragraphs": [
+        "El efecto Coandă se asocia a la tendencia de un chorro a seguir una superficie cercana bajo ciertas condiciones, con entrainment y un campo de presión que curva el flujo. Usar su nombre para afirmar que todo aire se pega a cualquier curva es incorrecto. Una superficie demasiado exigente puede perder el flujo adherido. La curvatura exige un gradiente de presión compatible con el movimiento; nombrar el fenómeno no calcula ese gradiente.",
+        "Por viscosidad, junto a la superficie aparece una capa límite donde la velocidad pasa de la condición de no deslizamiento al flujo exterior. Su espesor, transición y energía condicionan la separación. Una capa turbulenta suele tener más intercambio de cantidad de movimiento cerca de la pared y puede soportar ciertos gradientes adversos mejor, a costa de fricción mayor. «Turbulento» no significa automáticamente inútil. El estado y la posición de esa turbulencia importan."
+      ],
+      "sourceIds": [
+        "boundary",
+        "bernoulli",
+        "coanda"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Alas, ruedas y refrigeración negocian entre sí",
+      "paragraphs": [
+        "Las ruedas expuestas generan estelas complejas. El alerón delantero recibe ese problema y entrega condiciones de flujo al resto del auto; sus extremos no sirven únicamente como soporte. Los pontones alojan refrigeración y participan en el recorrido del aire hacia el suelo y la parte trasera. Reducir una entrada de aire puede mejorar una zona aerodinámica y perjudicar la temperatura de un componente.",
+        "La resistencia se expresa con D = ½ρV²SCd, siempre indicando el área de referencia. Más carga no equivale automáticamente a mejor tiempo de vuelta: la ganancia en curvas debe compensar pérdidas en rectas y efectos sobre neumáticos y energía. En 2026 la aerodinámica activa añade configuraciones autorizadas a esa negociación. La forma visible es el resultado de compromisos físicos y reglamentarios; no una demostración decorativa de cuatro teoremas aislados."
+      ],
+      "sourceIds": [
+        "drag",
+        "terms",
+        "C"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lift",
+      "title": "NASA Glenn: ecuación de sustentación",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+    },
+    {
+      "id": "bernoulli",
+      "title": "NASA Glenn: Bernoulli y Newton",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/"
+    },
+    {
+      "id": "ground",
+      "title": "Zerihan (2001): investigación experimental y computacional de alas en efecto suelo",
+      "url": "https://eprints.soton.ac.uk/426058/"
+    },
+    {
+      "id": "boundary",
+      "title": "NASA Glenn: capa límite",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/"
+    },
+    {
+      "id": "drag",
+      "title": "NASA Glenn: coeficiente de resistencia",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "coanda",
+      "title": "NASA: aerodinámica del control de circulación y chorros sobre superficies curvas",
+      "url": "https://ntrs.nasa.gov/citations/19820012274"
+    }
+  ],
+  "related": [
+    {
+      "label": "Gurney flaps en detalle",
+      "href": "/articulos/gurney-flaps-aerodinamica"
+    },
+    {
+      "label": "Cómo trabajan los endplates",
+      "href": "/articulos/endplates-alerones-f1"
+    }
+  ]
+}

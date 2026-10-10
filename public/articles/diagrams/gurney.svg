@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+<title id="title">Geometría conceptual de un Gurney en un alerón invertido</title><desc id="desc">Perfil invertido con una pestaña que se eleva sobre la cara de presión en el borde de salida. La cuerda c y altura h están indicadas; el dibujo no representa una simulación.</desc>
+<rect width="760" height="340" fill="#18181c"/>
+<g font-family="sans-serif" fill="#eee" font-size="19"><text x="32" y="40">GURNEY FLAP · geometría conceptual</text><text x="60" y="108">Cara de presión</text><text x="200" y="251">Cara de succión</text><text x="558" y="90">Pestaña</text><text x="651" y="157" fill="#ff625b">h</text><text x="339" y="305">Cuerda c</text></g>
+<path d="M80 155 Q220 145 610 168 Q280 265 80 155Z" fill="#38383e" stroke="#eee" stroke-width="3"/>
+<path d="M610 168 V123" stroke="#ff3027" stroke-width="8"/>
+<path d="M620 106 L610 123 M640 123 V168 M633 123 H647 M633 168 H647" fill="none" stroke="#ff625b" stroke-width="2"/>
+<path d="M80 275 H610 M80 269 V281 M610 269 V281" stroke="#aaa" stroke-width="2"/>
+<path d="M79 160 V262 M610 175 V262" stroke="#666" stroke-dasharray="4 5"/>
+</svg>

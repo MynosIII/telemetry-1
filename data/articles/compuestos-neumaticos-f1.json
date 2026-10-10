@@ -1,0 +1,123 @@
+{
+  "slug": "compuestos-neumaticos-f1",
+  "title": "Compuestos de neumáticos: por qué blando no significa siempre más rápido",
+  "description": "C1 a C5, colores relativos, temperatura, desgaste, graining y la diferencia entre material y estrategia.",
+  "category": "Neumáticos y pista",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Neumáticos y pista",
+    "Intermedio",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "El neumático transforma carga, temperatura y deslizamiento en fuerzas sobre la pista. Su compuesto no es una etiqueta de velocidad permanente: es una formulación que trabaja dentro de ciertas condiciones. En 2026 Pirelli utiliza cinco compuestos slick, C1 a C5, además de soluciones para lluvia. La receta exacta de cada uno no es pública.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "El número identifica la gama; el color, la elección del evento",
+      "paragraphs": [
+        "C1 es el extremo más duro de la gama y C5 el más blando. Para una prueba se seleccionan compuestos que reciben las denominaciones duro, medio y blando, con blanco, amarillo y rojo. La relación es local: si se eligen C2, C3 y C4, el C2 es el duro; si se eligen C1, C2 y C3, el mismo número C2 corresponde al medio. No conviene comparar dos colores de Grandes Premios diferentes como si garantizaran idéntica formulación.",
+        "Pirelli confirmó cinco compuestos para 2026 después de evaluar su desarrollo. Una guía que enumera C6 puede estar describiendo 2025. Los intermedios y de lluvia extrema constituyen opciones distintas, con dibujo para gestionar agua; no son simplemente un sexto y séptimo escalón de dureza del slick. La comparación requiere identificar especificación, estado y condiciones de uso."
+      ],
+      "sourceIds": [
+        "tyres",
+        "range"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Caucho, deformación y agarre",
+      "paragraphs": [
+        "Un compuesto de banda de rodadura combina elastómeros, cargas, agentes de curado y otros ingredientes. Su respuesta es viscoelástica: depende de temperatura y de la rapidez con la que se deforma. La interacción con las irregularidades del pavimento provoca deformación y disipación de energía; también intervienen mecanismos de adhesión en el contacto. No hay un único coeficiente de fricción que permanezca fijo durante toda una tanda.",
+        "«Más blando» es una descripción práctica dentro de la gama, no una especificación química suficiente. Dos formulaciones pueden diferir en respuesta térmica, resistencia al desgaste y comportamiento bajo deslizamiento. Sin datos públicos no corresponde asignar porcentajes de sílice, dureza Shore o temperatura óptima exacta a cada C. Es posible explicar el mecanismo físico sin inventar una receta confidencial ni confundirlo con la estructura interna completa del neumático."
+      ],
+      "sourceIds": [
+        "tyres",
+        "friction",
+        "rubber"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La temperatura no se resume en un número",
+      "paragraphs": [
+        "Superficie, banda y estructura no tienen siempre la misma temperatura. Una rueda que desliza puede calentar rápidamente su superficie mientras otras zonas responden con más demora. La presión cambia con el estado térmico, y afecta la deformación del neumático. Las mediciones y prescripciones del evento establecen referencias concretas; un valor tomado en otro circuito no es una instrucción universal de funcionamiento.",
+        "El calentamiento combina trabajo en curvas, frenadas y aceleración, además de intercambios térmicos con el entorno y los componentes próximos. Un giro de preparación puede modificar el rendimiento de una vuelta rápida. Seguir otro auto cambia la aerodinámica y puede exigir más deslizamiento para doblar, de modo que una perturbación del aire termina afectando las ruedas. Gestionarlas requiere entender el conjunto del vehículo, no solamente elegir un color."
+      ],
+      "sourceIds": [
+        "B",
+        "glossary",
+        "rubber"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Desgaste y degradación son problemas diferentes",
+      "paragraphs": [
+        "El desgaste implica pérdida de material. La degradación es pérdida de prestaciones y puede tener componentes térmicas y mecánicas aun cuando quede banda. El graining se asocia a daño superficial y acumulaciones de goma que perjudican el contacto; el blistering produce ampollas o desprendimientos ligados a un exceso térmico. Son descripciones de daños observables, no una explicación completa de su causa en cada carrera.",
+        "No se puede diagnosticar solo con el tiempo de vuelta. Un piloto puede ir más lento por tráfico, batería, combustible, estrategia o daño ajeno al neumático. Para distinguirlos hacen falta contexto de tanda, observación y datos. Una fase de rendimiento que mejora tampoco demuestra que el material se haya regenerado: pueden cambiar temperaturas, carga de combustible o condiciones de pista."
+      ],
+      "sourceIds": [
+        "glossary"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "La estrategia utiliza un rendimiento que cambia",
+      "paragraphs": [
+        "Un blando puede ganar una vuelta y perder una tanda si requiere más paradas. El duro puede tardar demasiado en calentarse o trabajar mal en condiciones frías. La selección práctica evalúa ritmo, duración, preparación, tráfico y coste de detenerse. Las obligaciones de uso se consultan en el reglamento deportivo y en los documentos del evento, especialmente cuando hay lluvia o procedimientos excepcionales.",
+        "Un ejemplo hipotético ayuda: ganar tres décimas por vuelta durante veinte vueltas produce seis segundos, antes de considerar tráfico o degradación. Si utilizar ese juego obliga a una parada adicional de veinte segundos, la cuenta inicial no alcanza. El neumático no es «rápido» separado de una estrategia. Es rápido dentro de una secuencia de vueltas, temperaturas y decisiones que permite aprovechar sus características."
+      ],
+      "sourceIds": [
+        "B",
+        "range"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tyres",
+      "title": "Pirelli: gama de neumáticos de Fórmula 1",
+      "url": "https://www.pirelli.com/tires/en-us/motorsport/car/formula-1"
+    },
+    {
+      "id": "range",
+      "title": "Pirelli: selección de los cinco compuestos de 2026",
+      "url": "https://press.pirelli.com/the-range-of-compounds-for-the-2026-season-has-been-set/"
+    },
+    {
+      "id": "friction",
+      "title": "FHWA: fundamentos y medición de fricción de pavimentos",
+      "url": "https://highways.fhwa.dot.gov/safety/rwd/keep-vehicles-road/pavement-friction/pavement-friction-road-safety-primer-friction"
+    },
+    {
+      "id": "B",
+      "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+    },
+    {
+      "id": "glossary",
+      "title": "Formula 1: glosario (sus datos estacionales pueden corresponder a ediciones anteriores)",
+      "url": "https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2"
+    },
+    {
+      "id": "rubber",
+      "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+      "url": "https://arxiv.org/abs/cond-mat/0605273"
+    }
+  ],
+  "related": [
+    {
+      "label": "Asfalto y agarre",
+      "href": "/articulos/asfalto-agarre-circuitos"
+    },
+    {
+      "label": "Cómo funciona un fin de semana",
+      "href": "/articulos/como-funciona-formula-1"
+    }
+  ]
+}

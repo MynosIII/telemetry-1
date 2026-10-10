@@ -9,8 +9,11 @@ export type EditorialArticle = {
   period: string;
   year: number;
   tags?: string[];
+  kind?: "history" | "explainer";
+  level?: "Inicial" | "Intermedio" | "Avanzado";
+  reviewedOn?: string;
   lead: string;
-  sections: { id: string; title: string; paragraphs: string[]; sourceIds: string[] }[];
+  sections: { id: string; title: string; paragraphs: string[]; sourceIds: string[]; diagram?: {url:string;alt:string;caption:string} }[];
   sources: { id: string; title: string; url: string }[];
   related: { label: string; href: string }[];
   image?: CircuitPhoto;
@@ -22,3 +25,4 @@ export const readingMinutes = (article: EditorialArticle) => Math.max(1, Math.ce
   [article.lead, ...article.sections.flatMap(section => section.paragraphs)].join(" ").split(/\s+/).length / 200
 ));
 export const articleCategories = ["Los orígenes", "Autos de leyenda", "Automovilismo argentino", "Revoluciones técnicas", "Ideas que cambiaron la F1"];
+export const explainerCategories = ["Para empezar", "Reglamento", "Aerodinámica", "Neumáticos y pista", "Motor y combustible"];

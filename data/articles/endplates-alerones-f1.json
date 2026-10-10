@@ -1,0 +1,127 @@
+{
+  "slug": "endplates-alerones-f1",
+  "title": "Endplates: el alerón también termina por los costados",
+  "description": "Cómo las placas laterales modifican la fuga de presión, los vórtices de punta y la interacción con el resto del auto.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Avanzado",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Avanzado",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "Un perfil dibujado en dos dimensiones parece extenderse para siempre. Un alerón real termina. En sus extremos, las diferencias de presión impulsan movimientos laterales y cambian el campo de velocidades. Los endplates intervienen en ese problema tridimensional: son superficies aerodinámicas, además de posibles conexiones estructurales.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Qué cambia cuando el ala tiene extremos",
+      "paragraphs": [
+        "En un ala finita, el flujo de la cara de mayor presión tiende a rodear el extremo hacia la de menor presión. La estela desarrolla estructuras vorticosas y modifica la dirección del flujo que ve cada sección. En un alerón invertido hay que conservar una convención coherente de signos: copiar las flechas de un ala de avión sin invertir la orientación puede confundir la explicación.",
+        "El resultado no depende solo del perfil central. La distribución de carga a lo largo de la envergadura, la geometría del extremo y la posición relativa de otras superficies importan. Los estudios de alas finitas describen cómo los efectos de punta cambian un flujo que parecería bidimensional. Una sección excelente en túnel entre paredes puede perder parte de su ventaja cuando se instala como ala corta con extremos libres."
+      ],
+      "sourceIds": [
+        "tips",
+        "gurney"
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/endplates.svg",
+        "alt": "Ala finita con placas laterales en sus dos extremos.",
+        "caption": "Esquema conceptual de Telemetry One. No está a escala ni representa una simulación o una geometría reglamentaria de 2026."
+      }
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Una barrera modifica la fuga, no elimina toda la estela",
+      "paragraphs": [
+        "La placa lateral dificulta algunos recorridos de flujo entre caras y puede aumentar la carga útil del conjunto. Su altura, borde de entrada y continuidad con los perfiles alteran dónde se forman y cómo se organizan las estructuras vorticosas. No crea un ala infinitamente larga ni elimina de forma universal toda resistencia inducida. La placa tiene su propia fricción, presión, encuentros y posibles separaciones.",
+        "Un endplate grande puede contener mejor una región y presentar más superficie al flujo. Por eso el tamaño no es un indicador directo de rendimiento. Hay que evaluar carga y resistencia del ensamblaje, además de las perturbaciones que entrega aguas abajo. Hablar de «sellar» el extremo es una aproximación útil si se explica qué fuga se intenta limitar; interpretarlo como una junta hermética entre dos presiones no describe un flujo externo real."
+      ],
+      "sourceIds": [
+        "tips",
+        "drag"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Efecto suelo: el extremo cambia con la altura",
+      "paragraphs": [
+        "Cerca de la pista, el campo de flujo y los vórtices interactúan con el suelo. Los ensayos de alas invertidas en efecto suelo muestran que la respuesta a bajar el ala tiene distintos regímenes. En cierto rango puede aumentar carga; a alturas menores, separación y cambios de estructuras vorticosas pueden degradarla. El endplate participa en esa interacción, y no debe analizarse separado de la altura de marcha.",
+        "Para comprobar una hipótesis en túnel hace falta representar correctamente el movimiento relativo de la pista y controlar las condiciones del modelo. Un suelo fijo con una capa límite no tratada puede dar un resultado diferente al de un suelo móvil. La cuestión no es que un método sea siempre inútil: hay que identificar qué fenómeno puede medir y dónde introduce una discrepancia. Esa información debe acompañar cualquier gráfica de carga frente a altura."
+      ],
+      "sourceIds": [
+        "ground"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "El delantero administra el aire que recibe el auto",
+      "paragraphs": [
+        "El alerón delantero se encuentra con las ruedas y entrega una estela al piso, suspensión y carrocería. Sus extremos ayudan a configurar ese flujo dentro de los límites legales. Una modificación puede aumentar carga delantera y simultáneamente empeorar lo que recibe otra pieza. En el ala trasera, las condiciones de llegada ya incluyen perturbaciones del auto; no son las del flujo uniforme de un ensayo de perfil aislado.",
+        "Los endplates de diferentes épocas de F1 no deben presentarse como soluciones intercambiables. La normativa cambia volúmenes, conexiones, cortes y superficies permitidas. Un diseño antiguo con múltiples ranuras puede resultar instructivo para estudiar flujos, pero no demuestra qué se puede fabricar en 2026. Primero se define el objetivo físico; después se comprueba qué geometrías permite la edición aplicable del reglamento."
+      ],
+      "sourceIds": [
+        "C",
+        "gurneycar"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Cómo evaluar una modificación",
+      "paragraphs": [
+        "Un ensayo útil compara configuraciones con la misma referencia de área, coordenadas y condiciones de flujo. Registra fuerzas y momentos, no solo líneas de pintura sobre la superficie. La visualización permite localizar separación y dirección de flujo; por sí sola no mide la fuerza total. La simulación requiere comprobar sensibilidad de malla, modelos y condiciones de contorno, y contrastar resultados cuando existe evidencia experimental.",
+        "El objetivo es un mapa de funcionamiento: alturas, guiñada, cabeceo y estados de las superficies móviles. En un auto completo importa que el balance no cambie abruptamente durante frenadas o al seguir a otro vehículo. Una placa lateral puede aportar carga máxima, robustez o una estela más conveniente, a veces a costa de resistencia. La forma correcta de juzgarla es preguntar qué función cumple en ese conjunto y qué medidas sostienen la respuesta."
+      ],
+      "sourceIds": [
+        "ground",
+        "gurneycar",
+        "drag"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tips",
+      "title": "Zhang y colaboradores (2019): flujos tridimensionales y efectos de punta en alas finitas",
+      "url": "https://arxiv.org/abs/1909.04729"
+    },
+    {
+      "id": "gurney",
+      "title": "Kobayashi, Takakura y Takagi (2013): ensayos 2D y 3D de Gurney flaps",
+      "url": "https://www.jstage.jst.go.jp/article/nctam/61/0/61_113/_article"
+    },
+    {
+      "id": "drag",
+      "title": "NASA Glenn: coeficiente de resistencia",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+    },
+    {
+      "id": "ground",
+      "title": "Zerihan (2001): investigación experimental y computacional de alas en efecto suelo",
+      "url": "https://eprints.soton.ac.uk/426058/"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "gurneycar",
+      "title": "Estudio CFD (2021): Gurney delantero e interacción con componentes del auto",
+      "url": "https://www.mdpi.com/1996-1073/14/8/2059"
+    }
+  ],
+  "related": [
+    {
+      "label": "Gurney flaps",
+      "href": "/articulos/gurney-flaps-aerodinamica"
+    },
+    {
+      "label": "Aerodinámica desde sus fundamentos",
+      "href": "/articulos/por-que-forma-auto-f1"
+    }
+  ]
+}

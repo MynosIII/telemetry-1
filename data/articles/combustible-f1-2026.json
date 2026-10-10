@@ -1,0 +1,119 @@
+{
+  "slug": "combustible-f1-2026",
+  "title": "Qué combustible usa la F1 en 2026",
+  "description": "Gasolina sostenible avanzada, energía química, homologación y por qué sostenible no significa ausencia de CO₂ en el escape.",
+  "category": "Motor y combustible",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Temporada 2026",
+  "year": 2026,
+  "tags": [
+    "Motor y combustible",
+    "Intermedio",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "La F1 de 2026 sigue utilizando un motor de combustión, acompañado por un sistema eléctrico. Su combustible pertenece al marco de combustibles sostenibles avanzados de la FIA. Es una mezcla formulada y homologada para competir, no agua, electricidad líquida ni una sustancia única común a todos los proveedores.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "La función química sigue siendo alimentar la combustión",
+      "paragraphs": [
+        "El combustible almacena energía química que se libera al reaccionar con oxígeno. El motor convierte parte de esa energía en trabajo y rechaza otra parte como calor. Densidad, poder calorífico, evaporación y resistencia a la detonación influyen en cómo se puede utilizar. Sostenibilidad y calidad de combustión son dimensiones relacionadas por el proceso de producción, pero ninguna sustituye a la otra.",
+        "La unidad de potencia necesita una formulación compatible con sus condiciones de operación y con límites reglamentarios. No alcanza con elegir un producto que pueda arder. El proveedor y el fabricante trabajan sobre comportamiento del combustible y del motor, mientras la FIA comprueba la mezcla aprobada. La proporción exacta de ingredientes no se puede deducir de la marca del surtidor ni de una promesa comercial general."
+      ],
+      "sourceIds": [
+        "C",
+        "amr"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Qué significa sostenible avanzado",
+      "paragraphs": [
+        "La sección C16 exige componentes sostenibles avanzados, documentación y una evaluación de emisiones de gases de efecto invernadero respecto de una referencia fósil. Su marco contempla rutas de origen biológico y rutas renovables no biológicas, con condiciones sobre materias primas y producción. Una materia prima vegetal no es automáticamente admisible; origen, usos previos y cambios de uso del suelo importan.",
+        "Los e-fuels pueden elaborarse mediante rutas que combinan hidrógeno con una fuente de carbono, usando procesos y energía cuya procedencia determina el balance. Los biocombustibles avanzados pueden proceder de materias no alimentarias o residuos elegibles. La etiqueta de la F1 describe requisitos de los componentes y su certificación, no una obligación de que todos los suministradores utilicen idéntica tecnología. Hay que distinguir la familia reglamentaria de la receta particular."
+      ],
+      "sourceIds": [
+        "C",
+        "fuel"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "El escape y el ciclo de vida son cuentas diferentes",
+      "paragraphs": [
+        "Quemar un combustible que contiene carbono produce CO₂. La evaluación de sostenibilidad considera también cómo se obtuvo ese carbono y qué emisiones se generaron al producir y transportar el combustible. Un balance de ciclo de vida no equivale a medir cero CO₂ en el tubo de escape. Presentar ambos conceptos como sinónimos confunde el alcance de la reducción que se pretende.",
+        "La electricidad del proceso, el origen del hidrógeno, la materia prima y las fronteras del análisis pueden cambiar el resultado. Una afirmación de «100%» se refiere al cumplimiento del marco de combustible utilizado, no a que todo el campeonato tenga impacto ambiental nulo. Viajes, fabricación, logística y energía de instalaciones pertenecen a otras partidas. Las comunicaciones de proveedores deben leerse junto a esas condiciones, especialmente cuando comparan un combustible experimental con producción a gran escala."
+      ],
+      "sourceIds": [
+        "fuel",
+        "amr",
+        "changes"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "La energía importa más que contar litros",
+      "paragraphs": [
+        "Dos líquidos con distinta densidad o poder calorífico no contienen necesariamente la misma energía por litro. Para analizar consumo se usa E = m × PCI, donde m es masa y PCI el poder calorífico inferior. La potencia térmica disponible puede expresarse como flujo másico multiplicado por ese PCI. Es una relación física que permite comparar mezclas sin asumir que un volumen igual genera trabajo igual.",
+        "La regulación de 2026 utiliza límites de flujo de energía del combustible, además de condiciones de funcionamiento, medición y control. El sistema eléctrico introduce otros balances: energía recuperada, almacenada, perdida y entregada. Ahorrar combustible o despliegue en un sector puede permitir otra distribución después. Una vuelta eficiente no se explica mirando únicamente la potencia máxima del motor de combustión."
+      ],
+      "sourceIds": [
+        "C",
+        "engines"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Homologación y alcance de la transferencia a carretera",
+      "paragraphs": [
+        "La aprobación incluye análisis de muestras y comprobación de sostenibilidad de los componentes mediante el proceso establecido. Durante el uso se necesitan controles que relacionen el producto presente en el auto con la formulación autorizada. «Homologado» describe conformidad dentro de ese sistema; no convierte automáticamente al combustible en el mejor para cualquier motor ni permite modificarlo libremente a mitad de una competición.",
+        "La compatibilidad con tecnologías e infraestructuras existentes es uno de los atractivos de estas rutas. Sin embargo, compatibilidad, coste, disponibilidad y eficiencia de producción son preguntas distintas. Un combustible que funciona en competición puede requerir condiciones y especificaciones particulares para su uso comercial. La explicación precisa evita dos extremos: tratarlo como una solución mágica o negar su función por el hecho de que aún exista combustión. La comparación relevante exige decir qué se mide y con qué alternativa."
+      ],
+      "sourceIds": [
+        "C",
+        "amr",
+        "fuel"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "amr",
+      "title": "Aramco: combustible homologado para Aston Martin en 2026",
+      "url": "https://europe.aramco.com/en/news-media/news/2026/aramco-and-aston-martin-aramco-formula-one-team-reveal-new-livery-for-upcoming-f1-season"
+    },
+    {
+      "id": "fuel",
+      "title": "Aramco: rutas de producción de combustibles sintéticos y sostenibles",
+      "url": "https://www.aramco.com/en/about-us/our-brand/powered-by-how/synthetic-fuels"
+    },
+    {
+      "id": "changes",
+      "title": "Formula 1: los cambios de reglas de 2026",
+      "url": "https://www.formula1.com/en/latest/article/from-smaller-cars-to-a-bigger-budget-cap-12-rule-changes-you-need-to-know-in.56uUTFhB0z5j3iZfhC0rGP"
+    },
+    {
+      "id": "engines",
+      "title": "Formula 1: fundamentos de las unidades de potencia de 2026",
+      "url": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-new-f1-rules-for-2026.48bv0VTxhIlhrQXmxercXk"
+    }
+  ],
+  "related": [
+    {
+      "label": "Reglamento 2026",
+      "href": "/articulos/reglamento-f1-2026"
+    },
+    {
+      "label": "La era de los V6 híbridos",
+      "href": "/articulos/motores-v6-hibridos"
+    }
+  ]
+}

@@ -33,7 +33,13 @@ for(const article of records) {
   assert(!unique.has(prefix),`Duplicate article: ${prefix}`);unique.add(prefix);
   for(const key of ['title','description','category','period','lead'])assert(typeof article[key]==='string'&&article[key].trim(),`${prefix}: missing ${key}`);
   assert(/[.!?…]$/.test(article.description.trim()),`${prefix}: unfinished card description`);
-  assert(['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1'].includes(article.category),`${prefix}: unexpected category`);
+  const explanatory=article.kind==='explainer';
+  assert(!article.kind||['history','explainer'].includes(article.kind),`${prefix}: invalid article kind`);
+  assert((explanatory?['Para empezar','Reglamento','Aerodinámica','Neumáticos y pista','Motor y combustible']:['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1']).includes(article.category),`${prefix}: unexpected category`);
+  if(explanatory) {
+    assert(['Inicial','Intermedio','Avanzado'].includes(article.level),`${prefix}: missing reading level`);
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(article.reviewedOn)&&Number.isFinite(Date.parse(article.reviewedOn)),`${prefix}: invalid review date`);
+  }
   assert(Number.isInteger(article.year)&&article.year>=1800&&article.year<=2026,`${prefix}: missing/invalid chronological year`);
   assert(article.sections.length>=4,`${prefix}: incomplete chapters`);
   assert(article.sources.length>=3,`${prefix}: insufficient sources`);
@@ -45,6 +51,10 @@ for(const article of records) {
     assert(/^[a-z0-9-]+$/.test(section.id)&&!sectionIds.has(section.id),`${prefix}: invalid/duplicate section`);sectionIds.add(section.id);
     assert(section.title&&section.paragraphs.length&&section.paragraphs.every(p=>typeof p==='string'&&p.length>30),`${prefix}: incomplete prose`);
     assert(section.sourceIds.length&&section.sourceIds.every(id=>ids.has(id)),`${prefix}: broken source reference`);
+    if(section.diagram) {
+      assert(section.diagram.url.startsWith('/articles/diagrams/')&&!section.diagram.url.includes('..'),`${prefix}: invalid diagram path`);
+      assert(fs.existsSync(`public${section.diagram.url}`)&&section.diagram.alt&&section.diagram.caption,`${prefix}: incomplete diagram`);
+    }
   }
   const words=[article.lead,...article.sections.flatMap(section=>section.paragraphs)].join(' ').split(/\s+/).length;
   assert(words>=500,`${prefix}: article too brief (${words} words)`);

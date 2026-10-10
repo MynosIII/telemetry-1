@@ -1,0 +1,106 @@
+{
+  "slug": "categorias-automovilismo-guia",
+  "title": "F1, F2, Fórmula E, GT y resistencia: un mapa para empezar",
+  "description": "Qué distingue una categoría de un campeonato, cómo funciona la ruta de los monoplazas y qué cambia fuera de la F1.",
+  "category": "Para empezar",
+  "kind": "explainer",
+  "level": "Inicial",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Para empezar",
+    "Inicial",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "No todas las carreras llevan a la Fórmula 1 ni todas buscan lo mismo. Algunas forman pilotos con autos de especificación común; otras enfrentan a fabricantes, mezclan clases en pista o convierten la gestión de energía en el centro de la competición. El primer paso es separar el tipo de auto de la organización que lo hace correr.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Categoría, campeonato y carrera",
+      "paragraphs": [
+        "Una categoría define una familia de vehículos y unas reglas técnicas. Un campeonato organiza una sucesión de pruebas con su normativa deportiva. Una carrera es uno de esos encuentros. GT3, por ejemplo, identifica un marco técnico que puede aparecer en varios campeonatos; las 24 Horas de Le Mans son una carrera, mientras que el WEC es un campeonato. Las palabras no son intercambiables.",
+        "También conviene distinguir una competición monomarca de una fórmula abierta al desarrollo. Compartir una base técnica reduce algunas diferencias de material, pero no vuelve iguales a los equipos: puesta a punto, preparación, presupuesto operativo y trabajo con el piloto siguen creando ventajas. Tener autos parecidos ayuda a comparar conducción; no elimina la ingeniería ni convierte los resultados en una medida pura del talento individual."
+      ],
+      "sourceIds": [
+        "f2",
+        "gt"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "La ruta de los monoplazas",
+      "paragraphs": [
+        "El karting suele ser la primera escuela. La ruta promovida por la FIA continúa por Fórmula 4, Fórmula Regional, Fórmula 3 y Fórmula 2 antes de llegar a F1. El aumento de prestaciones cambia también el trabajo del piloto: aparecen mayores cargas, más exigencia física y una gestión más compleja. Fórmula Regional tiene un papel propio entre F4 y F3; omitirla deja incompleto el mapa actual.",
+        "Esa ruta es una estructura de formación, no una escalera automática. Los programas disponibles, la financiación y las oportunidades alteran cada trayectoria. Ganar un campeonato no garantiza un asiento en el siguiente. La F2 utiliza autos de especificación común y tiene su propio formato de carreras y puntuación. Las reglas de su Sprint y su parrilla no deben extrapolarse a la Sprint de F1 solo porque ambas compartan nombre."
+      ],
+      "sourceIds": [
+        "pyramid",
+        "f2about",
+        "f2"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Otros monoplazas tienen otros objetivos",
+      "paragraphs": [
+        "La Fórmula E es un campeonato de monoplazas eléctricos. La energía disponible, su recuperación y el momento de usarla forman parte de la competición. La ausencia de un motor de combustión cambia el diseño y el tipo de decisiones, pero no vuelve triviales la conducción o la estrategia. Sus generaciones de autos y formatos deportivos evolucionan; sus cifras no deben mezclarse con las de F1.",
+        "Una categoría puede ser una meta profesional por derecho propio. Esa idea ayuda a evitar una lectura engañosa del automovilismo como una única pirámide en la que todo lo que no sea F1 es una división inferior. La comparación útil depende de lo que se quiere observar: desarrollo técnico, igualdad de material, gestión de energía o capacidad para competir durante muchas horas."
+      ],
+      "sourceIds": [
+        "fe"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Resistencia y GT: compartir la pista sin disputar lo mismo",
+      "paragraphs": [
+        "En resistencia importa sostener rendimiento, fiabilidad y ejecución durante un periodo largo. Varios pilotos pueden compartir un mismo auto. En el WEC conviven Hypercar y LMGT3, con objetivos y vehículos distintos; una prueba concreta puede admitir además otras clases bajo su propia normativa. Los adelantamientos entre clases no significan necesariamente que dos autos estén disputando posición en la misma clasificación.",
+        "Los LMGT3 parten de modelos reconocibles de carretera profundamente preparados para competir. Hypercar reúne otra familia de vehículos y reglamentos. La gestión del tráfico es una habilidad central: el auto rápido debe pasar sin perder demasiado tiempo, mientras el más lento necesita proteger su propia carrera. Para elegir qué ver, probá un fin de semana de monoplazas y una carrera de resistencia. Seguí una clase y sus resultados antes de intentar leer toda la pista a la vez. El mapa se vuelve mucho más claro cuando cambia la pregunta que le hacés a cada competición."
+      ],
+      "sourceIds": [
+        "wec",
+        "gt"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "f2",
+      "title": "FIA Formula 2: reglas y formato",
+      "url": "https://www.fiaformula2.com/en/latest/article/the-regulations-f2.DyImndAsBNFcqYOOm4yWS"
+    },
+    {
+      "id": "gt",
+      "title": "FIA WEC: categoría LMGT3",
+      "url": "https://www.fiawec.com/en/news/la-categorie-lmgt3/8255"
+    },
+    {
+      "id": "pyramid",
+      "title": "FIA: la ruta de los monoplazas",
+      "url": "https://www.fia.com/news/single-seater-pathway-set-stellar-2025"
+    },
+    {
+      "id": "f2about",
+      "title": "FIA Formula 2: ubicación en la pirámide",
+      "url": "https://www.fiaformula2.com/en/information/about-the-fia-f2.56CCroShdFA6LJN0R2ssRo"
+    },
+    {
+      "id": "fe",
+      "title": "Formula E: explicación del campeonato",
+      "url": "https://www.fiaformulae.com/en/what-is-formula-e"
+    },
+    {
+      "id": "wec",
+      "title": "FIA WEC: categorías y participantes",
+      "url": "https://www.fiawec.com/en/page/awesome-competitors/13"
+    }
+  ],
+  "related": [
+    {
+      "label": "Cómo seguir una carrera de F1",
+      "href": "/articulos/como-funciona-formula-1"
+    }
+  ]
+}

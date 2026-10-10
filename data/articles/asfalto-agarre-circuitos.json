@@ -1,0 +1,123 @@
+{
+  "slug": "asfalto-agarre-circuitos",
+  "title": "El asfalto también corre: textura, agua y agarre",
+  "description": "Por qué dos superficies negras pueden exigir neumáticos y estrategias diferentes, y cómo se mide lo que cambia.",
+  "category": "Neumáticos y pista",
+  "kind": "explainer",
+  "level": "Intermedio",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Neumáticos y pista",
+    "Intermedio",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "Una pista no es una superficie uniforme con un único nivel de agarre. El pavimento tiene composición, textura y estado; el neumático tiene temperatura, deformación y carga. Lo que el piloto siente nace de su interacción. Por eso repavimentar un circuito puede cambiar mucho más que la comodidad sobre los baches.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Una mezcla, varias decisiones",
+      "paragraphs": [
+        "El pavimento asfáltico combina áridos y un ligante bituminoso, con posibles aditivos y modificadores. La granulometría, los vacíos, el tipo de roca, el ligante y la puesta en obra determinan propiedades distintas. Mezclas densas, discontinuas o abiertas responden a objetivos de construcción diferentes. Ninguna etiqueta de familia basta para predecir el agarre de una curva concreta.",
+        "También importan compactación, juntas, regularidad, pendientes y drenaje. Una superficie diseñada para durar necesita considerar cargas, clima y mantenimiento. En competición se añaden exigencias de continuidad y comportamiento bajo neumáticos sometidos a fuerzas elevadas. Esas prioridades pueden generar compromisos: la pista debe funcionar con lluvia y cambios térmicos, además de ofrecer prestaciones en una vuelta seca."
+      ],
+      "sourceIds": [
+        "asphalt",
+        "texture"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Microtextura y macrotextura no son lo mismo",
+      "paragraphs": [
+        "La microtextura describe irregularidades pequeñas de la superficie de los áridos; la macrotextura corresponde a una escala mayor asociada a su distribución y a los huecos. Las guías FHWA sitúan la frontera de longitud de onda alrededor de 0,5 mm. Es una clasificación de escalas, no un tamaño único de piedra que explique todo el pavimento.",
+        "La microtextura influye en el contacto y la fricción, mientras la macrotextura ofrece caminos para evacuar agua y también afecta otras interacciones con el neumático. Una superficie visualmente lisa puede tener una microtextura favorable; otra áspera no garantiza más agarre en cada condición. Comparar fotografías sin medida, o deducir adherencia solo del tamaño aparente del árido, pierde buena parte del problema."
+      ],
+      "sourceIds": [
+        "texture",
+        "friction"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Agua: recuperar contacto requiere drenaje",
+      "paragraphs": [
+        "En mojado, una película de agua modifica el contacto entre goma y pavimento. Dibujo del neumático, textura, presión, velocidad y profundidad de agua intervienen en cuánto se evacua. La macrotextura ayuda a gestionar agua bajo el contacto, pero no reemplaza el drenaje del circuito ni evita cualquier aquaplaning. Un charco por una depresión local puede dominar sobre una textura adecuada del resto de la curva.",
+        "Tampoco se puede extrapolar directamente una prueba vial al comportamiento de un F1. Las mediciones de carretera aportan conceptos y métodos; el auto de competición opera con otras cargas, neumáticos y velocidades. Un artículo técnico debe separar esas bases físicas de una predicción específica de carrera. Para hacer esta última se necesitan datos representativos, no solo trasladar un coeficiente obtenido con otro dispositivo."
+      ],
+      "sourceIds": [
+        "friction",
+        "texture"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "La superficie cambia durante su vida y el fin de semana",
+      "paragraphs": [
+        "Tráfico, pulido del árido, envejecimiento, suciedad y mantenimiento alteran la superficie. Durante el evento aparecen goma depositada, partículas sueltas y cambios de humedad y temperatura. Los neumáticos también modifican lo que encuentran otros autos. El mejor camino en seco puede comportarse de manera distinta cuando llueve; el estado de la línea de carrera es una variable, no una garantía de adherencia superior.",
+        "Un asfaltado nuevo cambia varias cosas simultáneamente: regularidad, exposición del árido, ligante superficial y textura. Describir su resultado como «más abrasivo» o «menos abrasivo» requiere comprobar el desgaste que provoca y en qué condiciones. Abrasividad y agarre no son sinónimos. Una mejora en regularidad puede ayudar al control de altura aerodinámica aunque la evolución del neumático plantee un problema distinto."
+      ],
+      "sourceIds": [
+        "asphalt",
+        "tyres"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Cómo medir antes de explicar",
+      "paragraphs": [
+        "Se pueden caracterizar perfiles de textura y realizar ensayos de fricción bajo condiciones definidas. El método volumétrico de mancha de arena estima una profundidad media de macrotextura; no mide directamente la fricción ni resuelve la microtextura. Para comparar dos fechas hay que conservar método, localización, estado superficial y condiciones de prueba, o declarar qué cambió.",
+        "Un análisis de carrera añadiría temperatura de pista, humedad, compuesto, edad del neumático, cargas y evidencia de degradación. Si solo se conocen los tiempos, el resultado no identifica por sí mismo qué propiedad del asfalto los causó. La explicación útil conecta medidas con mecanismos y señala lo que falta. La pista puede ganar o perder prestaciones por varios caminos; convertir su color o una impresión visual en una estadística precisa sería inventar una certeza que los datos no ofrecen."
+      ],
+      "sourceIds": [
+        "sand",
+        "friction",
+        "range"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "asphalt",
+      "title": "FHWA: incorporar la macrotextura al diseño de mezclas asfálticas",
+      "url": "https://www.fhwa.dot.gov/pavement/pubs/hif23051.pdf"
+    },
+    {
+      "id": "texture",
+      "title": "FHWA: textura superficial de pavimentos de asfalto y hormigón",
+      "url": "https://www.fhwa.dot.gov/pavement/t504036.cfm"
+    },
+    {
+      "id": "friction",
+      "title": "FHWA: fundamentos y medición de fricción de pavimentos",
+      "url": "https://highways.fhwa.dot.gov/safety/rwd/keep-vehicles-road/pavement-friction/pavement-friction-road-safety-primer-friction"
+    },
+    {
+      "id": "tyres",
+      "title": "Pirelli: gama de neumáticos de Fórmula 1",
+      "url": "https://www.pirelli.com/tires/en-us/motorsport/car/formula-1"
+    },
+    {
+      "id": "sand",
+      "title": "FHWA: medición volumétrica de macrotextura",
+      "url": "https://infotechnology.fhwa.dot.gov/sand-patch-test/"
+    },
+    {
+      "id": "range",
+      "title": "Pirelli: selección de los cinco compuestos de 2026",
+      "url": "https://press.pirelli.com/the-range-of-compounds-for-the-2026-season-has-been-set/"
+    }
+  ],
+  "related": [
+    {
+      "label": "Compuestos de neumáticos",
+      "href": "/articulos/compuestos-neumaticos-f1"
+    },
+    {
+      "label": "Por qué un F1 tiene esa forma",
+      "href": "/articulos/por-que-forma-auto-f1"
+    }
+  ]
+}

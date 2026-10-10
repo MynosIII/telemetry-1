@@ -1,0 +1,150 @@
+{
+  "slug": "gurney-flaps-aerodinamica",
+  "title": "Gurney flaps: cómo unos milímetros cambian un alerón",
+  "description": "Una explicación avanzada de presión, circulación, estela, capa límite y compromiso entre carga y resistencia.",
+  "category": "Aerodinámica",
+  "kind": "explainer",
+  "level": "Avanzado",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Aerodinámica",
+    "Avanzado",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "Un Gurney flap es una pequeña pestaña situada normalmente cerca del borde de salida, aproximadamente perpendicular a la cara de presión del perfil. En un alerón invertido esa cara puede ser la superior. Su escala es pequeña; su influencia no se limita al área de material añadida. Para entenderlo hay que examinar el campo de presión de todo el perfil y su estela.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Medir la pestaña respecto de la cuerda",
+      "paragraphs": [
+        "La altura absoluta h dice poco sin la cuerda c. Una pestaña de 3 mm en un perfil de 300 mm tiene h/c = 0,01, es decir, un 1%. Esa relación es un parámetro útil para describir geometría; no constituye una altura óptima universal. Importan además espesor, posición, orientación, borde de salida y existencia de otros elementos.",
+        "La escala dinámica incluye Reynolds, Re = ρVc/μ, y la relación entre altura y espesor de capa límite. Dos alas con el mismo h/c pueden responder de manera diferente si cambia el régimen de flujo o el estado de la capa límite. Una prueba pequeña que conserva la forma pero cambia demasiado Reynolds no reproduce necesariamente separación y resistencia a escala real. La semejanza geométrica es una condición de comparación, no una garantía de equivalencia aerodinámica."
+      ],
+      "sourceIds": [
+        "gurney",
+        "boundary"
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/gurney.svg",
+        "alt": "Perfil invertido con Gurney sobre la cara de presión; dimensiones h y c.",
+        "caption": "Esquema conceptual de Telemetry One. No está a escala ni representa una simulación o una geometría reglamentaria de 2026."
+      }
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Cambiar la salida modifica el resto del perfil",
+      "paragraphs": [
+        "La pestaña crea una región de presión y recirculación en su entorno y altera la dirección media del flujo que abandona el borde de salida. El efecto puede interpretarse como un cambio de curvatura aerodinámica efectiva, aunque la superficie principal siga físicamente igual. Se modifica la distribución de presión, y con ella la carga integrada, no solo la fuerza que actúa directamente sobre la pestaña.",
+        "Las visualizaciones clásicas muestran estructuras de recirculación y desprendimiento vorticoso. El dibujo de dos vórtices cerca del borde sirve como representación cualitativa del flujo medio; no describe dos remolinos perfectamente inmóviles en todas las condiciones. La estela real puede ser oscilante y tridimensional. Los ensayos en agua de Neuhart y Pendergraft ayudan a visualizar el mecanismo, pero su Reynolds mucho menor exige cuidado al trasladar posiciones de separación o magnitudes a un alerón de competición."
+      ],
+      "sourceIds": [
+        "water",
+        "gurneywake"
+      ]
+    },
+    {
+      "id": "coeficientes-presion-momento",
+      "title": "Presión, circulación y momento: qué medir",
+      "paragraphs": [
+        "El coeficiente de presión se define como Cp = (p − p∞)/(½ρV∞²). Comparar Cp a lo largo de ambas caras permite localizar cómo cambia la carga con la pestaña. Integrar esa distribución, con la orientación de cada superficie, aporta fuerzas y momentos. El coeficiente de momento suele normalizarse mediante qSc, con q = ½ρV∞². Declarar el punto de referencia es indispensable: moverlo cambia el momento informado aunque la fuerza resultante sea idéntica.",
+        "La relación bidimensional de Kutta–Joukowski, L′ = ρV∞Γ, conecta la fuerza por unidad de envergadura con la circulación Γ dentro de su marco ideal. La circulación es una integral del campo de velocidades, no una rueda material de aire pegada al perfil. El Gurney modifica las condiciones del borde de salida y el campo completo; la imagen de curvatura efectiva ayuda a interpretar esa modificación, pero para obtener valores de resistencia y separación hay que incluir efectos viscosos.",
+        "Una ganancia de carga puede venir acompañada de un cambio de momento. Eso tiene consecuencias sobre balance y cargas estructurales, y sobre la interacción con otros elementos. La comparación completa registra Cl, Cd y Cm con referencias iguales. Publicar únicamente el máximo Cl puede ocultar un coste relevante: la configuración que gana apoyo también puede desplazar su centro de presión o volver más brusca la respuesta alrededor de una condición de marcha."
+      ],
+      "sourceIds": [
+        "tabs",
+        "gurney",
+        "lift"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "La polar decide si la ganancia interesa",
+      "paragraphs": [
+        "Una polar relaciona carga y resistencia para distintas condiciones. Comparar dos configuraciones a igual ángulo puede mostrar más carga con Gurney y más resistencia. El problema de diseño puede ser otro: obtener la misma carga usando menos incidencia. En ese caso, la comparación correcta requiere buscar puntos equivalentes de fuerza, no conservar arbitrariamente el ángulo.",
+        "Supongamos dos configuraciones hipotéticas: A entrega 1.000 N de carga y 100 N de resistencia; B entrega 1.100 N y 125 N. La relación carga/resistencia pasa de 10 a 8,8. B tiene más carga, pero menor eficiencia en esos puntos. Eso no demuestra que sea peor para una vuelta: quizás la pista premie esa fuerza adicional. El ejemplo ilustra por qué «aumenta downforce» y «mejora rendimiento» son afirmaciones distintas que necesitan métricas y condiciones."
+      ],
+      "sourceIds": [
+        "gurney"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Una altura mayor no es siempre una solución mejor",
+      "paragraphs": [
+        "Al aumentar h suele reforzarse la modificación del flujo, pero también crecen pérdidas y resistencia asociadas. El comportamiento cerca de separación y pérdida depende del perfil y de si la prueba es bidimensional o tiene extremos libres. Los experimentos de Kobayashi y colaboradores comparan precisamente esas diferencias: los resultados de un perfil entre paredes no deben leerse como si fueran los de un ala finita en un auto.",
+        "En configuraciones multielemento, una pestaña en el elemento principal puede modificar cómo llega el flujo al siguiente. Ross y colaboradores encontraron beneficios ligados a la distribución de presión y a la separación del flap en la geometría estudiada. Eso explica un resultado de ensayo; no establece que cualquier pestaña reate cualquier flujo separado. Gap, solapamiento e incidencia forman parte del mecanismo. Trasladar un porcentaje publicado a otro alerón sin esas condiciones produce falsa precisión."
+      ],
+      "sourceIds": [
+        "gurney",
+        "tabs"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Del perfil al auto completo",
+      "paragraphs": [
+        "En un F1 el ala trabaja con ruedas, suspensión, suelo y otras superficies. Una variación que mejora su carga aislada puede cambiar la alimentación del piso o desplazar el balance entre ejes. Un estudio CFD abierto sobre un alerón delantero subraya esas interacciones y aclara que su geometría de investigación no reproduce el último auto de un equipo. Esa distinción entre modelo académico y diseño industrial es parte del resultado.",
+        "Para una evaluación avanzada conviene construir un mapa de carga y resistencia frente a altura, cabeceo y guiñada, además de la incidencia. Hay que observar fuerzas en el auto completo, balance aerodinámico y estabilidad de la estela. Después se compara con un objetivo de vuelta o de uso del neumático. Un Gurney se elige por el compromiso que ofrece dentro de ese mapa y por su legalidad en la zona correspondiente. La regla de ingeniería no es «añadir milímetros»: es identificar qué problema resuelven y qué problema nuevo introducen."
+      ],
+      "sourceIds": [
+        "gurneycar",
+        "C"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "gurney",
+      "title": "Kobayashi, Takakura y Takagi (2013): ensayos 2D y 3D de Gurney flaps",
+      "url": "https://www.jstage.jst.go.jp/article/nctam/61/0/61_113/_article"
+    },
+    {
+      "id": "boundary",
+      "title": "NASA Glenn: capa límite",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/"
+    },
+    {
+      "id": "water",
+      "title": "Neuhart y Pendergraft (1988), NASA TM-4071: visualización de Gurney flaps en túnel de agua",
+      "url": "https://ntrs.nasa.gov/citations/19890004024"
+    },
+    {
+      "id": "gurneywake",
+      "title": "Sims-Williams, White y Dominy (1999): inestacionariedad aerodinámica del Gurney flap",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1046/j.1460-2687.1999.00035.x"
+    },
+    {
+      "id": "tabs",
+      "title": "Ross, Storms y Carrannanto (1995): pestañas en perfiles multielemento",
+      "url": "https://ntrs.nasa.gov/citations/19970028123"
+    },
+    {
+      "id": "gurneycar",
+      "title": "Estudio CFD (2021): Gurney delantero e interacción con componentes del auto",
+      "url": "https://www.mdpi.com/1996-1073/14/8/2059"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "lift",
+      "title": "NASA Glenn: ecuación de sustentación y referencias de fuerza",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+    }
+  ],
+  "related": [
+    {
+      "label": "La forma de un F1",
+      "href": "/articulos/por-que-forma-auto-f1"
+    },
+    {
+      "label": "Endplates y flujo tridimensional",
+      "href": "/articulos/endplates-alerones-f1"
+    }
+  ]
+}

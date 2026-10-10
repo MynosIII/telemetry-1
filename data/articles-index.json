@@ -856,6 +856,129 @@
     }
   },
   {
+    "slug": "asfalto-agarre-circuitos",
+    "title": "El asfalto también corre: textura, agua y agarre",
+    "description": "Por qué dos superficies negras pueden exigir neumáticos y estrategias diferentes, y cómo se mide lo que cambia.",
+    "category": "Neumáticos y pista",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Neumáticos y pista",
+      "Intermedio",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "Una pista no es una superficie uniforme con un único nivel de agarre. El pavimento tiene composición, textura y estado; el neumático tiene temperatura, deformación y carga. Lo que el piloto siente nace de su interacción. Por eso repavimentar un circuito puede cambiar mucho más que la comodidad sobre los baches.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Una mezcla, varias decisiones",
+        "paragraphs": [
+          "El pavimento asfáltico combina áridos y un ligante bituminoso, con posibles aditivos y modificadores. La granulometría, los vacíos, el tipo de roca, el ligante y la puesta en obra determinan propiedades distintas. Mezclas densas, discontinuas o abiertas responden a objetivos de construcción diferentes. Ninguna etiqueta de familia basta para predecir el agarre de una curva concreta.",
+          "También importan compactación, juntas, regularidad, pendientes y drenaje. Una superficie diseñada para durar necesita considerar cargas, clima y mantenimiento. En competición se añaden exigencias de continuidad y comportamiento bajo neumáticos sometidos a fuerzas elevadas. Esas prioridades pueden generar compromisos: la pista debe funcionar con lluvia y cambios térmicos, además de ofrecer prestaciones en una vuelta seca."
+        ],
+        "sourceIds": [
+          "asphalt",
+          "texture"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Microtextura y macrotextura no son lo mismo",
+        "paragraphs": [
+          "La microtextura describe irregularidades pequeñas de la superficie de los áridos; la macrotextura corresponde a una escala mayor asociada a su distribución y a los huecos. Las guías FHWA sitúan la frontera de longitud de onda alrededor de 0,5 mm. Es una clasificación de escalas, no un tamaño único de piedra que explique todo el pavimento.",
+          "La microtextura influye en el contacto y la fricción, mientras la macrotextura ofrece caminos para evacuar agua y también afecta otras interacciones con el neumático. Una superficie visualmente lisa puede tener una microtextura favorable; otra áspera no garantiza más agarre en cada condición. Comparar fotografías sin medida, o deducir adherencia solo del tamaño aparente del árido, pierde buena parte del problema."
+        ],
+        "sourceIds": [
+          "texture",
+          "friction"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Agua: recuperar contacto requiere drenaje",
+        "paragraphs": [
+          "En mojado, una película de agua modifica el contacto entre goma y pavimento. Dibujo del neumático, textura, presión, velocidad y profundidad de agua intervienen en cuánto se evacua. La macrotextura ayuda a gestionar agua bajo el contacto, pero no reemplaza el drenaje del circuito ni evita cualquier aquaplaning. Un charco por una depresión local puede dominar sobre una textura adecuada del resto de la curva.",
+          "Tampoco se puede extrapolar directamente una prueba vial al comportamiento de un F1. Las mediciones de carretera aportan conceptos y métodos; el auto de competición opera con otras cargas, neumáticos y velocidades. Un artículo técnico debe separar esas bases físicas de una predicción específica de carrera. Para hacer esta última se necesitan datos representativos, no solo trasladar un coeficiente obtenido con otro dispositivo."
+        ],
+        "sourceIds": [
+          "friction",
+          "texture"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "La superficie cambia durante su vida y el fin de semana",
+        "paragraphs": [
+          "Tráfico, pulido del árido, envejecimiento, suciedad y mantenimiento alteran la superficie. Durante el evento aparecen goma depositada, partículas sueltas y cambios de humedad y temperatura. Los neumáticos también modifican lo que encuentran otros autos. El mejor camino en seco puede comportarse de manera distinta cuando llueve; el estado de la línea de carrera es una variable, no una garantía de adherencia superior.",
+          "Un asfaltado nuevo cambia varias cosas simultáneamente: regularidad, exposición del árido, ligante superficial y textura. Describir su resultado como «más abrasivo» o «menos abrasivo» requiere comprobar el desgaste que provoca y en qué condiciones. Abrasividad y agarre no son sinónimos. Una mejora en regularidad puede ayudar al control de altura aerodinámica aunque la evolución del neumático plantee un problema distinto."
+        ],
+        "sourceIds": [
+          "asphalt",
+          "tyres"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Cómo medir antes de explicar",
+        "paragraphs": [
+          "Se pueden caracterizar perfiles de textura y realizar ensayos de fricción bajo condiciones definidas. El método volumétrico de mancha de arena estima una profundidad media de macrotextura; no mide directamente la fricción ni resuelve la microtextura. Para comparar dos fechas hay que conservar método, localización, estado superficial y condiciones de prueba, o declarar qué cambió.",
+          "Un análisis de carrera añadiría temperatura de pista, humedad, compuesto, edad del neumático, cargas y evidencia de degradación. Si solo se conocen los tiempos, el resultado no identifica por sí mismo qué propiedad del asfalto los causó. La explicación útil conecta medidas con mecanismos y señala lo que falta. La pista puede ganar o perder prestaciones por varios caminos; convertir su color o una impresión visual en una estadística precisa sería inventar una certeza que los datos no ofrecen."
+        ],
+        "sourceIds": [
+          "sand",
+          "friction",
+          "range"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "asphalt",
+        "title": "FHWA: incorporar la macrotextura al diseño de mezclas asfálticas",
+        "url": "https://www.fhwa.dot.gov/pavement/pubs/hif23051.pdf"
+      },
+      {
+        "id": "texture",
+        "title": "FHWA: textura superficial de pavimentos de asfalto y hormigón",
+        "url": "https://www.fhwa.dot.gov/pavement/t504036.cfm"
+      },
+      {
+        "id": "friction",
+        "title": "FHWA: fundamentos y medición de fricción de pavimentos",
+        "url": "https://highways.fhwa.dot.gov/safety/rwd/keep-vehicles-road/pavement-friction/pavement-friction-road-safety-primer-friction"
+      },
+      {
+        "id": "tyres",
+        "title": "Pirelli: gama de neumáticos de Fórmula 1",
+        "url": "https://www.pirelli.com/tires/en-us/motorsport/car/formula-1"
+      },
+      {
+        "id": "sand",
+        "title": "FHWA: medición volumétrica de macrotextura",
+        "url": "https://infotechnology.fhwa.dot.gov/sand-patch-test/"
+      },
+      {
+        "id": "range",
+        "title": "Pirelli: selección de los cinco compuestos de 2026",
+        "url": "https://press.pirelli.com/the-range-of-compounds-for-the-2026-season-has-been-set/"
+      }
+    ],
+    "related": [
+      {
+        "label": "Compuestos de neumáticos",
+        "href": "/articulos/compuestos-neumaticos-f1"
+      },
+      {
+        "label": "Por qué un F1 tiene esa forma",
+        "href": "/articulos/por-que-forma-auto-f1"
+      }
+    ]
+  },
+  {
     "slug": "auto-avio-815",
     "title": "Auto Avio Costruzioni 815: el Ferrari que todavía no podía llamarse Ferrari",
     "description": "Dos autos en la carrera de Brescia de 1940, piezas Fiat y la supervivencia de una unidad dentro de las colecciones italianas.",
@@ -2266,6 +2389,459 @@
     }
   },
   {
+    "slug": "categorias-automovilismo-guia",
+    "title": "F1, F2, Fórmula E, GT y resistencia: un mapa para empezar",
+    "description": "Qué distingue una categoría de un campeonato, cómo funciona la ruta de los monoplazas y qué cambia fuera de la F1.",
+    "category": "Para empezar",
+    "kind": "explainer",
+    "level": "Inicial",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Para empezar",
+      "Inicial",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "No todas las carreras llevan a la Fórmula 1 ni todas buscan lo mismo. Algunas forman pilotos con autos de especificación común; otras enfrentan a fabricantes, mezclan clases en pista o convierten la gestión de energía en el centro de la competición. El primer paso es separar el tipo de auto de la organización que lo hace correr.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Categoría, campeonato y carrera",
+        "paragraphs": [
+          "Una categoría define una familia de vehículos y unas reglas técnicas. Un campeonato organiza una sucesión de pruebas con su normativa deportiva. Una carrera es uno de esos encuentros. GT3, por ejemplo, identifica un marco técnico que puede aparecer en varios campeonatos; las 24 Horas de Le Mans son una carrera, mientras que el WEC es un campeonato. Las palabras no son intercambiables.",
+          "También conviene distinguir una competición monomarca de una fórmula abierta al desarrollo. Compartir una base técnica reduce algunas diferencias de material, pero no vuelve iguales a los equipos: puesta a punto, preparación, presupuesto operativo y trabajo con el piloto siguen creando ventajas. Tener autos parecidos ayuda a comparar conducción; no elimina la ingeniería ni convierte los resultados en una medida pura del talento individual."
+        ],
+        "sourceIds": [
+          "f2",
+          "gt"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "La ruta de los monoplazas",
+        "paragraphs": [
+          "El karting suele ser la primera escuela. La ruta promovida por la FIA continúa por Fórmula 4, Fórmula Regional, Fórmula 3 y Fórmula 2 antes de llegar a F1. El aumento de prestaciones cambia también el trabajo del piloto: aparecen mayores cargas, más exigencia física y una gestión más compleja. Fórmula Regional tiene un papel propio entre F4 y F3; omitirla deja incompleto el mapa actual.",
+          "Esa ruta es una estructura de formación, no una escalera automática. Los programas disponibles, la financiación y las oportunidades alteran cada trayectoria. Ganar un campeonato no garantiza un asiento en el siguiente. La F2 utiliza autos de especificación común y tiene su propio formato de carreras y puntuación. Las reglas de su Sprint y su parrilla no deben extrapolarse a la Sprint de F1 solo porque ambas compartan nombre."
+        ],
+        "sourceIds": [
+          "pyramid",
+          "f2about",
+          "f2"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Otros monoplazas tienen otros objetivos",
+        "paragraphs": [
+          "La Fórmula E es un campeonato de monoplazas eléctricos. La energía disponible, su recuperación y el momento de usarla forman parte de la competición. La ausencia de un motor de combustión cambia el diseño y el tipo de decisiones, pero no vuelve triviales la conducción o la estrategia. Sus generaciones de autos y formatos deportivos evolucionan; sus cifras no deben mezclarse con las de F1.",
+          "Una categoría puede ser una meta profesional por derecho propio. Esa idea ayuda a evitar una lectura engañosa del automovilismo como una única pirámide en la que todo lo que no sea F1 es una división inferior. La comparación útil depende de lo que se quiere observar: desarrollo técnico, igualdad de material, gestión de energía o capacidad para competir durante muchas horas."
+        ],
+        "sourceIds": [
+          "fe"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Resistencia y GT: compartir la pista sin disputar lo mismo",
+        "paragraphs": [
+          "En resistencia importa sostener rendimiento, fiabilidad y ejecución durante un periodo largo. Varios pilotos pueden compartir un mismo auto. En el WEC conviven Hypercar y LMGT3, con objetivos y vehículos distintos; una prueba concreta puede admitir además otras clases bajo su propia normativa. Los adelantamientos entre clases no significan necesariamente que dos autos estén disputando posición en la misma clasificación.",
+          "Los LMGT3 parten de modelos reconocibles de carretera profundamente preparados para competir. Hypercar reúne otra familia de vehículos y reglamentos. La gestión del tráfico es una habilidad central: el auto rápido debe pasar sin perder demasiado tiempo, mientras el más lento necesita proteger su propia carrera. Para elegir qué ver, probá un fin de semana de monoplazas y una carrera de resistencia. Seguí una clase y sus resultados antes de intentar leer toda la pista a la vez. El mapa se vuelve mucho más claro cuando cambia la pregunta que le hacés a cada competición."
+        ],
+        "sourceIds": [
+          "wec",
+          "gt"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "f2",
+        "title": "FIA Formula 2: reglas y formato",
+        "url": "https://www.fiaformula2.com/en/latest/article/the-regulations-f2.DyImndAsBNFcqYOOm4yWS"
+      },
+      {
+        "id": "gt",
+        "title": "FIA WEC: categoría LMGT3",
+        "url": "https://www.fiawec.com/en/news/la-categorie-lmgt3/8255"
+      },
+      {
+        "id": "pyramid",
+        "title": "FIA: la ruta de los monoplazas",
+        "url": "https://www.fia.com/news/single-seater-pathway-set-stellar-2025"
+      },
+      {
+        "id": "f2about",
+        "title": "FIA Formula 2: ubicación en la pirámide",
+        "url": "https://www.fiaformula2.com/en/information/about-the-fia-f2.56CCroShdFA6LJN0R2ssRo"
+      },
+      {
+        "id": "fe",
+        "title": "Formula E: explicación del campeonato",
+        "url": "https://www.fiaformulae.com/en/what-is-formula-e"
+      },
+      {
+        "id": "wec",
+        "title": "FIA WEC: categorías y participantes",
+        "url": "https://www.fiawec.com/en/page/awesome-competitors/13"
+      }
+    ],
+    "related": [
+      {
+        "label": "Cómo seguir una carrera de F1",
+        "href": "/articulos/como-funciona-formula-1"
+      }
+    ]
+  },
+  {
+    "slug": "combustible-f1-2026",
+    "title": "Qué combustible usa la F1 en 2026",
+    "description": "Gasolina sostenible avanzada, energía química, homologación y por qué sostenible no significa ausencia de CO₂ en el escape.",
+    "category": "Motor y combustible",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Temporada 2026",
+    "year": 2026,
+    "tags": [
+      "Motor y combustible",
+      "Intermedio",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "La F1 de 2026 sigue utilizando un motor de combustión, acompañado por un sistema eléctrico. Su combustible pertenece al marco de combustibles sostenibles avanzados de la FIA. Es una mezcla formulada y homologada para competir, no agua, electricidad líquida ni una sustancia única común a todos los proveedores.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "La función química sigue siendo alimentar la combustión",
+        "paragraphs": [
+          "El combustible almacena energía química que se libera al reaccionar con oxígeno. El motor convierte parte de esa energía en trabajo y rechaza otra parte como calor. Densidad, poder calorífico, evaporación y resistencia a la detonación influyen en cómo se puede utilizar. Sostenibilidad y calidad de combustión son dimensiones relacionadas por el proceso de producción, pero ninguna sustituye a la otra.",
+          "La unidad de potencia necesita una formulación compatible con sus condiciones de operación y con límites reglamentarios. No alcanza con elegir un producto que pueda arder. El proveedor y el fabricante trabajan sobre comportamiento del combustible y del motor, mientras la FIA comprueba la mezcla aprobada. La proporción exacta de ingredientes no se puede deducir de la marca del surtidor ni de una promesa comercial general."
+        ],
+        "sourceIds": [
+          "C",
+          "amr"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Qué significa sostenible avanzado",
+        "paragraphs": [
+          "La sección C16 exige componentes sostenibles avanzados, documentación y una evaluación de emisiones de gases de efecto invernadero respecto de una referencia fósil. Su marco contempla rutas de origen biológico y rutas renovables no biológicas, con condiciones sobre materias primas y producción. Una materia prima vegetal no es automáticamente admisible; origen, usos previos y cambios de uso del suelo importan.",
+          "Los e-fuels pueden elaborarse mediante rutas que combinan hidrógeno con una fuente de carbono, usando procesos y energía cuya procedencia determina el balance. Los biocombustibles avanzados pueden proceder de materias no alimentarias o residuos elegibles. La etiqueta de la F1 describe requisitos de los componentes y su certificación, no una obligación de que todos los suministradores utilicen idéntica tecnología. Hay que distinguir la familia reglamentaria de la receta particular."
+        ],
+        "sourceIds": [
+          "C",
+          "fuel"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "El escape y el ciclo de vida son cuentas diferentes",
+        "paragraphs": [
+          "Quemar un combustible que contiene carbono produce CO₂. La evaluación de sostenibilidad considera también cómo se obtuvo ese carbono y qué emisiones se generaron al producir y transportar el combustible. Un balance de ciclo de vida no equivale a medir cero CO₂ en el tubo de escape. Presentar ambos conceptos como sinónimos confunde el alcance de la reducción que se pretende.",
+          "La electricidad del proceso, el origen del hidrógeno, la materia prima y las fronteras del análisis pueden cambiar el resultado. Una afirmación de «100%» se refiere al cumplimiento del marco de combustible utilizado, no a que todo el campeonato tenga impacto ambiental nulo. Viajes, fabricación, logística y energía de instalaciones pertenecen a otras partidas. Las comunicaciones de proveedores deben leerse junto a esas condiciones, especialmente cuando comparan un combustible experimental con producción a gran escala."
+        ],
+        "sourceIds": [
+          "fuel",
+          "amr",
+          "changes"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "La energía importa más que contar litros",
+        "paragraphs": [
+          "Dos líquidos con distinta densidad o poder calorífico no contienen necesariamente la misma energía por litro. Para analizar consumo se usa E = m × PCI, donde m es masa y PCI el poder calorífico inferior. La potencia térmica disponible puede expresarse como flujo másico multiplicado por ese PCI. Es una relación física que permite comparar mezclas sin asumir que un volumen igual genera trabajo igual.",
+          "La regulación de 2026 utiliza límites de flujo de energía del combustible, además de condiciones de funcionamiento, medición y control. El sistema eléctrico introduce otros balances: energía recuperada, almacenada, perdida y entregada. Ahorrar combustible o despliegue en un sector puede permitir otra distribución después. Una vuelta eficiente no se explica mirando únicamente la potencia máxima del motor de combustión."
+        ],
+        "sourceIds": [
+          "C",
+          "engines"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Homologación y alcance de la transferencia a carretera",
+        "paragraphs": [
+          "La aprobación incluye análisis de muestras y comprobación de sostenibilidad de los componentes mediante el proceso establecido. Durante el uso se necesitan controles que relacionen el producto presente en el auto con la formulación autorizada. «Homologado» describe conformidad dentro de ese sistema; no convierte automáticamente al combustible en el mejor para cualquier motor ni permite modificarlo libremente a mitad de una competición.",
+          "La compatibilidad con tecnologías e infraestructuras existentes es uno de los atractivos de estas rutas. Sin embargo, compatibilidad, coste, disponibilidad y eficiencia de producción son preguntas distintas. Un combustible que funciona en competición puede requerir condiciones y especificaciones particulares para su uso comercial. La explicación precisa evita dos extremos: tratarlo como una solución mágica o negar su función por el hecho de que aún exista combustión. La comparación relevante exige decir qué se mide y con qué alternativa."
+        ],
+        "sourceIds": [
+          "C",
+          "amr",
+          "fuel"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "amr",
+        "title": "Aramco: combustible homologado para Aston Martin en 2026",
+        "url": "https://europe.aramco.com/en/news-media/news/2026/aramco-and-aston-martin-aramco-formula-one-team-reveal-new-livery-for-upcoming-f1-season"
+      },
+      {
+        "id": "fuel",
+        "title": "Aramco: rutas de producción de combustibles sintéticos y sostenibles",
+        "url": "https://www.aramco.com/en/about-us/our-brand/powered-by-how/synthetic-fuels"
+      },
+      {
+        "id": "changes",
+        "title": "Formula 1: los cambios de reglas de 2026",
+        "url": "https://www.formula1.com/en/latest/article/from-smaller-cars-to-a-bigger-budget-cap-12-rule-changes-you-need-to-know-in.56uUTFhB0z5j3iZfhC0rGP"
+      },
+      {
+        "id": "engines",
+        "title": "Formula 1: fundamentos de las unidades de potencia de 2026",
+        "url": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-new-f1-rules-for-2026.48bv0VTxhIlhrQXmxercXk"
+      }
+    ],
+    "related": [
+      {
+        "label": "Reglamento 2026",
+        "href": "/articulos/reglamento-f1-2026"
+      },
+      {
+        "label": "La era de los V6 híbridos",
+        "href": "/articulos/motores-v6-hibridos"
+      }
+    ]
+  },
+  {
+    "slug": "como-funciona-formula-1",
+    "title": "Tu primera carrera de F1: qué mirar y cómo entenderla",
+    "description": "Una guía para seguir entrenamientos, clasificación, estrategia, banderas y campeonato sin perderte entre los tiempos.",
+    "category": "Para empezar",
+    "kind": "explainer",
+    "level": "Inicial",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Para empezar",
+      "Inicial",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "La Fórmula 1 enfrenta a pilotos y equipos durante una temporada, pero cada carrera contiene varias competiciones a la vez: conseguir una buena salida, sostener un ritmo, cuidar los neumáticos y elegir cuándo entrar a boxes. Entender esas capas permite disfrutarla incluso cuando el auto más rápido no va primero.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Dos campeonatos, una misma pista",
+        "paragraphs": [
+          "Cada piloto suma puntos para su campeonato. El equipo reúne los de sus dos autos para el de constructores. Por eso un compañero puede ser simultáneamente referencia, rival y colaborador: ambos necesitan que la escudería funcione, aunque solo uno pueda terminar delante. La FIA establece las reglas; la organización comercial del campeonato gestiona otra parte del espectáculo. Las decisiones deportivas no se explican únicamente por lo que dice un comentarista.",
+          "Un constructor desarrolla el auto dentro de límites comunes. No todos usan el mismo chasis, y comprar una unidad de potencia a otro fabricante no convierte automáticamente a dos autos en idénticos. La combinación de ingeniería, operación y conducción importa. Para seguir una carrera conviene distinguir tres preguntas: quién lidera en pista, quién tiene mejores neumáticos y quién todavía debe realizar una parada."
+        ],
+        "sourceIds": [
+          "beginner",
+          "hub",
+          "A"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "El fin de semana prepara la carrera",
+        "paragraphs": [
+          "En un formato convencional hay entrenamientos libres antes de la clasificación y la carrera. Los libres sirven para probar ajustes, analizar degradación y comprobar el comportamiento con diferentes cargas de combustible. Un tiempo lento puede pertenecer a un auto cargado que ensaya una tanda larga. Comparar vueltas aisladas sin contexto suele producir conclusiones equivocadas.",
+          "La clasificación se divide en Q1, Q2 y Q3. Con 22 autos elegibles, seis quedan eliminados en cada uno de los dos primeros cortes y diez disputan Q3. Una penalización puede modificar después la parrilla. Los fines de semana Sprint añaden una carrera corta y su clasificación propia; no hay que interpretar ese resultado como la clasificación del Gran Premio. Consultar el programa del evento evita confundir sesiones que tienen objetivos distintos."
+        ],
+        "sourceIds": [
+          "B"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Los intervalos cuentan una historia distinta del orden",
+        "paragraphs": [
+          "La tabla de tiempos muestra normalmente diferencias respecto del líder o del auto anterior. Una diferencia que baja indica que alguien se acerca, pero no explica por sí sola por qué. Puede tener neumáticos más nuevos, encontrar pista libre o beneficiarse de que el rival gestiona energía. Mirá también la edad del juego, el compuesto y los sectores: la velocidad máxima es solo una parte de la vuelta.",
+          "Una parada cuesta tiempo, incluso si el cambio de ruedas dura pocos segundos: también se pierde al recorrer el pit lane. El undercut busca parar antes y aprovechar el rendimiento del neumático nuevo; el overcut consiste en quedarse fuera e intentar ganar tiempo antes de detenerse. Ninguno funciona siempre. Si el juego nuevo tarda en calentarse o devuelve al auto al tráfico, la ventaja esperada puede desaparecer."
+        ],
+        "sourceIds": [
+          "glossary"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Banderas, neutralizaciones y resultados",
+        "paragraphs": [
+          "La amarilla avisa de peligro y limita la acción en el sector afectado. La roja interrumpe la sesión. El Safety Car reúne a los autos detrás de un vehículo; el Virtual Safety Car exige respetar una referencia de tiempo sin formar necesariamente esa fila. Ambos alteran la estrategia porque cambian el coste relativo de una parada. La seguridad y los procedimientos de reanudación tienen prioridad sobre la batalla que se estaba viendo.",
+          "En una carrera completa, los diez primeros reciben 25, 18, 15, 12, 10, 8, 6, 4, 2 y 1 puntos; en la Sprint puntúan los ocho primeros, desde 8 hasta 1. Las carreras acortadas pueden tener otra escala. En 2026 no se concede el antiguo punto por vuelta rápida. La clasificación publicada puede cambiar tras una sanción: cruzar la meta y tener un resultado definitivo son momentos diferentes. Para empezar, seguí una batalla, sus neumáticos y sus paradas; después ampliá la mirada al campeonato."
+        ],
+        "sourceIds": [
+          "B",
+          "beginner",
+          "A"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "beginner",
+        "title": "Formula 1: guía para principiantes de 2026",
+        "url": "https://www.formula1.com/en/video/the-beginners-guide-to-formula-1-in-2026.1858661817555445986"
+      },
+      {
+        "id": "hub",
+        "title": "FIA: índice de reglamentos y revisiones",
+        "url": "https://www.fia.com/regulation/category/110"
+      },
+      {
+        "id": "B",
+        "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+      },
+      {
+        "id": "glossary",
+        "title": "Formula 1: glosario (sus datos estacionales pueden corresponder a ediciones anteriores)",
+        "url": "https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2"
+      },
+      {
+        "id": "A",
+        "title": "FIA: disposiciones generales 2026, sección A, Issue 03; puntos y campeonato",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_a_general_provisions_-_iss_03_-_2026-06-25.pdf"
+      }
+    ],
+    "related": [
+      {
+        "label": "Reglamento 2026 con detalle",
+        "href": "/articulos/reglamento-f1-2026"
+      },
+      {
+        "label": "Qué otras categorías existen",
+        "href": "/articulos/categorias-automovilismo-guia"
+      }
+    ]
+  },
+  {
+    "slug": "compuestos-neumaticos-f1",
+    "title": "Compuestos de neumáticos: por qué blando no significa siempre más rápido",
+    "description": "C1 a C5, colores relativos, temperatura, desgaste, graining y la diferencia entre material y estrategia.",
+    "category": "Neumáticos y pista",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Neumáticos y pista",
+      "Intermedio",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "El neumático transforma carga, temperatura y deslizamiento en fuerzas sobre la pista. Su compuesto no es una etiqueta de velocidad permanente: es una formulación que trabaja dentro de ciertas condiciones. En 2026 Pirelli utiliza cinco compuestos slick, C1 a C5, además de soluciones para lluvia. La receta exacta de cada uno no es pública.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "El número identifica la gama; el color, la elección del evento",
+        "paragraphs": [
+          "C1 es el extremo más duro de la gama y C5 el más blando. Para una prueba se seleccionan compuestos que reciben las denominaciones duro, medio y blando, con blanco, amarillo y rojo. La relación es local: si se eligen C2, C3 y C4, el C2 es el duro; si se eligen C1, C2 y C3, el mismo número C2 corresponde al medio. No conviene comparar dos colores de Grandes Premios diferentes como si garantizaran idéntica formulación.",
+          "Pirelli confirmó cinco compuestos para 2026 después de evaluar su desarrollo. Una guía que enumera C6 puede estar describiendo 2025. Los intermedios y de lluvia extrema constituyen opciones distintas, con dibujo para gestionar agua; no son simplemente un sexto y séptimo escalón de dureza del slick. La comparación requiere identificar especificación, estado y condiciones de uso."
+        ],
+        "sourceIds": [
+          "tyres",
+          "range"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Caucho, deformación y agarre",
+        "paragraphs": [
+          "Un compuesto de banda de rodadura combina elastómeros, cargas, agentes de curado y otros ingredientes. Su respuesta es viscoelástica: depende de temperatura y de la rapidez con la que se deforma. La interacción con las irregularidades del pavimento provoca deformación y disipación de energía; también intervienen mecanismos de adhesión en el contacto. No hay un único coeficiente de fricción que permanezca fijo durante toda una tanda.",
+          "«Más blando» es una descripción práctica dentro de la gama, no una especificación química suficiente. Dos formulaciones pueden diferir en respuesta térmica, resistencia al desgaste y comportamiento bajo deslizamiento. Sin datos públicos no corresponde asignar porcentajes de sílice, dureza Shore o temperatura óptima exacta a cada C. Es posible explicar el mecanismo físico sin inventar una receta confidencial ni confundirlo con la estructura interna completa del neumático."
+        ],
+        "sourceIds": [
+          "tyres",
+          "friction",
+          "rubber"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "La temperatura no se resume en un número",
+        "paragraphs": [
+          "Superficie, banda y estructura no tienen siempre la misma temperatura. Una rueda que desliza puede calentar rápidamente su superficie mientras otras zonas responden con más demora. La presión cambia con el estado térmico, y afecta la deformación del neumático. Las mediciones y prescripciones del evento establecen referencias concretas; un valor tomado en otro circuito no es una instrucción universal de funcionamiento.",
+          "El calentamiento combina trabajo en curvas, frenadas y aceleración, además de intercambios térmicos con el entorno y los componentes próximos. Un giro de preparación puede modificar el rendimiento de una vuelta rápida. Seguir otro auto cambia la aerodinámica y puede exigir más deslizamiento para doblar, de modo que una perturbación del aire termina afectando las ruedas. Gestionarlas requiere entender el conjunto del vehículo, no solamente elegir un color."
+        ],
+        "sourceIds": [
+          "B",
+          "glossary",
+          "rubber"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Desgaste y degradación son problemas diferentes",
+        "paragraphs": [
+          "El desgaste implica pérdida de material. La degradación es pérdida de prestaciones y puede tener componentes térmicas y mecánicas aun cuando quede banda. El graining se asocia a daño superficial y acumulaciones de goma que perjudican el contacto; el blistering produce ampollas o desprendimientos ligados a un exceso térmico. Son descripciones de daños observables, no una explicación completa de su causa en cada carrera.",
+          "No se puede diagnosticar solo con el tiempo de vuelta. Un piloto puede ir más lento por tráfico, batería, combustible, estrategia o daño ajeno al neumático. Para distinguirlos hacen falta contexto de tanda, observación y datos. Una fase de rendimiento que mejora tampoco demuestra que el material se haya regenerado: pueden cambiar temperaturas, carga de combustible o condiciones de pista."
+        ],
+        "sourceIds": [
+          "glossary"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "La estrategia utiliza un rendimiento que cambia",
+        "paragraphs": [
+          "Un blando puede ganar una vuelta y perder una tanda si requiere más paradas. El duro puede tardar demasiado en calentarse o trabajar mal en condiciones frías. La selección práctica evalúa ritmo, duración, preparación, tráfico y coste de detenerse. Las obligaciones de uso se consultan en el reglamento deportivo y en los documentos del evento, especialmente cuando hay lluvia o procedimientos excepcionales.",
+          "Un ejemplo hipotético ayuda: ganar tres décimas por vuelta durante veinte vueltas produce seis segundos, antes de considerar tráfico o degradación. Si utilizar ese juego obliga a una parada adicional de veinte segundos, la cuenta inicial no alcanza. El neumático no es «rápido» separado de una estrategia. Es rápido dentro de una secuencia de vueltas, temperaturas y decisiones que permite aprovechar sus características."
+        ],
+        "sourceIds": [
+          "B",
+          "range"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "tyres",
+        "title": "Pirelli: gama de neumáticos de Fórmula 1",
+        "url": "https://www.pirelli.com/tires/en-us/motorsport/car/formula-1"
+      },
+      {
+        "id": "range",
+        "title": "Pirelli: selección de los cinco compuestos de 2026",
+        "url": "https://press.pirelli.com/the-range-of-compounds-for-the-2026-season-has-been-set/"
+      },
+      {
+        "id": "friction",
+        "title": "FHWA: fundamentos y medición de fricción de pavimentos",
+        "url": "https://highways.fhwa.dot.gov/safety/rwd/keep-vehicles-road/pavement-friction/pavement-friction-road-safety-primer-friction"
+      },
+      {
+        "id": "B",
+        "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+      },
+      {
+        "id": "glossary",
+        "title": "Formula 1: glosario (sus datos estacionales pueden corresponder a ediciones anteriores)",
+        "url": "https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2"
+      },
+      {
+        "id": "rubber",
+        "title": "Persson (2006): fricción del caucho, viscoelasticidad y temperatura local",
+        "url": "https://arxiv.org/abs/cond-mat/0605273"
+      }
+    ],
+    "related": [
+      {
+        "label": "Asfalto y agarre",
+        "href": "/articulos/asfalto-agarre-circuitos"
+      },
+      {
+        "label": "Cómo funciona un fin de semana",
+        "href": "/articulos/como-funciona-formula-1"
+      }
+    ]
+  },
+  {
     "slug": "cooper-revolucion-motor-trasero",
     "title": "Cooper: el pequeño auto que cambió el tamaño de la Fórmula 1",
     "description": "Del taller de Surbiton al campeonato de Jack Brabham: cómo una solución práctica terminó desplazando a los grandes autos de motor delantero.",
@@ -3124,6 +3700,133 @@
     },
     "year": 1977,
     "tags": []
+  },
+  {
+    "slug": "endplates-alerones-f1",
+    "title": "Endplates: el alerón también termina por los costados",
+    "description": "Cómo las placas laterales modifican la fuga de presión, los vórtices de punta y la interacción con el resto del auto.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Avanzado",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Avanzado",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "Un perfil dibujado en dos dimensiones parece extenderse para siempre. Un alerón real termina. En sus extremos, las diferencias de presión impulsan movimientos laterales y cambian el campo de velocidades. Los endplates intervienen en ese problema tridimensional: son superficies aerodinámicas, además de posibles conexiones estructurales.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Qué cambia cuando el ala tiene extremos",
+        "paragraphs": [
+          "En un ala finita, el flujo de la cara de mayor presión tiende a rodear el extremo hacia la de menor presión. La estela desarrolla estructuras vorticosas y modifica la dirección del flujo que ve cada sección. En un alerón invertido hay que conservar una convención coherente de signos: copiar las flechas de un ala de avión sin invertir la orientación puede confundir la explicación.",
+          "El resultado no depende solo del perfil central. La distribución de carga a lo largo de la envergadura, la geometría del extremo y la posición relativa de otras superficies importan. Los estudios de alas finitas describen cómo los efectos de punta cambian un flujo que parecería bidimensional. Una sección excelente en túnel entre paredes puede perder parte de su ventaja cuando se instala como ala corta con extremos libres."
+        ],
+        "sourceIds": [
+          "tips",
+          "gurney"
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/endplates.svg",
+          "alt": "Ala finita con placas laterales en sus dos extremos.",
+          "caption": "Esquema conceptual de Telemetry One. No está a escala ni representa una simulación o una geometría reglamentaria de 2026."
+        }
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Una barrera modifica la fuga, no elimina toda la estela",
+        "paragraphs": [
+          "La placa lateral dificulta algunos recorridos de flujo entre caras y puede aumentar la carga útil del conjunto. Su altura, borde de entrada y continuidad con los perfiles alteran dónde se forman y cómo se organizan las estructuras vorticosas. No crea un ala infinitamente larga ni elimina de forma universal toda resistencia inducida. La placa tiene su propia fricción, presión, encuentros y posibles separaciones.",
+          "Un endplate grande puede contener mejor una región y presentar más superficie al flujo. Por eso el tamaño no es un indicador directo de rendimiento. Hay que evaluar carga y resistencia del ensamblaje, además de las perturbaciones que entrega aguas abajo. Hablar de «sellar» el extremo es una aproximación útil si se explica qué fuga se intenta limitar; interpretarlo como una junta hermética entre dos presiones no describe un flujo externo real."
+        ],
+        "sourceIds": [
+          "tips",
+          "drag"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Efecto suelo: el extremo cambia con la altura",
+        "paragraphs": [
+          "Cerca de la pista, el campo de flujo y los vórtices interactúan con el suelo. Los ensayos de alas invertidas en efecto suelo muestran que la respuesta a bajar el ala tiene distintos regímenes. En cierto rango puede aumentar carga; a alturas menores, separación y cambios de estructuras vorticosas pueden degradarla. El endplate participa en esa interacción, y no debe analizarse separado de la altura de marcha.",
+          "Para comprobar una hipótesis en túnel hace falta representar correctamente el movimiento relativo de la pista y controlar las condiciones del modelo. Un suelo fijo con una capa límite no tratada puede dar un resultado diferente al de un suelo móvil. La cuestión no es que un método sea siempre inútil: hay que identificar qué fenómeno puede medir y dónde introduce una discrepancia. Esa información debe acompañar cualquier gráfica de carga frente a altura."
+        ],
+        "sourceIds": [
+          "ground"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "El delantero administra el aire que recibe el auto",
+        "paragraphs": [
+          "El alerón delantero se encuentra con las ruedas y entrega una estela al piso, suspensión y carrocería. Sus extremos ayudan a configurar ese flujo dentro de los límites legales. Una modificación puede aumentar carga delantera y simultáneamente empeorar lo que recibe otra pieza. En el ala trasera, las condiciones de llegada ya incluyen perturbaciones del auto; no son las del flujo uniforme de un ensayo de perfil aislado.",
+          "Los endplates de diferentes épocas de F1 no deben presentarse como soluciones intercambiables. La normativa cambia volúmenes, conexiones, cortes y superficies permitidas. Un diseño antiguo con múltiples ranuras puede resultar instructivo para estudiar flujos, pero no demuestra qué se puede fabricar en 2026. Primero se define el objetivo físico; después se comprueba qué geometrías permite la edición aplicable del reglamento."
+        ],
+        "sourceIds": [
+          "C",
+          "gurneycar"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Cómo evaluar una modificación",
+        "paragraphs": [
+          "Un ensayo útil compara configuraciones con la misma referencia de área, coordenadas y condiciones de flujo. Registra fuerzas y momentos, no solo líneas de pintura sobre la superficie. La visualización permite localizar separación y dirección de flujo; por sí sola no mide la fuerza total. La simulación requiere comprobar sensibilidad de malla, modelos y condiciones de contorno, y contrastar resultados cuando existe evidencia experimental.",
+          "El objetivo es un mapa de funcionamiento: alturas, guiñada, cabeceo y estados de las superficies móviles. En un auto completo importa que el balance no cambie abruptamente durante frenadas o al seguir a otro vehículo. Una placa lateral puede aportar carga máxima, robustez o una estela más conveniente, a veces a costa de resistencia. La forma correcta de juzgarla es preguntar qué función cumple en ese conjunto y qué medidas sostienen la respuesta."
+        ],
+        "sourceIds": [
+          "ground",
+          "gurneycar",
+          "drag"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "tips",
+        "title": "Zhang y colaboradores (2019): flujos tridimensionales y efectos de punta en alas finitas",
+        "url": "https://arxiv.org/abs/1909.04729"
+      },
+      {
+        "id": "gurney",
+        "title": "Kobayashi, Takakura y Takagi (2013): ensayos 2D y 3D de Gurney flaps",
+        "url": "https://www.jstage.jst.go.jp/article/nctam/61/0/61_113/_article"
+      },
+      {
+        "id": "drag",
+        "title": "NASA Glenn: coeficiente de resistencia",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+      },
+      {
+        "id": "ground",
+        "title": "Zerihan (2001): investigación experimental y computacional de alas en efecto suelo",
+        "url": "https://eprints.soton.ac.uk/426058/"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "gurneycar",
+        "title": "Estudio CFD (2021): Gurney delantero e interacción con componentes del auto",
+        "url": "https://www.mdpi.com/1996-1073/14/8/2059"
+      }
+    ],
+    "related": [
+      {
+        "label": "Gurney flaps",
+        "href": "/articulos/gurney-flaps-aerodinamica"
+      },
+      {
+        "label": "Aerodinámica desde sus fundamentos",
+        "href": "/articulos/por-que-forma-auto-f1"
+      }
+    ]
   },
   {
     "slug": "f-duct-das-fronteras-reglamento",
@@ -4524,6 +5227,156 @@
       "caption": "Ferdinando Minoia en 1931, el año en que ganó el primer Campeonato Europeo de Pilotos.",
       "alt": "Ferdinando Minoia en 1931, el año en que ganó el primer Campeonato Europeo de Pilotos."
     }
+  },
+  {
+    "slug": "gurney-flaps-aerodinamica",
+    "title": "Gurney flaps: cómo unos milímetros cambian un alerón",
+    "description": "Una explicación avanzada de presión, circulación, estela, capa límite y compromiso entre carga y resistencia.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Avanzado",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Avanzado",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "Un Gurney flap es una pequeña pestaña situada normalmente cerca del borde de salida, aproximadamente perpendicular a la cara de presión del perfil. En un alerón invertido esa cara puede ser la superior. Su escala es pequeña; su influencia no se limita al área de material añadida. Para entenderlo hay que examinar el campo de presión de todo el perfil y su estela.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Medir la pestaña respecto de la cuerda",
+        "paragraphs": [
+          "La altura absoluta h dice poco sin la cuerda c. Una pestaña de 3 mm en un perfil de 300 mm tiene h/c = 0,01, es decir, un 1%. Esa relación es un parámetro útil para describir geometría; no constituye una altura óptima universal. Importan además espesor, posición, orientación, borde de salida y existencia de otros elementos.",
+          "La escala dinámica incluye Reynolds, Re = ρVc/μ, y la relación entre altura y espesor de capa límite. Dos alas con el mismo h/c pueden responder de manera diferente si cambia el régimen de flujo o el estado de la capa límite. Una prueba pequeña que conserva la forma pero cambia demasiado Reynolds no reproduce necesariamente separación y resistencia a escala real. La semejanza geométrica es una condición de comparación, no una garantía de equivalencia aerodinámica."
+        ],
+        "sourceIds": [
+          "gurney",
+          "boundary"
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/gurney.svg",
+          "alt": "Perfil invertido con Gurney sobre la cara de presión; dimensiones h y c.",
+          "caption": "Esquema conceptual de Telemetry One. No está a escala ni representa una simulación o una geometría reglamentaria de 2026."
+        }
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Cambiar la salida modifica el resto del perfil",
+        "paragraphs": [
+          "La pestaña crea una región de presión y recirculación en su entorno y altera la dirección media del flujo que abandona el borde de salida. El efecto puede interpretarse como un cambio de curvatura aerodinámica efectiva, aunque la superficie principal siga físicamente igual. Se modifica la distribución de presión, y con ella la carga integrada, no solo la fuerza que actúa directamente sobre la pestaña.",
+          "Las visualizaciones clásicas muestran estructuras de recirculación y desprendimiento vorticoso. El dibujo de dos vórtices cerca del borde sirve como representación cualitativa del flujo medio; no describe dos remolinos perfectamente inmóviles en todas las condiciones. La estela real puede ser oscilante y tridimensional. Los ensayos en agua de Neuhart y Pendergraft ayudan a visualizar el mecanismo, pero su Reynolds mucho menor exige cuidado al trasladar posiciones de separación o magnitudes a un alerón de competición."
+        ],
+        "sourceIds": [
+          "water",
+          "gurneywake"
+        ]
+      },
+      {
+        "id": "coeficientes-presion-momento",
+        "title": "Presión, circulación y momento: qué medir",
+        "paragraphs": [
+          "El coeficiente de presión se define como Cp = (p − p∞)/(½ρV∞²). Comparar Cp a lo largo de ambas caras permite localizar cómo cambia la carga con la pestaña. Integrar esa distribución, con la orientación de cada superficie, aporta fuerzas y momentos. El coeficiente de momento suele normalizarse mediante qSc, con q = ½ρV∞². Declarar el punto de referencia es indispensable: moverlo cambia el momento informado aunque la fuerza resultante sea idéntica.",
+          "La relación bidimensional de Kutta–Joukowski, L′ = ρV∞Γ, conecta la fuerza por unidad de envergadura con la circulación Γ dentro de su marco ideal. La circulación es una integral del campo de velocidades, no una rueda material de aire pegada al perfil. El Gurney modifica las condiciones del borde de salida y el campo completo; la imagen de curvatura efectiva ayuda a interpretar esa modificación, pero para obtener valores de resistencia y separación hay que incluir efectos viscosos.",
+          "Una ganancia de carga puede venir acompañada de un cambio de momento. Eso tiene consecuencias sobre balance y cargas estructurales, y sobre la interacción con otros elementos. La comparación completa registra Cl, Cd y Cm con referencias iguales. Publicar únicamente el máximo Cl puede ocultar un coste relevante: la configuración que gana apoyo también puede desplazar su centro de presión o volver más brusca la respuesta alrededor de una condición de marcha."
+        ],
+        "sourceIds": [
+          "tabs",
+          "gurney",
+          "lift"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "La polar decide si la ganancia interesa",
+        "paragraphs": [
+          "Una polar relaciona carga y resistencia para distintas condiciones. Comparar dos configuraciones a igual ángulo puede mostrar más carga con Gurney y más resistencia. El problema de diseño puede ser otro: obtener la misma carga usando menos incidencia. En ese caso, la comparación correcta requiere buscar puntos equivalentes de fuerza, no conservar arbitrariamente el ángulo.",
+          "Supongamos dos configuraciones hipotéticas: A entrega 1.000 N de carga y 100 N de resistencia; B entrega 1.100 N y 125 N. La relación carga/resistencia pasa de 10 a 8,8. B tiene más carga, pero menor eficiencia en esos puntos. Eso no demuestra que sea peor para una vuelta: quizás la pista premie esa fuerza adicional. El ejemplo ilustra por qué «aumenta downforce» y «mejora rendimiento» son afirmaciones distintas que necesitan métricas y condiciones."
+        ],
+        "sourceIds": [
+          "gurney"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Una altura mayor no es siempre una solución mejor",
+        "paragraphs": [
+          "Al aumentar h suele reforzarse la modificación del flujo, pero también crecen pérdidas y resistencia asociadas. El comportamiento cerca de separación y pérdida depende del perfil y de si la prueba es bidimensional o tiene extremos libres. Los experimentos de Kobayashi y colaboradores comparan precisamente esas diferencias: los resultados de un perfil entre paredes no deben leerse como si fueran los de un ala finita en un auto.",
+          "En configuraciones multielemento, una pestaña en el elemento principal puede modificar cómo llega el flujo al siguiente. Ross y colaboradores encontraron beneficios ligados a la distribución de presión y a la separación del flap en la geometría estudiada. Eso explica un resultado de ensayo; no establece que cualquier pestaña reate cualquier flujo separado. Gap, solapamiento e incidencia forman parte del mecanismo. Trasladar un porcentaje publicado a otro alerón sin esas condiciones produce falsa precisión."
+        ],
+        "sourceIds": [
+          "gurney",
+          "tabs"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Del perfil al auto completo",
+        "paragraphs": [
+          "En un F1 el ala trabaja con ruedas, suspensión, suelo y otras superficies. Una variación que mejora su carga aislada puede cambiar la alimentación del piso o desplazar el balance entre ejes. Un estudio CFD abierto sobre un alerón delantero subraya esas interacciones y aclara que su geometría de investigación no reproduce el último auto de un equipo. Esa distinción entre modelo académico y diseño industrial es parte del resultado.",
+          "Para una evaluación avanzada conviene construir un mapa de carga y resistencia frente a altura, cabeceo y guiñada, además de la incidencia. Hay que observar fuerzas en el auto completo, balance aerodinámico y estabilidad de la estela. Después se compara con un objetivo de vuelta o de uso del neumático. Un Gurney se elige por el compromiso que ofrece dentro de ese mapa y por su legalidad en la zona correspondiente. La regla de ingeniería no es «añadir milímetros»: es identificar qué problema resuelven y qué problema nuevo introducen."
+        ],
+        "sourceIds": [
+          "gurneycar",
+          "C"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "gurney",
+        "title": "Kobayashi, Takakura y Takagi (2013): ensayos 2D y 3D de Gurney flaps",
+        "url": "https://www.jstage.jst.go.jp/article/nctam/61/0/61_113/_article"
+      },
+      {
+        "id": "boundary",
+        "title": "NASA Glenn: capa límite",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/"
+      },
+      {
+        "id": "water",
+        "title": "Neuhart y Pendergraft (1988), NASA TM-4071: visualización de Gurney flaps en túnel de agua",
+        "url": "https://ntrs.nasa.gov/citations/19890004024"
+      },
+      {
+        "id": "gurneywake",
+        "title": "Sims-Williams, White y Dominy (1999): inestacionariedad aerodinámica del Gurney flap",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1046/j.1460-2687.1999.00035.x"
+      },
+      {
+        "id": "tabs",
+        "title": "Ross, Storms y Carrannanto (1995): pestañas en perfiles multielemento",
+        "url": "https://ntrs.nasa.gov/citations/19970028123"
+      },
+      {
+        "id": "gurneycar",
+        "title": "Estudio CFD (2021): Gurney delantero e interacción con componentes del auto",
+        "url": "https://www.mdpi.com/1996-1073/14/8/2059"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "lift",
+        "title": "NASA Glenn: ecuación de sustentación y referencias de fuerza",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+      }
+    ],
+    "related": [
+      {
+        "label": "La forma de un F1",
+        "href": "/articulos/por-que-forma-auto-f1"
+      },
+      {
+        "label": "Endplates y flujo tridimensional",
+        "href": "/articulos/endplates-alerones-f1"
+      }
+    ]
   },
   {
     "slug": "lancia-d50",
@@ -8567,6 +9420,138 @@
     }
   },
   {
+    "slug": "por-que-forma-auto-f1",
+    "title": "Por qué un Fórmula 1 tiene esa forma",
+    "description": "Bernoulli, Venturi, Coandă y capa límite explicados como partes de un flujo real: carga, resistencia, refrigeración y estabilidad.",
+    "category": "Aerodinámica",
+    "kind": "explainer",
+    "level": "Intermedio",
+    "reviewedOn": "2026-10-09",
+    "period": "Fundamentos",
+    "year": 2026,
+    "tags": [
+      "Aerodinámica",
+      "Intermedio",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "La forma de un Fórmula 1 intenta hacer varias cosas a la vez: apoyar los neumáticos contra el suelo, reducir pérdidas en recta, enfriar componentes y gestionar el aire que llega a cada pieza. No existe un único principio que explique todo. Presión, cantidad de movimiento, viscosidad y reglamento actúan juntos.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "La carga se obtiene del campo de presiones",
+        "paragraphs": [
+          "La fuerza aerodinámica resulta de integrar presión y esfuerzos viscosos sobre las superficies. Para describir carga vertical se usa una forma de la ecuación L = ½ρV²SCₗ. En un ala que produce apoyo hacia el suelo, el signo depende de la convención elegida. La densidad ρ, velocidad V, área de referencia S y coeficiente Cₗ deben declararse para comparar resultados.",
+          "Si velocidad y configuración fueran las únicas variables, pasar de 100 a 150 unidades de velocidad multiplicaría la fuerza por 2,25. Es un ejemplo matemático, no una predicción de un auto concreto: el coeficiente cambia con altura, ángulo, deformación y flujo. La carga permite generar más fuerza en los neumáticos, pero no añade masa inercial en la misma proporción. Tampoco aumenta el agarre ilimitadamente; el neumático tiene sensibilidad a la carga y una ventana térmica."
+        ],
+        "sourceIds": [
+          "lift"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Bernoulli y Newton describen el mismo problema",
+        "paragraphs": [
+          "Para un flujo ideal, estacionario e incompresible, a lo largo de una línea de corriente, Bernoulli relaciona p + ½ρV² + ρgz. A alturas parecidas, mayor velocidad puede corresponder a menor presión. Las hipótesis son esenciales: pérdidas viscosas, separación y compresibilidad impiden trasladar esa igualdad sin examen a cualquier punto del auto.",
+          "Newton aporta la lectura del balance de cantidad de movimiento: al cambiar la dirección del flujo se necesita una fuerza. La presión es parte del mecanismo que produce ese cambio. No son explicaciones rivales. Tampoco existe una obligación de que dos partículas separadas delante del ala vuelvan a encontrarse detrás al mismo tiempo. Esa historia del «camino más largo» no determina correctamente la sustentación y conduce a conclusiones erróneas sobre perfiles simétricos o invertidos."
+        ],
+        "sourceIds": [
+          "bernoulli"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Venturi, suelo y difusor",
+        "paragraphs": [
+          "En un conducto ideal, continuidad y Bernoulli relacionan la reducción de área, el aumento de velocidad y la caída de presión. El suelo de un auto utiliza una interacción con la pista que recuerda ese mecanismo, pero está abierto lateralmente, recibe aire perturbado y cambia de altura. Describirlo como un tubo Venturi perfecto omite esas condiciones.",
+          "El difusor participa en la recuperación de presión aguas abajo. Su expansión debe permitir que el flujo soporte el gradiente adverso sin una separación excesiva. Acercar el auto al suelo puede aumentar carga en parte del rango y reducirla fuera de él; no hay una mejora monotónica garantizada. La suspensión y el cabeceo convierten la geometría estática en una geometría cambiante. Un diseño potente pero muy sensible puede ser difícil de utilizar sobre baches o durante frenadas."
+        ],
+        "sourceIds": [
+          "ground",
+          "boundary"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "Coandă y capa límite: cuándo el aire sigue la superficie",
+        "paragraphs": [
+          "El efecto Coandă se asocia a la tendencia de un chorro a seguir una superficie cercana bajo ciertas condiciones, con entrainment y un campo de presión que curva el flujo. Usar su nombre para afirmar que todo aire se pega a cualquier curva es incorrecto. Una superficie demasiado exigente puede perder el flujo adherido. La curvatura exige un gradiente de presión compatible con el movimiento; nombrar el fenómeno no calcula ese gradiente.",
+          "Por viscosidad, junto a la superficie aparece una capa límite donde la velocidad pasa de la condición de no deslizamiento al flujo exterior. Su espesor, transición y energía condicionan la separación. Una capa turbulenta suele tener más intercambio de cantidad de movimiento cerca de la pared y puede soportar ciertos gradientes adversos mejor, a costa de fricción mayor. «Turbulento» no significa automáticamente inútil. El estado y la posición de esa turbulencia importan."
+        ],
+        "sourceIds": [
+          "boundary",
+          "bernoulli",
+          "coanda"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Alas, ruedas y refrigeración negocian entre sí",
+        "paragraphs": [
+          "Las ruedas expuestas generan estelas complejas. El alerón delantero recibe ese problema y entrega condiciones de flujo al resto del auto; sus extremos no sirven únicamente como soporte. Los pontones alojan refrigeración y participan en el recorrido del aire hacia el suelo y la parte trasera. Reducir una entrada de aire puede mejorar una zona aerodinámica y perjudicar la temperatura de un componente.",
+          "La resistencia se expresa con D = ½ρV²SCd, siempre indicando el área de referencia. Más carga no equivale automáticamente a mejor tiempo de vuelta: la ganancia en curvas debe compensar pérdidas en rectas y efectos sobre neumáticos y energía. En 2026 la aerodinámica activa añade configuraciones autorizadas a esa negociación. La forma visible es el resultado de compromisos físicos y reglamentarios; no una demostración decorativa de cuatro teoremas aislados."
+        ],
+        "sourceIds": [
+          "drag",
+          "terms",
+          "C"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "lift",
+        "title": "NASA Glenn: ecuación de sustentación",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/lift-equation/"
+      },
+      {
+        "id": "bernoulli",
+        "title": "NASA Glenn: Bernoulli y Newton",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/bernoulli-and-newton/"
+      },
+      {
+        "id": "ground",
+        "title": "Zerihan (2001): investigación experimental y computacional de alas en efecto suelo",
+        "url": "https://eprints.soton.ac.uk/426058/"
+      },
+      {
+        "id": "boundary",
+        "title": "NASA Glenn: capa límite",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/boundary-layer/"
+      },
+      {
+        "id": "drag",
+        "title": "NASA Glenn: coeficiente de resistencia",
+        "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-coefficient/"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "coanda",
+        "title": "NASA: aerodinámica del control de circulación y chorros sobre superficies curvas",
+        "url": "https://ntrs.nasa.gov/citations/19820012274"
+      }
+    ],
+    "related": [
+      {
+        "label": "Gurney flaps en detalle",
+        "href": "/articulos/gurney-flaps-aerodinamica"
+      },
+      {
+        "label": "Cómo trabajan los endplates",
+        "href": "/articulos/endplates-alerones-f1"
+      }
+    ]
+  },
+  {
     "slug": "red-bull-rb11",
     "title": "Red Bull RB11: el camuflaje no pudo esconder una temporada difícil",
     "description": "El coche de 2015 vivió una etapa de dificultades híbridas y dejó una de las decoraciones de pruebas más recordadas.",
@@ -8824,6 +9809,168 @@
       "caption": "Sebastian Vettel con el Red Bull RB6 durante los entrenamientos del Gran Premio de Baréin de 2010.",
       "alt": "Sebastian Vettel con el Red Bull RB6 durante los entrenamientos del Gran Premio de Baréin de 2010."
     }
+  },
+  {
+    "slug": "reglamento-f1-2026",
+    "title": "El reglamento de F1 en 2026: geometría, energía y límites de desarrollo",
+    "description": "Una lectura técnica de las reglas vigentes: aerodinámica activa, unidades de potencia, masa, controles, formato deportivo y recursos.",
+    "category": "Reglamento",
+    "kind": "explainer",
+    "level": "Avanzado",
+    "reviewedOn": "2026-10-09",
+    "period": "Temporada 2026",
+    "year": 2026,
+    "tags": [
+      "Reglamento",
+      "Avanzado",
+      "explicación",
+      "técnica"
+    ],
+    "lead": "El reglamento no describe un auto terminado: delimita un espacio de soluciones. Para entender la F1 de 2026 hay que leer simultáneamente geometría, energía, procedimientos de competición y límites de recursos. Esta guía se revisó el 9 de octubre de 2026 con la sección técnica C, Issue 20, y las revisiones deportivas y operacionales publicadas por la FIA; no aplica las cifras iniciales de presentación como si todas siguieran intactas.",
+    "sections": [
+      {
+        "id": "capitulo-1",
+        "title": "Cómo leer las seis secciones",
+        "paragraphs": [
+          "La sección A reúne disposiciones generales; B regula la competición; C define los autos; D limita y controla costes de equipos; E trata las finanzas de fabricantes de unidades de potencia; F organiza restricciones operacionales. La división importa porque una solución puede ser geométricamente admisible y aun así incumplir un procedimiento de uso, una limitación de ensayos o una obligación de declaración. Leer solo el capítulo aerodinámico deja fuera buena parte del sistema.",
+          "Las ediciones tienen fechas e historial de cambios. La Issue 20 de C está fechada el 5 de agosto, aunque el índice de la FIA la muestra entre publicaciones de octubre. El texto distingue reglas vinculantes de comentarios explicativos y remite a documentos complementarios. Una cifra en una nota orientativa no tiene automáticamente la misma función que un requisito. Ante una comparación entre dos versiones, hay que verificar fecha, ámbito y condición de aplicación, no solo localizar el número que cambió."
+        ],
+        "sourceIds": [
+          "hub",
+          "C"
+        ]
+      },
+      {
+        "id": "capitulo-2",
+        "title": "Geometría y masa: la definición pesa tanto como el número",
+        "paragraphs": [
+          "La batalla máxima es de 3.400 mm en la configuración de comprobación reglamentaria. La carrocería se organiza mediante sistemas de coordenadas, superficies y volúmenes de referencia. Eso permite imponer condiciones diferentes a cada zona en lugar de reducir el auto a una caja rectangular. Un ala puede cumplir una dimensión general y fallar una sección local o una continuidad exigida.",
+          "La masa mínima de C4.1 tampoco es una cifra única e incondicional: es 726 kg más la masa nominal de neumáticos durante las clasificaciones, y 724 kg más esa masa en las demás sesiones. Existen condiciones adicionales, como las asociadas al riesgo térmico. Por eso «pesa 768 kg» resulta insuficiente como descripción técnica de la revisión consultada. Para auditar una afirmación hay que especificar sesión, definición de masa, neumáticos de referencia y condiciones extraordinarias. El combustible no se debe mezclar sin explicación con la masa reglamentaria de comprobación."
+        ],
+        "sourceIds": [
+          "C"
+        ]
+      },
+      {
+        "id": "capitulo-3",
+        "title": "Aerodinámica activa y autorización de uso",
+        "paragraphs": [
+          "En 2026 se permite variar elementos del ala delantera y trasera dentro de mecanismos, posiciones y zonas definidos. El objetivo operativo es combinar una configuración que favorezca el paso por curva con otra de menor resistencia en tramos autorizados. Esto sustituye el papel del anterior DRS; no equivale a liberar cualquier superficie móvil ni a introducir suspensión activa.",
+          "Conviene separar la forma legal del mecanismo de su uso durante una sesión. La sección técnica describe el dispositivo; la deportiva establece su activación y condiciones. La asistencia eléctrica para adelantar pertenece a otra capa. Un auto puede beneficiarse de menor resistencia sin estar usando en ese momento el recurso de adelantamiento eléctrico. La nomenclatura comercial simplifica la narración, pero para comprender una sanción hay que volver al artículo y al documento del evento que regulan la acción concreta."
+        ],
+        "sourceIds": [
+          "terms",
+          "changes",
+          "B"
+        ]
+      },
+      {
+        "id": "capitulo-4",
+        "title": "La unidad de potencia es un balance de energía",
+        "paragraphs": [
+          "La arquitectura mantiene un V6 turbo de 1,6 litros y una recuperación eléctrica centrada en el MGU-K; el MGU-H de la generación anterior desaparece. El máximo eléctrico no debe interpretarse como potencia permanente disponible en cualquier punto. Intervienen velocidad, estado de carga, recuperación y condiciones autorizadas para adelantar. Una comparación de potencia máxima oculta la cuestión decisiva: cuánto tiempo puede mantenerse y dónde conviene usarla.",
+          "La diferencia entre potencia y energía puede ilustrarse sin atribuir datos a un equipo. Si un sistema hipotético entregara 300 kW durante diez segundos, utilizaría 3 MJ antes de considerar pérdidas: E = P × t. Dos mapas con el mismo máximo pueden producir vueltas muy diferentes si concentran el despliegue en tramos distintos. Frenar, recuperar, alimentar el motor eléctrico y reducir resistencia deben coordinarse. El rendimiento surge de la trayectoria completa de esos flujos, no de sumar dos cifras máximas como si siempre coincidieran."
+        ],
+        "sourceIds": [
+          "engines",
+          "terms"
+        ]
+      },
+      {
+        "id": "potencia-energia-limites",
+        "title": "Potencia eléctrica, recuperación y flujo de combustible",
+        "paragraphs": [
+          "C5.2 fija un máximo absoluto de potencia eléctrica de corriente continua del ERS-K de 350 kW. Además existen curvas de potencia permitida frente a velocidad: sin Overtake, en el tramo inferior a 340 km/h, el límite de esa curva es P = 1.800 − 5v, con P en kW y v en km/h. Es una restricción adicional al máximo absoluto. Por ejemplo, a 300 km/h esa expresión da 300 kW; no significa que el auto entregue necesariamente esa potencia. Con Overtake se aplica otra curva, y hay restricciones específicas por sectores y condiciones de sesión.",
+          "La diferencia máxima de estado de carga del almacenamiento es de 4 MJ. La recuperación tiene un límite general de 8,5 MJ por vuelta, con reducciones y condiciones que dependen del circuito y de la sesión. No es lo mismo energía recuperada que variación neta de energía almacenada: durante la vuelta el sistema puede cargar y descargar. Confundir ambos conceptos produce una aparente contradicción entre cifras que describen magnitudes diferentes.",
+          "El flujo de energía del combustible está limitado a 3.000 MJ/h, con una curva distinta por debajo de 10.500 rpm y condiciones a carga parcial. Los medidores y el poder calorífico permiten relacionar flujo másico con flujo energético. Como ejemplo dimensional, 3.000 MJ/h equivalen aproximadamente a 833 kW de entrada química; no son 833 kW mecánicos disponibles en el cigüeñal. La eficiencia de conversión separa ambos valores. Los artículos C5.2 y B7.2, junto a los documentos del evento, deben consultarse combinados para interpretar una estrategia concreta."
+        ],
+        "sourceIds": [
+          "C",
+          "B"
+        ]
+      },
+      {
+        "id": "capitulo-5",
+        "title": "Controles, homologación y seguridad",
+        "paragraphs": [
+          "La regulación exige comprobaciones de estructura, protección del piloto y sistemas de seguridad, además de mecanismos para verificar conformidad. La homologación de un componente no es una aprobación abstracta del rendimiento: identifica una especificación y unas condiciones que deben mantenerse o cambiar mediante el proceso autorizado. Las comprobaciones de flexibilidad examinan cómo responde una pieza a cargas definidas; una foto estática no permite decidir por sí sola si es legal.",
+          "La misma lógica se aplica a electrónica y medición. Un control necesita señales verificables, versiones de software y referencias reproducibles. Desde el punto de vista de ingeniería, la incertidumbre de medida y la repetibilidad importan tanto como la cifra nominal. Si alguien afirma que una pieza «supera el límite», el análisis serio pide saber qué ensayo se hizo, en qué configuración, con qué instrumentos y respecto de qué revisión. Una imagen llamativa puede motivar la pregunta; no reemplaza esa evidencia."
+        ],
+        "sourceIds": [
+          "C",
+          "hub"
+        ]
+      },
+      {
+        "id": "capitulo-6",
+        "title": "Reglas deportivas y recursos: las otras restricciones",
+        "paragraphs": [
+          "La sección B fija sesiones, parrilla, procedimientos, neutralizaciones, neumáticos y sanciones. Con 22 autos elegibles, Q1 y Q2 eliminan seis cada una. En carrera, parc fermé y los procedimientos de reparación condicionan qué puede modificarse y cuándo. Una excepción autorizada no debe convertirse en una libertad general. Las notas del evento completan aspectos operativos que dependen de cada circuito.",
+          "El límite financiero de D parte de 215 millones de dólares para hasta 24 competiciones, sujeto a indexación y reglas contables; no representa todo el dinero que una organización puede gastar. F limita ensayos aerodinámicos mediante una escala: el primer puesto tiene un coeficiente del 70% de la referencia y el décimo o un equipo nuevo, del 115%. Esos porcentajes no son una medida de calidad del túnel. El conjunto obliga a elegir qué hipótesis estudiar, qué actualizar y cuándo asumir un riesgo. Entender el reglamento significa seguir esas decisiones, además de medir el auto."
+        ],
+        "sourceIds": [
+          "B",
+          "D",
+          "F"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "hub",
+        "title": "FIA: índice de reglamentos y revisiones",
+        "url": "https://www.fia.com/regulation/category/110"
+      },
+      {
+        "id": "C",
+        "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+      },
+      {
+        "id": "terms",
+        "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+        "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+      },
+      {
+        "id": "changes",
+        "title": "Formula 1: los cambios de reglas de 2026",
+        "url": "https://www.formula1.com/en/latest/article/from-smaller-cars-to-a-bigger-budget-cap-12-rule-changes-you-need-to-know-in.56uUTFhB0z5j3iZfhC0rGP"
+      },
+      {
+        "id": "B",
+        "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+      },
+      {
+        "id": "engines",
+        "title": "Formula 1: fundamentos de las unidades de potencia de 2026",
+        "url": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-new-f1-rules-for-2026.48bv0VTxhIlhrQXmxercXk"
+      },
+      {
+        "id": "D",
+        "title": "FIA: reglamento financiero de equipos 2026, sección D, Issue 08",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_d_financial_-_f1_teams_-_iss_08_-_2026-10-01.pdf"
+      },
+      {
+        "id": "F",
+        "title": "FIA: reglamento operacional 2026, sección F, Issue 11",
+        "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_f_operational_-_iss_11_-_2026-10-01.pdf"
+      }
+    ],
+    "related": [
+      {
+        "label": "La forma del auto y su aerodinámica",
+        "href": "/articulos/por-que-forma-auto-f1"
+      },
+      {
+        "label": "Combustible de 2026",
+        "href": "/articulos/combustible-f1-2026"
+      },
+      {
+        "label": "Guía para tu primera carrera",
+        "href": "/articulos/como-funciona-formula-1"
+      }
+    ]
   },
   {
     "slug": "renault-ak-1906",

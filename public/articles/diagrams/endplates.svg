@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+<title id="title">Ubicación conceptual de endplates en un ala finita</title><desc id="desc">Ala vista en perspectiva con placas laterales en ambos extremos. Es un esquema de ubicación, no una geometría reglamentaria ni un campo de flujo.</desc>
+<rect width="760" height="340" fill="#18181c"/>
+<g font-family="sans-serif" fill="#eee" font-size="19"><text x="32" y="40">ENDPLATES · ubicación conceptual</text><text x="35" y="105">Placa lateral</text><text x="545" y="95">Placa lateral</text><text x="265" y="303">Ala de envergadura finita</text></g>
+<path d="M155 145 L570 105 L627 178 L211 220Z" fill="#38383e" stroke="#eee" stroke-width="3"/>
+<path d="M155 100 L211 165 V257 L155 192Z M570 66 L627 137 V218 L570 146Z" fill="#8d2926" stroke="#ff625b" stroke-width="3"/>
+<path d="M130 115 L168 138 M617 102 L603 124 M365 275 L365 196" stroke="#aaa" stroke-width="2"/>
+</svg>

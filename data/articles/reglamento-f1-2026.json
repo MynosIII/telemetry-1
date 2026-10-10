@@ -1,0 +1,162 @@
+{
+  "slug": "reglamento-f1-2026",
+  "title": "El reglamento de F1 en 2026: geometría, energía y límites de desarrollo",
+  "description": "Una lectura técnica de las reglas vigentes: aerodinámica activa, unidades de potencia, masa, controles, formato deportivo y recursos.",
+  "category": "Reglamento",
+  "kind": "explainer",
+  "level": "Avanzado",
+  "reviewedOn": "2026-10-09",
+  "period": "Temporada 2026",
+  "year": 2026,
+  "tags": [
+    "Reglamento",
+    "Avanzado",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "El reglamento no describe un auto terminado: delimita un espacio de soluciones. Para entender la F1 de 2026 hay que leer simultáneamente geometría, energía, procedimientos de competición y límites de recursos. Esta guía se revisó el 9 de octubre de 2026 con la sección técnica C, Issue 20, y las revisiones deportivas y operacionales publicadas por la FIA; no aplica las cifras iniciales de presentación como si todas siguieran intactas.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Cómo leer las seis secciones",
+      "paragraphs": [
+        "La sección A reúne disposiciones generales; B regula la competición; C define los autos; D limita y controla costes de equipos; E trata las finanzas de fabricantes de unidades de potencia; F organiza restricciones operacionales. La división importa porque una solución puede ser geométricamente admisible y aun así incumplir un procedimiento de uso, una limitación de ensayos o una obligación de declaración. Leer solo el capítulo aerodinámico deja fuera buena parte del sistema.",
+        "Las ediciones tienen fechas e historial de cambios. La Issue 20 de C está fechada el 5 de agosto, aunque el índice de la FIA la muestra entre publicaciones de octubre. El texto distingue reglas vinculantes de comentarios explicativos y remite a documentos complementarios. Una cifra en una nota orientativa no tiene automáticamente la misma función que un requisito. Ante una comparación entre dos versiones, hay que verificar fecha, ámbito y condición de aplicación, no solo localizar el número que cambió."
+      ],
+      "sourceIds": [
+        "hub",
+        "C"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "Geometría y masa: la definición pesa tanto como el número",
+      "paragraphs": [
+        "La batalla máxima es de 3.400 mm en la configuración de comprobación reglamentaria. La carrocería se organiza mediante sistemas de coordenadas, superficies y volúmenes de referencia. Eso permite imponer condiciones diferentes a cada zona en lugar de reducir el auto a una caja rectangular. Un ala puede cumplir una dimensión general y fallar una sección local o una continuidad exigida.",
+        "La masa mínima de C4.1 tampoco es una cifra única e incondicional: es 726 kg más la masa nominal de neumáticos durante las clasificaciones, y 724 kg más esa masa en las demás sesiones. Existen condiciones adicionales, como las asociadas al riesgo térmico. Por eso «pesa 768 kg» resulta insuficiente como descripción técnica de la revisión consultada. Para auditar una afirmación hay que especificar sesión, definición de masa, neumáticos de referencia y condiciones extraordinarias. El combustible no se debe mezclar sin explicación con la masa reglamentaria de comprobación."
+      ],
+      "sourceIds": [
+        "C"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Aerodinámica activa y autorización de uso",
+      "paragraphs": [
+        "En 2026 se permite variar elementos del ala delantera y trasera dentro de mecanismos, posiciones y zonas definidos. El objetivo operativo es combinar una configuración que favorezca el paso por curva con otra de menor resistencia en tramos autorizados. Esto sustituye el papel del anterior DRS; no equivale a liberar cualquier superficie móvil ni a introducir suspensión activa.",
+        "Conviene separar la forma legal del mecanismo de su uso durante una sesión. La sección técnica describe el dispositivo; la deportiva establece su activación y condiciones. La asistencia eléctrica para adelantar pertenece a otra capa. Un auto puede beneficiarse de menor resistencia sin estar usando en ese momento el recurso de adelantamiento eléctrico. La nomenclatura comercial simplifica la narración, pero para comprender una sanción hay que volver al artículo y al documento del evento que regulan la acción concreta."
+      ],
+      "sourceIds": [
+        "terms",
+        "changes",
+        "B"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "La unidad de potencia es un balance de energía",
+      "paragraphs": [
+        "La arquitectura mantiene un V6 turbo de 1,6 litros y una recuperación eléctrica centrada en el MGU-K; el MGU-H de la generación anterior desaparece. El máximo eléctrico no debe interpretarse como potencia permanente disponible en cualquier punto. Intervienen velocidad, estado de carga, recuperación y condiciones autorizadas para adelantar. Una comparación de potencia máxima oculta la cuestión decisiva: cuánto tiempo puede mantenerse y dónde conviene usarla.",
+        "La diferencia entre potencia y energía puede ilustrarse sin atribuir datos a un equipo. Si un sistema hipotético entregara 300 kW durante diez segundos, utilizaría 3 MJ antes de considerar pérdidas: E = P × t. Dos mapas con el mismo máximo pueden producir vueltas muy diferentes si concentran el despliegue en tramos distintos. Frenar, recuperar, alimentar el motor eléctrico y reducir resistencia deben coordinarse. El rendimiento surge de la trayectoria completa de esos flujos, no de sumar dos cifras máximas como si siempre coincidieran."
+      ],
+      "sourceIds": [
+        "engines",
+        "terms"
+      ]
+    },
+    {
+      "id": "potencia-energia-limites",
+      "title": "Potencia eléctrica, recuperación y flujo de combustible",
+      "paragraphs": [
+        "C5.2 fija un máximo absoluto de potencia eléctrica de corriente continua del ERS-K de 350 kW. Además existen curvas de potencia permitida frente a velocidad: sin Overtake, en el tramo inferior a 340 km/h, el límite de esa curva es P = 1.800 − 5v, con P en kW y v en km/h. Es una restricción adicional al máximo absoluto. Por ejemplo, a 300 km/h esa expresión da 300 kW; no significa que el auto entregue necesariamente esa potencia. Con Overtake se aplica otra curva, y hay restricciones específicas por sectores y condiciones de sesión.",
+        "La diferencia máxima de estado de carga del almacenamiento es de 4 MJ. La recuperación tiene un límite general de 8,5 MJ por vuelta, con reducciones y condiciones que dependen del circuito y de la sesión. No es lo mismo energía recuperada que variación neta de energía almacenada: durante la vuelta el sistema puede cargar y descargar. Confundir ambos conceptos produce una aparente contradicción entre cifras que describen magnitudes diferentes.",
+        "El flujo de energía del combustible está limitado a 3.000 MJ/h, con una curva distinta por debajo de 10.500 rpm y condiciones a carga parcial. Los medidores y el poder calorífico permiten relacionar flujo másico con flujo energético. Como ejemplo dimensional, 3.000 MJ/h equivalen aproximadamente a 833 kW de entrada química; no son 833 kW mecánicos disponibles en el cigüeñal. La eficiencia de conversión separa ambos valores. Los artículos C5.2 y B7.2, junto a los documentos del evento, deben consultarse combinados para interpretar una estrategia concreta."
+      ],
+      "sourceIds": [
+        "C",
+        "B"
+      ]
+    },
+    {
+      "id": "capitulo-5",
+      "title": "Controles, homologación y seguridad",
+      "paragraphs": [
+        "La regulación exige comprobaciones de estructura, protección del piloto y sistemas de seguridad, además de mecanismos para verificar conformidad. La homologación de un componente no es una aprobación abstracta del rendimiento: identifica una especificación y unas condiciones que deben mantenerse o cambiar mediante el proceso autorizado. Las comprobaciones de flexibilidad examinan cómo responde una pieza a cargas definidas; una foto estática no permite decidir por sí sola si es legal.",
+        "La misma lógica se aplica a electrónica y medición. Un control necesita señales verificables, versiones de software y referencias reproducibles. Desde el punto de vista de ingeniería, la incertidumbre de medida y la repetibilidad importan tanto como la cifra nominal. Si alguien afirma que una pieza «supera el límite», el análisis serio pide saber qué ensayo se hizo, en qué configuración, con qué instrumentos y respecto de qué revisión. Una imagen llamativa puede motivar la pregunta; no reemplaza esa evidencia."
+      ],
+      "sourceIds": [
+        "C",
+        "hub"
+      ]
+    },
+    {
+      "id": "capitulo-6",
+      "title": "Reglas deportivas y recursos: las otras restricciones",
+      "paragraphs": [
+        "La sección B fija sesiones, parrilla, procedimientos, neutralizaciones, neumáticos y sanciones. Con 22 autos elegibles, Q1 y Q2 eliminan seis cada una. En carrera, parc fermé y los procedimientos de reparación condicionan qué puede modificarse y cuándo. Una excepción autorizada no debe convertirse en una libertad general. Las notas del evento completan aspectos operativos que dependen de cada circuito.",
+        "El límite financiero de D parte de 215 millones de dólares para hasta 24 competiciones, sujeto a indexación y reglas contables; no representa todo el dinero que una organización puede gastar. F limita ensayos aerodinámicos mediante una escala: el primer puesto tiene un coeficiente del 70% de la referencia y el décimo o un equipo nuevo, del 115%. Esos porcentajes no son una medida de calidad del túnel. El conjunto obliga a elegir qué hipótesis estudiar, qué actualizar y cuándo asumir un riesgo. Entender el reglamento significa seguir esas decisiones, además de medir el auto."
+      ],
+      "sourceIds": [
+        "B",
+        "D",
+        "F"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "hub",
+      "title": "FIA: índice de reglamentos y revisiones",
+      "url": "https://www.fia.com/regulation/category/110"
+    },
+    {
+      "id": "C",
+      "title": "FIA: reglamento técnico 2026, sección C, Issue 20 (05/08/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_c_technical_-_iss_20_-_2026-08-05.pdf"
+    },
+    {
+      "id": "terms",
+      "title": "Formula 1: terminología de aerodinámica activa y energía para 2026",
+      "url": "https://corp.formula1.com/f1-2026-regulations-terminology-update/"
+    },
+    {
+      "id": "changes",
+      "title": "Formula 1: los cambios de reglas de 2026",
+      "url": "https://www.formula1.com/en/latest/article/from-smaller-cars-to-a-bigger-budget-cap-12-rule-changes-you-need-to-know-in.56uUTFhB0z5j3iZfhC0rGP"
+    },
+    {
+      "id": "B",
+      "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+    },
+    {
+      "id": "engines",
+      "title": "Formula 1: fundamentos de las unidades de potencia de 2026",
+      "url": "https://www.formula1.com/en/latest/article/everything-you-need-to-know-about-the-new-f1-rules-for-2026.48bv0VTxhIlhrQXmxercXk"
+    },
+    {
+      "id": "D",
+      "title": "FIA: reglamento financiero de equipos 2026, sección D, Issue 08",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_d_financial_-_f1_teams_-_iss_08_-_2026-10-01.pdf"
+    },
+    {
+      "id": "F",
+      "title": "FIA: reglamento operacional 2026, sección F, Issue 11",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_f_operational_-_iss_11_-_2026-10-01.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "La forma del auto y su aerodinámica",
+      "href": "/articulos/por-que-forma-auto-f1"
+    },
+    {
+      "label": "Combustible de 2026",
+      "href": "/articulos/combustible-f1-2026"
+    },
+    {
+      "label": "Guía para tu primera carrera",
+      "href": "/articulos/como-funciona-formula-1"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "como-funciona-formula-1",
+  "title": "Tu primera carrera de F1: qué mirar y cómo entenderla",
+  "description": "Una guía para seguir entrenamientos, clasificación, estrategia, banderas y campeonato sin perderte entre los tiempos.",
+  "category": "Para empezar",
+  "kind": "explainer",
+  "level": "Inicial",
+  "reviewedOn": "2026-10-09",
+  "period": "Fundamentos",
+  "year": 2026,
+  "tags": [
+    "Para empezar",
+    "Inicial",
+    "explicación",
+    "técnica"
+  ],
+  "lead": "La Fórmula 1 enfrenta a pilotos y equipos durante una temporada, pero cada carrera contiene varias competiciones a la vez: conseguir una buena salida, sostener un ritmo, cuidar los neumáticos y elegir cuándo entrar a boxes. Entender esas capas permite disfrutarla incluso cuando el auto más rápido no va primero.",
+  "sections": [
+    {
+      "id": "capitulo-1",
+      "title": "Dos campeonatos, una misma pista",
+      "paragraphs": [
+        "Cada piloto suma puntos para su campeonato. El equipo reúne los de sus dos autos para el de constructores. Por eso un compañero puede ser simultáneamente referencia, rival y colaborador: ambos necesitan que la escudería funcione, aunque solo uno pueda terminar delante. La FIA establece las reglas; la organización comercial del campeonato gestiona otra parte del espectáculo. Las decisiones deportivas no se explican únicamente por lo que dice un comentarista.",
+        "Un constructor desarrolla el auto dentro de límites comunes. No todos usan el mismo chasis, y comprar una unidad de potencia a otro fabricante no convierte automáticamente a dos autos en idénticos. La combinación de ingeniería, operación y conducción importa. Para seguir una carrera conviene distinguir tres preguntas: quién lidera en pista, quién tiene mejores neumáticos y quién todavía debe realizar una parada."
+      ],
+      "sourceIds": [
+        "beginner",
+        "hub",
+        "A"
+      ]
+    },
+    {
+      "id": "capitulo-2",
+      "title": "El fin de semana prepara la carrera",
+      "paragraphs": [
+        "En un formato convencional hay entrenamientos libres antes de la clasificación y la carrera. Los libres sirven para probar ajustes, analizar degradación y comprobar el comportamiento con diferentes cargas de combustible. Un tiempo lento puede pertenecer a un auto cargado que ensaya una tanda larga. Comparar vueltas aisladas sin contexto suele producir conclusiones equivocadas.",
+        "La clasificación se divide en Q1, Q2 y Q3. Con 22 autos elegibles, seis quedan eliminados en cada uno de los dos primeros cortes y diez disputan Q3. Una penalización puede modificar después la parrilla. Los fines de semana Sprint añaden una carrera corta y su clasificación propia; no hay que interpretar ese resultado como la clasificación del Gran Premio. Consultar el programa del evento evita confundir sesiones que tienen objetivos distintos."
+      ],
+      "sourceIds": [
+        "B"
+      ]
+    },
+    {
+      "id": "capitulo-3",
+      "title": "Los intervalos cuentan una historia distinta del orden",
+      "paragraphs": [
+        "La tabla de tiempos muestra normalmente diferencias respecto del líder o del auto anterior. Una diferencia que baja indica que alguien se acerca, pero no explica por sí sola por qué. Puede tener neumáticos más nuevos, encontrar pista libre o beneficiarse de que el rival gestiona energía. Mirá también la edad del juego, el compuesto y los sectores: la velocidad máxima es solo una parte de la vuelta.",
+        "Una parada cuesta tiempo, incluso si el cambio de ruedas dura pocos segundos: también se pierde al recorrer el pit lane. El undercut busca parar antes y aprovechar el rendimiento del neumático nuevo; el overcut consiste en quedarse fuera e intentar ganar tiempo antes de detenerse. Ninguno funciona siempre. Si el juego nuevo tarda en calentarse o devuelve al auto al tráfico, la ventaja esperada puede desaparecer."
+      ],
+      "sourceIds": [
+        "glossary"
+      ]
+    },
+    {
+      "id": "capitulo-4",
+      "title": "Banderas, neutralizaciones y resultados",
+      "paragraphs": [
+        "La amarilla avisa de peligro y limita la acción en el sector afectado. La roja interrumpe la sesión. El Safety Car reúne a los autos detrás de un vehículo; el Virtual Safety Car exige respetar una referencia de tiempo sin formar necesariamente esa fila. Ambos alteran la estrategia porque cambian el coste relativo de una parada. La seguridad y los procedimientos de reanudación tienen prioridad sobre la batalla que se estaba viendo.",
+        "En una carrera completa, los diez primeros reciben 25, 18, 15, 12, 10, 8, 6, 4, 2 y 1 puntos; en la Sprint puntúan los ocho primeros, desde 8 hasta 1. Las carreras acortadas pueden tener otra escala. En 2026 no se concede el antiguo punto por vuelta rápida. La clasificación publicada puede cambiar tras una sanción: cruzar la meta y tener un resultado definitivo son momentos diferentes. Para empezar, seguí una batalla, sus neumáticos y sus paradas; después ampliá la mirada al campeonato."
+      ],
+      "sourceIds": [
+        "B",
+        "beginner",
+        "A"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "beginner",
+      "title": "Formula 1: guía para principiantes de 2026",
+      "url": "https://www.formula1.com/en/video/the-beginners-guide-to-formula-1-in-2026.1858661817555445986"
+    },
+    {
+      "id": "hub",
+      "title": "FIA: índice de reglamentos y revisiones",
+      "url": "https://www.fia.com/regulation/category/110"
+    },
+    {
+      "id": "B",
+      "title": "FIA: reglamento deportivo 2026, sección B, Issue 09 (01/10/2026)",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_b_sporting_-_iss_09_-_2026-10-01.pdf"
+    },
+    {
+      "id": "glossary",
+      "title": "Formula 1: glosario (sus datos estacionales pueden corresponder a ediciones anteriores)",
+      "url": "https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2"
+    },
+    {
+      "id": "A",
+      "title": "FIA: disposiciones generales 2026, sección A, Issue 03; puntos y campeonato",
+      "url": "https://www.fia.com/system/files/documents/fia_2026_f1_regulations_-_section_a_general_provisions_-_iss_03_-_2026-06-25.pdf"
+    }
+  ],
+  "related": [
+    {
+      "label": "Reglamento 2026 con detalle",
+      "href": "/articulos/reglamento-f1-2026"
+    },
+    {
+      "label": "Qué otras categorías existen",
+      "href": "/articulos/categorias-automovilismo-guia"
+    }
+  ]
+}

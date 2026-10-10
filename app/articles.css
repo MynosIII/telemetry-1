@@ -76,6 +76,9 @@
 .editorial-era-nav button { flex:0 0 auto; min-height:44px; padding:12px 15px; border:1px solid #39393f; color:#bfbfc5; background:#161619; border-radius:4px; font-size:12px; cursor:pointer; }
 .editorial-era-nav button[aria-pressed="true"] { color:#fff; border-color:#ff625b; box-shadow:inset 0 -2px #ff3027; }
 .editorial-filter-label { color:#bfbfc5; font-size:13px; margin:0 0 14px; }
+.editorial-diagram { margin:28px 0; border:1px solid #39393f; background:#18181c; }
+.editorial-diagram img { display:block; width:100%; height:auto; }
+.editorial-diagram figcaption { padding:16px; font-size:13px; line-height:1.6; color:#bfbfc5; }
 .editorial-controls { border-block:1px solid #333339; padding-block:24px; }
 .editorial-filters button:focus-visible,.editorial-era-nav button:focus-visible { outline:3px solid var(--red); outline-offset:3px; }
 .editorial-timeline { list-style:none; padding:0 0 0 34px; margin:38px 0 0; border-left:1px solid #48484f; }
