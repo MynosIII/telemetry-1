@@ -52,7 +52,7 @@ desde la configuración de acceso del repositorio.
 
 El proyecto `telemetry-1` de Vercel está conectado con este repositorio, con la
 raíz del repositorio como raíz de proyecto y `main` como rama de producción.
-Los pushes a `main` despliegan https://telemetry-1.vercel.app. Las ramas y los
+Los pushes a `main` despliegan https://telemetry-one.com. Las ramas y los
 pull requests generan vistas previas cuando la integración de Vercel autoriza
 al autor. Revisá la vista previa antes de fusionar; `main` publica la web.
 

@@ -10,13 +10,13 @@ export async function SiteHeader() {
     <>
     <a className="skip-link" href="#contenido">Saltar al contenido</a>
     <header className="site-header">
-      <Link className="brand" href="/" aria-label="Telemetry 1, inicio">
+      <Link className="brand" href="/" aria-label="Telemetry One, inicio">
         <span className="brand-mark">T<span>1</span></span>
         <span className="brand-copy">TELEMETRY <b>ONE</b></span>
       </Link>
       <SiteNav lang={lang} />
-      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-        <LanguageSwitcher />
+      <div className="header-actions">
+        <LanguageSwitcher lang={lang} />
         <LiveLink lang={lang} />
       </div>
     </header>

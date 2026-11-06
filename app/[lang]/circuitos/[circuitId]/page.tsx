@@ -1,0 +1,81 @@
+import type { Metadata } from "next";
+import Image from "@/components/ResilientImage";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { RaceSchedule } from "@/components/RaceSchedule";
+import { CircuitIntelligence } from "@/components/CircuitIntelligence";
+import { RaceWeekendHub } from "@/components/RaceWeekendHub";
+import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
+import { getCircuitProfile, getSchedule, getStandings, isSeasonDataLive } from "@/lib/f1-data";
+import { StaleDataNotice } from "@/components/StaleDataNotice";
+import { getCircuitTopology } from "@/lib/circuit-topology";
+import { getRaceWeekendData } from "@/lib/race-weekend";
+import { getHistoryEntity } from "@/lib/history";
+import { getCircuitHistoryId } from "@/lib/circuit-visuals";
+
+// Rendered on first visit, then cached like a static page (one copy per language).
+export function generateStaticParams() {
+  return [];
+}
+
+type Props = { params: Promise<{ circuitId: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { circuitId } = await params;
+  const circuit = await getCircuitProfile(circuitId);
+  if (!circuit) return { title: "Circuito" };
+  return {
+    title: circuit.name,
+    description: circuit.description,
+    openGraph: { title: `${circuit.name} — Telemetry One`, description: circuit.description, images: [circuit.image ?? "/og.png"] },
+    twitter: { card: "summary_large_image", title: circuit.name, description: circuit.description, images: [circuit.image ?? "/og.png"] }
+  };
+}
+
+export default async function CircuitPage({ params }: Props) {
+  const { circuitId } = await params;
+  const [circuit, schedule, standings, live] = await Promise.all([getCircuitProfile(circuitId), getSchedule(), getStandings(), isSeasonDataLive()]);
+  if (!circuit) notFound();
+  const race = schedule.find((item) => item.circuitId === circuitId);
+  if (!race) notFound();
+  const topology = getCircuitTopology(circuitId);
+  const history = await getHistoryEntity("circuits", getCircuitHistoryId(circuitId));
+  const weekend = race.state === "next" ? await getRaceWeekendData(race, standings) : undefined;
+
+  return (
+    <main id="top" className="inner-page circuit-page">
+      <SiteHeader />
+      <StaleDataNotice live={live} />
+      <section className="circuit-hero">
+        <div className="circuit-hero-image">
+          {circuit.image ? <Image src={circuit.image} alt={`Vista de ${circuit.name}`} fill priority sizes="100vw" unoptimized /> : null}
+          <div className="live-visual-shade" />
+        </div>
+        <div className="circuit-hero-copy">
+          <p className="eyebrow eyebrow-yellow">RONDA {race.round} · {circuit.country}</p>
+          <h1>{circuit.name}</h1>
+          <p>{circuit.description}</p>
+        </div>
+      </section>
+
+      <section className="circuit-body">
+        {history ? <p className="circuit-history-link"><Link className="button button-dark" href={history.href}>HISTORIA, TIEMPOS DE POLE Y TRAZADOS →</Link></p> : null}
+        <div className="circuit-stats" aria-label="Datos del circuito">
+          <div><span>INAUGURADO</span><strong>{circuit.opened}</strong></div>
+          <div><span>LONGITUD</span><strong>{circuit.length}</strong></div>
+          <div><span>VUELTAS</span><strong>{circuit.laps}</strong></div>
+          <div><span>PERFIL</span><strong>{circuit.character}</strong></div>
+        </div>
+        {weekend ? <RaceWeekendHub race={race} circuit={circuit} data={weekend} /> : null}
+        <CircuitIntelligence circuit={circuit} topology={topology} />
+        <div className="detail-heading">
+          <div><p className="eyebrow eyebrow-red">HORARIOS</p><h2>FIN DE <em>SEMANA</em></h2></div>
+          {race.state === "finished" ? <Link className="button button-dark" href={`/carreras/${race.round}`}>VER RESULTADOS →</Link> : null}
+        </div>
+        <RaceSchedule race={race} circuit={circuit} />
+      </section>
+      <SiteFooter />
+    </main>
+  );
+}

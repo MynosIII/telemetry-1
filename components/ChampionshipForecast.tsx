@@ -66,13 +66,13 @@ export function ChampionshipForecast({ market, model }: { market: MarketForecast
 
         <article className="forecast-panel model-panel">
           <header>
-            <div><span>02</span><p>PROYECCIÓN TELEMETRY 1</p></div>
+            <div><span>02</span><p>PROYECCIÓN TELEMETRY ONE</p></div>
           </header>
           {model ? (
             <>
               <ForecastRanking entries={model.entries} kind="model" />
               <div className="forecast-panel-footer">
-                <span>{model.remainingRaces === 1 ? "1 CARRERA RESTANTE" : `${model.remainingRaces} CARRERAS RESTANTES`}</span>
+                <span>{model.remainingRaces === 0 ? "TEMPORADA TERMINADA · RESULTADO FINAL" : model.remainingRaces === 1 ? "1 CARRERA RESTANTE" : `${model.remainingRaces} CARRERAS RESTANTES`}</span>
               </div>
             </>
           ) : (

@@ -1,11 +1,10 @@
-import { cookies } from "next/headers";
-import { LangCode } from "./i18n";
+import { lang } from "next/root-params";
+import type { LangCode } from "./i18n";
 
+/** The language comes from the app/[lang] segment, so every page is prerendered once per language. */
 export async function getLang(): Promise<LangCode> {
   try {
-    const cookieStore = await cookies();
-    const lang = cookieStore.get("NEXT_LOCALE")?.value;
-    return lang === "en" ? "en" : "es";
+    return (await lang()) === "en" ? "en" : "es";
   } catch {
     return "es";
   }

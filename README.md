@@ -1,8 +1,8 @@
-# Telemetry 1
+# Telemetry One
 
 Formula 1 results, driver profiles, circuit information, historical statistics, and bilingual games.
 
-Production: https://telemetry-1.vercel.app
+Production: https://telemetry-one.com (also https://telemetry-1.vercel.app)
 
 ## Development
 
@@ -20,6 +20,10 @@ For branches, pull requests, checks, and Vercel previews, see
 in this repository; the original research workspace is not required to run the web.
 
 Copy `.env.example` to `.env.local` if authenticated OpenF1 access is needed. Keep credentials in local environment files and Vercel's environment settings; never commit them.
+
+## Languages
+
+Every page lives under `app/[lang]` and is prerendered once in Spanish (`es`) and once in English (`en`). `proxy.ts` hides that segment: `/historia` is served from `/es/historia` or `/en/historia` according to the `NEXT_LOCALE` cookie that the header's ESP/ENG button sets. A link to `/en/...` sets the cookie and redirects to the clean address. Server components read the language with `getLang()` (`lib/server-i18n.ts`); strings live in `lib/i18n.ts`. Only the menu and the home page are translated so far.
 
 ## Deployment
 

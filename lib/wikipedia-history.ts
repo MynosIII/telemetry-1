@@ -12,7 +12,7 @@ export type WikipediaHistory = {
 async function json(url: string) {
   const response = await fetch(url, {
     next: { revalidate: 86400 }, signal: AbortSignal.timeout(5000),
-    headers: { "User-Agent": "TelemetryOneHistory/1.0 (https://telemetry-1.vercel.app/historia)" }
+    headers: { "User-Agent": "TelemetryOneHistory/1.0 (https://telemetry-one.com/historia)" }
   });
   if (!response.ok) throw new Error(`Source returned ${response.status}`);
   return response.json();
