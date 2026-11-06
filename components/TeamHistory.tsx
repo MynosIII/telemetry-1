@@ -152,7 +152,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
 
     {rated.length ? <section id="modelo" className="team-section">
       <h2>Sus pilotos según el modelo</h2>
-      <p className="team-lead">ELO retrospectivo de TelemetryOne v7.6: mide a cada piloto contra sus rivales y su auto, carrera por carrera. Los {eloTop.length} mejores de {rated.length}, con cifras de toda su carrera.</p>
+      <p className="team-lead">ELO retrospectivo de Telemetry One v7.6: mide a cada piloto contra sus rivales y su auto, carrera por carrera. Los {eloTop.length} mejores de {rated.length}, con cifras de toda su carrera.</p>
       <ol className="team-elo">{eloTop.map((d, i) => <li key={d.id}>
         <Link prefetch={false} href={d.href}>
           <span className="team-winner-rank">{i + 1}</span>
@@ -185,7 +185,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
       {article?.sources.length ? <ul className="team-article-sources">{article.sources.map(source => <li key={source.url}><a href={source.revision ? `${source.url}?oldid=${source.revision}` : source.url} target="_blank" rel="noreferrer">{source.label} ↗</a></li>)}</ul> : null}
       {logoSource ? <p className="team-note">Emblema {logoSource.role === "manufacturer" ? "del fabricante" : "del equipo"}, sin patrocinadores añadidos. <a href={logoSource.source} target="_blank" rel="noreferrer">Procedencia del logo ↗</a>. Representa la marca, no todas sus versiones históricas.</p> : null}
       <Suspense fallback={null}><TeamWikipedia entity={entity} /></Suspense>
-      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a> hasta diciembre de 2025, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a>. Texto de elaboración propia; referencias históricas arriba. ELO y victorias esperadas: <Link href="/ranking">TelemetryOne v7.6</Link>, investigación propia. Victorias y podios se cuentan una vez por auto y carrera. <Link href="/historia#metodologia">Criterios de conteo →</Link></p>
+      <p className="team-note">Resultados de <a href="https://github.com/f1db/f1db" target="_blank" rel="noreferrer">F1DB (CC BY 4.0)</a> hasta diciembre de 2025, contrastados con <a href={entity.sources.statsf1} target="_blank" rel="noreferrer">StatsF1</a>. Texto de elaboración propia; referencias históricas arriba. ELO y victorias esperadas: <Link href="/ranking">Telemetry One v7.6</Link>, investigación propia. Victorias y podios se cuentan una vez por auto y carrera. <Link href="/historia#metodologia">Criterios de conteo →</Link></p>
     </section>
   </div>;
 }

@@ -6,14 +6,21 @@ import { Suspense, useEffect, useRef, useState } from "react";
 import { activeSubLink, sectionFor, siteSections } from "@/lib/site-sections";
 import { uiDict, LangCode } from "@/lib/i18n";
 
+/** Pages live under app/[lang]; the proxy hides that segment, so strip it wherever it shows up. */
+function usePublicPathname() {
+  const pathname = usePathname() ?? "/";
+  return pathname.replace(/^\/(?:es|en)(?=\/|$)/, "") || "/";
+}
+
 export function SiteNav({ lang }: { lang: LangCode }) {
-  const active = sectionFor(usePathname() ?? "/");
+  const active = sectionFor(usePublicPathname());
   return (
     <nav aria-label="Navegación principal">
       {siteSections.filter((section) => !section.hidden).map((section) => {
         let label = section.label;
         if (section.href === "/") label = uiDict[lang]["nav.home"];
         if (section.href === "/noticias") label = uiDict[lang]["nav.news"];
+        if (section.href === "/articulos") label = uiDict[lang]["nav.articles"];
         if (section.href === "/temporada") label = uiDict[lang]["nav.season"];
         if (section.href === "/carreras") label = uiDict[lang]["nav.races"];
         if (section.href === "/historia") label = uiDict[lang]["nav.stats"];
@@ -30,7 +37,7 @@ export function SiteNav({ lang }: { lang: LangCode }) {
 }
 
 function SubNavLinks({ categoria, lang }: { categoria: string | null, lang: LangCode }) {
-  const pathname = usePathname() ?? "/";
+  const pathname = usePublicPathname();
   const section = sectionFor(pathname);
   // In-page anchors (#resultados) don't change the URL Next.js reports, so remember the last click per page.
   const [clicked, setClicked] = useState<{ pathname: string; hash: string }>({ pathname: "", hash: "" });
@@ -68,7 +75,7 @@ export function SiteSubNav({ lang }: { lang: LangCode }) {
 }
 
 export function LiveLink({ lang }: { lang: LangCode }) {
-  const pathname = usePathname() ?? "/";
+  const pathname = usePublicPathname();
   const active = pathname === "/en-vivo" || pathname.startsWith("/en-vivo/");
   return (
     <Link className="header-cta" href="/en-vivo" aria-current={active ? "page" : undefined}>

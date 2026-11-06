@@ -85,7 +85,7 @@ export function RaceWeekendHub({ race, circuit, data }: { race: ScheduledRace; c
         </article>
 
         <article className="weekend-forecast-card model-race-card">
-          <header><div><span>03</span><p>PRONÓSTICO TELEMETRY 1</p></div><strong>FORMA RECIENTE</strong></header>
+          <header><div><span>03</span><p>PRONÓSTICO TELEMETRY ONE</p></div><strong>FORMA RECIENTE</strong></header>
           <PredictionList entries={data.model.entries} showForm />
         </article>
       </div>

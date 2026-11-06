@@ -2,6 +2,7 @@ export const uiDict = {
   es: {
     "nav.home": "Inicio",
     "nav.news": "Noticias",
+    "nav.articles": "Artículos",
     "nav.season": "Temporada",
     "nav.races": "Carreras",
     "nav.stats": "Estadísticas",
@@ -50,6 +51,7 @@ export const uiDict = {
   en: {
     "nav.home": "Home",
     "nav.news": "News",
+    "nav.articles": "Articles",
     "nav.season": "Season",
     "nav.races": "Races",
     "nav.stats": "Statistics",

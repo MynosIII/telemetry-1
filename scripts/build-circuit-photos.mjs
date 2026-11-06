@@ -5,7 +5,7 @@ const stories=JSON.parse(await readFile('data/circuit-stories.json','utf8'));
 let photos={};try{photos=JSON.parse(await readFile('.vercel/circuit-photo-candidates.json','utf8'));}catch{}
 const queue=Object.entries(stories).filter(([id])=>!photos[id]);
 const plain=value=>(value??'').replace(/<[^>]*>/g,'').replace(/&amp;/g,'&').replace(/&quot;/g,'"').trim();
-async function api(domain,params){const r=await fetch(`https://${domain}/w/api.php?${new URLSearchParams({format:'json',...params})}`,{signal:AbortSignal.timeout(30000),headers:{'User-Agent':'TelemetryOneHistory/1.0 (https://telemetry-1.vercel.app/historia)'}});if(!r.ok)throw Error(r.status);return r.json();}
+async function api(domain,params){const r=await fetch(`https://${domain}/w/api.php?${new URLSearchParams({format:'json',...params})}`,{signal:AbortSignal.timeout(30000),headers:{'User-Agent':'TelemetryOneHistory/1.0 (https://telemetry-one.com/historia)'}});if(!r.ok)throw Error(r.status);return r.json();}
 await Promise.all(Array.from({length:2},async()=>{while(queue.length){const [id,story]=queue.shift();try{
  const title=decodeURIComponent(story.source.split('/wiki/')[1]);
  const data=await api('en.wikipedia.org',{action:'query',titles:title,prop:'images',imlimit:'100',redirects:'1'});

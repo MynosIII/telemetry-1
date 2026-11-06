@@ -1,12 +1,14 @@
-import { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
+import { SITE_URL } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
-  return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: ['/api/'],
-    },
-    sitemap: 'https://telemetry-1.vercel.app/sitemap.xml',
+  // Preview deployments must not compete with the real domain in search results.
+  if (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== "production") {
+    return { rules: { userAgent: "*", disallow: "/" } };
   }
+  return {
+    rules: { userAgent: "*", allow: "/", disallow: ["/api/"] },
+    sitemap: `${SITE_URL}/sitemap.xml`,
+    host: SITE_URL
+  };
 }

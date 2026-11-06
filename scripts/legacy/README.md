@@ -1,0 +1,1 @@
+One-off scraping and fix-up scripts that used to sit in the repository root. Nothing in the build or the site uses them; they are kept only for reference. Paths inside them assume they run from the repository root.
