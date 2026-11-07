@@ -36,6 +36,10 @@ def find_face(gray):
                 return max(faces, key=lambda f: f[2] * f[3] * (1.0 if f[1] + f[3] / 2 < h * 0.7 else 0.4))
     return None
 
+# Drivers with no free head shot use a photo of them racing: crop the car
+# from the middle of the frame instead of looking for a face.
+CAR_SHOTS = {"alex-blignaut", "art-cross", "landi", "purley"}
+
 # Detections that landed on something else (an ear, a crowd); crop these by position.
 NO_DETECTION = {"cal-niday", "raikkonen"}
 
@@ -52,8 +56,10 @@ for driver_id, entry in sorted(photos.items()):
     img = Image.alpha_composite(background, img).convert("RGB")
     w, h = img.size
     gray = cv2.cvtColor(numpy.array(img), cv2.COLOR_RGB2GRAY)
-    face = None if driver_id in NO_DETECTION else find_face(gray)
-    if face is not None:
+    face = None if driver_id in NO_DETECTION | CAR_SHOTS else find_face(gray)
+    if driver_id in CAR_SHOTS:
+        cx, cy, side = w / 2, h / 2, min(w, h)
+    elif face is not None:
         fx, fy, fw, fh = (int(v) for v in face)
         cx, cy = fx + fw / 2, fy + fh * 0.5
         side = max(fw, fh) * 2.5  # room for hair, chin and some shoulders

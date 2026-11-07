@@ -59,6 +59,10 @@
   "name": "Jean Alesi",
   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Alesi%2C%20GIMS%202019%2C%20Le%20Grand-Saconnex%20%28GIMS0047%29.jpg?width=600"
  },
+ "alex-blignaut": {
+  "name": "Alex Blignaut",
+  "url": "/drivers/photos/alex-blignaut.jpg"
+ },
  "alguersuari": {
   "name": "Jaime Alguersuari",
   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaime%20Alguersuari%20Canada%202010%20cropped.jpg?width=600"
@@ -126,6 +130,10 @@
  "art-bisch": {
   "name": "Art Bisch",
   "url": "/drivers/photos/art-bisch.jpg"
+ },
+ "art-cross": {
+  "name": "Art Cross",
+  "url": "/drivers/photos/art-cross.jpg"
  },
  "arundell": {
   "name": "Peter Arundell",
@@ -1751,6 +1759,10 @@
   "name": "Pedro Lamy",
   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro%20Lamy%20Le%20Mans%20Series%20Interlagos%20Novembro%202007.jpg?width=600"
  },
+ "landi": {
+  "name": "Chico Landi",
+  "url": "/drivers/photos/landi.jpg"
+ },
  "lang": {
   "name": "Hermann Lang",
   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20Lang%20El%20Gr%C3%A1fico.jpg?width=600"
@@ -2510,6 +2522,10 @@
  "pryce": {
   "name": "Tom Pryce",
   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Pryce%201975%20Watkins%20Glen.jpg?width=600"
+ },
+ "purley": {
+  "name": "David Purley",
+  "url": "/drivers/photos/purley.jpg"
  },
  "quester": {
   "name": "Dieter Quester",
