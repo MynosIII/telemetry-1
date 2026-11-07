@@ -1,0 +1,74 @@
+/*
+ * Overall scale of the site. Type and spacing were drawn at sizes that read
+ * too large on desktop, so the whole page is drawn smaller with CSS zoom
+ * (text, spacing, images and charts keep their proportions). Mobile layouts
+ * were tuned to the pixel, so phones only get a light reduction.
+ *
+ * Zoom also shrinks vh/dvh units, so full-height layouts divide by it.
+ */
+:root { --site-zoom: 1; }
+@media (max-width: 760px) { :root { --site-zoom: .95; } }
+@media (min-width: 761px) and (max-width: 1199px) { :root { --site-zoom: .9; } }
+@media (min-width: 1200px) { :root { --site-zoom: .85; } }
+body { zoom: var(--site-zoom); }
+
+.embedded-experience, .ranking-frame { height: calc(100dvh / var(--site-zoom)); }
+.inner-page, .ency-page { min-height: calc(100vh / var(--site-zoom)); }
+
+/*
+ * Main header: visible at the top of the page; once the reader scrolls down it
+ * slides away and comes back when the pointer reaches the top edge of the
+ * window (or, on touch screens, when scrolling back up). Driven by
+ * components/HeaderAutoHide.tsx through html[data-header].
+ */
+.site-header { transition: transform .22s ease; will-change: transform; }
+html[data-header="hidden"] .site-header:not(:focus-within) { transform: translateY(-100%); }
+.embedded-experience > .site-header, .ranking-frame > .site-header { transform: none !important; }
+
+/*
+ * Sticky table headers. Tables that sit in a scroll box get a maximum height
+ * so the header row stays visible while the rows scroll under it; tables
+ * outside a scroll box stick to the window.
+ */
+.ency-table-scroll, .history-table-scroll { max-height: calc(82vh / var(--site-zoom)); }
+.ency-table-scroll thead th { position: sticky; top: 0; z-index: 2; background: #141414; box-shadow: inset 0 -1px #262626; }
+.history-table-scroll thead th { position: sticky; top: 0; z-index: 2; background: #101010; box-shadow: inset 0 -1px #333; }
+.compare-table thead th, .sim-table thead th { position: sticky; top: 0; z-index: 2; background: #101010; }
+.ency-table-scroll caption { position: sticky; left: 0; }
+.history-directory-head { position: sticky; top: 0; z-index: 2; padding-top: 10px; background: var(--ink); }
+
+/*
+ * Small driver portraits use the face crops in public/drivers/faces, so they
+ * fill the frame; portraits without a crop are framed on the upper part.
+ */
+.driver-avatar img, .lap-driver-image img, .weekend-driver-photo img, .history-avatar-drivers img, .team-winner-face img, .record-portrait img, .archive-portrait {
+  object-fit: cover !important; object-position: 50% 28% !important; mix-blend-mode: normal; filter: none;
+}
+
+/* Juegos: less empty space around the featured game and the game cards. */
+.games-page .predestinato { padding-block: 56px; gap: clamp(32px, 5vw, 80px); }
+.games-page .predestinato-logo { width: 64px; height: 64px; margin-bottom: 14px; }
+.games-page .predestinato-lede { margin: 16px 0; }
+.games-page .predestinato ul { margin: 18px 0 24px; }
+.games-page .predestinato li { padding-block: 10px; }
+.games-page #juegos { padding-block: 48px 64px; }
+.games-page #juegos .section-heading { margin-bottom: 24px; }
+.games-page .game-card { min-height: 0; padding: 20px; }
+.games-page .game-glyph { margin: 22px auto 18px; }
+.games-page .game-glyph.game-logo-frame { width: 84px; height: 84px; }
+.games-page .game-card > p { margin: 10px 0 18px; }
+@media (max-width: 760px) {
+  .games-page .predestinato { padding-block: 36px; }
+  .games-page #juegos { padding-block: 32px 44px; }
+}
+
+/* Driver list avatars read too small next to two lines of text. */
+.history-avatar { width: 44px; height: 44px; }
+
+/* Display headings were the largest offenders; bring them down a step. */
+.hero h1 { font-size: clamp(44px, 5.6vw, 84px); }
+.section-heading h2, .predestinato h2, .stats-copy h2 { font-size: clamp(36px, 4.6vw, 64px); }
+.inner-hero h1 { font-size: clamp(44px, 6vw, 84px); }
+
+/* En vivo: the weather block sat flush against the window edges. */
+.live-page > .circuit-weather { width: min(1120px, calc(100% - 48px)); margin: 38px auto 64px; }

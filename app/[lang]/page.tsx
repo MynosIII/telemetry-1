@@ -16,7 +16,7 @@ import { getHistoryIndex } from "@/lib/history";
 import { getNews } from "@/lib/news";
 import { NewsList } from "@/components/NewsList";
 import eloRatings from "@/lib/elo-ratings.json";
-import { driverPhoto } from "@/lib/driver-photos";
+import { driverFace } from "@/lib/driver-photos";
 import { useTranslation } from "@/lib/i18n";
 import { getLang } from "@/lib/server-i18n";
 import { editorialArticles } from "@/lib/editorial-articles";
@@ -137,7 +137,7 @@ export default async function Home() {
             <h2 id="archive-title" dangerouslySetInnerHTML={{ __html: t("archive.title") }} />
           </div>
         </div>
-        <SearchArchive portraits={{ senna: driverPhoto("senna"), hamilton: driverPhoto("hamilton"), antonelli: driverPhoto("antonelli") }} />
+        <SearchArchive portraits={{ senna: driverFace("senna"), hamilton: driverFace("hamilton"), antonelli: driverFace("antonelli") }} />
       </section>
 
       <section className="section section-light" id="ranking" aria-labelledby="stats-title">

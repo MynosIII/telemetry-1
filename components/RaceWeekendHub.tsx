@@ -1,6 +1,7 @@
 import Image from "@/components/ResilientImage";
 import Link from "next/link";
 import { formatSession } from "@/lib/format";
+import { faceForPhoto } from "@/lib/driver-photos";
 import type { RaceWeekendData } from "@/lib/race-weekend";
 import type { CircuitProfile, ScheduledRace } from "@/lib/types";
 
@@ -19,7 +20,7 @@ function PredictionList({ entries, showForm = false }: { entries: RaceWeekendDat
         <li key={entry.driverId}>
           <span className="weekend-rank">{String(index + 1).padStart(2, "0")}</span>
           <span className="weekend-driver-photo">
-            {entry.image ? <Image src={entry.image} alt="" fill sizes="42px" unoptimized /> : entry.name.slice(0, 2).toUpperCase()}
+            {entry.image ? <Image src={faceForPhoto(entry.image)} alt="" fill sizes="42px" unoptimized /> : entry.name.slice(0, 2).toUpperCase()}
           </span>
           <div className="weekend-driver-name">
             <strong><Link href={`/pilotos/${entry.driverId}`}>{entry.name}</Link></strong>
