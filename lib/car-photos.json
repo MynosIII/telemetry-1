@@ -1,4 +1,16 @@
 {
+  "adams": {
+    "url": "/history/car-photos/adams.jpg",
+    "source": "https://www.statsf1.com/en/adams----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "afm-6": {
+    "url": "/history/car-photos/afm-6.jpg",
+    "source": "https://www.statsf1.com/en/afm-6.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ags-jh21c": {
     "url": "/history/car-photos/ags-jh21c.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:AGS_JH21C_1986_(27082681156).jpg",
@@ -17,11 +29,35 @@
     "author": "Thesupermat",
     "license": "CC BY-SA 4.0"
   },
+  "ags-jh23b": {
+    "url": "/history/car-photos/ags-jh23b.jpg",
+    "source": "https://www.statsf1.com/en/ags-jh23b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ags-jh24": {
     "url": "/history/car-photos/ags-jh24.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:AGS_JH24_at_the_2025_Italian_Grand_Prix.jpg",
     "author": "Eustace Bagge",
     "license": "CC BY 4.0"
+  },
+  "ags-jh25": {
+    "url": "/history/car-photos/ags-jh25.jpg",
+    "source": "https://www.statsf1.com/en/ags-jh25.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ags-jh25b": {
+    "url": "/history/car-photos/ags-jh25b.jpg",
+    "source": "https://www.statsf1.com/en/ags-jh25b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ags-jh27": {
+    "url": "/history/car-photos/ags-jh27.jpg",
+    "source": "https://www.statsf1.com/en/ags-jh27.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "alfa-romeo-158": {
     "url": "/history/car-photos/alfa-romeo-158.jpg",
@@ -52,6 +88,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_179B,_Museo_Nazionale_dell%27Automobile_di_Torino_(2).jpg",
     "author": "Tony Harrison from Farnborough, UK",
     "license": "CC BY 2.0"
+  },
+  "alfa-romeo-179c": {
+    "url": "/history/car-photos/alfa-romeo-179c.jpg",
+    "source": "https://www.statsf1.com/en/alfa-romeo-179c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "alfa-romeo-179d": {
     "url": "/history/car-photos/alfa-romeo-179d.jpg",
@@ -185,11 +227,35 @@
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
   },
+  "alta-gp": {
+    "url": "/history/car-photos/alta-gp.jpg",
+    "source": "https://www.statsf1.com/en/alta-gp.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "amon-af101": {
     "url": "/history/car-photos/amon-af101.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:ChrisAmonAF101.jpg",
     "author": "StickboyNZ",
     "license": "CC BY-SA 3.0"
+  },
+  "andrea-moda-c4b": {
+    "url": "/history/car-photos/andrea-moda-c4b.jpg",
+    "source": "https://www.statsf1.com/en/andrea-moda-c4b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "andrea-moda-s921": {
+    "url": "/history/car-photos/andrea-moda-s921.jpg",
+    "source": "https://www.statsf1.com/en/andrea-moda-s921.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "apollon-fly": {
+    "url": "/history/car-photos/apollon-fly.jpg",
+    "source": "https://www.statsf1.com/en/apollon-fly.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "arrows-a1": {
     "url": "/history/car-photos/arrows-a1.jpg",
@@ -203,17 +269,35 @@
     "author": "Matthew Lamb",
     "license": "CC BY-SA 2.0"
   },
+  "arrows-a10b": {
+    "url": "/history/car-photos/arrows-a10b.jpg",
+    "source": "https://www.statsf1.com/en/arrows-a10b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "arrows-a11": {
     "url": "/history/car-photos/arrows-a11.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Motor-Sport-Museum_am_Hockenheimring,_1991_Footwork_Porsche_A11C,_pic1.jpg",
     "author": "Alf van Beem",
     "license": "CC0"
   },
+  "arrows-a11b": {
+    "url": "/history/car-photos/arrows-a11b.jpg",
+    "source": "https://www.statsf1.com/en/arrows-a11b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "arrows-a18": {
     "url": "/history/car-photos/arrows-a18.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Damon_Hill_1997_Arrows_Yamaha_Hungary.jpg",
     "author": "Race27",
     "license": "CC BY-SA 3.0"
+  },
+  "arrows-a19": {
+    "url": "/history/car-photos/arrows-a19.jpg",
+    "source": "https://www.statsf1.com/en/arrows-a19.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "arrows-a2": {
     "url": "/history/car-photos/arrows-a2.jpg",
@@ -226,6 +310,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Arrows_A20_Historacing_Festival_L%C3%A9denon_2012.jpg",
     "author": "Thomas Bersy",
     "license": "CC BY-SA 2.0"
+  },
+  "arrows-a21": {
+    "url": "/history/car-photos/arrows-a21.jpg",
+    "source": "https://www.statsf1.com/en/arrows-a21.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "arrows-a22": {
     "url": "/history/car-photos/arrows-a22.jpg",
@@ -287,6 +377,18 @@
     "author": "Martin Lee from London, UK",
     "license": "CC BY-SA 2.0"
   },
+  "arzani-volpini-f1": {
+    "url": "/history/car-photos/arzani-volpini-f1.jpg",
+    "source": "https://www.statsf1.com/en/arzani-volpini-f1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "aston-butterworth-nb41": {
+    "url": "/history/car-photos/aston-butterworth-nb41.jpg",
+    "source": "https://www.statsf1.com/en/aston-nb41.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "aston-martin-amr21": {
     "url": "/history/car-photos/aston-martin-amr21.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Sebastian_Vettel,_F1_British_Grand_Prix_2021.jpg",
@@ -323,11 +425,41 @@
     "author": "TOM at Picassa.",
     "license": "CC BY-SA 3.0"
   },
+  "aston-martin-dbr5": {
+    "url": "/history/car-photos/aston-martin-dbr5.jpg",
+    "source": "https://www.statsf1.com/en/aston-martin-dbr5.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ats-100": {
+    "url": "/history/car-photos/ats-100.jpg",
+    "source": "https://www.statsf1.com/en/a-t-s-100.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ats-wheels-d1": {
+    "url": "/history/car-photos/ats-wheels-d1.jpg",
+    "source": "https://www.statsf1.com/en/ats-d1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ats-wheels-d2": {
     "url": "/history/car-photos/ats-wheels-d2.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:ATS_D2.jpg",
     "author": "Anna from Grassau, Deutschland",
     "license": "CC BY-SA 2.0"
+  },
+  "ats-wheels-d3": {
+    "url": "/history/car-photos/ats-wheels-d3.jpg",
+    "source": "https://www.statsf1.com/en/ats-d3.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ats-wheels-d4": {
+    "url": "/history/car-photos/ats-wheels-d4.jpg",
+    "source": "https://www.statsf1.com/en/ats-d4.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ats-wheels-d5": {
     "url": "/history/car-photos/ats-wheels-d5.jpg",
@@ -383,11 +515,23 @@
     "author": "Paul Lannuier from Sussex, NJ, USA",
     "license": "CC BY-SA 2.0"
   },
+  "bellasi-f1-70": {
+    "url": "/history/car-photos/bellasi-f1-70.jpg",
+    "source": "https://www.statsf1.com/en/bellasi-f1-70.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "benetton-b186": {
     "url": "/history/car-photos/benetton-b186.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Benetton_BMW_B186_Engine_Cover.jpg",
     "author": "Norbert Neutron",
     "license": "CC BY-SA 4.0"
+  },
+  "benetton-b187": {
+    "url": "/history/car-photos/benetton-b187.jpg",
+    "source": "https://www.statsf1.com/en/benetton-b187.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "benetton-b188": {
     "url": "/history/car-photos/benetton-b188.jpg",
@@ -400,6 +544,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alessandro_Nannini_Benetton_B189_2018_Japanese_Grand_Prix_(45632550611).jpg",
     "author": "https://www.flickr.com/photos/78475089@N02/",
     "license": "CC BY-SA 2.0"
+  },
+  "benetton-b189b": {
+    "url": "/history/car-photos/benetton-b189b.jpg",
+    "source": "https://www.statsf1.com/en/benetton-b189b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "benetton-b190": {
     "url": "/history/car-photos/benetton-b190.jpg",
@@ -418,6 +568,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:2006FOS_1991BenettonB191.jpg",
     "author": "Brian Snelson from Hockley, Essex, England",
     "license": "CC BY 2.0"
+  },
+  "benetton-b191b": {
+    "url": "/history/car-photos/benetton-b191b.jpg",
+    "source": "https://www.statsf1.com/en/benetton-b191b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "benetton-b192": {
     "url": "/history/car-photos/benetton-b192.jpg",
@@ -515,6 +671,12 @@
     "author": "Jose Mª Izquierdo Galiot",
     "license": "CC BY 2.0"
   },
+  "boro-001": {
+    "url": "/history/car-photos/boro-001.jpg",
+    "source": "https://www.statsf1.com/en/boro-001.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brabham-bt10": {
     "url": "/history/car-photos/brabham-bt10.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Brabham_BT10.jpg",
@@ -557,6 +719,12 @@
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
   },
+  "brabham-bt23b": {
+    "url": "/history/car-photos/brabham-bt23b.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt23b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brabham-bt23c": {
     "url": "/history/car-photos/brabham-bt23c.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Brabham_BT23C_Mont-Tremblant_Courage.jpg",
@@ -574,6 +742,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Brabham_BT26_Tasman_Donington.jpg",
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
+  },
+  "brabham-bt26a": {
+    "url": "/history/car-photos/brabham-bt26a.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt26a.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "brabham-bt3": {
     "url": "/history/car-photos/brabham-bt3.jpg",
@@ -635,6 +809,12 @@
     "author": "Riottoso",
     "license": "CC BY 2.0"
   },
+  "brabham-bt45c": {
+    "url": "/history/car-photos/brabham-bt45c.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt45c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brabham-bt46": {
     "url": "/history/car-photos/brabham-bt46.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:2001_Goodwood_Festival_of_Speed_Brabham_BT46B_Fan_car.jpg",
@@ -671,11 +851,23 @@
     "author": "edvvc",
     "license": "CC BY 2.0"
   },
+  "brabham-bt50": {
+    "url": "/history/car-photos/brabham-bt50.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt50.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brabham-bt52": {
     "url": "/history/car-photos/brabham-bt52.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Nelson_Piquet_driving_Brabham_BT52_2013_Goodwood_Festival_of_Speed.jpg",
     "author": "Jake Archibald",
     "license": "CC BY 2.0"
+  },
+  "brabham-bt52b": {
+    "url": "/history/car-photos/brabham-bt52b.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt52b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "brabham-bt53": {
     "url": "/history/car-photos/brabham-bt53.jpg",
@@ -701,11 +893,41 @@
     "author": "Tony Hisgett from Birmingham, UK",
     "license": "CC BY 2.0"
   },
+  "brabham-bt58": {
+    "url": "/history/car-photos/brabham-bt58.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt58.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brabham-bt59": {
+    "url": "/history/car-photos/brabham-bt59.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt59.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brabham-bt59y": {
+    "url": "/history/car-photos/brabham-bt59y.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt59y.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brabham-bt6": {
     "url": "/history/car-photos/brabham-bt6.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Brabham_BT62_Genf_2019_1Y7A5997.jpg",
     "author": "Alexander Migl",
     "license": "CC BY-SA 4.0"
+  },
+  "brabham-bt60b": {
+    "url": "/history/car-photos/brabham-bt60b.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt60b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brabham-bt60y": {
+    "url": "/history/car-photos/brabham-bt60y.jpg",
+    "source": "https://www.statsf1.com/en/brabham-bt60y.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "brabham-bt7": {
     "url": "/history/car-photos/brabham-bt7.jpg",
@@ -718,6 +940,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Brawn_BGP_001_rear.jpg",
     "author": "Jose Mª Izquierdo Galiot",
     "license": "CC BY 2.0"
+  },
+  "brm-p115": {
+    "url": "/history/car-photos/brm-p115.jpg",
+    "source": "https://www.statsf1.com/en/brm-p115.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "brm-p126": {
     "url": "/history/car-photos/brm-p126.jpg",
@@ -743,6 +971,12 @@
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
   },
+  "brm-p15": {
+    "url": "/history/car-photos/brm-p15.jpg",
+    "source": "https://www.statsf1.com/en/brm-p15.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brm-p153": {
     "url": "/history/car-photos/brm-p153.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:BRM_P153.jpg",
@@ -755,6 +989,30 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "brm-p160b": {
+    "url": "/history/car-photos/brm-p160b.jpg",
+    "source": "https://www.statsf1.com/en/brm-p160b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brm-p160c": {
+    "url": "/history/car-photos/brm-p160c.jpg",
+    "source": "https://www.statsf1.com/en/brm-p160c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brm-p160d": {
+    "url": "/history/car-photos/brm-p160d.jpg",
+    "source": "https://www.statsf1.com/en/brm-p160d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brm-p160e": {
+    "url": "/history/car-photos/brm-p160e.jpg",
+    "source": "https://www.statsf1.com/en/brm-p160e.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brm-p180": {
     "url": "/history/car-photos/brm-p180.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:BRM_P180_front-left_Donington_Grand_Prix_Collection.jpg",
@@ -766,6 +1024,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:BRM_P201_Mallory_Park.JPG",
     "author": "TOM",
     "license": "CC BY-SA 3.0"
+  },
+  "brm-p201b": {
+    "url": "/history/car-photos/brm-p201b.jpg",
+    "source": "https://www.statsf1.com/en/brm-p201b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brm-p207": {
+    "url": "/history/car-photos/brm-p207.jpg",
+    "source": "https://www.statsf1.com/en/brm-p207.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "brm-p25": {
     "url": "/history/car-photos/brm-p25.jpg",
@@ -785,17 +1055,59 @@
     "author": "TOM at Picassa.",
     "license": "CC BY-SA 3.0"
   },
+  "brm-p48-57": {
+    "url": "/history/car-photos/brm-p48-57.jpg",
+    "source": "https://www.statsf1.com/en/brm-p48-57.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brm-p57": {
     "url": "/history/car-photos/brm-p57.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:BRM_P57.jpg",
     "author": "Kogo",
     "license": "CC BY-SA 3.0 de"
   },
+  "brm-p61": {
+    "url": "/history/car-photos/brm-p61.jpg",
+    "source": "https://www.statsf1.com/en/brm-p61.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brm-p67": {
+    "url": "/history/car-photos/brm-p67.jpg",
+    "source": "https://www.statsf1.com/en/brm-p67.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "brm-p83": {
     "url": "/history/car-photos/brm-p83.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:BRM_P83.jpg",
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
+  },
+  "bromme": {
+    "url": "/history/car-photos/bromme.jpg",
+    "source": "https://www.statsf1.com/en/bromme----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brp-mk-1": {
+    "url": "/history/car-photos/brp-mk-1.jpg",
+    "source": "https://www.statsf1.com/en/brp-mk-1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "brp-mk-2": {
+    "url": "/history/car-photos/brp-mk-2.jpg",
+    "source": "https://www.statsf1.com/en/brp-mk-2.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "bugatti-t251": {
+    "url": "/history/car-photos/bugatti-t251.jpg",
+    "source": "https://www.statsf1.com/en/bugatti-t251.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "caterham-ct01": {
     "url": "/history/car-photos/caterham-ct01.jpg",
@@ -814,6 +1126,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Caterham_CT05_nose.jpg",
     "author": "J.H. Sohn",
     "license": "CC BY-SA 2.0"
+  },
+  "christensen": {
+    "url": "/history/car-photos/christensen.jpg",
+    "source": "https://www.statsf1.com/en/christensen----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "cisitalia-d46": {
     "url": "/history/car-photos/cisitalia-d46.jpg",
@@ -839,6 +1157,24 @@
     "author": "Paddock1990 (Diskussion) 02:04, 31. Jul. 2012 (CEST)",
     "license": "CC BY-SA 3.0 de"
   },
+  "coloni-fc187": {
+    "url": "/history/car-photos/coloni-fc187.jpg",
+    "source": "https://www.statsf1.com/en/coloni-fc187.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "coloni-fc188": {
+    "url": "/history/car-photos/coloni-fc188.jpg",
+    "source": "https://www.statsf1.com/en/coloni-fc188.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "coloni-fc188b": {
+    "url": "/history/car-photos/coloni-fc188b.jpg",
+    "source": "https://www.statsf1.com/en/coloni-fc188b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "connaught-a": {
     "url": "/history/car-photos/connaught-a.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Connaught_A_Silverstone_2007.jpg",
@@ -863,11 +1199,23 @@
     "author": "In Vitrio",
     "license": "CC BY-SA 4.0"
   },
+  "cooper-special": {
+    "url": "/history/car-photos/cooper-special.jpg",
+    "source": "https://www.statsf1.com/en/cooper-special.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "cooper-t12": {
     "url": "/history/car-photos/cooper-t12.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Cooper_T12.jpg",
     "author": "Jiří Žemlička at Czech Wikipedia",
     "license": "Public domain"
+  },
+  "cooper-t20": {
+    "url": "/history/car-photos/cooper-t20.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t20.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "cooper-t23": {
     "url": "/history/car-photos/cooper-t23.jpg",
@@ -881,6 +1229,12 @@
     "author": "John Harwood",
     "license": "CC BY 2.0"
   },
+  "cooper-t40": {
+    "url": "/history/car-photos/cooper-t40.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t40.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "cooper-t41": {
     "url": "/history/car-photos/cooper-t41.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Cooper_T41_at_Silverstone_Classic_2011.jpg",
@@ -892,6 +1246,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cooper_T43_Donington_2007.jpg",
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
+  },
+  "cooper-t44": {
+    "url": "/history/car-photos/cooper-t44.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t44.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "cooper-t45": {
     "url": "/history/car-photos/cooper-t45.jpg",
@@ -916,6 +1276,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:P._Hill_and_Maggs_at_1962_Dutch_Grand_Prix.jpg",
     "author": "Bilsen, Joop van / Anefo / neg. stroken, 1945-1989, 2.24.01.05, item number 913-9474",
     "license": "CC BY-SA 3.0 nl"
+  },
+  "cooper-t58": {
+    "url": "/history/car-photos/cooper-t58.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t58.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "cooper-t59": {
     "url": "/history/car-photos/cooper-t59.jpg",
@@ -947,17 +1313,47 @@
     "author": "MPW57",
     "license": "CC BY 3.0"
   },
+  "cooper-t79": {
+    "url": "/history/car-photos/cooper-t79.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t79.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "cooper-t81": {
     "url": "/history/car-photos/cooper-t81.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Cooper_T81_Anglo-Suisse.jpg",
     "author": "Pyrope",
     "license": "CC BY-SA 3.0"
   },
+  "cooper-t81b": {
+    "url": "/history/car-photos/cooper-t81b.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t81b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "cooper-t82": {
+    "url": "/history/car-photos/cooper-t82.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t82.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "cooper-t86": {
     "url": "/history/car-photos/cooper-t86.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Bianchi_and_McLaren_at_1968_Dutch_Grand_Prix.jpg",
     "author": "Evers, Joost / Anefo / neg. stroken, 1945-1989, 2.24.01.05, item number 921-4600",
     "license": "CC BY-SA 3.0 nl"
+  },
+  "cooper-t86b": {
+    "url": "/history/car-photos/cooper-t86b.jpg",
+    "source": "https://www.statsf1.com/en/cooper-t86b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "dallara-3087": {
+    "url": "/history/car-photos/dallara-3087.jpg",
+    "source": "https://www.statsf1.com/en/dallara-3087.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "dallara-f189": {
     "url": "/history/car-photos/dallara-f189.jpg",
@@ -983,17 +1379,101 @@
     "author": "Thesupermat",
     "license": "CC BY-SA 3.0"
   },
+  "de-tomaso-801": {
+    "url": "/history/car-photos/de-tomaso-801.jpg",
+    "source": "https://www.statsf1.com/en/de-tomaso-801.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "deidt-tuffanelli-derrico": {
+    "url": "/history/car-photos/deidt-tuffanelli-derrico.jpg",
+    "source": "https://www.statsf1.com/en/deidt-tuffanelli-derrico.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "del-roy": {
+    "url": "/history/car-photos/del-roy.jpg",
+    "source": "https://www.statsf1.com/en/del-roy----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "dunn": {
+    "url": "/history/car-photos/dunn.jpg",
+    "source": "https://www.statsf1.com/en/dunn----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "eagle-t1f": {
     "url": "/history/car-photos/eagle-t1f.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Eagle_T1F.jpg",
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
   },
+  "eagle-t1g": {
+    "url": "/history/car-photos/eagle-t1g.jpg",
+    "source": "https://www.statsf1.com/en/eagle-t1g.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "eifelland-21": {
     "url": "/history/car-photos/eifelland-21.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:1972_French_Grand_Prix_Stommelen_(5226216580).jpg",
     "author": "https://www.flickr.com/photos/zantafio56/",
     "license": "CC BY-SA 2.0"
+  },
+  "elder": {
+    "url": "/history/car-photos/elder.jpg",
+    "source": "https://www.statsf1.com/en/elder----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "emeryson-56": {
+    "url": "/history/car-photos/emeryson-56.jpg",
+    "source": "https://www.statsf1.com/en/emeryson-56.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "emeryson-61": {
+    "url": "/history/car-photos/emeryson-61.jpg",
+    "source": "https://www.statsf1.com/en/emeryson-61.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "emw-r2": {
+    "url": "/history/car-photos/emw-r2.jpg",
+    "source": "https://www.statsf1.com/en/emw-r2.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "enb-f1": {
+    "url": "/history/car-photos/enb-f1.jpg",
+    "source": "https://www.statsf1.com/en/enb-f1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ensign-n173": {
+    "url": "/history/car-photos/ensign-n173.jpg",
+    "source": "https://www.statsf1.com/en/ensign-n173.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ensign-n174": {
+    "url": "/history/car-photos/ensign-n174.jpg",
+    "source": "https://www.statsf1.com/en/ensign-n174.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ensign-n175": {
+    "url": "/history/car-photos/ensign-n175.jpg",
+    "source": "https://www.statsf1.com/en/ensign-n175.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ensign-n176": {
+    "url": "/history/car-photos/ensign-n176.jpg",
+    "source": "https://www.statsf1.com/en/ensign-n176.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ensign-n177": {
     "url": "/history/car-photos/ensign-n177.jpg",
@@ -1013,11 +1493,41 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "ensign-n180b": {
+    "url": "/history/car-photos/ensign-n180b.jpg",
+    "source": "https://www.statsf1.com/en/ensign-n180b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ensign-n181": {
+    "url": "/history/car-photos/ensign-n181.jpg",
+    "source": "https://www.statsf1.com/en/ensign-n181.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "epperly-indy-roadster": {
+    "url": "/history/car-photos/epperly-indy-roadster.jpg",
+    "source": "https://www.statsf1.com/en/epperly-indy-roadster.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "era-g": {
+    "url": "/history/car-photos/era-g.jpg",
+    "source": "https://www.statsf1.com/en/era-g.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "eurobrun-er188": {
     "url": "/history/car-photos/eurobrun-er188.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Eurobrun_ER188_Italian_Grand_Prix_2025.jpg",
     "author": "Eustace Bagge",
     "license": "CC BY 4.0"
+  },
+  "eurobrun-er188b": {
+    "url": "/history/car-photos/eurobrun-er188b.jpg",
+    "source": "https://www.statsf1.com/en/eurobrun-er188b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "eurobrun-er189": {
     "url": "/history/car-photos/eurobrun-er189.jpg",
@@ -1079,6 +1589,12 @@
     "author": "Nic Redhead from Birmingham, UK",
     "license": "CC BY-SA 2.0"
   },
+  "ferrari-1512": {
+    "url": "/history/car-photos/ferrari-1512.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-1512.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-156": {
     "url": "/history/car-photos/ferrari-156.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Ferrari_Tipo_156_Sharknose_(1961)_Solitude_Revival_2019_IMG_1632.jpg",
@@ -1139,6 +1655,24 @@
     "author": "Mr.choppers",
     "license": "CC BY-SA 3.0"
   },
+  "ferrari-312-67": {
+    "url": "/history/car-photos/ferrari-312-67.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-312-67.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ferrari-312-68": {
+    "url": "/history/car-photos/ferrari-312-68.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-312-68.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ferrari-312-69": {
+    "url": "/history/car-photos/ferrari-312-69.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-312-69.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-312b": {
     "url": "/history/car-photos/ferrari-312b.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2017_-_Ferrari_312_B2_-_1972_-_002.jpg",
@@ -1156,6 +1690,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Niki_Lauda_Ferrari_312B3-74_Goodwood_Festival_of_Speed_2018_(28578702257).jpg",
     "author": "https://www.flickr.com/photos/95472204@N03/",
     "license": "CC BY 2.0"
+  },
+  "ferrari-312b3-74": {
+    "url": "/history/car-photos/ferrari-312b3-74.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-312b3-74.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ferrari-312t": {
     "url": "/history/car-photos/ferrari-312t.jpg",
@@ -1193,6 +1733,12 @@
     "author": "János Korom Dr. &gt;11 Million views from Wien, Austria",
     "license": "CC BY-SA 4.0"
   },
+  "ferrari-375s": {
+    "url": "/history/car-photos/ferrari-375s.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-375s.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-412t1": {
     "url": "/history/car-photos/ferrari-412t1.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Jean_Alesi_-_Ferrari_412T1B_at_the_1994_British_Grand_Prix_(32541414105).jpg",
@@ -1229,6 +1775,12 @@
     "author": "Rahil Rupawala",
     "license": "CC BY 2.0"
   },
+  "ferrari-625": {
+    "url": "/history/car-photos/ferrari-625.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-625.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-640": {
     "url": "/history/car-photos/ferrari-640.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Nigel_Mansell_Ferrari_F1_(16032819141).jpg",
@@ -1241,11 +1793,23 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "ferrari-642": {
+    "url": "/history/car-photos/ferrari-642.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-642.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-643": {
     "url": "/history/car-photos/ferrari-643.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:2006FOS_1991Ferrari.jpg",
     "author": "Brian Snelson from Hockley, Essex, England",
     "license": "CC BY 2.0"
+  },
+  "ferrari-801": {
+    "url": "/history/car-photos/ferrari-801.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-801.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ferrari-f1-2000": {
     "url": "/history/car-photos/ferrari-f1-2000.jpg",
@@ -1270,6 +1834,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Ferrari_F1-87.jpg",
     "author": "Etienne (Li)",
     "license": "CC BY-SA 3.0"
+  },
+  "ferrari-f1-87-88c": {
+    "url": "/history/car-photos/ferrari-f1-87-88c.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-f187-88c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ferrari-f10": {
     "url": "/history/car-photos/ferrari-f10.jpg",
@@ -1313,6 +1883,12 @@
     "author": "Rick Dikeman",
     "license": "CC BY-SA 3.0"
   },
+  "ferrari-f2004m": {
+    "url": "/history/car-photos/ferrari-f2004m.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-f2004m.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-f2005": {
     "url": "/history/car-photos/ferrari-f2005.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:MichaelSchumacherHO2005.jpg",
@@ -1349,6 +1925,12 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "ferrari-f310b": {
+    "url": "/history/car-photos/ferrari-f310b.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-f310b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ferrari-f399": {
     "url": "/history/car-photos/ferrari-f399.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Ferrari_F399_bargeboard_Museo_Ferrari.jpg",
@@ -1366,6 +1948,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jean_Alesi.jpg",
     "author": "Iwao from Tokyo, Japan",
     "license": "CC BY 2.0"
+  },
+  "ferrari-f92at": {
+    "url": "/history/car-photos/ferrari-f92at.jpg",
+    "source": "https://www.statsf1.com/en/ferrari-f92at.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ferrari-f93a": {
     "url": "/history/car-photos/ferrari-f93a.jpg",
@@ -1445,11 +2033,35 @@
     "author": "Marcin Wichary",
     "license": "CC BY 2.0"
   },
+  "fittipaldi-f7": {
+    "url": "/history/car-photos/fittipaldi-f7.jpg",
+    "source": "https://www.statsf1.com/en/fittipaldi-f7.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "fittipaldi-f8": {
     "url": "/history/car-photos/fittipaldi-f8.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Fittipaldi_F8_Rosberg_v_EMS.jpg",
     "author": "Wikimedia Commons",
     "license": "CC BY-SA 3.0"
+  },
+  "fittipaldi-f8c": {
+    "url": "/history/car-photos/fittipaldi-f8c.jpg",
+    "source": "https://www.statsf1.com/en/fittipaldi-f8c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "fittipaldi-f8d": {
+    "url": "/history/car-photos/fittipaldi-f8d.jpg",
+    "source": "https://www.statsf1.com/en/fittipaldi-f8d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "fittipaldi-f9": {
+    "url": "/history/car-photos/fittipaldi-f9.jpg",
+    "source": "https://www.statsf1.com/en/fittipaldi-f9.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "fittipaldi-fd01": {
     "url": "/history/car-photos/fittipaldi-fd01.jpg",
@@ -1463,11 +2075,29 @@
     "author": "photo takeb by Paulo Carmona Sanches Neto. Cropped by Morio",
     "license": "CC BY-SA 3.0"
   },
+  "fondmetal-fa1m-e": {
+    "url": "/history/car-photos/fondmetal-fa1m-e.jpg",
+    "source": "https://www.statsf1.com/en/fondmetal-fa1m-e.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "fondmetal-fomet-1": {
+    "url": "/history/car-photos/fondmetal-fomet-1.jpg",
+    "source": "https://www.statsf1.com/en/fondmetal-fomet-1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "fondmetal-gr01": {
     "url": "/history/car-photos/fondmetal-gr01.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:1992_Andrea_Chiesa_Fondmetal_cropped.jpg",
     "author": "Iwao from Tokyo, Japan",
     "license": "CC BY 2.0"
+  },
+  "fondmetal-gr02": {
+    "url": "/history/car-photos/fondmetal-gr02.jpg",
+    "source": "https://www.statsf1.com/en/fondmetal-gr02.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "footwork-a11c": {
     "url": "/history/car-photos/footwork-a11c.jpg",
@@ -1481,11 +2111,23 @@
     "author": "Bill Abbott",
     "license": "CC BY-SA 2.0"
   },
+  "footwork-fa12c": {
+    "url": "/history/car-photos/footwork-fa12c.jpg",
+    "source": "https://www.statsf1.com/en/footwork-fa12c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "footwork-fa13": {
     "url": "/history/car-photos/footwork-fa13.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Footwork_FA13_Festival_Italia_2018_Brands_Hatch_(44299951301).jpg",
     "author": "https://www.flickr.com/photos/tonysphotos/",
     "license": "CC BY-SA 2.0"
+  },
+  "footwork-fa13b": {
+    "url": "/history/car-photos/footwork-fa13b.jpg",
+    "source": "https://www.statsf1.com/en/footwork-fa13b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "footwork-fa14": {
     "url": "/history/car-photos/footwork-fa14.jpg",
@@ -1510,6 +2152,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Grand_Prix_Monaco96_131954710.jpg",
     "author": "Steve Gregory from Bradley Stoke, UK",
     "license": "CC BY 2.0"
+  },
+  "force-india-vjm01": {
+    "url": "/history/car-photos/force-india-vjm01.jpg",
+    "source": "https://www.statsf1.com/en/force-india-vjm01.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "force-india-vjm02": {
     "url": "/history/car-photos/force-india-vjm02.jpg",
@@ -1589,6 +2237,36 @@
     "author": "Christian Sinclair",
     "license": "CC BY 2.0"
   },
+  "frazer-nash-421": {
+    "url": "/history/car-photos/frazer-nash-421.jpg",
+    "source": "https://www.statsf1.com/en/frazer-nash-421.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "frazer-nash-fn48": {
+    "url": "/history/car-photos/frazer-nash-fn48.jpg",
+    "source": "https://www.statsf1.com/en/frazer-nash-fn48.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "fry-f2": {
+    "url": "/history/car-photos/fry-f2.jpg",
+    "source": "https://www.statsf1.com/en/fry-f2.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "gilby-61": {
+    "url": "/history/car-photos/gilby-61.jpg",
+    "source": "https://www.statsf1.com/en/gilby-61.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "gilby-62": {
+    "url": "/history/car-photos/gilby-62.jpg",
+    "source": "https://www.statsf1.com/en/gilby-62.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "gordini-t15": {
     "url": "/history/car-photos/gordini-t15.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Simca-Gordini_T15.jpg",
@@ -1600,6 +2278,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gordini_T16_at_Silverstone_Classic_2011.jpg",
     "author": "David Merrett from Daventry, England",
     "license": "CC BY 2.0"
+  },
+  "gordini-t16s": {
+    "url": "/history/car-photos/gordini-t16s.jpg",
+    "source": "https://www.statsf1.com/en/gordini-t16s.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "gordini-t32": {
     "url": "/history/car-photos/gordini-t32.jpg",
@@ -1787,11 +2471,41 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "hwm-51": {
+    "url": "/history/car-photos/hwm-51.jpg",
+    "source": "https://www.statsf1.com/en/hwm-51.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "hwm-52": {
+    "url": "/history/car-photos/hwm-52.jpg",
+    "source": "https://www.statsf1.com/en/hwm-52.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "hwm-53": {
+    "url": "/history/car-photos/hwm-53.jpg",
+    "source": "https://www.statsf1.com/en/hwm-53.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "iso-marlboro-fw": {
     "url": "/history/car-photos/iso-marlboro-fw.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Gijs_van_Lennep_1973_Dutch_GP_3_(cropped).jpg",
     "author": "Rob Mieremet / Anefo",
     "license": "CC0"
+  },
+  "iso-marlboro-fx3b": {
+    "url": "/history/car-photos/iso-marlboro-fx3b.jpg",
+    "source": "https://www.statsf1.com/en/iso-marlboro-fx3b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "iso-marlboro-ir": {
+    "url": "/history/car-photos/iso-marlboro-ir.jpg",
+    "source": "https://www.statsf1.com/en/iso-marlboro-ir.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "jaguar-r1": {
     "url": "/history/car-photos/jaguar-r1.jpg",
@@ -1822,6 +2536,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jaguar_R5.jpg",
     "author": "jtstewart",
     "license": "CC BY-SA 2.0"
+  },
+  "jbw-59": {
+    "url": "/history/car-photos/jbw-59.jpg",
+    "source": "https://www.statsf1.com/en/jbw-59.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "jordan-191": {
     "url": "/history/car-photos/jordan-191.jpg",
@@ -1883,6 +2603,12 @@
     "author": "ozz13x",
     "license": "CC BY 2.0"
   },
+  "jordan-ej10b": {
+    "url": "/history/car-photos/jordan-ej10b.jpg",
+    "source": "https://www.statsf1.com/en/jordan-ej10b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "jordan-ej11": {
     "url": "/history/car-photos/jordan-ej11.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Heinz-Harald_Frentzen_2001_Canada.jpg",
@@ -1913,6 +2639,18 @@
     "author": "Wikimedia Commons",
     "license": "CC BY-SA 2.0"
   },
+  "jordan-ej15b": {
+    "url": "/history/car-photos/jordan-ej15b.jpg",
+    "source": "https://www.statsf1.com/en/jordan-ej15b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "kauhsen-wk": {
+    "url": "/history/car-photos/kauhsen-wk.jpg",
+    "source": "https://www.statsf1.com/en/kauhsen-wk.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "kick-sauber-c44": {
     "url": "/history/car-photos/kick-sauber-c44.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:2024-08-24_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3314_by_Stepro.jpg",
@@ -1925,11 +2663,23 @@
     "author": "Liauzh",
     "license": "CC BY-SA 4.0"
   },
+  "klenk-meteor": {
+    "url": "/history/car-photos/klenk-meteor.jpg",
+    "source": "https://www.statsf1.com/en/klenk-meteor.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "kojima-ke007": {
     "url": "/history/car-photos/kojima-ke007.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Kojima_KE007_front-right_2013_Yurakucho.jpg",
     "author": "Morio",
     "license": "CC BY-SA 3.0"
+  },
+  "kojima-ke009": {
+    "url": "/history/car-photos/kojima-ke009.jpg",
+    "source": "https://www.statsf1.com/en/kojima-ke009.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "krakau": {
     "url": "/history/car-photos/krakau.jpg",
@@ -1943,11 +2693,29 @@
     "author": "Doctorindy",
     "license": "CC BY-SA 3.0"
   },
+  "kurtis-kraft-midget": {
+    "url": "/history/car-photos/kurtis-kraft-midget.jpg",
+    "source": "https://www.statsf1.com/en/kurtis-kraft-midget.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "kuzma-indy-roadster": {
+    "url": "/history/car-photos/kuzma-indy-roadster.jpg",
+    "source": "https://www.statsf1.com/en/kuzma-indy-roadster.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lancia-d50": {
     "url": "/history/car-photos/lancia-d50.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Lancia_D50_at_Goodwood_Revival_2012.jpg",
     "author": "David Merrett from Daventry, England",
     "license": "CC BY 2.0"
+  },
+  "langley": {
+    "url": "/history/car-photos/langley.jpg",
+    "source": "https://www.statsf1.com/en/langley----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "larrousse-lh93": {
     "url": "/history/car-photos/larrousse-lh93.jpg",
@@ -1960,6 +2728,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:Eric_Comas_-_Larrousse_LH94_at_the_1994_British_Grand_Prix_(32418647801).jpg",
     "author": "Martin Lee from London, UK",
     "license": "CC BY-SA 2.0"
+  },
+  "lds-mk-1": {
+    "url": "/history/car-photos/lds-mk-1.jpg",
+    "source": "https://www.statsf1.com/en/lds-mk-1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lds-mk-3": {
+    "url": "/history/car-photos/lds-mk-3.jpg",
+    "source": "https://www.statsf1.com/en/lds-mk-3.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "lec-crp1": {
     "url": "/history/car-photos/lec-crp1.jpg",
@@ -1979,6 +2759,12 @@
     "author": "Stuart Seeger from College Station, Texas, USA",
     "license": "CC BY 2.0"
   },
+  "life-l190": {
+    "url": "/history/car-photos/life-l190.jpg",
+    "source": "https://www.statsf1.com/en/life-l190.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ligier-js11": {
     "url": "/history/car-photos/ligier-js11.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Jacques_Laffite_Ligier_JS11_15_2019_Silverstone_Classic_(48557917442).jpg",
@@ -1996,6 +2782,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:1981_Ligier_JS17,_Silverstone_2015_(David_Merrett).jpg",
     "author": "David Merrett from Daventry, England",
     "license": "CC BY 2.0"
+  },
+  "ligier-js17b": {
+    "url": "/history/car-photos/ligier-js17b.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js17b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ligier-js19": {
     "url": "/history/car-photos/ligier-js19.jpg",
@@ -2015,6 +2807,12 @@
     "author": "twm1340",
     "license": "CC BY-SA 2.0"
   },
+  "ligier-js23b": {
+    "url": "/history/car-photos/ligier-js23b.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js23b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ligier-js25": {
     "url": "/history/car-photos/ligier-js25.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:-125_-_Ligier_JS25_-_1985.jpg",
@@ -2026,6 +2824,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:Manoir_de_l%27Automobile_-_213_-_F1_Ligier_JS_27_1986.jpg",
     "author": "Koreller",
     "license": "CC BY-SA 4.0"
+  },
+  "ligier-js29b": {
+    "url": "/history/car-photos/ligier-js29b.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js29b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ligier-js29c": {
+    "url": "/history/car-photos/ligier-js29c.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js29c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ligier-js31": {
     "url": "/history/car-photos/ligier-js31.jpg",
@@ -2039,11 +2849,23 @@
     "author": "wileynorwichphoto",
     "license": "CC BY 2.0"
   },
+  "ligier-js33b": {
+    "url": "/history/car-photos/ligier-js33b.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js33b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ligier-js35": {
     "url": "/history/car-photos/ligier-js35.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Ligier_JS35.jpg",
     "author": "Thomas Bersy",
     "license": "CC BY-SA 2.0"
+  },
+  "ligier-js35b": {
+    "url": "/history/car-photos/ligier-js35b.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js35b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ligier-js37": {
     "url": "/history/car-photos/ligier-js37.jpg",
@@ -2081,6 +2903,18 @@
     "author": "Unknown authorUnknown author",
     "license": "Public domain"
   },
+  "ligier-js7": {
+    "url": "/history/car-photos/ligier-js7.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js7.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "ligier-js7-9": {
+    "url": "/history/car-photos/ligier-js7-9.jpg",
+    "source": "https://www.statsf1.com/en/ligier-js7-9.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ligier-js9": {
     "url": "/history/car-photos/ligier-js9.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Romorantin-Lanthenay_(Loir-et-Cher)_(52276886480).jpg",
@@ -2099,11 +2933,23 @@
     "author": "Yu Chu Chin",
     "license": "CC BY-SA 4.0"
   },
+  "lola-lc88b": {
+    "url": "/history/car-photos/lola-lc88b.jpg",
+    "source": "https://www.statsf1.com/en/lola-lc88b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lola-lc89": {
     "url": "/history/car-photos/lola-lc89.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_Lamborghini_0078.JPG",
     "author": "Arnaud 25",
     "license": "CC BY-SA 3.0"
+  },
+  "lola-lc89b": {
+    "url": "/history/car-photos/lola-lc89b.jpg",
+    "source": "https://www.statsf1.com/en/lola-lc89b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "lola-lc90": {
     "url": "/history/car-photos/lola-lc90.jpg",
@@ -2111,11 +2957,41 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "lola-mk-4": {
+    "url": "/history/car-photos/lola-mk-4.jpg",
+    "source": "https://www.statsf1.com/en/lola-mk-4.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lola-mk-4a": {
+    "url": "/history/car-photos/lola-mk-4a.jpg",
+    "source": "https://www.statsf1.com/en/lola-mk-4a.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lola-t100": {
+    "url": "/history/car-photos/lola-t100.jpg",
+    "source": "https://www.statsf1.com/en/lola-t100.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lola-t102": {
+    "url": "/history/car-photos/lola-t102.jpg",
+    "source": "https://www.statsf1.com/en/lola-t102.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lola-t370": {
     "url": "/history/car-photos/lola-t370.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Haynes_International_Motor_Museum_-_IMG_1496_-_Flickr_-_Adam_Woodford.jpg",
     "author": "Adam Woodford",
     "license": "CC BY 2.0"
+  },
+  "lola-t371": {
+    "url": "/history/car-photos/lola-t371.jpg",
+    "source": "https://www.statsf1.com/en/lola-t371.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "lola-t93-30": {
     "url": "/history/car-photos/lola-t93-30.jpg",
@@ -2177,6 +3053,12 @@
     "author": "Martin Lee from London, UK",
     "license": "CC BY-SA 2.0"
   },
+  "lotus-107b": {
+    "url": "/history/car-photos/lotus-107b.jpg",
+    "source": "https://www.statsf1.com/en/lotus-107b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lotus-107c": {
     "url": "/history/car-photos/lotus-107c.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:1994_Lotus-Mugen_Honda_Type_107C.jpg",
@@ -2206,6 +3088,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lotus_18_Stirling_Moss_Monaco_1961.jpg",
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
+  },
+  "lotus-18-21": {
+    "url": "/history/car-photos/lotus-18-21.jpg",
+    "source": "https://www.statsf1.com/en/lotus-18-21.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "lotus-20": {
     "url": "/history/car-photos/lotus-20.jpg",
@@ -2291,6 +3179,30 @@
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
   },
+  "lotus-72b": {
+    "url": "/history/car-photos/lotus-72b.jpg",
+    "source": "https://www.statsf1.com/en/lotus-72b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lotus-72c": {
+    "url": "/history/car-photos/lotus-72c.jpg",
+    "source": "https://www.statsf1.com/en/lotus-72c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lotus-72d": {
+    "url": "/history/car-photos/lotus-72d.jpg",
+    "source": "https://www.statsf1.com/en/lotus-72d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "lotus-72e": {
+    "url": "/history/car-photos/lotus-72e.jpg",
+    "source": "https://www.statsf1.com/en/lotus-72e.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lotus-76": {
     "url": "/history/car-photos/lotus-76.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:1974_Lotus_76.jpg",
@@ -2327,11 +3239,23 @@
     "author": "Legends Of Motorsports",
     "license": "CC BY-SA 2.0"
   },
+  "lotus-81b": {
+    "url": "/history/car-photos/lotus-81b.jpg",
+    "source": "https://www.statsf1.com/en/lotus-81b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lotus-87": {
     "url": "/history/car-photos/lotus-87.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Lotus_87_2008_Silverstone_Classic.jpg",
     "author": "Russell Whitworth",
     "license": "CC BY-SA 2.0"
+  },
+  "lotus-87b": {
+    "url": "/history/car-photos/lotus-87b.jpg",
+    "source": "https://www.statsf1.com/en/lotus-87b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "lotus-88": {
     "url": "/history/car-photos/lotus-88.jpg",
@@ -2381,6 +3305,12 @@
     "author": "https://www.flickr.com/jonbradbury",
     "license": "CC BY-SA 4.0"
   },
+  "lotus-98t": {
+    "url": "/history/car-photos/lotus-98t.jpg",
+    "source": "https://www.statsf1.com/en/lotus-98t.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "lotus-99t": {
     "url": "/history/car-photos/lotus-99t.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:1987_Lotus_99T_2.jpg",
@@ -2423,6 +3353,24 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "lyncar-006": {
+    "url": "/history/car-photos/lyncar-006.jpg",
+    "source": "https://www.statsf1.com/en/lyncar-006.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "maki-f101": {
+    "url": "/history/car-photos/maki-f101.jpg",
+    "source": "https://www.statsf1.com/en/maki-f101.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "maki-f102a": {
+    "url": "/history/car-photos/maki-f102a.jpg",
+    "source": "https://www.statsf1.com/en/maki-f102a.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "manor-mrt05": {
     "url": "/history/car-photos/manor-mrt05.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Pascal_Wehrlein_2016_Malaysia_FP2_1.jpg",
@@ -2446,6 +3394,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:March_721_2007_Silverstone.jpg",
     "author": "Darren",
     "license": "CC BY 2.0"
+  },
+  "march-721g": {
+    "url": "/history/car-photos/march-721g.jpg",
+    "source": "https://www.statsf1.com/en/march-721g.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "march-721x": {
+    "url": "/history/car-photos/march-721x.jpg",
+    "source": "https://www.statsf1.com/en/march-721x.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "march-731": {
     "url": "/history/car-photos/march-731.jpg",
@@ -2471,6 +3431,24 @@
     "author": "Lothar Spurzem",
     "license": "CC BY-SA 2.0 de"
   },
+  "march-761b": {
+    "url": "/history/car-photos/march-761b.jpg",
+    "source": "https://www.statsf1.com/en/march-761b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "march-771": {
+    "url": "/history/car-photos/march-771.jpg",
+    "source": "https://www.statsf1.com/en/march-771.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "march-781s": {
+    "url": "/history/car-photos/march-781s.jpg",
+    "source": "https://www.statsf1.com/en/march-781s.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "march-811": {
     "url": "/history/car-photos/march-811.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:March_811_at_Silverstone_Classic_2011.jpg",
@@ -2483,11 +3461,41 @@
     "author": "David Merrett from Daventry, England",
     "license": "CC BY 2.0"
   },
+  "march-871": {
+    "url": "/history/car-photos/march-871.jpg",
+    "source": "https://www.statsf1.com/en/march-871.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "march-87p": {
+    "url": "/history/car-photos/march-87p.jpg",
+    "source": "https://www.statsf1.com/en/march-87p.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "march-881": {
+    "url": "/history/car-photos/march-881.jpg",
+    "source": "https://www.statsf1.com/en/march-881.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "march-cg891": {
     "url": "/history/car-photos/march-cg891.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:March_CG891_of_Andy_Higgins.jpg",
     "author": "GTHO",
     "license": "CC BY-SA 4.0"
+  },
+  "march-cg911b": {
+    "url": "/history/car-photos/march-cg911b.jpg",
+    "source": "https://www.statsf1.com/en/march-cg911b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "martini-mk23": {
+    "url": "/history/car-photos/martini-mk23.jpg",
+    "source": "https://www.statsf1.com/en/martini-mk23.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "marussia-mr01": {
     "url": "/history/car-photos/marussia-mr01.jpg",
@@ -2507,6 +3515,12 @@
     "author": "Habeed Hameed",
     "license": "CC BY-SA 2.0"
   },
+  "marussia-mr03b": {
+    "url": "/history/car-photos/marussia-mr03b.jpg",
+    "source": "https://www.statsf1.com/en/marussia-mr03b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "maserati-250f": {
     "url": "/history/car-photos/maserati-250f.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Maserati_250_F,_Bj._1957_(1977-08-14)_S%C3%BCdkehre.jpg",
@@ -2524,6 +3538,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Maserati_4CLT_48_fl.jpg",
     "author": "Herranderssvensson",
     "license": "CC BY-SA 4.0"
+  },
+  "maserati-4clt-50": {
+    "url": "/history/car-photos/maserati-4clt-50.jpg",
+    "source": "https://www.statsf1.com/en/maserati-milano-4clt-50.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "maserati-8ctf": {
     "url": "/history/car-photos/maserati-8ctf.jpg",
@@ -2554,6 +3574,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cit%C3%A9Auto_-_Matra_MS120.jpg",
     "author": "A1AA1A",
     "license": "CC BY-SA 4.0"
+  },
+  "matra-ms120b": {
+    "url": "/history/car-photos/matra-ms120b.jpg",
+    "source": "https://www.statsf1.com/en/matra-ms120b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "matra-ms120c": {
+    "url": "/history/car-photos/matra-ms120c.jpg",
+    "source": "https://www.statsf1.com/en/matra-ms120c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "matra-ms120d": {
     "url": "/history/car-photos/matra-ms120d.jpg",
@@ -2591,11 +3623,23 @@
     "author": "Y.Leclercq©",
     "license": "CC BY-SA 4.0"
   },
+  "mcguire-bm1": {
+    "url": "/history/car-photos/mcguire-bm1.jpg",
+    "source": "https://www.statsf1.com/en/mcguire-bm1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mclaren-m14a": {
     "url": "/history/car-photos/mclaren-m14a.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:McLaren_M14A_at_Goodwood_FOS_2012.jpg",
     "author": "Darren",
     "license": "CC BY 2.0"
+  },
+  "mclaren-m14d": {
+    "url": "/history/car-photos/mclaren-m14d.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-m14d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "mclaren-m19a": {
     "url": "/history/car-photos/mclaren-m19a.jpg",
@@ -2633,6 +3677,12 @@
     "author": "John Chapman (Pyrope)",
     "license": "CC BY-SA 3.0"
   },
+  "mclaren-m29f": {
+    "url": "/history/car-photos/mclaren-m29f.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-m29f.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mclaren-m2b": {
     "url": "/history/car-photos/mclaren-m2b.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:McLaren_M2B_front-left_Donington_Grand_Prix_Collection.jpg",
@@ -2644,6 +3694,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:McLaren_M30_Mont-Tremblant_2009.jpg",
     "author": "John Chapman (User:Pyrope)",
     "license": "CC BY-SA 3.0"
+  },
+  "mclaren-m4b": {
+    "url": "/history/car-photos/mclaren-m4b.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-m4b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "mclaren-m5a": {
     "url": "/history/car-photos/mclaren-m5a.jpg",
@@ -2662,6 +3718,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:Vic_Elford_McLaren_M7B_Germany_1969.jpg",
     "author": "The original uploader was Spurzem at German Wikipedia.",
     "license": "CC BY-SA 2.0 de"
+  },
+  "mclaren-m7c": {
+    "url": "/history/car-photos/mclaren-m7c.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-m7c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "mclaren-m7d": {
+    "url": "/history/car-photos/mclaren-m7d.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-m7d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "mclaren-m9a": {
     "url": "/history/car-photos/mclaren-m9a.jpg",
@@ -2692,6 +3760,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lando_Norris-McLaren_MCL35_(3).jpg",
     "author": "Alberto-g-rovi",
     "license": "CC BY 3.0"
+  },
+  "mclaren-mcl35m": {
+    "url": "/history/car-photos/mclaren-mcl35m.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mcl35m.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "mclaren-mcl36": {
     "url": "/history/car-photos/mclaren-mcl36.jpg",
@@ -2735,11 +3809,23 @@
     "author": "Milner46",
     "license": "CC BY-SA 3.0"
   },
+  "mclaren-mp4-10c": {
+    "url": "/history/car-photos/mclaren-mp4-10c.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-10c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mclaren-mp4-11": {
     "url": "/history/car-photos/mclaren-mp4-11.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:McLaren_MP4_11.jpg",
     "author": "2002thx1138 at English Wikipedia",
     "license": "CC BY-SA 3.0"
+  },
+  "mclaren-mp4-11b": {
+    "url": "/history/car-photos/mclaren-mp4-11b.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-11b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "mclaren-mp4-12": {
     "url": "/history/car-photos/mclaren-mp4-12.jpg",
@@ -2777,17 +3863,41 @@
     "author": "Martin Lee",
     "license": "CC BY-SA 2.0"
   },
+  "mclaren-mp4-17d": {
+    "url": "/history/car-photos/mclaren-mp4-17d.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-17d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mclaren-mp4-19": {
     "url": "/history/car-photos/mclaren-mp4-19.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Coulthard_2004_Canada.jpg",
     "author": "Sang Trinh from Ottawa, Canada",
     "license": "CC BY 2.0"
   },
+  "mclaren-mp4-19b": {
+    "url": "/history/car-photos/mclaren-mp4-19b.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-19b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mclaren-mp4-1b": {
     "url": "/history/car-photos/mclaren-mp4-1b.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:John_Watson_McLaren_MP4-1B_2018_British_Grand_Prix_(43693763322).jpg",
     "author": "https://www.flickr.com/photos/69527563@N05/",
     "license": "CC BY 2.0"
+  },
+  "mclaren-mp4-1c": {
+    "url": "/history/car-photos/mclaren-mp4-1c.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-1c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "mclaren-mp4-1e": {
+    "url": "/history/car-photos/mclaren-mp4-1e.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-1e.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "mclaren-mp4-2": {
     "url": "/history/car-photos/mclaren-mp4-2.jpg",
@@ -2909,6 +4019,12 @@
     "author": "debun, cropped by Morio",
     "license": "CC BY 2.0"
   },
+  "mclaren-mp4-6b": {
+    "url": "/history/car-photos/mclaren-mp4-6b.jpg",
+    "source": "https://www.statsf1.com/en/mclaren-mp4-6b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mclaren-mp4-7a": {
     "url": "/history/car-photos/mclaren-mp4-7a.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-7_left_Honda_Collection_Hall.jpg",
@@ -2981,6 +4097,12 @@
     "author": "Artes Max from Spain",
     "license": "CC BY-SA 2.0"
   },
+  "mercedes-f1-w12": {
+    "url": "/history/car-photos/mercedes-f1-w12.jpg",
+    "source": "https://www.statsf1.com/en/mercedes-f1-w12.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "mercedes-f1-w13": {
     "url": "/history/car-photos/mercedes-f1-w13.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:2022_Emilia_Romagna_GP_-_Mercedes-AMG_F1_W13_E_Performance_of_Lewis_Hamilton.jpg",
@@ -3023,11 +4145,29 @@
     "author": "Lothar Spurzem",
     "license": "CC BY-SA 2.0 de"
   },
+  "merzario-a1": {
+    "url": "/history/car-photos/merzario-a1.jpg",
+    "source": "https://www.statsf1.com/en/merzario-a1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "merzario-a1b": {
+    "url": "/history/car-photos/merzario-a1b.jpg",
+    "source": "https://www.statsf1.com/en/merzario-a1b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "merzario-a2": {
     "url": "/history/car-photos/merzario-a2.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Merzario_A2_2015_Oldtimer_Grand_Prix_N%C3%BCrburgring.jpg",
     "author": "MPW57",
     "license": "CC BY 3.0"
+  },
+  "merzario-a4": {
+    "url": "/history/car-photos/merzario-a4.jpg",
+    "source": "https://www.statsf1.com/en/merzario-a4.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "meskowski": {
     "url": "/history/car-photos/meskowski.jpg",
@@ -3059,11 +4199,47 @@
     "author": "Jerry Lewis-Evans",
     "license": "CC BY-SA 2.0"
   },
+  "minardi-m185b": {
+    "url": "/history/car-photos/minardi-m185b.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m185b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "minardi-m186": {
+    "url": "/history/car-photos/minardi-m186.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m186.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "minardi-m187": {
+    "url": "/history/car-photos/minardi-m187.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m187.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "minardi-m188": {
+    "url": "/history/car-photos/minardi-m188.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m188.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "minardi-m188b": {
+    "url": "/history/car-photos/minardi-m188b.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m188b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "minardi-m189": {
     "url": "/history/car-photos/minardi-m189.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Minardi_M189_-_Pierluigi_Martini.jpg",
     "author": "GTHO",
     "license": "CC BY-SA 4.0"
+  },
+  "minardi-m190": {
+    "url": "/history/car-photos/minardi-m190.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m190.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "minardi-m191": {
     "url": "/history/car-photos/minardi-m191.jpg",
@@ -3071,11 +4247,29 @@
     "author": "Arnaud 25",
     "license": "CC BY-SA 3.0"
   },
+  "minardi-m191b": {
+    "url": "/history/car-photos/minardi-m191b.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m191b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "minardi-m192": {
+    "url": "/history/car-photos/minardi-m192.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m192.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "minardi-m193": {
     "url": "/history/car-photos/minardi-m193.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Pierluigi_Martini_-_Minardi_M193_during_practice_for_the_1993_British_Grand_Prix_(33645875476).jpg",
     "author": "Martin Lee from London, UK",
     "license": "CC BY-SA 2.0"
+  },
+  "minardi-m193b": {
+    "url": "/history/car-photos/minardi-m193b.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m193b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "minardi-m194": {
     "url": "/history/car-photos/minardi-m194.jpg",
@@ -3088,6 +4282,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pierluigi_Martini_1995_Britain.jpg",
     "author": "Fox 1 from Beta Quadrant, England",
     "license": "CC BY-SA 2.0"
+  },
+  "minardi-m195b": {
+    "url": "/history/car-photos/minardi-m195b.jpg",
+    "source": "https://www.statsf1.com/en/minardi-m195b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "minardi-m197": {
     "url": "/history/car-photos/minardi-m197.jpg",
@@ -3143,17 +4343,107 @@
     "author": "Alexandre Prevot from Nancy, France",
     "license": "CC BY-SA 4.0"
   },
+  "moore": {
+    "url": "/history/car-photos/moore.jpg",
+    "source": "https://www.statsf1.com/en/moore----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "nichels": {
+    "url": "/history/car-photos/nichels.jpg",
+    "source": "https://www.statsf1.com/en/nichels----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "olson-special": {
+    "url": "/history/car-photos/olson-special.jpg",
+    "source": "https://www.statsf1.com/en/olson-special.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "onyx-ore-1": {
+    "url": "/history/car-photos/onyx-ore-1.jpg",
+    "source": "https://www.statsf1.com/en/onyx-ore-1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "onyx-ore-1b": {
+    "url": "/history/car-photos/onyx-ore-1b.jpg",
+    "source": "https://www.statsf1.com/en/onyx-ore-1b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "osella-fa1": {
     "url": "/history/car-photos/osella-fa1.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Ghinzani_Osella_FA1F_1984_Dallas_F1.jpg",
     "author": "twm1340",
     "license": "CC BY-SA 2.0"
   },
+  "osella-fa1b": {
+    "url": "/history/car-photos/osella-fa1b.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1c": {
+    "url": "/history/car-photos/osella-fa1c.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1d": {
+    "url": "/history/car-photos/osella-fa1d.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1e": {
+    "url": "/history/car-photos/osella-fa1e.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1e.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1f": {
+    "url": "/history/car-photos/osella-fa1f.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1f.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1g": {
+    "url": "/history/car-photos/osella-fa1g.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1g.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1h": {
+    "url": "/history/car-photos/osella-fa1h.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1h.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1i": {
+    "url": "/history/car-photos/osella-fa1i.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1i.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "osella-fa1l": {
     "url": "/history/car-photos/osella-fa1l.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Osella_FA1L.jpg",
     "author": "Patrick Down",
     "license": "CC BY-SA 2.0"
+  },
+  "osella-fa1m": {
+    "url": "/history/car-photos/osella-fa1m.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1m.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "osella-fa1me": {
+    "url": "/history/car-photos/osella-fa1me.jpg",
+    "source": "https://www.statsf1.com/en/osella-fa1m-e.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "pacific-pr01": {
     "url": "/history/car-photos/pacific-pr01.jpg",
@@ -3167,11 +4457,29 @@
     "author": "Martin Lee",
     "license": "CC BY-SA 2.0"
   },
+  "pankratz-d": {
+    "url": "/history/car-photos/pankratz-d.jpg",
+    "source": "https://www.statsf1.com/en/pankratz-d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "parnelli-vpj4": {
     "url": "/history/car-photos/parnelli-vpj4.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Mario_Andretti%27s_Parnelli_VPJ-4,_1975_British_Grand_Prix.jpg",
     "author": "Gillfoto",
     "license": "CC BY-SA 3.0"
+  },
+  "parnelli-vpj4b": {
+    "url": "/history/car-photos/parnelli-vpj4b.jpg",
+    "source": "https://www.statsf1.com/en/parnelli-vpj4b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "pawl": {
+    "url": "/history/car-photos/pawl.jpg",
+    "source": "https://www.statsf1.com/en/pawl----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "penske-pc1": {
     "url": "/history/car-photos/penske-pc1.jpg",
@@ -3191,11 +4499,29 @@
     "author": "Andrew Basterfield",
     "license": "CC BY-SA 2.0"
   },
+  "phillips": {
+    "url": "/history/car-photos/phillips.jpg",
+    "source": "https://www.statsf1.com/en/phillips----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "politoys-fx3": {
+    "url": "/history/car-photos/politoys-fx3.jpg",
+    "source": "https://www.statsf1.com/en/politoys-fx3.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "porsche-718": {
     "url": "/history/car-photos/porsche-718.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Porsche_718RSK_Spyder,_front_right,_Stratford.jpg",
     "author": "Mr.choppers",
     "license": "CC BY-SA 3.0"
+  },
+  "porsche-787": {
+    "url": "/history/car-photos/porsche-787.jpg",
+    "source": "https://www.statsf1.com/en/porsche-787.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "porsche-804": {
     "url": "/history/car-photos/porsche-804.jpg",
@@ -3257,11 +4583,23 @@
     "author": "Alberto-g-rovi",
     "license": "CC BY 3.0"
   },
+  "rae": {
+    "url": "/history/car-photos/rae.jpg",
+    "source": "https://www.statsf1.com/en/rae----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "ram-01": {
     "url": "/history/car-photos/ram-01.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:RAM_01.jpg",
     "author": "Ben Sutherland",
     "license": "CC BY 2.0"
+  },
+  "ram-02": {
+    "url": "/history/car-photos/ram-02.jpg",
+    "source": "https://www.statsf1.com/en/ram-02.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "ram-03": {
     "url": "/history/car-photos/ram-03.jpg",
@@ -3274,6 +4612,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:RB_VCARB01_2024_Chinese_GP.jpg",
     "author": "Liauzh",
     "license": "CC BY-SA 4.0"
+  },
+  "rebaque-hr100": {
+    "url": "/history/car-photos/rebaque-hr100.jpg",
+    "source": "https://www.statsf1.com/en/rebaque-hr100.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "red-bull-rb1": {
     "url": "/history/car-photos/red-bull-rb1.jpg",
@@ -3322,6 +4666,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alexander_Albon-Red_Bull_RB16_(4).jpg",
     "author": "Alberto-g-rovi",
     "license": "CC BY 3.0"
+  },
+  "red-bull-rb16b": {
+    "url": "/history/car-photos/red-bull-rb16b.jpg",
+    "source": "https://www.statsf1.com/en/red-bull-rb16b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "red-bull-rb18": {
     "url": "/history/car-photos/red-bull-rb18.jpg",
@@ -3407,6 +4757,12 @@
     "author": "Martin Lee",
     "license": "CC BY-SA 2.0"
   },
+  "renault-r23b": {
+    "url": "/history/car-photos/renault-r23b.jpg",
+    "source": "https://www.statsf1.com/en/renault-r23b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "renault-r24": {
     "url": "/history/car-photos/renault-r24.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Fernando_Alonso_2004_Canada.jpg",
@@ -3461,11 +4817,29 @@
     "author": "Gladiator95190",
     "license": "CC BY-SA 3.0"
   },
+  "renault-re20b": {
+    "url": "/history/car-photos/renault-re20b.jpg",
+    "source": "https://www.statsf1.com/en/renault-re20b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "renault-re30": {
     "url": "/history/car-photos/renault-re30.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Arnoux_1981_Nederland.jpg",
     "author": "Hans van Dijk for Anefo",
     "license": "CC BY-SA 3.0 nl"
+  },
+  "renault-re30b": {
+    "url": "/history/car-photos/renault-re30b.jpg",
+    "source": "https://www.statsf1.com/en/renault-re30b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "renault-re30c": {
+    "url": "/history/car-photos/renault-re30c.jpg",
+    "source": "https://www.statsf1.com/en/renault-re30c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "renault-re40": {
     "url": "/history/car-photos/renault-re40.jpg",
@@ -3484,6 +4858,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Renault_RE60.jpg",
     "author": "Thomas Bersy",
     "license": "CC BY-SA 2.0"
+  },
+  "renault-re60b": {
+    "url": "/history/car-photos/renault-re60b.jpg",
+    "source": "https://www.statsf1.com/en/renault-re60b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "renault-rs01": {
     "url": "/history/car-photos/renault-rs01.jpg",
@@ -3533,6 +4913,12 @@
     "author": "Der Alf",
     "license": "CC BY 4.0"
   },
+  "rial-arc2": {
+    "url": "/history/car-photos/rial-arc2.jpg",
+    "source": "https://www.statsf1.com/en/rial-arc2.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "sauber-c12": {
     "url": "/history/car-photos/sauber-c12.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Karl_Wendlinger_-_Sauber_C12_during_practice_for_the_1993_British_Grand_Prix_(33302730550).jpg",
@@ -3562,6 +4948,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sauber_C16_front-right_2017_Hangar-7_1.jpg",
     "author": "Morio",
     "license": "CC BY-SA 4.0"
+  },
+  "sauber-c17": {
+    "url": "/history/car-photos/sauber-c17.jpg",
+    "source": "https://www.statsf1.com/en/sauber-c17.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "sauber-c18": {
     "url": "/history/car-photos/sauber-c18.jpg",
@@ -3665,6 +5057,18 @@
     "author": "https://www.flickr.com/photos/davehamster/",
     "license": "CC BY 2.0"
   },
+  "schroeder": {
+    "url": "/history/car-photos/schroeder.jpg",
+    "source": "https://www.statsf1.com/en/schroeder----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "scirocco-sp": {
+    "url": "/history/car-photos/scirocco-sp.jpg",
+    "source": "https://www.statsf1.com/en/scirocco-sp.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "shadow-dn1": {
     "url": "/history/car-photos/shadow-dn1.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Shadow_DN1_at_Barber_01.jpg",
@@ -3677,17 +5081,35 @@
     "author": "Calreyn88",
     "license": "CC BY-SA 4.0"
   },
+  "shadow-dn12": {
+    "url": "/history/car-photos/shadow-dn12.jpg",
+    "source": "https://www.statsf1.com/en/shadow-dn12.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "shadow-dn3": {
     "url": "/history/car-photos/shadow-dn3.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Revson_1974_Race_of_Champions.jpg",
     "author": "Martin Lee",
     "license": "CC BY-SA 2.0"
   },
+  "shadow-dn3b": {
+    "url": "/history/car-photos/shadow-dn3b.jpg",
+    "source": "https://www.statsf1.com/en/shadow-dn3b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "shadow-dn5": {
     "url": "/history/car-photos/shadow-dn5.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Tom_Pryce_1975_RoC.jpg",
     "author": "Martin Lee",
     "license": "CC BY-SA 2.0"
+  },
+  "shadow-dn5b": {
+    "url": "/history/car-photos/shadow-dn5b.jpg",
+    "source": "https://www.statsf1.com/en/shadow-dn5b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "shadow-dn7": {
     "url": "/history/car-photos/shadow-dn7.jpg",
@@ -3707,6 +5129,18 @@
     "author": "Martin Lee from London, UK",
     "license": "CC BY-SA 2.0"
   },
+  "shannon-sh1": {
+    "url": "/history/car-photos/shannon-sh1.jpg",
+    "source": "https://www.statsf1.com/en/shannon-sh-1.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "sherman": {
+    "url": "/history/car-photos/sherman.jpg",
+    "source": "https://www.statsf1.com/en/sherman----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "simca-gordini-t11": {
     "url": "/history/car-photos/simca-gordini-t11.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Gordini_11_course_1946_-aa.jpg",
@@ -3725,6 +5159,12 @@
     "author": "Martin Lee from London, UK",
     "license": "CC BY-SA 2.0"
   },
+  "simtek-s951": {
+    "url": "/history/car-photos/simtek-s951.jpg",
+    "source": "https://www.statsf1.com/en/simtek-s951.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "snowberger": {
     "url": "/history/car-photos/snowberger.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Dawson,_Snowberger,_Aspen,_Gleason,_Winnai,_Keech,_Desmond,_Pugh_LCCN2016842223.jpg",
@@ -3737,17 +5177,47 @@
     "author": "David Merrett from Daventry, England",
     "license": "CC BY 2.0"
   },
+  "spirit-101d": {
+    "url": "/history/car-photos/spirit-101d.jpg",
+    "source": "https://www.statsf1.com/en/spirit-101d.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "spirit-201": {
     "url": "/history/car-photos/spirit-201.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Spirit201HCH.jpg",
     "author": "Mclarensenna",
     "license": "Public domain"
   },
+  "spirit-201c": {
+    "url": "/history/car-photos/spirit-201c.jpg",
+    "source": "https://www.statsf1.com/en/spirit-201c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "spyker-f8-vii": {
     "url": "/history/car-photos/spyker-f8-vii.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Adrian_Sutil_2007_Brazil_free_practice.jpg",
     "author": "Morio",
     "license": "CC BY-SA 3.0"
+  },
+  "spyker-f8-viib": {
+    "url": "/history/car-photos/spyker-f8-viib.jpg",
+    "source": "https://www.statsf1.com/en/spyker-f8-vii-b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "stebro-mk-iv": {
+    "url": "/history/car-photos/stebro-mk-iv.jpg",
+    "source": "https://www.statsf1.com/en/stebro-mk-iv.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "stevens": {
+    "url": "/history/car-photos/stevens.jpg",
+    "source": "https://www.statsf1.com/en/stevens----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "stewart-sf01": {
     "url": "/history/car-photos/stewart-sf01.jpg",
@@ -3839,17 +5309,71 @@
     "author": "Brian Snelson from Hockley, Essex, England",
     "license": "CC BY 2.0"
   },
+  "sutton": {
+    "url": "/history/car-photos/sutton.jpg",
+    "source": "https://www.statsf1.com/en/sutton----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "talbot-lago-t26c": {
     "url": "/history/car-photos/talbot-lago-t26c.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Talbot_Lago_Type_26C_of_Ron_Townley.jpg",
     "author": "GTHO",
     "license": "CC BY-SA 3.0"
   },
+  "talbot-lago-t26c-da": {
+    "url": "/history/car-photos/talbot-lago-t26c-da.jpg",
+    "source": "https://www.statsf1.com/en/talbot-lago-t26c-da.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "talbot-lago-t26c-gs": {
+    "url": "/history/car-photos/talbot-lago-t26c-gs.jpg",
+    "source": "https://www.statsf1.com/en/talbot-lago-t26c-gs.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "tec-mec-f415": {
+    "url": "/history/car-photos/tec-mec-f415.jpg",
+    "source": "https://www.statsf1.com/en/tec-mec-f415.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "tecno-pa123-3": {
+    "url": "/history/car-photos/tecno-pa123-3.jpg",
+    "source": "https://www.statsf1.com/en/tecno-pa123-3.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "tecno-pa123-6": {
+    "url": "/history/car-photos/tecno-pa123-6.jpg",
+    "source": "https://www.statsf1.com/en/tecno-pa123-6.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "theodore-n183": {
+    "url": "/history/car-photos/theodore-n183.jpg",
+    "source": "https://www.statsf1.com/en/theodore-n183.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "theodore-tr1": {
     "url": "/history/car-photos/theodore-tr1.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Theodore_TR1_2011_Hockenheim_Historic_Race.jpg",
     "author": "Doom Warrior;Cropped and adjusted by uploader Mr.choppers",
     "license": "CC BY-SA 3.0"
+  },
+  "theodore-ty01": {
+    "url": "/history/car-photos/theodore-ty01.jpg",
+    "source": "https://www.statsf1.com/en/theodore-ty01.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "theodore-ty02": {
+    "url": "/history/car-photos/theodore-ty02.jpg",
+    "source": "https://www.statsf1.com/en/theodore-ty02.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "token-rj02": {
     "url": "/history/car-photos/token-rj02.jpg",
@@ -3862,6 +5386,18 @@
     "source": "https://commons.wikimedia.org/wiki/File:Toleman_TG181.jpg",
     "author": "Phil Guest from Bournemouth, UK",
     "license": "CC BY-SA 2.0"
+  },
+  "toleman-tg181b": {
+    "url": "/history/car-photos/toleman-tg181b.jpg",
+    "source": "https://www.statsf1.com/en/toleman-tg181b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "toleman-tg181c": {
+    "url": "/history/car-photos/toleman-tg181c.jpg",
+    "source": "https://www.statsf1.com/en/toleman-tg181c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "toleman-tg183": {
     "url": "/history/car-photos/toleman-tg183.jpg",
@@ -3929,6 +5465,12 @@
     "author": "Martin Pettitt, cropped/reouched by Morio",
     "license": "CC BY 2.0"
   },
+  "toro-rosso-str2b": {
+    "url": "/history/car-photos/toro-rosso-str2b.jpg",
+    "source": "https://www.statsf1.com/en/toro-rosso-str2b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "toro-rosso-str3": {
     "url": "/history/car-photos/toro-rosso-str3.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Toro_Rosso_STR3_front-left_2017_Hangar-7.jpg",
@@ -3989,17 +5531,35 @@
     "author": "Rick Dikeman",
     "license": "CC BY-SA 3.0"
   },
+  "toyota-tf104b": {
+    "url": "/history/car-photos/toyota-tf104b.jpg",
+    "source": "https://www.statsf1.com/en/toyota-tf104b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "toyota-tf105": {
     "url": "/history/car-photos/toyota-tf105.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Ralf_Schumacher_2005_(cropped).jpg",
     "author": "Ralf_Schumacher_2005.jpg: TMWolf derivative work: Chubbennaitor (talk)",
     "license": "CC BY-SA 2.0"
   },
+  "toyota-tf105b": {
+    "url": "/history/car-photos/toyota-tf105b.jpg",
+    "source": "https://www.statsf1.com/en/toyota-tf105b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "toyota-tf106": {
     "url": "/history/car-photos/toyota-tf106.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Jarno_Trulli_2006_Canada.jpg",
     "author": "TMWolf",
     "license": "CC BY-SA 2.0"
+  },
+  "toyota-tf106b": {
+    "url": "/history/car-photos/toyota-tf106b.jpg",
+    "source": "https://www.statsf1.com/en/toyota-tf106b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "toyota-tf107": {
     "url": "/history/car-photos/toyota-tf107.jpg",
@@ -4018,6 +5578,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:TF109_rear_detail.jpg",
     "author": "Jose Mª Izquierdo Galiot",
     "license": "CC BY 2.0"
+  },
+  "trevis-indycar": {
+    "url": "/history/car-photos/trevis-indycar.jpg",
+    "source": "https://www.statsf1.com/en/trevis-indycar.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "trojan-t103": {
+    "url": "/history/car-photos/trojan-t103.jpg",
+    "source": "https://www.statsf1.com/en/trojan-t103.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "turner": {
+    "url": "/history/car-photos/turner.jpg",
+    "source": "https://www.statsf1.com/en/turner----.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "tyrrell-001": {
     "url": "/history/car-photos/tyrrell-001.jpg",
@@ -4109,6 +5687,12 @@
     "author": "Matti Blume",
     "license": "CC BY-SA 4.0"
   },
+  "tyrrell-017b": {
+    "url": "/history/car-photos/tyrrell-017b.jpg",
+    "source": "https://www.statsf1.com/en/tyrrell-017b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "tyrrell-018": {
     "url": "/history/car-photos/tyrrell-018.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Johnny_Herbert_1989_Belgian_GP.jpg",
@@ -4126,6 +5710,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Tyrrell_020_front-left_2012_Japan.jpg",
     "author": "Morio",
     "license": "CC BY-SA 3.0"
+  },
+  "tyrrell-020b": {
+    "url": "/history/car-photos/tyrrell-020b.jpg",
+    "source": "https://www.statsf1.com/en/tyrrell-020b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "tyrrell-020c": {
     "url": "/history/car-photos/tyrrell-020c.jpg",
@@ -4169,17 +5759,53 @@
     "author": "PSParrot",
     "license": "CC BY 2.0"
   },
+  "tyrrell-dg016": {
+    "url": "/history/car-photos/tyrrell-dg016.jpg",
+    "source": "https://www.statsf1.com/en/tyrrell-dg016.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "tyrrell-p34": {
     "url": "/history/car-photos/tyrrell-p34.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2017_-_Tyrrell_P34_-_1977_-_002.jpg",
     "author": "Thesupermat",
     "license": "CC BY-SA 4.0"
   },
+  "vanwall-special": {
+    "url": "/history/car-photos/vanwall-special.jpg",
+    "source": "https://www.statsf1.com/en/vanwall-special.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "vanwall-vw-11": {
+    "url": "/history/car-photos/vanwall-vw-11.jpg",
+    "source": "https://www.statsf1.com/en/vanwall-vw-11.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "vanwall-vw-2": {
+    "url": "/history/car-photos/vanwall-vw-2.jpg",
+    "source": "https://www.statsf1.com/en/vanwall-vw-2.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "vanwall-vw-5": {
     "url": "/history/car-photos/vanwall-vw-5.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Vanwall_VW5_Aintree_1957.jpg",
     "author": "Terry Whalebone from Bolton, UK",
     "license": "CC BY 2.0"
+  },
+  "vanwall-vw-55": {
+    "url": "/history/car-photos/vanwall-vw-55.jpg",
+    "source": "https://www.statsf1.com/en/vanwall-vw-55.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "vanwall-vw-59": {
+    "url": "/history/car-photos/vanwall-vw-59.jpg",
+    "source": "https://www.statsf1.com/en/vanwall-vw-59.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "venturi-lc92": {
     "url": "/history/car-photos/venturi-lc92.jpg",
@@ -4235,6 +5861,12 @@
     "author": "Lothar Spurzem",
     "license": "CC BY-SA 2.0 de"
   },
+  "williams-fw07b": {
+    "url": "/history/car-photos/williams-fw07b.jpg",
+    "source": "https://www.statsf1.com/en/williams-fw07b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "williams-fw07c": {
     "url": "/history/car-photos/williams-fw07c.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Williams_FW07C,_Peter_Sowerby,_GB_(17.06.2007).jpg",
@@ -4259,6 +5891,12 @@
     "author": "Morio",
     "license": "CC BY-SA 3.0"
   },
+  "williams-fw09b": {
+    "url": "/history/car-photos/williams-fw09b.jpg",
+    "source": "https://www.statsf1.com/en/williams-fw09b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "williams-fw10": {
     "url": "/history/car-photos/williams-fw10.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Williams_FW10_Honda_Collection_Hall.jpg",
@@ -4282,6 +5920,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:Williams_FW12B_(Mansell)_front-left_2017_Williams_Conference_Centre.jpg",
     "author": "Morio",
     "license": "CC BY-SA 4.0"
+  },
+  "williams-fw12c": {
+    "url": "/history/car-photos/williams-fw12c.jpg",
+    "source": "https://www.statsf1.com/en/williams-fw12c.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "williams-fw13": {
     "url": "/history/car-photos/williams-fw13.jpg",
@@ -4331,6 +5975,12 @@
     "author": "Morio",
     "license": "CC BY-SA 4.0"
   },
+  "williams-fw17b": {
+    "url": "/history/car-photos/williams-fw17b.jpg",
+    "source": "https://www.statsf1.com/en/williams-fw17b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "williams-fw18": {
     "url": "/history/car-photos/williams-fw18.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Damon_Hill_Williams_FW18_2010_Bahrain.jpg",
@@ -4366,6 +6016,12 @@
     "source": "https://commons.wikimedia.org/wiki/File:WilliamsF1-BMW_FW23-05_b.JPG",
     "author": "Olli1800",
     "license": "CC BY-SA 3.0"
+  },
+  "williams-fw24": {
+    "url": "/history/car-photos/williams-fw24.jpg",
+    "source": "https://www.statsf1.com/en/williams-fw24.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "williams-fw25": {
     "url": "/history/car-photos/williams-fw25.jpg",
@@ -4475,6 +6131,12 @@
     "author": "Eustace Bagge",
     "license": "CC BY-SA 4.0"
   },
+  "williams-fw43b": {
+    "url": "/history/car-photos/williams-fw43b.jpg",
+    "source": "https://www.statsf1.com/en/williams-fw43b.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "williams-fw44": {
     "url": "/history/car-photos/williams-fw44.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2022_Nr._23_Albon.jpg",
@@ -4517,6 +6179,24 @@
     "author": "Legends Of Motorsports",
     "license": "CC BY-SA 2.0"
   },
+  "wolf-wr2": {
+    "url": "/history/car-photos/wolf-wr2.jpg",
+    "source": "https://www.statsf1.com/en/wolf-wr2.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "wolf-wr3": {
+    "url": "/history/car-photos/wolf-wr3.jpg",
+    "source": "https://www.statsf1.com/en/wolf-wr3.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "wolf-wr4": {
+    "url": "/history/car-photos/wolf-wr4.jpg",
+    "source": "https://www.statsf1.com/en/wolf-wr4.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "wolf-wr5": {
     "url": "/history/car-photos/wolf-wr5.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Wolf_WR6_Mont-Tremblant_Scheckter.jpg",
@@ -4535,11 +6215,41 @@
     "author": "Gilberto Benni from Bologna, Italia",
     "license": "CC BY-SA 2.0"
   },
+  "wolf-wr8": {
+    "url": "/history/car-photos/wolf-wr8.jpg",
+    "source": "https://www.statsf1.com/en/wolf-wr8.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "wolf-wr9": {
+    "url": "/history/car-photos/wolf-wr9.jpg",
+    "source": "https://www.statsf1.com/en/wolf-wr9.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
   "zakspeed-841": {
     "url": "/history/car-photos/zakspeed-841.jpg",
     "source": "https://commons.wikimedia.org/wiki/File:Zakspeed_841_Dr._Jonathan_Palmer.jpg",
     "author": "Lothar Spurzem",
     "license": "CC BY-SA 2.0 de"
+  },
+  "zakspeed-861": {
+    "url": "/history/car-photos/zakspeed-861.jpg",
+    "source": "https://www.statsf1.com/en/zakspeed-861.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "zakspeed-871": {
+    "url": "/history/car-photos/zakspeed-871.jpg",
+    "source": "https://www.statsf1.com/en/zakspeed-871.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
+  },
+  "zakspeed-881": {
+    "url": "/history/car-photos/zakspeed-881.jpg",
+    "source": "https://www.statsf1.com/en/zakspeed-881.aspx",
+    "author": "STATS F1",
+    "license": "© STATS F1"
   },
   "zakspeed-891": {
     "url": "/history/car-photos/zakspeed-891.jpg",
