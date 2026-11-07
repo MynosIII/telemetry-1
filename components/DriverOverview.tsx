@@ -6,6 +6,7 @@ import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 import { translate } from "@/lib/dictionary";
 import { DriverCareer } from "./DriverCareer";
 import { SocialLinks } from "./SocialLinks";
+import { DriverPager } from "./DriverPager";
 
 const number = (value: number) => value.toLocaleString("es-AR", { maximumFractionDigits: 2 });
 const date = (value?: string) => value ? new Intl.DateTimeFormat("es-AR", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${value}T12:00:00Z`)) : undefined;
@@ -24,7 +25,8 @@ function MetricGroup({ title, metrics }: { title: string; metrics: Metric[] }) {
 export async function DriverOverview({ profile, history }: { profile: DriverProfile; history?: HistoryEntity }) {
   const { identity, standing, telemetry } = profile;
   const index = history ? await getHistoryIndex() : undefined;
-  const drivers = index?.entities.filter(entity => entity.category === "drivers").sort((a, b) => a.name.localeCompare(b.name, "es")) ?? [];
+  // Without a list to follow (see DriverPager), walk the Estadísticas list in its default order: most wins first.
+  const drivers = index?.entities.filter(entity => entity.category === "drivers").sort((a, b) => b.stats.wins - a.stats.wins) ?? [];
   const driverIndex = drivers.findIndex(driver => driver.id === identity.driverId);
   const previous = driverIndex > 0 ? drivers[driverIndex - 1] : undefined;
   const next = driverIndex >= 0 ? drivers[driverIndex + 1] : undefined;
@@ -49,9 +51,9 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
 
   return <section className="driver-overview" aria-labelledby="driver-overview-name">
     <header className="driver-overview-header">
-      {previous ? <Link prefetch={false} href={previous.href} aria-label={`Piloto anterior: ${previous.name}`} title={previous.name}>←<span>Anterior</span></Link> : <span />}
-      <div><p className="eyebrow eyebrow-red">FICHA DEL PILOTO</p><h1 id="driver-overview-name">{identity.name}</h1></div>
-      {next ? <Link prefetch={false} href={next.href} aria-label={`Piloto siguiente: ${next.name}`} title={next.name}><span>Siguiente</span>→</Link> : <span />}
+      <DriverPager driverId={identity.driverId} previous={previous && { href: previous.href, name: previous.name }} next={next && { href: next.href, name: next.name }}>
+        <div><p className="eyebrow eyebrow-red">FICHA DEL PILOTO</p><h1 id="driver-overview-name">{identity.name}</h1></div>
+      </DriverPager>
     </header>
 
     <div className="driver-overview-main">

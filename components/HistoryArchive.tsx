@@ -2,6 +2,7 @@
 
 import { Suspense, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
+import { saveDriverSequence } from "@/lib/driver-sequence";
 import { useSearchParams } from "next/navigation";
 import { FallbackImage } from "./FallbackImage";
 import { driverPhoto } from "@/lib/driver-photos";
@@ -68,7 +69,7 @@ function Archive({ entities, seasons, category }: { entities: ArchiveEntry[]; se
     </div>
     <div className={`history-directory${titled ? " is-titled" : ""}`}>
       <div className="history-directory-head" aria-hidden="true"><span>{singular[category]}</span>{titled ? <span>Títulos</span> : null}<span>GP</span><span>{figures[figure][0]}</span></div>
-      {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href}>
+      {results.slice(0, limit).map(entity => <Link prefetch={false} className="history-directory-row" key={`${category}/${entity.id}`} href={entity.href} onClick={category === "drivers" ? () => saveDriverSequence(results) : undefined}>
         <span className="history-directory-who">{teamLike || category === "tyres" ? <span className={`history-avatar history-avatar-${category}`} aria-hidden="true"><FallbackImage sources={avatarFor(category, entity.id)} alt="" fallback={initials(entity.name)} /></span> : null}{!teamLike && category !== "tyres" && flagFor(entity) ? <img className="history-flag" src={flagFor(entity)} alt="" width={30} height={20} loading="lazy" /> : null}<span><strong>{category === "nations" ? translate(entity.name, "countries") : entity.name}</strong><small>{teamLike && entity.country && getCountryFlagUrl(entity.country) ? <img className="history-flag-inline" src={getCountryFlagUrl(entity.country)} alt="" width={16} height={11} loading="lazy" /> : null}{entity.country ? `${translate(entity.country, "countries")} · ` : ""}{entity.firstSeason === entity.lastSeason ? entity.firstSeason : `${entity.firstSeason}–${entity.lastSeason}`}</small></span></span>
         {titled ? <b className={entity.titleSeasons.length ? "is-champion" : "is-zero"}>{entity.titleSeasons.length || "—"}<small> títulos</small></b> : null}
         <b>{entity.stats.races}<small> GP</small></b><b className={entity.stats[figure] ? "" : "is-zero"}>{entity.stats[figure]}<small> {figures[figure][1]}</small></b>

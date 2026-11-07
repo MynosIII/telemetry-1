@@ -2201,6 +2201,10 @@
       const wikiImage = document.getElementById("wiki-image");
       const wikiSummary = document.getElementById("wiki-summary");
       const wikiLink = document.getElementById("wiki-link");
+      wikiLink.addEventListener("click", () => {
+        const ids = profileSequence.filter(id => drivers[id]);
+        try { sessionStorage.setItem("t1:driver-sequence", JSON.stringify({ ids, names: ids.map(id => drivers[id].name) })); } catch {}
+      });
       const entityDriversButton = document.getElementById("entity-drivers");
       const entityCarsButton = document.getElementById("entity-cars");
       const driverRankingSearch = document.getElementById("driver-ranking-search");
@@ -2215,6 +2219,9 @@
       const datasetError = document.getElementById("dataset-error");
       let activeProfileId = null;
       let driverRankingSort = "area";
+      // Order of the list a profile was opened from; the site's driver pages walk it with Anterior / Siguiente.
+      let rankingSequence = [];
+      let profileSequence = [];
       let carRankingSort = "area";
       const numberOnePhotoCache = new Map();
       const numberOneWikipediaTitles = {
@@ -2827,7 +2834,7 @@
             info.className = "driver-info";
             info.textContent = "i";
             info.setAttribute("aria-label", tr("openProfile", { driver: driver.name }));
-            info.addEventListener("click", () => openDriverProfile(driver.id));
+            info.addEventListener("click", () => openDriverProfile(driver.id, matches.map(match => match.id)));
             row.append(select, info);
           } else {
             row.append(select);
@@ -3045,10 +3052,11 @@
         observeNumberOnePortraits();
       }
 
-      function openDriverProfile(driverId) {
+      function openDriverProfile(driverId, sequence = rankingSequence) {
         const driver = drivers[driverId];
         if (!driver) return;
         activeProfileId = driverId;
+        profileSequence = sequence.includes(driverId) ? sequence : rankingSequence;
         wikiLink.href = `/pilotos/${encodeURIComponent(driverId)}/`;
         dialogTitle.textContent = driver.name;
         dialogSubtitle.textContent = `${driver.debut}–${driver.lastSeason} · ${numberFormat.format(driver.races)} ${t("recordedStarts")} · ${payload.meta.model}`;
@@ -3198,6 +3206,7 @@
         const records = query
           ? sorted.filter(record => searchKey(record.name).includes(query))
           : sorted;
+        rankingSequence = sorted.map(record => record.id);
         driverRankingBody.replaceChildren();
         if (records.length === 0) {
           const row = document.createElement("tr");
