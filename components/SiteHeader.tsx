@@ -2,6 +2,7 @@ import Link from "next/link";
 import { LiveLink, SiteNav, SiteSubNav } from "@/components/SiteNav";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { getLang } from "@/lib/server-i18n";
+import { HeaderAutoHide } from "@/components/HeaderAutoHide";
 
 export async function SiteHeader() {
   const lang = await getLang();
@@ -20,6 +21,7 @@ export async function SiteHeader() {
         <LiveLink lang={lang} />
       </div>
     </header>
+    <HeaderAutoHide />
     <SiteSubNav lang={lang} />
     <span id="contenido" tabIndex={-1} className="skip-target" />
     </>

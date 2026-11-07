@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import type { ReactNode } from "react";
 import { FallbackImage } from "./FallbackImage";
-import { driverPhoto } from "@/lib/driver-photos";
+import { driverFace } from "@/lib/driver-photos";
 import { teamLogo } from "@/lib/team-media";
 import { layoutDrawing } from "@/lib/circuit-layouts";
 
@@ -14,7 +14,7 @@ export function CircuitLayoutFigure({ layoutId, alt, children }: { layoutId: str
 
 /** Driver portrait; disappears if the driver has none or the file fails to load. */
 export function DriverPortrait({ id, name, className = "archive-portrait" }: { id: string | null | undefined; name: string; className?: string }) {
-  const url = id ? driverPhoto(id) : null;
+  const url = id ? driverFace(id) : null;
   return url ? <FallbackImage className={className} sources={[url]} alt={`Retrato de ${name}`} fallback={null} /> : null;
 }
 

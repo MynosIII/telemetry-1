@@ -5,7 +5,7 @@ import Link from "next/link";
 import { saveDriverSequence } from "@/lib/driver-sequence";
 import { useSearchParams } from "next/navigation";
 import { FallbackImage } from "./FallbackImage";
-import { driverPhoto } from "@/lib/driver-photos";
+import { driverFace } from "@/lib/driver-photos";
 import { hasTeamLogo, teamLogo } from "@/lib/team-media";
 import { tyreLogo } from "@/lib/tyre-logos";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
@@ -16,7 +16,7 @@ const initials = (name: string) => name.split(/[\s-]+/).filter(Boolean).map(part
 // Driver portraits, team and tyre logos, with initials when there is none or it fails to load.
 // An engine that shares its name (and id) with a team uses that team's logo.
 const avatarFor = (category: HistoryCategory, id: string) => {
-  const url = category === "drivers" ? driverPhoto(id) : category === "tyres" ? tyreLogo(id)?.url : category === "engines" ? (hasTeamLogo(id) ? teamLogo(id) : undefined) : teamLogo(id);
+  const url = category === "drivers" ? driverFace(id) : category === "tyres" ? tyreLogo(id)?.url : category === "engines" ? (hasTeamLogo(id) ? teamLogo(id) : undefined) : teamLogo(id);
   return url ? [url] : [];
 };
 const singular: Record<HistoryCategory, string> = { drivers: "Piloto", constructors: "Constructor", engines: "Motor", circuits: "Circuito", nations: "Nación", tyres: "Neumático", "grands-prix": "Gran Premio", seasons: "Temporada" };

@@ -6,7 +6,7 @@ import { LinkedNarrative, tidy, type NarrativeTarget } from "./LinkedNarrative";
 import { LineageExplorer, type LineageView } from "./LineageExplorer";
 import { TeamBadge } from "./TeamBadge";
 import { FallbackImage } from "./FallbackImage";
-import { driverPhoto } from "@/lib/driver-photos";
+import { driverFace } from "@/lib/driver-photos";
 import eloRatings from "@/lib/elo-ratings.json";
 import { TeamCarIndex, type TeamCar } from "./TeamCarIndex";
 import { historyCategories, type HistoryEntity } from "@/lib/history";
@@ -19,7 +19,7 @@ import { constructorArticles, constructorPhotos, constructorLogoSources } from "
 import { CircuitArticlePhoto } from "./CircuitArticlePhoto";
 
 const number = (value: number) => value.toLocaleString("es-AR");
-const photoOf = (id: string) => { const url = driverPhoto(id); return url ? [url] : []; };
+const photoOf = (id: string) => { const url = driverFace(id); return url ? [url] : []; };
 const monogram = (name: string) => name.split(" ").filter(Boolean).map(part => part[0]).slice(0, 2).join("");
 
 async function TeamWikipedia({ entity }: { entity: HistoryEntity }) {

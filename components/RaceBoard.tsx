@@ -4,6 +4,7 @@ import Image from "@/components/ResilientImage";
 import Link from "next/link";
 import { useState } from "react";
 import type { RaceResult } from "@/lib/types";
+import { faceForPhoto } from "@/lib/driver-photos";
 import { getCountryFlagUrl } from "@/lib/circuit-visuals";
 
 function formatDate(value: string) {
@@ -68,7 +69,7 @@ export function RaceBoard({ races }: { races: RaceResult[] }) {
             <div className="driver-avatar" aria-hidden="true">
               {driver.image ? (
                 <Image
-                  src={driver.image}
+                  src={faceForPhoto(driver.image)}
                   alt=""
                   fill
                   sizes="52px"

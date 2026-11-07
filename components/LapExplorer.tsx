@@ -1,6 +1,7 @@
 import Image from "@/components/ResilientImage";
 import Link from "next/link";
 import type { DriverLaps, DriverResult } from "@/lib/types";
+import { faceForPhoto } from "@/lib/driver-photos";
 
 export function LapExplorer({
   driver,
@@ -26,7 +27,7 @@ export function LapExplorer({
             key={item.driverId}
           >
             <span className="lap-driver-image">
-              {item.image ? <Image src={item.image} alt="" fill sizes="36px" unoptimized /> : item.name.slice(0, 1)}
+              {item.image ? <Image src={faceForPhoto(item.image)} alt="" fill sizes="36px" unoptimized /> : item.name.slice(0, 1)}
             </span>
             <strong>{item.name}</strong>
           </Link>
