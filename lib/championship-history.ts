@@ -57,7 +57,7 @@ export type Championship = {
   cars: ArchiveRef[]; changes?: { drivers: ArchiveRef[]; constructors: ArchiveRef[]; circuits: ArchiveRef[] };
   sources: { wikipedia: string; f1dbRevision: string; model: string; resultsThrough: string };
 };
-export type CarSummary = { id: string; name: string; constructor: ArchiveRef; seasons: number[]; engines: ArchiveRef[]; photo: ArchiveMedia | null; href: string };
+export type CarSummary = { id: string; name: string; constructor: ArchiveRef; seasons: number[]; engines: ArchiveRef[]; drivers?: ArchiveRef[]; photo: ArchiveMedia | null; href: string };
 export type HistoricCar = CarSummary & {
   drivers: ArchiveRef[]; entries: { year: number; driver: ArchiveRef; entrant: string; rounds: string; engine: ArchiveRef | null; engineModel: string | null; tyre: ArchiveRef | null; multipleModels: boolean }[];
   wikipedia: string; source: string; identification: string;

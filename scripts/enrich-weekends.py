@@ -124,7 +124,7 @@ def build():
         car['drivers']=list(car['drivers'].values()); car['engines']=list(car['engines'].values()); car['seasons'].sort()
         car['source']='https://github.com/f1db/f1db'; car['identification']='season_entry'
         write(OUT/'cars'/f"{car['id']}.json",car)
-        summaries.append({k:car[k] for k in ['id','name','constructor','seasons','engines','photo','href']})
+        summaries.append({k:car[k] for k in ['id','name','constructor','seasons','engines','drivers','photo','href']})
     write(OUT/'cars.json',{'cars':sorted(summaries,key=lambda c:c['name']),'source':'https://github.com/f1db/f1db','cutoff':2025})
     print(f'Enriched 76 championships and indexed {len(cars)} named chassis with documented season entries.')
 if __name__=='__main__': build()
