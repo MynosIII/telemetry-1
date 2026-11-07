@@ -22,6 +22,7 @@ import { getLang } from "@/lib/server-i18n";
 import { editorialArticles } from "@/lib/editorial-articles";
 import "./articles.css";
 import { OnThisDay } from "@/components/OnThisDay";
+import { FollowedPaddock } from "@/components/account/FollowedPaddock";
 
 export default async function Home() {
   const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
@@ -52,6 +53,7 @@ export default async function Home() {
       : race)
   } : seasonForecast;
   const leader = data.standings[0];
+  const latestRace = [...data.races].sort((a, b) => b.date.localeCompare(a.date))[0];
   const lang = await getLang();
   const t = useTranslation(lang);
 
@@ -99,6 +101,11 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      <FollowedPaddock
+        standings={data.standings.map(({ driverId, name, team, position, points, image }) => ({ driverId, name, team, position, points, image }))}
+        lastRace={latestRace ? { name: latestRace.name, results: latestRace.results.map(({ driverId, position, team, points }) => ({ driverId, position, team, points })) } : undefined}
+      />
 
       <NextRacePanel race={data.nextRace} circuit={data.nextCircuit} />
 

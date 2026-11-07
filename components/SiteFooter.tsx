@@ -10,6 +10,7 @@ export function SiteFooter() {
       <p>Sitio independiente y no oficial. No está afiliado a Formula One Group, la FIA ni los equipos. F1 y Formula 1 son marcas de Formula One Licensing B.V.</p>
       <div>
         <Link href="/articulos">ARTÍCULOS ↗</Link>
+        <Link href="/privacidad">PRIVACIDAD</Link>
         <a href="https://github.com/MynosIII" target="_blank" rel="noreferrer">GITHUB ↗</a>
         <Link href="/#top">INICIO ↑</Link>
       </div>

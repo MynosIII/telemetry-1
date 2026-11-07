@@ -11,6 +11,7 @@ import "./weather.css";
 import "./social-links.css";
 import "./circuit-history.css";
 import "./scale.css";
+import "./account.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

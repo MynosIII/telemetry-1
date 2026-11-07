@@ -28,6 +28,7 @@ export default async function GamePage({ params }: Props) {
       source={entry.source}
       logo={entry.logo}
       back={{ href: "/juegos", label: "JUEGOS" }}
+      game={entry.slug}
     />
   );
 }

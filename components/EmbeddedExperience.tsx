@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { GameLogo } from "./GameLogo";
+import { GameProgressBridge } from "./account/GameProgressBridge";
 
 type EmbeddedExperienceProps = {
   title: string;
@@ -8,9 +9,11 @@ type EmbeddedExperienceProps = {
   source: string;
   logo?: string;
   back?: { href: string; label: string };
+  /** Game slug: lets the game save progress to the visitor's account. */
+  game?: string;
 };
 
-export function EmbeddedExperience({ title, label, source, logo, back = { href: "/", label: "INICIO" } }: EmbeddedExperienceProps) {
+export function EmbeddedExperience({ title, label, source, logo, back = { href: "/", label: "INICIO" }, game }: EmbeddedExperienceProps) {
   return (
     <main className="embedded-experience">
       <SiteHeader />
@@ -27,7 +30,9 @@ export function EmbeddedExperience({ title, label, source, logo, back = { href: 
           <a href={source} target="_blank" rel="noreferrer">ABRIR / OPEN ↗</a>
         </div>
       </div>
+      {game ? <GameProgressBridge game={game} source={source} frameId="experience-frame" /> : null}
       <iframe
+        id="experience-frame"
         className="experience-frame"
         src={source}
         title={title}

@@ -1,0 +1,58 @@
+/* Account: header button, follow button, home "Tu paddock", /cuenta and /privacidad. */
+.account-avatar { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; overflow: hidden; border: 1px solid #38383d; background: #1a1a1d; color: #f2f2f2; font-size: 13px; font-weight: 800; }
+.account-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.account-avatar:hover, .account-avatar:focus-visible { border-color: #8a8a90; }
+
+.follow-button { margin-top: 10px; cursor: pointer; background: transparent; color: inherit; border: 1px solid currentColor; border-radius: 4px; padding: 6px 14px; font: inherit; font-size: 12px; font-weight: 700; opacity: .85; }
+.follow-button:hover, .follow-button:focus-visible { opacity: 1; }
+.follow-button[aria-pressed="true"] { background: #e10600; border-color: #e10600; color: #fff; opacity: 1; }
+
+.followed-paddock { padding-top: 32px; padding-bottom: 32px; }
+.followed-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+.followed-head h2 { margin: 0; font-size: 22px; }
+.followed-head a { font-size: 13px; color: inherit; opacity: .7; }
+.followed-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); border-top: 1px solid rgba(0, 0, 0, .12); }
+.followed-list li { border-bottom: 1px solid rgba(0, 0, 0, .12); }
+.followed-list a { display: grid; grid-template-columns: 48px 1fr; gap: 6px 12px; align-items: center; padding: 12px 14px; color: inherit; text-decoration: none; }
+.followed-list a:hover { background: #f4f4f5; }
+.followed-list img, .followed-initial { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; object-position: top; background: #e8e8ea; }
+.followed-initial { display: grid; place-items: center; font-weight: 800; font-size: 18px; }
+.followed-team { border-radius: 6px; }
+.followed-name { display: grid; min-width: 0; }
+.followed-name b { font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.followed-name small, .followed-figures small { font-size: 11px; opacity: .6; }
+.followed-figures { grid-column: 2; display: flex; gap: 18px; }
+.followed-figures > span { display: grid; }
+.followed-figures b { font-size: 15px; font-variant-numeric: tabular-nums; }
+
+.account-wrap { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+.account-wrap h1 { font-size: 28px; margin: 0 0 24px; }
+.account-block { border-top: 1px solid rgba(127, 127, 127, .3); padding: 20px 0; }
+.account-block h2 { font-size: 16px; margin: 0 0 10px; }
+.account-profile { display: flex; align-items: center; gap: 16px; }
+.account-profile img { border-radius: 50%; }
+.account-profile div { flex: 1; min-width: 0; }
+.account-profile h2 { margin: 0; }
+.account-profile p { margin: 2px 0 0; opacity: .7; font-size: 14px; overflow-wrap: anywhere; }
+.account-follows { list-style: none; margin: 0; padding: 0; }
+.account-follows li { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid rgba(127, 127, 127, .2); font-size: 14px; }
+.account-follows a { color: inherit; }
+.account-follows button { cursor: pointer; background: none; border: 0; color: inherit; opacity: .6; font: inherit; font-size: 12px; text-decoration: underline; }
+.account-follows span { font-size: 12px; opacity: .6; }
+.account-note { font-size: 14px; opacity: .7; }
+.account-note a { color: inherit; }
+.account-signed-out { display: grid; gap: 16px; justify-items: start; max-width: 520px; }
+.account-signed-out p { margin: 0; line-height: 1.5; }
+.account-button { cursor: pointer; background: transparent; color: inherit; border: 1px solid currentColor; border-radius: 4px; padding: 8px 14px; font: inherit; font-size: 13px; font-weight: 600; }
+.account-button:hover, .account-button:focus-visible { background: rgba(127, 127, 127, .12); }
+.account-delete { border-color: #e10600; color: #c20500; }
+.privacy h2 { font-size: 17px; margin: 28px 0 8px; }
+.privacy p { line-height: 1.6; opacity: .85; }
+.privacy a { color: inherit; }
+
+.account-signin-icon { display: none; }
+@media (max-width: 520px) {
+  .account-signin { padding: 9px 10px; line-height: 0; }
+  .account-signin-text { display: none; }
+  .account-signin-icon { display: block; }
+}
