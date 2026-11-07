@@ -31,7 +31,7 @@ export function EmbeddedExperience({ title, label, source, logo, back = { href: 
         className="experience-frame"
         src={source}
         title={title}
-        allow="fullscreen"
+        allow="fullscreen; web-share; clipboard-write"
         referrerPolicy="strict-origin-when-cross-origin"
       />
     </main>
