@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FollowButton } from "@/components/account/FollowButton";
 import Image from "./ResilientImage";
 import { getHistoryIndex, type HistoryEntity } from "@/lib/history";
 import type { DriverProfile } from "@/lib/types";
@@ -52,7 +53,7 @@ export async function DriverOverview({ profile, history }: { profile: DriverProf
   return <section className="driver-overview" aria-labelledby="driver-overview-name">
     <header className="driver-overview-header">
       <DriverPager driverId={identity.driverId} previous={previous && { href: previous.href, name: previous.name }} next={next && { href: next.href, name: next.name }}>
-        <div><p className="eyebrow eyebrow-red">FICHA DEL PILOTO</p><h1 id="driver-overview-name">{identity.name}</h1></div>
+        <div><p className="eyebrow eyebrow-red">FICHA DEL PILOTO</p><h1 id="driver-overview-name">{identity.name}</h1><FollowButton kind="driver" id={identity.driverId} label={identity.name} /></div>
       </DriverPager>
     </header>
 

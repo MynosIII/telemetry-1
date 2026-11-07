@@ -1,4 +1,5 @@
 import { EntityFlag } from "./EntityFlag";
+import { FollowButton } from "@/components/account/FollowButton";
 import { Suspense } from "react";
 import Link from "next/link";
 import { HistoryCharts } from "./HistoryCharts";
@@ -100,6 +101,7 @@ export function TeamHistory({ entity, color, logo, cars, lineage }: {
         <TeamBadge name={entity.name} color={color} logo={logo} size="lg" />
         <div>
           <h1>{entity.name}</h1>
+          <FollowButton kind="team" id={entity.id} label={entity.name} />
           <SocialLinks category="constructors" sourceId={entity.sourceId} name={entity.name} />
           <p className="team-hero-meta">{entity.country && getCountryFlagUrl(entity.country) ? <img className="history-flag-inline" src={getCountryFlagUrl(entity.country)} alt="" width={16} height={11} /> : null}{[entity.fullName !== entity.name ? entity.fullName : null, entity.country ? translate(entity.country, "countries") : null, entity.firstSeason === entity.lastSeason ? `${entity.firstSeason}` : `${entity.firstSeason}–${entity.lastSeason}`].filter(Boolean).join(" · ")}</p>
         </div>

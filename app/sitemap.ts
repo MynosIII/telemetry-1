@@ -13,7 +13,7 @@ const STATIC_PAGES = [
   "/ranking", "/ranking/fan-index", "/ranking/encuesta",
   "/historia", "/historia/autos", "/historia/neumaticos", "/historia/records", "/historia/comparar",
   "/juegos", "/juegos/predestinato",
-  "/en-vivo", "/en-vivo/clima", "/en-vivo/repeticion", "/en-vivo/telemetria"
+  "/en-vivo", "/en-vivo/clima", "/en-vivo/repeticion", "/en-vivo/telemetria", "/privacidad"
 ];
 
 async function jsonNames(folder: string) {

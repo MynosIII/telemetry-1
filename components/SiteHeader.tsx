@@ -3,6 +3,7 @@ import { LiveLink, SiteNav, SiteSubNav } from "@/components/SiteNav";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { getLang } from "@/lib/server-i18n";
 import { HeaderAutoHide } from "@/components/HeaderAutoHide";
+import { AccountButton } from "@/components/account/AccountButton";
 
 export async function SiteHeader() {
   const lang = await getLang();
@@ -19,6 +20,7 @@ export async function SiteHeader() {
       <div className="header-actions">
         <LanguageSwitcher lang={lang} />
         <LiveLink lang={lang} />
+        <AccountButton lang={lang} />
       </div>
     </header>
     <HeaderAutoHide />
