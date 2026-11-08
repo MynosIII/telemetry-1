@@ -1,0 +1,332 @@
+{
+  "slug": "por-que-la-f1-casi-no-corre-bajo-la-lluvia",
+  "title": "¿Por qué la Fórmula 1 ya casi no corre bajo la lluvia?",
+  "description": "Autos más seguros, mejores neumáticos y décadas de tecnología. Aun así, cuando llueve fuerte la carrera se suspende y el full wet casi no se usa. Qué pasó.",
+  "category": "Neumáticos y pista",
+  "period": "1963-2025",
+  "year": 2021,
+  "kind": "explainer",
+  "level": "Inicial",
+  "reviewedOn": "2026-11-08",
+  "publishedOn": "2026-11-08",
+  "tags": [
+    "Lluvia",
+    "Full wet",
+    "Intermedios",
+    "Spray",
+    "Visibilidad",
+    "Spa 2021",
+    "Jules Bianchi",
+    "Virtual Safety Car",
+    "Aquaplaning",
+    "Pirelli"
+  ],
+  "lead": "Tenemos autos más seguros, mejores neumáticos y décadas de avances tecnológicos. Sin embargo, cuando llueve demasiado, las carreras se suspenden y los neumáticos de lluvia extrema casi no se usan. La respuesta no está en el agarre, sino en lo que el piloto puede ver.",
+  "sections": [
+    {
+      "id": "leyendas",
+      "title": "Cuando la lluvia hacía leyendas",
+      "sourceIds": [
+        "archivo",
+        "spa63",
+        "nur68"
+      ],
+      "paragraphs": [
+        "La lluvia dejó algunas de las mejores carreras de la Fórmula 1. En Spa 1963, Jim Clark ganó con casi cinco minutos de ventaja: 4 minutos y 54 segundos sobre Bruce McLaren, el segundo margen más grande que registra el archivo para una carrera ganada por tiempo. Cinco años después, en el Nürburgring de 1968, Jackie Stewart ganó por más de cuatro minutos con lluvia y niebla en un circuito de casi 23 kilómetros.",
+        "Para dimensionarlo, en la década de 1960 la mitad de las carreras se definió por menos de 27 segundos. En lo que va de la de 2020, la mediana es de siete. Aquellas diferencias no eran solo talento: eran autos frágiles, pistas larguísimas y condiciones en las que cada vuelta podía terminar en la cuneta."
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/lluvia-margenes.svg",
+        "alt": "Barras horizontales: Clark ganó Spa 1963 por 4:54 y Stewart Nürburgring 1968 por 4:03, contra medianas de 27, 11 y 7 segundos en las décadas de 1960, 1990 y 2020.",
+        "caption": "Ventaja del ganador sobre el segundo en dos carreras con lluvia, comparada con la mediana de cada época. Datos del archivo de Telemetry One.",
+        "height": 360
+      }
+    },
+    {
+      "id": "precio",
+      "title": "El precio de correr a ciegas",
+      "sourceIds": [
+        "fuji76",
+        "adelaide91"
+      ],
+      "paragraphs": [
+        "Pero la seguridad de aquella F1 era muy distinta. En el Nürburgring de 1976, Niki Lauda sufrió su terrible accidente en una carrera que había largado con sectores mojados. La lluvia no fue una causa demostrada del choque, pero las condiciones y la falta de seguridad del circuito ya habían generado fuertes discusiones antes del fin de semana.",
+        "Ese mismo año, en Fuji, la lluvia volvió a ser protagonista. Lauda, que todavía se recuperaba de sus quemaduras, abandonó en la segunda vuelta porque consideraba demasiado peligroso seguir. Se estaba jugando el Mundial contra James Hunt, que terminó llevándose el título por un punto.",
+        "En Australia, en 1991, una lluvia torrencial convirtió Adelaida en una pista prácticamente imposible. Hubo varios accidentes y hasta Ayrton Senna, que iba primero, pidió detener la carrera. Se clasificaron apenas 14 de las 81 vueltas previstas: fue el Gran Premio más corto de la historia hasta Spa 2021.",
+        "Y el gran problema era, y sigue siendo, la visibilidad. Los autos levantan enormes cantidades de agua y los pilotos apenas distinguen qué tienen adelante. A esas velocidades, encontrarse un auto detenido a pocos metros puede terminar en una tragedia."
+      ]
+    },
+    {
+      "id": "suzuka-2014",
+      "title": "Suzuka 2014 y lo que cambió",
+      "sourceIds": [
+        "fia-panel",
+        "bianchi"
+      ],
+      "paragraphs": [
+        "El 5 de octubre de 2014, durante el Gran Premio de Japón, Jules Bianchi perdió el control de su Marussia sobre la pista mojada e impactó contra una grúa que retiraba otro auto accidentado. Sufrió lesiones gravísimas y murió nueve meses después. Su accidente marcó un punto de inflexión en la seguridad de la Fórmula 1.",
+        "Ese día se acercaba a Japón el tifón Phanfone. Se había discutido adelantar la carrera para evitar las peores condiciones, pero se largó en el horario previsto, con la luz cayendo en el final.",
+        "Después del accidente, el panel de la FIA que lo investigó recomendó que las carreras largaran al menos cuatro horas antes del atardecer, revisar el calendario para evitar, cuando fuera posible, las temporadas de lluvias locales, y mejorar el drenaje de los circuitos. También pidió limitar la velocidad en los sectores con doble bandera amarilla, la idea que en 2015 se convirtió en el Virtual Safety Car."
+      ]
+    },
+    {
+      "id": "dos-neumaticos",
+      "title": "Intermedios y full wet",
+      "sourceIds": [
+        "pirelli-wet",
+        "tyres"
+      ],
+      "paragraphs": [
+        "¿Cómo puede ser que la F1 tenga neumáticos diseñados para lluvia extrema y aun así no pueda competir? Para entenderlo hay que conocer los dos tipos de neumáticos que usa cuando llueve.",
+        "Los intermedios, con banda verde, son para pistas húmedas o mojadas con poca agua acumulada, y también funcionan cuando la pista empieza a secarse. Los full wet, con banda azul, tienen surcos más profundos y están pensados para evacuar mucha más agua y reducir el riesgo de aquaplaning.",
+        "El aquaplaning ocurre cuando se forma una película de agua entre el neumático y el asfalto y el auto pierde adherencia. Para evitarlo, los surcos desplazan el agua: según Pirelli, un full wet puede evacuar hasta 85 litros por segundo a velocidad de carrera."
+      ]
+    },
+    {
+      "id": "spray",
+      "title": "El agua tiene que ir a algún lado",
+      "sourceIds": [
+        "pirelli-wet",
+        "spray-guards"
+      ],
+      "paragraphs": [
+        "Acá aparece el problema. Toda esa agua desplazada termina en algún lado. Los neumáticos generan spray, pero la aerodinámica también contribuye: el flujo de aire alrededor de las ruedas y por debajo del fondo levanta y dispersa el agua. El resultado es una nube enorme detrás de cada monoplaza.",
+        "Cuanto más spray, menos ve el piloto que viene atrás. En condiciones extremas puede ser imposible distinguir dónde está el auto de adelante. Por eso, muchas veces Dirección de Carrera suspende la actividad por falta de visibilidad aunque los neumáticos todavía tengan agarre. El propio responsable de Pirelli en la F1, Mario Isola, lo resumió diciendo que la visibilidad es el problema de fondo y que no es algo que un neumático pueda resolver."
+      ]
+    },
+    {
+      "id": "paradoja",
+      "title": "La paradoja del full wet",
+      "sourceIds": [
+        "pirelli-wet",
+        "spa21",
+        "archivo"
+      ],
+      "paragraphs": [
+        "Cuando hay tanta agua que realmente necesitás el full wet, muchas veces el spray hace demasiado peligroso correr. Y cuando la pista mejora lo suficiente para recuperar la visibilidad, los intermedios suelen ser más rápidos. El neumático de lluvia extrema queda con una ventana de uso muy chica, y los equipos prefieren aguantar con intermedios antes que perder posiciones en boxes esperando una bandera roja.",
+        "Spa 2021 es el ejemplo perfecto. La lluvia y la falta de visibilidad impidieron disputar una sola vuelta de competencia con bandera verde. Después de varias horas de espera y de unas pocas vueltas detrás del Safety Car, la carrera se dio por terminada: contó una sola vuelta, se repartió la mitad de los puntos y la polémica fue enorme. Al año siguiente se cambió el reglamento sobre los puntos en carreras acortadas."
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/lluvia-ventana-full-wet.svg",
+        "alt": "Esquema: a medida que aumenta el agua en la pista se pasa de lisos a intermedios y a full wet, pero la zona de visibilidad insuficiente empieza poco después de que el full wet se vuelve necesario, dejando una ventana corta.",
+        "caption": "Esquema conceptual, sin escala: la zona donde el full wet es el neumático correcto se superpone casi entera con la zona en la que no se ve lo suficiente para correr.",
+        "height": 360
+      }
+    },
+    {
+      "id": "acortadas",
+      "title": "Las carreras que no llegaron al final",
+      "sourceIds": [
+        "archivo",
+        "adelaide91",
+        "spa21"
+      ],
+      "paragraphs": [
+        "Spa 2021 y Adelaida 1991 son los casos extremos, pero no los únicos. Mónaco 1984 se detuvo con menos de la mitad de la distancia, en Sepang 2009 la tormenta llegó a la caída del sol y Suzuka volvió a quedar corta en 2014 y en 2022. El gráfico muestra qué parte de las vueltas programadas terminó contando para el resultado en cada caso."
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/lluvia-carreras-cortas.svg",
+        "alt": "Barras horizontales del porcentaje de vueltas previstas que contaron: Spa 2021 2 por ciento, Adelaida 1991 17, Mónaco 1984 40, Suzuka 2022 53, Sepang 2009 55 y Suzuka 2014 83.",
+        "caption": "Vueltas válidas para el resultado sobre las vueltas programadas en seis carreras con lluvia. Datos del archivo de Telemetry One.",
+        "height": 410
+      }
+    },
+    {
+      "id": "soluciones",
+      "title": "¿Tiene solución?",
+      "sourceIds": [
+        "spray-guards",
+        "pirelli-wet"
+      ],
+      "paragraphs": [
+        "La FIA probó en 2023 y 2024 cubiertas sobre las ruedas para atrapar parte del spray, con autos de distintos equipos en Silverstone y en Fiorano. Los resultados no alcanzaron: el agua también la levanta la aerodinámica del auto, sobre todo desde el fondo, y tapar las ruedas no resuelve esa parte. El proyecto quedó en pausa.",
+        "Pirelli, por su lado, trabaja para que el full wet sea útil antes, más cerca del punto en que hoy conviene el intermedio. Si el neumático rinde en más condiciones, los equipos tendrían un motivo para usarlo. Pero mientras la nube detrás de cada auto siga siendo la que es, la visibilidad seguirá marcando el límite. Es un problema bastante más complicado de lo que parece."
+      ]
+    },
+    {
+      "id": "maestros",
+      "title": "Los maestros de la lluvia",
+      "sourceIds": [
+        "archivo"
+      ],
+      "paragraphs": [
+        "Igual, la lluvia nos dejó actuaciones inolvidables: Senna en Donington 1993, Schumacher en Barcelona 1996, Hamilton en Silverstone 2008, Vettel en Monza 2008 y Verstappen en Interlagos 2016 y 2024. Todas están en el archivo, con su grilla, sus tiempos y el modelo de cada carrera.",
+        "Las carreras con lluvia son de lo mejor que tiene este deporte, pero correr prácticamente a ciegas es una locura. La pregunta que queda es si la F1 se volvió demasiado conservadora o si simplemente aprendió, a un precio muy alto, dónde está el límite. ¿Y quién fue el mejor piloto de la historia bajo la lluvia?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "archivo",
+      "title": "Archivo de Telemetry One: resultados y márgenes de victoria (datos de F1DB)",
+      "url": "https://github.com/f1db/f1db"
+    },
+    {
+      "id": "spa63",
+      "title": "Wikipedia: 1963 Belgian Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/1963_Belgian_Grand_Prix"
+    },
+    {
+      "id": "nur68",
+      "title": "Wikipedia: 1968 German Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/1968_German_Grand_Prix"
+    },
+    {
+      "id": "fuji76",
+      "title": "Wikipedia: 1976 Japanese Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/1976_Japanese_Grand_Prix"
+    },
+    {
+      "id": "adelaide91",
+      "title": "Wikipedia: 1991 Australian Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/1991_Australian_Grand_Prix"
+    },
+    {
+      "id": "fia-panel",
+      "title": "FIA: conclusiones del panel que investigó el accidente de Suzuka 2014",
+      "url": "https://api.fia.com/news/accident-panel"
+    },
+    {
+      "id": "bianchi",
+      "title": "Wikipedia: Jules Bianchi",
+      "url": "https://en.wikipedia.org/wiki/Jules_Bianchi"
+    },
+    {
+      "id": "tyres",
+      "title": "Wikipedia: Formula One tyres",
+      "url": "https://en.wikipedia.org/wiki/Formula_One_tyres"
+    },
+    {
+      "id": "pirelli-wet",
+      "title": "Autosport: lo que Pirelli quiere cambiar del neumático de lluvia que nadie usa",
+      "url": "https://www.autosport.com/f1/news/everything-pirelli-wants-to-change-about-f1s-wet-tyre-that-nobody-uses/10735573/"
+    },
+    {
+      "id": "spray-guards",
+      "title": "The Race: las dos opciones de protectores contra el spray que probó la F1",
+      "url": "https://www.the-race.com/formula-1/f1-extreme-second-spray-guard-option-revealed/"
+    },
+    {
+      "id": "spa21",
+      "title": "Wikipedia: 2021 Belgian Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix"
+    }
+  ],
+  "related": [
+    {
+      "label": "Compuestos de neumáticos en la F1",
+      "href": "/articulos/compuestos-neumaticos-f1"
+    },
+    {
+      "label": "La seguridad en la pista",
+      "href": "/articulos/seguridad-pista-f1"
+    },
+    {
+      "label": "Bélgica 2021 en el archivo",
+      "href": "/historia/carreras/2021/12"
+    },
+    {
+      "label": "Australia 1991 en el archivo",
+      "href": "/historia/carreras/1991/16"
+    },
+    {
+      "label": "Bélgica 1963 en el archivo",
+      "href": "/historia/carreras/1963/2"
+    }
+  ],
+  "en": {
+    "title": "Why does Formula 1 hardly race in the rain any more?",
+    "description": "Safer cars, better tyres and decades of technology. Yet when it rains hard the race is stopped and the full wet tyre is barely used. Here is why.",
+    "lead": "We have safer cars, better tyres and decades of technical progress. Yet when it rains too hard, races are suspended and the extreme wet tyres are hardly ever used. The answer is not grip. It is what the driver can see.",
+    "sections": [
+      {
+        "title": "When rain made legends",
+        "paragraphs": [
+          "Rain gave Formula 1 some of its greatest races. At Spa in 1963, Jim Clark won by almost five minutes: 4 minutes 54 seconds ahead of Bruce McLaren, the second-largest margin in the archive for a race won on time. Five years later, at the 1968 Nürburgring, Jackie Stewart won by more than four minutes in rain and fog on a circuit almost 23 kilometres long.",
+          "For scale: in the 1960s, half of all races were decided by less than 27 seconds. So far in the 2020s, the median is seven. Those gaps were not only about talent. They came from fragile cars, endless tracks and conditions in which any lap could end in a ditch."
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/lluvia-margenes-en.svg",
+          "alt": "Horizontal bars: Clark won Spa 1963 by 4:54 and Stewart the Nürburgring 1968 by 4:03, against medians of 27, 11 and 7 seconds in the 1960s, 1990s and 2020s.",
+          "caption": "Winner's lead over second place in two wet races, compared with each era's median. Data from the Telemetry One archive."
+        }
+      },
+      {
+        "title": "The price of racing blind",
+        "paragraphs": [
+          "But safety in that Formula 1 was a different world. At the 1976 Nürburgring, Niki Lauda had his terrible crash in a race that started with wet sections. Rain was never shown to have caused the accident, but the conditions and the circuit's lack of safety had already sparked heated arguments before the weekend.",
+          "That same year, at Fuji, rain took centre stage again. Lauda, still recovering from his burns, retired on the second lap because he judged it too dangerous to continue. He was fighting James Hunt for the title, and Hunt took it by a single point.",
+          "In Australia in 1991, torrential rain made Adelaide almost impossible to drive. There were several crashes, and even Ayrton Senna, who was leading, asked for the race to be stopped. Only 14 of the 81 scheduled laps counted: it was the shortest Grand Prix in history until Spa 2021.",
+          "The big problem was, and still is, visibility. The cars throw up huge amounts of water and drivers can barely make out what is ahead. At those speeds, finding a stopped car a few metres away can end in tragedy."
+        ]
+      },
+      {
+        "title": "Suzuka 2014 and what changed",
+        "paragraphs": [
+          "On 5 October 2014, during the Japanese Grand Prix, Jules Bianchi lost control of his Marussia on the wet track and hit a recovery crane that was removing another crashed car. He suffered very severe injuries and died nine months later. His accident was a turning point for safety in Formula 1.",
+          "That day, Typhoon Phanfone was approaching Japan. Bringing the race forward to avoid the worst conditions had been discussed, but it started at the scheduled time, with the light fading towards the end.",
+          "After the accident, the FIA panel that investigated it recommended that races start at least four hours before sunset, that the calendar be reviewed to avoid local rainy seasons where possible, and that circuit drainage be improved. It also called for speed limits in double-yellow sectors, the idea that became the Virtual Safety Car in 2015."
+        ]
+      },
+      {
+        "title": "Intermediates and full wets",
+        "paragraphs": [
+          "How can Formula 1 have tyres designed for extreme rain and still be unable to race? To understand it you need to know the two tyres it uses when it rains.",
+          "Intermediates, with a green band, are for damp or wet tracks with little standing water, and they also work as the track starts to dry. Full wets, with a blue band, have deeper grooves and are designed to clear much more water and reduce the risk of aquaplaning.",
+          "Aquaplaning happens when a film of water forms between the tyre and the asphalt and the car loses grip. To prevent it, the grooves push the water away: according to Pirelli, a full wet can clear up to 85 litres per second at racing speed."
+        ]
+      },
+      {
+        "title": "The water has to go somewhere",
+        "paragraphs": [
+          "Here is the problem. All that displaced water ends up somewhere. The tyres create spray, but the aerodynamics add to it: the airflow around the wheels and under the floor lifts and scatters the water. The result is a huge cloud behind every car.",
+          "The more spray, the less the driver behind can see. In extreme conditions it can be impossible to tell where the car in front is. That is why Race Control often stops the session for lack of visibility even when the tyres still have grip. Pirelli's Formula 1 chief, Mario Isola, summed it up by saying visibility is the underlying problem and not something a tyre can fix."
+        ]
+      },
+      {
+        "title": "The full wet paradox",
+        "paragraphs": [
+          "When there is enough water that you really need the full wet, the spray often makes racing too dangerous. And when the track improves enough to restore visibility, intermediates are usually faster. The extreme wet tyre is left with a very small window, and teams would rather hang on with intermediates than lose places in the pits while waiting for a red flag.",
+          "Spa 2021 is the perfect example. Rain and poor visibility meant not a single racing lap was run under green flags. After hours of waiting and a few laps behind the Safety Car, the race was declared over: one lap counted, half points were awarded and the controversy was huge. The following year the rules on points for shortened races were changed."
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/lluvia-ventana-full-wet-en.svg",
+          "alt": "Sketch: as water on track increases you go from slicks to intermediates to full wets, but the zone of insufficient visibility begins shortly after the full wet becomes necessary, leaving a short window.",
+          "caption": "Conceptual sketch, not to scale: the zone where the full wet is the right tyre overlaps almost entirely with the zone where there is not enough visibility to race."
+        }
+      },
+      {
+        "title": "The races that never reached the end",
+        "paragraphs": [
+          "Spa 2021 and Adelaide 1991 are the extreme cases, but not the only ones. Monaco 1984 was stopped before half distance, at Sepang in 2009 the storm arrived as the sun went down, and Suzuka fell short again in 2014 and 2022. The chart shows what share of the scheduled laps ended up counting for the result in each case."
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/lluvia-carreras-cortas-en.svg",
+          "alt": "Horizontal bars of the share of scheduled laps that counted: Spa 2021 2 percent, Adelaide 1991 17, Monaco 1984 40, Suzuka 2022 53, Sepang 2009 55 and Suzuka 2014 83.",
+          "caption": "Laps counted for the result over scheduled laps in six wet races. Data from the Telemetry One archive."
+        }
+      },
+      {
+        "title": "Is there a fix?",
+        "paragraphs": [
+          "In 2023 and 2024 the FIA tested covers over the wheels to catch part of the spray, using cars from different teams at Silverstone and Fiorano. The results fell short: the car's aerodynamics also lift the water, especially from the floor, and covering the wheels does not solve that part. The project was put on hold.",
+          "Pirelli, for its part, is working to make the full wet useful sooner, closer to the point where the intermediate is the better choice today. If the tyre works in more conditions, teams would have a reason to use it. But as long as the cloud behind every car stays the way it is, visibility will keep setting the limit. It is a much harder problem than it looks."
+        ]
+      },
+      {
+        "title": "The masters of the rain",
+        "paragraphs": [
+          "Still, rain has given us unforgettable drives: Senna at Donington in 1993, Schumacher in Barcelona in 1996, Hamilton at Silverstone in 2008, Vettel at Monza in 2008 and Verstappen at Interlagos in 2016 and 2024. They are all in the archive, with their grids, their times and the model for each race.",
+          "Wet races are among the best things this sport has, but racing practically blind is madness. The question that remains is whether Formula 1 has become too cautious, or whether it simply learned, at a very high price, where the limit is. And who was the greatest driver in the rain?"
+        ]
+      }
+    ],
+    "related": [
+      "Tyre compounds in F1",
+      "Track safety",
+      "Belgium 2021 in the archive",
+      "Australia 1991 in the archive",
+      "Belgium 1963 in the archive"
+    ]
+  }
+}

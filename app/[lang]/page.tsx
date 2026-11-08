@@ -26,6 +26,7 @@ import { HomeRecords } from "@/components/HomeRecords";
 import { OnThisDay } from "@/components/OnThisDay";
 import { FollowedPaddock } from "@/components/account/FollowedPaddock";
 import { HomeRaceReport } from "@/components/HomeRaceReport";
+import { HomeLatestArticle } from "@/components/HomeLatestArticle";
 import { getRaceReport } from "@/lib/race-report";
 import "./race-report.css";
 
@@ -72,6 +73,7 @@ export default async function Home() {
     <main id="top">
       <SiteHeader />
       <StaleDataNotice live={data.live} />
+      <HomeLatestArticle lang={lang} />
 
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-speed-lines" aria-hidden="true" />
