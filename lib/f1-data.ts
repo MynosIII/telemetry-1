@@ -16,7 +16,8 @@ import type {
   TelemetryProfile
 } from "./types";
 
-const API_ROOT = "https://api.jolpi.ca/ergast/f1";
+// JOLPICA_BASE_URL points local development at a stand-in when the API is unreachable.
+const API_ROOT = `${(process.env.JOLPICA_BASE_URL ?? "https://api.jolpi.ca").replace(/\/$/, "")}/ergast/f1`;
 const IMAGE_REPO_ROOT =
   "https://f1-telemetry-games.vercel.app/";
 const TELEMETRY_PROFILE_ROOT =

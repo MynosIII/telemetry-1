@@ -1,0 +1,33 @@
+{
+  "season": 2026,
+  "upTo": "Gran Premio de São Paulo",
+  "date": "2026-11-06",
+  "source": "FIA, Delegado Técnico: «PU Elements used per Driver up to now»",
+  "sourceUrl": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_pu_elements_used_per_driver_up_to_now.pdf",
+  "elements": ["ICE", "TC", "EXH", "MGU-K", "ES", "PU-CE", "PU-ANC"],
+  "allocation": { "ICE": 4, "TC": 4, "EXH": 4, "MGU-K": 3, "ES": 3, "PU-CE": 3 },
+  "drivers": [
+    { "number": 81, "name": "Oscar Piastri", "team": "mclaren", "manufacturer": "Mercedes", "used": [4, 3, 3, 2, 3, 3, 5] },
+    { "number": 1, "name": "Lando Norris", "team": "mclaren", "manufacturer": "Mercedes", "used": [4, 3, 3, 2, 3, 4, 5] },
+    { "number": 63, "name": "George Russell", "team": "mercedes", "manufacturer": "Mercedes", "used": [5, 5, 5, 4, 4, 4, 5] },
+    { "number": 12, "name": "Kimi Antonelli", "team": "mercedes", "manufacturer": "Mercedes", "used": [5, 3, 3, 2, 4, 4, 6] },
+    { "number": 3, "name": "Max Verstappen", "team": "red_bull", "manufacturer": "Red Bull Ford", "used": [4, 4, 4, 3, 3, 3, 5] },
+    { "number": 6, "name": "Isack Hadjar", "team": "red_bull", "manufacturer": "Red Bull Ford", "used": [8, 7, 7, 4, 4, 4, 8] },
+    { "number": 16, "name": "Charles Leclerc", "team": "ferrari", "manufacturer": "Ferrari", "used": [4, 4, 4, 3, 3, 3, 6] },
+    { "number": 44, "name": "Lewis Hamilton", "team": "ferrari", "manufacturer": "Ferrari", "used": [4, 4, 4, 3, 3, 3, 6] },
+    { "number": 23, "name": "Alexander Albon", "team": "williams", "manufacturer": "Mercedes", "used": [5, 3, 3, 2, 3, 4, 5] },
+    { "number": 55, "name": "Carlos Sainz", "team": "williams", "manufacturer": "Mercedes", "used": [4, 4, 3, 2, 3, 4, 5] },
+    { "number": 41, "name": "Arvid Lindblad", "team": "rb", "manufacturer": "Red Bull Ford", "used": [6, 5, 5, 2, 3, 3, 6] },
+    { "number": 30, "name": "Liam Lawson", "team": "rb", "manufacturer": "Red Bull Ford", "used": [5, 5, 5, 2, 3, 3, 7] },
+    { "number": 18, "name": "Lance Stroll", "team": "aston_martin", "manufacturer": "Honda", "used": [6, 7, 3, 5, 8, 7, 9] },
+    { "number": 14, "name": "Fernando Alonso", "team": "aston_martin", "manufacturer": "Honda", "used": [5, 6, 3, 5, 7, 6, 9] },
+    { "number": 50, "name": "Ryo Hirakawa", "team": "haas", "manufacturer": "Ferrari", "used": [4, 4, 4, 3, 3, 3, 5] },
+    { "number": 87, "name": "Oliver Bearman", "team": "haas", "manufacturer": "Ferrari", "used": [4, 4, 4, 4, 4, 4, 4] },
+    { "number": 27, "name": "Nico Hülkenberg", "team": "audi", "manufacturer": "Audi", "used": [4, 4, 4, 3, 3, 3, 5] },
+    { "number": 5, "name": "Gabriel Bortoleto", "team": "audi", "manufacturer": "Audi", "used": [5, 5, 5, 4, 5, 5, 7] },
+    { "number": 10, "name": "Pierre Gasly", "team": "alpine", "manufacturer": "Mercedes", "used": [4, 3, 3, 2, 3, 3, 5] },
+    { "number": 43, "name": "Franco Colapinto", "team": "alpine", "manufacturer": "Mercedes", "used": [5, 3, 2, 2, 3, 4, 5] },
+    { "number": 11, "name": "Sergio Pérez", "team": "cadillac", "manufacturer": "Ferrari", "used": [4, 4, 4, 3, 3, 3, 4] },
+    { "number": 77, "name": "Valtteri Bottas", "team": "cadillac", "manufacturer": "Ferrari", "used": [5, 5, 4, 4, 4, 4, 5] }
+  ]
+}
