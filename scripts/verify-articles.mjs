@@ -40,6 +40,17 @@ for(const article of records) {
     assert(['Inicial','Intermedio','Avanzado'].includes(article.level),`${prefix}: missing reading level`);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(article.reviewedOn)&&Number.isFinite(Date.parse(article.reviewedOn)),`${prefix}: invalid review date`);
   }
+  if(article.publishedOn!==undefined)assert(/^\d{4}-\d{2}-\d{2}$/.test(article.publishedOn)&&Number.isFinite(Date.parse(article.publishedOn)),`${prefix}: invalid publication date`);
+  if(article.en) {
+    for(const key of ['title','description','lead'])assert(typeof article.en[key]==='string'&&article.en[key].trim(),`${prefix}: missing English ${key}`);
+    assert.equal(article.en.sections.length,article.sections.length,`${prefix}: English sections do not match`);
+    article.en.sections.forEach((section,i)=>{
+      assert(section.title&&section.paragraphs.length&&section.paragraphs.every(p=>typeof p==='string'&&p.length>30),`${prefix}: incomplete English prose`);
+      assert(!section.diagram||Boolean(article.sections[i].diagram),`${prefix}: English diagram without a Spanish one`);
+      if(section.diagram?.url)assert(section.diagram.url.startsWith('/articles/diagrams/')&&fs.existsSync(`public${section.diagram.url}`),`${prefix}: missing English diagram`);
+    });
+    if(article.en.related)assert.equal(article.en.related.length,article.related.length,`${prefix}: English related links do not match`);
+  }
   assert(Number.isInteger(article.year)&&article.year>=1800&&article.year<=2026,`${prefix}: missing/invalid chronological year`);
   assert(article.sections.length>=4,`${prefix}: incomplete chapters`);
   assert(article.sources.length>=3,`${prefix}: insufficient sources`);

@@ -11,3 +11,5 @@ El estilo es relato histórico de no ficción: aperturas apoyadas en acontecimie
 Para agregar un artículo: crear un JSON siguiendo uno de los existentes, ejecutar `npm run build:articles` y `npm run verify:articles`, revisar afirmaciones y enlaces, y ejecutar la compilación. El índice generado se versiona para que las rutas y los metadatos no dependan de consultas externas.
 
 Los tiempos de lectura se calculan a 200 palabras por minuto. Los enlaces al archivo ofrecen estadísticas y expedientes relacionados; no se fabrican puntuaciones del modelo para carreras anteriores a su cobertura.
+
+Un artículo con `publishedOn` (AAAA-MM-DD) entra en la portada: el más reciente se muestra arriba de todo en la home. El campo opcional `en` lleva la versión en inglés (título, bajada, entrada y capítulos en el mismo orden; los diagramas pueden tener su propia versión `-en.svg`).
