@@ -40,6 +40,7 @@ export default async function RacePage({ params, searchParams }: Props) {
       <section className="race-detail-body">
         <div className="detail-heading">
           <div><p className="eyebrow eyebrow-red">CLASIFICACIÓN</p><h2>RESULTADO <em>FINAL</em></h2></div>
+          <Link href={`/carreras/${race.round}/informe`}>Llegada contra largada, adelantamientos y récords →</Link>
         </div>
         <div className="full-results">
           {race.results.map((driver) => (

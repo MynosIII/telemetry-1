@@ -1,5 +1,6 @@
-import { revalidateTag } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { getLiveModelSnapshot, LIVE_MODEL_CACHE_TAG } from "@/lib/live-model";
+import { RACE_REPORT_CACHE_TAG } from "@/lib/race-report";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
@@ -63,9 +64,17 @@ export async function GET(request: Request) {
     }, { status: 202 });
   }
 
+  // The post-race report (/informe and /carreras/<round>/informe) rebuilds from the final classification.
+  revalidateTag(RACE_REPORT_CACHE_TAG, { expire: 0 });
+  for (const lang of ["es", "en"]) {
+    revalidatePath(`/${lang}/informe`);
+    revalidatePath(`/${lang}/carreras/${expectedRound}/informe`);
+  }
+
   return Response.json({
     ok: true,
     action: "updated",
+    report: `/carreras/${expectedRound}/informe`,
     race: recentRace.raceName,
     round: expectedRound,
     completedRaces: snapshot.coverage.completedRaces,

@@ -18,7 +18,8 @@
     "verify:grand-prix": "node scripts/verify-grand-prix.mjs",
     "build:grand-prix": "node scripts/build-grand-prix-editions.mjs",
     "build:articles": "node scripts/build-articles.mjs",
-    "verify:articles": "node scripts/verify-articles.mjs"
+    "verify:articles": "node scripts/verify-articles.mjs",
+    "build:race-report": "node scripts/build-race-report-baseline.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.2.0",

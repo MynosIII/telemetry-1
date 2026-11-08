@@ -1,0 +1,32 @@
+.race-report { max-width: 980px; }
+.race-report-share { margin: 14px 0 0; font-size: 13px; }
+.race-report-share a { text-decoration: underline; text-underline-offset: 3px; }
+.race-report-section { padding-top: 34px; }
+.race-report-section h2 { font: 650 22px/1.2 var(--font-ui); letter-spacing: -.02em; margin: 0 0 10px; }
+.race-report-lead { color: var(--a-muted); font-size: 14px; margin: 0 0 16px; max-width: 70ch; }
+.race-report-scroll { overflow-x: auto; }
+.race-report-table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.race-report-table th { text-align: right; font-size: 12px; font-weight: 600; color: var(--a-muted); padding: 8px 10px; border-bottom: 1px solid var(--a-line); white-space: nowrap; }
+.race-report-table td { text-align: right; padding: 8px 10px; border-bottom: 1px solid #1c1c1c; white-space: nowrap; }
+.race-report-table th:first-child, .race-report-table td:first-child { text-align: left; padding-left: 0; white-space: normal; }
+.race-report-table td:first-child small { display: block; color: var(--a-muted); font-size: 11px; margin-top: 2px; }
+.race-report-table td:first-child a { text-decoration: none; }
+.race-report-delta { font-weight: 700; }
+.race-report-delta.is-up { color: #5fd47a; }
+.race-report-delta.is-down { color: #ff6b5e; }
+.race-report-table tr.is-out td { color: var(--a-muted); }
+.race-report-table tr.is-out td[colspan] { text-align: left; }
+.race-report-overtakes { max-width: 520px; }
+.race-report-stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0 32px; margin: 0; }
+.race-report-stats > div { padding: 10px 0; border-bottom: 1px solid #1c1c1c; }
+.race-report-stats dt { color: var(--a-muted); font-size: 12px; margin-bottom: 3px; }
+.race-report-stats dd { margin: 0; font-size: 14px; }
+.race-report-stats dd span { display: block; color: var(--a-muted); font-size: 12px; margin-top: 2px; line-height: 1.45; }
+.race-report-list { margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6; }
+.race-report-list li { margin: 4px 0; }
+.race-report-method { margin-top: 44px; }
+.race-report-empty { color: var(--a-muted); }
+@media (max-width: 520px) {
+  .race-report-table { font-size: 13px; }
+  .race-report-table th, .race-report-table td { padding: 7px 6px; }
+}

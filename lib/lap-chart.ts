@@ -1,4 +1,4 @@
-const API_ROOT = "https://api.jolpi.ca/ergast/f1";
+const API_ROOT = process.env.JOLPICA_BASE_URL ?? "https://api.jolpi.ca/ergast/f1";
 /** Jolpica serves lap-by-lap positions from 1996 onward. */
 export const FIRST_LAP_CHART_SEASON = 1996;
 const PAGE = 100;
@@ -10,8 +10,8 @@ type LapPage = { MRData?: { total?: string; RaceTable?: { Races?: { Laps?: { num
 
 export type LapPositions = { laps: number; drivers: Map<string, (number | null)[]> };
 
-async function page(year: number, round: number, offset: number): Promise<LapPage> {
-  const response = await fetch(`${API_ROOT}/${year}/${round}/laps/?limit=${PAGE}&offset=${offset}`, { next: { revalidate: REVALIDATE }, signal: AbortSignal.timeout(8000) });
+async function page(year: number, round: number, offset: number, revalidate = REVALIDATE): Promise<LapPage> {
+  const response = await fetch(`${API_ROOT}/${year}/${round}/laps/?limit=${PAGE}&offset=${offset}`, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
   if (!response.ok) throw new Error(`Jolpica laps ${response.status}`);
   return response.json();
 }
@@ -36,17 +36,18 @@ export function toPositions(pages: LapPage[]): LapPositions | null {
   return { laps, drivers };
 }
 
-export async function getLapPositions(year: number, round: number): Promise<LapPositions | null> {
+/** `revalidate` is shorter for a race that just finished, while Jolpica may still be filling in laps. */
+export async function getLapPositions(year: number, round: number, revalidate = REVALIDATE): Promise<LapPositions | null> {
   if (year < FIRST_LAP_CHART_SEASON) return null;
   try {
-    const first = await page(year, round, 0);
+    const first = await page(year, round, 0, revalidate);
     const total = Number(first.MRData?.total ?? 0);
     const pages = [first];
     // Sequential batches of three stay under Jolpica's burst limit of four requests per second.
     for (let offset = PAGE; offset < total; offset += PAGE * 3) {
       if (offset > PAGE) await new Promise(resolve => setTimeout(resolve, 1000));
       const batch = [offset, offset + PAGE, offset + PAGE * 2].filter(o => o < total);
-      pages.push(...await Promise.all(batch.map(o => page(year, round, o))));
+      pages.push(...await Promise.all(batch.map(o => page(year, round, o, revalidate))));
     }
     return toPositions(pages);
   } catch {
