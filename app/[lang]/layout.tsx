@@ -12,6 +12,8 @@ import "./social-links.css";
 import "./circuit-history.css";
 import "./scale.css";
 import "./account.css";
+import "./follow-x.css";
+import { FollowOnX } from "@/components/FollowOnX";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -53,7 +55,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   if (lang !== "es" && lang !== "en") notFound();
   return (
     <html lang={lang === "en" ? "en" : "es"} data-scroll-behavior="smooth">
-      <body>{children}</body>
+      <body>{children}<FollowOnX /></body>
     </html>
   );
 }

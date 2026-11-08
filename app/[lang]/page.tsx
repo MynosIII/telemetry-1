@@ -21,6 +21,8 @@ import { useTranslation } from "@/lib/i18n";
 import { getLang } from "@/lib/server-i18n";
 import { editorialArticles } from "@/lib/editorial-articles";
 import "./articles.css";
+import "./home-records.css";
+import { HomeRecords } from "@/components/HomeRecords";
 import { OnThisDay } from "@/components/OnThisDay";
 import { FollowedPaddock } from "@/components/account/FollowedPaddock";
 
@@ -136,6 +138,8 @@ export default async function Home() {
           <div className="section-action"><Link className="button button-dark" href="/noticias">{t("news.btn")} <span>→</span></Link></div>
         </section>
       ) : null}
+
+      <HomeRecords lang={lang} />
 
       <section className="section archive-section" id="archivo" aria-labelledby="archive-title">
         <div className="section-heading heading-dark">

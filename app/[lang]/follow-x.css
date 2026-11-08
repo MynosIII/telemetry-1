@@ -1,0 +1,10 @@
+.follow-x { position: fixed; right: 20px; bottom: 20px; z-index: 60; width: 340px; max-width: calc(100vw - 32px); padding: 20px 22px 22px; background: #141414; border: 1px solid #333; border-radius: 10px; box-shadow: 0 12px 32px rgb(0 0 0 / .45); color: var(--paper); animation: follow-x-in .25s ease-out; }
+.follow-x h2 { margin: 0 28px 8px 0; font: 700 18px/1.25 Arial, Helvetica, sans-serif; letter-spacing: 0; text-transform: none; }
+.follow-x p { margin: 0 0 16px; color: #b5b5ba; font-size: 14px; line-height: 1.5; }
+.follow-x-close { position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; border: 0; background: none; color: #8f8f94; font-size: 22px; line-height: 1; cursor: pointer; }
+.follow-x-close:hover { color: var(--paper); }
+.follow-x-button { display: inline-flex; align-items: center; gap: 9px; padding: 9px 14px; border-radius: 6px; background: var(--paper); color: #000; font-size: 14px; font-weight: 700; text-decoration: none; }
+.follow-x-button:hover { background: #e2e2e2; }
+@keyframes follow-x-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (max-width: 520px) { .follow-x { right: 16px; bottom: 16px; } }
+@media (prefers-reduced-motion: reduce) { .follow-x { animation: none; } }
