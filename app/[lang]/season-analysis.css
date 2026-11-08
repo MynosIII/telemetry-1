@@ -1,0 +1,89 @@
+/* Temporada analysis pages: same sober dark archive look as Estadísticas. */
+.season-wrap { max-width: 1280px; }
+.season-section { margin: 0 0 44px; }
+.season-section > h2 { font-family: var(--font-ui); font-size: 21px; font-weight: 500; letter-spacing: -.3px; margin: 0 0 6px; }
+.season-section > p.season-lead { color: var(--a-muted); font-size: 13px; margin: 0 0 16px; max-width: 760px; }
+.season-team { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.season-team i { width: 4px; height: 14px; border-radius: 2px; flex: none; }
+.season-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--a-line); }
+.season-table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.season-table th, .season-table td { padding: 9px 12px; border-bottom: 1px solid var(--a-line); text-align: left; vertical-align: middle; }
+.season-table thead th { position: sticky; top: 0; background: var(--a-panel); color: var(--a-muted); font-size: 11px; font-weight: 600; white-space: nowrap; z-index: 1; }
+.season-table tbody tr:last-child td { border-bottom: 0; }
+.season-table tbody tr:hover td { background: var(--a-soft); }
+.season-table .num { text-align: right; white-space: nowrap; }
+.season-table small { color: var(--a-muted); }
+.season-table .muted { color: var(--a-muted); }
+.season-method p { line-height: 1.6; }
+.season-picker { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 22px; }
+.season-picker a { font-size: 12px; padding: 7px 10px; border: 1px solid var(--a-line); background: var(--a-panel); color: var(--a-muted); text-decoration: none !important; }
+.season-picker a[aria-current="page"] { border-color: var(--a-text); color: var(--a-text); }
+.season-source { font-size: 12px; color: var(--a-muted); margin: 10px 0 0; }
+
+/* Head to head: one split bar per duel */
+.duel { display: grid; grid-template-columns: 2.2em 1fr 2.2em; align-items: center; gap: 8px; min-width: 150px; }
+.duel b { font-weight: 600; text-align: center; }
+.duel b.lead { color: var(--a-text); }
+.duel b:not(.lead) { color: var(--a-muted); }
+.duel-bar { display: flex; height: 8px; gap: 2px; }
+.duel-bar span { display: block; height: 100%; border-radius: 2px; min-width: 2px; }
+.duel-bar span:last-child { opacity: .45; }
+.duel-names { display: grid; gap: 2px; }
+.duel-names small { display: block; }
+
+/* Horizontal bars (team pace, pit stops) */
+.hbars { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.hbars li { display: grid; grid-template-columns: minmax(110px, 160px) 1fr 76px; align-items: center; gap: 12px; font-size: 13px; }
+.hbars .track { height: 10px; background: var(--a-soft); border-radius: 2px; position: relative; }
+.hbars .track span { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px; }
+.hbars strong { font-weight: 500; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* SVG charts */
+.season-chart { width: 100%; height: auto; display: block; overflow: visible; }
+.season-chart text { fill: var(--a-muted); font-size: 11px; font-family: var(--font-ui); }
+.season-chart .label { fill: var(--a-text); font-size: 12px; }
+.season-chart .grid { stroke: var(--a-line); stroke-width: 1; }
+.season-chart .whisker { stroke-width: 1.5; }
+.season-chart .hit { fill: transparent; }
+.season-chart .hit:hover + g rect, .season-chart g.row:hover rect.box { filter: brightness(1.25); }
+.season-chart-frame { border: 1px solid var(--a-line); background: var(--a-panel); padding: 16px 18px 10px; }
+.season-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--a-muted); margin: 0 0 12px; padding: 0; list-style: none; }
+
+/* Heat cells (tech updates, power units, track DNA) */
+.heat { display: inline-block; min-width: 2.2em; padding: 3px 6px; border-radius: 2px; text-align: center; }
+.heat-0 { color: var(--a-muted); }
+.heat-over { background: rgba(225, 6, 0, .22); color: #ffb3ad; }
+.heat-bonus { background: rgba(255, 196, 0, .14); }
+.pct { display: grid; grid-template-columns: 1fr 2.4em; align-items: center; gap: 6px; min-width: 92px; }
+.pct .track { height: 6px; background: var(--a-soft); border-radius: 2px; position: relative; }
+.pct .track span { position: absolute; left: 0; top: 0; bottom: 0; background: var(--a-text); opacity: .75; border-radius: 2px; }
+.pct small { text-align: right; }
+
+/* Tech updates list per Grand Prix */
+.updates-gp { border-top: 1px solid var(--a-line); padding: 18px 0 6px; }
+.updates-gp > h3 { font-size: 16px; font-weight: 500; margin: 0 0 10px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.updates-gp > h3 small { color: var(--a-muted); font-weight: 400; font-size: 12px; }
+.updates-team { display: grid; grid-template-columns: 150px 1fr; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--a-soft); font-size: 13px; }
+.updates-team ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 5px; }
+.updates-team li b { font-weight: 500; }
+.updates-team li span { color: var(--a-muted); }
+.updates-team li em { font-style: normal; font-size: 11px; color: var(--a-muted); border-left: 1px solid var(--a-line); padding-left: 6px; margin-left: 6px; }
+
+/* Track DNA detail */
+.dna-detail { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 28px; border: 1px solid var(--a-line); background: var(--a-panel); padding: 20px; margin: 0 0 28px; }
+.dna-detail h2 { font-family: var(--font-ui); font-weight: 500; font-size: 22px; margin: 0 0 4px; }
+.dna-detail dl { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 16px 0 0; }
+.dna-detail dt { font-size: 12px; color: var(--a-muted); }
+.dna-detail dd { margin: 3px 0 0; }
+.dna-detail ul { margin: 6px 0 0; padding-left: 18px; font-size: 13px; }
+
+@media (max-width: 760px) {
+  .updates-team { grid-template-columns: 1fr; gap: 6px; }
+  .dna-detail { grid-template-columns: 1fr; }
+  .hbars li { grid-template-columns: 96px 1fr 64px; gap: 8px; }
+}
+.duel-names a { white-space: nowrap; }
+@media (max-width: 760px) {
+  .season-chart-frame { overflow-x: auto; padding: 12px 10px 6px; }
+  .season-chart-frame .season-chart { min-width: 660px; }
+}
