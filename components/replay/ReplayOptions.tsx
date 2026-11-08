@@ -6,6 +6,7 @@ export const PANELS = [
   { key: "map", label: "Mapa" },
   { key: "radar", label: "Lluvia" },
   { key: "weather", label: "Clima" },
+  { key: "stints", label: "Neumáticos" },
   { key: "driver", label: "Piloto elegido" },
   { key: "pits", label: "Paradas" },
   { key: "control", label: "Dirección de carrera" },

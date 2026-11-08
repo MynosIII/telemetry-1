@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { SessionSelect, useSessionList } from "@/components/replay/SessionPicker";
-import { TrackOutline, type TrackMarker } from "@/components/replay/TrackOutline";
+import { type TrackMarker } from "@/components/replay/TrackOutline";
+import { TrackMap3D } from "@/components/replay/TrackMap3D";
+import { StintBoard } from "@/components/replay/StintBoard";
 import { ChampionshipPanel } from "@/components/replay/ChampionshipPanel";
 import { DriverTelemetry } from "@/components/replay/DriverTelemetry";
 import { PitProjection } from "@/components/replay/PitProjection";
@@ -388,6 +390,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
     return position ? [{ key: row.driver.number, x: position.x, y: position.y, color: row.driver.color, label: row.driver.acronym, dim: selected !== null && selected !== row.driver.number }] : [];
   }).reverse();
 
+  const toggleSelected = useCallback((driver: number) => setSelected((current) => (current === driver ? null : driver)), []);
   const selectedRow = tower.find((row) => row.driver.number === selected);
   const fieldInputs = useFieldInputs(sessionKey, data ? t : 0, live, hasColumn("speed") || hasColumn("gear") || hasColumn("pedals"));
   const currentLaps = useMemo(() => {
@@ -493,7 +496,7 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
             {shows("map") && (
             <PanelBoundary name="el mapa">
             <section className="replay-panel replay-map">
-              <TrackOutline points={timeline.track} markers={markers} label={`Posiciones en pista, ${session.meeting}`} showLabels />
+              <TrackMap3D circuit={session.circuit} points={timeline.track} markers={markers} label={`Posiciones en pista, ${session.meeting}`} selected={selected} onSelect={toggleSelected} />
               {selectedRow && (
                 <p className="replay-selected">
                   <b>{selectedRow.driver.name}</b> · {selectedRow.driver.team}
@@ -550,6 +553,12 @@ export function RaceReplay({ liveSession }: { liveSession?: number } = {}) {
             </section>
             </PanelBoundary>
           </div>
+
+          {shows("stints") && (
+            <PanelBoundary name="los neumáticos">
+              <StintBoard data={data} timeline={timeline} rows={tower} totalLaps={live ? 0 : totalLaps} live={live} selected={selected} onSelect={toggleSelected} />
+            </PanelBoundary>
+          )}
 
           {shows("driver") && (selectedRow ? (
             <div className="replay-driver">
