@@ -8,19 +8,36 @@
  */
 import { createServer } from "node:http";
 import { deflateSync } from "node:zlib";
+import { readFileSync } from "node:fs";
 
 const PORT = Number(process.env.PORT ?? 4010);
 const HZ = 3.7;
 const BOOT = Date.now();
 
-// --- Track: a closed curve in OpenF1 units (1 unit ≈ 0.1 m) -----------------------------------
+// --- Track: the real Buenos Aires layout, turned and offset into OpenF1-like units (1 unit ≈ 0.1 m) ---
+// The real shape lets the 3D map fit the outline onto the satellite position like it does with OpenF1.
+const BUENOS_AIRES = JSON.parse(readFileSync(new URL("../public/maps/f1-circuits.json", import.meta.url), "utf8"))["ar-1952"].line;
 const TRACK = [];
-for (let i = 0; i < 2400; i += 1) {
-  const a = (i / 2400) * Math.PI * 2;
-  TRACK.push({
-    x: 9000 * Math.cos(a) + 2200 * Math.cos(3 * a) - 900 * Math.sin(2 * a),
-    y: 5200 * Math.sin(a) + 1500 * Math.sin(2 * a) + 500 * Math.cos(5 * a)
+{
+  const lng0 = BUENOS_AIRES[0][0];
+  const lat0 = BUENOS_AIRES[0][1];
+  const turn = 0.64;
+  const local = BUENOS_AIRES.map(([lng, lat]) => {
+    const x = (lng - lng0) * 111_320 * Math.cos((lat0 * Math.PI) / 180) * 10;
+    const y = (lat - lat0) * 110_540 * 10;
+    return { x: Math.cos(turn) * x - Math.sin(turn) * y - 2500, y: Math.sin(turn) * x + Math.cos(turn) * y + 1800 };
   });
+  // Catmull-Rom through the surveyed points so corners are smooth.
+  const n = local.length;
+  const per = Math.ceil(2400 / n);
+  for (let i = 0; i < n; i += 1) {
+    const p0 = local[(i - 1 + n) % n]; const p1 = local[i]; const p2 = local[(i + 1) % n]; const p3 = local[(i + 2) % n];
+    for (let k = 0; k < per; k += 1) {
+      const u = k / per; const u2 = u * u; const u3 = u2 * u;
+      const f = (a, b, c, d) => 0.5 * (2 * b + (-a + c) * u + (2 * a - 5 * b + 4 * c - d) * u2 + (-a + 3 * b - 3 * c + d) * u3);
+      TRACK.push({ x: f(p0.x, p1.x, p2.x, p3.x), y: f(p0.y, p1.y, p2.y, p3.y) });
+    }
+  }
 }
 const cumulative = [0];
 for (let i = 1; i <= TRACK.length; i += 1) {

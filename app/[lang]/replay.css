@@ -308,3 +308,52 @@ i.dt-brake, path.dt-brake { background: #e5483f; fill: #e5483f; }
 .replay-options-list fieldset { margin: 0; padding: 0; border: 0; display: grid; gap: 2px; }
 .replay-options-list fieldset + fieldset { margin-top: 6px; padding-top: 8px; border-top: 1px solid #262626; }
 .replay-options-list legend { padding: 0 6px 4px; color: #7f7f7f; font-size: 11px; }
+
+/* 3D map */
+.track-map { display: grid; gap: 8px; }
+.track-map-switch { display: flex; gap: 6px; align-items: center; }
+.track-map-switch button { padding: 5px 10px; background: none; border: 1px solid #2c2c2c; border-radius: 4px; color: #a3a3a3; cursor: pointer; font-size: 12px; }
+.track-map-switch button[aria-checked=true], .track-map-switch button[aria-pressed=true] { border-color: #5a5a5a; color: #fff; }
+.track-map-switch .track-map-base { margin-left: 8px; }
+.track-map-switch .track-map-reset { margin-left: auto; }
+.track-map-canvas { position: relative; height: clamp(320px, 52vh, 560px); border-radius: 4px; overflow: hidden; background: #121212; }
+.track-map-loading { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; color: #7f7f7f; font-size: 13px; }
+.track-map-canvas .maplibregl-ctrl-group { background: #1a1a1a; }
+.track-map-canvas .maplibregl-ctrl-group button + button { border-top-color: #2c2c2c; }
+.track-map-canvas .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); }
+.track-map-canvas .maplibregl-ctrl-attrib { background: rgba(18, 18, 18, 0.75); color: #9a9a9a; }
+.track-map-canvas .maplibregl-ctrl-attrib a { color: #bdbdbd; }
+
+/* Tyre stints for the whole field */
+.stint-board { padding: 12px 8px; }
+.stint-board > h2 { padding: 0 6px; }
+.stint-board-scroll { overflow-x: auto; }
+.stint-board-table { min-width: 860px; }
+.stint-board-row { display: grid; grid-template-columns: 28px 64px 34px 72px 64px 38px 44px 46px minmax(320px, 1fr); gap: 6px; align-items: center; width: 100%; padding: 5px 6px; background: none; border: 0; border-bottom: 1px solid #1d1d1d; color: #fff; text-align: left; font-size: 13px; cursor: pointer; }
+.stint-board-row:hover { background: #171717; }
+.stint-board-row[aria-pressed=true] { background: #1f1f1f; }
+.stint-board-head { position: sticky; top: 0; color: #7f7f7f; font-size: 11px; cursor: default; background: #111; }
+.stint-board-head:hover { background: #111; }
+.stint-board-row code { color: #d6d6d6; font: 500 12px/1 ui-monospace, "SFMono-Regular", Menlo, monospace; text-align: right; }
+.stint-board-head > span:nth-child(n+4):not(.stint-board-axis) { text-align: right; }
+.stint-board-pos { font-variant-numeric: tabular-nums; text-align: center; }
+.stint-board-driver { display: flex; align-items: center; gap: 8px; font-weight: 700; }
+.stint-board-driver i { width: 3px; height: 16px; border-radius: 2px; }
+.stint-board-delta { color: #7f7f7f; font-size: 11px; font-variant-numeric: tabular-nums; }
+.stint-board-delta.is-up { color: #3fbf6a; }
+.stint-board-delta.is-down { color: #e5483f; }
+.stint-board-pit { color: #9a9a9a; text-align: right; font-variant-numeric: tabular-nums; }
+.stint-board-pit b { color: #ffd12e; font-size: 10px; text-transform: uppercase; }
+.stint-board-tyre { display: flex; align-items: center; justify-content: flex-end; gap: 4px; color: #bdbdbd; font-size: 12px; font-variant-numeric: tabular-nums; }
+.stint-board-tyre b { display: inline-grid; place-items: center; width: 18px; height: 18px; border: 2px solid; border-radius: 50%; font-size: 9px; font-weight: 800; }
+.stint-board-axis, .stint-board-track { position: relative; height: 18px; margin: 0 12px 0 10px; }
+.stint-board-axis i { position: absolute; top: 2px; transform: translateX(-50%); font-style: normal; font-variant-numeric: tabular-nums; }
+.stint-board-track { background: linear-gradient(#1c1c1c, #1c1c1c) center / 100% 4px no-repeat; }
+.stint-board-tick { position: absolute; top: 3px; bottom: 3px; width: 1px; background: #232323; }
+.stint-board-stint { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; justify-content: space-between; background: linear-gradient(var(--tyre), var(--tyre)) center / 100% 4px no-repeat; }
+.stint-board-stint b, .stint-board-stint small { display: inline-grid; place-items: center; width: 18px; height: 18px; margin: 0 -9px; border-radius: 50%; font-size: 9px; font-weight: 800; position: relative; z-index: 1; }
+.stint-board-stint b { background: #111; border: 2px solid var(--tyre); color: var(--tyre); }
+.stint-board-stint small { background: var(--tyre); color: #111; }
+@media (max-width: 720px) {
+  .track-map-canvas { height: 340px; }
+}
