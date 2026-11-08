@@ -10,7 +10,7 @@ const CARS = path.join(process.cwd(), "public", "history", "cars");
 
 const STATIC_PAGES = [
   "/", "/noticias", "/articulos", "/temporada", "/calendario",
-  "/ranking", "/ranking/fan-index", "/ranking/encuesta",
+  "/informe", "/ranking", "/ranking/fan-index", "/ranking/encuesta",
   "/historia", "/historia/autos", "/historia/neumaticos", "/historia/records", "/historia/comparar",
   "/juegos", "/juegos/predestinato",
   "/en-vivo", "/en-vivo/clima", "/en-vivo/repeticion", "/en-vivo/telemetria", "/privacidad"
