@@ -59,3 +59,19 @@
   .home-report { padding: 40px 16px; }
   .home-report-body { grid-template-columns: 1fr; gap: 28px; }
 }
+.race-report-share { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.race-report-intro { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 36px; align-items: start; }
+.race-report-summary p { font-size: 16px; line-height: 1.7; margin: 0 0 14px; max-width: 68ch; }
+.race-report-summary a, .race-report-list a, .race-report-stats a { text-decoration: underline; text-decoration-color: #555; text-underline-offset: 3px; }
+.race-report-credit { color: var(--a-muted); font-size: 12px !important; }
+.race-report-figures { display: grid; gap: 18px; }
+.race-report-figures figure { margin: 0; background: var(--a-panel); border: 1px solid var(--a-line); }
+.race-report-figures img { display: block; width: 100%; height: 260px; object-fit: cover; object-position: top; }
+.race-report-layout img { object-fit: contain; height: 200px; padding: 16px; }
+.race-report-figures figcaption { font-size: 12px; color: var(--a-muted); padding: 8px 10px; border-top: 1px solid var(--a-line); }
+@media (max-width: 760px) {
+  .race-report-intro { grid-template-columns: 1fr; }
+  .race-report-figures { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .race-report-figures img { height: 180px; }
+  .race-report-layout img { height: 180px; }
+}

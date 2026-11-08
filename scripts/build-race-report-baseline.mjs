@@ -100,7 +100,7 @@ const output = {
     starts: leaderboard("largadas"),
     points: leaderboard("puntos")
   },
-  furthestBackWin: { grid: Number(furthestBack.value.replace("P", "")), name: furthestBack.name, detail: furthestBack.detail }
+  furthestBackWin: { grid: Number(furthestBack.value.replace("P", "")), name: furthestBack.name, detail: furthestBack.detail, id: furthestBack.href?.split("/").pop(), href: furthestBack.detailHref ?? undefined }
 };
 
 await writeFile(path.join(process.cwd(), "lib/race-report-baseline.json"), JSON.stringify(output));

@@ -30,7 +30,7 @@ type Baseline = {
   drivers: Record<string, { name: string; starts: number; wins: number; podiums: number; points: number; pointsFinishes: number; birth: string | null }>;
   constructors: Record<string, { name: string; wins: number; podiums: number; races: number }>;
   leaderboards: Record<"wins" | "podiums" | "starts" | "points", { id: string; name: string; value: number }[]>;
-  furthestBackWin: { grid: number; name: string; detail: string };
+  furthestBackWin: { grid: number; name: string; detail: string; id?: string; href?: string };
 };
 const baseline = baselineJson as Baseline;
 
@@ -69,6 +69,22 @@ export type RaceReport = {
   records: string[];
   curiosities: string[];
   method: Baseline["gridExpectation"];
+  slug: string;
+  /** Jolpica's English race name ("Brazilian Grand Prix"). */
+  englishName: string;
+  circuitId: string;
+  /** OpenF1 race session, for the replay link. */
+  sessionKey: number | null;
+  podium: { driverId: string; name: string; team: string; grid: number | null }[];
+  leaders: { driverId: string; laps: number }[];
+  leadChanges: number;
+  pole: { driverId: string; name: string; finish: number | null; status: string } | null;
+  fastestLap: { driverId: string; name: string; time: string; lap: number } | null;
+  retirements: { driverId: string; name: string; status: string; laps: number }[];
+  standings: { driverId: string; name: string; points: number }[];
+  remainingRaces: number | null;
+  /** Names that appear in the texts, and the page each one links to. */
+  links: Record<string, string>;
 };
 
 // ---------- fetching ----------
@@ -117,13 +133,22 @@ async function pitStops(season: number, round: number): Promise<{ driverId: stri
 }
 
 /** OpenF1 counts real on-track passes for its sessions; null when it has nothing for this race. */
-async function openF1Overtakes(season: number, date: string): Promise<{ overtaking: number; overtaken: number }[] | null> {
+/** OpenF1's key for the race session on that date (its replay lives at /en-vivo/repeticion?sesion=<key>). */
+async function raceSessionKey(season: number, date: string): Promise<number | null> {
   try {
     const sessions = await openF1(`/sessions?year=${season}&session_name=Race`, 30 * 60_000);
     const day = Date.parse(`${date}T00:00:00Z`);
     const session = sessions.find(s => Math.abs(Date.parse(str(s.date_start).slice(0, 10) + "T00:00:00Z") - day) <= 86_400_000);
-    if (!session) return null;
-    const rows = await openF1(`/overtakes?session_key=${num(session.session_key)}`, 30 * 60_000);
+    return session ? num(session.session_key) : null;
+  } catch {
+    return null;
+  }
+}
+
+async function openF1Overtakes(sessionKey: number | null): Promise<{ overtaking: number; overtaken: number }[] | null> {
+  if (!sessionKey) return null;
+  try {
+    const rows = await openF1(`/overtakes?session_key=${sessionKey}`, 30 * 60_000);
     const passes = rows
       .map(r => ({ overtaking: num(r.overtaking_driver_number) ?? 0, overtaken: num(r.overtaken_driver_number) ?? 0 }))
       .filter(r => r.overtaking && r.overtaken);
@@ -137,13 +162,10 @@ async function openF1Overtakes(season: number, date: string): Promise<{ overtaki
  * Jolpica publishes the race grid a while after the finish. Until then, OpenF1's starting grid
  * (or, failing that, the qualifying order) stands in so the report is usable on Sunday night.
  */
-async function provisionalGrid(season: number, round: number, date: string, results: Raw[]): Promise<{ source: "starting-grid" | "qualifying"; grid: Map<string, number> } | null> {
+async function provisionalGrid(season: number, round: number, sessionKey: number | null, results: Raw[]): Promise<{ source: "starting-grid" | "qualifying"; grid: Map<string, number> } | null> {
   try {
-    const sessions = await openF1(`/sessions?year=${season}&session_name=Race`, 30 * 60_000);
-    const day = Date.parse(`${date}T00:00:00Z`);
-    const session = sessions.find(s => Math.abs(Date.parse(str(s.date_start).slice(0, 10) + "T00:00:00Z") - day) <= 86_400_000);
-    if (session) {
-      const rows = await openF1(`/starting_grid?session_key=${num(session.session_key)}`, 30 * 60_000);
+    if (sessionKey) {
+      const rows = await openF1(`/starting_grid?session_key=${sessionKey}`, 30 * 60_000);
       const byNumber = new Map(results.map(r => [Number(r.number), r.Driver.driverId as string]));
       const grid = new Map<string, number>();
       for (const row of rows) {
@@ -391,12 +413,34 @@ function seasonNotes(race: Raw, previousRaces: Raw[]) {
 
 // ---------- assembly ----------
 
-export async function getRaceReport(roundParam: string): Promise<RaceReport | null> {
+/** "Gran Premio de Brasil", 2026 → "brasil-26" */
+export function raceSlug(name: string, season: number) {
+  const place = name.replace(/^Gran Premio (de la |del |de los |de las |de )?/i, "").replace(/ Grand Prix$/i, "");
+  const slug = place.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `${slug}-${String(season).slice(-2)}`;
+}
+
+/** The round a slug like "brasil-26" points to, from that season's calendar. */
+export async function roundForSlug(slug: string): Promise<{ season: number; round: number } | null> {
+  const match = slug.match(/^([a-z0-9-]+)-(\d{2})$/);
+  if (!match) return null;
+  const season = 2000 + Number(match[2]);
+  if (season <= baseline.gridExpectation.to) return null; // career totals already include the archive seasons
+  try {
+    const data = await jolpica(`/${season}.json?limit=100`, 6 * 3600);
+    const race = (data.MRData?.RaceTable?.Races ?? []).find((r: Raw) => raceSlug(translate(r.raceName, "races"), season) === slug);
+    return race ? { season, round: Number(race.round) } : null;
+  } catch {
+    return null;
+  }
+}
+
+export async function getRaceReport(roundParam: string, seasonParam?: number): Promise<RaceReport | null> {
   const wanted = roundParam === "ultima" ? "last" : /^\d+$/.test(roundParam) ? roundParam : null;
   if (!wanted) return null;
   let raceJson: Raw;
   try {
-    raceJson = await jolpica(`/current/${wanted}/results.json?limit=100`);
+    raceJson = await jolpica(`/${seasonParam ?? "current"}/${wanted}/results.json?limit=100`);
   } catch {
     return null;
   }
@@ -406,9 +450,10 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
   const round = Number(race.round);
   let results: Raw[] = race.Results;
   let gridSource: RaceReport["gridSource"] = "official";
+  const sessionKey = await raceSessionKey(season, race.date);
   const withGrid = results.filter(r => Number(r.grid) > 0).length;
   if (withGrid < results.length / 2) {
-    const fallback = await provisionalGrid(season, round, race.date, results);
+    const fallback = await provisionalGrid(season, round, sessionKey, results);
     if (fallback) {
       gridSource = fallback.source;
       results = results.map(r => ({ ...r, grid: String(fallback.grid.get(r.Driver.driverId) ?? 0) }));
@@ -418,12 +463,15 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
   const winner = results.find(r => isClassified(r) && Number(r.position) === 1);
   const laps = Number(winner?.laps ?? Math.max(...results.map(r => Number(r.laps) || 0)));
 
-  const [allRaces, stops, lapData, passesOpenF1] = await Promise.all([
+  const [allRaces, stops, lapData, passesOpenF1, standingsJson, scheduleJson] = await Promise.all([
     seasonResults(season).catch(() => [] as Raw[]),
     pitStops(season, round),
     getLapPositions(season, round, FRESH_SECONDS),
-    openF1Overtakes(season, race.date)
+    openF1Overtakes(sessionKey),
+    jolpica(`/${season}/${round}/driverStandings.json`).catch(() => null),
+    jolpica(`/${season}.json?limit=100`, 6 * 3600).catch(() => null)
   ]);
+  const scheduleLength: number = scheduleJson?.MRData?.RaceTable?.Races?.length ?? 0;
   const previousRaces = allRaces.filter(r => Number(r.round) < round);
 
   // --- expectation
@@ -495,9 +543,12 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
   stats.push({ label: "Abandonos", value: String(dnfs.length), detail: dnfs.length ? dnfs.map(r => `${r.Driver.familyName} (${statusText(r).toLowerCase()})`).join(", ") : "todos los que largaron llegaron" });
 
   // Lap-by-lap: leaders, lap one, positions held.
+  let leaderList: RaceReport["leaders"] = [];
+  let leadChanges = 0;
+  let changes = 0;
   if (lapData) {
     const led = new Map<string, number>();
-    let changes = 0;
+    changes = 0;
     let previousLeader: string | undefined;
     for (let lap = 0; lap < lapData.laps; lap += 1) {
       const leader = [...lapData.drivers.entries()].find(([, p]) => p[lap] === 1)?.[0];
@@ -507,6 +558,8 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
       previousLeader = leader;
     }
     const leaders = [...led.entries()].sort((a, b) => b[1] - a[1]);
+    leaderList = leaders.map(([driverId, n]) => ({ driverId, laps: n }));
+    leadChanges = changes;
     if (leaders.length) stats.push({
       label: "Vueltas lideradas",
       value: leaders.length === 1 ? "Un solo líder" : `${leaders.length} líderes`,
@@ -590,10 +643,40 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
     ...seasonNotes(race, previousRaces)
   ];
 
+  // Links for every name the texts can mention: drivers, teams, record holders, races.
+  const links: Record<string, string> = {};
+  for (const board of Object.values(baseline.leaderboards)) for (const row of board) links[row.name] = `/pilotos/${row.id}`;
+  if (baseline.furthestBackWin.id) links[baseline.furthestBackWin.name] = `/pilotos/${baseline.furthestBackWin.id}`;
+  if (baseline.furthestBackWin.href) links[baseline.furthestBackWin.detail] = baseline.furthestBackWin.href;
+  for (const r of results) {
+    links[fullName(r)] = `/pilotos/${r.Driver.driverId}`;
+    const team = archiveConstructorId(r.Constructor.constructorId);
+    if (baseline.constructors[team]) links[r.Constructor.name] = `/historia/constructors/${team}`;
+  }
+  const raceName = translate(race.raceName, "races");
+  links[raceName] = `/carreras/${round}`;
+  links[race.raceName] = `/carreras/${round}`;
+  if (race.Circuit?.circuitName) links[race.Circuit.circuitName] = `/circuitos/${race.Circuit.circuitId}`;
+
+  const standingRows = standingsJson?.MRData?.StandingsTable?.StandingsLists?.[0]?.DriverStandings ?? [];
+
   return {
+    slug: raceSlug(raceName, season),
+    englishName: race.raceName,
+    circuitId: race.Circuit?.circuitId ?? "",
+    sessionKey,
+    podium: classified.slice(0, 3).map(r => ({ driverId: r.Driver.driverId, name: fullName(r), team: r.Constructor.name, grid: gridOf(r) })),
+    leaders: leaderList,
+    leadChanges,
+    pole: poleman ? { driverId: poleman.Driver.driverId, name: fullName(poleman), finish: isClassified(poleman) ? Number(poleman.position) : null, status: statusText(poleman) } : null,
+    fastestLap: fastest ? { driverId: fastest.Driver.driverId, name: fullName(fastest), time: fastest.FastestLap.Time?.time ?? "", lap: Number(fastest.FastestLap.lap) } : null,
+    retirements: dnfs.map(r => ({ driverId: r.Driver.driverId, name: fullName(r), status: statusText(r), laps: Number(r.laps) || 0 })),
+    standings: standingRows.slice(0, 3).map((row: Raw) => ({ driverId: row.Driver.driverId, name: `${row.Driver.givenName} ${row.Driver.familyName}`, points: Number(row.points) })),
+    remainingRaces: scheduleLength ? scheduleLength - round : null,
+    links,
     season,
     round,
-    name: translate(race.raceName, "races"),
+    name: raceName,
     circuit: race.Circuit?.circuitName ?? "",
     date: race.date,
     laps,
