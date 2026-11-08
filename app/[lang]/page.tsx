@@ -25,14 +25,23 @@ import "./home-records.css";
 import { HomeRecords } from "@/components/HomeRecords";
 import { OnThisDay } from "@/components/OnThisDay";
 import { FollowedPaddock } from "@/components/account/FollowedPaddock";
+import { HomeRaceReport } from "@/components/HomeRaceReport";
+import { getRaceReport } from "@/lib/race-report";
+import "./race-report.css";
 
 export default async function Home() {
-  const [data, rawMarketForecast, historyIndex, news] = await Promise.all([
+  const [data, rawMarketForecast, historyIndex, news, raceReport] = await Promise.all([
     getF1HomeData(),
     getPolymarketChampionForecast(),
     getHistoryIndex(),
-    getNews(5)
+    getNews(5),
+    getRaceReport("ultima").catch(() => null)
   ]);
+  // The report leads until the calendar is closer to the next race than to the last one.
+  const nextRaceAt = data.nextRace.state === "finished" ? NaN : Date.parse(`${data.nextRace.date}T${data.nextRace.time}`);
+  const lastRaceAt = raceReport ? Date.parse(`${raceReport.date}T12:00:00Z`) : NaN;
+  const reportFirst = Boolean(raceReport) && (!Number.isFinite(nextRaceAt) || Date.now() < (lastRaceAt + nextRaceAt) / 2);
+  const reportBlock = raceReport ? <HomeRaceReport report={raceReport} /> : null;
   // The model's differentiator on the home page: the v7.6 career ELO of the highest-rated drivers.
   const eloLeaders = Object.entries(eloRatings as Record<string, { name: string; careerRating: number }>)
     .map(([id, rating]) => ({ id, ...rating }))
@@ -109,7 +118,9 @@ export default async function Home() {
         lastRace={latestRace ? { name: latestRace.name, results: latestRace.results.map(({ driverId, position, team, points }) => ({ driverId, position, team, points })) } : undefined}
       />
 
+      {reportFirst ? reportBlock : null}
       <NextRacePanel race={data.nextRace} circuit={data.nextCircuit} />
+      {reportFirst ? null : reportBlock}
 
       <OnThisDay />
 

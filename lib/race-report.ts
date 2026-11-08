@@ -59,6 +59,10 @@ export type RaceReport = {
   circuit: string;
   date: string;
   laps: number;
+  /** official: Jolpica's race grid. qualifying: the race grid wasn't published yet, so the qualifying order stands in. */
+  gridSource: "official" | "starting-grid" | "qualifying";
+  /** Grid, laps, pit stops and fastest lap are all in: the report won't change any more. */
+  complete: boolean;
   expectation: ExpectationRow[];
   overtakes: { source: "openf1" | "laps" | null; rows: OvertakeRow[]; total: number };
   stats: ReportFact[];
@@ -129,6 +133,39 @@ async function openF1Overtakes(season: number, date: string): Promise<{ overtaki
   }
 }
 
+/**
+ * Jolpica publishes the race grid a while after the finish. Until then, OpenF1's starting grid
+ * (or, failing that, the qualifying order) stands in so the report is usable on Sunday night.
+ */
+async function provisionalGrid(season: number, round: number, date: string, results: Raw[]): Promise<{ source: "starting-grid" | "qualifying"; grid: Map<string, number> } | null> {
+  try {
+    const sessions = await openF1(`/sessions?year=${season}&session_name=Race`, 30 * 60_000);
+    const day = Date.parse(`${date}T00:00:00Z`);
+    const session = sessions.find(s => Math.abs(Date.parse(str(s.date_start).slice(0, 10) + "T00:00:00Z") - day) <= 86_400_000);
+    if (session) {
+      const rows = await openF1(`/starting_grid?session_key=${num(session.session_key)}`, 30 * 60_000);
+      const byNumber = new Map(results.map(r => [Number(r.number), r.Driver.driverId as string]));
+      const grid = new Map<string, number>();
+      for (const row of rows) {
+        const id = byNumber.get(num(row.driver_number) ?? -1);
+        const position = num(row.position);
+        if (id && position) grid.set(id, position);
+      }
+      if (grid.size >= results.length / 2) return { source: "starting-grid", grid };
+    }
+  } catch {
+    // Fall through to qualifying.
+  }
+  try {
+    const data = await jolpica(`/${season}/${round}/qualifying.json?limit=100`);
+    const rows = data.MRData?.RaceTable?.Races?.[0]?.QualifyingResults ?? [];
+    const grid = new Map<string, number>(rows.map((q: Raw) => [q.Driver.driverId as string, Number(q.position)]));
+    return grid.size ? { source: "qualifying", grid } : null;
+  } catch {
+    return null;
+  }
+}
+
 // ---------- helpers ----------
 
 function durationSeconds(value: unknown): number | null {
@@ -138,6 +175,10 @@ function durationSeconds(value: unknown): number | null {
   return Number(match[1] ?? 0) * 60 + Number(match[2]);
 }
 
+const statusText = (r: Raw) => {
+  const status = String(r.status ?? "");
+  return /^retired$/i.test(status) ? "Abandono" : translate(status, "statuses");
+};
 const isClassified = (r: Raw) => /^\d+$/.test(String(r.positionText ?? ""));
 const didStart = (r: Raw) => !/did not start|withdrew|not qualified|excluded|107%/i.test(String(r.status ?? "")) && String(r.positionText) !== "W" && String(r.positionText) !== "F";
 const fullName = (r: Raw) => `${r.Driver.givenName} ${r.Driver.familyName}`;
@@ -188,7 +229,7 @@ export function expectationRows(results: Raw[]): ExpectationRow[] {
       team: r.Constructor?.name ?? "",
       grid: gridOf(r),
       finish,
-      status: finish ? "" : translate(String(r.status ?? ""), "statuses"),
+      status: finish ? "" : statusText(r),
       retiredAhead,
       startAmongFinishers: start,
       expected,
@@ -278,7 +319,7 @@ const LABELS: Record<"wins" | "podiums" | "starts" | "points", [string, string]>
   points: ["punto", "puntos"]
 };
 
-function milestones(race: Raw, before: Map<string, Totals>, after: Map<string, Totals>) {
+function milestones(race: Raw, before: Map<string, Totals>, after: Map<string, Totals>, gridIsOfficial: boolean) {
   const out: string[] = [];
   const winner = race.Results.find((r: Raw) => isClassified(r) && Number(r.position) === 1);
 
@@ -310,7 +351,7 @@ function milestones(race: Raw, before: Map<string, Totals>, after: Map<string, T
     }
   }
 
-  if (winner) {
+  if (winner && gridIsOfficial) {
     const grid = gridOf(winner);
     const record = baseline.furthestBackWin;
     if (grid === null || grid > record.grid) out.push(`Récord histórico: nadie había ganado largando tan atrás (${grid === null ? "desde boxes" : `P${grid}`}). La marca era de ${record.name}, P${record.grid} en ${record.detail}.`);
@@ -363,7 +404,17 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
   if (!race?.Results?.length) return null;
   const season = Number(race.season);
   const round = Number(race.round);
-  const results: Raw[] = race.Results;
+  let results: Raw[] = race.Results;
+  let gridSource: RaceReport["gridSource"] = "official";
+  const withGrid = results.filter(r => Number(r.grid) > 0).length;
+  if (withGrid < results.length / 2) {
+    const fallback = await provisionalGrid(season, round, race.date, results);
+    if (fallback) {
+      gridSource = fallback.source;
+      results = results.map(r => ({ ...r, grid: String(fallback.grid.get(r.Driver.driverId) ?? 0) }));
+      race.Results = results;
+    }
+  }
   const winner = results.find(r => isClassified(r) && Number(r.position) === 1);
   const laps = Number(winner?.laps ?? Math.max(...results.map(r => Number(r.laps) || 0)));
 
@@ -421,7 +472,7 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
     if (second?.Time?.time && Number(second.laps) === laps) stats.push({ label: "Margen", value: `${second.Time.time} s`, detail: `sobre ${fullName(second)}` });
   }
   const poleman = results.find(r => gridOf(r) === 1);
-  if (poleman) stats.push({ label: "Desde la pole", value: fullName(poleman), detail: isClassified(poleman) ? `terminó ${ord(Number(poleman.position))}` : `abandonó (${translate(String(poleman.status), "statuses").toLowerCase()})` });
+  if (poleman) stats.push({ label: "Desde la pole", value: fullName(poleman), detail: isClassified(poleman) ? `terminó ${ord(Number(poleman.position))}` : `abandonó (${statusText(poleman).toLowerCase()})` });
 
   const fastest = results.find(r => r.FastestLap?.rank === "1");
   if (fastest) stats.push({ label: "Vuelta rápida", value: fastest.FastestLap.Time?.time ?? "", detail: `${fullName(fastest)}, vuelta ${fastest.FastestLap.lap}` });
@@ -441,7 +492,7 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
     const top = overtakeRows[0];
     stats.push({ label: "Más adelantamientos", value: top.name, detail: `${plural(top.made, "pase", "pases")} de ${totalPasses} en toda la carrera` });
   }
-  stats.push({ label: "Abandonos", value: String(dnfs.length), detail: dnfs.length ? dnfs.map(r => `${r.Driver.familyName} (${translate(String(r.status), "statuses").toLowerCase()})`).join(", ") : "todos los que largaron llegaron" });
+  stats.push({ label: "Abandonos", value: String(dnfs.length), detail: dnfs.length ? dnfs.map(r => `${r.Driver.familyName} (${statusText(r).toLowerCase()})`).join(", ") : "todos los que largaron llegaron" });
 
   // Lap-by-lap: leaders, lap one, positions held.
   if (lapData) {
@@ -487,7 +538,7 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
   for (let i = 1; i < classified.length; i += 1) {
     const a = classified[i - 1], b = classified[i];
     const ma = Number(a.Time?.millis), mb = Number(b.Time?.millis);
-    if (!Number.isFinite(ma) || !Number.isFinite(mb)) continue;
+    if (!Number.isFinite(ma) || !Number.isFinite(mb) || mb <= ma || Number(a.laps) !== Number(b.laps)) continue;
     if (!closest || mb - ma < closest.gap) closest = { a, b, gap: mb - ma };
   }
   if (closest && closest.gap < 1500) curiosities.push(`La llegada más ajustada fue por el ${ord(Number(closest.b.position) - 1)} puesto: ${fmt(closest.gap / 1000, 3)} s entre ${fullName(closest.a)} y ${fullName(closest.b)}.`);
@@ -534,7 +585,7 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
   const after = new Map([...before].map(([k, v]) => [k, { ...v }]));
   addRace(after, results);
   const records = [
-    ...milestones(race, before, after),
+    ...milestones(race, before, after, gridSource === "official"),
     ...constructorMilestones(race, previousRaces),
     ...seasonNotes(race, previousRaces)
   ];
@@ -546,6 +597,8 @@ export async function getRaceReport(roundParam: string): Promise<RaceReport | nu
     circuit: race.Circuit?.circuitName ?? "",
     date: race.date,
     laps,
+    gridSource,
+    complete: gridSource === "official" && Boolean(lapData) && stops.length > 0 && Boolean(fastest),
     expectation,
     overtakes: { source, rows: overtakeRows, total: totalPasses },
     stats,
