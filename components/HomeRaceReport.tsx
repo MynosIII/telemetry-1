@@ -8,7 +8,7 @@ export function HomeRaceReport({ report }: { report: RaceReport }) {
   const below = ranked.filter(r => r.delta! < 0).slice(-3).reverse();
   const winner = report.stats.find(s => s.label === "Ganador");
   const passer = report.overtakes.rows[0];
-  const href = `/carreras/${report.round}/informe`;
+  const href = `/informe/${report.slug}`;
   const row = (r: (typeof ranked)[number]) => <li key={r.driverId}>
     <Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link>
     <span>{r.grid ? `P${r.grid}` : "Boxes"} → P{r.finish} · esperado P{r.expected}</span>

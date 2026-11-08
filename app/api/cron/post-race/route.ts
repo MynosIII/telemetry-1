@@ -67,18 +67,19 @@ export async function GET(request: Request) {
 
   // The post-race report (/informe and /carreras/<round>/informe) rebuilds from the final classification.
   revalidateTag(RACE_REPORT_CACHE_TAG, { expire: 0 });
+  const report = await getRaceReport(String(expectedRound)).catch(() => null);
   for (const lang of ["es", "en"]) {
     revalidatePath(`/${lang}/informe`);
-    revalidatePath(`/${lang}/carreras/${expectedRound}/informe`);
+    if (report) revalidatePath(`/${lang}/informe/${report.slug}`);
   }
 
-  const alert = await alertIfReady(await getRaceReport(String(expectedRound))).catch((error) => ({ sent: false, reason: String(error) }));
+  const alert = await alertIfReady(report).catch((error) => ({ sent: false, reason: String(error) }));
 
   return Response.json({
     ok: true,
     action: "updated",
     alert,
-    report: `/carreras/${expectedRound}/informe`,
+    report: report ? `/informe/${report.slug}` : null,
     race: recentRace.raceName,
     round: expectedRound,
     completedRaces: snapshot.coverage.completedRaces,

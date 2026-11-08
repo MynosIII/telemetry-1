@@ -68,7 +68,7 @@ export async function alertIfReady(report: RaceReport | null): Promise<AlertResu
       topic,
       `Informe listo: ${report.name}`,
       lines.join("\n"),
-      `${SITE_URL}/carreras/${report.round}/informe`,
+      `${SITE_URL}/informe/${report.slug}`,
       `${SITE_URL}/api/informe/${report.round}/imagen`
     );
   } catch (error) {
