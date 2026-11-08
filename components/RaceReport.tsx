@@ -16,6 +16,7 @@ export function RaceReport({ report }: { report: Report }) {
       <nav className="ency-breadcrumb" aria-label="Ruta"><Link href="/temporada">Temporada {report.season}</Link><span>/</span><Link href={`/carreras/${report.round}`}>{report.name}</Link><span>/</span><span>Informe</span></nav>
       <h1>{report.name}: quién rindió más de lo esperado</h1>
       <p className="ency-subtitle">Ronda {report.round} · {report.circuit} · {longDate(report.date)} · {report.laps} vueltas</p>
+      {report.gridSource !== "official" ? <p className="race-report-provisional">Provisorio: la grilla oficial todavía no se publicó, así que se usa {report.gridSource === "starting-grid" ? "la grilla de largada de OpenF1" : "el orden de la clasificación (sin penalizaciones)"}. Se actualiza solo.</p> : null}
       <p className="race-report-share"><a href={image} target="_blank" rel="noreferrer">Imagen para compartir</a></p>
     </header>
 

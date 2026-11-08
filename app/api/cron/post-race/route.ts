@@ -1,6 +1,7 @@
 import { revalidatePath, revalidateTag } from "next/cache";
 import { getLiveModelSnapshot, LIVE_MODEL_CACHE_TAG } from "@/lib/live-model";
-import { RACE_REPORT_CACHE_TAG } from "@/lib/race-report";
+import { getRaceReport, RACE_REPORT_CACHE_TAG } from "@/lib/race-report";
+import { alertIfReady } from "@/lib/race-alert";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
@@ -71,9 +72,12 @@ export async function GET(request: Request) {
     revalidatePath(`/${lang}/carreras/${expectedRound}/informe`);
   }
 
+  const alert = await alertIfReady(await getRaceReport(String(expectedRound))).catch((error) => ({ sent: false, reason: String(error) }));
+
   return Response.json({
     ok: true,
     action: "updated",
+    alert,
     report: `/carreras/${expectedRound}/informe`,
     race: recentRace.raceName,
     round: expectedRound,
