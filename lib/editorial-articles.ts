@@ -26,6 +26,7 @@ export type EditorialArticle = {
     lead: string;
     sections: { title: string; paragraphs: string[]; diagram?: Partial<ArticleDiagram> }[];
     related?: string[];
+    image?: { caption: string; alt: string };
   };
 };
 type ArticleDiagram = {url:string;alt:string;caption:string;height?:number};
@@ -59,7 +60,8 @@ export function localizeArticle(article: EditorialArticle, lang: "es" | "en"): E
       paragraphs: en.sections[i]?.paragraphs ?? section.paragraphs,
       diagram: section.diagram && { ...section.diagram, ...en.sections[i]?.diagram }
     })),
-    related: article.related.map((link, i) => ({ ...link, label: en.related?.[i] ?? link.label }))
+    related: article.related.map((link, i) => ({ ...link, label: en.related?.[i] ?? link.label })),
+    image: article.image && { ...article.image, ...en.image }
   };
 }
 

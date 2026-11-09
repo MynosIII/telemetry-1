@@ -1160,5 +1160,20 @@
     "width": 960,
     "height": 392,
     "sha256": "2cd019cc462d42e90a25ecc266dd0fe01e04b14e2155fbd3fac2e42fea227c8e"
+  },
+  {
+    "slug": "por-que-la-f1-casi-no-corre-bajo-la-lluvia",
+    "file": "public/articles/photos/por-que-la-f1-casi-no-corre-bajo-la-lluvia.jpg",
+    "commonsFile": "File:Hamilton - 2016 Monaco GP 03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hamilton_-_2016_Monaco_GP_03.jpg",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hamilton_-_2016_Monaco_GP_03.jpg/1920px-Hamilton_-_2016_Monaco_GP_03.jpg",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Hamilton_-_2016_Monaco_GP_03.jpg",
+    "author": "Andrew Locking",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "width": 1600,
+    "height": 1067,
+    "sha256": "bdc19c998e7a8beea8ac11413e768da7b5b16fe4c5ba70a03bc26757d386cdc3",
+    "note": "downloaded 1920px Commons thumbnail, resized locally to 1600px wide"
   }
 ]
