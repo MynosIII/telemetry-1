@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Fragment, type ReactNode } from "react";
+import { CircuitMap3D } from "@/components/CircuitMap3D";
 import { layoutDrawing } from "@/lib/circuit-layouts";
 import { getCircuitLayoutUrl } from "@/lib/circuit-visuals";
 import { driverPhoto } from "@/lib/driver-photos";
@@ -33,7 +34,8 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
   const { method, links } = report;
   const image = `/api/informe/${report.round}/imagen`;
   const classified = report.expectation.filter(r => r.delta !== null);
-  const out = report.expectation.filter(r => r.delta === null);
+  const debuts = report.expectation.filter(r => r.delta === null && r.finish !== null);
+  const out = report.expectation.filter(r => r.finish === null);
   const overtakes = report.overtakes.rows.filter(r => r.made || r.suffered).slice(0, 10);
   const winner = report.podium[0];
   const winnerPhoto = winner ? driverPhoto(winner.driverId) : null;
@@ -70,18 +72,18 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
           <img src={winnerPhoto} alt={winner.name} loading="lazy" />
           <figcaption><Link href={`/pilotos/${winner.driverId}`}>{winner.name}</Link>, {t("ganador", "winner")}</figcaption>
         </figure> : null}
-        {layout ? <figure className="race-report-layout">
-          <img src={layout} alt={t(`Trazado de ${report.circuit}`, `${report.circuit} layout`)} loading="lazy" />
+        <figure className="race-report-layout">
+          <CircuitMap3D circuitId={report.circuitId} fallback={layout} label={t(`Trazado de ${report.circuit}`, `${report.circuit} layout`)} />
           <figcaption><Link href={`/circuitos/${report.circuitId}`}>{report.circuit}</Link></figcaption>
-        </figure> : null}
+        </figure>
       </div>
     </section>
 
     <section className="race-report-section">
       <h2>{t("Llegada contra largada", "Finish against grid")}</h2>
       <p className="race-report-lead">{t(
-        "La clasificación oficial solo ordena la llegada. Acá cada piloto se mide contra lo que su lugar de largada hacía esperar, descontando los puestos que regalan los abandonos.",
-        "The official classification only orders the finish. Here each driver is measured against what their grid slot predicted, after removing the places handed over by retirements.")}</p>
+        "La clasificación oficial solo ordena la llegada. Acá cada piloto se mide contra lo que su lugar de largada hacía esperar, descontando los puestos que regalan los abandonos. Los debutantes figuran pero no entran en el ranking.",
+        "The official classification only orders the finish. Here each driver is measured against what their grid slot predicted, after removing the places handed over by retirements. Debutants are listed but not ranked.")}</p>
       <div className="race-report-scroll">
         <table className="race-report-table">
           <thead><tr><th>{t("Piloto", "Driver")}</th><th>{t("Largó", "Grid")}</th><th>{t("Esperado", "Expected")}</th><th>{t("Llegó", "Finish")}</th><th>{t("Diferencia", "Difference")}</th></tr></thead>
@@ -92,6 +94,13 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
               <td>P{r.expected}</td>
               <td>P{r.finish}</td>
               <td className={`race-report-delta ${tone(r.delta)}`}>{formatDelta(r.delta)}</td>
+            </tr>)}
+            {debuts.map(r => <tr key={r.driverId} className="is-out">
+              <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
+              <td>{r.grid ? `P${r.grid}` : t("Boxes", "Pit lane")}</td>
+              <td>P{r.expected}</td>
+              <td>P{r.finish}</td>
+              <td>{t("Debut, no cuenta", "Debut, not ranked")}</td>
             </tr>)}
             {out.map(r => <tr key={r.driverId} className="is-out">
               <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
@@ -132,7 +141,7 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
     </section> : null}
 
     {texts.curiosities.length ? <section className="race-report-section">
-      <h2>{t("Datos que no le importan a nadie", "Stats nobody asked for")}</h2>
+      <h2>{t("Curiosidades", "Trivia")}</h2>
       <ul className="race-report-list">{texts.curiosities.map((text, i) => <li key={i}><Linked text={text} links={links} /></li>)}</ul>
     </section> : null}
 

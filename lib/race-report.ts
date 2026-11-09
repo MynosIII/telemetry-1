@@ -43,6 +43,8 @@ export type ExpectationRow = {
   finish: number | null; // null = not classified
   status: string;
   retiredAhead: number;
+  /** First Grand Prix: shown, but left out of the ranking (no reference to judge a debut against). */
+  debut: boolean;
   startAmongFinishers: number | null;
   expected: number | null;
   delta: number | null; // positive = finished ahead of the expectation
@@ -230,7 +232,7 @@ function ageOn(birth: string | null | undefined, date: string) {
  * what history says about the back of the field: among 2014–2025 finishers, the last two starters
  * gained two places on median, the next two one place, and everyone else finished where they started.
  */
-export function expectationRows(results: Raw[]): ExpectationRow[] {
+export function expectationRows(results: Raw[], debutants: Set<string> = new Set()): ExpectationRow[] {
   const shift = baseline.gridExpectation.shiftFromBack;
   const starters = results.filter(didStart);
   const slot = (r: Raw) => gridOf(r) ?? 99;
@@ -253,12 +255,16 @@ export function expectationRows(results: Raw[]): ExpectationRow[] {
       finish,
       status: finish ? "" : statusText(r),
       retiredAhead,
+      debut: debutants.has(id),
       startAmongFinishers: start,
       expected,
-      delta: expected !== null && finish !== null ? expected - finish : null
+      delta: expected !== null && finish !== null && !debutants.has(id) ? expected - finish : null
     };
   }).sort((a, b) => {
-    if (a.delta === null || b.delta === null) return a.delta === null ? (b.delta === null ? (a.grid ?? 99) - (b.grid ?? 99) : 1) : -1;
+    // Ranked drivers first, then debutants, then the cars that did not finish.
+    const group = (r: ExpectationRow) => r.delta !== null ? 0 : r.finish !== null ? 1 : 2;
+    if (group(a) !== group(b)) return group(a) - group(b);
+    if (a.delta === null || b.delta === null) return (a.finish ?? 99) - (b.finish ?? 99) || (a.grid ?? 99) - (b.grid ?? 99);
     return b.delta - a.delta || (a.finish ?? 99) - (b.finish ?? 99);
   });
 }
@@ -474,8 +480,11 @@ export async function getRaceReport(roundParam: string, seasonParam?: number): P
   const scheduleLength: number = scheduleJson?.MRData?.RaceTable?.Races?.length ?? 0;
   const previousRaces = allRaces.filter(r => Number(r.round) < round);
 
-  // --- expectation
-  const expectation = expectationRows(results);
+  // --- expectation (debutants are left out of the ranking)
+  const seasonLoaded = allRaces.length > 0 || round === 1;
+  const debutants = new Set<string>(seasonLoaded ? results.filter(didStart).map(r => r.Driver.driverId as string).filter(id =>
+    !baseline.drivers[id]?.starts && !previousRaces.some(p => p.Results.some((x: Raw) => x.Driver.driverId === id && didStart(x)))) : []);
+  const expectation = expectationRows(results, debutants);
 
   // --- overtakes
   const byNumber = new Map(results.map(r => [Number(r.number), r]));
