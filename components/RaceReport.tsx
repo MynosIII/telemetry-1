@@ -33,8 +33,7 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
   const raceName = es ? report.name : report.englishName;
   const { method, links } = report;
   const image = `/api/informe/${report.round}/imagen`;
-  const classified = report.expectation.filter(r => r.delta !== null);
-  const debuts = report.expectation.filter(r => r.delta === null && r.finish !== null);
+  const classified = report.expectation.filter(r => r.score !== null);
   const out = report.expectation.filter(r => r.finish === null);
   const overtakes = report.overtakes.rows.filter(r => r.made || r.suffered).slice(0, 10);
   const winner = report.podium[0];
@@ -123,8 +122,8 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
     <section className="race-report-section">
       <h2>{t("Llegada contra largada", "Finish against grid")}</h2>
       <p className="race-report-lead">{t(
-        "La clasificación oficial solo ordena la llegada. Acá cada piloto se mide contra lo que su lugar de largada hacía esperar, descontando los puestos que regalan los abandonos. Los debutantes figuran pero no entran en el ranking. El puntaje va de 0 a 10: 5 es terminar donde se esperaba.",
-        "The official classification only orders the finish. Here each driver is measured against what their grid slot predicted, after removing the places handed over by retirements. Debutants are listed but not ranked. The score runs from 0 to 10: 5 means finishing where expected.")}</p>
+        "La clasificación oficial solo ordena la llegada. Acá cada piloto se mide contra lo que su lugar de largada hacía esperar, descontando los puestos que regalan los abandonos. El puntaje va de 0 a 10.",
+        "The official classification only orders the finish. Here each driver is measured against what their grid slot predicted, after removing the places handed over by retirements. The score runs from 0 to 10.")}</p>
       <div className="race-report-scroll">
         <table className="race-report-table">
           <thead><tr><th>{t("Piloto", "Driver")}</th><th>{t("Largó", "Grid")}</th><th>{t("Esperado", "Expected")}</th><th>{t("Llegó", "Finish")}</th><th>{t("Diferencia", "Difference")}</th><th>{t("Puntaje", "Score")}</th></tr></thead>
@@ -134,15 +133,8 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
               <td>{r.grid ? `P${r.grid}` : t("Boxes", "Pit lane")}</td>
               <td>P{r.expected}</td>
               <td>P{r.finish}</td>
-              <td className={`race-report-delta ${tone(r.delta)}`}>{formatDelta(r.delta)}</td>
+              <td className={`race-report-delta ${tone(r.gap)}`}>{formatDelta(r.gap)}</td>
               <td>{r.score !== null ? number(r.score, 2) : "—"}</td>
-            </tr>)}
-            {debuts.map(r => <tr key={r.driverId} className="is-out">
-              <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
-              <td>{r.grid ? `P${r.grid}` : t("Boxes", "Pit lane")}</td>
-              <td>P{r.expected}</td>
-              <td>P{r.finish}</td>
-              <td colSpan={2}>{t("Debut, no cuenta", "Debut, not ranked")}</td>
             </tr>)}
             {out.map(r => <tr key={r.driverId} className="is-out">
               <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>

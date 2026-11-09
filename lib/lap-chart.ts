@@ -5,10 +5,16 @@ const PAGE = 100;
 // Past races never change, so a month-long cache keeps the API calls to one batch per race.
 const REVALIDATE = 30 * 86400;
 
-type Timing = { driverId?: string; position?: string };
+type Timing = { driverId?: string; position?: string; time?: string };
 type LapPage = { MRData?: { total?: string; RaceTable?: { Races?: { Laps?: { number?: string; Timings?: Timing[] }[] }[] } } };
 
-export type LapPositions = { laps: number; drivers: Map<string, (number | null)[]> };
+/** `times` holds each lap time in seconds, null where Jolpica has none. */
+export type LapPositions = { laps: number; drivers: Map<string, (number | null)[]>; times: Map<string, (number | null)[]> };
+
+const seconds = (text?: string) => {
+  const match = String(text ?? "").match(/^(?:(\d+):)?(\d+(?:\.\d+)?)$/);
+  return match ? Number(match[1] ?? 0) * 60 + Number(match[2]) : null;
+};
 
 async function page(year: number, round: number, offset: number, revalidate = REVALIDATE): Promise<LapPage> {
   const response = await fetch(`${API_ROOT}/${year}/${round}/laps/?limit=${PAGE}&offset=${offset}`, { next: { revalidate }, signal: AbortSignal.timeout(8000) });
@@ -27,13 +33,15 @@ export function toPositions(pages: LapPage[]): LapPositions | null {
   const laps = Math.max(0, ...byLap.keys());
   if (!laps) return null;
   const drivers = new Map<string, (number | null)[]>();
+  const times = new Map<string, (number | null)[]>();
   for (const [number, timings] of byLap) for (const t of timings) {
     const position = Number(t.position);
     if (!t.driverId || !Number.isFinite(position)) continue;
-    if (!drivers.has(t.driverId)) drivers.set(t.driverId, Array(laps).fill(null));
+    if (!drivers.has(t.driverId)) { drivers.set(t.driverId, Array(laps).fill(null)); times.set(t.driverId, Array(laps).fill(null)); }
     drivers.get(t.driverId)![number - 1] = position;
+    times.get(t.driverId)![number - 1] = seconds(t.time);
   }
-  return { laps, drivers };
+  return { laps, drivers, times };
 }
 
 /** `revalidate` is shorter for a race that just finished, while Jolpica may still be filling in laps. */

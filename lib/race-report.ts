@@ -49,7 +49,8 @@ export type ExpectationRow = {
   debut: boolean;
   startAmongFinishers: number | null;
   expected: number | null;
-  delta: number | null; // positive = finished ahead of the expectation
+  delta: number | null; // positive = finished ahead of the expectation (null for debutants)
+  gap: number | null; // the same difference, debutants included
   score: number | null; // 0–10, 5 = matched the expectation (see scoreFor)
 };
 
@@ -251,7 +252,38 @@ export const scoreFor = (delta: number | null) => {
   return Math.round((5 + 5 * Math.tanh(delta / scale)) * 100) / 100;
 };
 
-export function expectationRows(results: Raw[], debutants: Set<string> = new Set()): ExpectationRow[] {
+/**
+ * Lap-time consistency within the race, 0–10 by rank (10 = steadiest). Lap 1, pit in/out laps
+ * and laps over 107% of the driver's median (safety car, incidents) are left out; drivers with
+ * fewer than ten clean laps get no rating.
+ */
+export function consistencyScores(times: Map<string, (number | null)[]> | undefined, stops: { driverId: string; lap: number }[]) {
+  const spread = new Map<string, number>();
+  for (const [id, laps] of times ?? []) {
+    const pitLaps = new Set(stops.filter(s => s.driverId === id).flatMap(s => [s.lap, s.lap + 1]));
+    const valid = laps.map((t, i) => ({ t, lap: i + 1 })).filter(x => x.t !== null && x.lap > 1 && !pitLaps.has(x.lap)).map(x => x.t as number);
+    if (valid.length < 10) continue;
+    const median = [...valid].sort((a, b) => a - b)[Math.floor(valid.length / 2)];
+    const clean = valid.filter(t => t <= median * 1.07);
+    if (clean.length < 10) continue;
+    const mean = clean.reduce((a, b) => a + b, 0) / clean.length;
+    spread.set(id, Math.sqrt(clean.reduce((a, t) => a + (t - mean) ** 2, 0) / clean.length) / mean);
+  }
+  const ranked = [...spread.entries()].sort((a, b) => a[1] - b[1]);
+  return new Map(ranked.map(([id], i) => [id, 10 * (ranked.length - i - 0.5) / ranked.length]));
+}
+
+const CONSISTENCY_WEIGHT = 0.2;
+
+/** Result against the expectation, nudged by consistency. A debutant never drops below about 5. */
+function blendedScore(gap: number, consistency: number | undefined, debut: boolean) {
+  const base = scoreFor(gap)!;
+  const score = consistency === undefined ? base : base * (1 - CONSISTENCY_WEIGHT) + consistency * CONSISTENCY_WEIGHT;
+  const floor = debut ? 5 + CONSISTENCY_WEIGHT * ((consistency ?? 5) - 5) : 0;
+  return Math.round(Math.min(9.99, Math.max(0.01, floor, score)) * 100) / 100;
+}
+
+export function expectationRows(results: Raw[], debutants: Set<string> = new Set(), consistency: Map<string, number> = new Map()): ExpectationRow[] {
   const shift = baseline.gridExpectation.shiftFromBack;
   const starters = results.filter(didStart);
   const slot = (r: Raw) => gridOf(r) ?? 99;
@@ -265,6 +297,7 @@ export function expectationRows(results: Raw[], debutants: Set<string> = new Set
     const start = startOf.get(id) ?? null;
     const finish = isClassified(r) ? Number(r.position) : null;
     const expected = start === null ? null : Math.max(1, start + (shift[field - start] ?? 0));
+    const gap = expected !== null && finish !== null ? expected - finish : null;
     return {
       driverId: id,
       code: r.Driver.code ?? r.Driver.familyName.slice(0, 3).toUpperCase(),
@@ -278,15 +311,15 @@ export function expectationRows(results: Raw[], debutants: Set<string> = new Set
       debut: debutants.has(id),
       startAmongFinishers: start,
       expected,
-      delta: expected !== null && finish !== null && !debutants.has(id) ? expected - finish : null,
-      score: expected !== null && finish !== null && !debutants.has(id) ? scoreFor(expected - finish) : null
+      delta: gap !== null && !debutants.has(id) ? gap : null,
+      gap,
+      score: gap === null ? null : blendedScore(gap, consistency.get(id), debutants.has(id))
     };
   }).sort((a, b) => {
-    // Ranked drivers first, then debutants, then the cars that did not finish.
-    const group = (r: ExpectationRow) => r.delta !== null ? 0 : r.finish !== null ? 1 : 2;
-    if (group(a) !== group(b)) return group(a) - group(b);
-    if (a.delta === null || b.delta === null) return (a.finish ?? 99) - (b.finish ?? 99) || (a.grid ?? 99) - (b.grid ?? 99);
-    return b.delta - a.delta || (a.finish ?? 99) - (b.finish ?? 99);
+    // Rated drivers by score, then the cars that did not finish.
+    if ((a.score === null) !== (b.score === null)) return a.score === null ? 1 : -1;
+    if (a.score === null || b.score === null) return (a.grid ?? 99) - (b.grid ?? 99);
+    return b.score - a.score || (b.gap ?? 0) - (a.gap ?? 0) || (a.finish ?? 99) - (b.finish ?? 99);
   });
 }
 
@@ -502,11 +535,11 @@ export async function getRaceReport(roundParam: string, seasonParam?: number): P
   const scheduleLength: number = scheduleJson?.MRData?.RaceTable?.Races?.length ?? 0;
   const previousRaces = allRaces.filter(r => Number(r.round) < round);
 
-  // --- expectation (debutants are left out of the ranking)
+  // --- expectation (debutants are left out of the places ranking; their score has a floor)
   const seasonLoaded = allRaces.length > 0 || round === 1;
   const debutants = new Set<string>(seasonLoaded ? results.filter(didStart).map(r => r.Driver.driverId as string).filter(id =>
     !baseline.drivers[id]?.starts && !previousRaces.some(p => p.Results.some((x: Raw) => x.Driver.driverId === id && didStart(x)))) : []);
-  const expectation = expectationRows(results, debutants);
+  const expectation = expectationRows(results, debutants, consistencyScores(lapData?.times, stops));
 
   // --- overtakes
   const byNumber = new Map(results.map(r => [Number(r.number), r]));
