@@ -26,6 +26,7 @@ type Baseline = {
     finishers: number;
     shiftFromBack: number[];
     validation: { testRows: number; maeModel: number; maeStartAmongFinishers: number; maeRawGrid: number };
+    scoreScale?: number;
   };
   drivers: Record<string, { name: string; starts: number; wins: number; podiums: number; points: number; pointsFinishes: number; birth: string | null }>;
   constructors: Record<string, { name: string; wins: number; podiums: number; races: number }>;
@@ -38,6 +39,7 @@ export type ExpectationRow = {
   driverId: string;
   code: string;
   name: string;
+  surname: string;
   team: string;
   grid: number | null; // null = pit lane
   finish: number | null; // null = not classified
@@ -48,6 +50,7 @@ export type ExpectationRow = {
   startAmongFinishers: number | null;
   expected: number | null;
   delta: number | null; // positive = finished ahead of the expectation
+  score: number | null; // 0–10, 5 = matched the expectation (see scoreFor)
 };
 
 export type OvertakeRow = { driverId: string; name: string; team: string; made: number; suffered: number };
@@ -241,6 +244,13 @@ function ageOn(birth: string | null | undefined, date: string) {
  * what history says about the back of the field: among 2014–2025 finishers, the last two starters
  * gained two places on median, the next two one place, and everyone else finished where they started.
  */
+/** 0–10 rating of a result against the expectation: 5 + 5·tanh(delta / scale), two decimals. */
+export const scoreFor = (delta: number | null) => {
+  if (delta === null) return null;
+  const scale = baseline.gridExpectation.scoreScale ?? 4.5;
+  return Math.round((5 + 5 * Math.tanh(delta / scale)) * 100) / 100;
+};
+
 export function expectationRows(results: Raw[], debutants: Set<string> = new Set()): ExpectationRow[] {
   const shift = baseline.gridExpectation.shiftFromBack;
   const starters = results.filter(didStart);
@@ -259,6 +269,7 @@ export function expectationRows(results: Raw[], debutants: Set<string> = new Set
       driverId: id,
       code: r.Driver.code ?? r.Driver.familyName.slice(0, 3).toUpperCase(),
       name: fullName(r),
+      surname: r.Driver.familyName,
       team: r.Constructor?.name ?? "",
       grid: gridOf(r),
       finish,
@@ -267,7 +278,8 @@ export function expectationRows(results: Raw[], debutants: Set<string> = new Set
       debut: debutants.has(id),
       startAmongFinishers: start,
       expected,
-      delta: expected !== null && finish !== null && !debutants.has(id) ? expected - finish : null
+      delta: expected !== null && finish !== null && !debutants.has(id) ? expected - finish : null,
+      score: expected !== null && finish !== null && !debutants.has(id) ? scoreFor(expected - finish) : null
     };
   }).sort((a, b) => {
     // Ranked drivers first, then debutants, then the cars that did not finish.

@@ -56,6 +56,7 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
         {report.sessionKey ? <Link href={`/en-vivo/repeticion?sesion=${report.sessionKey}`}>{t("Ver la repetición", "Watch the replay")}</Link> : null}
         <Link href={`/carreras/${report.round}`}>{t("Resultado completo", "Full result")}</Link>
         <a href={image} target="_blank" rel="noreferrer">{t("Imagen para compartir", "Share image")}</a>
+        <a href={`/api/informe/${report.round}/puntajes`} target="_blank" rel="noreferrer">{t("Imagen de puntajes", "Scores image")}</a>
       </p>
     </header>
 
@@ -122,11 +123,11 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
     <section className="race-report-section">
       <h2>{t("Llegada contra largada", "Finish against grid")}</h2>
       <p className="race-report-lead">{t(
-        "La clasificación oficial solo ordena la llegada. Acá cada piloto se mide contra lo que su lugar de largada hacía esperar, descontando los puestos que regalan los abandonos. Los debutantes figuran pero no entran en el ranking.",
-        "The official classification only orders the finish. Here each driver is measured against what their grid slot predicted, after removing the places handed over by retirements. Debutants are listed but not ranked.")}</p>
+        "La clasificación oficial solo ordena la llegada. Acá cada piloto se mide contra lo que su lugar de largada hacía esperar, descontando los puestos que regalan los abandonos. Los debutantes figuran pero no entran en el ranking. El puntaje va de 0 a 10: 5 es terminar donde se esperaba.",
+        "The official classification only orders the finish. Here each driver is measured against what their grid slot predicted, after removing the places handed over by retirements. Debutants are listed but not ranked. The score runs from 0 to 10: 5 means finishing where expected.")}</p>
       <div className="race-report-scroll">
         <table className="race-report-table">
-          <thead><tr><th>{t("Piloto", "Driver")}</th><th>{t("Largó", "Grid")}</th><th>{t("Esperado", "Expected")}</th><th>{t("Llegó", "Finish")}</th><th>{t("Diferencia", "Difference")}</th></tr></thead>
+          <thead><tr><th>{t("Piloto", "Driver")}</th><th>{t("Largó", "Grid")}</th><th>{t("Esperado", "Expected")}</th><th>{t("Llegó", "Finish")}</th><th>{t("Diferencia", "Difference")}</th><th>{t("Puntaje", "Score")}</th></tr></thead>
           <tbody>
             {classified.map(r => <tr key={r.driverId}>
               <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}{r.retiredAhead ? ` · ${r.retiredAhead} ${t(r.retiredAhead === 1 ? "abandono delante" : "abandonos delante", r.retiredAhead === 1 ? "retirement ahead" : "retirements ahead")}` : ""}</small></td>
@@ -134,18 +135,19 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
               <td>P{r.expected}</td>
               <td>P{r.finish}</td>
               <td className={`race-report-delta ${tone(r.delta)}`}>{formatDelta(r.delta)}</td>
+              <td>{r.score !== null ? number(r.score, 2) : "—"}</td>
             </tr>)}
             {debuts.map(r => <tr key={r.driverId} className="is-out">
               <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
               <td>{r.grid ? `P${r.grid}` : t("Boxes", "Pit lane")}</td>
               <td>P{r.expected}</td>
               <td>P{r.finish}</td>
-              <td>{t("Debut, no cuenta", "Debut, not ranked")}</td>
+              <td colSpan={2}>{t("Debut, no cuenta", "Debut, not ranked")}</td>
             </tr>)}
             {out.map(r => <tr key={r.driverId} className="is-out">
               <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
               <td>{r.grid ? `P${r.grid}` : t("Boxes", "Pit lane")}</td>
-              <td colSpan={3}>{es ? r.status || "No clasificado" : "Not classified"}</td>
+              <td colSpan={4}>{es ? r.status || "No clasificado" : "Not classified"}</td>
             </tr>)}
           </tbody>
         </table>
