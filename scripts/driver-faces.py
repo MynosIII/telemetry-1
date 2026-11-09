@@ -41,7 +41,9 @@ def find_face(gray):
 CAR_SHOTS = {"alex-blignaut", "art-cross", "landi", "purley"}
 
 # Detections that landed on something else (an ear, a crowd); crop these by position.
-NO_DETECTION = {"cal-niday", "raikkonen"}
+NO_DETECTION = {"cal-niday", "raikkonen", "abecassis", "bailey", "barbazza", "bueno", "bussinello", "firman", "fischer",
+                "fisichella", "follmer", "garde", "jimmy-bryan", "loof", "munaron", "pace", "parkes", "pironi", "rol",
+                "scarfiotti", "schiller", "serafini", "wacker", "ward", "zunino"}
 
 faces, missed = {}, []
 for driver_id, entry in sorted(photos.items()):
@@ -57,7 +59,8 @@ for driver_id, entry in sorted(photos.items()):
     w, h = img.size
     gray = cv2.cvtColor(numpy.array(img), cv2.COLOR_RGB2GRAY)
     face = None if driver_id in NO_DETECTION | CAR_SHOTS else find_face(gray)
-    if driver_id in CAR_SHOTS:
+    # A landscape photo with no face found is almost always a car on track: crop its middle.
+    if driver_id in CAR_SHOTS or (face is None and w > h * 1.1):
         cx, cy, side = w / 2, h / 2, min(w, h)
     elif face is not None:
         fx, fy, fw, fh = (int(v) for v in face)

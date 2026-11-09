@@ -1,4 +1,8 @@
 {
+ "Cannoc": {
+  "name": "John Cannon",
+  "url": "/drivers/photos/Cannoc.png"
+ },
  "abecassis": {
   "name": "George Abecassis",
   "url": "/drivers/photos/abecassis.jpg"
@@ -40,14 +44,14 @@
   "url": "/drivers/photos/alain-de-changy.jpg",
   "source": "wikipedia"
  },
- "alan_brown": {
-  "name": "Alan Brown",
-  "url": "/drivers/photos/alan_brown.jpg"
- },
  "alan-rollinson": {
   "name": "Alan Rollinson",
   "url": "/drivers/photos/alan-rollinson.jpg",
   "source": "statsf1"
+ },
+ "alan_brown": {
+  "name": "Alan Brown",
+  "url": "/drivers/photos/alan_brown.jpg"
  },
  "albers": {
   "name": "Christijan Albers",
@@ -111,14 +115,14 @@
   "name": "Conny Andersson",
   "url": "/drivers/photos/andersson.jpg"
  },
- "andre_pilette": {
-  "name": "André Pilette",
-  "url": "/drivers/photos/andre_pilette.jpg"
- },
  "andre-testut": {
   "name": "André Testut",
   "url": "/drivers/photos/andre-testut.jpg",
   "source": "statsf1"
+ },
+ "andre_pilette": {
+  "name": "André Pilette",
+  "url": "/drivers/photos/andre_pilette.jpg"
  },
  "andretti": {
   "name": "Michael Andretti",
@@ -639,10 +643,6 @@
   "name": "Adrián Campos",
   "url": "/drivers/photos/campos.jpg"
  },
- "Cannoc": {
-  "name": "John Cannon",
-  "url": "/drivers/photos/Cannoc.png"
- },
  "cantoni": {
   "name": "Eitel Cantoni",
   "url": "/drivers/photos/cantoni.png"
@@ -894,11 +894,6 @@
  "dempsey-wilson": {
   "name": "Dempsey Wilson",
   "url": "/drivers/photos/dempsey-wilson.png"
- },
- "dennis-taylor": {
-  "name": "Dennis Taylor",
-  "url": "/drivers/photos/dennis-taylor.jpg",
-  "source": "wikipedia"
  },
  "depailler": {
   "name": "Patrick Depailler",
@@ -1233,10 +1228,6 @@
   "name": "Frank Gardner",
   "url": "/drivers/photos/gardner.jpg"
  },
- "gartner": {
-  "name": "Jo Gartner",
-  "url": "/drivers/photos/gartner.jpg"
- },
  "gary-brabham": {
   "name": "Gary Brabham",
   "url": "/drivers/photos/gary-brabham.jpg",
@@ -1485,14 +1476,14 @@
   "name": "David Hampshire",
   "url": "/drivers/photos/hampshire.png"
  },
- "hans_stuck": {
-  "name": "Hans von Stuck",
-  "url": "/drivers/photos/hans_stuck.jpg"
- },
  "hans-heyer": {
   "name": "Hans Heyer",
   "url": "/drivers/photos/hans-heyer.jpg",
   "source": "wikipedia"
+ },
+ "hans_stuck": {
+  "name": "Hans von Stuck",
+  "url": "/drivers/photos/hans_stuck.jpg"
  },
  "hansgen": {
   "name": "Walt Hansgen",
@@ -1548,13 +1539,13 @@
   "name": "Theo Helfrich",
   "url": "/drivers/photos/helfrich.jpg"
  },
- "henry_taylor": {
-  "name": "Henry Taylor",
-  "url": "/drivers/photos/henry_taylor.jpg"
- },
  "henry-banks": {
   "name": "Henry Banks",
   "url": "/drivers/photos/henry-banks.jpg"
+ },
+ "henry_taylor": {
+  "name": "Henry Taylor",
+  "url": "/drivers/photos/henry_taylor.jpg"
  },
  "henton": {
   "name": "Brian Henton",
@@ -1652,10 +1643,6 @@
   "name": "Jean-Pierre Jabouille",
   "url": "/drivers/photos/jabouille.jpg"
  },
- "jack_brabham": {
-  "name": "Jack Brabham",
-  "url": "/drivers/photos/jack_brabham.jpg"
- },
  "jack-mcgrath": {
   "name": "Jack McGrath",
   "url": "/drivers/photos/jack-mcgrath.jpg"
@@ -1663,6 +1650,10 @@
  "jack-turner": {
   "name": "Jack Turner",
   "url": "/drivers/photos/jack-turner.png"
+ },
+ "jack_brabham": {
+  "name": "Jack Brabham",
+  "url": "/drivers/photos/jack_brabham.jpg"
  },
  "jackie-holmes": {
   "name": "Jackie Holmes",
@@ -1720,10 +1711,6 @@
   "name": "Jim Rigsby",
   "url": "/drivers/photos/jim-rigsby.png"
  },
- "jimmy_stewart": {
-  "name": "Jimmy Stewart",
-  "url": "/drivers/photos/jimmy_stewart.jpg"
- },
  "jimmy-bryan": {
   "name": "Jimmy Bryan",
   "url": "/drivers/photos/jimmy-bryan.jpg"
@@ -1743,6 +1730,10 @@
  "jimmy-reece": {
   "name": "Jimmy Reece",
   "url": "/drivers/photos/jimmy-reece.png"
+ },
+ "jimmy_stewart": {
+  "name": "Jimmy Stewart",
+  "url": "/drivers/photos/jimmy_stewart.jpg"
  },
  "jo_schlesser": {
   "name": "Jo Schlesser",
@@ -1866,14 +1857,14 @@
   "name": "Loris Kessel",
   "url": "/drivers/photos/kessel.jpg"
  },
- "kevin_magnussen": {
-  "name": "Kevin Magnussen",
-  "url": "/drivers/photos/kevin_magnussen.jpg"
- },
  "kevin-cogan": {
   "name": "Kevin Cogan",
   "url": "/drivers/photos/kevin-cogan.jpg",
   "source": "wikipedia"
+ },
+ "kevin_magnussen": {
+  "name": "Kevin Magnussen",
+  "url": "/drivers/photos/kevin_magnussen.jpg"
  },
  "kiesa": {
   "name": "Nicolas Kiesa",
@@ -2119,11 +2110,6 @@
   "name": "Jean Lucas",
   "url": "/drivers/photos/lucas.jpg"
  },
- "ludwig-fischer": {
-  "name": "Ludwig Fischer",
-  "url": "/drivers/photos/ludwig-fischer.jpg",
-  "source": "wikipedia"
- },
  "luigi-taramazzo": {
   "name": "Luigi Taramazzo",
   "url": "/drivers/photos/luigi-taramazzo.jpg",
@@ -2314,14 +2300,14 @@
   "name": "Arturo Merzario",
   "url": "/drivers/photos/merzario.jpg"
  },
- "michael_schumacher": {
-  "name": "Michael Schumacher",
-  "url": "/drivers/photos/michael_schumacher.png"
- },
  "michael-bartels": {
   "name": "Michael Bartels",
   "url": "/drivers/photos/michael-bartels.jpg",
   "source": "wikipedia"
+ },
+ "michael_schumacher": {
+  "name": "Michael Schumacher",
+  "url": "/drivers/photos/michael_schumacher.png"
  },
  "mick_schumacher": {
   "name": "Mick Schumacher",
@@ -2335,10 +2321,6 @@
   "name": "François Migault",
   "url": "/drivers/photos/migault.jpg"
  },
- "mike_taylor": {
-  "name": "Mike Taylor",
-  "url": "/drivers/photos/mike_taylor.jpg"
- },
  "mike-magill": {
   "name": "Mike Magill",
   "url": "/drivers/photos/mike-magill.jpg"
@@ -2346,6 +2328,10 @@
  "mike-nazaruk": {
   "name": "Mike Nazaruk",
   "url": "/drivers/photos/mike-nazaruk.png"
+ },
+ "mike_taylor": {
+  "name": "Mike Taylor",
+  "url": "/drivers/photos/mike_taylor.jpg"
  },
  "mikko-kozarowitzky": {
   "name": "Mikko Kozarowitzky",
@@ -2618,10 +2604,6 @@
   "name": "Alessandro Pesenti-Rossi",
   "url": "/drivers/photos/pesenti_rossi.jpg"
  },
- "peter_walker": {
-  "name": "Peter Walker",
-  "url": "/drivers/photos/peter_walker.png"
- },
  "peter-monteverdi": {
   "name": "Peter Monteverdi",
   "url": "/drivers/photos/peter-monteverdi.jpg"
@@ -2630,6 +2612,10 @@
   "name": "Peter Westbury",
   "url": "/drivers/photos/peter-westbury.jpg",
   "source": "wikipedia"
+ },
+ "peter_walker": {
+  "name": "Peter Walker",
+  "url": "/drivers/photos/peter_walker.png"
  },
  "peters": {
   "name": "Josef Peters",
