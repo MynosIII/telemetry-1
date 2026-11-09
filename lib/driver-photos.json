@@ -755,6 +755,10 @@
   "name": "Tony Crook",
   "url": "/drivers/photos/crook.jpg"
  },
+ "crossley": {
+  "name": "Geoffrey Crossley",
+  "url": "/drivers/photos/geoff-crossley.jpg"
+ },
  "cruz": {
   "name": "Adolfo Cruz",
   "url": "/drivers/photos/cruz.jpg"
@@ -1047,6 +1051,10 @@
   "name": "Norberto Fontana",
   "url": "/drivers/photos/fontana.png"
  },
+ "fontes": {
+  "name": "Asdrúbal Fontes Bayardo",
+  "url": "/drivers/photos/azdrubal-fontes.jpg"
+ },
  "forini": {
   "name": "Franco Forini",
   "url": "/drivers/photos/forini.png"
@@ -1210,6 +1218,10 @@
  "ginther": {
   "name": "Richie Ginther",
   "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richie%20Ginther%20and%20Roger%20Penske%2C%201964%20%28cropped%29.jpg?width=600"
+ },
+ "giorgio-francia": {
+  "name": "Giorgio Francia",
+  "url": "/drivers/photos/giorgio-francia.jpg"
  },
  "giovinazzi": {
   "name": "Antonio Giovinazzi",
@@ -2546,6 +2558,10 @@
  "ralf_schumacher": {
   "name": "Ralf Schumacher",
   "url": "/drivers/photos/ralf_schumacher.png"
+ },
+ "ramos": {
+  "name": "Hermano da Silva Ramos",
+  "url": "/drivers/photos/hernando-da-silva-ramos.jpg"
  },
  "raphanel": {
   "name": "Pierre-Henri Raphanel",
