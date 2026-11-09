@@ -5,7 +5,7 @@
  },
  "abecassis": {
   "name": "George Abecassis",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1950-06-24%20Le%20Mans%20Aston%20DB2%20LML-50-8%20Abecassis%20Macklin.jpg?width=600"
+  "url": "/drivers/photos/abecassis.jpg"
  },
  "acheson": {
   "name": "Kenny Acheson",
@@ -13,11 +13,11 @@
  },
  "adamich": {
   "name": "Andrea de Adamich",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20De%20Adamich%20-%20Alfa%20Romeo%20Giulia%202000%20GTAm%20%281972%20Monza%204%20Hours%29.jpg?width=600"
+  "url": "/drivers/photos/adamich.jpg"
  },
  "adams": {
   "name": "Philippe Adams",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippe%20Adams%27%20Lotus%20109.jpg?width=600"
+  "url": "/drivers/photos/adams.jpg"
  },
  "adolff": {
   "name": "Kurt Adolff",
@@ -25,11 +25,11 @@
  },
  "ahrens": {
   "name": "Kurt Ahrens",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-82487-0008%2C%20Internationale%20Halle-Saale-Schleife%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/ahrens.jpg"
  },
  "aitken": {
   "name": "Jack Aitken",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-04-27%20Motorsport%2C%20DTM%2C%20Oschersleben%20STP%202025%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/aitken.jpg"
  },
  "al-herman": {
   "name": "Al Herman",
@@ -39,25 +39,45 @@
   "name": "Al Keller",
   "url": "/drivers/photos/al-keller.webp"
  },
+ "alain-de-changy": {
+  "name": "Alain de Changy",
+  "url": "/drivers/photos/alain-de-changy.jpg",
+  "source": "wikipedia"
+ },
+ "alan-rollinson": {
+  "name": "Alan Rollinson",
+  "url": "/drivers/photos/alan-rollinson.jpg",
+  "source": "statsf1"
+ },
  "alan_brown": {
   "name": "Alan Brown",
   "url": "/drivers/photos/alan_brown.jpg"
  },
  "albers": {
   "name": "Christijan Albers",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christijan%20Albers%202006%20%28cropped%29.JPG?width=600"
+  "url": "/drivers/photos/albers.jpg"
+ },
+ "alberto-colombo": {
+  "name": "Alberto Colombo",
+  "url": "/drivers/photos/alberto-colombo.jpg",
+  "source": "statsf1"
+ },
+ "alberto-crespo": {
+  "name": "Alberto Crespo",
+  "url": "/drivers/photos/alberto-crespo.jpg",
+  "source": "wikipedia"
  },
  "albon": {
   "name": "Alexander Albon",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Albon%20at%20the%20Melbourne%20Walk%20during%20the%202026%20Australian%20Grand%20Prix%20%28028A8626%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/albon.jpg"
  },
  "alboreto": {
   "name": "Michele Alboreto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michele%20Alboreto%20at%20the%20Hungarian%20Formula%20One%20Grand%20Prix%20in%20Budapest%20in%201988%20%28JOKAMAA2H-2%29.tif?width=600"
+  "url": "/drivers/photos/alboreto.jpg"
  },
  "alesi": {
   "name": "Jean Alesi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Alesi%2C%20GIMS%202019%2C%20Le%20Grand-Saconnex%20%28GIMS0047%29.jpg?width=600"
+  "url": "/drivers/photos/alesi.jpg"
  },
  "alex-blignaut": {
   "name": "Alex Blignaut",
@@ -65,15 +85,15 @@
  },
  "alguersuari": {
   "name": "Jaime Alguersuari",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaime%20Alguersuari%20Canada%202010%20cropped.jpg?width=600"
+  "url": "/drivers/photos/alguersuari.jpg"
  },
  "alliot": {
   "name": "Philippe Alliot",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippe%20Alliot%201990%20United%20States.jpg?width=600"
+  "url": "/drivers/photos/alliot.jpg"
  },
  "allison": {
   "name": "Cliff Allison",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phil%20Hill%20y%20Cliff%20Allison%20-%20El%20Gr%C3%A1fico%202107.jpg?width=600"
+  "url": "/drivers/photos/allison.jpg"
  },
  "alonso": {
   "name": "Fernando Alonso",
@@ -81,11 +101,11 @@
  },
  "ambrosio": {
   "name": "Jérôme d'Ambrosio",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DAmbrosio%20marussia%20monaco%202011%20cropped%20version.jpg?width=600"
+  "url": "/drivers/photos/ambrosio.jpg"
  },
  "amon": {
   "name": "Chris Amon",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AmonChris19730706.jpg?width=600"
+  "url": "/drivers/photos/amon.jpg"
  },
  "anderson": {
   "name": "Bob Anderson",
@@ -93,23 +113,33 @@
  },
  "andersson": {
   "name": "Conny Andersson",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Paasraces_op_Zandvoort_%28_Formule_III_%29_Boye_Haye_%2844%29_op_kop%2C_gevolgd_door_Ande%2C_Bestanddeelnr_928-5289.jpg/960px-Paasraces_op_Zandvoort_%28_Formule_III_%29_Boye_Haye_%2844%29_op_kop%2C_gevolgd_door_Ande%2C_Bestanddeelnr_928-5289.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/andersson.jpg"
+ },
+ "andre-testut": {
+  "name": "André Testut",
+  "url": "/drivers/photos/andre-testut.jpg",
+  "source": "statsf1"
  },
  "andre_pilette": {
   "name": "André Pilette",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1950-07-23%2012h%20Paris%20Montlh%C3%A9ry%20Ferrari%200014M%200052M.jpg?width=600"
+  "url": "/drivers/photos/andre_pilette.jpg"
  },
  "andretti": {
   "name": "Michael Andretti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Andretti%202007%20Michigan.jpg?width=600"
+  "url": "/drivers/photos/andretti.jpg"
  },
  "andy-linden": {
   "name": "Andy Linden",
   "url": "/drivers/photos/andy-linden.png"
  },
+ "andy-sutcliffe": {
+  "name": "Andy Sutcliffe",
+  "url": "/drivers/photos/andy-sutcliffe.jpg",
+  "source": "statsf1"
+ },
  "angelis": {
   "name": "Elio de Angelis",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anefo%20932-2371%20Elio%20de%20Angelis%2003.07.1982.jpg?width=600"
+  "url": "/drivers/photos/angelis.jpg"
  },
  "anthony-joseph-foyt": {
   "name": "Anthony Foyt",
@@ -117,7 +147,7 @@
  },
  "antonelli": {
   "name": "Andrea Kimi Antonelli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kimi%20Antonelli%20at%20the%20Melbourne%20Walk%20during%20the%202026%20Australian%20Grand%20Prix%20%28028A7923%29%20cropped.jpg?width=600"
+  "url": "/drivers/photos/antonelli.jpg"
  },
  "apicella": {
   "name": "Marco Apicella",
@@ -125,7 +155,7 @@
  },
  "arnoux": {
   "name": "René Arnoux",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rene%20Arnoux%20WSR2008%20HU.png?width=600"
+  "url": "/drivers/photos/arnoux.jpg"
  },
  "art-bisch": {
   "name": "Art Bisch",
@@ -137,19 +167,19 @@
  },
  "arundell": {
   "name": "Peter Arundell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Arundell%201968%20kl.JPG?width=600"
+  "url": "/drivers/photos/arundell.jpg"
  },
  "ascari": {
   "name": "Alberto Ascari",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alberto%20Ascari%20-%20El%20Gr%C3%A1fico%201587.jpg?width=600"
+  "url": "/drivers/photos/ascari.jpg"
  },
  "ashdown": {
   "name": "Peter Ashdown",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1956-08-26%20Karlskoga%20WINNER%20Lotus%20IX%20Ashdown.jpg?width=600"
+  "url": "/drivers/photos/ashdown.jpg"
  },
  "ashley": {
   "name": "Ian Ashley",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ian%20Ashley.jpg?width=600"
+  "url": "/drivers/photos/ashley.jpg"
  },
  "ashmore": {
   "name": "Gerry Ashmore",
@@ -157,11 +187,11 @@
  },
  "aston": {
   "name": "Bill Aston",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/DBR9_009.jpg/960px-DBR9_009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/aston.jpg"
  },
  "attwood": {
   "name": "Richard Attwood",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Attwood%201968%20kl.JPG?width=600"
+  "url": "/drivers/photos/attwood.jpg"
  },
  "azdrubal-fontes": {
   "name": "Azdrubal Fontes",
@@ -169,19 +199,19 @@
  },
  "badoer": {
   "name": "Luca Badoer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luca%20Badoer%202007%20Desafio%20Internacional%20das%20Estrelas.jpg?width=600"
+  "url": "/drivers/photos/badoer.jpg"
  },
  "baghetti": {
   "name": "Giancarlo Baghetti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1961%20Syracuse%20GP%20-%20Giancarlo%20Baghetti%20%28Ferrari%20156%20F1%29.jpg?width=600"
+  "url": "/drivers/photos/baghetti.jpg"
  },
  "bailey": {
   "name": "Julian Bailey",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Julian_Bailey_1991_USA.jpg/960px-Julian_Bailey_1991_USA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/bailey.jpg"
  },
  "baldi": {
   "name": "Mauro Baldi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mauro%20Baldi%201982.jpg?width=600"
+  "url": "/drivers/photos/baldi.jpg"
  },
  "balsa": {
   "name": "Marcel Balsa",
@@ -189,11 +219,11 @@
  },
  "bandini": {
   "name": "Lorenzo Bandini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bandini1966cropped.jpg?width=600"
+  "url": "/drivers/photos/bandini.jpg"
  },
  "barbazza": {
   "name": "Fabrizio Barbazza",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Barbazza%20CART%201992.jpg?width=600"
+  "url": "/drivers/photos/barbazza.jpg"
  },
  "barber": {
   "name": "Skip Barber",
@@ -205,11 +235,11 @@
  },
  "barrichello": {
   "name": "Rubens Barrichello",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stock%20Car%202013%20Etapa%20Bahia%20Fotos%20Max%20Ag%20Haack%20Bahia%20Noticias%20%287%29%20%288756442927%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/barrichello.jpg"
  },
  "barth": {
   "name": "Edgar Barth",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Barth%20podium%20Nurburgring%201957.jpg?width=600"
+  "url": "/drivers/photos/barth.jpg"
  },
  "bassi": {
   "name": "Giorgio Bassi",
@@ -221,11 +251,11 @@
  },
  "baumgartner": {
   "name": "Zsolt Baumgartner",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Baumgartner%20usgp%202004.jpg?width=600"
+  "url": "/drivers/photos/baumgartner.jpg"
  },
  "bayliss-levrett": {
   "name": "Bayliss Levrett",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bayliss_Levrett_in_Adams_Offenhauser_Palmer_Special%2C_1950_Indianapolis_500.jpg/960px-Bayliss_Levrett_in_Adams_Offenhauser_Palmer_Special%2C_1950_Indianapolis_500.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/bayliss-levrett.jpg"
  },
  "bayol": {
   "name": "Élie Bayol",
@@ -233,11 +263,11 @@
  },
  "bearman": {
   "name": "Oliver Bearman",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Japan%20GP%20-%20Haas%20-%20Oliver%20Bearman%20-%20Thursday%20%28cropped02%29.jpg?width=600"
+  "url": "/drivers/photos/bearman.jpg"
  },
  "beaufort": {
   "name": "Carel Godin de Beaufort",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/N.%2013%20at%201962%20Dutch%20Grand%20Prix%20%282%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/beaufort.jpg"
  },
  "beauman": {
   "name": "Don Beauman",
@@ -245,35 +275,35 @@
  },
  "bechem": {
   "name": "Günther Bechem",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bechem%20AFM%20Norisring%201951.jpg?width=600"
+  "url": "/drivers/photos/bechem.jpg"
  },
  "behra": {
   "name": "Jean Behra",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Behra%20-%20El%20Gr%C3%A1fico%201953.jpg?width=600"
+  "url": "/drivers/photos/behra.jpg"
  },
  "bell": {
   "name": "Derek Bell",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Derek_Bell_%282356476570%29.jpg/960px-Derek_Bell_%282356476570%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/bell.jpg"
  },
  "bellof": {
   "name": "Stefan Bellof",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stefan%20Bellof%207508-cropped.jpg?width=600"
+  "url": "/drivers/photos/bellof.jpg"
  },
  "belmondo": {
   "name": "Paul Belmondo",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Paul_Belmondo_par_Claude_Truong-Ngoc_juillet_2013.jpg/960px-Paul_Belmondo_par_Claude_Truong-Ngoc_juillet_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/belmondo.jpg"
  },
  "belso": {
   "name": "Tom Belsø",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Belso%201973%20%28JOKAMAL3B08-11%29.tif?width=600"
+  "url": "/drivers/photos/belso.jpg"
  },
  "beltoise": {
   "name": "Jean-Pierre Beltoise",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Pierre%20Beltoise%201969%20N%C3%BCrburgring.jpg?width=600"
+  "url": "/drivers/photos/beltoise.jpg"
  },
  "beretta": {
   "name": "Olivier Beretta",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olivier%20Beretta%202012%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/beretta.jpg"
  },
  "berg": {
   "name": "Allen Berg",
@@ -287,25 +317,35 @@
   "name": "Éric Bernard",
   "url": "/drivers/photos/bernard.png"
  },
+ "bernard-de-dryver": {
+  "name": "Bernard de Dryver",
+  "url": "/drivers/photos/bernard-de-dryver.jpg",
+  "source": "statsf1"
+ },
+ "bernie-ecclestone": {
+  "name": "Bernie Ecclestone",
+  "url": "/drivers/photos/bernie-ecclestone.jpg",
+  "source": "wikipedia"
+ },
  "bernoldi": {
   "name": "Enrique Bernoldi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enrique%20Bernoldi%202007%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/bernoldi.jpg"
  },
  "beuttler": {
   "name": "Mike Beuttler",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1972%20French%20Grand%20Prix%20Beuttler%20%285225615113%29.jpg?width=600"
+  "url": "/drivers/photos/beuttler.jpg"
  },
  "bianchi": {
   "name": "Lucien Bianchi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BianciLucien%2019680802.jpg?width=600"
+  "url": "/drivers/photos/bianchi.jpg"
  },
  "bianco": {
   "name": "Gino Bianco",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gino%20Bianco%20%281949%29.jpg?width=600"
+  "url": "/drivers/photos/bianco.jpg"
  },
  "bill-cantrell": {
   "name": "Bill Cantrell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Cantrell%201951.jpg?width=600"
+  "url": "/drivers/photos/bill-cantrell.jpg"
  },
  "bill-cheesbourg": {
   "name": "Bill Cheesbourg",
@@ -313,7 +353,7 @@
  },
  "bill-holland": {
   "name": "Bill Holland",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Holland%20and%20Linda%20Darnell%201949%20Indianapolis%20500%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/bill-holland.jpg"
  },
  "bill-homeier": {
   "name": "Bill Homeier",
@@ -323,13 +363,18 @@
   "name": "Bill Mackey",
   "url": "/drivers/photos/bill-mackey.png"
  },
+ "bill-moss": {
+  "name": "Bill Moss",
+  "url": "/drivers/photos/bill-moss.jpg",
+  "source": "statsf1"
+ },
  "bill-schindler": {
   "name": "Bill Schindler",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Schindler%20at%20Soldier%20Field%20%28circa%201946%29.jpg?width=600"
+  "url": "/drivers/photos/bill-schindler.jpg"
  },
  "bill-vukovich": {
   "name": "Bill Vukovich",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Vukovich%201951.jpg?width=600"
+  "url": "/drivers/photos/bill-vukovich.jpg"
  },
  "billy-garrett": {
   "name": "Billy Garrett",
@@ -337,19 +382,19 @@
  },
  "binder": {
   "name": "Hans Binder",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1977%20Argentine%20Grand%20Prix%20Binder.jpg?width=600"
+  "url": "/drivers/photos/binder.jpg"
  },
  "biondetti": {
   "name": "Clemente Biondetti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1938ClementeBiondetti.jpg?width=600"
+  "url": "/drivers/photos/biondetti.jpg"
  },
  "bira": {
   "name": "Prince Bira",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Air%20cadets%20learn%20the%20basics%20of%20flight%20at%20RNAS%20St%20Merryn%20in%20Cornwall%2C%20February%201944.%20A22064-croponBirabongse%20Bhanudej.jpg?width=600"
+  "url": "/drivers/photos/bira.jpg"
  },
  "birger": {
   "name": "Pablo Birger",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo%20Birger%20-%20El%20Gr%C3%A1fico%201706.jpg?width=600"
+  "url": "/drivers/photos/birger.jpg"
  },
  "blanchard": {
   "name": "Harry Blanchard",
@@ -357,7 +402,7 @@
  },
  "bleekemolen": {
   "name": "Michael Bleekemolen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Bleekemolen%20%281977%29.jpg?width=600"
+  "url": "/drivers/photos/bleekemolen.jpg"
  },
  "blokdyk": {
   "name": "Trevor Blokdyk",
@@ -365,7 +410,7 @@
  },
  "blundell": {
   "name": "Mark Blundell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Blundell%20portrait%202011.jpg?width=600"
+  "url": "/drivers/photos/blundell.jpg"
  },
  "bob-christie": {
   "name": "Bob Christie",
@@ -373,7 +418,7 @@
  },
  "bob-scott": {
   "name": "Bob Scott",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bob_Scott_1954.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/bob-scott.jpg"
  },
  "bob-sweikert": {
   "name": "Bob Sweikert",
@@ -385,7 +430,7 @@
  },
  "bobby-ball": {
   "name": "Bobby Ball",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby%20Ball%201951%20Indianapolis%20500%20car%20fire.jpg?width=600"
+  "url": "/drivers/photos/bobby-ball.jpg"
  },
  "bobby-grim": {
   "name": "Bobby Grim",
@@ -393,35 +438,35 @@
  },
  "boesel": {
   "name": "Raul Boesel",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raul%20Boesel%202007%20Mil%20Milhas%20Brasil.jpg?width=600"
+  "url": "/drivers/photos/boesel.jpg"
  },
  "bondurant": {
   "name": "Bob Bondurant",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Portrait2%20sm.jpg?width=600"
+  "url": "/drivers/photos/bondurant.jpg"
  },
  "bonetto": {
   "name": "Felice Bonetto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Felice%20Bonetto.jpg?width=600"
+  "url": "/drivers/photos/bonetto.jpg"
  },
  "bonnier": {
   "name": "Jo Bonnier",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BonnierJo196608.jpg?width=600"
+  "url": "/drivers/photos/bonnier.jpg"
  },
  "bonomi": {
   "name": "Roberto Bonomi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto%20Bonomi%20-%20El%20Gr%C3%A1fico%201751.jpg?width=600"
+  "url": "/drivers/photos/bonomi.jpg"
  },
  "bordeu": {
   "name": "Juan Manuel Bordeu",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bordeu%20-%20El%20Gr%C3%A1fico%202358.jpg?width=600"
+  "url": "/drivers/photos/bordeu.jpg"
  },
  "borgudd": {
   "name": "Slim Borgudd",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Borgudd-Slim-1994.jpg?width=600"
+  "url": "/drivers/photos/borgudd.jpg"
  },
  "bortoleto": {
   "name": "Gabriel Bortoleto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/G.%20Bortoleto%2017%20Sep%202024.png?width=600"
+  "url": "/drivers/photos/bortoleto.jpg"
  },
  "botha": {
   "name": "Luki Botha",
@@ -433,31 +478,31 @@
  },
  "boullion": {
   "name": "Jean-Christophe Boullion",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Christophe%20Boullion%202007%20Mil%20Milhas%20Brasil.jpg?width=600"
+  "url": "/drivers/photos/boullion.jpg"
  },
  "bourdais": {
   "name": "Sébastien Bourdais",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastien%20Bourdais%20in%202021%20%2851221641988%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/bourdais.jpg"
  },
  "boutsen": {
   "name": "Thierry Boutsen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thierry%20Boutsen%20at%20the%202026%20Adelaide%20Motorsport%20Festival%20%28028A6498%29.jpg?width=600"
+  "url": "/drivers/photos/boutsen.jpg"
  },
  "brabham": {
   "name": "David Brabham",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Brabham%20at%20the%202026%20Adelaide%20Motorsport%20Festival%20%28028A6665%29.jpg?width=600"
+  "url": "/drivers/photos/brabham.jpg"
  },
  "brack": {
   "name": "Bill Brack",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Brack%20Formula%20Atlantic%20EIS%201975.jpg?width=600"
+  "url": "/drivers/photos/brack.jpg"
  },
  "brambilla": {
   "name": "Vittorio Brambilla",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vittorio%20Brambilla.jpg?width=600"
+  "url": "/drivers/photos/brambilla.jpg"
  },
  "branca": {
   "name": "Toni Branca",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Schauinsland-Rennstrecke%3B_Training%3B_am_Start-_Toni_Branca%3B_Nr._170%3B_Maserati_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._021011.jpeg/960px-Schauinsland-Rennstrecke%3B_Training%3B_am_Start-_Toni_Branca%3B_Nr._170%3B_Maserati_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._021011.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/branca.jpg"
  },
  "brandon": {
   "name": "Eric Brandon",
@@ -465,7 +510,17 @@
  },
  "brendon_hartley": {
   "name": "Brendon Hartley",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brendon%20Hartley%20at%20the%202025%20Adelaide%20Grand%20Final%20-%2001.jpg?width=600"
+  "url": "/drivers/photos/brendon_hartley.jpg"
+ },
+ "brian-gubby": {
+  "name": "Brian Gubby",
+  "url": "/drivers/photos/brian-gubby.jpg",
+  "source": "wikipedia"
+ },
+ "brian-mcguire": {
+  "name": "Brian McGuire",
+  "url": "/drivers/photos/brian-mcguire.jpg",
+  "source": "statsf1"
  },
  "bridger": {
   "name": "Tom Bridger",
@@ -473,7 +528,7 @@
  },
  "brise": {
   "name": "Tony Brise",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Graham%20Hill%20Tony%20Brise%201975%20British%20GP%20Color.png?width=600"
+  "url": "/drivers/photos/brise.jpg"
  },
  "bristow": {
   "name": "Chris Bristow",
@@ -491,29 +546,34 @@
   "name": "Warwick Brown",
   "url": "/drivers/photos/brown.png"
  },
+ "bruce-kessler": {
+  "name": "Bruce Kessler",
+  "url": "/drivers/photos/bruce-kessler.jpg",
+  "source": "statsf1"
+ },
  "brudes": {
   "name": "Adolf Brudes",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adolf%20Brudes%20im%20BMW%20328%20Mille%20Miglia%20am%2014.08.1976.jpg?width=600"
+  "url": "/drivers/photos/brudes.jpg"
  },
  "brundle": {
   "name": "Martin Brundle",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Brundle%202021%20%2851591210921%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/brundle.jpg"
  },
  "bruni": {
   "name": "Gianmaria Bruni",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gianmaria%20Bruni%202012%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/bruni.jpg"
  },
  "bruno_senna": {
   "name": "Bruno Senna",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Senna%20by%20United%20Autosports%20team%2004.jpg?width=600"
+  "url": "/drivers/photos/bruno_senna.jpg"
  },
  "bucci": {
   "name": "Clemar Bucci",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clemar%20Bucci.jpg?width=600"
+  "url": "/drivers/photos/bucci.jpg"
  },
  "bucknum": {
   "name": "Ronnie Bucknum",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ron%20Bucknum%20met%20zijn%20Honda%20%281964%29.jpg?width=600"
+  "url": "/drivers/photos/bucknum.jpg"
  },
  "bud-tingelstad": {
   "name": "Bud Tingelstad",
@@ -525,11 +585,11 @@
  },
  "buemi": {
   "name": "Sébastien Buemi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%96AMTC%20Welt%20des%20Motorsports%202016-78%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/buemi.jpg"
  },
  "bueno": {
   "name": "Luiz Bueno",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Correio%20da%20Manh%C3%A3%20AN%20191%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/bueno.jpg"
  },
  "burgess": {
   "name": "Ian Burgess",
@@ -537,11 +597,11 @@
  },
  "burti": {
   "name": "Luciano Burti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luciano%20Burti%202006%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/burti.jpg"
  },
  "bussinello": {
   "name": "Roberto Bussinello",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1966-07-17%20GP%20Mugello%20De%20Tomaso%20Sport%205000%20Bussinello.jpg?width=600"
+  "url": "/drivers/photos/bussinello.jpg"
  },
  "button": {
   "name": "Jenson Button",
@@ -553,11 +613,11 @@
  },
  "cabantous": {
   "name": "Yves Cabantous",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Yves_Giraud-Cabantous_vainqueur_du_Championnat_automobile_des_Aviateurs%2C_en_juin_1929_%28et_madame%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/cabantous.jpg"
  },
  "cabianca": {
   "name": "Giulio Cabianca",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giulio%20Cabianca%20in%20an%20OSCA%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/cabianca.jpg"
  },
  "cabral": {
   "name": "Mário de Araújo Cabral",
@@ -569,7 +629,7 @@
  },
  "caffi": {
   "name": "Alex Caffi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Caffi%201991%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/caffi.jpg"
  },
  "cal-niday": {
   "name": "Cal Niday",
@@ -581,7 +641,7 @@
  },
  "campos": {
   "name": "Adrián Campos",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ferrar1_333SP_-_Michel_Ferte%2C_Adrian_Campos_%26_Charles_Nearburg_entering_Dunlop_Chicane_at_the_1997_Le_Mans_%2851635711376%29.jpg/960px-Ferrar1_333SP_-_Michel_Ferte%2C_Adrian_Campos_%26_Charles_Nearburg_entering_Dunlop_Chicane_at_the_1997_Le_Mans_%2851635711376%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/campos.jpg"
  },
  "cantoni": {
   "name": "Eitel Cantoni",
@@ -589,11 +649,11 @@
  },
  "capelli": {
   "name": "Ivan Capelli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Capelli%201991%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/capelli.jpg"
  },
  "carini": {
   "name": "Piero Carini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piero%20Carini.jpeg?width=600"
+  "url": "/drivers/photos/carini.jpg"
  },
  "carl-forberg": {
   "name": "Carl Forberg",
@@ -605,11 +665,16 @@
  },
  "carlo-abate": {
   "name": "Carlo Abate",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1963-05-19%20Ferrari%20250%20TRI%20von%20Abate%20u.%20Maglioli%2C%20N%C3%BCrburgring.jpg?width=600"
+  "url": "/drivers/photos/carlo-abate.jpg"
+ },
+ "carlo-facetti": {
+  "name": "Carlo Facetti",
+  "url": "/drivers/photos/carlo-facetti.jpg",
+  "source": "wikipedia"
  },
  "castellotti": {
   "name": "Eugenio Castellotti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugenio%20Castellotti.jpg?width=600"
+  "url": "/drivers/photos/castellotti.jpg"
  },
  "cecil-green": {
   "name": "Cecil Green",
@@ -617,19 +682,19 @@
  },
  "cecotto": {
   "name": "Johnny Cecotto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Cecotto%20%281978%29.jpg?width=600"
+  "url": "/drivers/photos/cecotto.jpg"
  },
  "cesaris": {
   "name": "Andrea de Cesaris",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20De%20Cesaris%201982.jpg?width=600"
+  "url": "/drivers/photos/cesaris.jpg"
  },
  "cevert": {
   "name": "François Cevert",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francois%20Cevert%201973.jpg?width=600"
+  "url": "/drivers/photos/cevert.jpg"
  },
  "chaboud": {
   "name": "Eugène Chaboud",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eug%C3%A8ne%20Chaboud%2C%20vainqueur%20des%2024%20heures%20du%20Mans%201938.jpg?width=600"
+  "url": "/drivers/photos/chaboud.jpg"
  },
  "chamberlain": {
   "name": "Jay Chamberlain",
@@ -637,11 +702,11 @@
  },
  "chandhok": {
   "name": "Karun Chandhok",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karun%20Chandhok%202011%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/chandhok.jpg"
  },
  "chapman": {
   "name": "Colin Chapman",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Colin_Chapman_%281965%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/chapman.jpg"
  },
  "charlton": {
   "name": "Dave Charlton",
@@ -653,11 +718,11 @@
  },
  "cheever": {
   "name": "Eddie Cheever",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eddie%20Cheever%20Jr%202009%20Indy%20500%20Second%20Qual%20Day.JPG?width=600"
+  "url": "/drivers/photos/cheever.jpg"
  },
  "chet-miller": {
   "name": "Chet Miller",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Chet_Miller.jpg/960px-Chet_Miller.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/chet-miller.jpg"
  },
  "chiesa": {
   "name": "Andrea Chiesa",
@@ -665,7 +730,7 @@
  },
  "chilton": {
   "name": "Max Chilton",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Chilton%202.jpg?width=600"
+  "url": "/drivers/photos/chilton.jpg"
  },
  "chimeri": {
   "name": "Ettore Chimeri",
@@ -673,7 +738,7 @@
  },
  "chiron": {
   "name": "Louis Chiron",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Chiron%201931.jpg?width=600"
+  "url": "/drivers/photos/chiron.jpg"
  },
  "chuck-arnold": {
   "name": "Chuck Arnold",
@@ -681,7 +746,7 @@
  },
  "chuck-stevenson": {
   "name": "Chuck Stevenson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chuck%20Stevenson%201952cr.jpg?width=600"
+  "url": "/drivers/photos/chuck-stevenson.jpg"
  },
  "chuck-weyant": {
   "name": "Chuck Weyant",
@@ -689,19 +754,29 @@
  },
  "claes": {
   "name": "Johnny Claes",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Talbot_F1_vr_yellow_EMS.jpg/960px-Talbot_F1_vr_yellow_EMS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/claes.jpg"
  },
  "clark": {
   "name": "Jim Clark",
   "url": "/drivers/photos/clark.png"
  },
+ "claudio-langes": {
+  "name": "Claudio Langes",
+  "url": "/drivers/photos/claudio-langes.jpg",
+  "source": "statsf1"
+ },
  "cliff-griffith": {
   "name": "Cliff Griffith",
   "url": "/drivers/photos/cliff-griffith.png"
  },
+ "clive-puzey": {
+  "name": "Clive Puzey",
+  "url": "/drivers/photos/clive-puzey.jpg",
+  "source": "statsf1"
+ },
  "colapinto": {
   "name": "Franco Colapinto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franco%20Colapinto%20at%20the%20Melbourne%20Walk%20during%20the%202026%20Australian%20Grand%20Prix%20%28028A8689%29.jpg?width=600"
+  "url": "/drivers/photos/colapinto.jpg"
  },
  "collins": {
   "name": "Peter Collins",
@@ -713,15 +788,15 @@
  },
  "comas": {
   "name": "Érik Comas",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Comas%20lm2005.jpg?width=600"
+  "url": "/drivers/photos/comas.jpg"
  },
  "comotti": {
   "name": "Franco Comotti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GianfrancoComotti.jpg?width=600"
+  "url": "/drivers/photos/comotti.jpg"
  },
  "constantine": {
   "name": "George Constantine",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ward_and_Constantine%2C_July_25%2C_1959.jpg/960px-Ward_and_Constantine%2C_July_25%2C_1959.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/constantine.jpg"
  },
  "cordts": {
   "name": "John Cordts",
@@ -729,7 +804,7 @@
  },
  "corrado_fabi": {
   "name": "Corrado Fabi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corrado%20Fabi%20Brabham%20BT53%201984%20Dallas%20F1.jpg?width=600"
+  "url": "/drivers/photos/corrado_fabi.jpg"
  },
  "coulthard": {
   "name": "David Coulthard",
@@ -737,7 +812,7 @@
  },
  "courage": {
   "name": "Piers Courage",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piers%20Courage%201968%20N%C3%BCrburgring.JPG?width=600"
+  "url": "/drivers/photos/courage.jpg"
  },
  "craft": {
   "name": "Chris Craft",
@@ -745,7 +820,7 @@
  },
  "crawford": {
   "name": "Jim Crawford",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/JimCrawford1988Indy500.JPG/960px-JimCrawford1988Indy500.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/crawford.jpg"
  },
  "creus": {
   "name": "Antonio Creus",
@@ -769,11 +844,11 @@
  },
  "dalmas": {
   "name": "Yannick Dalmas",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yannick%20DALMAS.JPG?width=600"
+  "url": "/drivers/photos/dalmas.jpg"
  },
  "daly": {
   "name": "Derek Daly",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Derek%20Daly%201982.jpg?width=600"
+  "url": "/drivers/photos/daly.jpg"
  },
  "damon_hill": {
   "name": "Damon Hill",
@@ -781,7 +856,7 @@
  },
  "danner": {
   "name": "Christian Danner",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian%20Danner%201995%20Deutsche%20Tourenwagen%20Meisterschaft%2C%20Donington%20Park.jpg?width=600"
+  "url": "/drivers/photos/danner.jpg"
  },
  "danny-kladis": {
   "name": "Danny Kladis",
@@ -795,9 +870,14 @@
   "name": "David Clapham",
   "url": "/drivers/photos/david-clapham.png"
  },
+ "david-kennedy": {
+  "name": "David Kennedy",
+  "url": "/drivers/photos/david-kennedy.jpg",
+  "source": "statsf1"
+ },
  "davidson": {
   "name": "Anthony Davidson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthony%20Davidson%20Goodwood%20Festival%20of%20Speed%202019%20%2848242774922%29.jpg?width=600"
+  "url": "/drivers/photos/davidson.jpg"
  },
  "davis": {
   "name": "Colin Davis",
@@ -805,11 +885,11 @@
  },
  "de_vries": {
   "name": "Nyck de Vries",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyck%20de%20Vries%202024%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/de_vries.jpg"
  },
  "deletraz": {
   "name": "Jean-Denis Délétraz",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Denis%20D%C3%A9l%C3%A9traz%20-%20Le%20Mans%202012.JPG?width=600"
+  "url": "/drivers/photos/deletraz.jpg"
  },
  "dempsey-wilson": {
   "name": "Dempsey Wilson",
@@ -817,15 +897,25 @@
  },
  "depailler": {
   "name": "Patrick Depailler",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PatrickDepailler-ar.jpg?width=600"
+  "url": "/drivers/photos/depailler.jpg"
+ },
+ "desire-wilson": {
+  "name": "Desiré Wilson",
+  "url": "/drivers/photos/desire-wilson.jpg",
+  "source": "wikipedia"
  },
  "dick-rathmann": {
   "name": "Dick Rathmann",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dick%20Rathmann%20USAC%20circa%201957.jpg?width=600"
+  "url": "/drivers/photos/dick-rathmann.jpg"
  },
  "diniz": {
   "name": "Pedro Diniz",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20da%20Toca%20foto%20kiko%20ferrite%2002295%20-%20Pedro%20Paulo%20Diniz.jpg?width=600"
+  "url": "/drivers/photos/diniz.jpg"
+ },
+ "divina-galica": {
+  "name": "Divina Galica",
+  "url": "/drivers/photos/divina-galica.jpg",
+  "source": "wikipedia"
  },
  "dochnal": {
   "name": "Frank Dochnal",
@@ -833,7 +923,7 @@
  },
  "dolhem": {
   "name": "José Dolhem",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Dolhem%2C%20John%20Watson%20and%20Clay%20Regazzoni%201974%20Watkins%20Glen.jpg?width=600"
+  "url": "/drivers/photos/dolhem.jpg"
  },
  "don-branson": {
   "name": "Don Branson",
@@ -845,27 +935,27 @@
  },
  "don-freeland": {
   "name": "Don Freeland",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Don%20Freeland%201953%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/don-freeland.jpg"
  },
  "donnelly": {
   "name": "Martin Donnelly",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Martin_Donnelly_at_the_2026_Adelaide_Motorsport_Festival_%28028A6518%29.jpg/960px-Martin_Donnelly_at_the_2026_Adelaide_Motorsport_Festival_%28028A6518%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/donnelly.jpg"
  },
  "donohue": {
   "name": "Mark Donohue",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Donohue%20JPGP%20S%2075.jpg?width=600"
+  "url": "/drivers/photos/donohue.jpg"
  },
  "doohan": {
   "name": "Jack Doohan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Doohan%20Austria%202022.jpg?width=600"
+  "url": "/drivers/photos/doohan.jpg"
  },
  "doornbos": {
   "name": "Robert Doornbos",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Doornbos%20-%20Red%20Bull%20Racing.jpg?width=600"
+  "url": "/drivers/photos/doornbos.jpg"
  },
  "downing": {
   "name": "Ken Downing",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Downing%20cropped.jpg?width=600"
+  "url": "/drivers/photos/downing.jpg"
  },
  "drake": {
   "name": "Bob Drake",
@@ -877,11 +967,11 @@
  },
  "drogo": {
   "name": "Piero Drogo",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1962%20Drogo%20Bizzarini%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/drogo.jpg"
  },
  "duane-carter": {
   "name": "Duane Carter",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Duane%20Carter%20at%20Soldier%20Field%20circa%201946.jpg?width=600"
+  "url": "/drivers/photos/duane-carter.jpg"
  },
  "duke-dinsmore": {
   "name": "Duke Dinsmore",
@@ -889,7 +979,7 @@
  },
  "duke-nalon": {
   "name": "Duke Nalon",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Duke%20Nalon%201946.jpg?width=600"
+  "url": "/drivers/photos/duke-nalon.jpg"
  },
  "dumfries": {
   "name": "Johnny Dumfries",
@@ -901,7 +991,7 @@
  },
  "eaton": {
   "name": "George Eaton",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/24%20heures%20du%20MANS%201971%2014%20%285000962841%29.jpg?width=600"
+  "url": "/drivers/photos/eaton.jpg"
  },
  "ed-elisian": {
   "name": "Ed Elisian",
@@ -917,7 +1007,7 @@
  },
  "eddie-sachs": {
   "name": "Eddie Sachs",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20Red%20Ball%20Halibrand%20Ford%20front%20view%20Honda%20Collection%20Hall.jpg?width=600"
+  "url": "/drivers/photos/eddie-sachs.jpg"
  },
  "edwards": {
   "name": "Guy Edwards",
@@ -925,7 +1015,7 @@
  },
  "elford": {
   "name": "Vic Elford",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vic%20Elford%20Watkins%20Glen%202010%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/elford.jpg"
  },
  "elmer-george": {
   "name": "Elmer George",
@@ -939,17 +1029,32 @@
   "name": "Paul Emery",
   "url": "/drivers/photos/emery.png"
  },
+ "emilio-zapico": {
+  "name": "Emilio Zapico",
+  "url": "/drivers/photos/emilio-zapico.jpg",
+  "source": "statsf1"
+ },
  "enge": {
   "name": "Tomáš Enge",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomas%20Enge%202007.jpg?width=600"
+  "url": "/drivers/photos/enge.jpg"
  },
  "england": {
   "name": "Paul England",
   "url": "/drivers/photos/england.jpg"
  },
+ "enrico-bertaggia": {
+  "name": "Enrico Bertaggia",
+  "url": "/drivers/photos/enrico-bertaggia.jpg",
+  "source": "wikipedia"
+ },
  "ericsson": {
   "name": "Marcus Ericsson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcus%20Ericsson%20in%202023.jpg?width=600"
+  "url": "/drivers/photos/ericsson.jpg"
+ },
+ "ernesto-brambilla": {
+  "name": "Ernesto Brambilla",
+  "url": "/drivers/photos/ernesto-brambilla.jpg",
+  "source": "wikipedia"
  },
  "ernesto-prinoth": {
   "name": "Ernesto Prinoth",
@@ -961,35 +1066,35 @@
  },
  "ertl": {
   "name": "Harald Ertl",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HaraldErtl1977.jpg?width=600"
+  "url": "/drivers/photos/ertl.jpg"
  },
  "estefano": {
   "name": "Nasif Estéfano",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasif%20Est%C3%A9fano%20-%20El%20Gr%C3%A1fico%202820.jpg?width=600"
+  "url": "/drivers/photos/estefano.jpg"
  },
  "etancelin": {
   "name": "Philippe Étancelin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippe%20%C3%89tancelin%20at%20the%201933%20Grand%20Prix%20de%20la%20Marne%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/etancelin.jpg"
  },
  "evans": {
   "name": "Bob Evans",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Monaco_1975_-_Bob_Evans_-_NQ.jpg/960px-Monaco_1975_-_Bob_Evans_-_NQ.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/evans.jpg"
  },
  "fabi": {
   "name": "Teo Fabi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teo%20Fabi%20Toleman%20TG185.jpg?width=600"
+  "url": "/drivers/photos/fabi.jpg"
  },
  "fabre": {
   "name": "Pascal Fabre",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Courage_C32LM_-_Lionel_Robert%2C_Pascal_Fabre_%26_Pierre-Henri_Raphanel_at_Ford_Chicane_at_the_1994_Le_Mans_%2831130450764%29.jpg/960px-Courage_C32LM_-_Lionel_Robert%2C_Pascal_Fabre_%26_Pierre-Henri_Raphanel_at_Ford_Chicane_at_the_1994_Le_Mans_%2831130450764%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/fabre.jpg"
  },
  "fagioli": {
   "name": "Luigi Fagioli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Fagioli%20in%20his%20Maserati%20at%20the%201932%20Targa%20Florio%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/fagioli.jpg"
  },
  "fairman": {
   "name": "Jack Fairman",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Allard%20J2X%20Le%20Mans%20%281952%29%20%2818678221540%29.jpg?width=600"
+  "url": "/drivers/photos/fairman.jpg"
  },
  "fangio": {
   "name": "Juan Fangio",
@@ -997,19 +1102,19 @@
  },
  "farina": {
   "name": "Nino Farina",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NinoFarina.jpg?width=600"
+  "url": "/drivers/photos/farina.jpg"
  },
  "filippis": {
   "name": "Maria de Filippis",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Maria_Teresa_de_Filippis_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/filippis.jpg"
  },
  "firman": {
   "name": "Ralph Firman",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ralph%20Firman%202008%20Super%20GT.jpg?width=600"
+  "url": "/drivers/photos/firman.jpg"
  },
  "fischer": {
   "name": "Rudi Fischer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schauinsland-Rennstrecke%3B%20Training%3B%20am%20Start-%20Fischer%20%28CH%20Z%C3%BCrich%29%3B%20Nr.%20174%3B%20Ferrari%20-%20LABW%20-%20Staatsarchiv%20Freiburg%20W%20134%20Nr.%20021007.jpeg?width=600"
+  "url": "/drivers/photos/fischer.jpg"
  },
  "fisher": {
   "name": "Mike Fisher",
@@ -1017,7 +1122,7 @@
  },
  "fisichella": {
   "name": "Giancarlo Fisichella",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giancarlo%20Fisichella%202012%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/fisichella.jpg"
  },
  "fitch": {
   "name": "John Fitch",
@@ -1025,7 +1130,7 @@
  },
  "fittipaldi": {
   "name": "Christian Fittipaldi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian%20Fittipaldi%202006%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/fittipaldi.jpg"
  },
  "fitzau": {
   "name": "Theo Fitzau",
@@ -1033,7 +1138,7 @@
  },
  "flinterman": {
   "name": "Jan Flinterman",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Majoor%20Flinterman%2C%20Bestanddeelnr%20903-5819.jpg?width=600"
+  "url": "/drivers/photos/flinterman.jpg"
  },
  "flockhart": {
   "name": "Ron Flockhart",
@@ -1045,7 +1150,7 @@
  },
  "follmer": {
   "name": "George Follmer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Follmer%201973.jpg?width=600"
+  "url": "/drivers/photos/follmer.jpg"
  },
  "fontana": {
   "name": "Norberto Fontana",
@@ -1065,19 +1170,19 @@
  },
  "fred-agabashian": {
   "name": "Fred Agabashian",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fred%20Agabashian%201953%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/fred-agabashian.jpg"
  },
  "frentzen": {
   "name": "Heinz-Harald Frentzen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinz-Harald%20Frentzen%20a.jpg?width=600"
+  "url": "/drivers/photos/frentzen.jpg"
  },
  "frere": {
   "name": "Paul Frère",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2003-04-26%20Paul%20Fr%C3%A8re%20Cfs.JPG?width=600"
+  "url": "/drivers/photos/frere.jpg"
  },
  "friesacher": {
   "name": "Patrick Friesacher",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Friesacher.jpg?width=600"
+  "url": "/drivers/photos/friesacher.jpg"
  },
  "fry": {
   "name": "Joe Fry",
@@ -1089,11 +1194,11 @@
  },
  "gabbiani": {
   "name": "Beppe Gabbiani",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beppe%20Gabbiani%20crop.jpg?width=600"
+  "url": "/drivers/photos/gabbiani.jpg"
  },
  "gachot": {
   "name": "Bertrand Gachot",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bertrand%20Gachot%20-%201991%20US%20GP.jpg?width=600"
+  "url": "/drivers/photos/gachot.jpg"
  },
  "gaillard": {
   "name": "Patrick Gaillard",
@@ -1101,59 +1206,60 @@
  },
  "galli": {
   "name": "Nanni Galli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1972%20Targa%20Florio%20-%20Nanni%20Galli%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/galli.jpg"
  },
  "galvez": {
   "name": "Oscar Gálvez",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oscar%20Alfredo%20G%C3%A1lvez.jpg?width=600"
+  "url": "/drivers/photos/galvez.jpg"
  },
  "gamble": {
   "name": "Fred Gamble",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Fred_Gamble_-_1961_U.S._National_Championship.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/gamble.jpg"
  },
  "ganley": {
   "name": "Howden Ganley",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HowdenGanleyNZFMR2015.jpg?width=600"
+  "url": "/drivers/photos/ganley.jpg"
  },
  "garde": {
   "name": "Giedo van der Garde",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giedo%20van%20der%20Garde.jpg?width=600"
+  "url": "/drivers/photos/garde.jpg"
  },
  "gardner": {
   "name": "Frank Gardner",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Frank_Gardner_Lola_T300_Brands_Hatch.jpg/960px-Frank_Gardner_Lola_T300_Brands_Hatch.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/gardner.jpg"
  },
- "gartner": {
-  "name": "Jo Gartner",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grab%20Jo%20Gartner.jpg?width=600"
+ "gary-brabham": {
+  "name": "Gary Brabham",
+  "url": "/drivers/photos/gary-brabham.jpg",
+  "source": "statsf1"
  },
  "gary-hocking": {
   "name": "Gary Hocking",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gary%20Hocking%20%281961%29.jpg?width=600"
+  "url": "/drivers/photos/gary-hocking.jpg"
  },
  "gasly": {
   "name": "Pierre Gasly",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20Formula%20One%20tests%20Barcelona%2C%20Gasly%20%2847200027932%29.jpg?width=600"
+  "url": "/drivers/photos/gasly.jpg"
  },
  "gavin": {
   "name": "Johnny Servoz-Gavin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/24%20heures%20du%20MANS%201969%20%284986130404%29.jpg?width=600"
+  "url": "/drivers/photos/gavin.jpg"
  },
  "gaze": {
   "name": "Tony Gaze",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1954%20Frazer%20Nash%20Sebring%20%2831325227034%29.jpg?width=600"
+  "url": "/drivers/photos/gaze.jpg"
  },
  "geki": {
   "name": "Giacomo Russo",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giacomo%20Russo%201966.jpg?width=600"
+  "url": "/drivers/photos/geki.jpg"
  },
  "gendebien": {
   "name": "Olivier Gendebien",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olivier%20Gendebien%2C%201960s.jpg?width=600"
+  "url": "/drivers/photos/gendebien.jpg"
  },
  "gene": {
   "name": "Marc Gené",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marc%20Gen%C3%A9%20Le%20Mans%20drivers%20parade%202011.jpg?width=600"
+  "url": "/drivers/photos/gene.jpg"
  },
  "gene-force": {
   "name": "Gene Force",
@@ -1169,7 +1275,7 @@
  },
  "geoff-duke": {
   "name": "Geoff Duke",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Geoff%20Duke%20%281951%29.jpg?width=600"
+  "url": "/drivers/photos/geoff-duke.jpg"
  },
  "george-amick": {
   "name": "George Amick",
@@ -1177,7 +1283,7 @@
  },
  "george-connor": {
   "name": "George Connor",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/George_Connor_1933.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/george-connor.jpg"
  },
  "george-fonder": {
   "name": "George Fonder",
@@ -1193,19 +1299,24 @@
  },
  "gerini": {
   "name": "Gerino Gerini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerino%20Gerini%201954-10-06.jpg?width=600"
+  "url": "/drivers/photos/gerini.jpg"
  },
  "gethin": {
   "name": "Peter Gethin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Gethin%2C%20Bestanddeelnr%20924-6614.jpg?width=600"
+  "url": "/drivers/photos/gethin.jpg"
  },
  "ghinzani": {
   "name": "Piercarlo Ghinzani",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1985%20European%20GP%20Piercarlo%20Ghinzani%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/ghinzani.jpg"
  },
  "giacomelli": {
   "name": "Bruno Giacomelli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno%20Giacomelli%201982.jpg?width=600"
+  "url": "/drivers/photos/giacomelli.jpg"
+ },
+ "gianfranco-brancatelli": {
+  "name": "Gianfranco Brancatelli",
+  "url": "/drivers/photos/gianfranco-brancatelli.jpg",
+  "source": "wikipedia"
  },
  "gibson": {
   "name": "Dick Gibson",
@@ -1217,23 +1328,33 @@
  },
  "ginther": {
   "name": "Richie Ginther",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Richie%20Ginther%20and%20Roger%20Penske%2C%201964%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/ginther.jpg"
  },
  "giorgio-francia": {
   "name": "Giorgio Francia",
   "url": "/drivers/photos/giorgio-francia.jpg"
  },
+ "giovanna-amati": {
+  "name": "Giovanna Amati",
+  "url": "/drivers/photos/giovanna-amati.jpg",
+  "source": "statsf1"
+ },
+ "giovanni-de-riu": {
+  "name": "Giovanni de Riu",
+  "url": "/drivers/photos/giovanni-de-riu.jpg",
+  "source": "statsf1"
+ },
  "giovinazzi": {
   "name": "Antonio Giovinazzi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20Formula%20One%20tests%20Barcelona%2C%20Giovinazzi%20%2847200025952%29.jpg?width=600"
+  "url": "/drivers/photos/giovinazzi.jpg"
  },
  "giunti": {
   "name": "Ignazio Giunti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamp%20of%20Ajman%20-%201971%20-%20Colnect%20499264%20-%20Ignazio%20Giunti%201941-1971%20Italy.jpeg?width=600"
+  "url": "/drivers/photos/giunti.jpg"
  },
  "glock": {
   "name": "Timo Glock",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-04-26%20Motorsport%2C%20DTM%2C%20Oschersleben%20STP%202988%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/glock.jpg"
  },
  "godia": {
   "name": "Paco Godia",
@@ -1245,7 +1366,7 @@
  },
  "gonzalez": {
   "name": "José Froilán González",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Froil%C3%A1n%20Gonz%C3%A1lez%201950.jpg?width=600"
+  "url": "/drivers/photos/gonzalez.jpg"
  },
  "gordini": {
   "name": "Aldo Gordini",
@@ -1257,11 +1378,11 @@
  },
  "gounon": {
   "name": "Jean-Marc Gounon",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Marc%20Gounon%20%282015%29.JPG?width=600"
+  "url": "/drivers/photos/gounon.jpg"
  },
  "graffenried": {
   "name": "Toulo de Graffenried",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toulo%20de%20Graffenried.gif?width=600"
+  "url": "/drivers/photos/graffenried.jpg"
  },
  "graham_whitehead": {
   "name": "Graham Whitehead",
@@ -1269,7 +1390,7 @@
  },
  "grassi": {
   "name": "Lucas di Grassi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TechCrunch%20Disrupt%20Berlin%202018%20%28Day%201%29%2008%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/grassi.jpg"
  },
  "greene": {
   "name": "Keith Greene",
@@ -1277,23 +1398,23 @@
  },
  "gregory": {
   "name": "Masten Gregory",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GregoryMasten1965.jpg?width=600"
+  "url": "/drivers/photos/gregory.jpg"
  },
  "grignard": {
   "name": "Georges Grignard",
-  "url": "https://www.statsf1.com/pilotes/photos/grignard.png"
+  "url": "/drivers/photos/grignard.jpg"
  },
  "grosjean": {
   "name": "Romain Grosjean",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Romain%20Grosjean%20at%20Road%20America%20in%202021.png?width=600"
+  "url": "/drivers/photos/grosjean.jpg"
  },
  "grouillard": {
   "name": "Olivier Grouillard",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Wallace%20%26%20Olivier%20Grouillard%20on%20the%20podium%20at%20the%20Norwich%20Union%20Empire%20Trophy%2C%20Silverstone%204%20Hrs%201995%20%2849890621322%29.jpg?width=600"
+  "url": "/drivers/photos/grouillard.jpg"
  },
  "guelfi": {
   "name": "André Guelfi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Comit%C3%A9%20d%27organisation%20du%20Grand%20Prix%20d%27Agadir%2C%201953%20%28Andr%C3%A9%20Guelfi%29.jpg?width=600"
+  "url": "/drivers/photos/guelfi.jpg"
  },
  "guerra": {
   "name": "Miguel Ángel Guerra",
@@ -1301,11 +1422,11 @@
  },
  "guerrero": {
   "name": "Roberto Guerrero",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto%20Guerrero%202010%20Indy%20500%20Practice%20Day%207.JPG?width=600"
+  "url": "/drivers/photos/guerrero.jpg"
  },
  "gugelmin": {
   "name": "Maurício Gugelmin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gugelmin.jpg?width=600"
+  "url": "/drivers/photos/gugelmin.jpg"
  },
  "gunther-seiffert": {
   "name": "Günther Seiffert",
@@ -1313,27 +1434,27 @@
  },
  "gurney": {
   "name": "Dan Gurney",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Gurney%20%281970%29.jpg?width=600"
+  "url": "/drivers/photos/gurney.jpg"
  },
  "gutierrez": {
   "name": "Esteban Gutiérrez",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gutierrez%20Esteban.JPG?width=600"
+  "url": "/drivers/photos/gutierrez.jpg"
  },
  "guy_mairesse": {
   "name": "Guy Mairesse",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Guymairesse.jpg?width=600"
+  "url": "/drivers/photos/guy_mairesse.jpg"
  },
  "hadjar": {
   "name": "Isack Hadjar",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isack%20Hadjar%20at%20the%20Melbourne%20Walk%20during%20the%202026%20Australian%20Grand%20Prix%20%28028A8753%29%20cropped.jpg?width=600"
+  "url": "/drivers/photos/hadjar.jpg"
  },
  "hahne": {
   "name": "Hubert Hahne",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hahne%2C%20Hubert%20-%201968.jpg?width=600"
+  "url": "/drivers/photos/hahne.jpg"
  },
  "hailwood": {
   "name": "Mike Hailwood",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Hailwood.jpg?width=600"
+  "url": "/drivers/photos/hailwood.jpg"
  },
  "hakkinen": {
   "name": "Mika Häkkinen",
@@ -1355,9 +1476,14 @@
   "name": "David Hampshire",
   "url": "/drivers/photos/hampshire.png"
  },
+ "hans-heyer": {
+  "name": "Hans Heyer",
+  "url": "/drivers/photos/hans-heyer.jpg",
+  "source": "wikipedia"
+ },
  "hans_stuck": {
   "name": "Hans von Stuck",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20102-08188%2C%20Hans%20von%20Stuck.jpg?width=600"
+  "url": "/drivers/photos/hans_stuck.jpg"
  },
  "hansgen": {
   "name": "Walt Hansgen",
@@ -1371,25 +1497,35 @@
   "name": "Cuth Harrison",
   "url": "/drivers/photos/harrison.png"
  },
+ "harry-merkel": {
+  "name": "Harry Merkel",
+  "url": "/drivers/photos/harry-merkel.jpg",
+  "source": "wikipedia"
+ },
  "hart": {
   "name": "Brian Hart",
   "url": "/drivers/photos/hart.jpg"
  },
  "haryanto": {
   "name": "Rio Haryanto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rio%20Haryanto%20Jakarta%202011.jpg?width=600"
+  "url": "/drivers/photos/haryanto.jpg"
  },
  "hasemi": {
   "name": "Masahiro Hasemi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Skyline%20GT-R%20LM%20-%20Kazuyoshi%20Hoshino%2C%20Masahiro%20Hasemi%20%26%20Toshio%20Suzuki%20at%20Dunlop%20Curve%20at%20the%201996%20Le%20Mans%20%2851718055585%29.jpg?width=600"
+  "url": "/drivers/photos/hasemi.jpg"
  },
  "hawkins": {
   "name": "Paul Hawkins",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hawkins%2C_Paul_1966.jpg/960px-Hawkins%2C_Paul_1966.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/hawkins.jpg"
  },
  "hawthorn": {
   "name": "Mike Hawthorn",
   "url": "/drivers/photos/hawthorn.png"
+ },
+ "hayje": {
+  "name": "Boy Hayje",
+  "url": "/drivers/photos/hayje.jpg",
+  "source": "wikipedia"
  },
  "heeks": {
   "name": "Willi Heeks",
@@ -1397,27 +1533,27 @@
  },
  "heidfeld": {
   "name": "Nick Heidfeld",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nick%20Heidfeld%202014%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/heidfeld.jpg"
  },
  "helfrich": {
   "name": "Theo Helfrich",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20roe-neg%200006640%20013%20Portrait%20eines%20Automobilrennfahrers%20in%20seinem%20Wa.jpg?width=600"
+  "url": "/drivers/photos/helfrich.jpg"
  },
  "henry-banks": {
   "name": "Henry Banks",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Banks%201951%20%283%29.jpg?width=600"
+  "url": "/drivers/photos/henry-banks.jpg"
  },
  "henry_taylor": {
   "name": "Henry Taylor",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Henry_Taylor_driving_a_Ford_Cortina_down_the_bobsleigh_run_at_Cortina_d%27Ampezzo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/henry_taylor.jpg"
  },
  "henton": {
   "name": "Brian Henton",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Henton%20%281971%29.jpg?width=600"
+  "url": "/drivers/photos/henton.jpg"
  },
  "herbert": {
   "name": "Johnny Herbert",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Herbert%20at%20Goodwood%202014%20002.jpg?width=600"
+  "url": "/drivers/photos/herbert.jpg"
  },
  "hernando-da-silva-ramos": {
   "name": "Hernando da Silva Ramos",
@@ -1425,7 +1561,7 @@
  },
  "herrmann": {
   "name": "Hans Herrmann",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Herrmann%20%282011%29.jpg?width=600"
+  "url": "/drivers/photos/herrmann.jpg"
  },
  "hesnault": {
   "name": "François Hesnault",
@@ -1433,7 +1569,7 @@
  },
  "hill": {
   "name": "Graham Hill",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HillGraham1969Aug.jpg?width=600"
+  "url": "/drivers/photos/hill.jpg"
  },
  "hirt": {
   "name": "Peter Hirt",
@@ -1441,27 +1577,27 @@
  },
  "hobbs": {
   "name": "David Hobbs",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/David_Hobbs.jpg/960px-David_Hobbs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/hobbs.jpg"
  },
  "hoffmann": {
   "name": "Ingo Hoffmann",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ingo%20Hoffmann%20Interlagos%20Junho%202007.jpg?width=600"
+  "url": "/drivers/photos/hoffmann.jpg"
  },
  "hoshino": {
   "name": "Kazuyoshi Hoshino",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazuyoshi%20Hoshino%202010%20Formula%20Nippon%20Motegi%20%28May%29.jpg?width=600"
+  "url": "/drivers/photos/hoshino.jpg"
  },
  "hulkenberg": {
   "name": "Nico Hülkenberg",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20Formula%20One%20tests%20Barcelona%2C%20Hulkenberg%20%2840287128313%29%20%28headshot%29.jpg?width=600"
+  "url": "/drivers/photos/hulkenberg.jpg"
  },
  "hulme": {
   "name": "Denny Hulme",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HulmeDenis196508%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/hulme.jpg"
  },
  "hunt": {
   "name": "James Hunt",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J.%20Hunt%20in%201977%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/hunt.jpg"
  },
  "hutchison": {
   "name": "Gus Hutchison",
@@ -1469,11 +1605,11 @@
  },
  "ian_scheckter": {
   "name": "Ian Scheckter",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1977%20Argentine%20Grand%20Prix%20Ian%20Scheckter.jpg?width=600"
+  "url": "/drivers/photos/ian_scheckter.jpg"
  },
  "ian_stewart": {
   "name": "Ian Stewart",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Stewart_Ian_Gordon_Highlanders.jpg/960px-Stewart_Ian_Gordon_Highlanders.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/ian_stewart.jpg"
  },
  "ickx": {
   "name": "Jacky Ickx",
@@ -1481,19 +1617,19 @@
  },
  "ide": {
   "name": "Yuji Ide",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuji%20Ide%202008%20Super%20GT.jpg?width=600"
+  "url": "/drivers/photos/ide.jpg"
  },
  "iglesias": {
   "name": "Jesús Iglesias",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jes%C3%BAs_Ricardo_Iglesias_-_El_Gr%C3%A1fico_1687.jpg/960px-Jes%C3%BAs_Ricardo_Iglesias_-_El_Gr%C3%A1fico_1687.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/iglesias.jpg"
  },
  "inoue": {
   "name": "Taki Inoue",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taki%20Inoue%201995%20Britain.jpg?width=600"
+  "url": "/drivers/photos/inoue.jpg"
  },
  "ireland": {
   "name": "Innes Ireland",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Innes%20Ireland%201968.jpg?width=600"
+  "url": "/drivers/photos/ireland.jpg"
  },
  "irvine": {
   "name": "Eddie Irvine",
@@ -1501,15 +1637,15 @@
  },
  "irwin": {
   "name": "Chris Irwin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Irwin%201968.JPG?width=600"
+  "url": "/drivers/photos/irwin.jpg"
  },
  "jabouille": {
   "name": "Jean-Pierre Jabouille",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JeanPierreJabouille1975.jpg?width=600"
+  "url": "/drivers/photos/jabouille.jpg"
  },
  "jack-mcgrath": {
   "name": "Jack McGrath",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jack_McGrath_1951.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/jack-mcgrath.jpg"
  },
  "jack-turner": {
   "name": "Jack Turner",
@@ -1517,19 +1653,34 @@
  },
  "jack_brabham": {
   "name": "Jack Brabham",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BrabhamJack1966B.jpg?width=600"
+  "url": "/drivers/photos/jack_brabham.jpg"
  },
  "jackie-holmes": {
   "name": "Jackie Holmes",
   "url": "/drivers/photos/jackie-holmes.png"
  },
+ "jacques-villeneuve-sr": {
+  "name": "Jacques Villeneuve, Sr.",
+  "url": "/drivers/photos/jacques-villeneuve-sr.jpg",
+  "source": "wikipedia"
+ },
  "jarier": {
   "name": "Jean-Pierre Jarier",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Pierre%20Jarier%20en%201976.jpg?width=600"
+  "url": "/drivers/photos/jarier.jpg"
  },
  "jean": {
   "name": "Max Jean",
   "url": "/drivers/photos/jean.png"
+ },
+ "jean-claude-rudaz": {
+  "name": "Jean-Claude Rudaz",
+  "url": "/drivers/photos/jean-claude-rudaz.jpg",
+  "source": "statsf1"
+ },
+ "jean-lucienbonnet": {
+  "name": "Jean Lucienbonnet",
+  "url": "/drivers/photos/jean-lucienbonnet.jpg",
+  "source": "statsf1"
  },
  "jerry-hoyt": {
   "name": "Jerry Hoyt",
@@ -1537,11 +1688,16 @@
  },
  "jerry-unser": {
   "name": "Jerry Unser",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Johnny_Unser.jpg/960px-Johnny_Unser.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/jerry-unser.jpg"
+ },
+ "jerry-unser-jr": {
+  "name": "Jerry Unser Jr.",
+  "url": "/drivers/photos/jerry-unser-jr.jpg",
+  "source": "wikipedia"
  },
  "jim-hurtubise": {
   "name": "Jim Hurtubise",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Hurtubise.jpg?width=600"
+  "url": "/drivers/photos/jim-hurtubise.jpg"
  },
  "jim-mcwithey": {
   "name": "Jim McWithey",
@@ -1557,15 +1713,15 @@
  },
  "jimmy-bryan": {
   "name": "Jimmy Bryan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bryan%20Dean%20Van%20Lines%20Monza.jpg?width=600"
+  "url": "/drivers/photos/jimmy-bryan.jpg"
  },
  "jimmy-davies": {
   "name": "Jimmy Davies",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Jimmy_Davies_circa_1963.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/jimmy-davies.jpg"
  },
  "jimmy-daywalt": {
   "name": "Jimmy Daywalt",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Indianapolis_Motor_Speedway_Museum_May_2026_05_%28Jimmy_Daywalt%27s_1955_Sumar_Special%29.jpg/960px-Indianapolis_Motor_Speedway_Museum_May_2026_05_%28Jimmy_Daywalt%27s_1955_Sumar_Special%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/jimmy-daywalt.jpg"
  },
  "jimmy-jackson": {
   "name": "Jimmy Jackson",
@@ -1581,7 +1737,12 @@
  },
  "jo_schlesser": {
   "name": "Jo Schlesser",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/PH-13w%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/jo_schlesser.jpg"
+ },
+ "joachim-winkelhock": {
+  "name": "Joachim Winkelhock",
+  "url": "/drivers/photos/joachim-winkelhock.jpg",
+  "source": "wikipedia"
  },
  "joe-james": {
   "name": "Joe James",
@@ -1589,7 +1750,7 @@
  },
  "johansson": {
   "name": "Stefan Johansson",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Stefan_Johansson_at_the_2026_Adelaide_Motorsport_Festival_%28028A6526%29.jpg/960px-Stefan_Johansson_at_the_2026_Adelaide_Motorsport_Festival_%28028A6526%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/johansson.jpg"
  },
  "john_barber": {
   "name": "John Barber",
@@ -1601,11 +1762,11 @@
  },
  "johnnie-parsons": {
   "name": "Johnnie Parsons",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnnie%20Parsons%201947.jpg?width=600"
+  "url": "/drivers/photos/johnnie-parsons.jpg"
  },
  "johnnie-tolan": {
   "name": "Johnnie Tolan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnnie%20Tolan%201950%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/johnnie-tolan.jpg"
  },
  "johnny-boyd": {
   "name": "Johnny Boyd",
@@ -1613,11 +1774,11 @@
  },
  "johnny-mantz": {
   "name": "Johnny Mantz",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Mantz%20USAC%20circa%201957.jpg?width=600"
+  "url": "/drivers/photos/johnny-mantz.jpg"
  },
  "johnny-mcdowell": {
   "name": "Johnny McDowell",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Johnny_McDowell_and_Jean_Marshall_1947.jpg/960px-Johnny_McDowell_and_Jean_Marshall_1947.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/johnny-mcdowell.jpg"
  },
  "johnny-thomson": {
   "name": "Johnny Thomson",
@@ -1633,11 +1794,11 @@
  },
  "jolyon_palmer": {
   "name": "Jolyon Palmer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jolyon%20Palmer%202016%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/jolyon_palmer.jpg"
  },
  "jones": {
   "name": "Alan Jones",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Jones_alan.JPG/960px-Jones_alan.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/jones.jpg"
  },
  "jover": {
   "name": "Juan Jover",
@@ -1649,7 +1810,7 @@
  },
  "jules_bianchi": {
   "name": "Jules Bianchi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jules%20Bianchi%202012-3.JPG?width=600"
+  "url": "/drivers/photos/jules_bianchi.jpg"
  },
  "karch": {
   "name": "Oswald Karch",
@@ -1657,15 +1818,15 @@
  },
  "karthikeyan": {
   "name": "Narain Karthikeyan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narain%20Karthikeyan%202011%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/karthikeyan.jpg"
  },
  "katayama": {
   "name": "Ukyo Katayama",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ukyo%20Katayama%202008.jpg?width=600"
+  "url": "/drivers/photos/katayama.jpg"
  },
  "keegan": {
   "name": "Rupert Keegan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rupert%20Keegan%20leaves%20the%20drivers%20briefing%20at%20the%201978%20Monaco%20GP%20%2850047323536%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/keegan.jpg"
  },
  "keith-andrews": {
   "name": "Keith Andrews",
@@ -1681,31 +1842,41 @@
  },
  "kelly": {
   "name": "Joe Kelly",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Joe_Kelly_in_Jaguar_C-Type.jpg/960px-Joe_Kelly_in_Jaguar_C-Type.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/kelly.jpg"
+ },
+ "ken-kavanagh": {
+  "name": "Ken Kavanagh",
+  "url": "/drivers/photos/ken-kavanagh.jpg",
+  "source": "wikipedia"
  },
  "ken-miles": {
   "name": "Ken Miles",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolphin%20Mk%202%20with%20ken%20MIles.tif?width=600"
+  "url": "/drivers/photos/ken-miles.jpg"
  },
  "kessel": {
   "name": "Loris Kessel",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loris%20Kessel%20-%20Brabham%20BT44%20-%201976%20Race%20of%20Champions%2C%20Brands%20Hatch.jpg?width=600"
+  "url": "/drivers/photos/kessel.jpg"
+ },
+ "kevin-cogan": {
+  "name": "Kevin Cogan",
+  "url": "/drivers/photos/kevin-cogan.jpg",
+  "source": "wikipedia"
  },
  "kevin_magnussen": {
   "name": "Kevin Magnussen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kevin%20Magnussen%2C%202019%20Formula%20One%20Tests%20Barcelona%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/kevin_magnussen.jpg"
  },
  "kiesa": {
   "name": "Nicolas Kiesa",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20kiesa%20lemans2006.jpg?width=600"
+  "url": "/drivers/photos/kiesa.jpg"
  },
  "kinnunen": {
   "name": "Leo Kinnunen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo%20Kinnunen%201966.jpg?width=600"
+  "url": "/drivers/photos/kinnunen.jpg"
  },
  "klenk": {
   "name": "Hans Klenk",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Klenk%20y%20Karl%20king%20ganadores%20Carrera%20Panamericana%201952.jpg?width=600"
+  "url": "/drivers/photos/klenk.jpg"
  },
  "klerk": {
   "name": "Peter de Klerk",
@@ -1713,27 +1884,27 @@
  },
  "klien": {
   "name": "Christian Klien",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian%20Klien%20%2813994163352%29.jpg?width=600"
+  "url": "/drivers/photos/klien.jpg"
  },
  "kling": {
   "name": "Karl Kling",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Kling%20El%20Gr%C3%A1fico.jpg?width=600"
+  "url": "/drivers/photos/kling.jpg"
  },
  "klodwig": {
   "name": "Ernst Klodwig",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20roe-neg%200006301%20028%20Stadtparkrennen%20%22Rund%20um%20das%20Scheibenholz%22.jpg?width=600"
+  "url": "/drivers/photos/klodwig.jpg"
  },
  "kobayashi": {
   "name": "Kamui Kobayashi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamui%20Kobayashi%202024%20WEC%20Fuji%201.jpg?width=600"
+  "url": "/drivers/photos/kobayashi.jpg"
  },
  "koinigg": {
   "name": "Helmuth Koinigg",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koinigg%2C%20Helmut%2C%20BMW%20Alpina%20-%201974-07-13%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/koinigg.jpg"
  },
  "kovalainen": {
   "name": "Heikki Kovalainen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heikki%20Kovalainen%202010%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/kovalainen.jpg"
  },
  "krause": {
   "name": "Rudolf Krause",
@@ -1741,15 +1912,15 @@
  },
  "kubica": {
   "name": "Robert Kubica",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Kubica%20at%20Monza%202023.jpg?width=600"
+  "url": "/drivers/photos/kubica.jpg"
  },
  "kurt-kuhnke": {
   "name": "Kurt Kuhnke",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-82487-0011%2C%20Internationale%20Halle-Saale-Schleife.jpg?width=600"
+  "url": "/drivers/photos/kurt-kuhnke.jpg"
  },
  "kvyat": {
   "name": "Daniil Kvyat",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniil%20Kvyat%202015%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/kvyat.jpg"
  },
  "la_caze": {
   "name": "Robert La Caze",
@@ -1761,15 +1932,15 @@
  },
  "lagorce": {
   "name": "Franck Lagorce",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franck%20Lagorce%20-%20Mondial%20de%20l%27Automobile%20de%20Paris%202016%20-%20003.jpg?width=600"
+  "url": "/drivers/photos/lagorce.jpg"
  },
  "lammers": {
   "name": "Jan Lammers",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Lammers%20LeMans24%202017.jpg?width=600"
+  "url": "/drivers/photos/lammers.jpg"
  },
  "lamy": {
   "name": "Pedro Lamy",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro%20Lamy%20Le%20Mans%20Series%20Interlagos%20Novembro%202007.jpg?width=600"
+  "url": "/drivers/photos/lamy.jpg"
  },
  "landi": {
   "name": "Chico Landi",
@@ -1777,23 +1948,23 @@
  },
  "lang": {
   "name": "Hermann Lang",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermann%20Lang%20El%20Gr%C3%A1fico.jpg?width=600"
+  "url": "/drivers/photos/lang.jpg"
  },
  "larini": {
   "name": "Nicola Larini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicola%20Larini%202006%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/larini.jpg"
  },
  "larrauri": {
   "name": "Oscar Larrauri",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1988%20F1%20Spa%20Oscar%20Larrauri.jpg?width=600"
+  "url": "/drivers/photos/larrauri.jpg"
  },
  "larreta": {
   "name": "Alberto Rodriguez Larreta",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorge%20Rodr%C3%ADguez%20Larreta%20-%20El%20Gr%C3%A1fico%202001.jpg?width=600"
+  "url": "/drivers/photos/larreta.jpg"
  },
  "larrousse": {
   "name": "Gérard Larrousse",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GerardLarrousse1975.jpg?width=600"
+  "url": "/drivers/photos/larrousse.jpg"
  },
  "larry-crockett": {
   "name": "Larry Crockett",
@@ -1801,7 +1972,7 @@
  },
  "latifi": {
   "name": "Nicholas Latifi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas%20Latifi%20at%20Singapore%20in%202022%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/latifi.jpg"
  },
  "lauda": {
   "name": "Niki Lauda",
@@ -1809,11 +1980,11 @@
  },
  "laurent": {
   "name": "Roger Laurent",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ecosse%20and%20Francorchamps%20Jaguar%20C-types%20Zandvoort%201954%20crop.jpg?width=600"
+  "url": "/drivers/photos/laurent.jpg"
  },
  "lavaggi": {
   "name": "Giovanni Lavaggi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lavaggi%20LS1%20Spa%202009.JPG?width=600"
+  "url": "/drivers/photos/lavaggi.jpg"
  },
  "lawrence": {
   "name": "Chris Lawrence",
@@ -1821,7 +1992,7 @@
  },
  "lawson": {
   "name": "Liam Lawson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Liam%20Lawson%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7795%29.jpg?width=600"
+  "url": "/drivers/photos/lawson.jpg"
  },
  "leclerc": {
   "name": "Charles Leclerc",
@@ -1829,7 +2000,7 @@
  },
  "leclere": {
   "name": "Michel Leclère",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Italian%20F3%20Championship%201973-09-23%20Monza%20-%20Michel%20Lecl%C3%A8re%20%28Alpine%20A364%29.jpg?width=600"
+  "url": "/drivers/photos/leclere.jpg"
  },
  "lederle": {
   "name": "Neville Lederle",
@@ -1837,11 +2008,11 @@
  },
  "lee-wallard": {
   "name": "Lee Wallard",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leewallard.jpg?width=600"
+  "url": "/drivers/photos/lee-wallard.jpg"
  },
  "lees": {
   "name": "Geoff Lees",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Geoff_Lees_Shadow_DN11_2018_British_Grand_Prix_%2829871053688%29.jpg/960px-Geoff_Lees_Shadow_DN11_2018_British_Grand_Prix_%2829871053688%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/lees.jpg"
  },
  "legat": {
   "name": "Arthur Legat",
@@ -1849,7 +2020,7 @@
  },
  "lehto": {
   "name": "Jyrki Järvilehto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/JJ%20Lehto%20%28Petit%20Le%20Mans%2C%202004%29.jpg?width=600"
+  "url": "/drivers/photos/lehto.jpg"
  },
  "len-duncan": {
   "name": "Len Duncan",
@@ -1861,11 +2032,11 @@
  },
  "lennep": {
   "name": "Gijs van Lennep",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lennep%2C%20Gijs%20van%20%281971%29.jpg?width=600"
+  "url": "/drivers/photos/lennep.jpg"
  },
  "leoni": {
   "name": "Lamberto Leoni",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamberto%20Leoni%20%281974%29.jpg?width=600"
+  "url": "/drivers/photos/leoni.jpg"
  },
  "leslie_johnson": {
   "name": "Leslie Johnson",
@@ -1881,7 +2052,7 @@
  },
  "lewis": {
   "name": "Jackie Lewis",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph%20of%20Jackie%20Lewis%20in%201961.jpg?width=600"
+  "url": "/drivers/photos/lewis.jpg"
  },
  "lewis-evans": {
   "name": "Stuart Lewis-Evans",
@@ -1889,7 +2060,7 @@
  },
  "ligier": {
   "name": "Guy Ligier",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1983%20Guy%20Ligier.jpg?width=600"
+  "url": "/drivers/photos/ligier.jpg"
  },
  "lippi": {
   "name": "Roberto Lippi",
@@ -1897,15 +2068,15 @@
  },
  "liuzzi": {
   "name": "Vitantonio Liuzzi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitantonio%20Liuzzi%202011%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/liuzzi.jpg"
  },
  "lof": {
   "name": "Dries van der Lof",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Van%20der%20Lof%2C%20Delahaye%20MS%20135%2C%20Bj%201935%20%281977-08-12%29.jpg?width=600"
+  "url": "/drivers/photos/lof.jpg"
  },
  "lombardi": {
   "name": "Lella Lombardi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lombardi%20Brambilla%20cropped.jpg?width=600"
+  "url": "/drivers/photos/lombardi.jpg"
  },
  "londono": {
   "name": "Ricardo Londoño",
@@ -1913,11 +2084,11 @@
  },
  "loof": {
   "name": "Ernst Loof",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Freiburg-%20Ernst%20Loof%2C%20N%C3%BCrburgring%20%28schlafend%29%20-%20LABW%20-%20Staatsarchiv%20Freiburg%20W%20134%20Nr.%20019857a.jpeg?width=600"
+  "url": "/drivers/photos/loof.jpg"
  },
  "lotterer": {
   "name": "André Lotterer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andre%20Lotterer%202024%20WEC%20Fuji%202.jpg?width=600"
+  "url": "/drivers/photos/lotterer.jpg"
  },
  "louveau": {
   "name": "Henri Louveau",
@@ -1925,7 +2096,7 @@
  },
  "love": {
   "name": "John Love",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/John_Love_Surtees_TS9_2019_Silverstone_Classic_%2848557776041%29.jpg/960px-John_Love_Surtees_TS9_2019_Silverstone_Classic_%2848557776041%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/love.jpg"
  },
  "lovely": {
   "name": "Pete Lovely",
@@ -1933,15 +2104,20 @@
  },
  "loyer": {
   "name": "Roger Loyer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Loyer%20sur%20Porsche%20spyder%20550%2C%20en%201956.jpg?width=600"
+  "url": "/drivers/photos/loyer.jpg"
  },
  "lucas": {
   "name": "Jean Lucas",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1953-02-27%20Agadir%20Ferrari%20225%200164ED%20Lucas.jpg?width=600"
+  "url": "/drivers/photos/lucas.jpg"
+ },
+ "luigi-taramazzo": {
+  "name": "Luigi Taramazzo",
+  "url": "/drivers/photos/luigi-taramazzo.jpg",
+  "source": "wikipedia"
  },
  "lunger": {
   "name": "Brett Lunger",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SurteesTS19BarryBoor.JPG?width=600"
+  "url": "/drivers/photos/lunger.jpg"
  },
  "macdowel": {
   "name": "Mike MacDowel",
@@ -1965,31 +2141,31 @@
  },
  "maggs": {
   "name": "Tony Maggs",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/P.%20Hill%20and%20Maggs%20at%201962%20Dutch%20Grand%20Prix.jpg?width=600"
+  "url": "/drivers/photos/maggs.jpg"
  },
  "maglioli": {
   "name": "Umberto Maglioli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umberto%20Maglioli.jpg?width=600"
+  "url": "/drivers/photos/maglioli.jpg"
  },
  "magnussen": {
   "name": "Jan Magnussen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20Magnussen%20%2837535519996%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/magnussen.jpg"
  },
  "mairesse": {
   "name": "Willy Mairesse",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Willy%20Mairesse.jpg?width=600"
+  "url": "/drivers/photos/mairesse.jpg"
  },
  "maldonado": {
   "name": "Pastor Maldonado",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pastor%20Maldonado%202015%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/maldonado.jpg"
  },
  "manfred_winkelhock": {
   "name": "Manfred Winkelhock",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/WinkelhockM1985.jpg?width=600"
+  "url": "/drivers/photos/manfred_winkelhock.jpg"
  },
  "manny-ayulo": {
   "name": "Manny Ayulo",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ralph%20DePalma%20and%20Manny%20Ayulo%201954.jpg?width=600"
+  "url": "/drivers/photos/manny-ayulo.jpg"
  },
  "mansell": {
   "name": "Nigel Mansell",
@@ -1997,7 +2173,7 @@
  },
  "mantovani": {
   "name": "Sergio Mantovani",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SergioMantovani-AlfaRomeo.png?width=600"
+  "url": "/drivers/photos/mantovani.jpg"
  },
  "manzon": {
   "name": "Robert Manzon",
@@ -2005,7 +2181,7 @@
  },
  "marimon": {
   "name": "Onofre Marimón",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Onofre%20Marim%C3%B3n%20-%20El%20Gr%C3%A1fico%201708.jpg?width=600"
+  "url": "/drivers/photos/marimon.jpg"
  },
  "mario_andretti": {
   "name": "Mario Andretti",
@@ -2013,19 +2189,19 @@
  },
  "marko": {
   "name": "Helmut Marko",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marko%2C%20Helmut%201970%20%28sw%29.jpg?width=600"
+  "url": "/drivers/photos/marko.jpg"
  },
  "markus_winkelhock": {
   "name": "Markus Winkelhock",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MarkusWinkelhock.jpg?width=600"
+  "url": "/drivers/photos/markus_winkelhock.jpg"
  },
  "marques": {
   "name": "Tarso Marques",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarso%20Marques%202007%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/marques.jpg"
  },
  "marr": {
   "name": "Leslie Marr",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leslie%20Marr%20with%20painting%202019.jpg?width=600"
+  "url": "/drivers/photos/marr.jpg"
  },
  "marsh": {
   "name": "Tony Marsh",
@@ -2033,7 +2209,7 @@
  },
  "marshall-teague": {
   "name": "Marshall Teague",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Marshall_Teague_USAC_circa_1957.jpg/960px-Marshall_Teague_USAC_circa_1957.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/marshall-teague.jpg"
  },
  "martin": {
   "name": "Eugène Martin",
@@ -2041,19 +2217,24 @@
  },
  "martini": {
   "name": "Pierluigi Martini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierluigi%20Martini%20in%202016.jpg?width=600"
+  "url": "/drivers/photos/martini.jpg"
+ },
+ "masami-kuwashima": {
+  "name": "Masami Kuwashima",
+  "url": "/drivers/photos/masami-kuwashima.jpg",
+  "source": "statsf1"
  },
  "mass": {
   "name": "Jochen Mass",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mass%20at%201982%20Dutch%20Grand%20Prix.jpg?width=600"
+  "url": "/drivers/photos/mass.jpg"
  },
  "massa": {
   "name": "Felipe Massa",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Felipe%20Massa%20in%202018%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/massa.jpg"
  },
  "matta": {
   "name": "Cristiano da Matta",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cdmlb06.jpg?width=600"
+  "url": "/drivers/photos/matta.jpg"
  },
  "mauri-rose": {
   "name": "Mauri Rose",
@@ -2069,11 +2250,11 @@
  },
  "mayer": {
   "name": "Timmy Mayer",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Tim_Mayer.jpg/960px-Tim_Mayer.jpg"
+  "url": "/drivers/photos/mayer.jpg"
  },
  "mazepin": {
   "name": "Nikita Mazepin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazepin%202019.jpg?width=600"
+  "url": "/drivers/photos/mazepin.jpg"
  },
  "mazet": {
   "name": "François Mazet",
@@ -2081,7 +2262,7 @@
  },
  "mazzacane": {
   "name": "Gastón Mazzacane",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaston%20Mazzacane%202018%20%28cropped%29.png?width=600"
+  "url": "/drivers/photos/mazzacane.jpg"
  },
  "mcalpine": {
   "name": "Kenneth McAlpine",
@@ -2089,19 +2270,19 @@
  },
  "mccarthy": {
   "name": "Perry McCarthy",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2003%20pq%20paddocks-perry-mccarthy.jpg?width=600"
+  "url": "/drivers/photos/mccarthy.jpg"
  },
  "mclaren": {
   "name": "Bruce McLaren",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/McLarenBruce.jpg?width=600"
+  "url": "/drivers/photos/mclaren.jpg"
  },
  "mcnish": {
   "name": "Allan McNish",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Allan-McNish-FormulaE-2019-Audi.jpg?width=600"
+  "url": "/drivers/photos/mcnish.jpg"
  },
  "mcrae": {
   "name": "Graham McRae",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Graham%20McRae%20at%20Levin%201970.jpg?width=600"
+  "url": "/drivers/photos/mcrae.jpg"
  },
  "menato-boffa": {
   "name": "Menato Boffa",
@@ -2109,15 +2290,20 @@
  },
  "menditeguy": {
   "name": "Carlos Menditeguy",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlos%20Menditeguy%20-%20El%20Gr%C3%A1fico%202152.jpg?width=600"
+  "url": "/drivers/photos/menditeguy.jpg"
  },
  "merhi": {
   "name": "Roberto Merhi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto%20Merhi%202015%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/merhi.jpg"
  },
  "merzario": {
   "name": "Arturo Merzario",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arturo%20Merzario%20en%201973.jpg?width=600"
+  "url": "/drivers/photos/merzario.jpg"
+ },
+ "michael-bartels": {
+  "name": "Michael Bartels",
+  "url": "/drivers/photos/michael-bartels.jpg",
+  "source": "wikipedia"
  },
  "michael_schumacher": {
   "name": "Michael Schumacher",
@@ -2125,15 +2311,15 @@
  },
  "mick_schumacher": {
   "name": "Mick Schumacher",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mick%20Schumacher%20in%202022.JPG?width=600"
+  "url": "/drivers/photos/mick_schumacher.jpg"
  },
  "mieres": {
   "name": "Roberto Mieres",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto%20Mieres%20-%20El%20Gr%C3%A1fico%201770.jpg?width=600"
+  "url": "/drivers/photos/mieres.jpg"
  },
  "migault": {
   "name": "François Migault",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rondeau%20M482%20-%20Jean%20Rondeau%20%26%20Francois%20Migault%20at%20the%201982%20Silverstone%206%20Hours%20%2849905175726%29.jpg?width=600"
+  "url": "/drivers/photos/migault.jpg"
  },
  "mike-magill": {
   "name": "Mike Magill",
@@ -2147,9 +2333,14 @@
   "name": "Mike Taylor",
   "url": "/drivers/photos/mike_taylor.jpg"
  },
+ "mikko-kozarowitzky": {
+  "name": "Mikko Kozarowitzky",
+  "url": "/drivers/photos/mikko-kozarowitzky.jpg",
+  "source": "statsf1"
+ },
  "miles": {
   "name": "John Miles",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/John_Miles_1970_N%C3%BCrburgring.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/miles.jpg"
  },
  "milhoux": {
   "name": "André Milhoux",
@@ -2157,23 +2348,23 @@
  },
  "mitter": {
   "name": "Gerhard Mitter",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MitterGerhard1968.jpg?width=600"
+  "url": "/drivers/photos/mitter.jpg"
  },
  "modena": {
   "name": "Stefano Modena",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1988%20GP%20Imola%20Stefano%20Modena%20Eurobrun.jpg?width=600"
+  "url": "/drivers/photos/modena.jpg"
  },
  "montagny": {
   "name": "Franck Montagny",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Franck%20Montagny%20Le%20Mans%20drivers%20parade%202011%20crop.jpg?width=600"
+  "url": "/drivers/photos/montagny.jpg"
  },
  "monteiro": {
   "name": "Tiago Monteiro",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiago%20Monteiro%202010%20WTCC%20Race%20of%20Japan.jpg?width=600"
+  "url": "/drivers/photos/monteiro.jpg"
  },
  "montermini": {
   "name": "Andrea Montermini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea%20Montermini%20at%20the%202026%20Adelaide%20Motorsport%20Festival%20%28028A7639%29.jpg?width=600"
+  "url": "/drivers/photos/montermini.jpg"
  },
  "montoya": {
   "name": "Juan Pablo Montoya",
@@ -2181,11 +2372,11 @@
  },
  "morbidelli": {
   "name": "Gianni Morbidelli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gianni%20morbidelli%20spafrancorchamps2014.JPG?width=600"
+  "url": "/drivers/photos/morbidelli.jpg"
  },
  "moreno": {
   "name": "Roberto Moreno",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto%20Moreno%202007%20Desafio%20Internacional%20das%20Estrelas.jpg?width=600"
+  "url": "/drivers/photos/moreno.jpg"
  },
  "morgan": {
   "name": "Dave Morgan",
@@ -2193,7 +2384,7 @@
  },
  "moser": {
   "name": "Silvio Moser",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SilvioMoser.jpg?width=600"
+  "url": "/drivers/photos/moser.jpg"
  },
  "moss": {
   "name": "Stirling Moss",
@@ -2201,7 +2392,7 @@
  },
  "munaron": {
   "name": "Gino Munaron",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1957-08-11%20Kristianstad%20Ferrari%20500%200698MDTR%20Munaron.jpg?width=600"
+  "url": "/drivers/photos/munaron.jpg"
  },
  "murray": {
   "name": "David Murray",
@@ -2209,31 +2400,36 @@
  },
  "musso": {
   "name": "Luigi Musso",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Musso.jpg?width=600"
+  "url": "/drivers/photos/musso.jpg"
  },
  "myron-fohr": {
   "name": "Myron Fohr",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Myron%20Fohr%20%28circa%201946%29%20%281%29.jpg?width=600"
+  "url": "/drivers/photos/myron-fohr.jpg"
  },
  "nakajima": {
   "name": "Kazuki Nakajima",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kazuki%20Nakajima%202012%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/nakajima.jpg"
  },
  "nakano": {
   "name": "Shinji Nakano",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinji%20Nakano%202009%20Japan.jpg?width=600"
+  "url": "/drivers/photos/nakano.jpg"
  },
  "nannini": {
   "name": "Alessandro Nannini",
   "url": "/drivers/photos/nannini.jpg"
  },
+ "naoki-hattori": {
+  "name": "Naoki Hattori",
+  "url": "/drivers/photos/naoki-hattori.jpg",
+  "source": "wikipedia"
+ },
  "naspetti": {
   "name": "Emanuele Naspetti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20575%20Maranello%20GTC%20-%20Emanuele%20Naspetti%20%26%20Gianni%20Morbidelli%20at%20Melbourne%20at%20the%202004%20FIA%20GT%20Championship%2C%20Donington%20%2850932599771%29.jpg?width=600"
+  "url": "/drivers/photos/naspetti.jpg"
  },
  "nasr": {
   "name": "Felipe Nasr",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piloto%20Felipe%20Nasr%20fala%20%C3%A0%20imprensa%20ap%C3%B3s%20encontro%20com%20Temer%20%2828412246304%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/nasr.jpg"
  },
  "natili": {
   "name": "Massimo Natili",
@@ -2245,7 +2441,7 @@
  },
  "needell": {
   "name": "Tiff Needell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TiffNeedell.jpg?width=600"
+  "url": "/drivers/photos/needell.jpg"
  },
  "neve": {
   "name": "Patrick Nève",
@@ -2265,15 +2461,15 @@
  },
  "nilsson": {
   "name": "Gunnar Nilsson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1976-07-10%20Gunnar%20Nilsson%20im%20BMW%20CSL.jpg?width=600"
+  "url": "/drivers/photos/nilsson.jpg"
  },
  "noda": {
   "name": "Hideki Noda",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hideki%20Noda%202009%201000km%20of%20Okayama.jpg?width=600"
+  "url": "/drivers/photos/noda.jpg"
  },
  "norris": {
   "name": "Lando Norris",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-08-25%20Motorsport%2C%20Formel%201%2C%20Gro%C3%9Fer%20Preis%20der%20Niederlande%202024%20STP%204016%20by%20Stepro%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/norris.jpg"
  },
  "nuckey": {
   "name": "Rodney Nuckey",
@@ -2285,19 +2481,19 @@
  },
  "ocon": {
   "name": "Esteban Ocon",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Esteban%20Ocon%202017%20Malaysia%201.jpg?width=600"
+  "url": "/drivers/photos/ocon.jpg"
  },
  "oliver": {
   "name": "Jackie Oliver",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jackie%20Oliver%201969%20kl.JPG?width=600"
+  "url": "/drivers/photos/oliver.jpg"
  },
  "ongais": {
   "name": "Danny Ongais",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ongais%2C%20Danny%20%281984%29.jpg?width=600"
+  "url": "/drivers/photos/ongais.jpg"
  },
  "opel": {
   "name": "Rikky von Opel",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ensign%20at%20Silverstone%20Classic%202012.jpg?width=600"
+  "url": "/drivers/photos/opel.jpg"
  },
  "orey": {
   "name": "Fritz d'Orey",
@@ -2313,11 +2509,11 @@
  },
  "pace": {
   "name": "Carlos Pace",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9%20Carlos%20Pace%2C%20sem%20data.tif?width=600"
+  "url": "/drivers/photos/pace.jpg"
  },
  "pagani": {
   "name": "Nello Pagani",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canzonissima%201972%20-%20Nello%20Pagani.png?width=600"
+  "url": "/drivers/photos/pagani.jpg"
  },
  "paletti": {
   "name": "Riccardo Paletti",
@@ -2329,19 +2525,19 @@
  },
  "palmer": {
   "name": "Jonathan Palmer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Palmer%20Profile.jpg?width=600"
+  "url": "/drivers/photos/palmer.jpg"
  },
  "panis": {
   "name": "Olivier Panis",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Olivier%20Panis%202002.jpg?width=600"
+  "url": "/drivers/photos/panis.jpg"
  },
  "pantano": {
   "name": "Giorgio Pantano",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giorgiopantano01.jpg?width=600"
+  "url": "/drivers/photos/pantano.jpg"
  },
  "papis": {
   "name": "Massimiliano Papis",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Max%20Papis.jpg?width=600"
+  "url": "/drivers/photos/papis.jpg"
  },
  "parker": {
   "name": "Philip Fotheringham-Parker",
@@ -2349,7 +2545,7 @@
  },
  "parkes": {
   "name": "Mike Parkes",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Parkes%201969%20kl.JPG?width=600"
+  "url": "/drivers/photos/parkes.jpg"
  },
  "parnell": {
   "name": "Tim Parnell",
@@ -2373,31 +2569,36 @@
  },
  "paul-russo": {
   "name": "Paul Russo",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Russo%201947.jpg?width=600"
+  "url": "/drivers/photos/paul-russo.jpg"
  },
  "pease": {
   "name": "Al Pease",
   "url": "/drivers/photos/pease.jpg"
  },
+ "pedro-chaves": {
+  "name": "Pedro Chaves",
+  "url": "/drivers/photos/pedro-chaves.jpg",
+  "source": "wikipedia"
+ },
  "penske": {
   "name": "Roger Penske",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RogerPenske2010NMPA.jpg?width=600"
+  "url": "/drivers/photos/penske.jpg"
  },
  "perdisa": {
   "name": "Cesare Perdisa",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1966%20Modena%20Quattroporte%20Orsi%20Benvenuti%20Perdisa.png?width=600"
+  "url": "/drivers/photos/perdisa.jpg"
  },
  "perez": {
   "name": "Sergio Pérez",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%20US%20GP%20driver%20parade%20%28cropped2%29.jpg?width=600"
+  "url": "/drivers/photos/perez.jpg"
  },
  "perkins": {
   "name": "Larry Perkins",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20Perkins%20at%20the%202025%20Adelaide%20Grand%20Final%20-%2001.jpg?width=600"
+  "url": "/drivers/photos/perkins.jpg"
  },
  "pescarolo": {
   "name": "Henri Pescarolo",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henri%20Pescarolo%202007%20Mil%20Milhas%20Brasil.jpg?width=600"
+  "url": "/drivers/photos/pescarolo.jpg"
  },
  "pesenti_rossi": {
   "name": "Alessandro Pesenti-Rossi",
@@ -2405,7 +2606,12 @@
  },
  "peter-monteverdi": {
   "name": "Peter Monteverdi",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Peter_Monteverdi-1.jpg/960px-Peter_Monteverdi-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/peter-monteverdi.jpg"
+ },
+ "peter-westbury": {
+  "name": "Peter Westbury",
+  "url": "/drivers/photos/peter-westbury.jpg",
+  "source": "wikipedia"
  },
  "peter_walker": {
   "name": "Peter Walker",
@@ -2417,19 +2623,19 @@
  },
  "peterson": {
   "name": "Ronnie Peterson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ronnie%20Peterson%201971%20Hockenheim.JPG?width=600"
+  "url": "/drivers/photos/peterson.jpg"
  },
  "petrov": {
   "name": "Vitaly Petrov",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitaly%20Petrov%20in%20Goodwood.jpg?width=600"
+  "url": "/drivers/photos/petrov.jpg"
  },
  "phil_hill": {
   "name": "Phil Hill",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phil%20Hill%201991%20USA%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/phil_hill.jpg"
  },
  "pian": {
   "name": "Alfredo Pián",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfredo%20Pian%20-%20El%20Gr%C3%A1fico%201573.jpg?width=600"
+  "url": "/drivers/photos/pian.jpg"
  },
  "piastri": {
   "name": "Oscar Piastri",
@@ -2437,11 +2643,16 @@
  },
  "pic": {
   "name": "Charles Pic",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Pic%20Moscow%202013%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/pic.jpg"
  },
  "picard": {
   "name": "François Picard",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1956-07-28%20Le%20Mans%20Ferrari%20500%200654TR%20Picard.jpg?width=600"
+  "url": "/drivers/photos/picard.jpg"
+ },
+ "piero-dusio": {
+  "name": "Piero Dusio",
+  "url": "/drivers/photos/piero-dusio.jpg",
+  "source": "wikipedia"
  },
  "pieterse": {
   "name": "Ernie Pieterse",
@@ -2449,15 +2660,15 @@
  },
  "pietro_fittipaldi": {
   "name": "Pietro Fittipaldi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pietro%20and%20Enzo%20Fittipaldi%20%28cropped%29%20%281%29.jpg?width=600"
+  "url": "/drivers/photos/pietro_fittipaldi.jpg"
  },
  "pietsch": {
   "name": "Paul Pietsch",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1938-05-22%20Targa%20Florio%20Maserati%204CM%20Pietsch.jpg?width=600"
+  "url": "/drivers/photos/pietsch.jpg"
  },
  "pilette": {
   "name": "Teddy Pilette",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/TeddyPilette1975.jpg?width=600"
+  "url": "/drivers/photos/pilette.jpg"
  },
  "piotti": {
   "name": "Luigi Piotti",
@@ -2465,7 +2676,7 @@
  },
  "piper": {
   "name": "David Piper",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/David-Piper-img_20090425_69625.jpg/960px-David-Piper-img_20090425_69625.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/piper.jpg"
  },
  "piquet": {
   "name": "Nelson Piquet",
@@ -2473,27 +2684,27 @@
  },
  "piquet_jr": {
   "name": "Nelson Piquet Jr.",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piquet%20Jr.%202015.jpg?width=600"
+  "url": "/drivers/photos/piquet_jr.jpg"
  },
  "pirocchi": {
   "name": "Renato Pirocchi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Renato%20Pirocchi%20-%20VII%20Gran%20Premio%20di%20Modena%20F1%201961.jpg?width=600"
+  "url": "/drivers/photos/pirocchi.jpg"
  },
  "pironi": {
   "name": "Didier Pironi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Didier%20Pironi%201982.jpg?width=600"
+  "url": "/drivers/photos/pironi.jpg"
  },
  "pirro": {
   "name": "Emanuele Pirro",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emanuele%20Pirro%202012%20WEC%20Fuji%202.jpg?width=600"
+  "url": "/drivers/photos/pirro.jpg"
  },
  "pizzonia": {
   "name": "Antônio Pizzonia",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fale%20F1%20Monza%202004%2013.jpg?width=600"
+  "url": "/drivers/photos/pizzonia.jpg"
  },
  "poele": {
   "name": "Eric van de Poele",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric%20van%20de%20Poele%202008.jpg?width=600"
+  "url": "/drivers/photos/poele.jpg"
  },
  "pollet": {
   "name": "Jacques Pollet",
@@ -2501,7 +2712,7 @@
  },
  "pon": {
   "name": "Ben Pon",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben%20Pon%20%281964%29.jpg?width=600"
+  "url": "/drivers/photos/pon.jpg"
  },
  "poore": {
   "name": "Dennis Poore",
@@ -2509,11 +2720,11 @@
  },
  "portago": {
   "name": "Alfonso de Portago",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfonso%2C%20Marquess%20of%20Portago.jpg?width=600"
+  "url": "/drivers/photos/portago.jpg"
  },
  "posey": {
   "name": "Sam Posey",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Surtees%20TS9B%20Sam%20Posey%60%20Goodwood%202008.jpg?width=600"
+  "url": "/drivers/photos/posey.jpg"
  },
  "pozzi": {
   "name": "Charles Pozzi",
@@ -2533,7 +2744,7 @@
  },
  "pryce": {
   "name": "Tom Pryce",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Pryce%201975%20Watkins%20Glen.jpg?width=600"
+  "url": "/drivers/photos/pryce.jpg"
  },
  "purley": {
   "name": "David Purley",
@@ -2541,7 +2752,7 @@
  },
  "quester": {
   "name": "Dieter Quester",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/QuesterDieter1973.jpg?width=600"
+  "url": "/drivers/photos/quester.jpg"
  },
  "raby": {
   "name": "Ian Raby",
@@ -2549,7 +2760,7 @@
  },
  "rahal": {
   "name": "Bobby Rahal",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby%20Rahal%20at%20the%20Barber%20Legends%20of%20Motorsport%202010.jpg?width=600"
+  "url": "/drivers/photos/rahal.jpg"
  },
  "raikkonen": {
   "name": "Kimi Räikkönen",
@@ -2565,11 +2776,11 @@
  },
  "raphanel": {
   "name": "Pierre-Henri Raphanel",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mclaren%20F1%20GTR%20-%20Pierre-Henri%20Raphanel%20%26%20Lindsay%20Owen-Jones%20at%20Donington%201995%20%2849673632817%29.jpg?width=600"
+  "url": "/drivers/photos/raphanel.jpg"
  },
  "ratzenberger": {
   "name": "Roland Ratzenberger",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ratzenberger%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/ratzenberger.jpg"
  },
  "ray-crawford": {
   "name": "Ray Crawford",
@@ -2581,7 +2792,7 @@
  },
  "rebaque": {
   "name": "Hector Rebaque",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1981%20Argentine%20Grand%20Prix%2C%20Rebaque.jpg?width=600"
+  "url": "/drivers/photos/rebaque.jpg"
  },
  "red-amick": {
   "name": "Red Amick",
@@ -2589,35 +2800,35 @@
  },
  "redman": {
   "name": "Brian Redman",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Redman%201969%20kl.JPG?width=600"
+  "url": "/drivers/photos/redman.jpg"
  },
  "rees": {
   "name": "Alan Rees",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pits%20at%201970%20Dutch%20Grand%20Prix%20%283%29.jpg?width=600"
+  "url": "/drivers/photos/rees.jpg"
  },
  "reg_parnell": {
   "name": "Reg Parnell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autoraces%20te%20Zandvoort%2C%20Bestanddeelnr%20902-9002.jpg?width=600"
+  "url": "/drivers/photos/reg_parnell.jpg"
  },
  "regazzoni": {
   "name": "Clay Regazzoni",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anefo%20924-6609%20Clay%20Reggazoni%2C%20Catherine%20Blaton%2C%20Jacky%20Ickx%20Zandvoort%2018%2006%201971%20-%20Cropped.jpg?width=600"
+  "url": "/drivers/photos/regazzoni.jpg"
  },
  "resta": {
   "name": "Paul di Resta",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2014%20DTM%20HockenheimringII%20Paul%20di%20Resta%20by%202eight%208SC5384%20%28cropped2%29.jpg?width=600"
+  "url": "/drivers/photos/resta.jpg"
  },
  "reutemann": {
   "name": "Carlos Reutemann",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reutemann%201981.jpg?width=600"
+  "url": "/drivers/photos/reutemann.jpg"
  },
  "reventlow": {
   "name": "Lance Reventlow",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lance%20Reventlow%20wedding%20portrait%2C%20Calif.%2C%201964%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/reventlow.jpg"
  },
  "revson": {
   "name": "Peter Revson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Revson%201973%20N%C3%BCrburgring%20a.jpg?width=600"
+  "url": "/drivers/photos/revson.jpg"
  },
  "rhodes": {
   "name": "John Rhodes",
@@ -2625,11 +2836,11 @@
  },
  "ribeiro": {
   "name": "Alex Ribeiro",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Ribeiro.jpg?width=600"
+  "url": "/drivers/photos/ribeiro.jpg"
  },
  "ricardo_rodriguez": {
   "name": "Ricardo Rodríguez",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Rodr%C3%ADguez_at_1962_Dutch_Grand_Prix.jpg/960px-Rodr%C3%ADguez_at_1962_Dutch_Grand_Prix.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/ricardo_rodriguez.jpg"
  },
  "ricciardo": {
   "name": "Daniel Ricciardo",
@@ -2641,7 +2852,7 @@
  },
  "riess": {
   "name": "Fritz Riess",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fritz%20Rie%C3%9F.jpg?width=600"
+  "url": "/drivers/photos/riess.jpg"
  },
  "rindt": {
   "name": "Jochen Rindt",
@@ -2653,7 +2864,7 @@
  },
  "rob-slotemaker": {
   "name": "Rob Slotemaker",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rob%20Slotemaker%201966.jpg?width=600"
+  "url": "/drivers/photos/rob-slotemaker.jpg"
  },
  "robarts": {
   "name": "Richard Robarts",
@@ -2661,19 +2872,19 @@
  },
  "rodriguez": {
   "name": "Pedro Rodríguez",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Pedro_Rodr%C3%ADguez_1968_N%C3%BCrburgring-1_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/rodriguez.jpg"
  },
  "roig": {
   "name": "Alex Soler-Roig",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Soler-Roig%2C%20Spain%201931.jpg?width=600"
+  "url": "/drivers/photos/roig.jpg"
  },
  "rol": {
   "name": "Franco Rol",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1950-07-16%20Dolomiti%20Maserati%20A6GCS%20Rol.jpg?width=600"
+  "url": "/drivers/photos/rol.jpg"
  },
  "rolt": {
   "name": "Tony Rolt",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Autoraces%20te%20Zandvoort.%20Tony%20Rolt%20met%20zijn%20Alfa%20Romeo%20onderaan%20de%20Hunzerug%2C%20Bestanddeelnr%20902-9012.jpg?width=600"
+  "url": "/drivers/photos/rolt.jpg"
  },
  "roos": {
   "name": "Bertil Roos",
@@ -2681,11 +2892,11 @@
  },
  "rooyen": {
   "name": "Basil van Rooyen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20of%20Basil%20van%20Rooyen.jpg?width=600"
+  "url": "/drivers/photos/rooyen.jpg"
  },
  "rosa": {
   "name": "Pedro de la Rosa",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro%20de%20la%20Rosa%202010%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/rosa.jpg"
  },
  "rosberg": {
   "name": "Nico Rosberg",
@@ -2693,19 +2904,19 @@
  },
  "rosier": {
   "name": "Louis Rosier",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis%20Rosier%20Zandvoort%201950.jpg?width=600"
+  "url": "/drivers/photos/rosier.jpg"
  },
  "rosset": {
   "name": "Ricardo Rosset",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ricardo%20Rosset%20at%201997%20Australian%20Grand%20Prix.jpg?width=600"
+  "url": "/drivers/photos/rosset.jpg"
  },
  "rossi": {
   "name": "Alexander Rossi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andretti%20Autosport%20Visit%20180405-F-KS667-0012%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/rossi.jpg"
  },
  "rothengatter": {
   "name": "Huub Rothengatter",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Huub%20Rothengatter%20%281977%29.jpg?width=600"
+  "url": "/drivers/photos/rothengatter.jpg"
  },
  "ruby": {
   "name": "Lloyd Ruby",
@@ -2713,11 +2924,11 @@
  },
  "russell": {
   "name": "George Russell",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/KingsLeonSilverstne040724_%2828_of_112%29_%2853838006028%29_%28cropped%29.jpg/960px-KingsLeonSilverstne040724_%2828_of_112%29_%2853838006028%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/russell.jpg"
  },
  "ruttman": {
   "name": "Troy Ruttman",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Troy%20Ruttman%201951.jpg?width=600"
+  "url": "/drivers/photos/ruttman.jpg"
  },
  "ryan": {
   "name": "Peter Ryan",
@@ -2725,7 +2936,7 @@
  },
  "said": {
   "name": "Bob Said",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trainingsdag%20sportwagenraces%20Zandvoort%20Amerikaan.%20Boris%20%27Bob%20Said%20bij%20zijn%20Ferr%E2%80%A6%2C%20Bestanddeelnr%20906-6631%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/said.jpg"
  },
  "sainz": {
   "name": "Carlos Sainz",
@@ -2737,47 +2948,47 @@
  },
  "salazar": {
   "name": "Eliseo Salazar",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eliseo%20Salazar%201982.jpg?width=600"
+  "url": "/drivers/photos/salazar.jpg"
  },
  "salo": {
   "name": "Mika Salo",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mika%20Salo%20Le%20Mans%202009%20cropped.jpg?width=600"
+  "url": "/drivers/photos/salo.jpg"
  },
  "salvadori": {
   "name": "Roy Salvadori",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1958-03-22%20Sebring%20Roy%20Salvadori.jpg?width=600"
+  "url": "/drivers/photos/salvadori.jpg"
  },
  "sam-hanks": {
   "name": "Sam Hanks",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sam%20Hanks%201942.jpg?width=600"
+  "url": "/drivers/photos/sam-hanks.jpg"
  },
  "sanesi": {
   "name": "Consalvo Sanesi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Consalvo%20Sanesi.jpg?width=600"
+  "url": "/drivers/photos/sanesi.jpg"
  },
  "sargeant": {
   "name": "Logan Sargeant",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logan%20Sargeant%20NYC%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/sargeant.jpg"
  },
  "sarrazin": {
   "name": "Stéphane Sarrazin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephane%20Sarrazin%202012%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/sarrazin.jpg"
  },
  "sato": {
   "name": "Takuma Sato",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Takuma%20Sato%202012%20WEC%20Fuji.jpg?width=600"
+  "url": "/drivers/photos/sato.jpg"
  },
  "satoru_nakajima": {
   "name": "Satoru Nakajima",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Satoru%20Nakajima%202008%20Motorsport%20Japan.jpg?width=600"
+  "url": "/drivers/photos/satoru_nakajima.jpg"
  },
  "scarfiotti": {
   "name": "Ludovico Scarfiotti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ludivico%20Scarfiotti%201966%20N%C3%BCrburgring.jpg?width=600"
+  "url": "/drivers/photos/scarfiotti.jpg"
  },
  "scarlatti": {
   "name": "Giorgio Scarlatti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1957-08-18%20Pescara%20GP%20Maserati%20250%20Scarlatti.jpg?width=600"
+  "url": "/drivers/photos/scarlatti.jpg"
  },
  "scheckter": {
   "name": "Jody Scheckter",
@@ -2785,11 +2996,11 @@
  },
  "schell": {
   "name": "Harry Schell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1957ArgentineGP05%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/schell.jpg"
  },
  "schenken": {
   "name": "Tim Schenken",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Schenken%201971%20Hockenheim.JPG?width=600"
+  "url": "/drivers/photos/schenken.jpg"
  },
  "scherrer": {
   "name": "Albert Scherrer",
@@ -2797,19 +3008,19 @@
  },
  "schiattarella": {
   "name": "Domenico Schiattarella",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Simtek%20S951%201995.PNG?width=600"
+  "url": "/drivers/photos/schiattarella.jpg"
  },
  "schiller": {
   "name": "Heinz Schiller",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1964-05-31%20Nr.%2065%20Siffert%2CSchiller%2C%20Nr.%2045%20Pon%2C%20Koch.JPG?width=600"
+  "url": "/drivers/photos/schiller.jpg"
  },
  "schlesser": {
   "name": "Jean-Louis Schlesser",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Louis%20Schlesser%2C%202013.JPG?width=600"
+  "url": "/drivers/photos/schlesser.jpg"
  },
  "schneider": {
   "name": "Bernd Schneider",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BerndSchneider.JPG/960px-BerndSchneider.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/schneider.jpg"
  },
  "schoeller": {
   "name": "Rudolf Schoeller",
@@ -2821,7 +3032,7 @@
  },
  "schuppan": {
   "name": "Vern Schuppan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GTC%20Mirage%2011.jpg?width=600"
+  "url": "/drivers/photos/schuppan.jpg"
  },
  "scott_Brown": {
   "name": "Archie Scott Brown",
@@ -2829,11 +3040,11 @@
  },
  "scotti": {
   "name": "Piero Scotti",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1952-08-31%20Maloja%20Ferrari%20340%200196A%20Scotti.jpg?width=600"
+  "url": "/drivers/photos/scotti.jpg"
  },
  "seidel": {
   "name": "Wolfgang Seidel",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1955-05-01%20Mille%20Miglia%20Porsche%20550-15%20Seidel%20Gl%C3%B6ckler.jpg?width=600"
+  "url": "/drivers/photos/seidel.jpg"
  },
  "senna": {
   "name": "Ayrton Senna",
@@ -2841,11 +3052,11 @@
  },
  "serafini": {
   "name": "Dorino Serafini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serafini%201936.jpg?width=600"
+  "url": "/drivers/photos/serafini.jpg"
  },
  "serra": {
   "name": "Chico Serra",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chico%20Serra%202007%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/serra.jpg"
  },
  "serrurier": {
   "name": "Doug Serrurier",
@@ -2857,7 +3068,7 @@
  },
  "sharp": {
   "name": "Hap Sharp",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1967-05-14%20Targa%20Florio%20Collesano%20Chaparral%202F%20Hill%2BSharp.jpg?width=600"
+  "url": "/drivers/photos/sharp.jpg"
  },
  "shawe_taylor": {
   "name": "Brian Shawe Taylor",
@@ -2865,7 +3076,7 @@
  },
  "shelby": {
   "name": "Carroll Shelby",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CarrollShelbyVIR2007.jpg?width=600"
+  "url": "/drivers/photos/shelby.jpg"
  },
  "shelly": {
   "name": "Tony Shelly",
@@ -2877,7 +3088,7 @@
  },
  "siffert": {
   "name": "Jo Siffert",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Siffert%2C%20Joseph%201968.jpg?width=600"
+  "url": "/drivers/photos/siffert.jpg"
  },
  "simon": {
   "name": "André Simon",
@@ -2885,27 +3096,27 @@
  },
  "sirotkin": {
   "name": "Sergey Sirotkin",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergey%20Sirotkin%20Moscow%20asv2018-01.jpg?width=600"
+  "url": "/drivers/photos/sirotkin.jpg"
  },
  "solana": {
   "name": "Moisés Solana",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Solanas%20racecar%20at%202003%20Wine%20Country%20Classic.jpg?width=600"
+  "url": "/drivers/photos/solana.jpg"
  },
  "sommer": {
   "name": "Raymond Sommer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond%20Sommer%20in%20Montlh%C3%A9ry%20in%201933%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/sommer.jpg"
  },
  "sparken": {
   "name": "Mike Sparken",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1955-02-27%20Agadir%20WINNER%20Ferrari%20750%200504M%20Mike%20Sparken.jpg?width=600"
+  "url": "/drivers/photos/sparken.jpg"
  },
  "speed": {
   "name": "Scott Speed",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Speed%20at%20the%202025%20Adelaide%20Grand%20Final%20-%2004.jpg?width=600"
+  "url": "/drivers/photos/speed.jpg"
  },
  "spence": {
   "name": "Mike Spence",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Spence%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/spence.jpg"
  },
  "spider-webb": {
   "name": "Travis Webb",
@@ -2913,15 +3124,20 @@
  },
  "stacey": {
   "name": "Alan Stacey",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Stacey%201960.jpg?width=600"
+  "url": "/drivers/photos/stacey.jpg"
  },
  "starrabba": {
   "name": "Gaetano Starrabba",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1958-05-11%20Targa%20Florio%20Ferrari%20500%20TRC%200682MDTR%20Gaetano%20Starrabba%20saluta%20Vincenzo%20Florio.jpg?width=600"
+  "url": "/drivers/photos/starrabba.jpg"
+ },
+ "stephen-south": {
+  "name": "Stephen South",
+  "url": "/drivers/photos/stephen-south.jpg",
+  "source": "statsf1"
  },
  "stevens": {
   "name": "Will Stevens",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Will%20Stevens%202017.jpg?width=600"
+  "url": "/drivers/photos/stevens.jpg"
  },
  "stewart": {
   "name": "Jackie Stewart",
@@ -2929,51 +3145,51 @@
  },
  "stohr": {
   "name": "Siegfried Stohr",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1981%20Argentine%20Grand%20Prix%2C%20Stohr.jpg?width=600"
+  "url": "/drivers/photos/stohr.jpg"
  },
  "stommelen": {
   "name": "Rolf Stommelen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stommelen%2C%20Rolf%20am%201972-07-07.jpg?width=600"
+  "url": "/drivers/photos/stommelen.jpg"
  },
  "streiff": {
   "name": "Philippe Streiff",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Festival%20automobile%20international%202014%20-%20Photocall%20-%20019%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/streiff.jpg"
  },
  "stroll": {
   "name": "Lance Stroll",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/FIA%20F1%20Austria%202022%20Lance%20Stroll%20%28cropped%202%29.jpg?width=600"
+  "url": "/drivers/photos/stroll.jpg"
  },
  "stuck": {
   "name": "Hans-Joachim Stuck",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HansJoachimStuck2008.jpg?width=600"
+  "url": "/drivers/photos/stuck.jpg"
  },
  "stuppacher": {
   "name": "Otto Stuppacher",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto%20Stuppacher%20GP%20Italia%201976.jpg?width=600"
+  "url": "/drivers/photos/stuppacher.jpg"
  },
  "sullivan": {
   "name": "Danny Sullivan",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny%20Sullivan%201991.jpg?width=600"
+  "url": "/drivers/photos/sullivan.jpg"
  },
  "surer": {
   "name": "Marc Surer",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marc%20Surer%201982.jpg?width=600"
+  "url": "/drivers/photos/surer.jpg"
  },
  "surtees": {
   "name": "John Surtees",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Surtees.JPG?width=600"
+  "url": "/drivers/photos/surtees.jpg"
  },
  "sutil": {
   "name": "Adrian Sutil",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adrian%20Sutil.jpg?width=600"
+  "url": "/drivers/photos/sutil.jpg"
  },
  "suzuki": {
   "name": "Aguri Suzuki",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aguri%20Suzuki%202008%20Super%20GT.jpg?width=600"
+  "url": "/drivers/photos/suzuki.jpg"
  },
  "swaters": {
   "name": "Jacques Swaters",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Swaters%201980.jpg?width=600"
+  "url": "/drivers/photos/swaters.jpg"
  },
  "syd-van-der-vyver": {
   "name": "Syd van der Vyver",
@@ -2981,7 +3197,7 @@
  },
  "takagi": {
   "name": "Toranosuke Takagi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Toranosuke%20Takagi%202008%20Super%20GT.jpg?width=600"
+  "url": "/drivers/photos/takagi.jpg"
  },
  "takahara": {
   "name": "Noritake Takahara",
@@ -2989,23 +3205,28 @@
  },
  "takahashi": {
   "name": "Kunimitsu Takahashi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kunimitsu%20Takahashi%201963.jpg?width=600"
+  "url": "/drivers/photos/takahashi.jpg"
  },
  "tambay": {
   "name": "Patrick Tambay",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zandvoort%20circuit%20De%20striptekenaar%20Graton%20in%20de%20pits%2C%20NL-HlmNHA%2054005237%20-%20Patrick%20Tambay%20%28cropped%29.JPG?width=600"
+  "url": "/drivers/photos/tambay.jpg"
  },
  "tarquini": {
   "name": "Gabriele Tarquini",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriele%20tarquini%20spafrancorchamps2014.JPG?width=600"
+  "url": "/drivers/photos/tarquini.jpg"
  },
  "taruffi": {
   "name": "Piero Taruffi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Piero%20Taruffi.jpg?width=600"
+  "url": "/drivers/photos/taruffi.jpg"
  },
  "taylor": {
   "name": "John Taylor",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/John_Taylor_1966.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/taylor.jpg"
+ },
+ "ted-whiteaway": {
+  "name": "Ted Whiteaway",
+  "url": "/drivers/photos/ted-whiteaway.jpg",
+  "source": "wikipedia"
  },
  "terra": {
   "name": "Max de Terra",
@@ -3013,11 +3234,11 @@
  },
  "thackwell": {
   "name": "Mike Thackwell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2011%2011%202%20Imperial%20Palace%20Harrahs%20Auto%20collection-1-64%20-%20Flickr%20-%20Moto%40Club4AG.jpg?width=600"
+  "url": "/drivers/photos/thackwell.jpg"
  },
  "thiele": {
   "name": "Alfonso Thiele",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walkiria-Terradura-Alfonso%20Thiele.jpg?width=600"
+  "url": "/drivers/photos/thiele.jpg"
  },
  "thomas-monarch": {
   "name": "Thomas Monarch",
@@ -3033,19 +3254,29 @@
  },
  "tingle": {
   "name": "Sam Tingle",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1965%20Sam%20Tingle%20Formula%201%20LDS%20Race%20Car-1%20%2829891690293%29.jpg?width=600"
+  "url": "/drivers/photos/tingle.jpg"
  },
  "titterington": {
   "name": "Desmond Titterington",
   "url": "/drivers/photos/titterington.png"
  },
+ "tom-jones": {
+  "name": "Tom Jones",
+  "url": "/drivers/photos/tom-jones.jpg",
+  "source": "statsf1"
+ },
  "tomaso": {
   "name": "Alessandro de Tomaso",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alejandro%20detomaso.jpg?width=600"
+  "url": "/drivers/photos/tomaso.jpg"
  },
  "tony-bettenhausen": {
   "name": "Tony Bettenhausen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tony%20Bettenhausen%201951.jpg?width=600"
+  "url": "/drivers/photos/tony-bettenhausen.jpg"
+ },
+ "tony-trimmer": {
+  "name": "Tony Trimmer",
+  "url": "/drivers/photos/tony-trimmer.jpg",
+  "source": "wikipedia"
  },
  "tornaco": {
   "name": "Charles de Tornaco",
@@ -3053,31 +3284,31 @@
  },
  "toshio_suzuki": {
   "name": "Toshio Suzuki",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Toyota_GT-One_-_Ukyou_Katayama%2C_Keiichi_Tsuchiya_%26_Toshio_Suzuki_heads_towards_Dunlop_Bridge_at_the_1999_Le_Mans_%2851890094535%29_%28cropped%29.jpg/960px-Toyota_GT-One_-_Ukyou_Katayama%2C_Keiichi_Tsuchiya_%26_Toshio_Suzuki_heads_towards_Dunlop_Bridge_at_the_1999_Le_Mans_%2851890094535%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/toshio_suzuki.jpg"
  },
  "trevor_taylor": {
   "name": "Trevor Taylor",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Prix%20te%20Zandvoort%20Nummer%2012%20Hill%2C%20nummer%2022%20Taylor%2021%2C%20Bestanddeelnr%20915-2880.jpg?width=600"
+  "url": "/drivers/photos/trevor_taylor.jpg"
  },
  "trintignant": {
   "name": "Maurice Trintignant",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maurice%20Trintignant%20-%20El%20Gr%C3%A1fico%201801.jpg?width=600"
+  "url": "/drivers/photos/trintignant.jpg"
  },
  "trips": {
   "name": "Wolfgang von Trips",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang%20von%20Trips%20in%201957.JPG?width=600"
+  "url": "/drivers/photos/trips.jpg"
  },
  "trulli": {
   "name": "Jarno Trulli",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jarno%20Trulli%202010%20Malaysia.jpg?width=600"
+  "url": "/drivers/photos/trulli.jpg"
  },
  "tsunoda": {
   "name": "Yuki Tsunoda",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%20US%20GP%2C%20Tsunoda.jpg?width=600"
+  "url": "/drivers/photos/tsunoda.jpg"
  },
  "tuero": {
   "name": "Esteban Tuero",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Esteban%20Tuero%202017%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/tuero.jpg"
  },
  "tunmer": {
   "name": "Guy Tunmer",
@@ -3089,7 +3320,7 @@
  },
  "unser": {
   "name": "Bobby Unser",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bobby%20Unser%20-%202015%20Indianapolis%20500%20-%20Sarah%20Stierch.jpg?width=600"
+  "url": "/drivers/photos/unser.jpg"
  },
  "uria": {
   "name": "Alberto Uria",
@@ -3097,19 +3328,19 @@
  },
  "vaccarella": {
   "name": "Nino Vaccarella",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vaccarella%2C%20Nino%201972-07-07.jpg?width=600"
+  "url": "/drivers/photos/vaccarella.jpg"
  },
  "vandoorne": {
   "name": "Stoffel Vandoorne",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-04-23%20Motorsport%2C%20ABB%20FIA%20Formula%20E%20World%20Championship%2C%20Berlin%20E-Prix%202023%201DX%201774%20by%20Stepro.jpg?width=600"
+  "url": "/drivers/photos/vandoorne.jpg"
  },
  "vergne": {
   "name": "Jean-Éric Vergne",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Festival%20automobile%20international%202012%20-%20Photocall%20-%20Jean-%C3%89ric%20Vergne%20-%20004.jpg?width=600"
+  "url": "/drivers/photos/vergne.jpg"
  },
  "verstappen": {
   "name": "Jos Verstappen",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%20Verstappen%20A1%20test%202005%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/verstappen.jpg"
  },
  "vettel": {
   "name": "Sebastian Vettel",
@@ -3121,15 +3352,20 @@
  },
  "villeneuve": {
   "name": "Jacques Villeneuve",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Villeneuve%20August%202011.jpg?width=600"
+  "url": "/drivers/photos/villeneuve.jpg"
  },
  "villoresi": {
   "name": "Luigi Villoresi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis%20Villoresi%20-%20El%20Gr%C3%A1fico%201442.jpg?width=600"
+  "url": "/drivers/photos/villoresi.jpg"
  },
  "villota": {
   "name": "Emilio de Villota",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Emilio%20de%20Villota%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/villota.jpg"
+ },
+ "vincenzo-sospiri": {
+  "name": "Vincenzo Sospiri",
+  "url": "/drivers/photos/vincenzo-sospiri.jpg",
+  "source": "wikipedia"
  },
  "volonterio": {
   "name": "Ottorino Volonterio",
@@ -3141,11 +3377,11 @@
  },
  "wacker": {
   "name": "Fred Wacker",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cunningham%20C2-R%20no%205103%2C%20front%20right%20%28Greenwich%202018%29.jpg?width=600"
+  "url": "/drivers/photos/wacker.jpg"
  },
  "walker": {
   "name": "David Walker",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/David_Walker_1971_Lotus_56_B_Pratt_Whitney.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/walker.jpg"
  },
  "walt-ader": {
   "name": "Walt Ader",
@@ -3157,23 +3393,23 @@
  },
  "walt-faulkner": {
   "name": "Walt Faulkner",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Walt%20Faulkner%201942.jpg?width=600"
+  "url": "/drivers/photos/walt-faulkner.jpg"
  },
  "walter": {
   "name": "Heini Walter",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schauinsland%20Heini%20Walter%2C%20Genf%20%28Schweiz%29%3B%20Porsche%3B%20Portrait%20-%20W134Nr.073227%20-%20Willy%20Pragher%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/walter.jpg"
  },
  "ward": {
   "name": "Rodger Ward",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bandini%20fjunior.jpg?width=600"
+  "url": "/drivers/photos/ward.jpg"
  },
  "warwick": {
   "name": "Derek Warwick",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Pris%20van%20Nederland%20te%20Zandvoort%20koppen%20coureurs%2C%20Derek%20Warwick%2C%20Bestanddeelnr%20932-2375.jpg?width=600"
+  "url": "/drivers/photos/warwick.jpg"
  },
  "watson": {
   "name": "John Watson",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/John_Watson_%282346102684%29.jpg/960px-John_Watson_%282346102684%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/watson.jpg"
  },
  "wayne-weiler": {
   "name": "Wayne Weiler",
@@ -3181,27 +3417,27 @@
  },
  "webber": {
   "name": "Mark Webber",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mark_Webber_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8720%29.jpg/960px-Mark_Webber_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_%28028A8720%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/webber.jpg"
  },
  "wehrlein": {
   "name": "Pascal Wehrlein",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-04-21%20Motorsport%2C%20ABB%20FIA%20Formula%20E%20World%20Championship%2C%20Berlin%20E-Prix%202023%201DX%200600%20by%20Stepro.jpg?width=600"
+  "url": "/drivers/photos/wehrlein.jpg"
  },
  "weidler": {
   "name": "Volker Weidler",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Le_Mans-120121-0073FP_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/weidler.jpg"
  },
  "wendlinger": {
   "name": "Karl Wendlinger",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GTS%20class%20winners%20%2810th%20overall%29%20-%20Karl%20Wendlinger%20-%20Chrysler%20Viper%20GTS-R%20-%20on%20the%20podium%20at%20the%201999%20Le%20Mans%20%2851897678180%29%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/wendlinger.jpg"
  },
  "wharton": {
   "name": "Ken Wharton",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tulpenralley.%20Snelheidsproef%20op%20circuit%20Zandvoort.%20Winnaar%20Ken%20Wharton%20met%20navig%2C%20Bestanddeelnr%20905-0738.jpg?width=600"
+  "url": "/drivers/photos/wharton.jpg"
  },
  "whitehead": {
   "name": "Peter Whitehead",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/ERA_of_Peter_Whitehead%2C_1938_AGP.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/whitehead.jpg"
  },
  "whitehouse": {
   "name": "Bill Whitehouse",
@@ -3209,7 +3445,7 @@
  },
  "widdows": {
   "name": "Robin Widdows",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Robin_Widdows_1970_N%C3%BCrburgring.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/widdows.jpg"
  },
  "wietzes": {
   "name": "Eppie Wietzes",
@@ -3217,19 +3453,24 @@
  },
  "wilds": {
   "name": "Mike Wilds",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Racing%20driver%20Mike%20Wilds.jpg?width=600"
+  "url": "/drivers/photos/wilds.jpg"
+ },
+ "willi-krakau": {
+  "name": "Willi Krakau",
+  "url": "/drivers/photos/willi-krakau.jpg",
+  "source": "statsf1"
  },
  "williams": {
   "name": "Jonathan Williams",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jonathan_Williams_1966.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  "url": "/drivers/photos/williams.jpg"
  },
  "williamson": {
   "name": "Roger Williamson",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Williamson%20statue%20Donington%20Park.jpg?width=600"
+  "url": "/drivers/photos/williamson.jpg"
  },
  "wilson": {
   "name": "Justin Wilson",
-  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Justin_Wilson_2013.jpg/960px-Justin_Wilson_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "url": "/drivers/photos/wilson.jpg"
  },
  "wilson_fittipaldi": {
   "name": "Wilson Fittipaldi",
@@ -3237,42 +3478,47 @@
  },
  "wisell": {
   "name": "Reine Wisell",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reine%20Wisell%201970%20N%C3%BCrburgring.JPG?width=600"
+  "url": "/drivers/photos/wisell.jpg"
  },
  "wunderink": {
   "name": "Roelof Wunderink",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Roelof%20Wunderink%20%281972%29.jpg?width=600"
+  "url": "/drivers/photos/wunderink.jpg"
  },
  "wurz": {
   "name": "Alexander Wurz",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Wurz%202013%20WEC%20Silverstone.jpg?width=600"
+  "url": "/drivers/photos/wurz.jpg"
+ },
+ "xavier-perrot": {
+  "name": "Xavier Perrot",
+  "url": "/drivers/photos/xavier-perrot.jpg",
+  "source": "statsf1"
  },
  "yamamoto": {
   "name": "Sakon Yamamoto",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sakon%20Yamamoto%2020220818.jpg?width=600"
+  "url": "/drivers/photos/yamamoto.jpg"
  },
  "yoong": {
   "name": "Alex Yoong",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AlexYoong%200028.jpg?width=600"
+  "url": "/drivers/photos/yoong.jpg"
  },
  "zanardi": {
   "name": "Alessandro Zanardi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Zanardi%20%28cropped%29.JPG?width=600"
+  "url": "/drivers/photos/zanardi.jpg"
  },
  "zhou": {
   "name": "Guanyu Zhou",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhou%20Guanyu%20at%20the%202022%20Austrian%20Grand%20Prix.jpg?width=600"
+  "url": "/drivers/photos/zhou.jpg"
  },
  "zonta": {
   "name": "Ricardo Zonta",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ricardo%20Zonta%202007%20Curitiba.jpg?width=600"
+  "url": "/drivers/photos/zonta.jpg"
  },
  "zorzi": {
   "name": "Renzo Zorzi",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1975%20Italian%20GP%20-%20A%20group%20at%20the%20Mirabello%20chicane.jpg?width=600"
+  "url": "/drivers/photos/zorzi.jpg"
  },
  "zunino": {
   "name": "Ricardo Zunino",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1980%20Argentine%20Grand%20Prix%20Zunino.jpg?width=600"
+  "url": "/drivers/photos/zunino.jpg"
  }
 }
