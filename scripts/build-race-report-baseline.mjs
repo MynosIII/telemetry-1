@@ -63,6 +63,14 @@ const validation = {
   maeRawGrid: +mae(test.filter(r => Number.isInteger(r.grid) && r.grid > 0), r => r.grid).toFixed(3)
 };
 
+// Score 0–10 = 5 + 5·tanh(delta / scale). Matching the expectation is 5. The scale puts the
+// 2014–2025 best 2.5% of results (in places gained) at 9 and the worst 2.5% at 1, and the
+// curve flattens so nobody reaches exactly 0 or 10.
+const deltas = rows.map(r => expected(shift, r.start, r.field) - r.finish);
+const absSorted = deltas.map(Math.abs).sort((x, y) => x - y);
+const p95 = absSorted[Math.floor(absSorted.length * 0.95)];
+const scoreScale = +(p95 / Math.atanh(0.8)).toFixed(3);
+
 // ---------- career totals ----------
 const drivers = {};
 for (const d of await readFolder("drivers")) {
@@ -91,7 +99,7 @@ const furthestBack = table("victoria-desde-atras").rows[0];
 
 const output = {
   generatedFrom: `public/history (${FROM}–${TO})`,
-  gridExpectation: { from: FROM, to: TO, races: raceFiles.length, finishers: rows.length, shiftFromBack: shift, validation },
+  gridExpectation: { from: FROM, to: TO, races: raceFiles.length, finishers: rows.length, shiftFromBack: shift, validation, scoreScale },
   drivers,
   constructors,
   leaderboards: {
