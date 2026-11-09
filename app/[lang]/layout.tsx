@@ -13,6 +13,7 @@ import "./circuit-history.css";
 import "./scale.css";
 import "./account.css";
 import "./follow-x.css";
+import "./brand.css";
 import { FollowOnX } from "@/components/FollowOnX";
 
 export const metadata: Metadata = {

@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { formatDelta, getRaceReport, type ExpectationRow } from "@/lib/race-report";
 import { SITE_URL } from "@/lib/site";
+import { BrandMark } from "@/components/BrandMark";
 
 export const runtime = "nodejs";
 export const revalidate = 1800;
@@ -35,7 +36,10 @@ export async function GET(_request: Request, { params }: { params: Promise<{ rou
     <div style={{ display: "flex", flexDirection: "column", width: "100%", height: "100%", background: "#0a0a0a", color: "#ececec", padding: "44px 56px", fontFamily: "sans-serif" }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
         <div style={{ display: "flex", fontSize: 40, fontWeight: 700 }}>{report.name} {report.season}</div>
-        <div style={{ display: "flex", fontSize: 20, color: "#e10600", fontWeight: 700 }}>TELEMETRY ONE</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 20, fontWeight: 700 }}>
+          <BrandMark height={34} />
+          <div style={{ display: "flex", color: "#ececec" }}>TELEMETRY<span style={{ color: "#e10600", marginLeft: 6 }}>ONE</span></div>
+        </div>
       </div>
       <div style={{ display: "flex", fontSize: 22, color: MUTED, marginTop: 6 }}>Llegada contra lo esperado según la largada</div>
       <div style={{ display: "flex", gap: 48, marginTop: 26, flex: 1 }}>

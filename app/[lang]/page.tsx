@@ -73,6 +73,17 @@ export default async function Home() {
     <main id="top">
       <SiteHeader />
       <StaleDataNotice live={data.live} />
+      <figure className="home-banner">
+        <img
+          src="/banner.webp"
+          srcSet="/banner-1086.webp 1086w, /banner.webp 2172w"
+          sizes="100vw"
+          width={2172}
+          height={724}
+          alt="Telemetry One. Racing. Decoded."
+          fetchPriority="high"
+        />
+      </figure>
       <HomeLatestArticle lang={lang} />
 
       <section className="hero" aria-labelledby="hero-title">

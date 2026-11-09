@@ -1,0 +1,10 @@
+/* Telemetry One logo (public/logo-mark.svg) and the home banner. */
+.brand-logo { display: block; width: 43px; height: auto; flex: none; }
+.brand-copy b { color: var(--red); }
+.footer-brand .brand-logo { width: 38px; }
+
+.home-banner { margin: 0; background: #130a0d; border-bottom: 1px solid #1f1f22; }
+.home-banner img { display: block; width: 100%; max-width: 1180px; height: auto; aspect-ratio: 3 / 1; margin: 0 auto; }
+@media (min-width: 1181px) {
+  .home-banner img { -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+}

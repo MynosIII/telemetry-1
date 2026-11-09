@@ -5,7 +5,7 @@ export function SiteFooter() {
   return (
     <footer>
       <Link className="brand footer-brand" href="/">
-        <span className="brand-mark">T<span>1</span></span>
+        <img className="brand-logo" src="/logo-mark.svg" alt="" width={43} height={35} />
         <span className="brand-copy">TELEMETRY <b>ONE</b></span>
       </Link>
       <p>Sitio independiente y no oficial. No está afiliado a Formula One Group, la FIA ni los equipos. F1 y Formula 1 son marcas de Formula One Licensing B.V.</p>

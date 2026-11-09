@@ -13,7 +13,7 @@ export async function SiteHeader() {
     <a className="skip-link" href="#contenido">Saltar al contenido</a>
     <header className="site-header">
       <Link className="brand" href="/" aria-label="Telemetry One, inicio">
-        <span className="brand-mark">T<span>1</span></span>
+        <img className="brand-logo" src="/logo-mark.svg" alt="" width={43} height={35} />
         <span className="brand-copy">TELEMETRY <b>ONE</b></span>
       </Link>
       <SiteNav lang={lang} />
