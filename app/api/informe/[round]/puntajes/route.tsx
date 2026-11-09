@@ -68,7 +68,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ roun
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ display: "flex", fontSize: 36, fontWeight: 700 }}>{report.name} {report.season}</div>
-          <div style={{ display: "flex", fontSize: 20, color: MUTED, marginTop: 4 }}>Puntaje según lo que hacía esperar la largada · 5 = lo esperado</div>
+          <div style={{ display: "flex", fontSize: 20, color: MUTED, marginTop: 4 }}>Puntaje de la carrera, de 0 a 10</div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 20, fontWeight: 700 }}>
           <BrandMark height={34} />
@@ -81,7 +81,7 @@ export async function GET(request: Request, { params }: { params: Promise<{ roun
         </div>)}
       </div>
       <div style={{ display: "flex", justifyContent: "space-between", fontSize: 16, color: MUTED, marginTop: 10 }}>
-        <div style={{ display: "flex" }}>Sin debutantes ni abandonos · referencia 2014–2025</div>
+        <div style={{ display: "flex" }} />
         <div style={{ display: "flex" }}>{host}/informe/{report.slug}</div>
       </div>
     </div>,
