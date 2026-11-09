@@ -52,6 +52,13 @@ export type ExpectationRow = {
 
 export type OvertakeRow = { driverId: string; name: string; team: string; made: number; suffered: number };
 
+export type ResultRow = {
+  driverId: string; name: string; team: string; position: string; classified: boolean; grid: number | null;
+  time: string | null; status: string; statusEn: string; laps: number; stops: number; overtakes: number | null; points: number;
+};
+
+export type StandingRow = { driverId: string; name: string; team: string; position: number; before: number | null; points: number; gained: number };
+
 export type ReportFact = { label: string; value: string; detail?: string };
 
 export type RaceReport = {
@@ -84,6 +91,8 @@ export type RaceReport = {
   fastestLap: { driverId: string; name: string; time: string; lap: number } | null;
   retirements: { driverId: string; name: string; status: string; laps: number }[];
   standings: { driverId: string; name: string; points: number }[];
+  results: ResultRow[];
+  championship: StandingRow[];
   remainingRaces: number | null;
   /** Names that appear in the texts, and the page each one links to. */
   links: Record<string, string>;
@@ -469,13 +478,14 @@ export async function getRaceReport(roundParam: string, seasonParam?: number): P
   const winner = results.find(r => isClassified(r) && Number(r.position) === 1);
   const laps = Number(winner?.laps ?? Math.max(...results.map(r => Number(r.laps) || 0)));
 
-  const [allRaces, stops, lapData, passesOpenF1, standingsJson, scheduleJson] = await Promise.all([
+  const [allRaces, stops, lapData, passesOpenF1, standingsJson, scheduleJson, previousStandingsJson] = await Promise.all([
     seasonResults(season).catch(() => [] as Raw[]),
     pitStops(season, round),
     getLapPositions(season, round, FRESH_SECONDS),
     openF1Overtakes(sessionKey),
     jolpica(`/${season}/${round}/driverStandings.json`).catch(() => null),
-    jolpica(`/${season}.json?limit=100`, 6 * 3600).catch(() => null)
+    jolpica(`/${season}.json?limit=100`, 6 * 3600).catch(() => null),
+    round > 1 ? jolpica(`/${season}/${round - 1}/driverStandings.json`).catch(() => null) : Promise.resolve(null)
   ]);
   const scheduleLength: number = scheduleJson?.MRData?.RaceTable?.Races?.length ?? 0;
   const previousRaces = allRaces.filter(r => Number(r.round) < round);
@@ -668,6 +678,35 @@ export async function getRaceReport(roundParam: string, seasonParam?: number): P
   if (race.Circuit?.circuitName) links[race.Circuit.circuitName] = `/circuitos/${race.Circuit.circuitId}`;
 
   const standingRows = standingsJson?.MRData?.StandingsTable?.StandingsLists?.[0]?.DriverStandings ?? [];
+  const previousRows: Raw[] = previousStandingsJson?.MRData?.StandingsTable?.StandingsLists?.[0]?.DriverStandings ?? [];
+  const previousPlace = new Map(previousRows.map(row => [row.Driver.driverId as string, Number(row.position)]));
+  const scored = new Map(results.map(r => [r.Driver.driverId as string, Number(r.points) || 0]));
+  const championship: StandingRow[] = standingRows.map((row: Raw) => ({
+    driverId: row.Driver.driverId,
+    name: `${row.Driver.givenName} ${row.Driver.familyName}`,
+    team: row.Constructors?.[row.Constructors.length - 1]?.name ?? "",
+    position: Number(row.position) || Number(row.positionText) || 0,
+    before: round === 1 ? null : previousPlace.get(row.Driver.driverId) ?? null,
+    points: Number(row.points),
+    gained: scored.get(row.Driver.driverId) ?? 0
+  }));
+  const stopCount = new Map<string, number>();
+  for (const s of stops) stopCount.set(s.driverId, (stopCount.get(s.driverId) ?? 0) + 1);
+  const resultRows: ResultRow[] = [...results].sort((a, b) => Number(a.position) - Number(b.position)).map(r => ({
+    driverId: r.Driver.driverId,
+    name: fullName(r),
+    team: r.Constructor?.name ?? "",
+    position: isClassified(r) ? String(r.position) : r.positionText === "D" ? "DSQ" : didStart(r) ? "DNF" : "DNS",
+    classified: isClassified(r),
+    grid: gridOf(r),
+    time: r.Time?.time ?? null,
+    status: statusText(r),
+    statusEn: String(r.status ?? ""),
+    laps: Number(r.laps) || 0,
+    stops: stopCount.get(r.Driver.driverId) ?? 0,
+    overtakes: source && didStart(r) ? counts.get(r.Driver.driverId)?.made ?? 0 : null,
+    points: Number(r.points) || 0
+  }));
 
   return {
     slug: raceSlug(raceName, season),
@@ -681,6 +720,8 @@ export async function getRaceReport(roundParam: string, seasonParam?: number): P
     fastestLap: fastest ? { driverId: fastest.Driver.driverId, name: fullName(fastest), time: fastest.FastestLap.Time?.time ?? "", lap: Number(fastest.FastestLap.lap) } : null,
     retirements: dnfs.map(r => ({ driverId: r.Driver.driverId, name: fullName(r), status: statusText(r), laps: Number(r.laps) || 0 })),
     standings: standingRows.slice(0, 3).map((row: Raw) => ({ driverId: row.Driver.driverId, name: `${row.Driver.givenName} ${row.Driver.familyName}`, points: Number(row.points) })),
+    results: resultRows,
+    championship,
     remainingRaces: scheduleLength ? scheduleLength - round : null,
     links,
     season,

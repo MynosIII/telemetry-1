@@ -79,6 +79,46 @@ export function RaceReport({ report, texts, lang = "es" }: { report: Report; tex
       </div>
     </section>
 
+    {report.results?.length ? <section className="race-report-section">
+      <h2>{t("Resultado", "Result")}</h2>
+      <div className="race-report-scroll">
+        <table className="race-report-table race-report-results">
+          <thead><tr><th>{t("Pos.", "Pos.")}</th><th>{t("Piloto", "Driver")}</th><th>{t("Tiempo", "Time")}</th><th>{t("Vueltas", "Laps")}</th><th>{t("Paradas", "Stops")}</th><th>{t("Adelant.", "Overtakes")}</th><th>{t("Puntos", "Points")}</th></tr></thead>
+          <tbody>{report.results.map(r => <tr key={r.driverId} className={r.classified ? "" : "is-out"}>
+            <td>{r.position}</td>
+            <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
+            <td>{r.time ?? (!es ? r.statusEn : r.status !== r.statusEn ? r.status : r.position === "DNS" ? "No largó" : r.position === "DSQ" ? "Descalificado" : r.classified ? r.status : "Abandono")}</td>
+            <td>{r.laps}</td>
+            <td>{r.stops}</td>
+            <td>{r.overtakes ?? "—"}</td>
+            <td>{r.points ? number(r.points, 1) : "—"}</td>
+          </tr>)}</tbody>
+        </table>
+      </div>
+    </section> : null}
+
+    {report.championship?.length ? <section className="race-report-section">
+      <h2>{t("Campeonato", "Championship")}</h2>
+      <p className="race-report-lead">{report.remainingRaces !== null
+        ? t(`Así queda la tabla de pilotos, con ${report.remainingRaces} ${report.remainingRaces === 1 ? "carrera" : "carreras"} por delante.`, `The drivers' standings now, with ${report.remainingRaces} ${report.remainingRaces === 1 ? "race" : "races"} to go.`)
+        : t("Así queda la tabla de pilotos.", "The drivers' standings now.")}</p>
+      <div className="race-report-scroll">
+        <table className="race-report-table race-report-championship">
+          <thead><tr><th>{t("Pos.", "Pos.")}</th><th>{t("Piloto", "Driver")}</th><th>{t("Puntos", "Points")}</th><th>{t("En la carrera", "This race")}</th><th>{t("Movimiento", "Change")}</th></tr></thead>
+          <tbody>{report.championship.map(r => {
+            const moved = r.before === null ? null : r.before - r.position;
+            return <tr key={r.driverId}>
+              <td>{r.position}</td>
+              <td><Link href={`/pilotos/${r.driverId}`} prefetch={false}>{r.name}</Link><small>{r.team}</small></td>
+              <td>{number(r.points, 1)}</td>
+              <td>{r.gained ? `+${number(r.gained, 1)}` : "—"}</td>
+              <td className={`race-report-delta ${tone(moved)}`}>{moved === null ? (r.before === null && report.round > 1 ? t("Nuevo", "New") : "—") : moved > 0 ? `▲ ${moved}` : moved < 0 ? `▼ ${-moved}` : "="}</td>
+            </tr>;
+          })}</tbody>
+        </table>
+      </div>
+    </section> : null}
+
     <section className="race-report-section">
       <h2>{t("Llegada contra largada", "Finish against grid")}</h2>
       <p className="race-report-lead">{t(

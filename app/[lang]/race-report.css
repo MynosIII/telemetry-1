@@ -76,3 +76,10 @@
   .race-report-figures { grid-template-columns: 1fr; }
   .circuit-map-3d { height: 260px; }
 }
+.race-report-results th:first-child, .race-report-results td:first-child,
+.race-report-championship th:first-child, .race-report-championship td:first-child { text-align: right; width: 2.5em; padding-right: 14px; }
+.race-report-results th:nth-child(2), .race-report-results td:nth-child(2),
+.race-report-championship th:nth-child(2), .race-report-championship td:nth-child(2) { text-align: left; white-space: normal; }
+.race-report-results td:nth-child(2) small, .race-report-championship td:nth-child(2) small { display: block; color: var(--a-muted); font-size: 11px; margin-top: 2px; }
+.race-report-results td:nth-child(2) a, .race-report-championship td:nth-child(2) a { text-decoration: none; }
+.race-report-championship { max-width: 680px; }
