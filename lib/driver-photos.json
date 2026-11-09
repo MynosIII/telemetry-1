@@ -3520,5 +3520,13 @@
  "zunino": {
   "name": "Ricardo Zunino",
   "url": "/drivers/photos/zunino.jpg"
+ },
+ "arvid_lindblad": {
+  "name": "Arvid Lindblad",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arvid%20Lindblad%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7869%29%20%28cropped%29.jpg?width=600"
+ },
+ "lindblad": {
+  "name": "Arvid Lindblad",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arvid%20Lindblad%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7869%29%20%28cropped%29.jpg?width=600"
  }
 }
