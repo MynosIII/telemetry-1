@@ -38,7 +38,7 @@ def find_face(gray):
 
 # Drivers with no free head shot use a photo of them racing: crop the car
 # from the middle of the frame instead of looking for a face.
-CAR_SHOTS = {"alex-blignaut", "art-cross", "landi", "purley"}
+CAR_SHOTS = {"alex-blignaut", "art-cross", "landi", "purley", "dennis-taylor", "ludwig-fischer", "jac-nellemann", "william-ferguson", "gartner", "helm-glockler"}
 
 # Detections that landed on something else (an ear, a crowd); crop these by position.
 NO_DETECTION = {"cal-niday", "raikkonen", "abecassis", "bailey", "barbazza", "bueno", "bussinello", "firman", "fischer",

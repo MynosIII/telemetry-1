@@ -169,6 +169,10 @@
   "name": "Peter Arundell",
   "url": "/drivers/photos/arundell.jpg"
  },
+ "arvid_lindblad": {
+  "name": "Arvid Lindblad",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arvid%20Lindblad%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7869%29%20%28cropped%29.jpg?width=600"
+ },
  "ascari": {
   "name": "Alberto Ascari",
   "url": "/drivers/photos/ascari.jpg"
@@ -672,6 +676,11 @@
   "url": "/drivers/photos/carlo-facetti.jpg",
   "source": "wikipedia"
  },
+ "carlo-franchi": {
+  "name": "Carlo Franchi",
+  "url": "/drivers/photos/carlo-franchi.jpg",
+  "source": "itwiki"
+ },
  "castellotti": {
   "name": "Eugenio Castellotti",
   "url": "/drivers/photos/castellotti.jpg"
@@ -894,6 +903,11 @@
  "dempsey-wilson": {
   "name": "Dempsey Wilson",
   "url": "/drivers/photos/dempsey-wilson.png"
+ },
+ "dennis-taylor": {
+  "name": "Dennis Taylor",
+  "url": "/history/car-photos/lotus-12.jpg",
+  "source": "car"
  },
  "depailler": {
   "name": "Patrick Depailler",
@@ -1228,6 +1242,11 @@
   "name": "Frank Gardner",
   "url": "/drivers/photos/gardner.jpg"
  },
+ "gartner": {
+  "name": "Jo Gartner",
+  "url": "/drivers/photos/gartner.jpg",
+  "source": "itwiki"
+ },
  "gary-brabham": {
   "name": "Gary Brabham",
   "url": "/drivers/photos/gary-brabham.jpg",
@@ -1539,6 +1558,11 @@
   "name": "Theo Helfrich",
   "url": "/drivers/photos/helfrich.jpg"
  },
+ "helm-glockler": {
+  "name": "Helm Glöckler",
+  "url": "/drivers/photos/helm-glockler.jpg",
+  "source": "commons"
+ },
  "henry-banks": {
   "name": "Henry Banks",
   "url": "/drivers/photos/henry-banks.jpg"
@@ -1633,7 +1657,8 @@
  },
  "irvine": {
   "name": "Eddie Irvine",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eddie%20Irvine%2C%201999%20%28cropped%29.jpg?width=600"
+  "url": "/drivers/photos/irvine.jpg",
+  "source": "commons"
  },
  "irwin": {
   "name": "Chris Irwin",
@@ -1642,6 +1667,11 @@
  "jabouille": {
   "name": "Jean-Pierre Jabouille",
   "url": "/drivers/photos/jabouille.jpg"
+ },
+ "jac-nellemann": {
+  "name": "Jac Nellemann",
+  "url": "/history/car-photos/brabham-bt44b.jpg",
+  "source": "car"
  },
  "jack-mcgrath": {
   "name": "Jack McGrath",
@@ -2062,6 +2092,10 @@
   "name": "Guy Ligier",
   "url": "/drivers/photos/ligier.jpg"
  },
+ "lindblad": {
+  "name": "Arvid Lindblad",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arvid%20Lindblad%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7869%29%20%28cropped%29.jpg?width=600"
+ },
  "lippi": {
   "name": "Roberto Lippi",
   "url": "/drivers/photos/lippi.png"
@@ -2109,6 +2143,11 @@
  "lucas": {
   "name": "Jean Lucas",
   "url": "/drivers/photos/lucas.jpg"
+ },
+ "ludwig-fischer": {
+  "name": "Ludwig Fischer",
+  "url": "/history/car-photos/afm-6.jpg",
+  "source": "car"
  },
  "luigi-taramazzo": {
   "name": "Luigi Taramazzo",
@@ -3460,6 +3499,11 @@
   "url": "/drivers/photos/willi-krakau.jpg",
   "source": "statsf1"
  },
+ "william-ferguson": {
+  "name": "William Ferguson",
+  "url": "/history/car-photos/brabham-bt33.jpg",
+  "source": "car"
+ },
  "williams": {
   "name": "Jonathan Williams",
   "url": "/drivers/photos/williams.jpg"
@@ -3520,13 +3564,5 @@
  "zunino": {
   "name": "Ricardo Zunino",
   "url": "/drivers/photos/zunino.jpg"
- },
- "arvid_lindblad": {
-  "name": "Arvid Lindblad",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arvid%20Lindblad%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7869%29%20%28cropped%29.jpg?width=600"
- },
- "lindblad": {
-  "name": "Arvid Lindblad",
-  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arvid%20Lindblad%20at%20the%20Red%20Bull%20Fan%20Zone%20%E2%80%93%20Crown%20Riverwalk%2C%20Melbourne%20%28028A7869%29%20%28cropped%29.jpg?width=600"
  }
 }
