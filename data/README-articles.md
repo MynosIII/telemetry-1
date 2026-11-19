@@ -13,3 +13,5 @@ Para agregar un artículo: crear un JSON siguiendo uno de los existentes, ejecut
 Los tiempos de lectura se calculan a 200 palabras por minuto. Los enlaces al archivo ofrecen estadísticas y expedientes relacionados; no se fabrican puntuaciones del modelo para carreras anteriores a su cobertura.
 
 Un artículo con `publishedOn` (AAAA-MM-DD) entra en la portada: el más reciente se muestra arriba de todo en la home. El campo opcional `en` lleva la versión en inglés (título, bajada, entrada y capítulos en el mismo orden; los diagramas pueden tener su propia versión `-en.svg`).
+
+Los artículos de la categoría "Los números" (`generatedBy: "x-thread"`) los escribe `scripts/x-thread/generate.mjs` a partir del archivo y del modelo v7.6, junto con un hilo para X en `data/x-threads/`. El workflow `.github/workflows/x-threads.yml` genera uno cada dos días; `lib/x-threads.ts` manda el hilo al celular (ntfy) con botones Publicar ya / Descartar y lo publica en X a las 6 horas si no se descartó. Necesita `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN` y `X_ACCESS_SECRET` en Vercel.

@@ -119,4 +119,6 @@ a.editorial-date-tag:hover { border-color:#ff625b; }
 .home-article-link { font-size:14px; font-weight:600; color:#ff625b!important; }
 .home-article-figure { display:block; border:1px solid #333339; }
 .home-article-figure img { display:block; width:100%; height:auto; }
+.home-article-portrait { display:flex; justify-content:center; background:#18181c; padding:28px 0; }
+.home-article-portrait img { width:auto; height:240px; }
 @media(max-width:900px) { .home-article { grid-template-columns:1fr; gap:24px; padding:28px 18px; } }

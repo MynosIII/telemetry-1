@@ -1,0 +1,118 @@
+{
+  "slug": "victoria-improbable-jim-clark-belgica-1962",
+  "title": "Clark en el Gran Premio de Bélgica 1962: ganó con un 0,8% de chances",
+  "description": "Jim Clark ganó el Gran Premio de Bélgica 1962 cuando el modelo v7.6 le daba un 0,8% de chances. El favorito era Bruce McLaren. La carrera, los números y cómo siguió el campeonato.",
+  "category": "Los números",
+  "period": "1962",
+  "year": 1962,
+  "kind": "history",
+  "reviewedOn": "2026-11-19",
+  "publishedOn": "2026-11-19",
+  "generatedBy": "x-thread",
+  "tags": [
+    "Jim Clark",
+    "Lotus",
+    "Gran Premio de Bélgica 1962",
+    "Spa-Francorchamps",
+    "Modelo v7.6",
+    "Probabilidad de victoria"
+  ],
+  "lead": "De las 1.138 victorias que cubre el modelo v7.6 desde 1950, la de Jim Clark en el Gran Premio de Bélgica 1962 es la menos probable: le daba un 0,8% de chances. Qué pasó en la carrera y qué dicen los números.",
+  "sections": [
+    {
+      "id": "carrera",
+      "title": "La carrera",
+      "sourceIds": [
+        "archivo",
+        "wikipedia"
+      ],
+      "paragraphs": [
+        "El 17 de junio de 1962, Jim Clark ganó el Gran Premio de Bélgica en Spa-Francorchamps con Lotus, largando 12.º. Graham Hill, a 44,1 s, y Phil Hill completaron el podio. Graham Hill había largado primero y terminó 2.º. De los 19 que largaron, 11 llegaron clasificados."
+      ]
+    },
+    {
+      "id": "modelo",
+      "title": "Lo que esperaba el modelo",
+      "sourceIds": [
+        "modelo",
+        "archivo"
+      ],
+      "paragraphs": [
+        "El modelo v7.6 de Telemetry One estima, para cada carrera, la probabilidad de victoria de cada piloto a partir de su rating y del rendimiento de su auto. Para esta carrera, a Jim Clark le daba un 0,8%. El favorito era Bruce McLaren (Cooper), con 39%, y no terminó la carrera. Los tres con más chances eran Bruce McLaren (39%), Phil Hill (15%) y Tony Maggs (8,4%).",
+        "Entre las 1.138 victorias que cubre el modelo desde 1950, esta es la victoria menos probable. Dicho de otra forma: si esa carrera se corriera cien veces con los mismos autos y pilotos, el modelo esperaría verlo ganar menos de una."
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/victoria-improbable-jim-clark-belgica-1962.svg",
+        "alt": "Barras con la probabilidad de victoria del modelo v7.6 en el Gran Premio de Bélgica 1962: Bruce McLaren 39%, Phil Hill 15%, Tony Maggs 8,4%, Jim Clark (ganó) 0,8%.",
+        "caption": "Probabilidad de victoria de los tres favoritos y del ganador, según el modelo v7.6.",
+        "height": 300
+      }
+    },
+    {
+      "id": "ganador",
+      "title": "La primera de Clark",
+      "sourceIds": [
+        "archivo",
+        "modelo"
+      ],
+      "paragraphs": [
+        "Fue la primera victoria de Jim Clark en la Fórmula 1; terminó su carrera con 25 victorias. Corrió entre 1960 y 1968 y fue campeón en 1963 y 1965. Esa tarde su rating en el modelo pasó de 1.523 a 1.540 puntos (+17,0). Su pico fue de 1.778 puntos en 1966, y en el ranking histórico del modelo aparece 17.º. Ninguna de sus otras 24 victorias fue tan improbable para el modelo."
+      ]
+    },
+    {
+      "id": "campeonato",
+      "title": "Cómo siguió el campeonato",
+      "sourceIds": [
+        "archivo",
+        "f1db"
+      ],
+      "paragraphs": [
+        "Con esa victoria, Jim Clark quedó 4.º en el campeonato con 9 puntos; Graham Hill lideraba con 16. Al final de 1962, el título fue para Graham Hill. La ficha de la carrera en el archivo tiene la clasificación completa, la grilla y las probabilidades del modelo para cada piloto."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "archivo",
+      "title": "Telemetry One: ficha del Gran Premio de Bélgica 1962",
+      "url": "https://telemetry-one.com/historia/carreras/1962/3"
+    },
+    {
+      "id": "modelo",
+      "title": "Telemetry One: ranking y modelo v7.6",
+      "url": "https://telemetry-one.com/ranking"
+    },
+    {
+      "id": "f1db",
+      "title": "F1DB: base de datos de resultados de Fórmula 1",
+      "url": "https://github.com/f1db/f1db"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia: 1962 Belgian Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/1962_Belgian_Grand_Prix"
+    }
+  ],
+  "related": [
+    {
+      "label": "Gran Premio de Bélgica 1962 en el archivo",
+      "href": "/historia/carreras/1962/3"
+    },
+    {
+      "label": "Jim Clark",
+      "href": "/pilotos/clark"
+    },
+    {
+      "label": "Lotus en el archivo",
+      "href": "/historia/constructors/lotus"
+    },
+    {
+      "label": "Temporada 1962",
+      "href": "/historia/seasons/1962"
+    }
+  ],
+  "homePhoto": {
+    "url": "/drivers/photos/clark.png",
+    "alt": "Jim Clark"
+  }
+}

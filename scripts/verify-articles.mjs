@@ -35,7 +35,7 @@ for(const article of records) {
   assert(/[.!?…]$/.test(article.description.trim()),`${prefix}: unfinished card description`);
   const explanatory=article.kind==='explainer';
   assert(!article.kind||['history','explainer'].includes(article.kind),`${prefix}: invalid article kind`);
-  assert((explanatory?['Para empezar','Reglamento','Aerodinámica','Neumáticos y pista','Motor y combustible','Pilotaje y controles','Seguridad']:['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1']).includes(article.category),`${prefix}: unexpected category`);
+  assert((explanatory?['Para empezar','Reglamento','Aerodinámica','Neumáticos y pista','Motor y combustible','Pilotaje y controles','Seguridad']:['Los orígenes','Autos de leyenda','Automovilismo argentino','Revoluciones técnicas','Ideas que cambiaron la F1','Los números']).includes(article.category),`${prefix}: unexpected category`);
   if(explanatory) {
     assert(['Inicial','Intermedio','Avanzado'].includes(article.level),`${prefix}: missing reading level`);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(article.reviewedOn)&&Number.isFinite(Date.parse(article.reviewedOn)),`${prefix}: invalid review date`);
@@ -68,7 +68,8 @@ for(const article of records) {
     }
   }
   const words=[article.lead,...article.sections.flatMap(section=>section.paragraphs)].join(' ').split(/\s+/).length;
-  assert(words>=500,`${prefix}: article too brief (${words} words)`);
+  // Data pieces written with an X thread are short on purpose: the numbers carry them.
+  assert(words>=(article.category==='Los números'?250:500),`${prefix}: article too brief (${words} words)`);
   for(const link of article.related) {
     assert(link.label&&link.href.startsWith('/'),`${prefix}: invalid archive link`);
     const editorial=link.href.match(/^\/articulos\/([^/#?]+)$/);
@@ -81,5 +82,15 @@ for(const article of records) {
     if(article.image.url.startsWith('/articles/photos/'))assert(photoSlugs.has(prefix),`${prefix}: local photo without provenance`);
   }
   console.log(`${prefix}: ${words} words · ${article.sources.length} sources`);
+}
+const threadFiles=fs.existsSync('data/x-threads')?fs.readdirSync('data/x-threads').filter(file=>file.endsWith('.json')).sort():[];
+const threads=threadFiles.map(file=>JSON.parse(fs.readFileSync(`data/x-threads/${file}`,'utf8')));
+assert.deepEqual(JSON.parse(fs.readFileSync('data/x-threads-index.json','utf8')),threads,'Run npm run build:articles after writing an X thread.');
+for(const thread of threads) {
+  assert(records.some(record=>record.slug===thread.slug),`X thread without its article: ${thread.slug}`);
+  assert(thread.tweets.length>=2,`${thread.slug}: thread too short`);
+  for(const tweet of thread.tweets)assert([...tweet.replace(/https?:\/\/\S+/g,'x'.repeat(23))].length<=280,`${thread.slug}: tweet over 280 characters`);
+  assert(thread.tweets.at(-1).includes(`/articulos/${thread.slug}`),`${thread.slug}: last tweet must link the article`);
+  assert.equal(thread.tweets.filter(tweet=>/https?:\/\//.test(tweet)).length,1,`${thread.slug}: only the last tweet may carry a link (each link costs extra on X)`);
 }
 console.log(`Verified ${records.length} sourced editorial articles and their index.`);

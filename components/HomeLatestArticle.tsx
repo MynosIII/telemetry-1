@@ -17,7 +17,9 @@ export function HomeLatestArticle({ lang }: { lang: "es" | "en" }) {
       <p>{article.description}</p>
       <Link className="home-article-link" href={href}>{english ? "Read the article →" : "Leer el artículo →"}</Link>
     </div>
-    {figure ? <Link className="home-article-figure" href={href} tabIndex={-1} aria-hidden="true">
+    {!article.image && article.homePhoto ? <Link className="home-article-figure home-article-portrait" href={href} tabIndex={-1} aria-hidden="true">
+      <img src={article.homePhoto.url} alt="" />
+    </Link> : figure ? <Link className="home-article-figure" href={href} tabIndex={-1} aria-hidden="true">
       <img src={figure.url} alt="" width={760} height={article.image ? 507 : "height" in figure && figure.height ? figure.height : 340} />
     </Link> : null}
   </section>;
