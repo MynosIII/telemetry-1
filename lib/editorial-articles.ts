@@ -19,6 +19,10 @@ export type EditorialArticle = {
   sources: { id: string; title: string; url: string }[];
   related: { label: string; href: string }[];
   image?: CircuitPhoto;
+  /** Photo for the home block when the article has no credited image (data pieces): the driver portrait the site already uses. */
+  homePhoto?: { url: string; alt: string };
+  /** "x-thread" for pieces written by scripts/x-thread/generate.mjs together with an X thread. */
+  generatedBy?: string;
   /** Optional English text, section by section in the same order. */
   en?: {
     title: string;
@@ -36,7 +40,7 @@ export const articleBySlug = (slug: string) => editorialArticles.find(article =>
 export const readingMinutes = (article: EditorialArticle) => Math.max(1, Math.ceil(
   [article.lead, ...article.sections.flatMap(section => section.paragraphs)].join(" ").split(/\s+/).length / 200
 ));
-export const articleCategories = ["Los orígenes", "Autos de leyenda", "Automovilismo argentino", "Revoluciones técnicas", "Ideas que cambiaron la F1"];
+export const articleCategories = ["Los orígenes", "Autos de leyenda", "Automovilismo argentino", "Revoluciones técnicas", "Ideas que cambiaron la F1", "Los números"];
 export const explainerCategories = ["Para empezar", "Reglamento", "Aerodinámica", "Neumáticos y pista", "Motor y combustible", "Pilotaje y controles", "Seguridad"];
 
 /** The most recently published article, which the home page shows first. */
@@ -67,7 +71,7 @@ export function localizeArticle(article: EditorialArticle, lang: "es" | "en"): E
 
 const englishCategories: Record<string, string> = {
   "Los orígenes": "The origins", "Autos de leyenda": "Legendary cars", "Automovilismo argentino": "Argentine motorsport",
-  "Revoluciones técnicas": "Technical revolutions", "Ideas que cambiaron la F1": "Ideas that changed F1",
+  "Revoluciones técnicas": "Technical revolutions", "Ideas que cambiaron la F1": "Ideas that changed F1", "Los números": "By the numbers",
   "Para empezar": "Getting started", "Reglamento": "Regulations", "Aerodinámica": "Aerodynamics", "Neumáticos y pista": "Tyres and track",
   "Motor y combustible": "Engine and fuel", "Pilotaje y controles": "Driving and controls", "Seguridad": "Safety"
 };

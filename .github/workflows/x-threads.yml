@@ -1,0 +1,52 @@
+name: X threads
+
+# 11:00 UTC (8:00 in Argentina): writes the next thread and its article when the last one is two
+# or more days old, and pushes them to main (Vercel deploys them).
+# Every hour from 11:20 to 23:20 UTC: asks the site to send new threads to the phone for review
+# and to post the ones whose review window is over (lib/x-threads.ts).
+on:
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "20 11-23 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Escribir un hilo nuevo ahora aunque no hayan pasado dos días"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: x-threads
+  cancel-in-progress: false
+
+jobs:
+  write:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 11 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node scripts/x-thread/generate.mjs ${{ inputs.force && '--force' || '' }}
+      - run: node scripts/build-articles.mjs && node scripts/verify-articles.mjs
+      - name: Push to main
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then echo "Nothing new."; exit 0; fi
+          # Committed as the repository owner so Vercel deploys it.
+          git config user.name "MynosIII"
+          git config user.email "176446044+MynosIII@users.noreply.github.com"
+          git add data public/articles/diagrams
+          git commit -m "New X thread and article: $(ls -t data/x-threads | head -1 | sed 's/.json$//')"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 10; done
+
+  post:
+    if: github.event_name == 'schedule' && github.event.schedule != '0 11 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: curl -sS --fail-with-body --max-time 90 https://telemetry-1.vercel.app/api/x/hilos
