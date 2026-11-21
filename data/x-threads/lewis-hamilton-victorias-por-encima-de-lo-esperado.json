@@ -1,0 +1,14 @@
+{
+  "slug": "lewis-hamilton-victorias-por-encima-de-lo-esperado",
+  "topic": "driver:hamilton",
+  "createdOn": "2026-11-21",
+  "above": true,
+  "tweets": [
+    "Lewis Hamilton ganó 105 carreras en la F1. Con los autos que tuvo, nuestro modelo esperaba 53,8. Son 51,2 victorias más de las que daban sus autos.\n\nHilo.",
+    "Cómo se calcula: antes de cada carrera, el modelo le da a cada piloto una probabilidad de ganar según su rating y su auto. Sumando las de Hamilton en sus 380 carreras sale 53,8.",
+    "Entre los 58 pilotos con al menos cinco victorias, Hamilton es el que más ganó por encima de lo esperado.",
+    "Sus victorias más improbables según el modelo: Gran Premio de Hungría 2009 (2,6%), Gran Premio de Singapur 2009 (3,4%) y Gran Premio de São Paulo 2021 (5,1%).",
+    "Su rating tocó el pico en 2021, con 2.002 puntos. En el ranking histórico del modelo está 1.º.",
+    "El artículo, con la curva de su rating carrera por carrera:\nhttps://telemetry-one.com/articulos/lewis-hamilton-victorias-por-encima-de-lo-esperado"
+  ]
+}

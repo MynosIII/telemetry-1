@@ -6224,6 +6224,124 @@
     }
   },
   {
+    "slug": "lewis-hamilton-victorias-por-encima-de-lo-esperado",
+    "title": "Lewis Hamilton: 105 victorias donde sus autos daban para 53,8",
+    "description": "Sumando las chances de cada carrera, el modelo v7.6 esperaba 53,8 victorias de Lewis Hamilton. Ganó 105. Dónde está la diferencia.",
+    "category": "Los números",
+    "period": "2007-2025",
+    "year": 2007,
+    "kind": "history",
+    "reviewedOn": "2026-11-21",
+    "publishedOn": "2026-11-21",
+    "generatedBy": "x-thread",
+    "tags": [
+      "Lewis Hamilton",
+      "Modelo v7.6",
+      "Victorias esperadas",
+      "Mercedes",
+      "McLaren",
+      "Ferrari"
+    ],
+    "lead": "Lewis Hamilton ganó 105 carreras de Fórmula 1. Si se suman las probabilidades de victoria que el modelo v7.6 le daba en cada una, con los autos que tuvo, el resultado es 53,8. La diferencia a favor es de 51,2 victorias.",
+    "sections": [
+      {
+        "id": "carrera",
+        "title": "La carrera de Hamilton",
+        "sourceIds": [
+          "archivo",
+          "f1db"
+        ],
+        "paragraphs": [
+          "Lewis Hamilton corrió en la Fórmula 1 entre 2007 y 2025: 380 carreras, 105 victorias, 202 podios y 104 poles. Fue campeón 7 veces: 2008, 2014, 2015, 2017, 2018, 2019 y 2020. Los equipos con los que más corrió fueron Mercedes (246 carreras), McLaren (110 carreras) y Ferrari (24 carreras)."
+        ]
+      },
+      {
+        "id": "esperado",
+        "title": "Lo que esperaba el modelo",
+        "sourceIds": [
+          "modelo"
+        ],
+        "paragraphs": [
+          "El modelo v7.6 de Telemetry One estima, para cada carrera, la probabilidad de victoria de cada piloto a partir de su rating y del rendimiento de su auto. Si se suman esas probabilidades carrera por carrera, el resultado es cuántas victorias se podían esperar de él con los autos que tuvo: 53,8.",
+          "Ganó 105: 51,2 más de lo esperado. Entre los 58 pilotos con al menos cinco victorias, es el que más ganó por encima de lo que daban sus autos."
+        ]
+      },
+      {
+        "id": "carreras",
+        "title": "Las que no estaban en los papeles",
+        "sourceIds": [
+          "archivo",
+          "modelo"
+        ],
+        "paragraphs": [
+          "Las victorias que el modelo menos esperaba: Gran Premio de Hungría 2009 (2,6%), Gran Premio de Singapur 2009 (3,4%) y Gran Premio de São Paulo 2021 (5,1%). Del otro lado, las carreras en las que más chances tenía y no ganó: Gran Premio de Brasil 2014 (38%, ganó Nico Rosberg), Gran Premio de Alemania 2019 (37%, ganó Max Verstappen) y Gran Premio de Austria 2015 (36%, ganó Nico Rosberg)."
+        ]
+      },
+      {
+        "id": "pico",
+        "title": "El pico",
+        "sourceIds": [
+          "modelo",
+          "wikipedia"
+        ],
+        "paragraphs": [
+          "Su rating llegó a un pico de 2.002 puntos en 2021. En el ranking histórico del modelo, que pondera el nivel sostenido a lo largo de la carrera, aparece 1.º.",
+          "Ganar más de lo esperado no siempre es solo talento: también cuentan los compañeros, la confiabilidad y la suerte de los rivales. Pero una diferencia así, sostenida durante años, es difícil de explicar sin el piloto."
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/lewis-hamilton-victorias-por-encima-de-lo-esperado.svg",
+          "alt": "Línea con el rating del modelo v7.6 de Lewis Hamilton entre 2007 y 2025, con el pico de 2.002 puntos en 2021.",
+          "caption": "Rating de Lewis Hamilton en el modelo v7.6, carrera por carrera.",
+          "height": 380
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "archivo",
+        "title": "Telemetry One: ficha de Lewis Hamilton",
+        "url": "https://telemetry-one.com/pilotos/hamilton"
+      },
+      {
+        "id": "modelo",
+        "title": "Telemetry One: ranking y modelo v7.6",
+        "url": "https://telemetry-one.com/ranking"
+      },
+      {
+        "id": "f1db",
+        "title": "F1DB: base de datos de resultados de Fórmula 1",
+        "url": "https://github.com/f1db/f1db"
+      },
+      {
+        "id": "wikipedia",
+        "title": "Wikipedia: Lewis Hamilton",
+        "url": "https://en.wikipedia.org/wiki/Lewis_Hamilton"
+      }
+    ],
+    "related": [
+      {
+        "label": "Lewis Hamilton",
+        "href": "/pilotos/hamilton"
+      },
+      {
+        "label": "Mercedes en el archivo",
+        "href": "/historia/constructors/mercedes"
+      },
+      {
+        "label": "McLaren en el archivo",
+        "href": "/historia/constructors/mclaren"
+      },
+      {
+        "label": "Ranking del modelo v7.6",
+        "href": "/ranking"
+      }
+    ],
+    "homePhoto": {
+      "url": "/drivers/photos/hamilton.png",
+      "alt": "Lewis Hamilton"
+    }
+  },
+  {
     "slug": "lotus-16",
     "title": "Lotus 16: la miniatura de Vanwall que llegó justo cuando cambiaba el motor",
     "description": "La máquina delantera de Chapman reunió soluciones sofisticadas, una caja difícil y un aspecto que acabaría perteneciendo a la última etapa de su arquitectura.",
