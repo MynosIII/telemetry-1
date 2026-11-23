@@ -1,0 +1,118 @@
+{
+  "slug": "victoria-improbable-fernando-alonso-singapur-2008",
+  "title": "Alonso en el Gran Premio de Singapur 2008: ganó con un 1,3% de chances",
+  "description": "Fernando Alonso ganó el Gran Premio de Singapur 2008 cuando el modelo v7.6 le daba un 1,3% de chances. El favorito era Lewis Hamilton. La carrera, los números y cómo siguió el campeonato.",
+  "category": "Los números",
+  "period": "2008",
+  "year": 2008,
+  "kind": "history",
+  "reviewedOn": "2026-11-23",
+  "publishedOn": "2026-11-23",
+  "generatedBy": "x-thread",
+  "tags": [
+    "Fernando Alonso",
+    "Renault",
+    "Gran Premio de Singapur 2008",
+    "Marina Bay",
+    "Modelo v7.6",
+    "Probabilidad de victoria"
+  ],
+  "lead": "De las 1.138 victorias que cubre el modelo v7.6 desde 1950, la de Fernando Alonso en el Gran Premio de Singapur 2008 es la 2.ª menos probable: le daba un 1,3% de chances. Qué pasó en la carrera y qué dicen los números.",
+  "sections": [
+    {
+      "id": "carrera",
+      "title": "La carrera",
+      "sourceIds": [
+        "archivo",
+        "wikipedia"
+      ],
+      "paragraphs": [
+        "El 28 de septiembre de 2008, Fernando Alonso ganó el Gran Premio de Singapur en Marina Bay con Renault, largando 15.º. Nico Rosberg, a 2,957 s, y Lewis Hamilton completaron el podio. Felipe Massa había largado primero y terminó 13.º. De los 20 que largaron, 15 llegaron clasificados."
+      ]
+    },
+    {
+      "id": "modelo",
+      "title": "Lo que esperaba el modelo",
+      "sourceIds": [
+        "modelo",
+        "archivo"
+      ],
+      "paragraphs": [
+        "El modelo v7.6 de Telemetry One estima, para cada carrera, la probabilidad de victoria de cada piloto a partir de su rating y del rendimiento de su auto. Para esta carrera, a Fernando Alonso le daba un 1,3%. El favorito era Lewis Hamilton (McLaren), con 21%, y terminó 3.º. Los tres con más chances eran Lewis Hamilton (21%), Robert Kubica (14%) y Heikki Kovalainen (11%).",
+        "Entre las 1.138 victorias que cubre el modelo desde 1950, esta es la 2.ª victoria menos probable. Dicho de otra forma: si esa carrera se corriera cien veces con los mismos autos y pilotos, el modelo esperaría verlo ganar unas 1."
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/victoria-improbable-fernando-alonso-singapur-2008.svg",
+        "alt": "Barras con la probabilidad de victoria del modelo v7.6 en el Gran Premio de Singapur 2008: Lewis Hamilton 21%, Robert Kubica 14%, Heikki Kovalainen 11%, Fernando Alonso (ganó) 1,3%.",
+        "caption": "Probabilidad de victoria de los tres favoritos y del ganador, según el modelo v7.6.",
+        "height": 300
+      }
+    },
+    {
+      "id": "ganador",
+      "title": "Alonso en números",
+      "sourceIds": [
+        "archivo",
+        "modelo"
+      ],
+      "paragraphs": [
+        "Fue la 20.º de las 32 victorias de Fernando Alonso en la Fórmula 1. Corrió entre 2001 y 2025 y fue campeón en 2005 y 2006. Esa tarde su rating en el modelo pasó de 1.695 a 1.701 puntos (+5,6). Su pico fue de 1.812 puntos en 2014, y en el ranking histórico del modelo aparece 12.º. Ninguna de sus otras 31 victorias fue tan improbable para el modelo."
+      ]
+    },
+    {
+      "id": "campeonato",
+      "title": "Cómo siguió el campeonato",
+      "sourceIds": [
+        "archivo",
+        "f1db"
+      ],
+      "paragraphs": [
+        "Con esa victoria, Fernando Alonso quedó 7.º en el campeonato con 38 puntos; Lewis Hamilton lideraba con 84. Al final de 2008, el título fue para Lewis Hamilton. La ficha de la carrera en el archivo tiene la clasificación completa, la grilla y las probabilidades del modelo para cada piloto."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "archivo",
+      "title": "Telemetry One: ficha del Gran Premio de Singapur 2008",
+      "url": "https://telemetry-one.com/historia/carreras/2008/15"
+    },
+    {
+      "id": "modelo",
+      "title": "Telemetry One: ranking y modelo v7.6",
+      "url": "https://telemetry-one.com/ranking"
+    },
+    {
+      "id": "f1db",
+      "title": "F1DB: base de datos de resultados de Fórmula 1",
+      "url": "https://github.com/f1db/f1db"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia: 2008 Singapore Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix"
+    }
+  ],
+  "related": [
+    {
+      "label": "Gran Premio de Singapur 2008 en el archivo",
+      "href": "/historia/carreras/2008/15"
+    },
+    {
+      "label": "Fernando Alonso",
+      "href": "/pilotos/alonso"
+    },
+    {
+      "label": "Renault en el archivo",
+      "href": "/historia/constructors/renault"
+    },
+    {
+      "label": "Temporada 2008",
+      "href": "/historia/seasons/2008"
+    }
+  ],
+  "homePhoto": {
+    "url": "/drivers/photos/alonso.png",
+    "alt": "Fernando Alonso"
+  }
+}
