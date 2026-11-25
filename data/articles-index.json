@@ -12138,6 +12138,124 @@
     ]
   },
   {
+    "slug": "sergio-perez-victorias-por-debajo-de-lo-esperado",
+    "title": "Sergio Pérez: 6 victorias donde sus autos daban para 14,8",
+    "description": "Sumando las chances de cada carrera, el modelo v7.6 esperaba 14,8 victorias de Sergio Pérez. Ganó 6. Dónde se le escaparon.",
+    "category": "Los números",
+    "period": "2011-2024",
+    "year": 2011,
+    "kind": "history",
+    "reviewedOn": "2026-11-25",
+    "publishedOn": "2026-11-25",
+    "generatedBy": "x-thread",
+    "tags": [
+      "Sergio Pérez",
+      "Modelo v7.6",
+      "Victorias esperadas",
+      "Force India",
+      "Red Bull",
+      "Sauber"
+    ],
+    "lead": "Sergio Pérez ganó 6 carreras de Fórmula 1. Si se suman las probabilidades de victoria que el modelo v7.6 le daba en cada una, con los autos que tuvo, el resultado es 14,8. La diferencia en contra es de 8,8 victorias.",
+    "sections": [
+      {
+        "id": "carrera",
+        "title": "La carrera de Pérez",
+        "sourceIds": [
+          "archivo",
+          "f1db"
+        ],
+        "paragraphs": [
+          "Sergio Pérez corrió en la Fórmula 1 entre 2011 y 2024: 281 carreras, 6 victorias, 39 podios y 3 poles. Los equipos con los que más corrió fueron Force India (100 carreras), Red Bull (90 carreras) y Sauber (38 carreras)."
+        ]
+      },
+      {
+        "id": "esperado",
+        "title": "Lo que esperaba el modelo",
+        "sourceIds": [
+          "modelo"
+        ],
+        "paragraphs": [
+          "El modelo v7.6 de Telemetry One estima, para cada carrera, la probabilidad de victoria de cada piloto a partir de su rating y del rendimiento de su auto. Si se suman esas probabilidades carrera por carrera, el resultado es cuántas victorias se podían esperar de él con los autos que tuvo: 14,8.",
+          "Ganó 6: 8,8 menos de lo esperado. Entre los 58 pilotos con al menos cinco victorias, es el que más quedó por debajo de lo que daban sus autos."
+        ]
+      },
+      {
+        "id": "carreras",
+        "title": "Las que se le escaparon",
+        "sourceIds": [
+          "archivo",
+          "modelo"
+        ],
+        "paragraphs": [
+          "Las carreras en las que más chances tenía y no ganó: Gran Premio de China 2012 (18%, ganó Nico Rosberg), Gran Premio de Miami 2023 (18%, ganó Max Verstappen) y Gran Premio de Austria 2021 (18%, ganó Max Verstappen). Sus victorias más improbables para el modelo fueron Gran Premio de Sakhir 2020 (6,5%), Gran Premio de Azerbaiyán 2021 (13%) y Gran Premio de Azerbaiyán 2023 (14%)."
+        ]
+      },
+      {
+        "id": "pico",
+        "title": "El pico",
+        "sourceIds": [
+          "modelo",
+          "wikipedia"
+        ],
+        "paragraphs": [
+          "Su rating llegó a un pico de 1.809 puntos en 2023. En el ranking histórico del modelo, que pondera el nivel sostenido a lo largo de la carrera, aparece 13.º.",
+          "Quedar por debajo de lo esperado tampoco es solo una cuestión del piloto: un compañero muy fuerte en el mismo auto se lleva parte de esas chances, y la confiabilidad pesa. El número dice dónde mirar, no por qué."
+        ],
+        "diagram": {
+          "url": "/articles/diagrams/sergio-perez-victorias-por-debajo-de-lo-esperado.svg",
+          "alt": "Línea con el rating del modelo v7.6 de Sergio Pérez entre 2011 y 2024, con el pico de 1.809 puntos en 2023.",
+          "caption": "Rating de Sergio Pérez en el modelo v7.6, carrera por carrera.",
+          "height": 380
+        }
+      }
+    ],
+    "sources": [
+      {
+        "id": "archivo",
+        "title": "Telemetry One: ficha de Sergio Pérez",
+        "url": "https://telemetry-one.com/pilotos/perez"
+      },
+      {
+        "id": "modelo",
+        "title": "Telemetry One: ranking y modelo v7.6",
+        "url": "https://telemetry-one.com/ranking"
+      },
+      {
+        "id": "f1db",
+        "title": "F1DB: base de datos de resultados de Fórmula 1",
+        "url": "https://github.com/f1db/f1db"
+      },
+      {
+        "id": "wikipedia",
+        "title": "Wikipedia: Sergio Pérez",
+        "url": "https://en.wikipedia.org/wiki/Sergio_Pérez"
+      }
+    ],
+    "related": [
+      {
+        "label": "Sergio Pérez",
+        "href": "/pilotos/perez"
+      },
+      {
+        "label": "Force India en el archivo",
+        "href": "/historia/constructors/force-india"
+      },
+      {
+        "label": "Red Bull en el archivo",
+        "href": "/historia/constructors/red-bull"
+      },
+      {
+        "label": "Ranking del modelo v7.6",
+        "href": "/ranking"
+      }
+    ],
+    "homePhoto": {
+      "url": "/drivers/photos/perez.jpg",
+      "alt": "Sergio Pérez"
+    }
+  },
+  {
     "slug": "sizaire-naudin",
     "title": "Sizaire-Naudin: la pequeña máquina que encontró su propia carrera",
     "description": "Una máquina pequeña, una transmisión singular y las carreras de voiturettes: el camino de Sizaire-Naudin muestra otro automovilismo detrás de los grandes fabricantes.",

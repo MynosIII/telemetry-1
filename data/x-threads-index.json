@@ -14,6 +14,20 @@
     ]
   },
   {
+    "slug": "sergio-perez-victorias-por-debajo-de-lo-esperado",
+    "topic": "driver:perez",
+    "createdOn": "2026-11-25",
+    "above": false,
+    "tweets": [
+      "Sergio Pérez ganó 6 carreras en la F1. Con los autos que tuvo, nuestro modelo esperaba 14,8. Son 8,8 victorias menos de las que daban sus autos.\n\nHilo.",
+      "Cómo se calcula: antes de cada carrera, el modelo le da a cada piloto una probabilidad de ganar según su rating y su auto. Sumando las de Pérez en sus 281 carreras sale 14,8.",
+      "Entre los 58 pilotos con al menos cinco victorias, Pérez es el que más quedó por debajo de lo esperado.",
+      "Las que más se le escaparon: Gran Premio de China 2012, con 18%, Gran Premio de Miami 2023, con 18% y Gran Premio de Austria 2021, con 18%.",
+      "Su rating tocó el pico en 2023, con 1.809 puntos. En el ranking histórico del modelo está 13.º.",
+      "El artículo, con la curva de su rating carrera por carrera:\nhttps://telemetry-one.com/articulos/sergio-perez-victorias-por-debajo-de-lo-esperado"
+    ]
+  },
+  {
     "slug": "victoria-improbable-fernando-alonso-singapur-2008",
     "topic": "race:2008-15",
     "createdOn": "2026-11-23",
