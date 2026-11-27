@@ -1,0 +1,118 @@
+{
+  "slug": "10-anos-lewis-hamilton-abu-dabi-2016",
+  "title": "Gran Premio de Abu Dabi 2016: Hamilton ganó hace 10 años con un 14% de chances",
+  "description": "Lewis Hamilton ganó el Gran Premio de Abu Dabi 2016 cuando el modelo v7.6 le daba un 14% de chances. El favorito era Daniel Ricciardo. La carrera, los números y cómo siguió el campeonato.",
+  "category": "Los números",
+  "period": "2016",
+  "year": 2016,
+  "kind": "history",
+  "reviewedOn": "2026-11-27",
+  "publishedOn": "2026-11-27",
+  "generatedBy": "x-thread",
+  "tags": [
+    "Lewis Hamilton",
+    "Mercedes",
+    "Gran Premio de Abu Dabi 2016",
+    "Yas Marina",
+    "Modelo v7.6",
+    "Probabilidad de victoria"
+  ],
+  "lead": "Hace 10 años, Lewis Hamilton ganó el Gran Premio de Abu Dabi 2016. Según el modelo v7.6 tenía un 14% de chances: el favorito era Daniel Ricciardo, con 22%. Qué pasó en la carrera y qué dicen los números.",
+  "sections": [
+    {
+      "id": "carrera",
+      "title": "La carrera",
+      "sourceIds": [
+        "archivo",
+        "wikipedia"
+      ],
+      "paragraphs": [
+        "Hace 10 años, el 27 de noviembre de 2016, Lewis Hamilton ganó el Gran Premio de Abu Dabi en Yas Marina con Mercedes, desde la pole position. Nico Rosberg, a 0,439 s, y Sebastian Vettel completaron el podio. De los 22 que largaron, 17 llegaron clasificados."
+      ]
+    },
+    {
+      "id": "modelo",
+      "title": "Lo que esperaba el modelo",
+      "sourceIds": [
+        "modelo",
+        "archivo"
+      ],
+      "paragraphs": [
+        "El modelo v7.6 de Telemetry One estima, para cada carrera, la probabilidad de victoria de cada piloto a partir de su rating y del rendimiento de su auto. Para esta carrera, a Lewis Hamilton le daba un 14%. El favorito era Daniel Ricciardo (Red Bull), con 22%, y terminó 5.º. Los tres con más chances eran Daniel Ricciardo (22%), Max Verstappen (17%) y Lewis Hamilton (14%).",
+        "Entre las 1.138 victorias que cubre el modelo desde 1950, esta es la 678.ª victoria menos probable. Que el ganador tuviera menos de 20% de chances no es raro en la F1, pero tampoco es la norma."
+      ],
+      "diagram": {
+        "url": "/articles/diagrams/10-anos-lewis-hamilton-abu-dabi-2016.svg",
+        "alt": "Barras con la probabilidad de victoria del modelo v7.6 en el Gran Premio de Abu Dabi 2016: Daniel Ricciardo 22%, Max Verstappen 17%, Lewis Hamilton (ganó) 14%.",
+        "caption": "Probabilidad de victoria de los tres favoritos y del ganador, según el modelo v7.6.",
+        "height": 260
+      }
+    },
+    {
+      "id": "ganador",
+      "title": "Hamilton en números",
+      "sourceIds": [
+        "archivo",
+        "modelo"
+      ],
+      "paragraphs": [
+        "Fue la 53.º de las 105 victorias de Lewis Hamilton en la Fórmula 1. Corrió entre 2007 y 2025 y fue campeón en 2008, 2014, 2015, 2017, 2018, 2019 y 2020. Esa tarde su rating en el modelo pasó de 1.928 a 1.928 puntos (+0,9). Su pico fue de 2.002 puntos en 2021, y en el ranking histórico del modelo aparece 1.º. De sus otras 104 victorias, 67 fueron más probables que esta."
+      ]
+    },
+    {
+      "id": "campeonato",
+      "title": "Cómo siguió el campeonato",
+      "sourceIds": [
+        "archivo",
+        "f1db"
+      ],
+      "paragraphs": [
+        "Con esa victoria, Lewis Hamilton quedó 2.º en el campeonato con 380 puntos; Nico Rosberg lideraba con 385. Al final de 2016, el título fue para Nico Rosberg. La ficha de la carrera en el archivo tiene la clasificación completa, la grilla y las probabilidades del modelo para cada piloto."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "archivo",
+      "title": "Telemetry One: ficha del Gran Premio de Abu Dabi 2016",
+      "url": "https://telemetry-one.com/historia/carreras/2016/21"
+    },
+    {
+      "id": "modelo",
+      "title": "Telemetry One: ranking y modelo v7.6",
+      "url": "https://telemetry-one.com/ranking"
+    },
+    {
+      "id": "f1db",
+      "title": "F1DB: base de datos de resultados de Fórmula 1",
+      "url": "https://github.com/f1db/f1db"
+    },
+    {
+      "id": "wikipedia",
+      "title": "Wikipedia: 2016 Abu Dhabi Grand Prix",
+      "url": "https://en.wikipedia.org/wiki/2016_Abu_Dhabi_Grand_Prix"
+    }
+  ],
+  "related": [
+    {
+      "label": "Gran Premio de Abu Dabi 2016 en el archivo",
+      "href": "/historia/carreras/2016/21"
+    },
+    {
+      "label": "Lewis Hamilton",
+      "href": "/pilotos/hamilton"
+    },
+    {
+      "label": "Mercedes en el archivo",
+      "href": "/historia/constructors/mercedes"
+    },
+    {
+      "label": "Temporada 2016",
+      "href": "/historia/seasons/2016"
+    }
+  ],
+  "homePhoto": {
+    "url": "/drivers/photos/hamilton.png",
+    "alt": "Lewis Hamilton"
+  }
+}
